@@ -1,0 +1,102 @@
+Rakesh Ranjan
+Graduate Student Member, IEEE
+Next Generation Wireless Communication Lab
+Indian Institute of Technology (IIT), Dhanbad, India, 826004
+I +91-8287526006
+# rakeshranjan2911@gmail.com
+ï LinkedIn
+ Google Scholar
+Education
+2019 - 2024
+]
+Doctor of Philosophy (Ph.D) in Communication and Signal Processing
+Electronics Engineering Department
+Indian Institute of Technology (IIT), Dhanbad, India, 826004.
+Current Status: Thesis Submitted on 1st October 2024.
+Research Area: Beyond 5G/6G Wireless Communication Technology such as Intelligent Reflecting Surface (IRS)-aided Communication Systems, Integrated Sensing and Communication
+(ISAC).
+Thesis Title: Efficient Phase Shift Optimization Framework for Intelligent Reflecting Surface
+(IRS)-Aided Wireless Systems.
+Supervisor: Dr. Himanshu Bhusan Mishra, Associate Professor.
+Co-supervisor: Dr. Samrat Mukhopadhyay, Assistant Professor.
+2017 - 2019
+]
+Master of Technology (M.Tech.) in Communication and Signal Processing.
+Electronics Engineering Department
+Indian Institute of Technology (IIT), Dhanbad, India, 826004.
+Thesis Title: Adaptive Wideband Beamforming With Sensors Delay Lines.
+2009 - 2013
+]
+Bachelor of Technology in Electronics and Communication Engineering.
+The University of Burdwan - Burdwan, West Bengal, India, 713104.
+Awards and Achievements
+2021
+]
+Two-year Senior Research Fellowship (SRF) at IIT Dhanbad from Ministry of Education,
+Govt. of India.
+2019
+]
+Two-year Junior Research fellowship (JRF) at IIT Dhanbad from Ministry of Education, Govt.
+of India.
+]
+Institute fellowship grant from MHRD, Govt. of India.
+2018
+]
+Graduate Aptitude Test in Engineering (GATE) 2018 qualified.
+2017
+]
+Graduate Aptitude Test in Engineering (GATE) 2017 qualified.
+2016
+]
+Graduate Aptitude Test in Engineering (GATE) 2016 qualified.
+2015
+]
+Graduate Aptitude Test in Engineering (GATE) 2015 qualified.
+2013
+]
+Received Bachelor of Engineering Degree with First Class Honours.
+Research Interests
+2019 -2024
+]
+Intelligent Reflecting Surface (IRS)-aided wireless communication systems, Physical layer
+security in IRS-aided systems, IRS-Integrated Sensing and Communication (ISAC) Systems.
+
+Skills
+Languages
+]
+Hindi (Professional), English (Professional).
+Softwares
+]
+Matlab/SIMULINK®, LATEX, Microsoft Office.
+References
+1
+Dr. Himanshu Bhusan Mishra
+Associate Professor, Department of Electronics Engineering
+Indian Institute of Technology (IIT), Dhanbad, Jharkhand-826004, India.
+I +91-8765951227
+# himanshu@iitism.ac.in
+2
+Dr. Samrat Mukhopadhyay
+Assistant Professor, Department of Electronics Engineering
+Indian Institute of Technology (IIT), Dhanbad, Jharkhand-826004, India.
+I +91-7044004253
+# samrat@iitism.ac.in
+3
+Dr. Suraj Suman
+Assistant Professor, Department of Electrical Engineering
+Indian Institute of Technology (IIT), Patna, Bihar-801103, India
+I +91-9472457665
+# ssu@iitp.ac.in
+Research Publications
+Journals/ Conferences
+1. Rakesh. Ranjan, A. Bhattacharya, H.B. Mishra and S. Mukhopadhyay, "A Gradient Ascent Based Low
+Complexity Rate Maximization Algorithm for Intelligent Reflecting Surface-Aided OFDM Systems"
+IEEE Communications Letters, vol. 27, no. 8, pp. 2083-2087, Aug. 2023, doi: 10.1109/LCOMM.2023.3289865.
+2. Rakesh. Ranjan, A. Bhattacharya, H. B. Mishra and S. Mukhopadhyay, "A Low-Complexity Phase Shift
+Optimization to Achieve Security in IRS-Assisted MISO Systems," IEEE National Conference on Communications (NCC) 2024, IIT-Madras, Chennai, India, pp. 1-6, doi: 10.1109/NCC60321.2024.10485931.
+3. Rakesh. Ranjan, A. Bhattacharya, H.B. Mishra and S. Mukhopadhyay, "Achievable Rate Maximization
+for Reconfigurable Intelligent Surface-Assisted MIMO Systems: A Novel Low-Complexity Solution,"
+Elsevier Signal Processing (under revision).
+4. Rakesh. Ranjan, A. Bhattacharya, M.V. Katwe, H.B. Mishra, K.Singh and D. W. Kwan Ng, " A Robust
+STAR-RIS-aided MU-MIMO System for Integrated Sensing and Communication," IEEE Transactions
+on Wireless Communications (under revision).

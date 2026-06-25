@@ -1,0 +1,89 @@
+Sourabh Pal
+Address : 77/41/A, Circular Road Janta
+Colony Shahdara Delhi 110032.
+Contact No. : 9717701454
+Email.id : sourabhpal1998@gmail.com
+Academic Background :
+Academic
+College/School
+University/Board
+Year of
+Passing
+Percentage
+M.Tech
+(CSE)
+Galgotias University
+Galgotias
+University
+2024
+76 %
+B.Tech
+(CSE)
+Bhagwati Institute
+of Technology &
+Science
+A.K.T.U
+2022
+67 %
+Diploma
+(CSE)
+Guru Tegh Bahadur
+Polytechnic of
+Institute
+B.T.E
+2018
+68 %
+12th
+RamJas Sr Sec School
+C.B.S.E
+2015
+62 %
+10th
+Babu Ram Sr Sec
+School
+C.B.S.E
+2013
+64 %
+INTERNATIONAL / NATIONAL CONFERENCE -
+❖Acceptance Received from 1st IEEE ICAC2N-2024 & Registration Paper Id - 196 @ ITS
+Engineering College, Greater Noida
+Title : Evolving Towards Optimal Cloud Resource Allocation and Cost.
+INTERNATIONAL JOURNAL -
+❖Acknowledgement Received from International Journal of Advanced Technology and
+Engineering Exploration Paper Id - IJATEE.2024.111100853.
+Title : Human Emotion Deciphering: Sentiment Analysis using CNN's Facial Expression
+Recognition
+
+TECHNICAL SKILLS -
+FRONT END DEVELOPMENT | HTML, CSS & TAILWIND
+BACK END DEVELOPMENT | Java Spring
+MISCELLANEOUS | My-Sql & Bootstrap
+SOFTS SKILLS -
+➢Team Player.
+➢Deliver Results.
+➢Excellent Problem Solving.
+➢Work Management.
+➢Ability to learn new things.
+AREA OF INTEREST -
+➢Database Management System
+➢Cloud Computing
+PROJECTS -
+❖Movie Project : It's a movie based website, there are separate sections like Home page,
+Popular Movie Section, Top Rated & Upcoming Movie.
+Note : API Fetch from third parties.
+Tools : ReactJs & Tailwind CSS.
+
+❖CRUD Operation : It's a backend based project where we can perform crud functions
+like Create Data, Update Data, Delete & Find.
+Tools : Spring Boot & Mysql.
+Testing : Postman
+CERTIFICATIONS -
+➢Core Java Certification from Udemy.
+➢CISCO Online Certificate with Cloud Security in 2023.
+➢CISCO Online Certificate with Internet of Things(IOT) in 2023.
+INTERESTS -
+➢Cycling
+➢Movies
+➢Wandering
+SOURABH PAL
+.

@@ -1,0 +1,201 @@
+CURRICULUM VITAE
+
+C.V.Ravi kumar Mail id: cvrkvit@gmail.com Mobile No: +91-8309450722 ;
+Objective :
+
+To secure a challenging position where I can effectively contribute my skills as a Professional,
+possessing competent Technical Skills
+
+ Work Experience : 15 +Yrs
+
+
+Working as a Associate. Professor in School of Electronics Engineering at VIT University
+Vellore from Jan 2023 to till date.
+
+ Worked as a Asst. Professor, Asst. professor senior grade in School of Electronics Engineering
+at VIT University Vellore from June 2012 to Dec 2023.
+.
+
+Worked as a Assistant Professor in Electronics & Communications Department at VBIT
+(Institute of Technology, Ghatkesar, Hyderabad (dist.) from July 2009 to June 2012
+
+Educational Qualifications :
+
+Examination
+Discipline/
+Specialization
+Board/
+University
+Percentage
+Ph.D
+Wireless Communication
+VIT
+M.Tech
+Digital Electronics &
+Communication Systems
+JNTU,
+Ananthapur
+71%
+B.Tech
+Electronics and Communications
+Engineering
+Anna University
+67%
+Intermediate
+Science + Maths Stream
+B.I.E
+83%
+SSC
+SSC
+SSC
+59
+Subjects handled
+
+Computer Communication Digital Communication
+
+Data Communication systems Telecommunication switching systems and networks
+
+Analog Communication Microwave Engineering
+
+Network Security Antennas and Wave Propagation
+
+Wireless Communication M2M Communication
+
+Principles of computer communication Principles of communication
+
+Technical Skills
+
+Networking Protocols
+
+Advaced Computer networks
+
+CCNA,CCNP routing and switching
+
+ List of Ph.D students guiding: 5
+
+ One student completed
+
+ 5g Communication using Machine learning, Deep Learning, Massive MIMO, SIP VoIP
+
+UWSN Routing, Localization, Routing, Optomization
+
+ List of Publications : https://orcid.org/0000-0002-4630-4072
+
+o S. P. Tera, R. Chinthaginjala, P. Natha, G. Pau, C. Dhanamjayulu and F. Mohammad, "CNN-Based
+Approach for Enhancing 5G LDPC Code Decoding Performance," in IEEE Access, vol. 12, pp. 89873-
+89886, 2024, doi: 10.1109/ACCESS.2024.3420106
+
+o MidhulaSri, J., and C. V. Ravikumar. "Offloading computational tasks for MIMO-NOMA in mobile edge
+computing utilizing a hybrid Pufferfish and Osprey optimization algorithm." Ain Shams Engineering
+Journal (2024): 103136M.
+
+o Vineela, P., and C. V. RaviKumar. "Improved migration algorithms for uplink transmission secrecy sum
+rate maximization in MIMO-NOMA." Results in Engineering 24 (2024): 103275.
+
+o Chinthaginjala, Ravikumar, et al. "Enhancing handwritten text recognition accuracy with gated
+mechanisms." Scientific Reports 14.1 (2024): 16800.
+.
+
+Sulthana, S. Fouziya, et al. "Electrochemical Sensors for Heavy Metal Ion Detection in Aqueous Medium:
+A Systematic Review." ACS omega 9.24 (2024): 25493-25512.
+
+o Ghosh, Rittik, et al. "Sensitivity analysis of bi-metal stacked-gate-oxide hetero-juncture tunnel fet with
+Si0. 6Ge0. 4 source biosensor considering non-ideal factors." Plos one 19.6 (2024): e0301479.
+.
+
+Rajesh, A., et al. "Enhancing visual clarity in rainy conditions based on single-frame filtering algorithm."
+Ain Shams Engineering Journal (2024): 102846.
+
+
+Kumar, Sathish, et al. "Enhancing underwater target localization through proximity-driven recurrent neural
+networks." Heliyon 10.7 (2024).
+
+
+Angadi, S., Viswanadha, K., Chinthaginjala, R., Dhanamjayulu, C., Tai-Hoon, K., & Kumar, S. (2024). Metaatom loaded circularly polarized triple band patch antenna for Wi-Fi, ISM and X-band communications. Heliyon,
+10(7).
+
+
+Jyothi, Koganti Krishna, Subba Reddy Borra, Koganti Srilakshmi, Praveen Kumar Balachandran, Ganesh
+Prasad Reddy, Ilhami Colak, C. Dhanamjayulu, Ravikumar Chinthaginjala, and Baseem Khan. "A novel
+optimized neural network model for cyber attack detection using enhanced whale optimization algorithm."
+Scientific Reports 14, no. 1 (2024): 5590.
+
+
+Karthiga, R., Narasimhan, K., Chinthaginjala, R., Anbazhagan, R., Chinnusamy, M., Pau, G., ... & Abbas, M.
+(2024). A novel exploratory hybrid deep neural network to predict breast cancer for mammography based on
+wavelet features. Multimedia Tools and Applications, 1-27.
+
+
+Kaveripakam, Sathish, and Ravikumar Chinthaginjala. "Clustering-based dragonfly optimization algorithm for
+underwater wireless sensor networks." Alexandria Engineering Journal 81 (2023): 580-598.
+
+
+Kaveripakam, S., Chinthaginjala, R., Naik, C., Pau, G., Ab Wahab, M. N., Akbar, M. F., & Dhanamjayulu, C.
+(2023). Dingo optimization influenced arithmetic optimization-Clustering and localization algorithm for
+underwater acoustic sensor networks. Alexandria Engineering Journal, 85, 60-71.
+
+
+Selvaraj et al., "Study of Complementary Loop Integrated Metasurface for 6G THz Communication," in
+IEEE Access, vol. 12, pp. 29900-29909, 2024, doi: 10.1109/ACCESS.2024.3367444.
+
+
+S. Kumar, R. Chinthaginjala, R. Anbazhagan, V. O. Nyangaresi, G. Pau and P. S. Varma, "Submarine
+Acoustic Target Strength Modeling at High-Frequency Asymptotic Scattering," in IEEE Access, vol. 12,
+pp. 4859-4870, 2024, doi: 10.1109/ACCESS.2023.3349031.
+
+
+Orcid Id link : https://orcid.org/0000-0002-4630-4072
+
+Scopus Id Link : https://www.scopus.com/authid/detail.uri?authorId=58688584300
+
+SCI Profiles Link : https://sciprofiles.com/profile/2299148
+
+Research Collaborators :
+
+1. Giovanni Pau (https://unikore.it/cdl-d-news/giovanni-paus-personal-web-page/)
+Faculty of Engineering and Architecture, Kore University of Enna, Enna, Italy
+(giovanni.pau@unikore.it)
+
+2. Tai Hoon Kim (https://orcid.org/0000-0003-0117-8102)
+Chonnam National University: Yeosu-city, KR taihoonn@chonnam.ac.kr;
+
+3. Mohd Nadhir Ab Wahab (https://cs.usm.my/index.php/faculty-member/263-mohd-nadhir-abwahab-dr) School of Computer Sciences, Universiti Sains Malaysia, 11800 USM, Pulau Pinang
+mohdnadhir@usm.my
+ 4. Shafiq Ahmad (https://orcid.org/0000-0003-0712-9133)
+ https://www.scopus.com/authid/detail.uri?authorId=57209916514
+Industrial Engineering Department, College of Engineering, King Saud University, P.O. Box
+800, Riyadh 11421, Saudi Arabia. ashafiq@ksu.edu.sa
+
+5. Rajesh A (https://orcid.org/0000-0003-3546-764X) rajesha@ece.sastra.edu
+https://www.scopus.com/authid/detail.uri?authorId=26423870100
+SASTRA University, Thanjavur, Tamilnadu. rajeshtechece@gmail.com ;
+
+Scopus Statistics as on 26-12-2024
+Publications Overview
+Total Publications
+Total Citations
+Citations per Paper
+Max Citation
+99
+819
+8.326
+42
+
+h-index
+i10-index
+Cum. IF
+Average IF
+Max IF
+17
+29
+204
+2.069
+9
+
+ Declaration:
+
+I hereby declare that the above-mentioned information is correct up to my knowledge and I bear the
+responsibility for the correctness of the above-mentioned particulars.
+
+Place: Vellore
+Date : 26th Dec 24 (Ravi Kumar CV)

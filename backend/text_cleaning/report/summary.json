@@ -1,0 +1,10 @@
+{
+    "total_resumes": 40,
+    "total_characters_before": 616393,
+    "total_characters_after": 594715,
+    "characters_removed": 21678,
+    "average_compression_ratio": 0.9612,
+    "average_characters_removed": 541.95,
+    "average_words_removed": 6.0,
+    "average_lines_removed": 23.48
+}

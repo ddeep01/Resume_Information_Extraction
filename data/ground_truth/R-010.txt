@@ -1,0 +1,190 @@
+SAMPURNA SENGUPTA
+
+CONTACT INFORMATION
+Name: Sampurna Sengupta
+Location:Kolkata, India
+Phone:+91 9540734746
+Email:sampurna2492@gmail.com
+Website:senguptasampurna.wixsite.com/personal
+ORCID:0000-0002-5618-5724
+
+SKILLS
+
+Languages:
+- English
+- Hindi
+- Bengali
+
+Programming Languages:
+- MATLAB
+- Python
+
+
+TEACHING EXPERIENCE
+
+Position: Assistant Professor (Full Time)
+Department: Mathematics
+Institution: Bharati Vidyapeeth Deemed University Department of Engineering and Technology
+Location: Navi Mumbai, Mumbai
+Duration: January 2023 – Present
+Subjects Taught:
+- Probability and Statistics
+- Linear Algebra
+
+Position: Assistant Professor (Full Time)
+Department: Mathematics
+Institution: Kalasalingam Academy of Research and Education
+Location: Srivilliputhur, Tamil Nadu
+Duration: July 2021 – December 2021
+Subjects Taught:
+- Numerical Methods
+- Differential Equations
+
+COURSES AND CERTIFICATIONS
+
+Course: IBM Data Science Professional Certificate
+Provider: IBM, Coursera
+Duration: May 2023 – November 2023
+Topics:Data Science,Python,Machine Learning,SQL
+
+
+EDUCATION
+
+Degree: Ph.D. in Mathematics
+Institute: Indian Institute of Engineering Science and Technology (IIEST), Shibpur
+Duration: 2016 – 2020
+Research Topic: Mathematical Modeling
+Thesis Title: Impact of Environmental Variability on Multi-Species Ecological Systems with Type-III Functional Response
+Thesis Status: Successfully Defended on 10 February 2020
+Supervisor: Prof. Pritha Das
+Co-Supervisor: Dr. Debasis Mukherjee
+
+Degree: Master of Science in Applied Mathematics
+Institute: South Asian University, New Delhi
+Duration: 2013 – 2015
+Master’s Thesis: Study of Binary Gravitational Search Algorithm
+Supervisor: Prof. Jagdish Chand Bansal
+GPA: 8.05 / 9
+Percentage: 89.44%
+Class:1st
+
+Degree: Bachelor of Science (Honours) in Mathematics
+University: University of Calcutta
+Duration: 2009 – 2013
+Percentage: 56.5%
+
+Degree: Higher Secondary (12th)
+Board: West Bengal Council of Higher Secondary Education
+Duration: 2008 – 2009
+Percentage: 74.17%
+Class:1st
+
+Degree: Secondary (10th)
+Board: West Bengal Board of Secondary Education
+Duration: 2006 – 2007
+Percentage: 76%
+Class:1st
+
+
+PERSONAL INFORMATION
+
+Father's Name: Arup Sengupta
+Mother's Name: Shipra Sengupta
+Date of Birth: 02/04/1992
+Gender: Female
+Nationality: Indian
+
+
+PUBLICATIONS
+
+1.Title: Dynamical Behavior of Canada Lynx and Snowshoe Hare Population in Fluctuating Environment
+Journal of Innovation Sciences and Sustainable Technologies, Sampurna Sengupta
+Volume 1, Issue 4, Pages 273-296
+Publication Date: October 2021
+
+2.Title: Sustainability of Orange Roughy Population
+DIFFERENTIAL EQUATIONS AND DYNAMICAL
+SYSTEMS, Sampurna Sengupta and Pritha Das
+Volume 28,Issue 3,Pages 647-661
+DOI:10.1007/s12591-019-00465-z
+Publication Date: July 2020
+
+3.Title:Dynamics of Two-Prey One-Predator Non-Autonomous Type-III Stochastic Model with Effect of Climate Change and Harvesting
+NONLINEAR DYNAMICS, Sampurna Sengupta and Pritha Das
+Volume 97, Issue 4, Page 2777-2798
+DOI: 10.1007/s11071-019-05163-7
+Publication Date: July 2019
+
+4.Title:Stochastic Non-Autonomous Holling Type-III Prey-Predator Model with Predator's Intra-Specific Competition
+DISCRETE AND CONTINUOUS DYNAMICAL
+SYSTEMS SERIES B, Sampurna Sengupta,
+Pritha Das and Debasis Mukherjee
+Volume 23, Issue 8, pp 3275-3296
+DOI: 10.3934/dcdsb.2018244
+Publication Date: October 2018
+
+
+CONFERENCE PRESENTATION
+
+Conference:International Conference on Mathematical Modelling and Computations (ICMMC-2018)
+Oral Paper Presentation: SUSTAINABILITY OF O
+RANGE ROUGHY POPULATION
+Organized by Department of Mathematics, South
+Asian University New Delhi, India (Under the
+Aegis of IAMMS, IIT Kanpur)
+Date:December 2018
+
+FACULTY DEVELOPMENT PROGRAM
+
+Program:Refresher Course in Mathematics
+Organised by the Department of Mathematics, Ramanujan College, University of Delhi, Delhi Under the aegis of the Ministry of Education,Government of India, Pandit Madan Mohan Malaviya National Mission on Teachers and
+Teaching
+Grade A+
+Duration: 31 August 2021 – 14 September 2021
+
+CONFERENCES / WORKSHOPS / LECTURES ATTENDED
+
+1.Title:Explosive Tritrophic Food Chain Models with Interference: A Comparative Study
+Guest Lecture organized by Department of
+Mathematics, ICFAI Science School, ICFAI University,
+Tripura
+Date:July 2020
+
+2.Title:Recent Advances in Modelling and Computational Techniques in Applied Mathematics
+Organized by Department of Mathematics, Indian
+Institute of Engineering Science and Technology,
+Shibpur, WestBengal, India
+Date: November 2017
+
+3.Title:International Conference on Recent Advances in PDE: Theory, Computations and Applications
+Organized by Department of Mathematics, Indian
+Institute of Technology, Bombay, Mumbai, India
+Date: June 2017
+
+4.Title:Science Academies' Lecture Workshop on Hyperbolic Partial Differential Equation and Conservation Laws
+Organized jointly by Department of Basic Sciences
+and Social Sciences and Department of
+Mathematics, North-Eastern Hill University, Shillong,
+Meghalaya, India
+Date: February 2017
+
+5.Title:Postgraduate Level Training Programme on National Program on Differential Equations: Theory, Computation and Applications
+Organized jointly by Department of Mathematics,
+Indian Institute of Technology, Bombay, Mumbai,
+India and Indian Institute of Technology, Guwahati,
+Assam, India, Sponsored by Department of Science
+and Technology, Government of India
+Date: June 2014
+
+
+PROFESSIONAL SERVICE
+Manuscripts Reviewed For:
+- Stochastic Analysis and Applications (Taylor & Francis)
+- Discrete and Continuous Dynamical Systems Series S (AIMS)
+
+ADDITIONAL ACTIVITIES
+World Teachers Day Quiz 2021
+Organized by PG and Research Department of Commerce,
+Vivekananda College of Arts and Sciences for Women
+(Autonomous)
+Score 80%

@@ -1,0 +1,669 @@
+Dr. Dharmendra Pathak
+
+Mobile
+:
+09202238453
+Email
+:
+dharmendra.pathak281086@gmail.com
+Website
+:
+www.cdgi.edu.in/dpathak
+
+Objective
+
+To become a member of an organization where I can utilize my technical skills and attitude
+towards the growth of the organization and self-development
+
+Area of interest
+
+Machine Learning, Cloud Computing, Data Science, and Software Engineering
+
+Educational Qualifications
+
+Degree/
+Schooling
+Institution
+Board / University
+Year of
+Passing
+Percentage/GGPA
+Ph.D. in
+Computer
+Science
+Engineering
+Amity School of
+Engineering &
+Technology,
+Raipur
+Amity University
+Chhattisgarh
+2024
+Thesis: EEG based
+Brain-Computer
+Interface (BCI) Deep
+Learning Model for
+E-Learning
+Knowledge Tracing
+and
+Recommendations
+M.Tech.
+(Information
+Architecture &
+Software
+Engineering)
+School of
+Computer
+Science and I.T.
+(SCSIT), Indore
+Devi Ahilya
+University
+(D.A.V.V.), Indore,
+M.P.
+
+2012
+
+9.51 GGPA
+9.45 CGPA
+(DAVV TOPPER)
+B.E.
+(Computer
+Science &
+Engineering)
+Swami
+Vivekananda
+College of
+Engineering,
+Indore
+Rajiv Gandhi
+Technical University
+(R.G.T.U.), Bhopal,
+M.P.
+2009
+76.38% (Hons.)
+
+Higher
+Secondary
+New Pink
+Flower H.S.
+School, Indore
+M.P. Board
+2005
+86.22%
+High School
+New Pink
+Flower H.S.
+School, Indore
+M.P. Board
+2003
+86.40%
+
+Work Experience: 12 years 11 months
+
+S.No.
+Designation
+Institute/Organization
+Duration
+1
+Associate
+Professor
+Chameli Devi Group of Institutions,
+Indore, M.P.
+7th July 2012 to till date
+2
+Lecturer
+Sanghvi Institute of Management and
+Science, Indore, M.P.
+17th Aug 2009 to 1st July,
+2010
+
+Awards and Achievements
+
+-
+Qualified UGC-NET 2019 with Percentile Score 99.67
+-
+Qualified GATE-2015 with GATE Score-356
+-
+Qualified GATE-2014 with GATE Score-407 and Percentile Score 94.50
+-
+Qualified GATE-2010 with GATE Score-388 and Percentile Score 90.33
+-
+Qualified GATE-2009 with GATE Score-406 and Percentile Score 91.62
+-
+Secured First Position at Innovation Day 2021 Paper Presentation organized
+by Amity School of Engineering and Technology on 28 September 2021.
+-
+Patent published for "SYSTEM AND METHOD FOR IMPLEMENTING
+AN
+INTELLIGENT
+SURVEILLANCE
+DRONE
+FOR
+RESCUE
+OPERATIONS DURING A DISASTER".
+(Patent filed on February 11, 2023, Application number 202321009098).
+-
+Patent published for "AN EEG SYSTEM BASED ON BRAIN COMPUTER
+INTERFACE (BCI) DEEP LEARNING MODEL".
+(Patent filed on March 26, 2021, Application number 202111013389).
+-
+Patent published for "AN ASSEMBLY WITH WEARABLE ITEMS & IoT
+CONNECTIVITY FOR VISUALLY IMPAIRED".
+(Patent filed on September 10, 2020, Application number 202011039042).
+-
+Copyright registered for work title "Using GeoTagging for the detection of
+Covid-19 Fake News from Twitter Data of Hotspots states using Deep
+Learning Framework" on 10 June 2020 (Diary No: 7655/2020-CO/S.W.)
+-
+Winner of Hack for Good Covid-19 Hackathon organized by Amity
+Innovation Incubator on 11 May 2020.
+-
+Secured 3rd Position in Innovative Idea Presentation on the occasion of
+Innovation Day, organized by Amity University Chhattisgarh on 28
+September 2022.
+-
+Secured 1st Position in Innovative Idea Presentation on the occasion of
+Innovation Day, organized by Amity University Chhattisgarh on 28
+September 2021.
+-
+Awarded with "Excellence in Teaching" at Srijan-2019, organized by Rajiv
+Gandhi Technical University, Bhopal.
+-
+Awarded with "Best Mentor Award" for the mentoring IEDC Project
+"Helios" in the year 2017 at CDGI Indore.
+-
+Awarded for Excellence in Teaching by HDFC Bank Year 2013 at CDGI
+Indore.
+-
+Qualified C-DAC Mumbai, CST-G Level 2011 Examination
+
+Research Work: Total Publications-17 (SCI-1, SCOPUS-2)
+
+International Journal Publications: 04
+-
+Research Paper Titled: "Neural Correlate-Based E-Learning Validation and
+Classification Using Convolutional and Long Short-Term Memory
+Networks", SCI-E INDEXED IIETA Journal "Traitement du Signal",
+Volume 40, No. 4, August 2023, pp 1457-1467, ISSN: 0765-0019, Journal
+Impact Factor: 1.9
+-
+Research Paper Titled: "Electroencephalogram-based deep learning
+framework for the proposed solution of e-learning challenges and
+limitations", SCOPUS INDEXED Inderscience Journal "International
+Journal of Intelligent Information and Database Systems (IJIIDS)",
+Volume 15, No. 3, April 2022, pp 295-310, ISSN: 1751-5858, Journal Impact
+Factor: 0.9
+-
+Book chapter titled "A study of deep learning approach for the classification
+of Electroencephalogram (EEG) brain signals" published in the Book titled
+"Artificial Intelligence and Machine Learning for Edge Computing" by
+Elsevier and indexed in SCOPUS, April 2022.
+-
+Research Paper Titled: "Reducing efforts in Refactoring process using
+Design Patterns", International Journal of Advance Research in Computer
+Science (IJARCS), Volume 2, No. 1, Jan-Feb 2011, pp 240-245, ISSN: 0976-
+5697, Journal Impact Factor: 3.74
+
+Research Papers Presented in International/National Conference: 13
+-
+Research Paper Titled: "Evaluating E-learning Engagement through EEG
+Signal Analysis with Convolutional Neural Networks", 2023 5th
+International Springer Conference on Computer and Communication
+Technologies (IC3T), KITSW Institute, Warangal, Oct 2023.
+-
+Research Paper Titled: "A review of the classification of neuroscience
+problems with the help of deep learning framework", 2021 5th
+International IEEE Conference on Information Systems and Computer
+Networks (ISCON), GLA University, Mathura, Oct 2021.
+-
+Research Paper Titled: "NOVA: Hybrid Book Recommendation Engine",
+IEEE Sponsored 2013 International Advance Computing Conference
+(IACC-2013), Ajay Kumar Garg Engineering College Ghaziabad (AKGEC),
+Delhi, Feb 2013.
+-
+Research Paper Titled: "ORBIT: Hybrid Movie Recommendation Engine",
+IEEE Sponsored 2013 International Conference on Emerging Trends in
+Computing, Communication and Nanotechnology (ICECCN-13), Infant
+Jesus college of Engineering and Technology, Tamilnadu, March 2013.
+-
+Research Paper Titled: "Data Mining on WHO Data Warehouse using
+PASW Modeler", IEEE Co-Sponsored 2011 International Conference on
+
+Networks and Computer Science (ICNCS), IACSIT, Kanyakumari, April
+2011.
+-
+Research Paper Titled: "Measurement and Decision Criteria in Software
+Reliability Engineering and Dependability", 2009 International Level
+Conference on Global Issues in Business and Technology, University of
+Maryland Eastern Shore, Indore, August 2009.
+-
+Research Paper Titled: "Technical Trends and Concepts of Software
+Testing", 2009 International Level Conference on Global Issues in
+Business and Technology, University of Maryland Eastern Shore, Indore,
+August 2009.
+-
+Research Paper Titled: "Practical Implementation of Data Cube and Data
+Mining Algorithms", National Conference on Intelligent Systems (NCIS),
+Chameli Devi Group of Institutions, Indore, Oct 2012.
+-
+Research Paper Titled: "Dynamic Offloading for Mobile Computation
+Using Cloud", National Conference on Future Trends in Information and
+Communication Technology, Medicaps Institute of Science and Technology,
+Indore, Oct-2012.
+-
+Research Paper Titled: "Cloud Security a Big Challenge", National
+Conference on Recent Trends in Cloud Computing, Oriental University,
+Indore, Nov 2012.
+-
+Research Paper Titled: "Teacher's Diary: Academic activities made easy",
+2012 National Conference on Advances in E-Learning, Institution of
+Communication Engineers & Information Technologists (ICEIT), New
+Delhi, Feb 2012.
+-
+Research Paper Titled: "DNA Computing: Applications and Challenges",
+Second International Conference on Inter-Disciplinary Research in
+Engineering Management, Pharmacy and Science (ICIREMPS 2K15), Sagar
+Institute of Research and Technology, Bhopal, Feb 2015.
+-
+Research Paper Titled: "Role of Hybrid Recommendation Engine in
+Forestalling Networking Attacks", Second International Conference on
+Inter-Disciplinary Research in Engineering Management, Pharmacy and
+Science (ICIREMPS 2K15), Sagar Institute of Research and Technology,
+Bhopal, Feb 2015.
+
+Certification
+
+-
+AWS Cloud Foundation Course Certified
+-
+Digital Marketing Training Certification (6 weeks) from Internshala
+-
+Microsoft Technology Associate (MTA) Introduction to Programming using
+HTML and CSS Certified
+-
+Microsoft Technology Associate (MTA) Introduction to Programming using
+Python Certified
+-
+Microsoft Technology Associate (MTA) Introduction to Programming using
+JAVA Certified
+
+-
+Microsoft Certified Educator (MCE) Certified
+-
+Microsoft Technology Associate (MTA) Operating System Fundamentals
+Certified
+-
+Microsoft Technology Associate (MTA) Software Testing Fundamentals
+Certified
+-
+Microsoft Technology Associate (MTA) Database Fundamentals Certified
+-
+Microsoft Technology Associate (MTA) Web Development Fundamentals
+Certified
+-
+Microsoft Technology Associate (MTA) Networking Fundamentals
+Certified
+-
+Microsoft in the Classroom Certified
+-
+IBM Certified DB2 Academic Associate
+-
+IBM Certified Associate System Administrator Lotus and Domino 8
+-
+IBM Certified Deployment Professional Tivoli Directory Server 6.3
+-
+IBM Certified Rational Quality Manager and Rational Functional Tester
+
+Professional Skills
+
+-
+AWS and Linux Server
+-
+PHP
+-
+Python
+-
+C and C ++
+-
+JAVA (J2SE, J2ME and J2EE)
+-
+JAVA Script/ JQuery
+-
+MySQL RDBMS
+-
+PASW Modeler Data Mining tool
+-
+IBM Functional Tester 8.3 and Winrunner Software Testing tool
+-
+AQ Time Profiler
+
+Academic Responsibilities
+
+-
+Department NAAC and NBA Coordinator
+-
+Head IT Infra and Technical Advisor
+-
+AWS Academy Coordinator
+-
+Subjects taught:
+§
+Machine Learning
+§
+Internet and Web Technology
+§
+Operating System
+§
+Cloud Computing
+§
+Database Management System
+§
+Java Programming
+
+Professional Membership
+
+- Associate member (Membership No: AM3131648) of The Institution of
+Engineers (IEI)
+
+Projects Undertaken for Colleges
+
+-
+Mentored two Innovation & Entrepreneurship Development Cell (IEDC), MHRD
+funded projects "Helios" and "E-Telepathy", covering the area of Internet of Things
+and Data Analysis.
+
+-
+Developed Dus Ka Dum web based Multiplayer Game portal to simulate
+popular Game Show Dus Ka Dum for Chameli Devi Group of Institutions,
+Indore
+
+-
+Developed KBC web-based quiz portal to simulate popular Game Show
+KBC for Chameli Devi Group of Institutions, Indore
+
+-
+Developed HR System to maintain employee attendance report, salary
+report, leave report, stock register etc. for Agrawal Coal Indore
+
+-
+Developed Faculty Evaluation 1.0 to automate faculty responsibilities and
+their ranking for Chameli Devi Group of Institutions, Indore
+
+-
+Developed Appraisal 2.0 to automate appraisal procedure for faculty
+members for Chameli Devi Group of Institutions, Indore
+
+-
+Developed E-Conference to automate conference activities for Chameli Devi
+Group of Institutions, Indore
+
+-
+Developed Email Filter Web App to consolidate and filter emails at one place
+from various email service providers i.e. Gmail, Yahoo etc.
+
+-
+Developed Open College Web Application to automate the academic
+activities i.e. attendance, timetable, student/faculty management etc.
+
+-
+Developed HDFC Payment Gateway for Chameli Devi Group of Institutions,
+Indore
+
+-
+Developed Student Admission Portal to automate the admission procedure
+of MPPET qualified students for CDGI Indore
+
+-
+Developed Bus Seat Allocator to automate the seating arrangement in CDGI
+BUS System
+
+Projects Undertaken Academic
+
+-
+M.Tech. Live Project: "Teacher's Diary: Academic activities made easy"
+ Front End: Java (J2SE/J2EE)
+Back End: MySQL
+-
+M.Tech. Data Mining Project: Data Mining on WHO Data Warehouse
+ Data Mining Tool: PASW Modeler
+
+-
+M.Tech. Research based Project: "Recommender System"
+ Front End: Java (J2SE/J2EE)
+Back End: Oracle-9i
+-
+B.E. Major Project: TPO Help Desk (Mobile Application) via GPRS Technology
+ Front End: Java (J2EE/J2ME)
+Back End: Oracle-9i
+-
+B.E. Minor Project: Online Examination System
+ Front End: Java (J2SE/J2EE)
+
+Back End: Oracle-9i
+
+Workshop/Seminar Details
+
+-
+Attended 08 weeks (Jul-Sep 2023) SWAYAM-NPTEL NITTTR Course on
+"Introduction to Machine Learning" and Passed the Proctored Examination
+with Elite+Silver Category.
+-
+Attended one week FDP on "Teaching Pedagogy" dated 17-21 April 2023
+organized by Department of Management CDGI Indore.
+-
+Attended one week FDP on "Advanced Approaches in Modelling and
+Simulations for Cutting-Edge Electronic Systems" dated 12-18 June 2023
+organized by SGSITS Indore in association with Banasthali Vidhyapith,
+Rajasthan.
+-
+Taken a session as an Expert Speaker in five days workshop on "Tools and
+Techniques for Cyber Crime Prevention" dated 08 June 2023, organized by
+Chameli Devi Institute of Pharmacy, Indore, under PCI.
+-
+Attended one week FDP on "Outcome Based Education" dated 15-19
+December 2022 organized by CDGI Indore IQAC in association with ISTE.
+-
+Attended 08 weeks (Jan-Mar 2022) SWAYAM-NPTEL NITTTR Course on
+"Accreditation of Undergraduate Engineering Programme" and Passed the
+Proctored Examination.
+-
+Attended one day FDP on "TCS Overview-Cybersecurity-Design Thinking
+and TCS CSR" at TCS Indore Campus on 09 Sep 2022.
+-
+Attended one week FDP on "AWS Solution Architect Associate" dated 17-
+22 January 2022 conducted by PITC Solutions at CDGI Campus.
+-
+Attended 5 Days FDP on "Emerging Technologies in Industry 4.0" dated 14-
+18 June 2021 organized by Amity School of Engineering and Technology,
+Amity University Chhattisgarh.
+-
+Taken a session as an Expert Speaker in one day online workshop on
+"Understanding (Internet of Things) IOT with Raspberry Pi and Python"
+dated 26 August 2020, organized by Truba College of Science and
+Technology, Bhopal, under RGPV TEQIP-III.
+-
+Attended Webinar on "How to write a good Research Grant Proposal and
+Research" dated 06 August 2020 organized by Amity Science, Technology &
+Innovation Foundation (ASTIF).
+-
+Attended Webinar on "How to write an excellent Research Paper for
+Publication" dated 01 August 2020 organized by Amity Science, Technology
+& Innovation Foundation (ASTIF).
+-
+Attended Webinar on "Machine Learning through Google Colab" dated 12
+July 2020 organized by Amity University, Gwalior.
+
+-
+Attended Webinar on "Intellectual Property Rights" dated 11 July 2020
+organized by CDGI Indore.
+-
+Attended 2 Days Workshop on "Cyber Security and Ethical Hacking" under
+TEQIP-III dated 04-05 July 2020 organized by CDGI Indore.
+-
+Attended 2 Days Workshop on "Entrepreneurship Road to Atmanirbhar"
+under TEQIP-III dated 27-28 June 2020 organized by CDGI Indore.
+-
+Participated in 7 Days "Science Academies' Science Leadership Workshop"
+organized by Central University of Punjab, India from 22-28 June 2020.
+-
+Attended 2 Days Workshop on "Emotional and Social Intelligence" under
+TEQIP-III dated 13-14 June 2020 organized by CDGI Indore.
+-
+Attended 5 Days FDP on "Data Analytics using R" under TEQIP-III, dated
+08-12 June 2020 organized by CDGI Indore.
+-
+Attended 2 Days FDP on "Innovation & Research in Data Science with
+Visualization Using Python" under TEQIP-III, dated 06-07 June 2020
+organized by SAIMS Indore.
+-
+Attended 3 Days FDP on "Innovative research methodologies for
+challenging problems of future in Science, Technology, Engineering and
+Management (STEM)" under TEQIP-III, dated 05-07 June 2020 organized by
+IIST Indore.
+-
+Participated in "Zeal Covid-19 Hackathon", dated 04-08 June 2020 organized
+by Zeal Institutes, Pune.
+-
+Attended 2 Days Webinar on "Full Stack Web Development" by
+IncubateIND, Amity University, via ICT Mode 09 May 2020 to 10 May 2020.
+-
+Attended 2 Days Webinar on "Machine Learning" by IncubateIND, Amity
+University, via ICT Mode 02 May 2020 to 03 May 2020.
+-
+Attended 5 Days FTP on "Neural Network and CNN" by NITTTR
+Chandigarh, via ICT Mode at CDGI Campus from 14 April 2020 to 18 April
+2020.
+-
+Attended One Day Workshop on "C and C++ Programming" by IIT Bombay,
+Spoken Tutorial via ICT Mode at CDGI Campus on 29 February 2020.
+-
+Attended One Day FDP on "Hands-on Workshop on Document
+Typesetting and Processing using Latex" held at NMIMS Indore.
+-
+Attended One Day Workshop on "R Programming" by IIT Bombay, Spoken
+Tutorial via ICT Mode at CDGI Campus on 17 December 2019.
+-
+Attended one day FDP on "Data Analytics, Salesforce & Agile DevOps" at
+TCS Indore Campus on 13 Dec 2019.
+-
+Attended 5 Days STTP on "Assessment and Evaluation under Outcome
+Based Education" by NITTTR Kolkata, via ICT Mode at CDGI Campus from
+10 June 2019 to 14 June 2019.
+-
+Attended One Day Workshop on Linux by IIT Bombay, Spoken Tutorial via
+ICT Mode at CDGI Campus on 23 August 2019.
+-
+Attended One Day Workshop on Python Programming by IIT Bombay,
+Spoken Tutorial via ICT Mode at CDGI Campus on 22 June 2019.
+-
+Attended Amazon AWS Cloud Day seminar on 21 May 2019 at Hotel
+Marriott, Indore.
+
+-
+Attended Intel Business Solution Showcase seminar on 19 March 2019 at
+Hotel Marriott, Indore.
+-
+Organized and attended 5 Days FDP on Machine Intelligence and
+Applications under TEQIP-III dated 24-28 October 2018 at CDGI Indore.
+-
+Attended 2 Days workshop on 5G and IOT Security dated 10-11 September
+2018 at IIT Delhi.
+-
+Attended 2 Days workshop on Nuclear Energy: Clean & Alternative Source
+of Energy dated 27-28 July 2018 at CDGI Indore.
+-
+Participated in 9 Days workshop on HTML 5, CSS and JQuery dated 11 May
+2018 to 19 May 2018 conducted by OZYMANDIAS CREATIONS Pvt. Ltd.
+-
+Participated in 2 Week SAP ABAP Training dated 30 Jan 2017 to 10 Feb 2017
+conducted at KPIT Technologies, Noida.
+-
+Participated in 1 Day TCS Workshop on Business Intelligence using ERP
+dated 05 Feb 2016 conducted at SVITS, Indore.
+-
+Participated in 5 Days Mission 10X - UTLP Expert Workshop Level 3 dated
+23 Feb 2015 to 27 Feb 2015 conducted at Wipro Technologies, Bangalore.
+-
+Participated in 5 Days Mission 10X - UTLP Expert Workshop Level 2 dated
+15 Dec 2014 to 19 Dec 2014 conducted at Wipro Technologies, Bangalore.
+-
+Participated in 6 Days ISTE Workshop on Computer Networking dated 30
+June 2014 to 05 July 2014 at CDGI Indore.
+-
+Participated in 6 Days ISTE Coordinators Workshop on Computer
+Programming at IIT Bombay, dated 21 April 2014 to 26 April 2014.
+-
+Participated in 3 Days workshop of WIPRO Mission 10X at CDGI, Indore
+dated 22 Jan 2014 to 24 Jan 2014.
+-
+Attended three days workshop at IIT Bombay on "Python for Education and
+Scientific Computing" from 27-29 Dec 2012.
+-
+Conducted one day workshop at CDGI, Indore on "Computer Hardware
+and Networking" dated 19 September 2015 for CS/IT Students.
+-
+Conducted one day workshop at CDGI, Indore on "Parallel Programming
+using Python" dated 24 July 2015 for CS/IT Students.
+-
+Conducted two days workshop at CDGI, Indore on "PHP and MySQL"
+dated 9 and 11 March 2013 for CS/IT Students.
+-
+Conducted one day workshop at CDGI, Indore on "Attractive Web
+Designing" dated 20 Nov 2014 for all branch students.
+
+Extra Co-Curricular Activities
+
+-
+Participated and won 1st Prize in an Essay Writing Competition at the
+District Level.
+-
+Participated and won 1st Prize in Carom, Chess and Computer Gaming
+Competitions at School & College Level.
+-
+Responsibilities taken as a Class Representative at School & Coordinator at
+College Level.
+
+Personal Details
+Date of Birth
+: 28th Oct 1986
+
+Marital Status
+:
+Married
+Permanent address :
+920/9 Nehru Nagar, Indore, Madhya Pradesh, 452011
+Key Strengths
+:
+Altruistic, Leadership, and Positive Attitude
+
+Hobbies
+
+: Chess, and Tech enthusiastic
+
+Declaration
+
+I hereby declare that all the information stated above is true to the best of my
+knowledge and belief.
+
+Date:
+
+ Dr. Dharmendra Pathak
+
+References:
+1) Name: Dr. Ramgopal Kashyap
+Institution: Amity University Chhattisgarh
+Designation: Deputy Director Innovation and Research
+Mobile: 09826421549
+Email ID: rkashyap@rpr.amity.edu
+
+2) Name: Prof. Shailendra Kumar Mishra
+Institution: Chameli Devi Group of Institutions, Indore
+Designation: Head, Computer Science & Engineering Department
+Mobile: 09601492380
+Email ID: hod.cs@cdgi.edu.in
+
+3) Name: Dr. Surendra Kumar Shukla
+Institution: SVKM's NMIMS, Indore
+Designation: Assistant Professor
+Mobile: 07987748990
+Email ID: surendrakumar.shukla@nmims.edu
