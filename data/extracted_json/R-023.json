@@ -1,0 +1,324 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Dharmendra Pathak",
+        "current_designation": "",
+        "total_experience": "12 years 11 months",
+        "email": "dharmendra.pathak281086@gmail.com",
+        "phone": "09202238453",
+        "date_of_birth": "28th Oct 1986",
+        "gender": "",
+        "address": "920/9 Nehru Nagar, Indore, Madhya Pradesh, 452011",
+        "linkedin": "",
+        "website": "www.cdgi.edu.in/dpathak",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Computer Science Engineering",
+            "specialization": "",
+            "institution": "Amity School of Engineering & Technology, Raipur",
+            "board_university": "Amity University Chhattisgarh",
+            "year": "2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech. (Information Architecture & Software Engineering)",
+            "specialization": "",
+            "institution": "School of Computer Science and I.T. (SCSIT), Indore, D.A.V.V., Indore",
+            "board_university": "Devi Ahilya University (D.A.V.V.)",
+            "year": "2012",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.E. (Computer Science & Engineering)",
+            "specialization": "",
+            "institution": "Swami Vivekananda College of Engineering, Indore",
+            "board_university": "Rajiv Gandhi Technical University (R.G.T.U.), Bhopal",
+            "year": "2009",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Higher Secondary",
+            "specialization": "",
+            "institution": "New Pink Flower H.S. School, Indore",
+            "board_university": "M.P. Board",
+            "year": "2005",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "High School",
+            "specialization": "",
+            "institution": "New Pink Flower H.S. School, Indore",
+            "board_university": "M.P. Board",
+            "year": "2003",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "Chameli Devi Group of Institutions, Indore, M.P.",
+            "start_date": "7th July 2012",
+            "end_date": "",
+            "duration": "12 years 11 months",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Sanghvi Institute of Management and Science, Indore, M.P.",
+            "start_date": "17th Aug 2009",
+            "end_date": "1st July, 2010",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "research_interests": [
+        "Machine Learning",
+        "Cloud Computing",
+        "Data Science",
+        "Software Engineering"
+    ],
+    "publications": [
+        {
+            "title": "Neural Correlate-Based E-Learning Validation and Classification Using Convolutional and Long Short-Term Memory Networks",
+            "authors": [],
+            "journal": "Traitement du Signal",
+            "conference": "",
+            "year": "2023",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Electroencephalogram-based deep learning framework for the proposed solution of e-learning challenges and limitations",
+            "authors": [],
+            "journal": "International Journal of Intelligent Information and Database Systems (IJIIDS)",
+            "conference": "",
+            "year": "2022",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "A study of deep learning approach for the classification of Electroencephalogram (EEG) brain signals",
+            "authors": [],
+            "journal": "Artificial Intelligence and Machine Learning for Edge Computing",
+            "conference": "",
+            "year": "2022",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Reducing efforts in Refactoring process using Design Patterns",
+            "authors": [],
+            "journal": "International Journal of Advance Research in Computer Science (IJARCS)",
+            "conference": "",
+            "year": "2011",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "Teacher's Diary: Academic activities made easy",
+            "description": "",
+            "technologies": [],
+            "duration": "National Conference on Advances in E-Learning, Institution of Communication Engineers & Information Technologists (ICEIT), New Delhi, Feb 2012"
+        },
+        {
+            "title": "Dynamic Offloading for Mobile Computation Using Cloud",
+            "description": "",
+            "technologies": [],
+            "duration": "National Conference on Future Trends in Information and Communication Technology, Medicaps Institute of Science and Technology, Indore, Oct-2012"
+        },
+        {
+            "title": "Cloud Security a Big Challenge",
+            "description": "",
+            "technologies": [],
+            "duration": "National Conference on Recent Trends in Cloud Computing, Oriental University, Indore, Nov 2012"
+        }
+    ],
+    "patents": [
+        {
+            "title": "SYSTEM AND METHOD FOR IMPLEMENTING AN INTELLIGENT SURVEILLANCE DRONE FOR RESCUE OPERATIONS DURING A DISASTER",
+            "description": "",
+            "technologies": [],
+            "duration": "Patent filed on February 11, 2023, Application number 202321009098"
+        },
+        {
+            "title": "AN EEG SYSTEM BASED ON BRAIN COMPUTER INTERFACE (BCI) DEEP LEARNING MODEL",
+            "description": "",
+            "technologies": [],
+            "duration": "Patent filed on March 26, 2021, Application number 202111013389"
+        },
+        {
+            "title": "AN ASSEMBLY WITH WEARABLE ITEMS & IoT Connectivity FOR VISUALLY IMPAIRED",
+            "description": "",
+            "technologies": [],
+            "duration": "Patent filed on September 10, 2020, Application number 202011039042"
+        }
+    ],
+    "books": [],
+    "book_chapters": [
+        {
+            "title": "A study of deep learning approach for the classification of Electroencephalogram (EEG) brain signals",
+            "description": "",
+            "technologies": [],
+            "duration": "Published in the Book titled 'Artificial Intelligence and Machine Learning for Edge Computing' by Elsevier, April 2022"
+        }
+    ],
+    "conferences": [
+        {
+            "title": "Evaluating E-learning Engagement through EEG Signal Analysis with Convolutional Neural Networks",
+            "description": "",
+            "technologies": [],
+            "duration": "2023 5th International Springer Conference on Computer and Communication Technologies (IC3T), KITSW Institute, Warangal, Oct 2023"
+        },
+        {
+            "title": "A review of the classification of neuroscience problems with the help of deep learning framework",
+            "description": "",
+            "technologies": [],
+            "duration": "2021 5th International IEEE Conference on Information Systems and Computer Networks (ISCON), GLA University, Mathura, Oct 2021"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Qualified UGC-NET 2019 with Percentile Score 99.67",
+            "description": "",
+            "technologies": []
+        },
+        {
+            "title": "Qualified GATE-2015 with GATE Score-356",
+            "description": "",
+            "technologies": []
+        },
+        {
+            "title": "Qualified GATE-2014 with GATE Score-407 and Percentile Score 94.50",
+            "description": "",
+            "technologies": []
+        },
+        {
+            "title": "Secured First Position at Innovation Day 2021 Paper Presentation organized by Amity School of Engineering and Technology on 28 September 2021.",
+            "description": "",
+            "technologies": []
+        }
+    ],
+    "certifications": [
+        {
+            "name": "AWS Cloud Foundation Course Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Digital Marketing Training Certification (6 weeks) from Internshala",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Introduction to Programming using HTML and CSS Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Introduction to Programming using Python Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Introduction to Programming using JAVA Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Certified Educator (MCE) Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Operating System Fundamentals Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Software Testing Fundamentals Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Database Fundamentals Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Web Development Fundamentals Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft Technology Associate (MTA) Networking Fundamentals Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Microsoft in the Classroom Certified",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "IBM Certified DB2 Academic Associate",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "IBM Certified Associate System Administrator Lotus and Domino 8",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "IBM Certified Deployment Professional Tivoli Directory Server 6.3",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "IBM Certified Rational Quality Manager and Rational Functional Tester",
+            "organization": "",
+            "year": ""
+        }
+    ],
+    "skills": [
+        "AWS and Linux Server",
+        "PHP",
+        "Python",
+        "C and C++",
+        "JAVA (J2SE, J2ME and J2EE)",
+        "JAVA Script/ JQuery",
+        "MySQL RDBMS",
+        "PASW Modeler Data Mining tool",
+        "IBM Functional Tester 8.3 and Winrunner Software Testing tool",
+        "AQ Time Profiler"
+    ],
+    "languages": [],
+    "references": [
+        {
+            "name": "Dr. Ramgopal Kashyap",
+            "institution": "Amity University Chhattisgarh",
+            "designation": "Deputy Director Innovation and Research",
+            "phone": "09826421549",
+            "email_id": "rkashyap@rpr.amity.edu"
+        },
+        {
+            "name": "Prof. Shailendra Kumar Mishra",
+            "institution": "Chameli Devi Group of Institutions, Indore",
+            "designation": "Head, Computer Science & Engineering Department",
+            "phone": "09601492380",
+            "email_id": "hod.cs@cdgi.edu.in"
+        },
+        {
+            "name": "Dr. Surendra Kumar Shukla",
+            "institution": "SVKM's NMIMS, Indore",
+            "designation": "Assistant Professor",
+            "phone": "07987748990",
+            "email_id": "surendrakumar.shukla@nmims.edu"
+        }
+    ]
+}

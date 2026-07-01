@@ -1,0 +1,678 @@
+{
+    "personal_information": {
+        "full_name": "Dibakar Roy Chowdhury",
+        "current_designation": "",
+        "total_experience": "25 years and 10 months",
+        "email": "dibakarrc@gmail.com",
+        "phone": "+91-765-897-1188 (m), +91-40-6173-5169 (o)",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Technical University of Darmstadt, Darmstadt, Germany",
+            "institution": "Technical University of Darmstadt, Darmstadt, Germany",
+            "board_university": "",
+            "year": "2003 - 2008",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M. Tech (Solid state technology)",
+            "specialization": "",
+            "institution": "Indian Institute of Technology, Madras",
+            "board_university": "",
+            "year": "2001 - 2003",
+            "cgpa_percentage": "8.74/10"
+        },
+        {
+            "degree": "MSc (Physics, specialization in solid state physics)",
+            "specialization": "",
+            "institution": "Rani Durgavati Vishwavidyalaya, Jabalpur, India",
+            "board_university": "",
+            "year": "1998 - 2000",
+            "cgpa_percentage": "75.75%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Professor of Physics",
+            "organization": "Mahindra University, India",
+            "start_date": "October 2018",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "Mahindra Ecole Centrale, India",
+            "start_date": "January 2015",
+            "end_date": "October 2018",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Scientist - level B (equivalent to Senior Lecturer)",
+            "organization": "Australian National University, Canberra, Australia",
+            "start_date": "August 2013",
+            "end_date": "January 2015",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral research associate",
+            "organization": "Center of Integrated Nanotechnologies (CINT), Los Alamos National Laboratory, NM, USA",
+            "start_date": "June 2009",
+            "end_date": "March 2013",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral research associate",
+            "organization": "Center for Nanointegration Duisburg-Essen (CeNIDE), University of Duisburg-Essen, Duisburg, Germany",
+            "start_date": "April 2008",
+            "end_date": "March 2009",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Graduate Research Assistant",
+            "organization": "Faculty of Electrical Engineering, Technical University of Darmstadt, Darmstadt, Germany",
+            "start_date": "August 2003",
+            "end_date": "March 2008",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "research_interests": [
+        "Metamaterials, Plasmonics",
+        "Ultrafast Spectroscopy and Terahertz Spectroscopy",
+        "Ultrafast and non-linear electronic devices",
+        "Micro- and nano- structure fabrication"
+    ],
+    "publications": [
+        {
+            "title": "Multi-stacked polarization insensitive broadband terahertz metamaterial",
+            "authors": ["Bhagwat Singh Chouhan", "Nityananda Acharyya", "Anuraj Panwar", "Dibakar Roy Chowdhury", "Gagan Kumar"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Tailoring terahertz surface plasmon resonances through near-field coupling in multiple holes-based arrays",
+            "authors": ["Vaishnavi Sajeev", "Shreeya Rane", "Nityananda Acharyya", "Dibakar Roy Chowdhury"],
+            "journal": "Results in Optics",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Resonant modes in Topological Ring Resonator (TRR)",
+            "authors": ["Geetanjali Jena", "Gopal Kulkarni", "Ravi Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Physics D: Applied Physics",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Exceptional point THz sensing with metasurfaces",
+            "authors": ["Indu Krishna K N", "Dibakar Roy Chowdhury"],
+            "journal": "New Journal of Physics",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Electrical and Electrochemical Investigations on Copper Oxide-based Monolayer and Bilayer Memristive Devices",
+            "authors": ["Somnath S. Kundale", "Akash N. Kurade", "Pradnya P. Patil", "Deepali S. Shivade", "Swapnil R. Patil", "Kasturi A. Rokade", "Krantiveer V. More", "Dibakar Roy Chowdhury", "Rajanish K. Kamat", "Tukaram D. Dongale"],
+            "journal": "ACS applied electronic materials",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Physics and applications of terahertz metagrating",
+            "authors": ["Shreeya Rane", "Shriganesh S Prabhu", "Dibakar Roy Chowdhury"],
+            "journal": "Opto Electronic Sciences",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Magnetically controlled Toroidal metasurfaces",
+            "authors": ["Nityananda Acharyya", "Soumyajyoti Mallick", "Shreeya Rane", "Mousumi Upadhyay", "Dibakar Roy Chowdhury"],
+            "journal": "Advanced Optical Materials",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Deep sub-wavelength dipole cavities for terahertz thin film sensing",
+            "authors": ["Vaishnavi Sajeev", "Mangababu A", "Nityananda Acharyya", "Indu K N", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Communications",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Fano resonance-based CNT detection using THz MM",
+            "authors": ["Shreeya Rane", "Soumya Jyoti Mallick", "Saloni Sharma", "Nityananda Acharyya", "Bipin Kumar Gupta", "Dibakar Roy Chowdhury"],
+            "journal": "ACS Applied Optical Materials",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Electronically triggered tunable terahertz signal observed in LPCVD Grown single layer Graphene",
+            "authors": ["Saloni Sharma", "Shreeya Rane", "Z A Ansari", "Dibakar Roy Chowdhury", "Bipin Kumar Gupta"],
+            "journal": "Journal of Materials Chemistry C",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Role of Losses and Coupling in Bright-Dark Metasurfaces mimicking non-Hermitian parity-time symmetric systems",
+            "authors": ["Indu K N", "Ajinkya Punjal", "Naga Deepthi K N", "Shriganesh S Prabhu", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Tunable Broadband Terahertz Absorption and Shielding of Bioderived Graphitic Carbon Microspheres",
+            "authors": ["Gopal Kulkarni", "Shreeya Rane", "Nityananda Acharyya", "Dibakar Roy Chowdhury", "Vijaya Rao"],
+            "journal": "Ceramics International",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "High Performing TiO2 Flower-like Nanostructure Based on Flexible MWCNTs for Dual-band Terahertz Absorption",
+            "authors": ["Guruvendra Singh", "Subhash Nimanpore", "Nityananda Acharyya", "Shreeya Rane", "Dibakar Roy Chowdhury", "Bhanu Singh", "Jai S Tawale", "Rina Sharma", "Mukesh Jewariya"],
+            "journal": "Journal of Materials Chemistry C",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Realizing dynamically tunable topologically protected electromagnetic wave propagations",
+            "authors": ["Sambhu Jana", "Koijam Monika Devi", "Gopal Kulkarni", "Soumyajyothi Mallick", "Dibakar Roy Chowdhury"],
+            "journal": "New Journal of Physics",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Room temperature-grown tungsten oxide hybridized dipole cavities to realize thermally tunable terahertz surface plasmons",
+            "authors": ["Arun Jana", "Atul Khot", "Shreeya Rane", "Vaishnavi Sajeev", "T K Dongale", "T G Kim", "Dibakar Roy Chowdhury"],
+            "journal": "Optical Materials",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Design, optimization and characterization of Evanescent orders in Terahertz meta gratings",
+            "authors": ["Shreeya Rane", "Ajinkya Punjal", "Shriganesh Prabhu", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Continuum",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Reduced Graphene Oxide detection with hole arrays",
+            "authors": ["Vaishnavi Sajeev", "Shreeya Rane", "Debal Ghosh", "Nityananda Acharyya", "Palash Roy Chowdhury", "Arnab Mukherjee", "Dibakar Roy Chowdhury"],
+            "journal": "Scientific Reports",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Dynamic Terahertz wave propagation through Al/Ni based spin valve structures",
+            "authors": ["Nityananda Acharyya", "Shreeya Rane", "Vaishnavi Sajeev", "Subhajit Karmakar", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Accessing dual toroidal modes through polarization sensitive resonance hybridizations in terahertz metasurfaces",
+            "authors": ["Soumya Jyothi Mallick", "Shreeya Rane", "Nityananda Acharyya", "Dibakar Roy Chowdhury"],
+            "journal": "New Journal of Physics",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Fourier Transformed Terahertz Spectroscopy inspired detection of evanescent orders in all dielectric sub-wavelength grating",
+            "authors": ["Shreeya Rane", "Ajinkya Punjal", "Shriganesh Prabhu", "Dibakar Roy Chowdhury"],
+            "journal": "IEEE Journal of Selected Topics in Quantum Electronics",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Broadband THz absorption using nanosheets of Bi2Te3 grown on a transparent conductor",
+            "authors": ["Animesh Pandey", "Reena Yadav", "Sabyasachi Banerjee", "Sumeet Kumar", "Subhash Nimanpore", "Mukesh Jewariya", "Dibakar Roy Chowdhury", "N P Lalla", "Sudhir Husale"],
+            "journal": "Journal of Physical Chemistry C",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Multi-mode hybridizations in surface plasmon resonances excited in terahertz dipole cavities",
+            "authors": ["Sukhvinder Kaur", "Shreeya Rane", "Ravendra K Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "JOSA B",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Broadband terahertz linear cross polarization conversion in transmission mode using planar coupled metamaterials",
+            "authors": ["S Jagan Mohan", "Rakesh Sarkar", "Ajinkya Punjal", "Deepa Ghindani", "Dibakar Roy Chowdhury", "Shriganesh Prabhu", "Gagan Kumar"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "New Insights into APCVD Grown Monolayer MoS2 using Time-Domain Terahertz Spectroscopy",
+            "authors": ["Saloni Sharma", "Pooja Chauhan", "Shreeya Rane", "Dibakar Roy Chowdhury", "Bipin Kumar Gupta"],
+            "journal": "Scientific Reports",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Magnetotransport-induced non-contact terahertz detection of weak magnetic fields in optically-thin frequency-agile superlattice metasurfaces",
+            "authors": ["Subhajit Karmakar", "Nityananda Achayya", "Shreeya Rane", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Advanced Optical Materials",
+            "conference": "",
+            "year": 2023,
+            "doi": "10.1002/adom.202300220",
+            "publisher": ""
+        },
+        {
+            "title": "Obstruction immune topological propagation",
+            "authors": ["Sambhu Jana", "K Monika Devi", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Communications",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Coulomb interaction mediated tuning of surface plasmon resonances in terahertz hole arrays",
+            "authors": ["Vaishnavi Sajeev", "Arun Jana", "Soumya Jyothi Mallick", "Koijam Monika Devi", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Physics: Photonics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Temperature tunable electromagnetically induced transparency in terahertz metasurface fabricated on ferroelectric platform",
+            "authors": ["Koijam Monika Devi", "Arun Jana", "Shreeya Rane", "Palash Roy Choudhury", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Physics D: Applied Physics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Terahertz characterizations of solution-processed Ni-doped, Cu-doped, and undoped ZnO nanoparticles",
+            "authors": ["Arun Jana", "Tapas Das", "Shreeya Rane", "Koijam Monika Devi", "Asim Guchhait", "Dibakar Roy Chowdhury"],
+            "journal": "Advances in Natural Sciences: Nanosciences and Nanotechnology",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Resonant Toroidal metasurface as a platform for thin film and biomaterial detection",
+            "authors": ["Sukhvinder Kaur", "Arun Jana", "Subhajit Karmakar", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Applied Optics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Polarization independent dynamic modulation of slow light characteristics via electromagnetically induced transparency in terahertz metasurfaces",
+            "authors": ["Koijam Monika Devi", "Arun Jana", "Ajinkya Punjal", "Nityananda Acharya", "Shriganesh Prabhu", "Dibakar Roy Chowdhury"],
+            "journal": "New Journal of Physics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Simultaneous Excitation of odd and even order resonances in plasmonic metasurfaces",
+            "authors": ["Soumya Jyothi Mallick", "Arun Jana", "Nityananda Acharyya", "Dibakar Roy Chowdhury"],
+            "journal": "Applied Optics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Study of birefringence inside nanocrystalline Zinc Oxide thin films using terahertz spectroscopy",
+            "authors": ["Rahul Godiwal", "Subhash Nimanpore", "Guruvandra Singh", "Amit Kumar Gangwar", "Ajay Verma", "Dibakar Roy Chowdhury", "Pretam Singh", "Mukesh Jewariya"],
+            "journal": "Optical Materials",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Magnetospectroscopy of terahertz surface plasmons in subwavelength perforated superlattice thin-films",
+            "authors": ["Subhajit Karmakar", "Deepak Kumar", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2022,
+            "doi": "10.1063/5.0104789",
+            "publisher": ""
+        },
+        {
+            "title": "Broadside coupling enabled insulator to metal transition in Vanadium-dioxide based multi-layer terahertz metasurfaces",
+            "authors": ["Soumyajyoti Mallick", "Dibakar Roy Chowdhury"],
+            "journal": "Euro Physics Letters",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Role of Unit cell defects in terahertz topological ring resonators",
+            "authors": ["Sambhu Jana", "K Monika Devi", "Dibakar Roy Chowdhury"],
+            "journal": "JOSA B",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "External bias dependent dynamic Terahertz propagation through BiFeO3 film",
+            "authors": ["Arun Jana", "Shreeya Rane", "Palash Roy Choudhury", "Dibakar Roy Chowdhury"],
+            "journal": "Nanotechnology",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Graphene and metal hybridized terahertz metasurfaces toward tunable plasmon-induced transparency effects",
+            "authors": ["Indu Krishna K N", "Monika Koijam Devi", "Dibakar Roy Chowdhury"],
+            "journal": "Current Applied Physics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Phase Engineered Hybrid Terahertz Metasurfaces",
+            "authors": ["Sukhvinder Kaur", "Subhajit Karmakar", "Arun Jana", "Shreeya Rane", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "iScience",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Broadband Terahertz characterization of Graphene Oxide films fabricated on flexible substrates",
+            "authors": ["Shreeya Rane", "Avinash Kothuru", "Arun Jana", "Koijam Monika Devi", "Sanket Goel", "Shriganesh Prabhu", "Dibakar Roy Chowdhury"],
+            "journal": "Optical Materials",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Photo induced dynamic tailoring of near-field coupled terahertz metasurfaces and its effect on Coulomb parameters",
+            "authors": ["Deepak Kumar", "Manoj Gupta", "Yogesh Shrivastava", "Koijam Monika Devi", "Ranjan Kumar", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Optics",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Effect of asymmetry on topological photonic crystals comprising of dielectric rod structures",
+            "authors": ["Sambhu Jana", "K Monika Devi", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Communications",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Magnetotransport modulation of Fano resonances in optically thin terahertz superlattice metasurfaces",
+            "authors": ["Subhajit Karmakar", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Physics D: Applied Physics",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Demonstration of toroidal metasurfaces through near-field coupling of bright mode resonators",
+            "authors": ["Soumyajyoti Mallick", "Nitin Chourasia", "Rakesh Singh", "Dibakar Roy Chowdhury"],
+            "journal": "Applied Physics Express",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Hybridization of Dark resonating states in terahertz metasurfaces",
+            "authors": ["Sukhvinder Kaur", "Subhajit Karmakar", "Arun Jana", "Ravendra K Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2021,
+            "doi": "10.1063/5.0047895",
+            "publisher": ""
+        },
+        {
+            "title": "Ultrasensitive Terahertz sensing with broadside coupled polarization insensitive graphene metamaterial cavities",
+            "authors": ["Sukhvinder Kaur", "Subhajit Karmakar", "K. Monika Devi", "Ravendra K. Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Optik",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Investigation of dynamical optical study of Bi2Te3 topological insulators thin film based on MWCNT flexible paper using terahertz spectroscopy",
+            "authors": ["Subhash Nimanpore", "Animesh Pandey", "G Singh", "B P Singh", "Dibakar Roy Chowdhury", "Y U Jeong", "Rina Sharma", "Sudhir Husale", "Mukesh Jewariya"],
+            "journal": "Optical Materials",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Topological Edge states in an all dielectric terahertz photonic crystals",
+            "authors": ["Monika Koijam Devi", "Sambhu Jana", "Dibakar Roy Chowdhury"],
+            "journal": "Optical Materials Express",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Elemental, Optical, and Time-Domain Terahertz Spectroscopy Studies on Methyl pHydroxybenzoate Single Crystal for THz Applications",
+            "authors": ["Deabrata Nayak", "N Vijayan", "Manju Kumari", "Pargam Vashishtha", "Sudha Yadav", "Mukesh Jewariya", "Dibakar Roy Chowdhury", "Govind Gupta", "R. P. Pant"],
+            "journal": "Journal of Electronic Materials",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Dynamically tunable slow light characteristics in graphene-based Terahertz metasurfaces",
+            "authors": ["Deepak Kumar", "Monika Koijjam Devi", "Ranjan Kumar", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Communications",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Magnetic wires: transverse magnetism in one-dimensional plasmonic system",
+            "authors": ["Subhajit Karmakar", "Deepak Kumar", "Bishnu P Pal", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Letters",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Modulating Extraordinary Terahertz Transmissions in Multilayer Plasmonic Metasurfaces",
+            "authors": ["Sabyasachi Banerjee", "Nakka Lok Abhishikth", "Subhajit Karmakar", "Deepak Kumar", "Shreeya Rane", "Sanket Goel", "Abul K Azad", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Optics",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Thin Film Sensing with Terahertz Metamaterials",
+            "authors": ["Dibakar Roy Chowdhury", "Parama Pal", "Bishnu Pal"],
+            "journal": "Asian Journal of Physics",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Growth and Characterization of Single Crystals of L-Histidine Hydrochloride Monohydrate for Nonlinear Optical Applications",
+            "authors": ["S Yadav", "M Kumar", "D Nayak", "S Banerjee", "N Khan", "S Nimanpure", "G Moona", "R Sharma", "B K. Sharma", "D. Roy Chowdhury", "N. Vijayan", "M Jewariya"],
+            "journal": "Journal of Electronic Materials",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Lattice Induced Plasmon Hybridization in Metamaterials",
+            "authors": ["Subhajit Karmakar", "Deepak Kumar", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Optics Letters",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Multifold coupling Enabled High Quality factor Toroidal resonances in Terahertz Metasurfaces",
+            "authors": ["Deepak Kumar", "Surya Pranav Ambatipudi", "Sabyasachi Banerjee", "Ranjan Kumar", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Applied Physics",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Strong terahertz Matter Interaction induced Ultrasensitive Sensing in Fano Cavity based Metamaterials",
+            "authors": ["Subhajit Karmakar", "Deepak Kumar", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of Physics D: Applied Physics",
+            "conference": "",
+            "year": 2020,
+            "doi": "10.1088/1361-6463/ab94e3",
+            "publisher": ""
+        },
+        {
+            "title": "Bandwidth Enhancement of Planar Terahertz Metasurfaces via overlapping of dipole modes",
+            "authors": ["Deepak Kumar", "Sabyasachi Banerjee", "Ranjan Kumar", "Dibakar Roy Chowdhury"],
+            "journal": "Plasmonics 15, 1925 (2020) DOI: 10.1007/s11468-020-01222-7",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Polarization Independent double band electromagnetically Induced Transparency effect in terahertz metamaterials",
+            "authors": ["Rakesh Sarkar", "K Monica Devi", "Dipa Ghindani", "Shriganesh Prabhu", "Dibakar Roy Chowdhury", "Gagan Kumar"],
+            "journal": "Journal of Optics",
+            "conference": "",
+            "year": 2020,
+            "doi": "10.1088/2058-9565/ab3b7c",
+            "publisher": ""
+        },
+        {
+            "title": "Resonance Phenomena in Electromagnetic Metamaterials for the Terahertz Metamaterials: A Review",
+            "authors": ["Sabyasachi Banerjee", "Bishnu Pal", "Dibakar Roy Chowdhury"],
+            "journal": "Journal of ElectroMagnetic Waves and Applications",
+            "conference": "",
+            "year": 2020,
+            "doi": "10.1080/09205071.2020.1713227",
+            "publisher": ""
+        },
+        {
+            "title": "Fano Resonances in THz Metamaterials",
+            "authors": ["Subhajit Karmakar", "Ravi Varshney", "Dibakar Roy Chowdhury", "Bishnu Pal"],
+            "journal": "Asian Journal of Physics",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Ultra Thin Sub-wavelength Film Sensing through the excitation of Dark Modes in Terahertz Metasurfaces",
+            "authors": ["Sabyasachi Banerjee", "C. S. Amith", "Deepak Kumar", "Ganesh Damerla", "Anil Kumar Choudhary", "Sanket Goel", "Bishnu Pal and Dibakar Roy Chowdhury"],
+            "journal": "Optics Communications",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Deep Sub-wavelength Coupling Induced Fano Resonances in Symmetric Terahertz Metamaterials",
+            "authors": ["Subhajit Karmakar", "Sabyasachi Banerjee", "Deepak Kumar", "Girish Kamble", "Ravendra Varshney", "Dibakar Roy Chowdhury"],
+            "journal": "Physica Status Solidi: Rapid Research Letters",
+            "conference": "",
+            "year": 2019,
+            "doi": "10.1002/pssr.201900370",
+            "publisher": ""
+        },
+        {
+            "title": "Gradual Cross Polarization Conversion of Transmitted Waves in Near Field Coupled Planar Terahertz Metamaterials",
+            "authors": ["S Jagan Mohan Rao", "Rakesh Sarkar", "Gagan Kumar", "Dibakar Roy Chowdhury"],
+            "journal": "OSA Continuum",
+            "conference": "",
+            "year": 2019,
+            "doi": "10.1364/CONTINUUM.2.000603",
+            "publisher": ""
+        },
+        {
+            "title": "Theoretical Investigation of Active Modulation and Enhancement of Fano Resonance in THz Metamaterials",
+            "authors": ["Subhajit Karmakar", "Ravi Varshney", "Dibakar Roy Chowdhury"],

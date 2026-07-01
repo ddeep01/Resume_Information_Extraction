@@ -1,0 +1,759 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Abhisek Ghosal",
+        "current_designation": "",
+        "total_experience": "9 years 3 months",
+        "email": "abhisekghosal419@gmail.com",
+        "phone": "+91-9734292060, +91-6296966678",
+        "date_of_birth": "1993-04-29",
+        "gender": "Male",
+        "address": "Indraprastha, Baburbag. P.O. Rajbati. Dist. Burdwan, West Bengal. PIN 713104",
+        "linkedin": "",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "B.A.",
+            "specialization": "English",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "62.5%"
+        },
+        {
+            "degree": "M.A.",
+            "specialization": "English",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "7.18 (CGPA)"
+        },
+        {
+            "degree": "M.Phil.",
+            "specialization": "Interface between Crime and Globalization in Select South Asian Fictions",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "79%"
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Critical Interventions into Energopolitics: Blue Humanities and Geocriticism of Minor Writings",
+            "institution": "IIT Kharagpur",
+            "board_university": "UGC CBSE National Eligibility Test (NET) (English)",
+            "year": "2022 (Awarded)",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "W.B.B.S.E.",
+            "specialization": "",
+            "institution": "",
+            "board_university": "West Bengal Board of Secondary Education",
+            "year": "2009",
+            "cgpa_percentage": "76.87%"
+        },
+        {
+            "degree": "W.B.C.H.S.E.",
+            "specialization": "",
+            "institution": "",
+            "board_university": "West Bengal Council of Higher Secondary Education",
+            "year": "2011",
+            "cgpa_percentage": "78.6%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "Christ (Deem to be University), BGR Campus, Bengaluru, Karnataka, India",
+            "start_date": "2023-10-01",
+            "end_date": "",
+            "duration": "9 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "OP Jindal Global University",
+            "start_date": "2023-07-01",
+            "end_date": "",
+            "duration": "4 months",
+            "description": ""
+        },
+        {
+            "designation": "Teaching Assistantship (TA)",
+            "organization": "IIT Kharagpur",
+            "start_date": "2019-06-01",
+            "end_date": "2023-07-01",
+            "duration": "4 years",
+            "description": ""
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "Mapping Contemporary South Asian Children's Fiction: Contentions and Contestations in Mitali Perkins' You Bring the Distant Near and Sowmya Rajendran's The Lesson",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "SARE: Southeast Asian Review of English, University of Malaya, Kuala Lumpur, Malaysia",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Love in Transit: The Plasticity of Love in Mohsin Hamid's Exit West and Sharon Bala's The Boat People",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "SARE: Southeast Asian Review of English, University of Malaya, Kuala Lumpur, Malaysia",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Making Sense of 'Online Pedagogy' after COVID-19 Outbreak",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The CEA Critic, Sponsored by John Hopkins University Press, Baltimore, Maryland, US.",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "What's Wrong with the Global? The Interconnected Roles of Inequality, Migrancy, New Global Studies",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Published by De Gruyter, Germany",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Making Sense of Pandemic Covid-19 and its Affect(abilities) in the Indian Context",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "eTropic: Electronic Journal of Studies in the Tropics, James Cook University, Australia",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "RECONFIGURING 'ASIAN MODERNITY': NEGOTIATING TANTRIC EPISTEMOLOGICAL TRADITIONS",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "SYMPLOKE, Sponsored by University of Nebraska Press",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Earth(ing) Kashmir: Geo-Tropicality as a Means of Thinking beyond Stratified Geopolitics",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "eTropic: Electronic Journal of Studies in the Tropics, James Cook University, Australia",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Whose Disability Is It Anyway? Locating Postcolonial Dis(abilities) in Indra Sinha's Animal's People",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Studies in the Novel, Q1 Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Blue (infra)structuralism: Blue Postcoloniality, New Earth, and the Ethics of 'Desiring-production'",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "SYMPLOKE, Sponsored by University of Nebraska Press",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Onto-existential Exhaustion and Mahāvākyas: Indic Philosophical Reflections",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Angelaki, Q1 Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Making Sense of Life-fold(ing): How does the Ocean Think It Middles?",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Deleuze and Guattari Studies, Q1 Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Prize Culture, Postcolonial Exotic and Marketability in Arvind Adiga's The White Tiger",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "LIT: Literature Interpretation Theory, Q3 Submitted 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Precarious Oceans and Vulnerability Micropolitics of Care in Romesh Gunesekera's Reef",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "SARE, Q2 Published 0127-046X 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Queering Straited Food Politics: Negotiating Postg(l)ocal Precarity in Romesh Gunesekera's Reef",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "E-Tropic, Q1 In Press 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Remapping Oceanic Disaster Locating Postcolonial Haecceities in Sonali Deraniyagala's Wave",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Journal of Indian Ocean World Studies / ISLE (Oxford), John Hopkins University Press, Q2 Submitted 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Re-concept(ing) Outside Indic Interventions into Critical Environments",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Environment, Space, Place, Q3 Submitted 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Interfacing Postg(l)ocal Biopolitics, Energopolitics, Earth(ing): Negotiating Helon Habila's Oil on Water",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Modern Fiction Studies, John Hopkins University Press, Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Gendered Space: Negotiating Politics of Female Sexuality in Lipstick Under My Burkha and Parched",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Journal of Postcolonial Writing, Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Re-centring from the Margin: An Attempt to Reconstruct the Identity of Strumpets, Chancing upon Patriarchal Politics",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "International Journal of Sanskrit Research (Vol-2, Issue-3) Part B, Published 2016 (May)",
+            "conference": "",
+            "year": 2016,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Reckoning on Aesthetic Dissension: Was Ānandavardhana an Iconoclastic Theoretician?",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The Criterion: An International Journal in English Vol. 8, Issue-II, Published 2017 (April)",
+            "conference": "",
+            "year": 2017,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Appraising 'Green Development': An Ecocritical Reading of Temsula Ao's Laburnum for My Head",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The Creative Launcher Vol. 2, Issue VI, Published 2018 (February)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Questioning the Problematic Interactions between Parenting and Acculturation in Select South Asian Diasporic Novels",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Daath Voyage: An International Journal of Interdisciplinary Studies in English, Published 2018 (March)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Interrogating Mohsin Hamid's Interventions into Refugee Politics in Exit West",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Gnosis: An International Journal of English Language and Literature, Published 2018 (April)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Indian Aesthetic Interventions into Freudian 'Uncanny': An Investigation",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Journal of Higher Education and Research Society: A Referred International, Published 2018 (April)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Homeland Hoodwinks Vis-à-vis Home Holds Back in Ali Sethi's The Wish Maker: Negotiating with Mourning and Melancholia",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Literary Endeavour: An International Journal of English Language, Literature and Criticism, Published 2018 (July)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Investigating the Interface between Organ Trading and Cyberculture in Manjula Padmanabhan's Harvest",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Gnosis: An International Journal of English Language and Literature (Special Issue on New Literatures), Published 2018 (June)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Parenting, Crime and Geopolitics at a Crossroads: Negotiating Shahnaz Bashir's The Half Mother: A Novel",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Daath Voyage: An International Journal of Interdisciplinary Studies in English, Published 2018 (September)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Interplay among Crime, Immigration and Human Rights in Marina Budhos's Ask Me No Question",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Gnosis: An International Journal of English Language and Literature (Special Issue on New Literatures), Published 2018 (September)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Relegating Humanity to Bare Body: A Posthumanistic Intervention into Anuk Arudpragasam's The Story of a Brief Marriage",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The Achievers Journal: Journal of English Language, Literature and Culture, Published 2018 (September)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Interrogating Parenting Representation in Internal Diasporic Ars Artium, An",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "(ISSN: 2319-7889 Print; 2395-2423 Online), Published 2019 (January)",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Transnational Organized Crime, Islamophobia and Globalization in Mohsin Hamid's The Reluctant Fundamentalist: Contentions and Contestations",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "PostScriptum: An Interdisciplinary Journal of Literary Studies, Published 2019 (January)",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Cartography of Crime: Spatial and Topographical Contentions and Contestations",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Pakistaniaat: A Journal of Pakistan Studies, University of North Texas, Denton, USA, Published 2019",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Problematizing Criminality: A Criminological Intervention into Charles Dickens's Great Expectations",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Appropriations, Bankura Christian College, West Bengal, Published 2017 (December)",
+            "conference": "",
+            "year": 2017,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Investigating the Interface between Organized Crime and Globalization in Ayad Akhtar's Disgraced",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Apperception - Journal of the Department of English, Visva-Bharati, West Bengal, Published 2018 (March)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Exploring the Interactions between Memory and Melancholy in Romesh Gunesekera's The Match: Negotiating Sri Lankan Cuisine and Cricket",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The University Journal of Arts, IIS University (Deemed-to-be a University), Jaipur, Published 2018 (July)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Questioning the Interface between Border Politics and Hate Crime in Mohsin Hamid's Exit West",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Creative Forum: A Journal of Literary & Critical Writings, Published 2018 (Jan-June) Vol. 31 No. 1",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Questioning Tabish Khair's Attempts at Dismantling Gender Stereotype in Jihadi Jane",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Middle Flight: Journal of English Literature and Culture, Sukumar Sen Mahavidyalaya, West Bengal, Published 2018 (September)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Victims at Border: Questioning the Politics of Victimization in Mohsin Hamid's Exit West",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "MZU Journal of Literature and Cultural Studies, Mizoram University, Mizoram, Published 2018 (December)",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Citizenship, Censorship and Postnationality at a Crossroads: Negotiating Deepak Unnikrishnan's Temporary People",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Journal of Department of English Vidyasagar University, West Bengal, Published 2019 (March)",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Interrogating the Interface between Crime and Media in Saba Imtiaz's Karachi! You're Killing Me",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "English Forum, Gauhati University, Assam, Published 2019",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Re-routing Health Humanities: Indian Āyurvedic Medical Systems",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "MZU Journal of Literature and Cultural Studies, Published 2020",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Mapping Indic Humanism(s) in Vedic Medical and Post-Vedic Tantric Epistemologies",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The Routledge Companion to Humanism and Literature, Published 2022",
+            "conference": "",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Post-9/11, Cultural Amnesia and Representation(s) of Islamophobia in Ayad Akhtar's Disgraced",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "History and Myth: Postcolonial Dimensions, Published 2021",
+            "conference": "",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Kingship and Vedic Literature: Inflections, Deflections and Reflections",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "[Invited] The Monarch and the (Non)human in Literature and Cinema: Western and Global Perspectives, Published 2023",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Re-cartographizing Nationalism: Postcolonial Nation and Nationalism in South Asia",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "[Accepted for Publication] Routledge, 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Violence, Women's Bodies and the War of Liberation (1971): Schizoanalyzing Shaheen Aktar's Taalash (The Search)",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Horror Capital, Submitted 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "(Inter)networking Cybersexualities, Post(g)localities and 'Minor' Becomings: Negotiating Richa Kaul Padte's Cyber Sexy: Rethinking Pornography",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Routledge History of Senses, Accepted for Publication 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Remapping Sonic (Infra)structure: Locating Acoustic Affects in Ānandavardhana's Dhvanyāloka",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Routledge Companion to Literature and Sound, Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Nomadism, Borders and Geoerotics: Postcolonial Rhizomatic Reading of Kamila Shamsie's Kartography Identity Book Project",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Accepted for Publication 2025 Westphalia Press",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Justice, Ethics and Crime at a Crossroads: Negotiating Vijay Tendular's Silence! The Court Is In Session",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "An Anthology of Critical Essays on Modern Indian Dramatists, Published 2020",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Lesbian Sliding into Post-Queer: Negotiating the Problematic of Homosexuality in Indian Literature: Issues and Representation",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "AABS Publishing House, Kolkata, Published 2018",
+            "conference": "",
+            "year": 2018,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Text as Archive: Reconfiguring the Intersections among History, Identity and Bio-power in Śūdraka's Mṛchchhakatika",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Śudraka's Mṛcchakatika: A Reader, Published 2023",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Cyber Threat Cuts Across Post-9/11 Networked Society in Hari Kunzru's Transmission",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Off the Line: Transgression and Its Representation in Literature and Culture, Published 2020",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Culture, History and Politics: South Asian Narratives",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Asiatic: IIUM Journal of English Language and Literature, International Islamic University Malaysia, Scopus; Web of Science; EBSCO; MLA, Published 2020",
+            "conference": "",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "The Routledge Companion of Pakistani Anglophone Writing (Aroosa Kanwal and Aslam Saiyma Eds)",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Summerhill IIAS Review Vol. XXV, No. 2, Sponsored by Indian Institute of Advanced Studies, Shimla, India, UGC CARE listed, Published 2019",
+            "conference": "",
+            "year": 2019,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "An Introduction to Blue Humanities (Symploke, University of Nebraska Press)",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Accepted to be Published 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "An Introduction to Indian Aesthetics: History, Theory, and Theoreticians (Bloomsbury India)",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Sophia Springer 63.1 Q1 Published 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "A Thousand Tiny Cuts, California: California University Press",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "SARE Q2 Submitted 2024",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Deleuze and Time By Robert W. Luzecky and Daniel W. Smith",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "French Studies Q2 Accepted for Publication 2025",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Plasti(e)cological Thinking: Working out an (Infra)structural Geoerotics",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Vernon Press, Spain, Published 2023",
+            "conference": "",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Remapping Energopolitics: Blue Humanities, Geophilosophy and Sri Lankan Minor Writings",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Routledge, UK, Published 2024 (Tentative)",
+            "conference": "",
+            "year": 2024,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Cartographies of Postcolonial Vegetal Politics: Deleuze, Guattari and Mathema of Dr. Abhisek Ghosal",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Lexington Books, an Imprint of Rowman and Littlefield In Press 2025 (Tentative)",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Vegetality",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "[Monograph] Lexington Books, an Imprint of Rowman and Littlefield In Press 2025 (Tentative)",
+            "conference": "",
+            "year": 2025,
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [],
+    "patents": [],
+    "books": [
+        {
+            "title": "Plasti(e)cological Thinking: Working out an (Infra)structural Geoerotics",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "publisher": "Vernon Press, Spain"
+        },
+        {
+            "title": "Remapping Energopolitics: Blue Humanities, Geophilosophy and Sri Lankan Minor Writings",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "publisher": "Routledge, UK (Tentative)"
+        },
+        {
+            "title": "Cartographies of Postcolonial Vegetal Politics: Deleuze, Guattari and Mathema of Dr. Abhisek Ghosal",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "publisher": "Lexington Books, an Imprint of Rowman and Littlefield (Tentative)"
+        },
+        {
+            "title": "Vegetality",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "publisher": "Lexington Books, an Imprint of Rowman and Littlefield (Tentative)"
+        }
+    ],
+    "book_chapters": [
+        {
+            "title": "Mapping Indic Humanism(s) in Vedic Medical and Post-Vedic Tantric Epistemologies",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The Routledge Companion to Humanism and Literature"
+        },
+        {
+            "title": "Post-9/11, Cultural Amnesia and Representation(s) of Islamophobia in Ayad Akhtar's Disgraced",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "History and Myth: Postcolonial Dimensions"
+        },
+        {
+            "title": "Kingship and Vedic Literature: Inflections, Deflections and Reflections",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "The Monarch and the (Non)human in Literature and Cinema: Western and Global Perspectives"
+        },
+        {
+            "title": "Re-cartographizing Nationalism: Postcolonial Nation and Nationalism in South Asia",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Routledge, 2024 (Tentative)"
+        },
+        {
+            "title": "Violence, Women's Bodies and the War of Liberation (1971): Schizoanalyzing Shaheen Aktar's Taalash (The Search)",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Horror Capital"
+        },
+        {
+            "title": "(Inter)networking Cybersexualities, Post(g)localities and 'Minor' Becomings: Negotiating Richa Kaul Padte's Cyber Sexy: Rethinking Pornography",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Routledge History of Senses"
+        },
+        {
+            "title": "Remapping Sonic (Infra)structure: Locating Acoustic Affects in Ānandavardhana's Dhvanyāloka",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Routledge Companion to Literature and Sound"
+        },
+        {
+            "title": "Nomadism, Borders and Geoerotics: Postcolonial Rhizomatic Reading of Kamila Shamsie's Kartography Identity Book Project",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Westphalia Press (Tentative)"
+        },
+        {
+            "title": "Justice, Ethics and Crime at a Crossroads: Negotiating Vijay Tendular's Silence! The Court Is In Session",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "An Anthology of Critical Essays on Modern Indian Dramatists"
+        },
+        {
+            "title": "Lesbian Sliding into Post-Queer: Negotiating the Problematic of Homosexuality in Indian Literature: Issues and Representation",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "AABS Publishing House, Kolkata"
+        },
+        {
+            "title": "Text as Archive: Reconfiguring the Intersections among History, Identity and Bio-power in Śūdraka's Mṛchchhakatika",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Śudraka's Mṛcchakatika: A Reader"
+        },
+        {
+            "title": "Cyber Threat Cuts Across Post-9/11 Networked Society in Hari Kunzru's Transmission",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Off the Line: Transgression and Its Representation in Literature and Culture"
+        },
+        {
+            "title": "Culture, History and Politics: South Asian Narratives",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Asiatic: IIUM Journal of English Language and Literature, International Islamic University Malaysia, Scopus; Web of Science; EBSCO; MLA"
+        },
+        {
+            "title": "The Routledge Companion of Pakistani Anglophone Writing (Aroosa Kanwal and Aslam Saiyma Eds)",
+            "authors": ["Dr. Abhisek Ghosal"],
+            "journal": "Summerhill IIAS Review Vol. XXV, No. 2, Sponsored by Indian Institute of Advanced Studies, Shimla, India, UGC CARE listed"
+        },
+        {
+            "title": "An Introduction to Blue Humanities (Symploke, University of

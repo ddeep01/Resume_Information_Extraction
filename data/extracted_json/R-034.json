@@ -1,0 +1,276 @@
+{
+    "personal_information": {
+        "full_name": "Kritishnu Sanyal",
+        "current_designation": "",
+        "total_experience": "5 years",
+        "email": "sanyalkritishnu@gmail.com, d18065@students.iitmandi.ac.in",
+        "phone": "+91-8278784544(M)",
+        "date_of_birth": "May 03, 1988",
+        "gender": "Male",
+        "address": "6/3 M.C. Ghosh Lane, Howrah, West Bengal, PIN - 711101",
+        "linkedin": "",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD. Research Scholar",
+            "specialization": "",
+            "institution": "School of Humanities and Social Sciences (SHSS), Indian Institute of Technology Mandi",
+            "board_university": "Indian Institute of Technology Mandi, Himachal Pradesh, India",
+            "year": "2019 - Present",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.A.",
+            "specialization": "Economics",
+            "institution": "Jadavpur University, West Bengal",
+            "board_university": "",
+            "year": "2008 - 10",
+            "cgpa_percentage": "First Class (63%)"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Economics honours, Mathematics and Statistics general",
+            "institution": "University of Calcutta, West Bengal",
+            "board_university": "",
+            "year": "2005 - 08",
+            "cgpa_percentage": "Second Class (55.625%)"
+        },
+        {
+            "degree": "Higher Secondary Examination",
+            "specialization": "",
+            "institution": "West Bengal Council of Higher Secondary Education (WBCHSE)",
+            "board_university": "",
+            "year": "2003 - 2005",
+            "cgpa_percentage": "First division (72.3%)"
+        },
+        {
+            "degree": "Madhyamik Examination",
+            "specialization": "",
+            "institution": "West Bengal Board of Secondary Education (WBBSE)",
+            "board_university": "",
+            "year": "2003",
+            "cgpa_percentage": "First division (80.75%)"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Associate",
+            "organization": "Indian Institute of Technology Mandi",
+            "start_date": "2018 - 2019",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor of Economics (in Faculty Development Programme vacancy)",
+            "organization": "Susil Kar College, Calcutta University",
+            "start_date": "2012 - 2014",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Guest Lecturer of Economics",
+            "organization": "Vijaygarh Jyotish Ray College, Calcutta University",
+            "start_date": "2011 - 2012",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Project Fellow in the Department of Economics",
+            "organization": "Jadavpur University",
+            "start_date": "2010 - 2011",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "research_interests": [
+        "Environmental economics",
+        "Ecological economics",
+        "Economic anthropology",
+        "Economics of climate change"
+    ],
+    "publications": [
+        {
+            "title": "The 'Agricultural Knowledge Initiative' and Future of Indian Food Scenario: Much Need to Worry",
+            "authors": [
+                "Sanyal, K"
+            ],
+            "journal": "",
+            "conference": "",
+            "year": "2015",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "How vulnerable are India's the Himalayan Region States to Climate Change?",
+            "authors": [
+                "Barua, A",
+                "Sanyal, K",
+                "et al."
+            ],
+            "journal": "Economic and Political Weekly (EPW- Engage)",
+            "conference": "",
+            "year": "2021",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "So Near Yet So Far: A Narrative from a Forest-dwelling Gaddi Community in Chamba, Himachal Pradesh",
+            "authors": [
+                "Sanyal. K",
+                "Kaur, A",
+                "Dasgupta,S"
+            ],
+            "journal": "Ecology, Economy and Society - the INSEE Journal 4, no. 2354-2021-249 (2021)",
+            "conference": "",
+            "year": "2021",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Stakeholders' varying ordinal perceptions of forest ecosystem services: A case study of Chamba, Himachal Pradesh, India",
+            "authors": [
+                "Sanyal. K",
+                "Dasgupta, S"
+            ],
+            "journal": "'Redefining the Diversity and Dynamism of Natural Resources Management in the Global South (Volume VI)', Ostrom Center for the Advanced Study in Natural Resource Governance, Thailand, Elsevier",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "Vulnerability Assessment of Indian Himalayan Region (IHR) Using a Common Methodological Framework",
+            "description": "under Indian Himalayan Climate Adaptation Framework (IHCAP), in collaboration with the Department of Science and Technology (DST), Government of India and Swiss Development Cooperation (SDC)",
+            "technologies": [],
+            "duration": "2018-19"
+        }
+    ],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [
+        {
+            "title": "People's place in the existing state-run forest management: A study of limited capability in Himachal Pradesh, India",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "17th Biennial Conference of International Society for Ecological Economics (ISEE)",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "People's Place in State-Run Forest Management: A History of Limited Capability, Its Effects and Possible Avenues for Improvements, Studied In Himachal Pradesh, India",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "29th Annual International Sustainable Development Research Society (ISDRS) Conference",
+            "year": 2023,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "People's place in the existing state-run forest management regime: A study of limited capability in Himachal Pradesh, India",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "Second Global Conference on Biodiversity and Human Diversity",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "From 'we were always unheard' to 'raise your voice girl, otherwise they won't listen to you': The changing saga of the ever-restricted agency of the Gaddi women of Himachal Pradesh in India",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "28th Annual International Sustainable Development Research Society (ISDRS) Conference",
+            "year": 2022,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "The role of community perception on ecosystem service valuation and forest management practices: A case study of the Gaddi community of Himachal Pradesh in India",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "11th INSEE (Indian Society for Ecological Economics) Biennial Conference",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "The role of community perception on ecosystem service valuation and forest management practices: A case study of the Gaddi community of Himachal Pradesh in India",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "27th Annual Conference International Sustainable Development Research Society (ISDRS)",
+            "year": 2021,
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Community perception of ecosystem services and its valuation: A case study of Gaddi community in Himachal Pradesh",
+            "authors": [
+                "Sanyal"
+            ],
+            "journal": "",
+            "conference": "International Virtual Conference on Biodiversity and Ecosystem Services in a Climate Change Perspective",
+            "year": 2020,
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "awards": [],
+    "certifications": [
+        {
+            "name": "Senior Research Fellowship, Ministry of Human Resource Development (MHRD), Government of India",
+            "organization": "",
+            "year": "March 2021 to February 2024"
+        },
+        {
+            "name": "Junior research fellowship, Ministry of Human Resource Development (MHRD), Government of India",
+            "organization": "",
+            "year": "February 2019 to February 2021"
+        }
+    ],
+    "skills": [],
+    "languages": [
+        "Bangla",
+        "English",
+        "Hindi"
+    ],
+    "references": [
+        {
+            "name": "Dr Shyamasree Dasgupta, Associate Professor",
+            "organization": "Indian Institute of Technology Mandi",
+            "email": "shyamasree@iitmandi.ac.in"
+        },
+        {
+            "name": "Dr Ramna Thakur, Associate Professor",
+            "organization": "Indian Institute of Technology Mandi",
+            "email": "ramna@iitmandi.ac.in"
+        },
+        {
+            "name": "Dr Devika Sethi, Associate Professor",
+            "organization": "Indian Institute of Technology Mandi",
+            "email": "devika@iitmandi.ac.in"
+        }
+    ]
+}

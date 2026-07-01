@@ -1,0 +1,167 @@
+{
+    "personal_information": {
+        "full_name": "Doyel Mukherjee",
+        "current_designation": "",
+        "total_experience": "2 years 10 months",
+        "email": "doyel.mukherjee90@gmail.com",
+        "phone": "+919831700331",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Swastik-II 56 Panchanantala Road, Kolkata-700041",
+        "linkedin": "www.linkedin.com/in/doyelmukherjee-prodhan",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Pursuing Ph.D in Management (Research Scholar)",
+            "specialization": "",
+            "institution": "University of Engineering & Management",
+            "board_university": "",
+            "year": "04/2024 - present",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "MBA (Marketing, Finance)",
+            "specialization": "",
+            "institution": "Heritage Business School",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "8.22"
+        },
+        {
+            "degree": "B-Tech (Computer Science)",
+            "specialization": "",
+            "institution": "WBUT",
+            "board_university": "",
+            "year": "2012",
+            "cgpa_percentage": "8.55"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Adjunct Faculty in Management",
+            "organization": "iLead",
+            "start_date": "03/2024 - present",
+            "end_date": "",
+            "duration": "",
+            "description": "Teaching Expertise: Conducting classes and tutorials on Marketing Management and Organisational Behaviour. Designing and delivering engaging course materials, outlines, and presentations for effective student comprehension. Assessment and Evaluation: Preparing question papers, quizzes and assignments for continuous evaluation processes and End Semester examination, gauging student progress."
+        },
+        {
+            "designation": "Research Associate",
+            "organization": "Globsyn Business School",
+            "start_date": "10/2022 - 03/2024",
+            "end_date": "",
+            "duration": "",
+            "description": "Teaching Expertise: Conducted classes and tutorials on marketing and analytics, specializing in Power Bi, advanced Excel, and SQL. Designed and delivered engaging course materials, outlines, and presentations for effective student comprehension. Curriculum Development: Contributed to research and development initiatives, enhancing the course content in Management & Liberal Arts. Led the design and development of the Program architecture for PGDM- Business Analytics, ensuring a comprehensive curriculum. Research Contributions: Developed research-based content for the GBS Blog, showcasing expertise and insights in the field. Interactive Teaching Methods: Designed, developed, and delivered dynamic classes on newsroom activities and Group Discussions (GDs), fostering an interactive learning environment. Assessment and Evaluation: Prepared quizzes and assignments for continuous evaluation processes, gauging student progress. Crafted end-semester examination question papers and actively participated in the evaluation of answerscripts. Actively participated in invigilating End-Semester examinations and contributed to continuous evaluation processes."
+        },
+        {
+            "designation": "Assistant Manager, Student Affairs",
+            "organization": "The Neotia University",
+            "start_date": "02/2022 - 10/2022",
+            "end_date": "",
+            "duration": "",
+            "description": "Organizing various university events, seminars and workshops. Conducting various student training Programs. Comprehensive event coordination encompassing budget oversight and the management of suppliers and vendors. Oversee the activities of different student Clubs and handling student grievances. Overseeing the complete admission procedure from initiation to conclusion."
+        },
+        {
+            "designation": "Academic Counsellor",
+            "organization": "Aakash Educational Services Ltd.",
+            "start_date": "03/2020 - 02/2022",
+            "end_date": "",
+            "duration": "",
+            "description": "Counselling students for regarding the admission procedure. Taking responsibilities of batches as batch coordinators. Maintaining batch specific files. Organising and coordinating National Level Scholarship exams. Providing support and guidance to students experiencing academic and personal issues. Providing recurring academic advisement services to ensure continuous educational advancement for students."
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "Influence of Green Packaging on Consumer's Purchase Decision: An Exploratory Analysis",
+            "authors": [
+                "Doyel Mukherjee"
+            ],
+            "journal": "Green Practices and Business Augmentation: Hosting the green Card by Allied Publishers Pvt. Ltd.",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Does Co-Creation Motivate Enhanced Adoption of Sustainable Products?",
+            "authors": [
+                "Doyel Mukherjee"
+            ],
+            "journal": "International Conference On Innovation and Sustainability: Research And Practice, St. Xavier's University, Kolkata.",
+            "conference": "",
+            "year": "23/03/2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Leveraging AI for a Sustainable and Greener Tomorrow",
+            "authors": [
+                "Doyel Mukherjee"
+            ],
+            "journal": "Globsyn Management Journal (ISSN: 0973-9181) Vol XVII, Issue 1&2, January-December, 2023",
+            "conference": "",
+            "year": "2023",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "The Power of ChatGPT: Unleashing Disruption or Innovation in Management Education?",
+            "authors": [
+                "Doyel Mukherjee"
+            ],
+            "journal": "Globsyn Blog",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Business Analytics: Applications across All Verticals of Business",
+            "authors": [
+                "Doyel Mukherjee"
+            ],
+            "journal": "Globsyn Blog",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [],
+    "awards": [],
+    "certifications": [
+        {
+            "name": "5 Day Faculty Development Program on 'Python Essentials: Connecting every professional with Programming Skill'",
+            "organization": "Institute of Engineering and Management, Kolkata",
+            "year": ""
+        },
+        {
+            "name": "Workshop on 'Research Practices in Media and Social Sciences'",
+            "organization": "University Institute of Media Studies, Kolkata",
+            "year": ""
+        },
+        {
+            "name": "5 Day Faculty Development Program on 'Convergence of Media: Challenges & Opportunities in the Digital Era'",
+            "organization": "University Institute of Media Studies, Kolkata",
+            "year": ""
+        }
+    ],
+    "skills": [
+        "Visualisation using Power BI",
+        "Microsoft Excel (Advanced)",
+        "SQL",
+        "Python",
+        "Microsoft Office"
+    ],
+    "languages": [],
+    "references": []
+}

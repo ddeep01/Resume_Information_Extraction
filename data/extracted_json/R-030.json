@@ -1,0 +1,228 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Amit kumar",
+        "current_designation": "",
+        "total_experience": "15 years",
+        "email": "amitmsw08@gmail.com, amitk@iima.ac.in",
+        "phone": "9732092011",
+        "date_of_birth": "3rd December, 1984",
+        "gender": "",
+        "address": "Amit Kumar, S/o Ramchandra Roy, Bajrang Colony, Near Aman Vihar, Phulwari Shariff, Patna: 800002, Bihar.",
+        "linkedin": "",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Master in Arts (Social Work)",
+            "specialization": "",
+            "institution": "Kurukshetra University",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "63.3%"
+        },
+        {
+            "degree": "Master of Science",
+            "specialization": "",
+            "institution": "IIT KGP",
+            "board_university": "",
+            "year": "2018",
+            "cgpa_percentage": "92.3%"
+        },
+        {
+            "degree": "Doctor of Philosophy",
+            "specialization": "",
+            "institution": "IIT KGP",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": "80.0%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Senior Survey Scientist",
+            "organization": "Misra Centre for Financial Market and Economy, IIM Ahmedabad",
+            "start_date": "1st January, 2024",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor / Program Officer, NSS",
+            "organization": "Department of Social Sciences, Jaipur National University",
+            "start_date": "5th July 2022",
+            "end_date": "15th July, 2023",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work, Bhopal School of Social Sciences",
+            "start_date": "1st January, 2021",
+            "end_date": "31st May, 2022",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "Rekhi Centre of Excellence for the Science of Happiness, IIT KGP",
+            "start_date": "4th December, 2017",
+            "end_date": "10th July, 2018",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Guest faculty",
+            "organization": "Department of sociology and social work, Hemwati Nandan Bahuguna Garhwal Central University, Srinagar, Uttarkhand",
+            "start_date": "19th September, 2013",
+            "end_date": "20th December, 2014",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work, Model Public Education College, Chandausi, Moradabad, UP",
+            "start_date": "22nd November, 2010",
+            "end_date": "11th July, 2013",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work, Jain Vishwa Bharti University Ladnun Rajasthan-341306",
+            "start_date": "4th August, 2009",
+            "end_date": "11th September, 2010",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Labour Welfare Trainee",
+            "organization": "Vardman Textiles Ltd.",
+            "start_date": "1st July, 2008",
+            "end_date": "27th July, 2009",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "Nrega: Opportunities and Challenges",
+            "authors": [
+                "Kumar, A."
+            ],
+            "journal": "New direction of rural community",
+            "conference": "",
+            "year": "2010",
+            "doi": "",
+            "publisher": "Discovery publishing house, New Delhi"
+        },
+        {
+            "title": "National Food Security Act, 2013: Problems and Prospects",
+            "authors": [
+                "Kumar, A.",
+                "Suar, D.",
+                "Sahoo, B. K."
+            ],
+            "journal": "Social Action",
+            "conference": "",
+            "year": "2018",
+            "doi": "https://www.researchgate.net/publication/329399273_National_Food_Security_Act_2013_Problems_and_Prospects",
+            "publisher": "Indian Social Institute, New Delhi"
+        },
+        {
+            "title": "What attributes characterizes the beneficiary households after three years of implementation of National Food Security Act?",
+            "authors": [
+                "Kumar, A.",
+                "Suar, D.",
+                "Sahoo, B. K."
+            ],
+            "journal": "Journal of Public Affairs",
+            "conference": "",
+            "year": "2018",
+            "doi": "https://doi.org/10.1002/pa.2718",
+            "publisher": "Willey, UK"
+        },
+        {
+            "title": "Moving from food insecurity to food security Implementing NFSA in Bihar and Haryana",
+            "authors": [
+                "Kumar, A.",
+                "Suar, D.",
+                "Sahoo, B. K."
+            ],
+            "journal": "Economic and Political Weekly",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://www.epw.in/journal/2023/36/special-articles/moving-food-insecurity-food-security.html",
+            "publisher": ""
+        },
+        {
+            "title": "Why has Food Insecurity Occurred During the COVID-19, and is There a Way Out?",
+            "authors": [
+                "Kumar, A.",
+                "Suar, D.",
+                "Sahoo, B. K."
+            ],
+            "journal": "National Academy Science Letters",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://doi.org/10.1007/s40009-023-01274-3",
+            "publisher": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "Public Health Challenges in Mining Areas of Jharkhand",
+            "description": "",
+            "technologies": [],
+            "duration": "Since 4th November 2023 - 3rd August, 2024"
+        },
+        {
+            "title": "Social Impact Assessment study at Brahmdiha Coal Mines",
+            "description": "",
+            "technologies": [],
+            "duration": "9th September, 2022 - 22nd November, 2022"
+        }
+    ],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [],
+    "awards": [],
+    "certifications": [
+        {
+            "name": "",
+            "organization": "",
+            "year": ""
+        }
+    ],
+    "skills": [
+        "Research",
+        "Communication",
+        "Documentation",
+        "Organizing",
+        "Leadership",
+        "Analytical",
+        "Observation"
+    ],
+    "languages": [],
+    "references": [
+        {
+            "name": "Prof. Damodar Suar",
+            "organization": "Ex-HOD, Department of HSS, IIT Kharagpur, West Bengal",
+            "year": ""
+        },
+        {
+            "name": "Prof. Suchita Chopra Chatterjee",
+            "organization": "Professor, Department of HSS, IIT Kharagpur, West Bengal",
+            "year": ""
+        },
+        {
+            "name": "Dr. Bimal Kishore Sahoo",
+            "organization": "Associate Professor, Department of HSS, IIT Kharagpur, West Bengal",
+            "year": ""
+        }
+    ]
+}

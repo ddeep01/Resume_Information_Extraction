@@ -83,11 +83,11 @@ MAX_RETRIES = 3
 
 RETRY_DELAY = 3
 
+NUM_PREDICT = 8192
+
+TOP_P = 0.8
+
 TEMPERATURE = 0.0
-
-TOP_P = 0.9
-
-NUM_PREDICT = 4096
 
 ##############################################################################
 # LOGGER
@@ -228,6 +228,7 @@ class LLMExtractor:
                     model=self.model,
 
                     messages=messages,
+                    format="json",
 
                     options={
 
@@ -291,77 +292,87 @@ class LLMExtractor:
     ) -> bool:
         """
         Extract information from one cleaned resume.
-
+    
         Returns
         -------
         True  -> Success
         False -> Failed
         """
-
+    
         logger.info("-" * 70)
         logger.info(f"Processing : {resume_file.name}")
-
+    
         try:
-
+        
             resume_text = resume_file.read_text(
                 encoding="utf-8"
             ).strip()
-
+    
             if not resume_text:
-
+            
                 logger.warning(
                     f"{resume_file.name} is empty."
                 )
-
+    
                 return False
-
-            ##############################################################
-            # CALL LLM
-            ##############################################################
-
-            llm_response = self.call_llm(
-                resume_text
-            )
-
-            if llm_response is None:
-
-                return False
-
-            try:
-
-                validated_json = self.validator.validate(
-            llm_response,
-                resume_file.name
-                    )
-
-            except Exception as e:
-
-                logger.exception(e)
-
-                return False
-
-                logger.error(
-                    "Invalid JSON returned by model."
+    
+            # Retry extraction if JSON validation fails
+            for attempt in range(1, MAX_RETRIES + 1):
+            
+                logger.info(
+                    f"Extraction Attempt ({attempt}/{MAX_RETRIES})"
                 )
-
-                return False
-
-
-            self.save_json(
-    validated_json,
-    OUTPUT_DIR / f"{resume_file.stem}.json"
-)
-
-            logger.info(
-                f"Finished : {resume_file.name}"
+    
+                llm_response = self.call_llm(resume_text)
+    
+                if llm_response is None:
+                
+                    continue
+                
+                try:
+                
+                    validated_json = self.validator.validate(
+                        llm_response,
+                        resume_file.name
+                    )
+    
+                    self.save_json(
+                        validated_json,
+                        OUTPUT_DIR / f"{resume_file.stem}.json"
+                    )
+    
+                    logger.info(
+                        f"Finished : {resume_file.name}"
+                    )
+    
+                    return True
+    
+                except Exception as e:
+                
+                    logger.warning(
+                        f"Validation Failed ({attempt}/{MAX_RETRIES})"
+                    )
+    
+                    logger.exception(e)
+    
+                    if attempt < MAX_RETRIES:
+                    
+                        logger.info(
+                            "Retrying extraction..."
+                        )
+    
+                        time.sleep(RETRY_DELAY)
+    
+            logger.error(
+                f"Failed after {MAX_RETRIES} attempts : {resume_file.name}"
             )
-
-            return True
-
+    
+            return False
+    
         except Exception as exc:
-
+        
             logger.exception(exc)
-
+    
             return False
 
     def save_json(

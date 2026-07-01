@@ -8,3 +8,1847 @@
 2026-06-25 22:01:05,994 | INFO | ----------------------------------------------------------------------
 2026-06-25 22:01:05,994 | INFO | Processing : R-001.txt
 2026-06-25 22:01:05,994 | INFO | LLM Request (1/3)
+2026-07-01 15:44:48,743 | INFO | ======================================================================
+2026-07-01 15:44:48,743 | INFO | LLM Extractor Initialized
+2026-07-01 15:44:48,743 | INFO | Model : qwen2.5:7b
+2026-07-01 15:44:48,743 | INFO | ======================================================================
+2026-07-01 15:44:48,743 | INFO | ======================================================================
+2026-07-01 15:44:48,746 | INFO | HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-07-01 15:44:48,746 | INFO | Using Model : qwen2.5:7b
+2026-07-01 15:44:48,747 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:44:48,747 | INFO | Processing : R-001.txt
+2026-07-01 15:44:48,747 | INFO | LLM Request (1/3)
+2026-07-01 15:45:42,750 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:45:42,750 | INFO | JSON validation successful.
+2026-07-01 15:45:42,751 | INFO | Saved : R-001.json
+2026-07-01 15:45:42,751 | INFO | Finished : R-001.txt
+2026-07-01 15:45:42,751 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:45:42,751 | INFO | Processing : R-002.txt
+2026-07-01 15:45:42,751 | INFO | LLM Request (1/3)
+2026-07-01 15:46:02,492 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:46:02,493 | INFO | JSON validation successful.
+2026-07-01 15:46:02,493 | INFO | Saved : R-002.json
+2026-07-01 15:46:02,493 | INFO | Finished : R-002.txt
+2026-07-01 15:46:02,493 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:46:02,493 | INFO | Processing : R-003.txt
+2026-07-01 15:46:02,493 | INFO | LLM Request (1/3)
+2026-07-01 15:46:11,733 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:46:11,734 | INFO | JSON validation successful.
+2026-07-01 15:46:11,734 | INFO | Saved : R-003.json
+2026-07-01 15:46:11,734 | INFO | Finished : R-003.txt
+2026-07-01 15:46:11,734 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:46:11,735 | INFO | Processing : R-004.txt
+2026-07-01 15:46:11,735 | INFO | LLM Request (1/3)
+2026-07-01 15:46:38,033 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:46:38,034 | ERROR | Expecting ',' delimiter: line 317 column 10 (char 14594)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 317 column 10 (char 14594)
+2026-07-01 15:46:38,035 | WARNING | Invalid response saved : R-004_raw.txt
+2026-07-01 15:46:38,035 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 317 column 10 (char 14594)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:46:38,036 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:46:38,036 | INFO | Processing : R-005.txt
+2026-07-01 15:46:38,036 | INFO | LLM Request (1/3)
+2026-07-01 15:46:49,552 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:46:49,553 | INFO | JSON validation successful.
+2026-07-01 15:46:49,553 | INFO | Saved : R-005.json
+2026-07-01 15:46:49,553 | INFO | Finished : R-005.txt
+2026-07-01 15:46:49,553 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:46:49,553 | INFO | Processing : R-006.txt
+2026-07-01 15:46:49,553 | INFO | LLM Request (1/3)
+2026-07-01 15:46:57,509 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:46:57,510 | INFO | JSON validation successful.
+2026-07-01 15:46:57,510 | INFO | Saved : R-006.json
+2026-07-01 15:46:57,510 | INFO | Finished : R-006.txt
+2026-07-01 15:46:57,510 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:46:57,510 | INFO | Processing : R-007.txt
+2026-07-01 15:46:57,511 | INFO | LLM Request (1/3)
+2026-07-01 15:47:19,230 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:47:19,231 | ERROR | Expecting ',' delimiter: line 369 column 10 (char 16617)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 369 column 10 (char 16617)
+2026-07-01 15:47:19,232 | WARNING | Invalid response saved : R-007_raw.txt
+2026-07-01 15:47:19,232 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 369 column 10 (char 16617)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:47:19,232 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:47:19,232 | INFO | Processing : R-008.txt
+2026-07-01 15:47:19,233 | INFO | LLM Request (1/3)
+2026-07-01 15:47:28,607 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:47:28,608 | INFO | JSON validation successful.
+2026-07-01 15:47:28,608 | INFO | Saved : R-008.json
+2026-07-01 15:47:28,608 | INFO | Finished : R-008.txt
+2026-07-01 15:47:28,609 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:47:28,609 | INFO | Processing : R-009.txt
+2026-07-01 15:47:28,609 | INFO | LLM Request (1/3)
+2026-07-01 15:47:50,040 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:47:50,041 | ERROR | Expecting ',' delimiter: line 330 column 10 (char 15239)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 330 column 10 (char 15239)
+2026-07-01 15:47:50,041 | WARNING | Invalid response saved : R-009_raw.txt
+2026-07-01 15:47:50,041 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 330 column 10 (char 15239)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:47:50,041 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:47:50,041 | INFO | Processing : R-010.txt
+2026-07-01 15:47:50,042 | INFO | LLM Request (1/3)
+2026-07-01 15:48:00,990 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:48:00,990 | INFO | JSON validation successful.
+2026-07-01 15:48:00,990 | INFO | Saved : R-010.json
+2026-07-01 15:48:00,990 | INFO | Finished : R-010.txt
+2026-07-01 15:48:00,991 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:48:00,991 | INFO | Processing : R-011.txt
+2026-07-01 15:48:00,991 | INFO | LLM Request (1/3)
+2026-07-01 15:48:25,150 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:48:25,151 | ERROR | Expecting ',' delimiter: line 393 column 10 (char 16242)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 393 column 10 (char 16242)
+2026-07-01 15:48:25,151 | WARNING | Invalid response saved : R-011_raw.txt
+2026-07-01 15:48:25,151 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 393 column 10 (char 16242)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:48:25,151 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:48:25,151 | INFO | Processing : R-012.txt
+2026-07-01 15:48:25,152 | INFO | LLM Request (1/3)
+2026-07-01 15:48:43,552 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:48:43,553 | INFO | JSON validation successful.
+2026-07-01 15:48:43,553 | INFO | Saved : R-012.json
+2026-07-01 15:48:43,553 | INFO | Finished : R-012.txt
+2026-07-01 15:48:43,553 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:48:43,553 | INFO | Processing : R-013.txt
+2026-07-01 15:48:43,553 | INFO | LLM Request (1/3)
+2026-07-01 15:49:00,364 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:49:00,365 | INFO | JSON validation successful.
+2026-07-01 15:49:00,365 | INFO | Saved : R-013.json
+2026-07-01 15:49:00,365 | INFO | Finished : R-013.txt
+2026-07-01 15:49:00,366 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:49:00,366 | INFO | Processing : R-014.txt
+2026-07-01 15:49:00,366 | INFO | LLM Request (1/3)
+2026-07-01 15:49:10,677 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:49:10,677 | INFO | JSON validation successful.
+2026-07-01 15:49:10,678 | INFO | Saved : R-014.json
+2026-07-01 15:49:10,678 | INFO | Finished : R-014.txt
+2026-07-01 15:49:10,678 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:49:10,678 | INFO | Processing : R-015.txt
+2026-07-01 15:49:10,678 | INFO | LLM Request (1/3)
+2026-07-01 15:49:20,594 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:49:20,595 | ERROR | Expecting ',' delimiter: line 186 column 25 (char 7335)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 186 column 25 (char 7335)
+2026-07-01 15:49:20,595 | WARNING | Invalid response saved : R-015_raw.txt
+2026-07-01 15:49:20,595 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 186 column 25 (char 7335)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:49:20,596 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:49:20,596 | INFO | Processing : R-016.txt
+2026-07-01 15:49:20,596 | INFO | LLM Request (1/3)
+2026-07-01 15:49:29,441 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:49:29,441 | INFO | JSON validation successful.
+2026-07-01 15:49:29,442 | INFO | Saved : R-016.json
+2026-07-01 15:49:29,442 | INFO | Finished : R-016.txt
+2026-07-01 15:49:29,442 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:49:29,442 | INFO | Processing : R-017.txt
+2026-07-01 15:49:29,442 | INFO | LLM Request (1/3)
+2026-07-01 15:49:49,271 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:49:49,271 | INFO | JSON validation successful.
+2026-07-01 15:49:49,272 | INFO | Saved : R-017.json
+2026-07-01 15:49:49,272 | INFO | Finished : R-017.txt
+2026-07-01 15:49:49,272 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:49:49,272 | INFO | Processing : R-018.txt
+2026-07-01 15:49:49,272 | INFO | LLM Request (1/3)
+2026-07-01 15:50:15,214 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:50:15,215 | ERROR | Expecting ',' delimiter: line 350 column 10 (char 15442)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 350 column 10 (char 15442)
+2026-07-01 15:50:15,215 | WARNING | Invalid response saved : R-018_raw.txt
+2026-07-01 15:50:15,215 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 350 column 10 (char 15442)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:50:15,215 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:50:15,215 | INFO | Processing : R-019.txt
+2026-07-01 15:50:15,216 | INFO | LLM Request (1/3)
+2026-07-01 15:50:24,042 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:50:24,042 | INFO | JSON validation successful.
+2026-07-01 15:50:24,042 | INFO | Saved : R-019.json
+2026-07-01 15:50:24,043 | INFO | Finished : R-019.txt
+2026-07-01 15:50:24,043 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:50:24,043 | INFO | Processing : R-020.txt
+2026-07-01 15:50:24,043 | INFO | LLM Request (1/3)
+2026-07-01 15:50:45,933 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:50:45,933 | ERROR | Expecting ',' delimiter: line 403 column 10 (char 16515)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 403 column 10 (char 16515)
+2026-07-01 15:50:45,934 | WARNING | Invalid response saved : R-020_raw.txt
+2026-07-01 15:50:45,934 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 403 column 10 (char 16515)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:50:45,934 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:50:45,934 | INFO | Processing : R-021.txt
+2026-07-01 15:50:45,934 | INFO | LLM Request (1/3)
+2026-07-01 15:50:57,762 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:50:57,762 | INFO | JSON validation successful.
+2026-07-01 15:50:57,762 | INFO | Saved : R-021.json
+2026-07-01 15:50:57,762 | INFO | Finished : R-021.txt
+2026-07-01 15:50:57,763 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:50:57,763 | INFO | Processing : R-022.txt
+2026-07-01 15:50:57,763 | INFO | LLM Request (1/3)
+2026-07-01 15:51:09,512 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:51:09,512 | INFO | JSON validation successful.
+2026-07-01 15:51:09,513 | INFO | Saved : R-022.json
+2026-07-01 15:51:09,513 | INFO | Finished : R-022.txt
+2026-07-01 15:51:09,513 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:51:09,513 | INFO | Processing : R-023.txt
+2026-07-01 15:51:09,513 | INFO | LLM Request (1/3)
+2026-07-01 15:51:22,647 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:51:22,648 | INFO | JSON validation successful.
+2026-07-01 15:51:22,648 | INFO | Saved : R-023.json
+2026-07-01 15:51:22,648 | INFO | Finished : R-023.txt
+2026-07-01 15:51:22,649 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:51:22,649 | INFO | Processing : R-024.txt
+2026-07-01 15:51:22,649 | INFO | LLM Request (1/3)
+2026-07-01 15:51:36,954 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:51:36,955 | INFO | JSON validation successful.
+2026-07-01 15:51:36,955 | INFO | Saved : R-024.json
+2026-07-01 15:51:36,955 | INFO | Finished : R-024.txt
+2026-07-01 15:51:36,955 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:51:36,955 | INFO | Processing : R-025.txt
+2026-07-01 15:51:36,955 | INFO | LLM Request (1/3)
+2026-07-01 15:51:58,662 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:51:58,662 | ERROR | Expecting ',' delimiter: line 369 column 10 (char 15821)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 369 column 10 (char 15821)
+2026-07-01 15:51:58,663 | WARNING | Invalid response saved : R-025_raw.txt
+2026-07-01 15:51:58,663 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 369 column 10 (char 15821)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:51:58,663 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:51:58,663 | INFO | Processing : R-026.txt
+2026-07-01 15:51:58,663 | INFO | LLM Request (1/3)
+2026-07-01 15:52:19,166 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:52:19,167 | INFO | JSON validation successful.
+2026-07-01 15:52:19,167 | INFO | Saved : R-026.json
+2026-07-01 15:52:19,167 | INFO | Finished : R-026.txt
+2026-07-01 15:52:19,167 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:52:19,167 | INFO | Processing : R-027.txt
+2026-07-01 15:52:19,167 | INFO | LLM Request (1/3)
+2026-07-01 15:52:42,542 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:52:42,543 | ERROR | Expecting ',' delimiter: line 342 column 10 (char 14732)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 342 column 10 (char 14732)
+2026-07-01 15:52:42,543 | WARNING | Invalid response saved : R-027_raw.txt
+2026-07-01 15:52:42,543 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 342 column 10 (char 14732)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:52:42,543 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:52:42,544 | INFO | Processing : R-028.txt
+2026-07-01 15:52:42,544 | INFO | LLM Request (1/3)
+2026-07-01 15:53:04,988 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:53:04,989 | ERROR | Expecting ',' delimiter: line 382 column 10 (char 15725)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 382 column 10 (char 15725)
+2026-07-01 15:53:04,989 | WARNING | Invalid response saved : R-028_raw.txt
+2026-07-01 15:53:04,989 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 382 column 10 (char 15725)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:53:04,990 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:53:04,990 | INFO | Processing : R-029.txt
+2026-07-01 15:53:04,990 | INFO | LLM Request (1/3)
+2026-07-01 15:53:16,452 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:53:16,453 | INFO | JSON validation successful.
+2026-07-01 15:53:16,453 | INFO | Saved : R-029.json
+2026-07-01 15:53:16,453 | INFO | Finished : R-029.txt
+2026-07-01 15:53:16,453 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:53:16,453 | INFO | Processing : R-030.txt
+2026-07-01 15:53:16,453 | INFO | LLM Request (1/3)
+2026-07-01 15:53:26,710 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:53:26,711 | INFO | JSON validation successful.
+2026-07-01 15:53:26,711 | INFO | Saved : R-030.json
+2026-07-01 15:53:26,711 | INFO | Finished : R-030.txt
+2026-07-01 15:53:26,711 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:53:26,711 | INFO | Processing : R-031.txt
+2026-07-01 15:53:26,711 | INFO | LLM Request (1/3)
+2026-07-01 15:53:41,633 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:53:41,634 | INFO | JSON validation successful.
+2026-07-01 15:53:41,634 | INFO | Saved : R-031.json
+2026-07-01 15:53:41,634 | INFO | Finished : R-031.txt
+2026-07-01 15:53:41,634 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:53:41,634 | INFO | Processing : R-032.txt
+2026-07-01 15:53:41,635 | INFO | LLM Request (1/3)
+2026-07-01 15:53:57,706 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:53:57,707 | INFO | JSON validation successful.
+2026-07-01 15:53:57,707 | INFO | Saved : R-032.json
+2026-07-01 15:53:57,707 | INFO | Finished : R-032.txt
+2026-07-01 15:53:57,707 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:53:57,707 | INFO | Processing : R-033.txt
+2026-07-01 15:53:57,707 | INFO | LLM Request (1/3)
+2026-07-01 15:54:19,922 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:54:19,923 | ERROR | Expecting ',' delimiter: line 407 column 10 (char 16710)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 407 column 10 (char 16710)
+2026-07-01 15:54:19,923 | WARNING | Invalid response saved : R-033_raw.txt
+2026-07-01 15:54:19,924 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 407 column 10 (char 16710)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:54:19,924 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:54:19,924 | INFO | Processing : R-034.txt
+2026-07-01 15:54:19,924 | INFO | LLM Request (1/3)
+2026-07-01 15:54:33,020 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:54:33,020 | INFO | JSON validation successful.
+2026-07-01 15:54:33,020 | INFO | Saved : R-034.json
+2026-07-01 15:54:33,020 | INFO | Finished : R-034.txt
+2026-07-01 15:54:33,020 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:54:33,020 | INFO | Processing : R-035.txt
+2026-07-01 15:54:33,021 | INFO | LLM Request (1/3)
+2026-07-01 15:54:49,905 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:54:49,905 | ERROR | Expecting ',' delimiter: line 281 column 26 (char 11614)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 281 column 26 (char 11614)
+2026-07-01 15:54:49,906 | WARNING | Invalid response saved : R-035_raw.txt
+2026-07-01 15:54:49,906 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 281 column 26 (char 11614)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:54:49,906 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:54:49,906 | INFO | Processing : R-036.txt
+2026-07-01 15:54:49,906 | INFO | LLM Request (1/3)
+2026-07-01 15:54:55,540 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:54:55,541 | INFO | JSON validation successful.
+2026-07-01 15:54:55,541 | INFO | Saved : R-036.json
+2026-07-01 15:54:55,541 | INFO | Finished : R-036.txt
+2026-07-01 15:54:55,541 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:54:55,541 | INFO | Processing : R-037.txt
+2026-07-01 15:54:55,541 | INFO | LLM Request (1/3)
+2026-07-01 15:55:12,805 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:55:12,805 | INFO | JSON validation successful.
+2026-07-01 15:55:12,806 | INFO | Saved : R-037.json
+2026-07-01 15:55:12,806 | INFO | Finished : R-037.txt
+2026-07-01 15:55:12,806 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:55:12,806 | INFO | Processing : R-038.txt
+2026-07-01 15:55:12,806 | INFO | LLM Request (1/3)
+2026-07-01 15:55:30,522 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:55:30,523 | INFO | JSON validation successful.
+2026-07-01 15:55:30,523 | INFO | Saved : R-038.json
+2026-07-01 15:55:30,523 | INFO | Finished : R-038.txt
+2026-07-01 15:55:30,523 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:55:30,523 | INFO | Processing : R-039.txt
+2026-07-01 15:55:30,523 | INFO | LLM Request (1/3)
+2026-07-01 15:55:53,819 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:55:53,820 | ERROR | Expecting ',' delimiter: line 366 column 10 (char 16165)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 366 column 10 (char 16165)
+2026-07-01 15:55:53,821 | WARNING | Invalid response saved : R-039_raw.txt
+2026-07-01 15:55:53,821 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 366 column 10 (char 16165)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 332, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 15:55:53,821 | INFO | ----------------------------------------------------------------------
+2026-07-01 15:55:53,821 | INFO | Processing : R-040.txt
+2026-07-01 15:55:53,821 | INFO | LLM Request (1/3)
+2026-07-01 15:56:06,006 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 15:56:06,007 | INFO | JSON validation successful.
+2026-07-01 15:56:06,007 | INFO | Saved : R-040.json
+2026-07-01 15:56:06,007 | INFO | Finished : R-040.txt
+2026-07-01 15:56:06,008 | INFO | ======================================================================
+2026-07-01 15:56:06,008 | INFO | EXTRACTION FINISHED
+2026-07-01 15:56:06,008 | INFO | ======================================================================
+2026-07-01 16:09:10,454 | INFO | ======================================================================
+2026-07-01 16:09:10,454 | INFO | LLM Extractor Initialized
+2026-07-01 16:09:10,454 | INFO | Model : qwen2.5:7b
+2026-07-01 16:09:10,454 | INFO | ======================================================================
+2026-07-01 16:09:10,455 | INFO | ======================================================================
+2026-07-01 16:09:10,457 | INFO | HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-07-01 16:09:10,457 | INFO | Using Model : qwen2.5:7b
+2026-07-01 16:09:10,457 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:09:10,457 | INFO | Processing : R-001.txt
+2026-07-01 16:09:10,457 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:09:10,457 | INFO | LLM Request (1/3)
+2026-07-01 16:09:21,640 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:09:21,640 | INFO | JSON validation successful.
+2026-07-01 16:09:21,641 | INFO | Saved : R-001.json
+2026-07-01 16:09:21,641 | INFO | Finished : R-001.txt
+2026-07-01 16:09:21,641 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:09:21,641 | INFO | Processing : R-002.txt
+2026-07-01 16:09:21,641 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:09:21,641 | INFO | LLM Request (1/3)
+2026-07-01 16:09:40,378 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:09:40,379 | INFO | JSON validation successful.
+2026-07-01 16:09:40,379 | INFO | Saved : R-002.json
+2026-07-01 16:09:40,379 | INFO | Finished : R-002.txt
+2026-07-01 16:09:40,379 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:09:40,379 | INFO | Processing : R-003.txt
+2026-07-01 16:09:40,379 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:09:40,379 | INFO | LLM Request (1/3)
+2026-07-01 16:09:49,622 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:09:49,623 | INFO | JSON validation successful.
+2026-07-01 16:09:49,623 | INFO | Saved : R-003.json
+2026-07-01 16:09:49,623 | INFO | Finished : R-003.txt
+2026-07-01 16:09:49,623 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:09:49,623 | INFO | Processing : R-004.txt
+2026-07-01 16:09:49,623 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:09:49,623 | INFO | LLM Request (1/3)
+2026-07-01 16:10:16,893 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:10:16,894 | INFO | JSON validation successful.
+2026-07-01 16:10:16,895 | INFO | Saved : R-004.json
+2026-07-01 16:10:16,895 | INFO | Finished : R-004.txt
+2026-07-01 16:10:16,895 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:10:16,895 | INFO | Processing : R-005.txt
+2026-07-01 16:10:16,895 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:10:16,895 | INFO | LLM Request (1/3)
+2026-07-01 16:10:28,286 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:10:28,287 | INFO | JSON validation successful.
+2026-07-01 16:10:28,287 | INFO | Saved : R-005.json
+2026-07-01 16:10:28,287 | INFO | Finished : R-005.txt
+2026-07-01 16:10:28,287 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:10:28,287 | INFO | Processing : R-006.txt
+2026-07-01 16:10:28,287 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:10:28,287 | INFO | LLM Request (1/3)
+2026-07-01 16:10:35,776 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:10:35,776 | INFO | JSON validation successful.
+2026-07-01 16:10:35,777 | INFO | Saved : R-006.json
+2026-07-01 16:10:35,777 | INFO | Finished : R-006.txt
+2026-07-01 16:10:35,777 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:10:35,777 | INFO | Processing : R-007.txt
+2026-07-01 16:10:35,777 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:10:35,777 | INFO | LLM Request (1/3)
+2026-07-01 16:11:18,970 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:11:18,971 | INFO | JSON validation successful.
+2026-07-01 16:11:18,972 | INFO | Saved : R-007.json
+2026-07-01 16:11:18,972 | INFO | Finished : R-007.txt
+2026-07-01 16:11:18,972 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:11:18,972 | INFO | Processing : R-008.txt
+2026-07-01 16:11:18,972 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:11:18,972 | INFO | LLM Request (1/3)
+2026-07-01 16:11:30,012 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:11:30,013 | INFO | JSON validation successful.
+2026-07-01 16:11:30,013 | INFO | Saved : R-008.json
+2026-07-01 16:11:30,013 | INFO | Finished : R-008.txt
+2026-07-01 16:11:30,013 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:11:30,013 | INFO | Processing : R-009.txt
+2026-07-01 16:11:30,013 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:11:30,013 | INFO | LLM Request (1/3)
+2026-07-01 16:12:03,596 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:12:03,597 | INFO | JSON validation successful.
+2026-07-01 16:12:03,597 | INFO | Saved : R-009.json
+2026-07-01 16:12:03,597 | INFO | Finished : R-009.txt
+2026-07-01 16:12:03,597 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:12:03,597 | INFO | Processing : R-010.txt
+2026-07-01 16:12:03,597 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:12:03,597 | INFO | LLM Request (1/3)
+2026-07-01 16:12:13,475 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:12:13,475 | INFO | JSON validation successful.
+2026-07-01 16:12:13,476 | INFO | Saved : R-010.json
+2026-07-01 16:12:13,476 | INFO | Finished : R-010.txt
+2026-07-01 16:12:13,476 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:12:13,476 | INFO | Processing : R-011.txt
+2026-07-01 16:12:13,476 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:12:13,476 | INFO | LLM Request (1/3)
+2026-07-01 16:13:00,941 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:13:00,944 | ERROR | Expecting ',' delimiter: line 680 column 10 (char 31191)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 680 column 10 (char 31191)
+2026-07-01 16:13:00,945 | WARNING | Invalid response saved : R-011_raw.txt
+2026-07-01 16:13:00,945 | WARNING | Validation Failed (1/3)
+2026-07-01 16:13:00,945 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 680 column 10 (char 31191)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:13:00,945 | INFO | Retrying extraction...
+2026-07-01 16:13:03,946 | INFO | Extraction Attempt (2/3)
+2026-07-01 16:13:03,946 | INFO | LLM Request (1/3)
+2026-07-01 16:13:50,162 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:13:50,164 | ERROR | Expecting ',' delimiter: line 676 column 10 (char 31001)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 676 column 10 (char 31001)
+2026-07-01 16:13:50,164 | WARNING | Invalid response saved : R-011_raw.txt
+2026-07-01 16:13:50,164 | WARNING | Validation Failed (2/3)
+2026-07-01 16:13:50,164 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 676 column 10 (char 31001)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:13:50,165 | INFO | Retrying extraction...
+2026-07-01 16:13:53,165 | INFO | Extraction Attempt (3/3)
+2026-07-01 16:13:53,165 | INFO | LLM Request (1/3)
+2026-07-01 16:14:39,414 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:14:39,415 | ERROR | Expecting ',' delimiter: line 676 column 10 (char 31001)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 676 column 10 (char 31001)
+2026-07-01 16:14:39,416 | WARNING | Invalid response saved : R-011_raw.txt
+2026-07-01 16:14:39,416 | WARNING | Validation Failed (3/3)
+2026-07-01 16:14:39,416 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 676 column 10 (char 31001)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:14:39,416 | ERROR | Failed after 3 attempts : R-011.txt
+2026-07-01 16:14:39,416 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:14:39,416 | INFO | Processing : R-012.txt
+2026-07-01 16:14:39,417 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:14:39,417 | INFO | LLM Request (1/3)
+2026-07-01 16:14:58,197 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:14:58,198 | INFO | JSON validation successful.
+2026-07-01 16:14:58,199 | INFO | Saved : R-012.json
+2026-07-01 16:14:58,199 | INFO | Finished : R-012.txt
+2026-07-01 16:14:58,199 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:14:58,199 | INFO | Processing : R-013.txt
+2026-07-01 16:14:58,199 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:14:58,199 | INFO | LLM Request (1/3)
+2026-07-01 16:15:15,876 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:15:15,876 | INFO | JSON validation successful.
+2026-07-01 16:15:15,877 | INFO | Saved : R-013.json
+2026-07-01 16:15:15,877 | INFO | Finished : R-013.txt
+2026-07-01 16:15:15,877 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:15:15,877 | INFO | Processing : R-014.txt
+2026-07-01 16:15:15,877 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:15:15,877 | INFO | LLM Request (1/3)
+2026-07-01 16:15:27,237 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:15:27,237 | INFO | JSON validation successful.
+2026-07-01 16:15:27,238 | INFO | Saved : R-014.json
+2026-07-01 16:15:27,238 | INFO | Finished : R-014.txt
+2026-07-01 16:15:27,238 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:15:27,238 | INFO | Processing : R-015.txt
+2026-07-01 16:15:27,238 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:15:27,238 | INFO | LLM Request (1/3)
+2026-07-01 16:15:37,070 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:15:37,070 | INFO | JSON validation successful.
+2026-07-01 16:15:37,071 | INFO | Saved : R-015.json
+2026-07-01 16:15:37,071 | INFO | Finished : R-015.txt
+2026-07-01 16:15:37,071 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:15:37,071 | INFO | Processing : R-016.txt
+2026-07-01 16:15:37,071 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:15:37,071 | INFO | LLM Request (1/3)
+2026-07-01 16:15:45,277 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:15:45,277 | INFO | JSON validation successful.
+2026-07-01 16:15:45,277 | INFO | Saved : R-016.json
+2026-07-01 16:15:45,277 | INFO | Finished : R-016.txt
+2026-07-01 16:15:45,277 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:15:45,277 | INFO | Processing : R-017.txt
+2026-07-01 16:15:45,277 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:15:45,278 | INFO | LLM Request (1/3)
+2026-07-01 16:16:06,458 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:16:06,459 | INFO | JSON validation successful.
+2026-07-01 16:16:06,459 | INFO | Saved : R-017.json
+2026-07-01 16:16:06,459 | INFO | Finished : R-017.txt
+2026-07-01 16:16:06,459 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:16:06,459 | INFO | Processing : R-018.txt
+2026-07-01 16:16:06,459 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:16:06,459 | INFO | LLM Request (1/3)
+2026-07-01 16:16:56,968 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:16:56,969 | ERROR | Expecting ',' delimiter: line 675 column 10 (char 30684)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 675 column 10 (char 30684)
+2026-07-01 16:16:56,969 | WARNING | Invalid response saved : R-018_raw.txt
+2026-07-01 16:16:56,969 | WARNING | Validation Failed (1/3)
+2026-07-01 16:16:56,969 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 675 column 10 (char 30684)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:16:56,970 | INFO | Retrying extraction...
+2026-07-01 16:16:59,970 | INFO | Extraction Attempt (2/3)
+2026-07-01 16:16:59,970 | INFO | LLM Request (1/3)
+2026-07-01 16:17:48,512 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:17:48,512 | ERROR | Expecting ',' delimiter: line 675 column 10 (char 30680)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 675 column 10 (char 30680)
+2026-07-01 16:17:48,513 | WARNING | Invalid response saved : R-018_raw.txt
+2026-07-01 16:17:48,513 | WARNING | Validation Failed (2/3)
+2026-07-01 16:17:48,513 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 675 column 10 (char 30680)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:17:48,513 | INFO | Retrying extraction...
+2026-07-01 16:17:51,513 | INFO | Extraction Attempt (3/3)
+2026-07-01 16:17:51,514 | INFO | LLM Request (1/3)
+2026-07-01 16:18:40,055 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:18:40,055 | ERROR | Expecting ',' delimiter: line 675 column 10 (char 30680)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 675 column 10 (char 30680)
+2026-07-01 16:18:40,056 | WARNING | Invalid response saved : R-018_raw.txt
+2026-07-01 16:18:40,056 | WARNING | Validation Failed (3/3)
+2026-07-01 16:18:40,056 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 675 column 10 (char 30680)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:18:40,056 | ERROR | Failed after 3 attempts : R-018.txt
+2026-07-01 16:18:40,056 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:18:40,056 | INFO | Processing : R-019.txt
+2026-07-01 16:18:40,056 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:18:40,056 | INFO | LLM Request (1/3)
+2026-07-01 16:18:49,023 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:18:49,024 | INFO | JSON validation successful.
+2026-07-01 16:18:49,024 | INFO | Saved : R-019.json
+2026-07-01 16:18:49,024 | INFO | Finished : R-019.txt
+2026-07-01 16:18:49,024 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:18:49,024 | INFO | Processing : R-020.txt
+2026-07-01 16:18:49,024 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:18:49,024 | INFO | LLM Request (1/3)
+2026-07-01 16:19:20,780 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:19:20,781 | INFO | JSON validation successful.
+2026-07-01 16:19:20,781 | INFO | Saved : R-020.json
+2026-07-01 16:19:20,781 | INFO | Finished : R-020.txt
+2026-07-01 16:19:20,781 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:19:20,781 | INFO | Processing : R-021.txt
+2026-07-01 16:19:20,781 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:19:20,782 | INFO | LLM Request (1/3)
+2026-07-01 16:19:33,274 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:19:33,275 | INFO | JSON validation successful.
+2026-07-01 16:19:33,275 | INFO | Saved : R-021.json
+2026-07-01 16:19:33,275 | INFO | Finished : R-021.txt
+2026-07-01 16:19:33,275 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:19:33,275 | INFO | Processing : R-022.txt
+2026-07-01 16:19:33,275 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:19:33,275 | INFO | LLM Request (1/3)
+2026-07-01 16:19:45,386 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:19:45,386 | INFO | JSON validation successful.
+2026-07-01 16:19:45,387 | INFO | Saved : R-022.json
+2026-07-01 16:19:45,387 | INFO | Finished : R-022.txt
+2026-07-01 16:19:45,387 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:19:45,387 | INFO | Processing : R-023.txt
+2026-07-01 16:19:45,387 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:19:45,387 | INFO | LLM Request (1/3)
+2026-07-01 16:19:59,875 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:19:59,876 | INFO | JSON validation successful.
+2026-07-01 16:19:59,876 | INFO | Saved : R-023.json
+2026-07-01 16:19:59,876 | INFO | Finished : R-023.txt
+2026-07-01 16:19:59,876 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:19:59,876 | INFO | Processing : R-024.txt
+2026-07-01 16:19:59,876 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:19:59,876 | INFO | LLM Request (1/3)
+2026-07-01 16:20:13,536 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:20:13,537 | INFO | JSON validation successful.
+2026-07-01 16:20:13,538 | INFO | Saved : R-024.json
+2026-07-01 16:20:13,538 | INFO | Finished : R-024.txt
+2026-07-01 16:20:13,538 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:20:13,538 | INFO | Processing : R-025.txt
+2026-07-01 16:20:13,538 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:20:13,538 | INFO | LLM Request (1/3)
+2026-07-01 16:20:49,266 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:20:49,267 | INFO | JSON validation successful.
+2026-07-01 16:20:49,268 | INFO | Saved : R-025.json
+2026-07-01 16:20:49,268 | INFO | Finished : R-025.txt
+2026-07-01 16:20:49,268 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:20:49,268 | INFO | Processing : R-026.txt
+2026-07-01 16:20:49,268 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:20:49,268 | INFO | LLM Request (1/3)
+2026-07-01 16:21:09,947 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:21:09,948 | INFO | JSON validation successful.
+2026-07-01 16:21:09,948 | INFO | Saved : R-026.json
+2026-07-01 16:21:09,948 | INFO | Finished : R-026.txt
+2026-07-01 16:21:09,948 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:21:09,948 | INFO | Processing : R-027.txt
+2026-07-01 16:21:09,948 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:21:09,948 | INFO | LLM Request (1/3)
+2026-07-01 16:21:56,295 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:21:56,297 | ERROR | Expecting ',' delimiter: line 648 column 10 (char 28223)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 648 column 10 (char 28223)
+2026-07-01 16:21:56,297 | WARNING | Invalid response saved : R-027_raw.txt
+2026-07-01 16:21:56,297 | WARNING | Validation Failed (1/3)
+2026-07-01 16:21:56,297 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 648 column 10 (char 28223)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:21:56,298 | INFO | Retrying extraction...
+2026-07-01 16:21:59,298 | INFO | Extraction Attempt (2/3)
+2026-07-01 16:21:59,298 | INFO | LLM Request (1/3)
+2026-07-01 16:22:44,806 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:22:44,807 | ERROR | Expecting ',' delimiter: line 648 column 10 (char 28174)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 648 column 10 (char 28174)
+2026-07-01 16:22:44,808 | WARNING | Invalid response saved : R-027_raw.txt
+2026-07-01 16:22:44,808 | WARNING | Validation Failed (2/3)
+2026-07-01 16:22:44,808 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 648 column 10 (char 28174)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:22:44,808 | INFO | Retrying extraction...
+2026-07-01 16:22:47,808 | INFO | Extraction Attempt (3/3)
+2026-07-01 16:22:47,809 | INFO | LLM Request (1/3)
+2026-07-01 16:23:33,579 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:23:33,580 | ERROR | Expecting ',' delimiter: line 648 column 10 (char 28174)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 648 column 10 (char 28174)
+2026-07-01 16:23:33,581 | WARNING | Invalid response saved : R-027_raw.txt
+2026-07-01 16:23:33,581 | WARNING | Validation Failed (3/3)
+2026-07-01 16:23:33,581 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 648 column 10 (char 28174)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:23:33,581 | ERROR | Failed after 3 attempts : R-027.txt
+2026-07-01 16:23:33,581 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:23:33,581 | INFO | Processing : R-028.txt
+2026-07-01 16:23:33,581 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:23:33,581 | INFO | LLM Request (1/3)
+2026-07-01 16:24:08,758 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:24:08,760 | INFO | JSON validation successful.
+2026-07-01 16:24:08,760 | INFO | Saved : R-028.json
+2026-07-01 16:24:08,760 | INFO | Finished : R-028.txt
+2026-07-01 16:24:08,760 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:24:08,760 | INFO | Processing : R-029.txt
+2026-07-01 16:24:08,761 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:24:08,761 | INFO | LLM Request (1/3)
+2026-07-01 16:24:17,301 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:24:17,302 | INFO | JSON validation successful.
+2026-07-01 16:24:17,302 | INFO | Saved : R-029.json
+2026-07-01 16:24:17,302 | INFO | Finished : R-029.txt
+2026-07-01 16:24:17,302 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:24:17,302 | INFO | Processing : R-030.txt
+2026-07-01 16:24:17,302 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:24:17,302 | INFO | LLM Request (1/3)
+2026-07-01 16:24:27,465 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:24:27,466 | INFO | JSON validation successful.
+2026-07-01 16:24:27,466 | INFO | Saved : R-030.json
+2026-07-01 16:24:27,466 | INFO | Finished : R-030.txt
+2026-07-01 16:24:27,466 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:24:27,466 | INFO | Processing : R-031.txt
+2026-07-01 16:24:27,466 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:24:27,466 | INFO | LLM Request (1/3)
+2026-07-01 16:24:44,059 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:24:44,060 | INFO | JSON validation successful.
+2026-07-01 16:24:44,060 | INFO | Saved : R-031.json
+2026-07-01 16:24:44,060 | INFO | Finished : R-031.txt
+2026-07-01 16:24:44,060 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:24:44,060 | INFO | Processing : R-032.txt
+2026-07-01 16:24:44,060 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:24:44,060 | INFO | LLM Request (1/3)
+2026-07-01 16:25:03,127 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:25:03,127 | INFO | JSON validation successful.
+2026-07-01 16:25:03,128 | INFO | Saved : R-032.json
+2026-07-01 16:25:03,128 | INFO | Finished : R-032.txt
+2026-07-01 16:25:03,128 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:25:03,128 | INFO | Processing : R-033.txt
+2026-07-01 16:25:03,128 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:25:03,128 | INFO | LLM Request (1/3)
+2026-07-01 16:25:47,983 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:25:47,986 | ERROR | Expecting ',' delimiter: line 757 column 10 (char 32904)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 757 column 10 (char 32904)
+2026-07-01 16:25:47,986 | WARNING | Invalid response saved : R-033_raw.txt
+2026-07-01 16:25:47,986 | WARNING | Validation Failed (1/3)
+2026-07-01 16:25:47,986 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 757 column 10 (char 32904)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:25:47,987 | INFO | Retrying extraction...
+2026-07-01 16:25:50,987 | INFO | Extraction Attempt (2/3)
+2026-07-01 16:25:50,987 | INFO | LLM Request (1/3)
+2026-07-01 16:26:26,771 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:26:26,772 | INFO | JSON validation successful.
+2026-07-01 16:26:26,773 | INFO | Saved : R-033.json
+2026-07-01 16:26:26,773 | INFO | Finished : R-033.txt
+2026-07-01 16:26:26,773 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:26:26,773 | INFO | Processing : R-034.txt
+2026-07-01 16:26:26,773 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:26:26,773 | INFO | LLM Request (1/3)
+2026-07-01 16:26:39,256 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:26:39,257 | INFO | JSON validation successful.
+2026-07-01 16:26:39,257 | INFO | Saved : R-034.json
+2026-07-01 16:26:39,257 | INFO | Finished : R-034.txt
+2026-07-01 16:26:39,257 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:26:39,257 | INFO | Processing : R-035.txt
+2026-07-01 16:26:39,257 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:26:39,257 | INFO | LLM Request (1/3)
+2026-07-01 16:26:59,031 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:26:59,032 | INFO | JSON validation successful.
+2026-07-01 16:26:59,032 | INFO | Saved : R-035.json
+2026-07-01 16:26:59,032 | INFO | Finished : R-035.txt
+2026-07-01 16:26:59,032 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:26:59,033 | INFO | Processing : R-036.txt
+2026-07-01 16:26:59,033 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:26:59,033 | INFO | LLM Request (1/3)
+2026-07-01 16:27:04,873 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:27:04,874 | INFO | JSON validation successful.
+2026-07-01 16:27:04,874 | INFO | Saved : R-036.json
+2026-07-01 16:27:04,874 | INFO | Finished : R-036.txt
+2026-07-01 16:27:04,874 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:27:04,874 | INFO | Processing : R-037.txt
+2026-07-01 16:27:04,874 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:27:04,874 | INFO | LLM Request (1/3)
+2026-07-01 16:27:23,396 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:27:23,397 | INFO | JSON validation successful.
+2026-07-01 16:27:23,397 | INFO | Saved : R-037.json
+2026-07-01 16:27:23,397 | INFO | Finished : R-037.txt
+2026-07-01 16:27:23,397 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:27:23,397 | INFO | Processing : R-038.txt
+2026-07-01 16:27:23,397 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:27:23,397 | INFO | LLM Request (1/3)
+2026-07-01 16:27:41,829 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:27:41,830 | INFO | JSON validation successful.
+2026-07-01 16:27:41,830 | INFO | Saved : R-038.json
+2026-07-01 16:27:41,830 | INFO | Finished : R-038.txt
+2026-07-01 16:27:41,830 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:27:41,830 | INFO | Processing : R-039.txt
+2026-07-01 16:27:41,830 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:27:41,830 | INFO | LLM Request (1/3)
+2026-07-01 16:28:28,664 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:28:28,665 | ERROR | Expecting ',' delimiter: line 670 column 10 (char 32063)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 670 column 10 (char 32063)
+2026-07-01 16:28:28,666 | WARNING | Invalid response saved : R-039_raw.txt
+2026-07-01 16:28:28,666 | WARNING | Validation Failed (1/3)
+2026-07-01 16:28:28,666 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 670 column 10 (char 32063)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:28:28,666 | INFO | Retrying extraction...
+2026-07-01 16:28:31,666 | INFO | Extraction Attempt (2/3)
+2026-07-01 16:28:31,667 | INFO | LLM Request (1/3)
+2026-07-01 16:29:17,395 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:29:17,397 | ERROR | Expecting ',' delimiter: line 666 column 10 (char 32328)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 666 column 10 (char 32328)
+2026-07-01 16:29:17,397 | WARNING | Invalid response saved : R-039_raw.txt
+2026-07-01 16:29:17,397 | WARNING | Validation Failed (2/3)
+2026-07-01 16:29:17,397 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 666 column 10 (char 32328)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:29:17,398 | INFO | Retrying extraction...
+2026-07-01 16:29:20,398 | INFO | Extraction Attempt (3/3)
+2026-07-01 16:29:20,398 | INFO | LLM Request (1/3)
+2026-07-01 16:30:06,122 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:30:06,123 | ERROR | Expecting ',' delimiter: line 666 column 10 (char 32328)
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 666 column 10 (char 32328)
+2026-07-01 16:30:06,124 | WARNING | Invalid response saved : R-039_raw.txt
+2026-07-01 16:30:06,124 | WARNING | Validation Failed (3/3)
+2026-07-01 16:30:06,124 | ERROR | Invalid JSON returned by LLM.
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 480, in validate
+    parsed = self.parse_json(
+             ^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 182, in parse_json
+    return json.loads(cleaned)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 666 column 10 (char 32328)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/extractor.py", line 334, in extract_resume
+    validated_json = self.validator.validate(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/teamspace/studios/this_studio/Resume_Information_Extraction/backend/llm/validator.py", line 516, in validate
+    raise ValueError(
+ValueError: Invalid JSON returned by LLM.
+2026-07-01 16:30:06,124 | ERROR | Failed after 3 attempts : R-039.txt
+2026-07-01 16:30:06,124 | INFO | ----------------------------------------------------------------------
+2026-07-01 16:30:06,124 | INFO | Processing : R-040.txt
+2026-07-01 16:30:06,124 | INFO | Extraction Attempt (1/3)
+2026-07-01 16:30:06,125 | INFO | LLM Request (1/3)
+2026-07-01 16:30:18,938 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-01 16:30:18,939 | INFO | JSON validation successful.
+2026-07-01 16:30:18,939 | INFO | Saved : R-040.json
+2026-07-01 16:30:18,939 | INFO | Finished : R-040.txt
+2026-07-01 16:30:18,939 | INFO | ======================================================================
+2026-07-01 16:30:18,939 | INFO | EXTRACTION FINISHED
+2026-07-01 16:30:18,939 | INFO | ======================================================================

@@ -1,0 +1,290 @@
+{
+    "personal_information": {
+        "full_name": "Bhumika Shah",
+        "current_designation": "",
+        "total_experience": "20 years + 13 months",
+        "email": "drbhumikashah@gmail.com",
+        "phone": "+91 9727797105",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "linkedin.com/in/dr-bhumika-bhatt-shah-b8008419",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "An Innovative Framework for Remote Database Experimentation",
+            "institution": "Gujarat University, Department of Computer Science",
+            "board_university": "Gujarat University",
+            "year": "2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "MCA",
+            "specialization": "",
+            "institution": "IGNOU (Indira Gandhi National Open University), Computer Science",
+            "board_university": "IGNOU",
+            "year": "2007",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Head of the Department of Computer Science, Mentor, Core Committee Member",
+            "organization": "Gujarat University, Ahmedabad, Gujarat",
+            "start_date": "August 2011",
+            "end_date": "Present",
+            "duration": "13 years + 1 month",
+            "description": "Provided comprehensive academic support to the head of the Department. Taught MCA and M.Sc students, developed quizzes, exams, revised syllabus, designed new syllabi, represented department at conferences, organized workshops, delivered lectures, wrote research proposals, mentored project students, oversaw placement process."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Department of Computer Science, IBMR College, Pune, Maharashtra",
+            "start_date": "January 2006",
+            "end_date": "March 2011",
+            "duration": "5 years + 3 months",
+            "description": "Conducted lectures and tutorials for undergraduate and graduate students. Represented department at conferences, organized workshops, managed placement process, provided mentorship to project students."
+        }
+    ],
+    "research_interests": [
+        "Database Management Systems",
+        "Java Programming",
+        "HTML, CSS, JavaScript",
+        "Query Optimization",
+        "Image Processing",
+        "Virtual Labs"
+    ],
+    "publications": [
+        {
+            "title": "Automated Evaluation of SQL Queries: Eval_SQL",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti"
+            ],
+            "journal": "Evolution in Computational Intelligence",
+            "conference": "",
+            "year": "2022",
+            "doi": "",
+            "publisher": "Springer"
+        },
+        {
+            "title": "GU_DB: a database management system prototype for academia",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti"
+            ],
+            "journal": "International Journal of Advanced Computer Research",
+            "conference": "",
+            "year": "2021",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Database Virtual Laboratory for Guided Learning",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti",
+                "Patel Vivek",
+                "Patel Sandip"
+            ],
+            "journal": "International Journal of Recent Technology and Engineering (IJRTE)",
+            "conference": "",
+            "year": "2019",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Smart Laboratories : Learning Data Structures through Games",
+            "authors": [
+                "Shah Bhumika",
+                "et al."
+            ],
+            "journal": "T4E 2023, IIT Bombay",
+            "conference": "",
+            "year": "2023",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Image GPT with Super Resolution",
+            "authors": [
+                "Shah Bhumika",
+                "Sinha Ankita",
+                "Saxena Prashant"
+            ],
+            "journal": "Intelligent Data Engineering and Analytics: Proceedings of the 9th International Conference on Frontiers in Intelligent Computing: Theory and Applications (FICTA 2021)",
+            "conference": "",
+            "year": "2022",
+            "doi": "",
+            "publisher": "Springer Nature Singapore"
+        },
+        {
+            "title": "A Novel Approach to Optimize Subqueries for Open Source Databases",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti",
+                "Kanziya Darshit"
+            ],
+            "journal": "Smart Trends in Systems, Security and Sustainability: Proceedings of WS4 2017",
+            "conference": "",
+            "year": "2018",
+            "doi": "",
+            "publisher": "Springer Singapore"
+        },
+        {
+            "title": "Query Optimization for Information Retrieval in Multilingual Environment for e-Governance Resources",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti"
+            ],
+            "journal": "Proceedings of International Conference on ICT in Business Industry & Government (ICTBIG)",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": "IEEE"
+        }
+    ],
+    "projects": [
+        {
+            "title": "GU_DB, a Database system Prototype, integrated with Virtual laboratory as a front end.",
+            "description": "Developed GU_DB and integrated it with virtual lab.",
+            "technologies": [
+                "Database Management Systems",
+                "Java Programming"
+            ],
+            "duration": ""
+        },
+        {
+            "title": "Integrated GU_DB with Automated Assessment of SQL Queries",
+            "description": "Integrated GU_DB with automated assessment system for SQL queries.",
+            "technologies": [
+                "Database Management Systems",
+                "Java Programming"
+            ],
+            "duration": "2021"
+        },
+        {
+            "title": "Innovative Framework for Remote Database Experimentation, integrating it with Learning Management Systems hosted at IIT-B portal",
+            "description": "Created an innovative framework for remote database experimentation.",
+            "technologies": [
+                "Database Management Systems",
+                "Java Programming"
+            ],
+            "duration": ""
+        },
+        {
+            "title": "Efficient retrieval in Multi-lingual systems for E-Governance resources",
+            "description": "Proposed efficient retrieval methods for multilingual e-governance resources.",
+            "technologies": [],
+            "duration": "2016"
+        }
+    ],
+    "patents": [],
+    "books": [
+        {
+            "title": "Automated Evaluation of SQL Queries: Eval_SQL",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti"
+            ],
+            "journal": "",
+            "conference": "",
+            "year": "2022",
+            "doi": "",
+            "publisher": "Springer"
+        }
+    ],
+    "book_chapters": [],
+    "conferences": [
+        {
+            "title": "Teaching Challenge Winner for 'Query Optimization'",
+            "authors": [
+                "Shah Bhumika"
+            ],
+            "journal": "",
+            "conference": "ACM-Compute",
+            "year": "2021",
+            "doi": ""
+        },
+        {
+            "title": "Teaching Challenge Winner for : Teaching Database Design",
+            "authors": [
+                "Shah Bhumika"
+            ],
+            "journal": "",
+            "conference": "ACM-Compute",
+            "year": "2022",
+            "doi": ""
+        }
+    ],
+    "awards": [
+        {
+            "title": "Outstanding Contribution in Computer Science Award by WDC and ICC, Gujarat University",
+            "authors": [],
+            "journal": "",
+            "conference": "",
+            "year": "2023",
+            "doi": ""
+        },
+        {
+            "title": "ACM Teaching Challenge Award Winner",
+            "authors": [],
+            "journal": "",
+            "conference": "",
+            "year": "2021, 2022",
+            "doi": ""
+        },
+        {
+            "title": "Best Paper Award at ICPS",
+            "authors": [
+                "Shah Bhumika",
+                "Pareek Jyoti"
+            ],
+            "journal": "",
+            "conference": "International Conference on Police Science (ICPS-2019)",
+            "year": "2019",
+            "doi": ""
+        }
+    ],
+    "certifications": [
+        {
+            "name": "ADSE (H) (Advanced Diploma in Software Engineering (Honors))",
+            "organization": "APTECH Computer Education, Ahmedabad",
+            "year": "3 1⁄2 Yrs"
+        },
+        {
+            "name": "Microsoft Certified Solution Developer (MCP)",
+            "organization": "",
+            "year": "ID: 1921094 | http://www.microsoft.com/mcp"
+        },
+        {
+            "name": "Brain bench Certified Professional",
+            "organization": "",
+            "year": "Transcript ID: 633399 | http://www.brainbench.com"
+        }
+    ],
+    "skills": [
+        "Database Management Systems (DBMS)",
+        "Java Programming",
+        "HTML, CSS, JavaScript",
+        "Query Optimization",
+        "Image Processing",
+        "Virtual Labs",
+        "Effective communication and interpersonal skills",
+        "Mentoring, counseling, academic support roles",
+        "Designing syllabi and developing pedagogical strategies for STEM courses",
+        "Project management skills including proposal writing, resource coordination, event organization",
+        "Industry practices and trends in the IT sector"
+    ],
+    "languages": [
+        "English",
+        "Hindi",
+        "Gujarati",
+        "Marathi"
+    ],
+    "references": []
+}

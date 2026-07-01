@@ -1,0 +1,402 @@
+{
+    "personal_information": {
+        "full_name": "Anil Babubhai Hirpara",
+        "current_designation": "",
+        "total_experience": "4 years 10 months",
+        "email": "hirparaanil7@gmail.com",
+        "phone": "9427373948",
+        "date_of_birth": "1995-02-07",
+        "gender": "Male",
+        "address": "",
+        "linkedin": "",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Physics",
+            "institution": "Sardar Patel University, Department of Physics, SPU, Vallabh Vidyanagar",
+            "board_university": "Sardar Patel University",
+            "year": "2023",
+            "cgpa_percentage": "N.A."
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Physics",
+            "institution": "Shri Alpesh N Patel Post Graduate Institute of Science and Research, Anand",
+            "board_university": "Sardar Patel University",
+            "year": "2017",
+            "cgpa_percentage": "8.2"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics",
+            "institution": "Veer Narmad South Gujarat University, Navyug Science College, Surat",
+            "board_university": "Veer Narmad South Gujarat University",
+            "year": "2015",
+            "cgpa_percentage": "6.87"
+        },
+        {
+            "degree": "H.S.C.",
+            "specialization": "",
+            "institution": "GSHSEB, K. K. Parekh & Maheta R P Vidyalay High School, Amreli",
+            "board_university": "GSHSEB",
+            "year": "2012",
+            "cgpa_percentage": "52%"
+        },
+        {
+            "degree": "S.S.C.",
+            "specialization": "",
+            "institution": "GSEB, Shri Madhyamik shala, Nariyeli-moli",
+            "board_university": "GSEB",
+            "year": "2010",
+            "cgpa_percentage": "73.54%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Indian Institute of Teacher Education, Gandhinagar",
+            "start_date": "2023-09-01",
+            "end_date": "",
+            "duration": "Till date",
+            "description": ""
+        },
+        {
+            "designation": "Assisted in M.Sc. Semester (1 & 2) Laboratory courses at Department of Physics, Sardar Patel University, Vallabh Vidyanagar",
+            "organization": "Sardar Patel University, Vallabh Vidyanagar",
+            "start_date": "2019-10-01",
+            "end_date": "2020-09-30",
+            "duration": "1 year",
+            "description": ""
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "Thermal Investigation of Direct Vapor Transport (DVT) Grown Quaternary Cu2ZnSnS4 Single Crystals",
+            "authors": [
+                "A.B. Hirpara",
+                "S.H. Chaki",
+                "A.J. Khimani",
+                "R.M. Kannaujiya",
+                "M.P. Deshpande"
+            ],
+            "journal": "Int. J. Thermophys.",
+            "conference": "",
+            "year": "2021",
+            "doi": "https://doi.org/10.1007/s10765-020-02772-y",
+            "publisher": ""
+        },
+        {
+            "title": "Anisotropic photoresponse investigation of chemical vapor transport (CVT) grown quaternary Cu2ZnSnS4 single crystals",
+            "authors": [
+                "A.B. Hirpara",
+                "S.H. Chaki",
+                "A.J. Khimani",
+                "R.M. Kannaujiya",
+                "M.P. Deshpande"
+            ],
+            "journal": "J. Mater. Sci. Mater. Electron.",
+            "conference": "",
+            "year": "2022",
+            "doi": "https://doi.org/10.1007/s10854-022-08846-x",
+            "publisher": ""
+        },
+        {
+            "title": "Biological investigation of sonochemically synthesized CZTS nanoparticles",
+            "authors": [
+                "A.B. Hirpara",
+                "S.H. Chaki",
+                "R.M. Kannaujiya",
+                "Z.R. Parekh",
+                "Y.H. Vaidya",
+                "R.K. Giri",
+                "M.P. Deshpande"
+            ],
+            "journal": "Appl. Surf. Sci.",
+            "conference": "",
+            "year": "2022",
+            "doi": "https://doi.org/10.1016/j.apsadv.2022.100338",
+            "publisher": ""
+        },
+        {
+            "title": "Photoresponse application of the dip-coated-Cu2ZnSnS4 thin film",
+            "authors": [
+                "A.B. Hirpara",
+                "S.H. Chaki",
+                "R.M. Kannaujiya",
+                "M.P. Deshpande"
+            ],
+            "journal": "Appl. Phys. A.",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://doi.org/10.1007/s00339-023-06507-2",
+            "publisher": ""
+        },
+        {
+            "title": "Enhancing photo-detection properties of Sb0.15Sn0.85S2 alloy",
+            "authors": [
+                "A.J. Khimani",
+                "S.H. Chaki",
+                "R.M. Kannaujiya",
+                "M.P. Deshpande"
+            ],
+            "journal": "Mater. Res. Express.",
+            "conference": "",
+            "year": "2019",
+            "doi": "https://doi.org/10.1088/2053-1591/ab2cea",
+            "publisher": ""
+        },
+        {
+            "title": "Growth and characterizations of tin telluride (SnTe) single crystals",
+            "authors": [
+                "R.M. Kannaujiya",
+                "A.J. Khimani",
+                "S.H. Chaki",
+                "S.M. Chauhan",
+                "A.B. Hirpara",
+                "M.P. Deshpande"
+            ],
+            "journal": "Eur. Phys. J. Plus.",
+            "conference": "",
+            "year": "2020",
+            "doi": "https://doi.org/10.1140/epjp/s13360-019-00022-1",
+            "publisher": ""
+        },
+        {
+            "title": "Growth and Characterizations of Rhenium Disulfide (ReS2) Single Crystals",
+            "authors": [
+                "A. Ghetiya",
+                "S.H. Chaki",
+                "A.J. Khimani",
+                "A.B. Hirpara",
+                "R.M. Kannaujiya",
+                "S. Patel",
+                "M.P. Deshpande"
+            ],
+            "journal": "Phys. Status Solidi Appl. Mater. Sci.",
+            "conference": "",
+            "year": "2021",
+            "doi": "https://doi.org/10.1002/pssa.202000687",
+            "publisher": ""
+        },
+        {
+            "title": "CuO nanoparticles - Synthesis by wet precipitation technique and its characterization",
+            "authors": [
+                "Z.R. Parekh",
+                "S.H. Chaki",
+                "A.B. Hirpara",
+                "G.H. Patel",
+                "R.M. Kannaujiya",
+                "A.J. Khimani",
+                "M.P. Deshpande"
+            ],
+            "journal": "Phys. B Condens. Matter.",
+            "conference": "",
+            "year": "2021",
+            "doi": "https://doi.org/10.1016/j.physb.2021.412950",
+            "publisher": ""
+        },
+        {
+            "title": "Sol-gel synthesis and thermal characterization of SnO2 nanoparticles",
+            "authors": [
+                "G.H. Patel",
+                "S.H. Chaki",
+                "R.M. Kannaujiya",
+                "Z.R. Parekh",
+                "A.B. Hirpara",
+                "A.J. Khimani",
+                "M.P. Deshpande"
+            ],
+            "journal": "Phys. B Condens. Matter.",
+            "conference": "",
+            "year": "2021",
+            "doi": "https://doi.org/10.1016/j.physb.2021.412987",
+            "publisher": ""
+        },
+        {
+            "title": "Effect of Sb doping on CVT grown SnTe single crystals electrical and thermal properties",
+            "authors": [
+                "R.M. Kannaujiya",
+                "S.H. Chaki",
+                "A.J. Khimani",
+                "A.B. Hirpara",
+                "Z.R. Parekh",
+                "R.K. Giri",
+                "S. Patel",
+                "M.P. Deshpande"
+            ],
+            "journal": "J. Mater. Sci. Mater. Electron.",
+            "conference": "",
+            "year": "2022",
+            "doi": "https://doi.org/10.1007/s10854-022-08891-6",
+            "publisher": ""
+        },
+        {
+            "title": "Materials Today : Proceedings Thermal decomposition study of cadmium telluride (CdTe)",
+            "authors": [
+                "Z.S. Kachhia",
+                "S.H. Chaki",
+                "R. Kr",
+                "Z.R. Parekh",
+                "R.M. Kannaujiya",
+                "A.B. Hirpara",
+                "M.P. Deshpande",
+                "J.P. Tailor"
+            ],
+            "journal": "Mater. Today Proc.",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://doi.org/10.1016/j.matpr.2023.02.240",
+            "publisher": ""
+        },
+        {
+            "title": "Mechanistic Insights into Antibacterial and Anti-biofilm Activities against multidrug-resistant microbes of SnTe nanospheres synthesized by sonochemical method",
+            "authors": [
+                "R.M. Kannaujiya",
+                "S.H. Chaki",
+                "A.J. Khimani",
+                "R.K. Giri",
+                "A.B. Hirpara",
+                "Y.H. Vaidya",
+                "M.P. Deshpande"
+            ],
+            "journal": "Chem. Phys. Impact.",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://doi.org/10.1016/j.chphi.2023.100219",
+            "publisher": ""
+        },
+        {
+            "title": "Photoresponse of surface modified graphene oxide by green synthesized silver and gold nanoparticles",
+            "authors": [
+                "H.M. Mistry",
+                "M.P. Deshpande",
+                "A.B. Hirpara",
+                "N.M. Suchak",
+                "S.H. Chaki",
+                "S. Pandya",
+                "J. Valand",
+                "S. V. Bhatt"
+            ],
+            "journal": "Appl. Surf. Sci.",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://doi.org/10.1016/j.apsusc.2023.157583",
+            "publisher": ""
+        },
+        {
+            "title": "Bias-switchable photoconductance in surface-modified graphene oxide by green synthesized ZnO nanoparticles",
+            "authors": [
+                "H.M. Mistry",
+                "M.P. Deshpande",
+                "A.B. Hirpara",
+                "N.M. Suchak",
+                "S.H. Chaki",
+                "S. V. Bhatt"
+            ],
+            "journal": "J. Alloys Compd.",
+            "conference": "",
+            "year": "2023",
+            "doi": "https://doi.org/10.1016/j.jallcom.2023.172328",
+            "publisher": ""
+        },
+        {
+            "title": "Unveiling the optoelectronic characteristics of SnTe thin films: An extensive investigation via structural & photoresponse analysis of drop-cast deposition",
+            "authors": [
+                "R.M. Kannaujiya",
+                "S.H. Chaki",
+                "A.J. Khimani",
+                "Z.R. Parekh",
+                "A.B. Hirpara",
+                "S.S. Soni",
+                "S.N. Bariya",
+                "M.P. Deshpande"
+            ],
+            "journal": "Surfaces and Interfaces.",
+            "conference": "",
+            "year": "2024",
+            "doi": "https://doi.org/10.1016/j.surfin.2023.103788",
+            "publisher": ""
+        }
+    ],
+    "projects": [],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [
+        {
+            "title": "National workshop on Analytical techniques for Material Characterization Techniques for Material Analysis (NWATMC-2017)",
+            "description": "",
+            "technologies": [],
+            "duration": "20th March, 2017"
+        },
+        {
+            "title": "Two days National workshop on Advanced Characterization Techniques for Material Analysis (ACTMA-2019)",
+            "description": "",
+            "technologies": [],
+            "duration": "8th - 9th March, 2019"
+        }
+    ],
+    "awards": [
+        {
+            "title": "University 1st rank out of 147 students in M.Sc. (Physics) at Sardar Patel University",
+            "year": "2017"
+        },
+        {
+            "title": "Qualified Junior Research Fellowship (All India rank 138) conducted by The Council of Scientific & Industrial Research (CSIR)",
+            "year": "2018"
+        },
+        {
+            "title": "Selected for INSPIRE fellowship by Department of Science and Technology, India",
+            "year": "2019"
+        },
+        {
+            "title": "Fellowship designation upgraded from Junior Research Fellowship to Senior Research Fellowship",
+            "year": "2021"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "National Eligibility Test (NET)",
+            "organization": "CSIR",
+            "year": "2018"
+        },
+        {
+            "name": "Course on Computer Concepts (CCC)",
+            "organization": "NIELIT",
+            "year": "2019"
+        }
+    ],
+    "skills": [
+        "Physics Research",
+        "Thermal Investigation",
+        "Photoresponse Investigation",
+        "Biological Investigation",
+        "Synthesis of Nanoparticles",
+        "Characterization Techniques",
+        "Poster Presentation",
+        "Paper Presentation"
+    ],
+    "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+    ],
+    "references": [
+        {
+            "name": "Prof. S. H. Chaki",
+            "organization": "Department of Physics, Sardar Patel University, Vallabh Vidyanagar",
+            "year": ""
+        },
+        {
+            "name": "Prof. M. P. Deshpande",
+            "organization": "Department of Physics, Sardar Patel University, Vallabh Vidyanagar",
+            "year": ""
+        }
+    ]
+}

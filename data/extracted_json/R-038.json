@@ -1,0 +1,409 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Swapnil Shukla",
+        "current_designation": "",
+        "total_experience": "10 years 8 months",
+        "email": "swapnilshukla025@gmail.com",
+        "phone": "9999044865",
+        "date_of_birth": "25th May 1988",
+        "gender": "Female",
+        "address": "A-301, Shanti Botonica BAPS Road, Raysan, Gandhinagar Gujarat- 382421, India",
+        "linkedin": "",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Chemistry",
+            "specialization": "Sustainable Benzoxazines - Sources, Synthesis and Applications",
+            "institution": "Shiv Nadar University, Uttar Pradesh, India",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M. Sc. in Chemistry",
+            "specialization": "Importance of Kinases as potential drug targets",
+            "institution": "Hindu college, University of Delhi, Delhi, India",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "68.9%"
+        },
+        {
+            "degree": "B. Sc. (Hons.) in Chemistry",
+            "specialization": "",
+            "institution": "Sri Venkateswara College, University of Delhi, Delhi, India",
+            "board_university": "",
+            "year": "2009",
+            "cgpa_percentage": "81.2%"
+        },
+        {
+            "degree": "12th Class (Equivalent to A levels)",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education, Delhi, India",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": "82%"
+        },
+        {
+            "degree": "10th Class",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education, Delhi, India",
+            "board_university": "",
+            "year": "2004",
+            "cgpa_percentage": "88.6%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Scientist II",
+            "organization": "Central University of Gujarat, Gandhinagar",
+            "start_date": "2023-09-11",
+            "end_date": "",
+            "duration": "1 year (provisional)",
+            "description": "Engaged under the sponsored Project Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project"
+        },
+        {
+            "designation": "Project Scientist II",
+            "organization": "Central University of Gujarat, Gandhinagar",
+            "start_date": "2017-09",
+            "end_date": "2023-08-29",
+            "duration": "5 years 11 months",
+            "description": "Engaged under the sponsored Project Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project"
+        },
+        {
+            "designation": "Research Scientist, Polymer R&D",
+            "organization": "Reliance Industries Ltd.; Elastomer division",
+            "start_date": "2018-05",
+            "end_date": "2019-10",
+            "duration": "1 year 6 months",
+            "description": "Involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques"
+        },
+        {
+            "designation": "Research Associate, Dept. of Chemistry",
+            "organization": "Shiv Nadar University",
+            "start_date": "2017-10",
+            "end_date": "2018-04",
+            "duration": "6 months",
+            "description": "Biobased Polybenzoxazine synthesis, characterization and applications"
+        },
+        {
+            "designation": "Teaching Assistant, Dept. of Chemistry",
+            "organization": "Shiv Nadar University",
+            "start_date": "2014-08",
+            "end_date": "2016-06",
+            "duration": "1 year 10 months",
+            "description": ""
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "Integrative natural medicine inspired graphene nanovehicle-benzoxazine derivatives as potent therapy for cancer",
+            "authors": [
+                "Naveen Kumar",
+                "Nisha Yadav",
+                "Nagarjuna Amarnath",
+                "Vijeta Sharma",
+                "Swapnil Shukla",
+                "Akriti Srivastava",
+                "Peeyush Prasad",
+                "Anil Kumar",
+                "Swati Garg",
+                "Shailja Singh",
+                "Seema Sehrawat",
+                "Bimlesh Lochab"
+            ],
+            "journal": "Mol. Cell. Biochem.",
+            "conference": "",
+            "year": "2018",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Harvesting the benefits of inherent reactive functionalities in fully bio-sourced isomeric benzoxazines",
+            "authors": [
+                "Nagarjuna Amarnath",
+                "Swapnil Shukla",
+                "Bimlesh Lochab"
+            ],
+            "journal": "ACS Sus. Chem. Eng.",
+            "conference": "",
+            "year": "2018",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Benzoxazine derivatives of phytophenols show anti-plasmodial activity via sodium homeostasis disruption",
+            "authors": [
+                "Vijeta Sharma",
+                "Nagarjuna Amarnath",
+                "Swapnil Shukla",
+                "R. Ayana",
+                "Naveen Kumar",
+                "Nisha Yadav",
+                "Deepika Kannan",
+                "Seema Sehrawat",
+                "Soumya Pati",
+                "Bimlesh Lochab",
+                "Shailja Singh"
+            ],
+            "journal": "Bioorg. Med. Chem. Lett.",
+            "conference": "",
+            "year": "2018",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Sulfur Copolymer: A New Cathode Structure for Room-Temperature Sodium-Sulfur Batteries",
+            "authors": [
+                "Arnab Ghosh",
+                "Swapnil Shukla",
+                "Monisha",
+                "Ajit Kumar",
+                "Bimlesh Lochab",
+                "Sagar Mitra"
+            ],
+            "journal": "ACS Ener. Lett.",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Nanoparticles as curing and adhesive aid for biobased and petrobased benzoxazines",
+            "authors": [
+                "Monisha",
+                "Swapnil Shukla",
+                "Bimlesh Lochab"
+            ],
+            "journal": "Green mater.",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Graphene Oxide-Coated Surface: Inhibition of Bacterial Biofilm Formation due to Specific Surface-Interface Interactions",
+            "authors": [
+                "Nisha Yadav",
+                "Amrita Dubey",
+                "Swapnil Shukla",
+                "Chetan Prakash Saini",
+                "Govind Gupta",
+                "Richa Priyadarshini",
+                "Bimlesh Lochab"
+            ],
+            "journal": "ACS Omega",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Role of higher aromatic content in modulating properties of cardanol based benzoxazines",
+            "authors": [
+                "Swapnil Shukla",
+                "Bimlesh Lochab"
+            ],
+            "journal": "Polymer",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Cardanol benzoxazines-A sustainable linker for elemental sulphur based copolymers via inverse vulcanisation",
+            "authors": [
+                "Swapnil Shukla",
+                "Arnab Ghosh",
+                "Prasun Kumar Roy",
+                "Sagar Mitra",
+                "Bimlesh Lochab"
+            ],
+            "journal": "Polymer",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Sustainable Sulfur-rich Copolymer/Graphene Composite as Lithium-Sulfur Battery Cathode with Excellent Electrochemical Performance",
+            "authors": [
+                "Arnab Ghosh",
+                "Swapnil Shukla",
+                "Apoorv Shaligram",
+                "Uttam Kumar Sen",
+                "Prasun Kumar Roy",
+                "Sagar Mitra",
+                "Bimlesh Lochab"
+            ],
+            "journal": "Sci. Rep.",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Kinetics behind a New Strategy for Modulation of Sustainable Benzoxazines: Experimental Study and its Theoretical Verification",
+            "authors": [
+                "Swapnil Shukla",
+                "Bimlesh Lochab"
+            ],
+            "journal": "Macromol. Chem. Phys.",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Cardanol benzoxazine-Sulfur Copolymers for Li-S batteries: Symbiosis of Sustainability and Performance",
+            "authors": [
+                "Swapnil Shukla",
+                "Apoorv Shaligram",
+                "Arnab Ghosh",
+                "Uttam Kumar Sen",
+                "Prasun Kumar Roy",
+                "Sagar Mitra",
+                "Bimlesh Lochab"
+            ],
+            "journal": "ChemistrySelect",
+            "conference": "",
+            "year": "2016",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Cardanol benzoxazines - interplay of oxazine functionality (mono to tetra) and properties",
+            "authors": [
+                "Swapnil Shukla",
+                "Arup Mahata",
+                "Biswarup Pathak",
+                "Bimlesh Lochab"
+            ],
+            "journal": "RSC Adv.",
+            "conference": "",
+            "year": "2015",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Microencapsulated cardanol derived benzoxazines for self-healing applications",
+            "authors": [
+                "Pratibha Sharma",
+                "Swapnil Shukla",
+                "Bimlesh Lochab",
+                "Devendra Kumar",
+                "Prasun Kumar Roy"
+            ],
+            "journal": "Mater. Lett.",
+            "conference": "",
+            "year": "2014",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Naturally occurring phenolic sources: Monomers and Polymers",
+            "authors": [
+                "Bimlesh Lochab",
+                "Swapnil Shukla",
+                "Indra K. Varma"
+            ],
+            "journal": "RSC Adv.",
+            "conference": "",
+            "year": "2014",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "Engagement of Project Scientist II under the sponsored Project Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar",
+            "description": "",
+            "technologies": [],
+            "duration": "1 year (provisional)"
+        }
+    ],
+    "patents": [],
+    "books": [],
+    "book_chapters": [
+        {
+            "title": "Cardanol based benzoxazines and their applications",
+            "authors": [
+                "Swapnil Shukla",
+                "Nisha Yadav",
+                "Bimlesh Lochab"
+            ],
+            "journal": "",
+            "conference": "",
+            "year": 2016,
+            "doi": "",
+            "publisher": "Elsevier, Amsterdam"
+        },
+        {
+            "title": "Lignin based phenols: Potential feedstock for renewable benzoxazines",
+            "authors": [
+                "Swapnil Shukla",
+                "Bimlesh Lochab"
+            ],
+            "journal": "",
+            "conference": "",
+            "year": 2016,
+            "doi": "",
+            "publisher": "Elsevier, Amsterdam"
+        }
+    ],
+    "conferences": [],
+    "awards": [
+        {
+            "title": "Young Scientist Award (Dr. B. N. Mankad Award) for oral presentation in 53rd Annual Convention of Chemists, GITAM University, India",
+            "year": 2016
+        },
+        {
+            "title": "Travel Grant from Centre of International Co-operation in science (CICS) (promoted by India national Science Academy), India",
+            "year": 2016
+        },
+        {
+            "title": "First runner up prize for poster presentation in the One day Symposium 'Emerging Research Trends in Sciences & Grantsmanship', SNU, India",
+            "year": 2016
+        },
+        {
+            "title": "First runner up prize for poster presentation in the One day Symposium, 'Current trends in Drug Discoveries Research in India', SNU, India",
+            "year": 2015
+        },
+        {
+            "title": "Best Oral Paper Award in the Green Materials section of the International Conference on Green Initiatives in Science and Technology (GIST-2015) sponsored by the Royal Society of Chemistry (RSC) North India Section and Indian Oil, MRCE, India",
+            "year": 2015
+        },
+        {
+            "title": "Qualified All India Graduate Aptitude Test in Engineering (Chemistry), GATE (2012)",
+            "year": 2012
+        },
+        {
+            "title": "Certificate of participation in 4th Indo-Italian seminar and 7th Indo-Italian workshop on 'Green Chemistry and Natural Products', University of Delhi, India",
+            "year": 2010
+        },
+        {
+            "title": "Certificate of Merit and Medal for securing first position in South Delhi campus in Undergraduate [BSc (H) Chemistry] University Examination",
+            "year": 2008
+        },
+        {
+            "title": "Certificate of Merit for excellence in academics at school level",
+            "year": 2006
+        },
+        {
+            "title": "Certificate of Merit for excellence in academics from Central Board of Senior Secondary Education, Delhi, India",
+            "year": 2004
+        }
+    ],
+    "certifications": [],
+    "skills": [
+        "Synthetic organic chemist with experience in complete characterization of large and small organic compounds by NMR, IR, UV-visible spectroscopy, LC-MS, GPC, HPLC, TGA, DSC, Rheology techniques.",
+        "Carried out the supervision of undergraduate project students and tutoring of chemistry students with practical demonstrations performed for both graduate and undergraduate students. Gained experience by working in collaboration with research groups in varied fields and locations",
+        "Possess good presentation and communication skills along with being an experienced user of MS Word, Powerpoint, Excel, Origin, NMR softwares (Topspin, Mestrec) and chemical data search system such as Scifinder."
+    ],
+    "languages": [],
+    "references": []
+}

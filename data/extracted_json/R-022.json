@@ -1,0 +1,316 @@
+{
+    "personal_information": {
+        "full_name": "C.V.Ravi kumar",
+        "current_designation": "Associate Professor in School of Electronics Engineering at VIT University Vellore",
+        "total_experience": "15+ Yrs",
+        "email": "cvrkvit@gmail.com",
+        "phone": "+91-8309450722",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "website": "",
+        "orcid": "https://orcid.org/0000-0002-4630-4072",
+        "google_scholar": "https://www.scopus.com/authid/detail.uri?authorId=58688584300",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D",
+            "specialization": "Wireless Communication",
+            "institution": "VIT",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Digital Electronics & Communication Systems",
+            "institution": "JNTU, Ananthapur",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "71%"
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "Electronics and Communications Engineering",
+            "institution": "Anna University",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "67%"
+        },
+        {
+            "degree": "Intermediate",
+            "specialization": "Science + Maths Stream",
+            "institution": "B.I.E",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "83%"
+        },
+        {
+            "degree": "SSC",
+            "specialization": "",
+            "institution": "SSC",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "59"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor in School of Electronics Engineering at VIT University Vellore",
+            "organization": "VIT University Vellore",
+            "start_date": "Jan 2023",
+            "end_date": "Till date",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor Senior Grade in School of Electronics Engineering at VIT University Vellore",
+            "organization": "VIT University Vellore",
+            "start_date": "June 2012",
+            "end_date": "Dec 2023",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor in Electronics & Communications Department at VBIT (Institute of Technology, Ghatkesar, Hyderabad)",
+            "organization": "VBIT (Institute of Technology, Ghatkesar, Hyderabad)",
+            "start_date": "July 2009",
+            "end_date": "June 2012",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "CNN-Based Approach for Enhancing 5G LDPC Code Decoding Performance",
+            "authors": [
+                "S. P. Tera",
+                "R. Chinthaginjala",
+                "P. Natha",
+                "G. Pau",
+                "C. Dhanamjayulu",
+                "F. Mohammad"
+            ],
+            "journal": "IEEE Access",
+            "conference": "",
+            "year": "2024",
+            "doi": "10.1109/ACCESS.2024.3420106",
+            "publisher": ""
+        },
+        {
+            "title": "Offloading computational tasks for MIMO-NOMA in mobile edge computing utilizing a hybrid Pufferfish and Osprey optimization algorithm",
+            "authors": [
+                "MidhulaSri, J.",
+                "C. V. Ravikumar"
+            ],
+            "journal": "Ain Shams Engineering Journal",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Improved migration algorithms for uplink transmission secrecy sum rate maximization in MIMO-NOMA",
+            "authors": [
+                "Vineela, P.",
+                "C. V. RaviKumar"
+            ],
+            "journal": "Results in Engineering",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Enhancing handwritten text recognition accuracy with gated mechanisms",
+            "authors": [
+                "Chinthaginjala, Ravikumar",
+                "et al."
+            ],
+            "journal": "Scientific Reports",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Electrochemical Sensors for Heavy Metal Ion Detection in Aqueous Medium: A Systematic Review",
+            "authors": [
+                "Sulthana, S. Fouziya",
+                "et al."
+            ],
+            "journal": "ACS omega",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Sensitivity analysis of bi-metal stacked-gate-oxide hetero-juncture tunnel fet with Si0.6Ge0.4 source biosensor considering non-ideal factors",
+            "authors": [
+                "Ghosh, Rittik",
+                "et al."
+            ],
+            "journal": "Plos one",
+            "conference": "",
+            "year": "2024",
+            "doi": "10.1371/journal.pone.0301479",
+            "publisher": ""
+        },
+        {
+            "title": "Enhancing visual clarity in rainy conditions based on single-frame filtering algorithm",
+            "authors": [
+                "Rajesh, A.",
+                "et al."
+            ],
+            "journal": "Ain Shams Engineering Journal",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Enhancing underwater target localization through proximity-driven recurrent neural networks",
+            "authors": [
+                "Kumar, Sathish",
+                "et al."
+            ],
+            "journal": "Heliyon",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Metaatom loaded circularly polarized triple band patch antenna for Wi-Fi, ISM and X-band communications",
+            "authors": [
+                "Angadi, S.",
+                "Viswanadha, K.",
+                "Chinthaginjala, R.",
+                "Dhanamjayulu, C.",
+                "Tai-Hoon, K.",
+                "Kumar, S."
+            ],
+            "journal": "Heliyon",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "A novel optimized neural network model for cyber attack detection using enhanced whale optimization algorithm",
+            "authors": [
+                "Jyothi, Koganti Krishna",
+                "Subba Reddy Borra",
+                "Koganti Srilakshmi",
+                "Praveen Kumar Balachandran",
+                "Ganesh Prasad Reddy",
+                "Ilhami Colak",
+                "C. Dhanamjayulu",
+                "Ravikumar Chinthaginjala",
+                "Baseem Khan"
+            ],
+            "journal": "Scientific Reports",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "A novel exploratory hybrid deep neural network to predict breast cancer for mammography based on wavelet features",
+            "authors": [
+                "Karthiga, R.",
+                "Narasimhan, K.",
+                "Chinthaginjala, R.",
+                "Anbazhagan, R.",
+                "Chinnusamy, M.",
+                "Pau, G.",
+                "et al."
+            ],
+            "journal": "Multimedia Tools and Applications",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Clustering-based dragonfly optimization algorithm for underwater wireless sensor networks",
+            "authors": [
+                "Kaveripakam, Sathish",
+                "Ravikumar Chinthaginjala"
+            ],
+            "journal": "Alexandria Engineering Journal",
+            "conference": "",
+            "year": "2023",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Dingo optimization influenced arithmetic optimization-Clustering and localization algorithm for underwater acoustic sensor networks",
+            "authors": [
+                "Kaveripakam, S.",
+                "Ravikumar Chinthaginjala",
+                "Naik, C.",
+                "Pau, G.",
+                "Ab Wahab, M. N.",
+                "Akbar, M. F.",
+                "Dhanamjayulu, C."
+            ],
+            "journal": "Alexandria Engineering Journal",
+            "conference": "",
+            "year": "2023",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Study of Complementary Loop Integrated Metasurface for 6G THz Communication",
+            "authors": [
+                "Selvaraj et al."
+            ],
+            "journal": "IEEE Access",
+            "conference": "",
+            "year": "2024",
+            "doi": "10.1109/ACCESS.2024.3367444",
+            "publisher": ""
+        },
+        {
+            "title": "Submarine Acoustic Target Strength Modeling at High-Frequency Asymptotic Scattering",
+            "authors": [
+                "S. Kumar",
+                "R. Chinthaginjala",
+                "R. Anbazhagan",
+                "V. O. Nyangaresi",
+                "G. Pau",
+                "P. S. Varma"
+            ],
+            "journal": "IEEE Access",
+            "conference": "",
+            "year": "2024",
+            "doi": "10.1109/ACCESS.2023.3349031",
+            "publisher": ""
+        }
+    ],
+    "projects": [],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [],
+    "awards": [],
+    "certifications": [
+        {
+            "name": "",
+            "organization": "",
+            "year": ""
+        }
+    ],
+    "skills": [
+        "Networking Protocols",
+        "Advanced Computer networks",
+        "CCNA, CCNP routing and switching"
+    ],
+    "languages": [],
+    "references": []
+}

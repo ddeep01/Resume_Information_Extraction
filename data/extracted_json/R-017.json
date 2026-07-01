@@ -1,0 +1,452 @@
+{
+    "personal_information": {
+        "full_name": "DHWANILNATH GAUTAM",
+        "current_designation": "",
+        "total_experience": "8 years and 4 months",
+        "email": "dhwanilnath@gmail.com",
+        "phone": "+91 89808 88847",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "www.linkedin.com/in/dhwanilnath/",
+        "website": "www.cept.ac.in/faculty/dhwanilnath-gharekhan",
+        "orcid": "0000-0002-6699-7494",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Geomatics",
+            "specialization": "",
+            "institution": "Nirma University, Ahmedabad, India",
+            "board_university": "",
+            "year": "2018-2022",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech. in Geomatics",
+            "specialization": "",
+            "institution": "CEPT University, Ahmedabad, India",
+            "board_university": "",
+            "year": "2015-2017",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.E. in Electronics and Communication",
+            "specialization": "",
+            "institution": "Silver Oak University, Ahmedabad, India",
+            "board_university": "",
+            "year": "2010-2015",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Corporate Consultant",
+            "organization": "Orbrick Consulting Pvt. Ltd., Ahmedabad, India",
+            "start_date": "Mar 2024",
+            "end_date": "",
+            "duration": "",
+            "description": "Providing solutions for deploying Machine Learning in employment management systems for higher education institutions."
+        },
+        {
+            "designation": "Program Chair & Assistant Professor",
+            "organization": "CEPT University, Ahmedabad, India",
+            "start_date": "Aug 2022",
+            "end_date": "",
+            "duration": "",
+            "description": "Presiding Chair for the M. Tech. Geomatics program, focusing on curriculum development, outreach, and research and academic collaborations with other organizations.\nTeaching subjects including Geospatial Programming, GIS for Smart Cities, Applications of Spatial Big Data and Analytics, Geospatial Modelling and Applications, and Python for Statistics.\nManaging other institutional responsibilities for Faculty of Technology, including Admissions Committee Coordinator and Computer Lab Coordinator."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Nirma University, Ahmedabad, India",
+            "start_date": "Aug 2018",
+            "end_date": "Sep 2022",
+            "duration": "",
+            "description": "Teaching subjects including Surveying, GIS, and Remote Sensing to students of B.E. (Civil Engineering) and providing guidance to students for minor projects and final thesis."
+        },
+        {
+            "designation": "Graduate Student Researcher",
+            "organization": "ISRO, Ahmedabad, India",
+            "start_date": "Jun 2018",
+            "end_date": "Jan 2021",
+            "duration": "",
+            "description": "Conducting primary research and developing computational models in the fields of Applied Meteorology, Thermal and Multispectral Remote Sensing, and Machine Learning at the Space Applications Centre (SAC), Indian Space Research Organisation (ISRO), Ahmedabad."
+        },
+        {
+            "designation": "Visiting Faculty",
+            "organization": "Gujarat University, Ahmedabad, India",
+            "start_date": "Jul 2017",
+            "end_date": "Jun 2018",
+            "duration": "",
+            "description": "Teaching subjects including Spatial Analysis and Statistics, Natural Resource Management, and GIS Lab to students of M.Sc. (Geoinformatics)."
+        },
+        {
+            "designation": "Researcher",
+            "organization": "St. Xavier's College, Ahmedabad, India",
+            "start_date": "Oct 2017",
+            "end_date": "Jun 2018",
+            "duration": "",
+            "description": "Conducting primary research under the project 'Quantization of Aerosol Radiative Forcing over an Urban Environment' at the Department of Physics and Electronics at St. Xavier's College."
+        }
+    ],
+    "research_interests": [],
+    "publications": [
+        {
+            "title": "Glacier retreat delineation using machine learning and deep learning: A case of a lower Himalayan region",
+            "authors": [
+                "Vemuri, S.",
+                "Gautam, D.",
+                "Gandhi, S."
+            ],
+            "journal": "J. Earth Syst. Sci.",
+            "conference": "",
+            "year": "2024",
+            "doi": "https://doi.org/10.1007/s12040-024-02285-4",
+            "publisher": ""
+        },
+        {
+            "title": "Estimating regional-scale daytime net surface radiation in cloudless skies from GEO-LEO satellite observations using data fusion approach",
+            "authors": [
+                "Gharekhan, D.",
+                "Nigam, R.",
+                "Bhattacharya, B.K.",
+                "Desai, D.",
+                "Patel, P. R."
+            ],
+            "journal": "J. Earth Syst. Sci.",
+            "conference": "",
+            "year": "2022",
+            "doi": "https://doi.org/10.1007/s12040-021-01806-9",
+            "publisher": ""
+        },
+        {
+            "title": "Modelling of Downwelling Longwave Radiation over Multiple Agro-Climate Settings of India Under Foggy Sky Conditions - A Neural Network Approach",
+            "authors": [
+                "Gharekhan, D.",
+                "Bhattacharya, B. K.",
+                "Desai, D.",
+                "Patel, P. R."
+            ],
+            "journal": "Remote Sensing Applications: Society and Environment",
+            "conference": "",
+            "year": "2022",
+            "doi": "https://doi.org/10.1016/j.rsase.2021.100684",
+            "publisher": ""
+        },
+        {
+            "title": "Neural network-based approach for estimation of downwelling longwave radiation flux under cloudy-sky conditions",
+            "authors": [
+                "Gharekhan, D.",
+                "Bhattacharya, B. K.",
+                "Desai, D.",
+                "Patel, P. R."
+            ],
+            "journal": "Journal of Applied Remote Sensing",
+            "conference": "",
+            "year": "2018",
+            "doi": "https://doi.org/10.1117/1.JRS.15.024515",
+            "publisher": ""
+        },
+        {
+            "title": "Wavelet Based Analysis of Soil Nutrients of Surendranagar District, Gujarat, India",
+            "authors": [
+                "Patel, P. H.",
+                "Patel, N. P.",
+                "Patel, P. L.",
+                "Gharekhan, D.",
+                "Gharekhan, A."
+            ],
+            "journal": "BEST: International Journal of Humanities, Arts, Medicine and Science",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Disharmonic Identification of EEG data through Wavelet Transformation",
+            "authors": [
+                "Gharekhan, D.",
+                "Gharekhan, A."
+            ],
+            "journal": "International Journal of Research in Modern Engineering and Emerging Technology",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Studying the Land Use Change for Understanding Old European Colonies in Present Era of India",
+            "authors": [
+                "Gharekhan, D.",
+                "Gandhi, S."
+            ],
+            "journal": "Journal of Environmental Science, Computer Science and Engineering & Technology",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Wavelet Based Analysis of Soil Nutrients of Surendranagar District, Gujarat, India",
+            "authors": [
+                "Patel, P. H.",
+                "Patel, N. P.",
+                "Patel, P. L.",
+                "Gharekhan, D.",
+                "Gharekhan, A."
+            ],
+            "journal": "International Journal of Humanities, Arts, Medicine and Sciences",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Enforcement of Human Rights at National and International Level, A Challenge: Pakistan and India's Fisher Women's Perspectives",
+            "authors": [
+                "Gharekhan, A.",
+                "Gharekhan, D."
+            ],
+            "journal": "Research Expo International Multidisciplinary Research Journal",
+            "conference": "",
+            "year": "2015",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Importance of Integrated (Manual Labour Intrinsic & Mechanised) Solid Waste Management Systems",
+            "authors": [
+                "Gharekhan, A.",
+                "Gharekhan, D."
+            ],
+            "journal": "International Journal of Engineering Sciences & Research Technology",
+            "conference": "",
+            "year": "2014",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [
+        {
+            "title": "A MultiCriteria Decision Analysis for Locating Optimal Food Zones, Rest Points and Local Markets in Rajkot: Enhancing Urban Liveability and Efficiency for the Gig Economic Sector",
+            "authors": [
+                "Hussain, S. A.",
+                "Parande, U.",
+                "Patel, P.",
+                "Bhatt, M.",
+                "Gharekhan, D.",
+                "Gandhi, S."
+            ],
+            "journal": "",
+            "conference": "ILUS - International Land Use Symposium 2023",
+            "year": 2023,
+            "doi": "10.5281/zenodo.10060261"
+        },
+        {
+            "title": "Improving Stormwater Infrastructure using Geospatial Techniques in Rajkot Smart City",
+            "authors": [
+                "Singh, V.",
+                "Patwa, P.",
+                "Parmar, P.",
+                "Bhatt, M.",
+                "Gharekhan, D.",
+                "Gandhi, S."
+            ],
+            "journal": "",
+            "conference": "ILUS - International Land Use Symposium 2023",
+            "year": 2023,
+            "doi": "10.5281/zenodo.10060373"
+        },
+        {
+            "title": "Geo-Analytical Approach to diseases vulnerability and high-risk space in Rajkot",
+            "authors": [
+                "Srivastava, N.",
+                "Kanmani, K. S.",
+                "Bhatt, M.",
+                "Gharekhan, D.",
+                "Gandhi, S."
+            ],
+            "journal": "",
+            "conference": "ILUS - International Land Use Symposium 2023",
+            "year": 2023,
+            "doi": "10.5281/zenodo.10060225"
+        },
+        {
+            "title": "Suggestive improvements to the city's green cover for a sustainable future of Rajkot",
+            "authors": [
+                "Pastagiya, K.",
+                "Patra, A.",
+                "R, T.",
+                "Bhatt, M.",
+                "Gharekhan, D.",
+                "Gandhi, S."
+            ],
+            "journal": "",
+            "conference": "ILUS - International Land Use Symposium 2023",
+            "year": 2023,
+            "doi": "10.5281/zenodo.10060466"
+        },
+        {
+            "title": "Assessment of Rooftop Photovoltaic Potential For Rajkot Smart City",
+            "authors": [
+                "S, A. P.",
+                "Parackal, J. S.",
+                "Bhatt, M.",
+                "Gharekhan, D.",
+                "Gandhi, S."
+            ],
+            "journal": "",
+            "conference": "ILUS - International Land Use Symposium 2023",
+            "year": 2023,
+            "doi": "10.5281/zenodo.10030014"
+        },
+        {
+            "title": "Prediction of land surface temperature under overcast skies using data fusion and deep learning neural networks",
+            "authors": [
+                "Gharekhan, D.",
+                "Bhattacharya, B. K."
+            ],
+            "journal": "",
+            "conference": "TRISHNADAYS 2022",
+            "year": 2022,
+            "doi": ""
+        },
+        {
+            "title": "Hyperspectral Data Assimilation and Road Material Extraction",
+            "authors": [
+                "Chandelia, A.",
+                "Patel, P. R.",
+                "Gharekhan, D."
+            ],
+            "journal": "",
+            "conference": "InGARSS 2021 Conference",
+            "year": 2021,
+            "doi": ""
+        },
+        {
+            "title": "Modelling of daytime incoming longwave radiation under cloudy sky over a semi-arid agro-climatic zone of India",
+            "authors": [
+                "Gharekhan, D.",
+                "Bhattacharya, B. K.",
+                "Nigam, R.",
+                "Desai, D.",
+                "Patel, P. R."
+            ],
+            "journal": "",
+            "conference": "Technologies for Sustainable Development (pp. 79-83)",
+            "year": 2020,
+            "doi": "https://doi.org/10.1201/9780429321573"
+        },
+        {
+            "title": "Built up construction material identification and classification from hyperspectral imagery",
+            "authors": [
+                "Gharekhan, D.",
+                "Vyas, A."
+            ],
+            "journal": "",
+            "conference": "National Symposium on Advancements in Geospatial Technology for Societal Benefits and Annual Conventions of Indian Society of Geomatics & Indian Society of Remote Sensing 5-7 December, 2018",
+            "year": 2018,
+            "doi": ""
+        },
+        {
+            "title": "Radiative forcing of special events over the urban environment of Ahmedabad City",
+            "authors": [
+                "Gharekhan, D.",
+                "Turakhia, T.",
+                "Iyer, R.",
+                "Chabra, A."
+            ],
+            "journal": "",
+            "conference": "IASTA 2018 Conference @ IIT Delhi (26 to 28 Nov, 2018)",
+            "year": 2018,
+            "doi": ""
+        },
+        {
+            "title": "Greece Crisis: A Case Study Between 2001 To 2015 Using Night Light Remote Sensing",
+            "authors": [
+                "Gharekhan, A.",
+                "Gharekhan, D."
+            ],
+            "journal": "",
+            "conference": "International Conference on Contemporary Issues and Challenges of Human Rights in The Era of Globalization, GLS, Ahmedabad 2-3 August, 2014",
+            "year": 2014,
+            "doi": ""
+        },
+        {
+            "title": "Importance of Integrate (Manual Labor Intrinsic & Mechanized) Solid Waste Management Systems",
+            "authors": [
+                "Gharekhan, A.",
+                "Gharekhan, D."
+            ],
+            "journal": "",
+            "conference": "National Conference on Integration of Engineering with Environmental Development & Sustainability; Pacific University, Udaipur 15-16 March 2013",
+            "year": 2013,
+            "doi": ""
+        }
+    ],
+    "awards": [
+        {
+            "title": "Best Paper Presentation",
+            "organization": "National Symposium at ISRO, Ahmedabad",
+            "year": 2018
+        },
+        {
+            "title": "Third Best Presentation",
+            "organization": "National Symposium on 'Advancements in Geospatial Technology for Societal Benefits 2018'",
+            "year": 2018
+        },
+        {
+            "title": "Distinguished Student",
+            "organization": "CEPT University, Ahmedabad",
+            "year": 2018
+        },
+        {
+            "title": "First Prize-International Summer School",
+            "organization": "Wuhan University, China",
+            "year": 2016
+        }
+    ],
+    "certifications": [
+        {
+            "name": "IEEE-GRSS | Individual Member",
+            "organization": "",
+            "year": "2018-Present"
+        },
+        {
+            "name": "Indian Society of Geomatics (ISG) | Life Member",
+            "organization": "",
+            "year": "2018-Present"
+        },
+        {
+            "name": "Indian Society of Remote Sensing (ISRS) | Life Member",
+            "organization": "",
+            "year": "2018-Present"
+        },
+        {
+            "name": "Indian Aerosol Science and Technology Association (IASTA) | Life Member",
+            "organization": "",
+            "year": "2018-Present"
+        },
+        {
+            "name": "International Society of Photogrammetry and Remote Sensing (ISPRS) | Individual Member",
+            "organization": "",
+            "year": "2017-Present"
+        }
+    ],
+    "skills": [
+        "Python",
+        "ENVI",
+        "MATLAB",
+        "ERDAS",
+        "QGIS",
+        "SBDART",
+        "ESRI Suite"
+    ],
+    "languages": [],
+    "references": []
+}

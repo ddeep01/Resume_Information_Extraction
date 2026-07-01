@@ -1,0 +1,577 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Keyur Patel",
+        "current_designation": "Head of Research with School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University, Ministry of Home Affairs, An Institute of National Importance, Government of India, Gandhinagar",
+        "total_experience": "8 years",
+        "email": "['pkeyur.436@gmail.com', 'drkeyur7@gmail.com']",
+        "phone": "+919998768219",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "{'present_address': '101/Mithila-1, Near-Tata Nagar, Meghaninagar, Ahmedabad, Gujarat-380016', 'permanent_address': 'At& Po-Shamana, Ta-Lunawada, Dist-Mahisagar, Gujarat-389230'}",
+        "linkedin": "https://www.linkedin.com/in/dr-keyur-patel-415ba121/",
+        "website": "",
+        "orcid": "",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=7FIONVoAAAA",
+        "researchgate": "https://www.researchgate.net/profile/Keyur Patel41"
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Electrical and Computer Science",
+            "institution": "Institute of Infrastructure Technology Research and Management (IITRAM) Established by Gov.of Gujarat, Mentored by IIT Gandhinagar, Ahmedabad",
+            "board_university": "",
+            "year": "2016 - 2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Control and Automation (Drone Technology)",
+            "institution": "Department of Electronics Engg, Institute of Technology, Nirma University, Ahmedabad",
+            "board_university": "",
+            "year": "2012 - 2014",
+            "cgpa_percentage": "7.9/10 (First class with distinction)"
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Electronics",
+            "institution": "BVM gov. engineering college, Vallabh Vidhyanagar, Gujarat",
+            "board_university": "",
+            "year": "2005 - 2009",
+            "cgpa_percentage": "64.32% (First class)"
+        },
+        {
+            "degree": "H.S.C.",
+            "specialization": "Science",
+            "institution": "Kisan Madhyamik Vidhyalaya, Lunawada, Gujarat",
+            "board_university": "",
+            "year": "2003 - 2004",
+            "cgpa_percentage": "83.11%"
+        },
+        {
+            "degree": "S.S.C.",
+            "specialization": "",
+            "institution": "Omkar Maulik Vidhayalaya, Lunawada, Gujarat",
+            "board_university": "",
+            "year": "2002 - 2003",
+            "cgpa_percentage": "82.71%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Head of Research with School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University, Ministry of Home Affairs, An Institute of National Importance, Government of India, Gandhinagar",
+            "organization": "",
+            "start_date": "2023-09-22",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "PhD Coordinator (Head of Research) for the School of Information Technology, Artificial Intelligence, and Cyber Security (SITAICS) at Rashtriya Raksha University (RRU)",
+            "organization": "",
+            "start_date": "2023-07",
+            "end_date": "",
+            "duration": "",
+            "description": "Overseeing the academic and administrative aspects of the PhD program, facilitating communication between doctoral candidates, faculty, and administration."
+        },
+        {
+            "designation": "Assistant Professor (16 June 2014 - 30 July 2016)",
+            "organization": "Electronics and Electrical Engineering Department, SVBIT engineering college Gandhinagar-Gujarat",
+            "start_date": "2014-06-16",
+            "end_date": "2016-07-30",
+            "duration": "2 years 1 month 14 days",
+            "description": "Delivered lectures and conducted labs on control system engineering, microprocessor and microcontroller, and signal and system for undergraduate students. Worked as class-coordinator and design engineering subject coordinator."
+        },
+        {
+            "designation": "Project Engineer - Railway Signalling (22 Oct. 2009 to 1 Nov. 2011)",
+            "organization": "INSTRUMENTATION LTD. - KOTA, A Govt. Of India Enterprise",
+            "start_date": "2009-10-22",
+            "end_date": "2011-11-01",
+            "duration": "2 years 1 month",
+            "description": "Worked on the project of 'Railway Signal Automation' between Godhra-Baroda Railway Line. Designed, installed, tested and commissioned SSI (Solid state interlocking) System at Chapaner, Bakrol, Pilol, Kharsaliya stations in Western Railway."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Computer Science, Unitedworld School of Computational Intelligence, Karnavati University, Gandhinagar",
+            "start_date": "2022-07-20",
+            "end_date": "2023-09-21",
+            "duration": "1 year 2 months",
+            "description": "Delivered lectures on Computer Networks, Industry Elective (Collaborative), and Human Computer Interaction (HCI) for undergraduate computer science students. Also worked as main faculty member for industry collaborative coordinator."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Computer Science and Engineering, Institute of Advanced Research, Gandhinagar",
+            "start_date": "2020-06-01",
+            "end_date": "2022-07-19",
+            "duration": "2 years 2 months",
+            "description": "Worked as an Assistant Professor and Academic coordinator of B.Tech Computer Science, Information Technology, and Information and Communication Technology. Also worked as a Program Leader of B.Tech ICT."
+        },
+        {
+            "designation": "Assistant Professor (22th Sep 2023- Till Date)",
+            "organization": "School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University",
+            "start_date": "2023-09-22",
+            "end_date": "",
+            "duration": "",
+            "description": "Delivered lectures on Machine Learning, Speech Information Processing for postgraduate M.Tech Data Science and Machine Learning students. Delivered lectures on Digital Systems, Internet of Things, Deep Learning."
+        }
+    ],
+    "research_interests": [
+        "Robotics and AI",
+        "Internet of Things (IoT)",
+        "Industrial Internet of Things (IIoT)",
+        "Cyber Physical System",
+        "Multi-agent system",
+        "Artificial Intelligence for Robotics Application",
+        "Machine Learning",
+        "Deep Learning",
+        "Aerial Computing",
+        "Embedded Computing",
+        "Signal Processing",
+        "Computer Vision",
+        "Machine Vision",
+        "Drone Forensic",
+        "High Performance Computing (HPC)",
+        "Autonomous system e.g UAV, Quad-Copter Robot"
+    ],
+    "publications": [
+        {
+            "title": "Discrete-time Sliding Mode Protocols for Leader-following Consensus of Discrete-time Multi-Agent System with Switching Graph Topology",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "European Journal of Control",
+            "conference": "",
+            "year": "2020",
+            "doi": "https://doi.org/10.1016/j.ejcon.2019.06.011",
+            "publisher": ""
+        },
+        {
+            "title": "Event triggered Consensus of Homogeneous 2-DOF Robotic Arms using Discrete Higher Order Super-twisting Algorithm",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "European Journal of Control",
+            "conference": "",
+            "year": "2020",
+            "doi": "https://doi.org/10.1016/j.ejcon.2020.01.006",
+            "publisher": ""
+        },
+        {
+            "title": "Distributed event-triggered sliding mode control for voltage synchronization of DC microgrid using leader-follower consensus protocol",
+            "authors": [
+                "Jatin Savliya",
+                "Keyurkumar Patel",
+                "A. Mehta",
+                "Andrzej Bartoszewicz"
+            ],
+            "journal": "",
+            "conference": "IEEE Transactions on Industrial Informatics, vol. 16, no. 11, pages. 6837-6847",
+            "year": "2020",
+            "doi": "https://doi.org/10.1109/TII.2020.2973739",
+            "publisher": ""
+        },
+        {
+            "title": "Fixed time steps discrete-time sliding mode consensus protocols for two degree of freedom helicopter systems",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "Transactions of the Institute of Measurement and Control, vol. 43, no. 15, pages. 3322-3334",
+            "conference": "",
+            "year": "2021",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Discrete-time Sliding Mode Control for Leader Following Discrete-time Multi-Agent System",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "IECON 2018 - 44th Annual Conference of the IEEE Industrial Electronics Society, Washington, DC",
+            "conference": "",
+            "year": "2018",
+            "doi": "https://doi.org/10.1109/IECON.2018.8586739",
+            "publisher": ""
+        },
+        {
+            "title": "Discrete Higher Order Sliding Mode Protocol for Leader-Following Consensus of Heterogeneous Discrete Multi-Agent System",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "",
+            "conference": "In: Mehta A., Rawat A., Chauhan P. (eds) Advances in Control Systems and its Infrastructure. Lecture Notes in Electrical Engineering, vol 604",
+            "year": "2018",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Second Order Sliding Mode Control of Active Suspension System with Super-Twisting Algorithm and Disturbance Observer",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "43th annual conference of the IEEE Industrial Electronics Society, pp.6526-6531, October-2017, Beijing-China",
+            "conference": "",
+            "year": "2017",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Design and Implementation of Second Order Sliding Mode Controller for 2-DOF Flexible Robotic Link",
+            "authors": [
+                "Sandeep Sharma",
+                "Dhananjay Srivastava",
+                "A. Mehta",
+                "Keyur Patel"
+            ],
+            "journal": "",
+            "conference": "2nd International Conference on Power, Energy and Environment: Towards Smart Technology (ICEPE), NIT-Meghalaya, Shillong, India",
+            "year": "2018",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Second Order SMC Controller Design for Rotary Inverted Pendulum: An Under Actuated System",
+            "authors": [
+                "Dhananjay Srivastava",
+                "Sandeep Sharma",
+                "Keyur Patel",
+                "A. Mehta"
+            ],
+            "journal": "",
+            "conference": "2018 2nd International Conference on Power, Energy and Environment: Towards Smart Technology (ICEPE), Shillong, India",
+            "year": "2018",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Modeling, Simulation and Control Study for QuadCopter UAV",
+            "authors": [
+                "Keyurkumar Patel",
+                "Jayesh Barve"
+            ],
+            "journal": "IEEE International conference on industrial and information system, vol.9, pp.1-6, Dec-2014, IIITM-Gwalior",
+            "conference": "",
+            "year": "2014",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Modelling, Simulation and Altitude-Range-Analysis of Quad-copter UAV",
+            "authors": [
+                "Jayesh Barve",
+                "Keyur Patel"
+            ],
+            "journal": "IFAC Proceedings Volumes, Volume 47, Issue 1, 2014, Pages 1126-1130",
+            "conference": "",
+            "year": "2014",
+            "doi": "https://doi.org/10.3182/20140313-3-IN-3024.00209",
+            "publisher": ""
+        },
+        {
+            "title": "Discrete-Time Sliding Mode Protocols for Discrete Multi-Agent System",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "Springer Singapore, ISBN - 978-981-15-6310-2, August-2020",
+            "conference": "",
+            "year": "2020",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Discrete Higher-order Sliding Mode LeaderFollowing Consensus Protocols for Homogeneous Discrete-time Multi-Agent System",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "journal": "Emerging trends on sliding mode control, accepted",
+            "conference": "",
+            "year": "2020",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "RFID authentication-based smart parking guidance using IoT: An implementation point of view -(KU/2022/SMS/004)",
+            "description": "Funded by Karnavati University, Gandhinagar. Role: PI. Budget(Seed money grant): 1,01,001/-",
+            "technologies": [],
+            "duration": "1 years (2022-2023)"
+        },
+        {
+            "title": "IoT and Fog computing enabled advance public bus transport management system(APBTMS): An Innovative smart bus concept",
+            "description": "Funded by Karnavati University, Gandhinagar. Role: PI. Budget(Seed money grant): 1,54,975/-",
+            "technologies": [],
+            "duration": "2 years (2023-2024)"
+        },
+        {
+            "title": "IoT and Machine Learning enabled automated soil nutrient monitoring for smart agriculture: A smart techno-agri concept-(KU/2022/SMS/009)",
+            "description": "Funded by Karnavati University, Gandhinagar. Role: Co-PI. Budget(Seed money grant): 1,01,001/-",
+            "technologies": [],
+            "duration": "2 years (2023-2024)"
+        },
+        {
+            "title": "AI-enabled automated detection of Alzheimer's disease",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        },
+        {
+            "title": "AI-assisted Leader-following consensus of multiple heterogeneous robotic systems: A real-time multiapplication perspective",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        },
+        {
+            "title": "Visual Inspection in Manufacturing Industry Using AI",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        },
+        {
+            "title": "IoT-based Electric Kick Scooter",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        },
+        {
+            "title": "Voice-assisted Smart Automation System using AI",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        },
+        {
+            "title": "IoT enabled smart contactless door",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        },
+        {
+            "title": "IoT-based Smart Inverter",
+            "description": "",
+            "technologies": [],
+            "duration": ""
+        }
+    ],
+    "patents": [
+        {
+            "name": "Smart Inhaler with Real-time Inhalation pattern Analysis and Method",
+            "organization": "Indian Utility Patent",
+            "year": 2023
+        },
+        {
+            "name": "Smart pulse oximeter with data storage and wireless access",
+            "organization": "Design number - 6318072, Grant Date: 17 October 2023",
+            "year": 2023
+        },
+        {
+            "name": "A Speech Coding Method For Speech Recognition Employing Convolution Neural Networks",
+            "organization": "Indian Patent, Application Number-202221054497, Filing Date -23/09/2022",
+            "year": 2022
+        },
+        {
+            "name": "Smart Vein Identifying Wrist Band",
+            "organization": "UK design patent, Design Number - 6303703, Grant Date : 24 August 2023",
+            "year": 2023
+        },
+        {
+            "name": "Fish Disease Prediction Device in Aquaculture",
+            "organization": "UK design patent, Design Number -6304705, Grant Date 01 September 2023",
+            "year": 2023
+        },
+        {
+            "name": "Design of IoT based Automatic Star Climbing Material Handler Robot",
+            "organization": "Canadian Copyright, Reg. Number : 1196588",
+            "year": ""
+        },
+        {
+            "name": "IoT Health ATM Industrial Design Patent under review",
+            "organization": "",
+            "year": ""
+        }
+    ],
+    "books": [
+        {
+            "title": "Discrete-Time Sliding Mode Protocols for Discrete Multi-Agent System",
+            "authors": [
+                "Keyurkumar Patel",
+                "A. Mehta"
+            ],
+            "publisher": "Springer Singapore, ISBN - 978-981-15-6310-2, August-2020"
+        }
+    ],
+    "book_chapters": [
+        {
+            "title": "Emerging Technologies in Fintech : A Case Study",
+            "authors": [
+                "Keyurkumar Patel",
+                "P. Sunnapu",
+                "S. Gautam"
+            ],
+            "publisher": "Robotics and Automation in Industry 4.0, Bentham Science, Accepted"
+        },
+        {
+            "title": "RFID authentication-based Intelligent Parking Management System using IoT and Mobile Applications: An Implementation point of view",
+            "authors": [
+                "Keyurkumar Patel",
+                "M. Kandasamy",
+                "R. Shanmugam",
+                "T. Uttare",
+                "N. Samani",
+                "M. Aqeel",
+                "S. Joshi"
+            ],
+            "publisher": "Green Computing, CRC press, Taylor and Francis"
+        },
+        {
+            "title": "Interfacing of Actuators and Sensors",
+            "authors": [
+                "M. Kandasamy",
+                "R. Shanmugam",
+                "S. Saha",
+                "R. Patil",
+                "Keyur Patel"
+            ],
+            "publisher": "Cyber-Physical Systems and Supporting Technologies for Industrial Automation, IGI Global, DOI:10.4018/978-1-6684-9267-3"
+        }
+    ],
+    "conferences": [
+        {
+            "title": "Advance Public Bus Transport Management System: An Innovative Smart Bus Concept",
+            "authors": [
+                "Keyurkumar Patel",
+                "D. Patel",
+                "N. Chaudhary",
+                "D. Thakkar",
+                "P. Savaliya",
+                "A. Mistry"
+            ],
+            "conference": "IEEE 42nd International Conference on Consumer Electronics, Las Vegas, NV, USA"
+        },
+        {
+            "title": "An Overview of Safety Using Information Routing Protocol in Vehicular Ad Hoc Network",
+            "authors": [
+                "R. Maliya",
+                "Dr Keyur Patel"
+            ],
+            "conference": "IEEE R10 HTC 2023"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Certificate of Honour for presenting paper in ACODS International conference at IIT Kanpur during the academic year 2013-14 by Nirma University."
+        },
+        {
+            "title": "First rank in M.Tech entrance exam taken by Nirma University."
+        },
+        {
+            "title": "First rank in 10th standard at school level and also rank in science quiz at dist. level."
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Professional Certification in AI for Medical Diagnosis",
+            "organization": "Coursera",
+            "year": ""
+        },
+        {
+            "name": "Workshop on AI application on VLSI Design and Technology",
+            "organization": "DAIICT, Gandhinagar, Gujarat",
+            "year": ""
+        },
+        {
+            "name": "FDP on Implementing IoT & Machine Learning application on Raspberry Pi",
+            "organization": "Department of E&TC BSCER, Pune in association with industrial partner Smart Logic Technologies, Pune.",
+            "year": ""
+        },
+        {
+            "name": "Winter school on Cybersecurity and Blockchain 2023",
+            "organization": "IEEE Computer Society, Gujarat",
+            "year": ""
+        },
+        {
+            "name": "STTP on AI based signal and Image Processing",
+            "organization": "NIT, Jalandhar, Punjab",
+            "year": ""
+        },
+        {
+            "name": "FDP on Cyber Security (Emerging Threats and Trends against Digital Defenses)",
+            "organization": "ICFAI Tech University, Jaipur.",
+            "year": ""
+        },
+        {
+            "name": "Short term program on Research-o-Pedia 3.0: Writing to Publication",
+            "organization": "Karnavati University, Gandhinagar",
+            "year": ""
+        },
+        {
+            "name": "FDP on National Education Policy (NEP) 2020: Implementation and Transformation",
+            "organization": "Karnavati University, Gandhinagar.",
+            "year": ""
+        },
+        {
+            "name": "Online training course titled 'Machine Learning' on Internshala online platform",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "Online training courses titled 'Embedded Systems Programming on ARM Cortex - M3/M4 Processor' on Udemy online platform",
+            "organization": "",
+            "year": ""
+        }
+    ],
+    "skills": [
+        "C",
+        "Matlab and Simulink",
+        "Embedded C",
+        "Ardunio (ATMega series- C Programming)",
+        "ARM CORTEX-M series (C-Programming)",
+        "Labview",
+        "Python",
+        "VHDL",
+        "Ladder Logic",
+        "LATEX",
+        "Assembly Languages: - 8085(Microprocessor), Microcontroller(8bit/16bit/32bit), ARM7, ARM cortex-M series.",
+        "Software tools:- Xilinx ISE 9.2, Quartus-II, keil Vision4, Spice(TI), pSpice (Analog circuits design), Proteus professional(Virtual Hardware design), Google colab, Jupyter notebook(Python Programming)",
+        "Operating Systems: - Windows 98, 2000, XP, Vista, Windows 8, Windows 10, Linux",
+        "Computer Skills & Programming Languages:- C, Matlab and Simulink, Embedded C, Ardunio (ATMega series- C Programming), ARM CORTEX-M series"
+    ],
+    "languages": [],
+    "references": [
+        {
+            "name": "Dr Jayesh Barve",
+            "organization": "R&D Principal Engineer and Former Professor and Head IDEA Lab, Nirma University, Ex-Director Adani University. GE Global Research, JF Welch Technology Center, GE India Industrial Pvt Ltd., Bangalore.",
+            "phone": "+91 9904733304",
+            "email": "B barve.jayesh@gmail.com"
+        },
+        {
+            "name": "Dr Bijnan Bandyopadhyay",
+            "organization": "Institute Chair Professor, Indian Institute of Technology Powai, Mumbai-400076, India.",
+            "phone": "+91 22 2576 7889",
+            "email": "B bijnan@ee.iitb.ac.in"
+        },
+        {
+            "name": "Dr Axaykumar Mehta",
+            "organization": "Dean Academics, Electrical and Computer Science Engineering, IITRAM- Ahmedabad. Ahmedabad, Gujarat-380026, India.",
+            "phone": "+91 9898199295",
+            "email": "B axaymehta@iitram.ac.in"
+        },
+        {
+            "name": "Sudhendu Banerjee",
+            "organization": "Former Addtional General Manager, Vadodara Office, Railway Signaling Project unit, Instrumentation Ltd (A Gov. of India Enterprise)- Kota. C/o Hindustan Salts Limited, G-229, Sitapura Industrial Area, Jaipur - 302022 (Rajasthan).",
+            "phone": "+91 9825552265",
+            "email": "B ilvd@satyam.net.in"
+        },
+        {
+            "name": "Dr Brijesh Jajal",
+            "organization": "Head and Associate Professor, Institute of Advanced Research, University for Innovation, Gandhinagar-382426.",
+            "phone": "+91 9099936289",
+            "email": "B brijesh.jajal@iar.ac.in"
+        }
+    ]
+}

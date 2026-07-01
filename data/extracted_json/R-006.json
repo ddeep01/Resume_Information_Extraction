@@ -1,0 +1,172 @@
+{
+    "personal_information": {
+        "full_name": "Rakesh Ranjan",
+        "current_designation": "",
+        "total_experience": "5 years",
+        "email": "rakeshranjan2911@gmail.com",
+        "phone": "+91-8287526006",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "ï LinkedIn",
+        "website": "",
+        "orcid": "",
+        "google_scholar": " Google Scholar",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy (Ph.D)",
+            "specialization": "Communication and Signal Processing",
+            "institution": "Indian Institute of Technology (IIT), Dhanbad, India",
+            "board_university": "",
+            "year": "2019 - 2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Technology (M.Tech.)",
+            "specialization": "Communication and Signal Processing",
+            "institution": "Indian Institute of Technology (IIT), Dhanbad, India",
+            "board_university": "",
+            "year": "2017 - 2019",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Technology",
+            "specialization": "Electronics and Communication Engineering",
+            "institution": "The University of Burdwan, Burdwan, West Bengal, India",
+            "board_university": "",
+            "year": "2009 - 2013",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [],
+    "research_interests": [
+        "Intelligent Reflecting Surface (IRS)-aided wireless communication systems",
+        "Physical layer security in IRS-aided systems",
+        "IRS-Integrated Sensing and Communication (ISAC) Systems"
+    ],
+    "publications": [
+        {
+            "title": "A Gradient Ascent Based Low Complexity Rate Maximization Algorithm for Intelligent Reflecting Surface-Aided OFDM Systems",
+            "authors": [
+                "Rakesh. Ranjan",
+                "A. Bhattacharya",
+                "H.B. Mishra",
+                "S. Mukhopadhyay"
+            ],
+            "journal": "IEEE Communications Letters",
+            "conference": "",
+            "year": "2023",
+            "doi": "10.1109/LCOMM.2023.3289865",
+            "publisher": ""
+        },
+        {
+            "title": "A Low-Complexity Phase Shift Optimization to Achieve Security in IRS-Assisted MISO Systems",
+            "authors": [
+                "Rakesh. Ranjan",
+                "A. Bhattacharya",
+                "H.B. Mishra",
+                "S. Mukhopadhyay"
+            ],
+            "journal": "",
+            "conference": "IEEE National Conference on Communications (NCC) 2024",
+            "year": "2024",
+            "doi": "10.1109/NCC60321.2024.10485931",
+            "publisher": ""
+        },
+        {
+            "title": "Achievable Rate Maximization for Reconfigurable Intelligent Surface-Assisted MIMO Systems: A Novel Low-Complexity Solution",
+            "authors": [
+                "Rakesh. Ranjan",
+                "A. Bhattacharya",
+                "H.B. Mishra",
+                "S. Mukhopadhyay"
+            ],
+            "journal": "Elsevier Signal Processing (under revision)",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "A Robust STAR-RIS-aided MU-MIMO System for Integrated Sensing and Communication",
+            "authors": [
+                "Rakesh. Ranjan",
+                "A. Bhattacharya",
+                "M.V. Katwe",
+                "H.B. Mishra",
+                "K.Singh",
+                "D. W. Kwan Ng"
+            ],
+            "journal": "IEEE Transactions on Wireless Communications (under revision)",
+            "conference": "",
+            "year": "2024",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [],
+    "awards": [
+        {
+            "title": "Two-year Senior Research Fellowship (SRF) at IIT Dhanbad from Ministry of Education, Govt. of India",
+            "year": 2021
+        },
+        {
+            "title": "Two-year Junior Research fellowship (JRF) at IIT Dhanbad from Ministry of Education, Govt. of India",
+            "year": 2019
+        },
+        {
+            "title": "Institute fellowship grant from MHRD, Govt. of India",
+            "year": 2018
+        },
+        {
+            "title": "Graduate Aptitude Test in Engineering (GATE) 2018 qualified",
+            "year": 2017
+        },
+        {
+            "title": "Graduate Aptitude Test in Engineering (GATE) 2017 qualified",
+            "year": 2016
+        },
+        {
+            "title": "Graduate Aptitude Test in Engineering (GATE) 2015 qualified",
+            "year": 2013
+        }
+    ],
+    "certifications": [
+        {
+            "name": "",
+            "organization": "",
+            "year": ""
+        }
+    ],
+    "skills": [
+        "Hindi (Professional)",
+        "English (Professional)",
+        "Matlab/SIMULINK®",
+        "LATEX",
+        "Microsoft Office"
+    ],
+    "languages": [],
+    "references": [
+        {
+            "name": "Dr. Himanshu Bhusan Mishra",
+            "organization": "Associate Professor, Department of Electronics Engineering, Indian Institute of Technology (IIT), Dhanbad, Jharkhand-826004, India",
+            "year": ""
+        },
+        {
+            "name": "Dr. Samrat Mukhopadhyay",
+            "organization": "Assistant Professor, Department of Electronics Engineering, Indian Institute of Technology (IIT), Dhanbad, Jharkhand-826004, India",
+            "year": ""
+        },
+        {
+            "name": "Dr. Suraj Suman",
+            "organization": "Assistant Professor, Department of Electrical Engineering, Indian Institute of Technology (IIT), Patna, Bihar-801103, India",
+            "year": ""
+        }
+    ]
+}

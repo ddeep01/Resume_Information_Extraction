@@ -158,6 +158,18 @@ calculate experience until today.
 
 18. If a section contains multiple entries,
 return each entry as a separate object.
+
+19. Every JSON array and object must be properly closed.
+
+20. Every object must end with a comma except the last one.
+
+21. Never truncate the JSON response.
+
+22. If the output is too long, regenerate the complete JSON instead of returning partial JSON.
+
+23. The response must be valid JSON parsable by Python's json.loads().
+
+24. Double-check the JSON before returning it.
 """
 
     def json_schema(self) -> str:

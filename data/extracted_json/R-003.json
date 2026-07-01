@@ -1,0 +1,215 @@
+{
+    "personal_information": {
+        "full_name": "Anibrata Pal",
+        "current_designation": "",
+        "total_experience": "6 years and 8 months",
+        "email": "palanibrata@gmail.com,2081041@kiit.ac.in",
+        "phone": "(+91) 8617042611",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Ambient Height 7, Subodh Park. Bansdroni Kolkata-700070",
+        "linkedin": "",
+        "website": "https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=ANIBRATA+PAL",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD (Pursuing)",
+            "specialization": "Functionally graded concrete",
+            "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
+            "board_university": "",
+            "year": "January 2021 - August 2025",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Structural Engineering",
+            "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "84.30%"
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "",
+            "institution": "Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "70.00%"
+        },
+        {
+            "degree": "10+2 th",
+            "specialization": "",
+            "institution": "Krishnath College School, Berhampore",
+            "board_university": "WBCHSE Board",
+            "year": "2010",
+            "cgpa_percentage": "70.00%"
+        },
+        {
+            "degree": "10th",
+            "specialization": "",
+            "institution": "Krishnath College School, Berhampore",
+            "board_university": "WBBSE Board",
+            "year": "2008",
+            "cgpa_percentage": "78.00%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, Siliguri Institute of Technology, Techno India Group",
+            "start_date": "17th August 2023",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University, Kolkata-700121",
+            "start_date": "9th February 2022",
+            "end_date": "16th August 2023",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, College of Engineering Bhubaneswar, BPUT University, Bhubaneswar-751024",
+            "start_date": "March 2021",
+            "end_date": "January 2022",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bengal College of Engineering & Technology Durgapur, MAKAUT University, W.B.",
+            "start_date": "April 2017",
+            "end_date": "March 2021",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bharti College of Engineering & Technology Durg, CSVT University, Chattishgarh",
+            "start_date": "January 2017",
+            "end_date": "April 2017",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh",
+            "start_date": "June 2016",
+            "end_date": "January 2017",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "research_interests": [
+        "Functionally graded concrete",
+        "Earthquake-proof building by using dampers",
+        "Seismic hazard assessment",
+        "Base isolation for earthquake-resistant design",
+        "Vibration Control. Performance-based seismic Design",
+        "Ground Motion characterization",
+        "Application of intelligent materials and structures in Civil Engineering",
+        "Non-destructive testing in Civil Engineering"
+    ],
+    "publications": [
+        {
+            "title": "Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete",
+            "authors": [],
+            "journal": "Construction Building Materials Journal (Springer)",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder",
+            "authors": [],
+            "journal": "Structure Journal (Springer)",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Strength, Elasticity and Water Absorption of Functionally Graded Concrete",
+            "authors": [],
+            "journal": "Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades of normal concrete with blended cement",
+            "authors": [],
+            "journal": "Materials and Structure (Springer)",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        },
+        {
+            "title": "A critical review on the advancement of Layered concrete",
+            "authors": [],
+            "journal": "Indian Concrete Journal (Springer)",
+            "conference": "",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar",
+            "description": "",
+            "technologies": [],
+            "duration": "2021"
+        }
+    ],
+    "patents": [],
+    "books": [],
+    "book_chapters": [],
+    "conferences": [],
+    "awards": [
+        {
+            "title": "Best Paper Certificate",
+            "authors": [],
+            "journal": "",
+            "conference": "INNOVATIVE VIBRATION CONTROL DEVICES USED IN BUILDINGS.",
+            "year": "",
+            "doi": "",
+            "publisher": ""
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Ten numbers FDP program in offline as well as online mode",
+            "organization": "",
+            "year": ""
+        },
+        {
+            "name": "High-end workshop at VNIT NAGPUR on 'Design of experiments: A statistical tool for systematic data collection, analysis, and optimization'",
+            "organization": "",
+            "year": "2022"
+        }
+    ],
+    "skills": [
+        "Origin 2024 B",
+        "Stadd Pro (Ver-VIII)",
+        "MS Office (Word, Excel, PowerPoint)",
+        "SAP 90",
+        "Programming Languages",
+        "Mat-Lab 2013 α"
+    ],
+    "languages": [
+        "English",
+        "Bengali",
+        "Hindi"
+    ],
+    "references": []
+}
