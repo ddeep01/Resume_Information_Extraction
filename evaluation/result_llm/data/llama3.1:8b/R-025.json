@@ -1,0 +1,122 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Aju Aravind",
+        "current_designation": "Associate Professor",
+        "total_experience": "15 years",
+        "email": "aaravind13@gmail.com",
+        "phone": "+91 9431121114",
+        "date_of_birth": "",
+        "gender": "Indian",
+        "address": "Aashiyaana, Chakkarakulam Cherthala P. O Alappuzha (Dist.) Kerala India Pin Code: 688524",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D",
+            "specialization": "English",
+            "institution": "School of Letters | Mahatma Gandhi University",
+            "board_university": "Mahatma Gandhi University",
+            "year": "2005 May - 2009 Jul",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.Ed",
+            "specialization": "English Language and Literature",
+            "institution": "University College of Teacher Education | Mahatma Gandhi University",
+            "board_university": "Mahatma Gandhi University",
+            "year": "2002 Mar - 2003 May",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.A English Language and Literature",
+            "specialization": "",
+            "institution": "School of Letters | Mahatma Gandhi University",
+            "board_university": "Mahatma Gandhi University",
+            "year": "2000 Mar - 2002 May",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.A English Language and Literature",
+            "specialization": "",
+            "institution": "K E College Mannanam | Mahatma Gandhi University",
+            "board_university": "Mahatma Gandhi University",
+            "year": "1997 Mar - 2000 Mar",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Pre Degree (Physics, Chemistry, Mathematics)",
+            "specialization": "",
+            "institution": "K E College Mannanam | Mahatma Gandhi Universit",
+            "board_university": "Mahatma Gandhi University",
+            "year": "1995 Jun - 1997 May",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Secondary School Leaving Certificate (SSLC)",
+            "specialization": "",
+            "institution": "Department for General Education | Govt. of Kerala, D. V High School Kumaranalloor",
+            "board_university": "Govt. of Kerala",
+            "year": "1995 Mar",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "Amrita Vishwa Vidyapeetham",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": "Implemented course curriculum effectively to engage students and facilitate learning. Mentored and supervised graduate Students in conducting research and publishing research papers."
+        },
+        {
+            "designation": "Associate Professor, Department of Humanities and Social Science",
+            "organization": "Indian Institute of Technology (Indian School Of Mines)",
+            "start_date": "2022 Dec - 2023 Jun",
+            "end_date": "",
+            "duration": "",
+            "description": "Published research papers in reputed national and internatrional journals."
+        },
+        {
+            "designation": "Assistant Professor, Department of Humanities and Social Sciences",
+            "organization": "Indian Institute of Technology (Indian School of Mines)",
+            "start_date": "2010 Aug - 2021 Apr",
+            "end_date": "",
+            "duration": "",
+            "description": "Published research articles in reputed international journals. Actively participated and executed responsibilities as a member of different committees at the department leave and institute level."
+        },
+        {
+            "designation": "Higher Secondary School Teacher (Jr)",
+            "organization": "Directorate of Higher Secondary Education, Govt. of Kerala | Govt. Higher Secondary School Kadappoor",
+            "start_date": "2009 Sep - 2010 Aug",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Guest Lecturer",
+            "organization": "Department of English | S.H. College",
+            "start_date": "2009 Jun - 2009 Aug",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Guest Lecturer",
+            "organization": "Department of English | CMS College",
+            "start_date": "2008 Jun - 2009 Jan",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 1,
+        "book_chapters": 2,
+        "patents": 0
+    }
+}

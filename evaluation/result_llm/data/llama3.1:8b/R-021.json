@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Akash Thakkar",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "akashthakkar.61098@gmail.com",
+        "phone": "+91 8511389202",
+        "date_of_birth": "06th Oct, 1998",
+        "gender": "",
+        "address": "A/3, Siddhi Setu Appartment, New Vikashgruh Road, Paldi Ahmedabad-380007",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Applied Mathematical Science",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "May 2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc. (Mathematics)",
+            "specialization": "",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "2018-2020",
+            "cgpa_percentage": "8.23"
+        },
+        {
+            "degree": "B.Sc. (Mathematics)",
+            "specialization": "",
+            "institution": "Bhavan's Sheth R. A. College of Science",
+            "board_university": "Gujarat University",
+            "year": "2015-2018",
+            "cgpa_percentage": "8.27"
+        },
+        {
+            "degree": "HSC",
+            "specialization": "",
+            "institution": "Prakash High School",
+            "board_university": "Gujrat Secondary and Higher Secondary Education Board",
+            "year": "2015",
+            "cgpa_percentage": "61%"
+        },
+        {
+            "degree": "SSC",
+            "specialization": "",
+            "institution": "Prakash High School",
+            "board_university": "Gujrat Secondary Education Board",
+            "year": "2013",
+            "cgpa_percentage": "68%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Silver Oak College of Computer Application, Silver Oak University, Ahmedabad",
+            "start_date": "April 2024 - Present",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Faculty",
+            "organization": "School of Emerging Science and Technology, Gujarat University, Ahmedabad",
+            "start_date": "Jan 2020 - March 2024",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 5,
+        "conference_publications": 8,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

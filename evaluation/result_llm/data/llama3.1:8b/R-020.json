@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Keyur Patel",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "pkeyur.436@gmail.com, drkeyur7@gmail.com",
+        "phone": "+919998768219",
+        "date_of_birth": "06/05/1988",
+        "gender": "",
+        "address": "101/Mithila-1, Near-Tata Nagar, Meghaninagar, Ahmedabad, Gujarat-380016",
+        "linkedin": "https://www.linkedin.com/in/dr-keyur-patel-415ba121/",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=7FIONVoAAAA",
+        "researchgate": "https://www.researchgate.net/profile/Keyur_Patel41"
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "",
+            "institution": "Institute of Infrastructure Technology Research and Management (IITRAM)",
+            "board_university": "Established by Gov.of Gujarat, Mentored by IITGandhinagar",
+            "year": "2016-2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Control and Automation (Drone Technology)",
+            "institution": "Institute of Technology, Nirma University",
+            "board_university": "",
+            "year": "2012-2014",
+            "cgpa_percentage": "7.9/10"
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Electronics",
+            "institution": "BVM Govt. Engineering College",
+            "board_university": "",
+            "year": "2005-2009",
+            "cgpa_percentage": "64.32%"
+        },
+        {
+            "degree": "Higher Secondary",
+            "specialization": "Science (GSHEB)",
+            "institution": "Kisan Madhaymik Vidhyalaya, Lunawada",
+            "board_university": "",
+            "year": "2004-2005",
+            "cgpa_percentage": "83.11%"
+        },
+        {
+            "degree": "Secondary School",
+            "specialization": "Science (GSHEB)",
+            "institution": "Omkar Maulik Vidhayalaya, Lunawada",
+            "board_university": "",
+            "year": "2003-2004",
+            "cgpa_percentage": "82.71%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University(RRU)",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Unitedworld School of Computational Intelligence, Karnavati University",
+            "start_date": "20 July 2022",
+            "end_date": "Sep 2023",
+            "duration": "1 Year 2 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Institute of Advanced Research, Gandhinagar",
+            "start_date": "1 June 2020",
+            "end_date": "19 July 2022",
+            "duration": "2 Years 2 months",
+            "description": ""
+        },
+        {
+            "designation": "Project Engineer",
+            "organization": "INSTRUMENTATION LTD. - KOTA (A Govt. Of India Enterprise)",
+            "start_date": "22 Oct. 2009",
+            "end_date": "1 Nov. 2011",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Electronics and Electrical Engineering Department, SVBIT engineering college Gandhinagar-Gujarat",
+            "start_date": "16 June 2014",
+            "end_date": "30 July 2016",
+            "duration": "2 Year 1month 14 days",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 8,
+        "conference_publications": 13,
+        "book_publications": 1,
+        "book_chapters": 3,
+        "patents": 5
+    }
+}

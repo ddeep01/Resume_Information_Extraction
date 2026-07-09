@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Abhisek Ghosal",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "abhisekghosal419@gmail.com",
+        "phone": "9734292060/6296966678",
+        "date_of_birth": "29/04/1993",
+        "gender": "Male",
+        "address": "Indraprastha, Baburbag. P.O. Rajbati. Dist. Burdwan, West Bengal. PIN 713104",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "W.B.B.S.E",
+            "specialization": "",
+            "institution": "",
+            "board_university": "",
+            "year": "2009",
+            "cgpa_percentage": "76.87%"
+        },
+        {
+            "degree": "W.B.C.H.S.E",
+            "specialization": "",
+            "institution": "",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "78.6 %"
+        },
+        {
+            "degree": "B.A. (English)",
+            "specialization": "",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "62.5%"
+        },
+        {
+            "degree": "M.A. (English)",
+            "specialization": "",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "7.18"
+        },
+        {
+            "degree": "M.Phil.",
+            "specialization": "Interface between Crime and Globalization in Select South Asian Fictions",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "79%"
+        },
+        {
+            "degree": "Ph.D",
+            "specialization": "Critical Interventions into Energopolitics: Blue Humanities and Geocriticism of Minor Writings",
+            "institution": "IIT Kharagpur",
+            "board_university": "",
+            "year": "2022 (Awarded)",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "UGC CBSE National Eligibility Test (NET) (English)",
+            "specialization": "",
+            "institution": "",
+            "board_university": "",
+            "year": "2017",
+            "cgpa_percentage": "N/A"
+        },
+        {
+            "degree": "West Bengal State Eligibility Test (WBSET) (English)",
+            "specialization": "",
+            "institution": "",
+            "board_university": "",
+            "year": "2018",
+            "cgpa_percentage": "N/A"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "Christ (Deem to be University), BGR Campus, Bengaluru, Karnataka, India.",
+            "start_date": "",
+            "end_date": "",
+            "duration": "9 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "OP Jindal Global University.",
+            "start_date": "",
+            "end_date": "",
+            "duration": "4 Months",
+            "description": ""
+        },
+        {
+            "designation": "Faculty",
+            "organization": "IIT (ISM), Dhanbad, Jharkhand",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 14,
+        "conference_publications": 0,
+        "book_publications": 1,
+        "book_chapters": 7,
+        "patents": 0
+    }
+}

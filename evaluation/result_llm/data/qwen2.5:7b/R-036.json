@@ -1,0 +1,65 @@
+{
+    "personal_information": {
+        "full_name": "Sourabh Pal",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "sourabhpal1998@gmail.com",
+        "phone": "9717701454",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Address : 77/41/A, Circular Road Janta Colony Shahdara Delhi 110032.",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "M.Tech",
+            "specialization": "CSE",
+            "institution": "Galgotias University",
+            "board_university": "Galgotias University",
+            "year": "2024",
+            "cgpa_percentage": "76 %"
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "CSE",
+            "institution": "Bhagwati Institute of Technology & Science A.K.T.U",
+            "board_university": "A.K.T.U",
+            "year": "2022",
+            "cgpa_percentage": "67 %"
+        },
+        {
+            "degree": "Diploma",
+            "specialization": "CSE",
+            "institution": "Guru Tegh Bahadur Polytechnic of Institute B.T.E",
+            "board_university": "B.T.E",
+            "year": "2018",
+            "cgpa_percentage": "68 %"
+        },
+        {
+            "degree": "12th",
+            "specialization": "",
+            "institution": "RamJas Sr Sec School",
+            "board_university": "C.B.S.E",
+            "year": "2015",
+            "cgpa_percentage": "62 %"
+        },
+        {
+            "degree": "10th",
+            "specialization": "",
+            "institution": "Babu Ram Sr Sec School",
+            "board_university": "C.B.S.E",
+            "year": "2013",
+            "cgpa_percentage": "64 %"
+        }
+    ],
+    "experience": [],
+    "publication_summary": {
+        "journal_publications": 1,
+        "conference_publications": 1,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

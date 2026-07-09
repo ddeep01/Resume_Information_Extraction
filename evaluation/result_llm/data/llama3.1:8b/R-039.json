@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Soumen Mukherjee",
+        "current_designation": "Associate Professor, Dept. of English, School of Social Sciences & Languages",
+        "total_experience": "19 years",
+        "email": "jayitach2007@gmail.com",
+        "phone": "+91-9880859911",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "House No. -1, 1st Floor, Shastri Street, Bharathi Nagar Ext., Vellore-632007",
+        "linkedin": "",
+        "google_scholar": "L3Yp0IOGXrEC",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph. D in Indian English Literature",
+            "specialization": "",
+            "institution": "University of Lucknow, Lucknow (U.P), India",
+            "board_university": "Lucknow University",
+            "year": "May 2012",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Arts in English Literature",
+            "specialization": "",
+            "institution": "Banaras Hindu University, Varanasi (U.P), India",
+            "board_university": "Banaras Hindu University",
+            "year": "May 2000",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Arts in English Literature (Hons.)",
+            "specialization": "",
+            "institution": "Vidyasagar University, Midnapore (W.B) India",
+            "board_university": "Vidyasagar University",
+            "year": "June 1998",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor, Dept. of English, School of Social Sciences & Languages",
+            "organization": "Vellore Institute of Technology (VIT), Vellore - 632 014, Tamilnadu, India",
+            "start_date": "",
+            "end_date": "",
+            "duration": "19 years",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor and Area Chairperson-Institute of Management Studies",
+            "organization": "Ghaziabad-201009, Uttar Pradesh",
+            "start_date": "Jan.,2008",
+            "end_date": "Oct.,2012",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer, Uttar Pradesh Technical University",
+            "organization": "Ghaziabad-201009, Uttar Pradesh",
+            "start_date": "Nov.,2002",
+            "end_date": "Aug., 2006",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 16,
+        "conference_publications": 10,
+        "book_publications": 1,
+        "book_chapters": 4,
+        "patents": 0
+    }
+}

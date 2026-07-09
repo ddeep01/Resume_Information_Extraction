@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Chandan Patra",
+        "current_designation": "Research Scholar, Department of Physics",
+        "total_experience": "",
+        "email": "rchandanpatra9696@gmail.com,chandanpatra1396@gmail.com",
+        "phone": "+91)9609513143",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "Google Scholar",
+        "researchgate": "ResearchGate"
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Unconventional Superconducting Properties of Layered Chalcogenides",
+            "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Physics",
+            "institution": "Indian Institution of Science Education and Research Bhopal (IISER Bhopal)",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "8.61"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics",
+            "institution": "Vidyasagar University (Midnapore College)",
+            "board_university": "West Bengal Council of Higher Secondary Education",
+            "year": "2016",
+            "cgpa_percentage": "70.60"
+        },
+        {
+            "degree": "Higher Secondary(10+2)",
+            "specialization": "",
+            "institution": "",
+            "board_university": "West Bengal Council of Higher Secondary Education",
+            "year": "2013",
+            "cgpa_percentage": "82.00"
+        },
+        {
+            "degree": "Secondary (10)",
+            "specialization": "",
+            "institution": "",
+            "board_university": "West Bengal Council of Secondary Education",
+            "year": "2011",
+            "cgpa_percentage": "81.70"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Post Doctoral Research Associate",
+            "organization": "S. N. Bose National Centre for Basic Sciences",
+            "start_date": "21st February, 2024",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Scholar",
+            "organization": "Department of Physics, S. N. Bose National Centre for Basic Sciences",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Teaching Experience",
+            "organization": "",
+            "start_date": "2019-2020",
+            "end_date": "",
+            "duration": "",
+            "description": "PHY-103 : General Physics LaboratoryI"
+        },
+        {
+            "designation": "Teaching Experience",
+            "organization": "",
+            "start_date": "2020-2021",
+            "end_date": "",
+            "duration": "",
+            "description": "PHY-101 : Mechanics"
+        },
+        {
+            "designation": "Teaching Experience",
+            "organization": "",
+            "start_date": "2020-2021",
+            "end_date": "",
+            "duration": "",
+            "description": "PHY-406 : Nuclear Physics Laboratory"
+        },
+        {
+            "designation": "Teaching Experience",
+            "organization": "",
+            "start_date": "2021-2022",
+            "end_date": "",
+            "duration": "",
+            "description": "PHY-402 : Atomic and Molecular Physics"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 12,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

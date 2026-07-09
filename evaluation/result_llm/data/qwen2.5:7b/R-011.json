@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Amit K Parikh",
+        "current_designation": "Professor & Principal at Mehsana Urban Institute of Sciences, Ganpat University\nDean, Faculty of Science, Ganpat University",
+        "total_experience": "25 years (Teaching, Research & Administration)",
+        "email": "principal.mubiob@ganpatuniversity.ac.in, amit.parikh.maths@gmail.com",
+        "phone": "Ph.No : 9723253971(M)\nOffice: Ph.No: (02762) 289170 (Ext: 4101)",
+        "date_of_birth": "22/08/1972",
+        "gender": "",
+        "address": "Residence:\n27, Safal Vivaan, Phase 2,\nNr.Gota Overbridge, S-G Highway,\nOgnaj, Ahmedabad-382 481",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "B.Sc. (Mathematics)",
+            "specialization": "",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "May, 1992",
+            "cgpa_percentage": "78"
+        },
+        {
+            "degree": "M.Sc. (Mathematics)",
+            "specialization": "",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "May, 1994",
+            "cgpa_percentage": "68"
+        },
+        {
+            "degree": "M.Phil. (Mathematics)",
+            "specialization": "",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "July, 1998",
+            "cgpa_percentage": "77"
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "",
+            "institution": "SVNIT, Surat",
+            "board_university": "",
+            "year": "April, 2014",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Lecturer",
+            "organization": "C.U. Shah College of Engineering & Technology, Wadhwan city.",
+            "start_date": "16/09/1999",
+            "end_date": "19/09/2001",
+            "duration": "2 Years",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Lecturer",
+            "organization": "K.B. Shah Science College, Wadhwan.",
+            "start_date": "16/09/1999",
+            "end_date": "15/09/2001",
+            "duration": "2 Years",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer (Sr. Scale)",
+            "organization": "Nirma Institute of Diploma Studies, Ahmedabad.",
+            "start_date": "20/09/2001",
+            "end_date": "20/06/2007",
+            "duration": "5 years & 9 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Nirma University, Institute of Technology, Ahmedabad.",
+            "start_date": "21/06/2007",
+            "end_date": "21/05/2014",
+            "duration": "6 years & 11 months",
+            "description": ""
+        },
+        {
+            "designation": "Professor",
+            "organization": "C U Shah University, Faculty of Engg. & Tech., Wadhwan city",
+            "start_date": "22/05/2014",
+            "end_date": "21/12/2015",
+            "duration": "1 year & 7 months",
+            "description": ""
+        },
+        {
+            "designation": "Professor & Principal",
+            "organization": "Mehsana Urban Institute of Sciences, Ganpat University, Kherva",
+            "start_date": "22/12/2015",
+            "end_date": "",
+            "duration": "Ongoing",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 48,
+        "conference_publications": 36,
+        "book_publications": 2,
+        "book_chapters": 5,
+        "patents": 0
+    }
+}

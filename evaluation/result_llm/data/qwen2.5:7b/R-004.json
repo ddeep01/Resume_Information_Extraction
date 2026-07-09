@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "DR. MITESHKUMAR SOLANKI",
+        "current_designation": "Assistant Professor",
+        "total_experience": "20 years",
+        "email": "Mitesh4physics@gmail.com, miteshsolanki_ta@iiitvadodara.ac.in",
+        "phone": "+91 8000 11 7505",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Parul Institute of Applied Science, Parul University, Waghodia, Vadodara Gujarat, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy (PhD)",
+            "specialization": "Single Crystal Growth and DFT",
+            "institution": "Pandit Deendayal Energy University Gandhinagar, INDIA",
+            "board_university": "",
+            "year": "2013-2021",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Science (M. Sc.)",
+            "specialization": "Physics",
+            "institution": "Saurashtra University Rajkot, INDIA",
+            "board_university": "",
+            "year": "2010-2012",
+            "cgpa_percentage": "First Class (62.00 %)"
+        },
+        {
+            "degree": "Bachelor of Science (B. Sc.)",
+            "specialization": "Physics",
+            "institution": "Saurashtra University Rajkot, INDIA",
+            "board_university": "",
+            "year": "2003-2006",
+            "cgpa_percentage": "First Class (60.85 %)"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Physics, Parul Institute of Applied Sciences Parul University, Vadodara, INDIA",
+            "start_date": "July. 2023 - till date",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Post-doctoral Fellow",
+            "organization": "School of Engineering and Applied Sciences, Ahmedabad University, Ahmedabad, INDIA",
+            "start_date": "Jan. 2021 - Oct. 2021",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Assistant Professor",
+            "organization": "Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA",
+            "start_date": "July. 2022 - Jan. 2023",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Physics, Khyati Institute of Science, Ahmedabad, INDIA",
+            "start_date": "Feb. 2020 - Jan. 2022",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Assistant Professor",
+            "organization": "Department of Physics, Indian Institute of Information Technology, Vadodara (Gandhinagar Campus), INDIA",
+            "start_date": "Sept. 2022 - March. 2023",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Step-Up Jewels (CVD-Dimond Growth)",
+            "organization": "Khatodara Road Udhana Darwaja Surat, INDIA",
+            "start_date": "Aug. 2021 - Dec. 2021",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Assistant Professor",
+            "organization": "Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA",
+            "start_date": "Feb. 2019 - Aug. 2019",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Physics, Kadi Sarva Vishwavidyalaya University, Gandhinagar, INDIA",
+            "start_date": "June. 2017 - April. 2019",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 14,
+        "conference_publications": 8,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

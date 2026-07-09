@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Manoj Kumar Singh",
+        "current_designation": "Assistant Professor (Research)",
+        "total_experience": "09 years and 11 months",
+        "email": "singhmanoj59@gmail.com",
+        "phone": "+91-7755834535",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Mathura 281406, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy",
+            "specialization": "",
+            "institution": "Veer Bahadur Singh Purvanchal University Jaunpur, UP, India.",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Science: Physics",
+            "specialization": "",
+            "institution": "Veer Bahadur Singh Purvanchal University Jaunpur, UP, India.",
+            "board_university": "",
+            "year": "2007",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Science: Physics, Mathmatics, Chemistry",
+            "specialization": "",
+            "institution": "Veer Bahadur Singh Purvanchal University Jaunpur, UP, India.",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor (Research)",
+            "organization": "Department of Physics, Institute of Applied Science & Humanities, GLA University, Mathura, India.",
+            "start_date": "March 02, 2019",
+            "end_date": "",
+            "duration": "09 years and 11 months",
+            "description": ""
+        },
+        {
+            "designation": "Dr. D. S. KOTHARI Post Doctoral Fellow (India)",
+            "organization": "Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, India.",
+            "start_date": "December 07, 2016",
+            "end_date": "28 February 2019",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Post Doctoral Fellow (Taiwan)",
+            "organization": "Institute of Physics, Academia Sinica, Taipei, Taiwan.",
+            "start_date": "June 1, 2014",
+            "end_date": "December 04, 2016",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 65,
+        "conference_publications": 16,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

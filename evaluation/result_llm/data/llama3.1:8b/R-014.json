@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Ashish Kumar Soni",
+        "current_designation": "",
+        "total_experience": "10.8 YEAR",
+        "email": "ashishsn9@gmail.com",
+        "phone": "+91-7974630940",
+        "date_of_birth": "10-10-1987",
+        "gender": "",
+        "address": "Hingna Road Wadi Nagpur (MH)",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD-CSE(P)",
+            "specialization": "",
+            "institution": "VNIT,NAGPUR",
+            "board_university": "VNIT,NAGPUR",
+            "year": "2023",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.E (Software Engineering)",
+            "specialization": "",
+            "institution": "IET,DAVV,INDORE",
+            "board_university": "DAVV, INDORE",
+            "year": "2018",
+            "cgpa_percentage": "94%"
+        },
+        {
+            "degree": "Bachelor of Engineering(CSE)",
+            "specialization": "",
+            "institution": "Shree Institute of science & technology,Bhopal",
+            "board_university": "RGTU, Bhopal",
+            "year": "2010",
+            "cgpa_percentage": "76.12%"
+        },
+        {
+            "degree": "Higher Secondary",
+            "specialization": "",
+            "institution": "School for excellence Seoni(M.P)",
+            "board_university": "M.P. Educational Board, Bhopal",
+            "year": "2006",
+            "cgpa_percentage": "73.3%"
+        },
+        {
+            "degree": "High School",
+            "specialization": "",
+            "institution": "School for excellence Seoni(M.P)",
+            "board_university": "M.P. Educational Board, Bhopal",
+            "year": "2004",
+            "cgpa_percentage": "77.1%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "GHRCE,Nagpur.(NAAC A++,NBA ACCREDATED)",
+            "start_date": "",
+            "end_date": "",
+            "duration": "2.4 Yr",
+            "description": ""
+        },
+        {
+            "designation": "Asst.Prof.",
+            "organization": "MIST (MALWA), Indore",
+            "start_date": "",
+            "end_date": "",
+            "duration": "10.8 YEAR",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 4,
+        "book_publications": 0,
+        "book_chapters": 1,
+        "patents": 0
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Vijay Kumar",
+        "current_designation": "Assistant Professor",
+        "total_experience": "10 years",
+        "email": "dvijay.iitb@gmail.com",
+        "phone": "+91 7905257340",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Data Science Cluster, UPES Dehradun, Uttarakhand-248007",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Statistics",
+            "institution": "Department of Mathematics, Indian Institute of Technology, Bombay",
+            "board_university": "Indian Institute of Technology, Bombay",
+            "year": "2018-2023",
+            "cgpa_percentage": "7.56/10 (≡75.6%)"
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Applied Statistics and Informatics",
+            "institution": "Department of Mathematics, Indian Institute of Technology, Bombay",
+            "board_university": "Indian Institute of Technology, Bombay",
+            "year": "2011-2013",
+            "cgpa_percentage": "6.36/10 (≡63.6%)"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Statistics and Mathematics",
+            "institution": "Department of Statistics, PPN Degree College, CSJM University, Kanpur",
+            "board_university": "CSJM University, Kanpur",
+            "year": "2006-2009",
+            "cgpa_percentage": "66.74%"
+        },
+        {
+            "degree": "Intermediate",
+            "specialization": "Science",
+            "institution": "UP Board",
+            "board_university": "UP Board",
+            "year": "2004-2005",
+            "cgpa_percentage": "75.80%"
+        },
+        {
+            "degree": "High school",
+            "specialization": "Science",
+            "institution": "UP Board",
+            "board_university": "UP Board",
+            "year": "2002-2003",
+            "cgpa_percentage": "75.33%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "School of Computer Science (Data Science Cluster)",
+            "start_date": "January 2024",
+            "end_date": "Present",
+            "duration": "1 year",
+            "description": "University of Petroleum and Energy Studies, Dehradun, Uttarakhand, India."
+        },
+        {
+            "designation": "Research Associate",
+            "organization": "Department of Mathematics, Indian Institute of Technology, Bombay",
+            "start_date": "July 2023",
+            "end_date": "November 2023",
+            "duration": "5 months",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 5,
+        "patents": 0
+    }
+}

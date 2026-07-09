@@ -1,0 +1,98 @@
+{
+    "personal_information": {
+        "full_name": "DHWANILNATH GAUTAM",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "dhwanilnath@gmail.com",
+        "phone": "+91 89808 88847",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Ahmedabad, Gujarat, India",
+        "linkedin": "www.linkedin.com/in/dhwanilnath/",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Geomatics",
+            "institution": "Nirma University, Ahmedabad, India",
+            "board_university": "",
+            "year": "2018-2022",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Geomatics",
+            "institution": "CEPT University, Ahmedabad, India",
+            "board_university": "",
+            "year": "2015-2017",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Electronics and Communication",
+            "institution": "Silver Oak University, Ahmedabad, India",
+            "board_university": "",
+            "year": "2010-2015",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Program Chair & Assistant Professor",
+            "organization": "CEPT University, Ahmedabad, India",
+            "start_date": "Aug 2022-Present",
+            "end_date": "",
+            "duration": "",
+            "description": "Presiding Chair for the M. Tech. Geomatics program, focusing on curriculum development, outreach, and research and academic collaborations with other organizations."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Nirma University, Ahmedabad, India",
+            "start_date": "Aug 2018-Sep 2022",
+            "end_date": "",
+            "duration": "",
+            "description": "Teaching subjects including Surveying, GIS, and Remote Sensing to students of B.E. (Civil Engineering) and providing guidance to students for minor projects and final thesis."
+        },
+        {
+            "designation": "Graduate Student Researcher",
+            "organization": "ISRO, Ahmedabad, India",
+            "start_date": "Jun 2018-Jan 2021",
+            "end_date": "",
+            "duration": "",
+            "description": "Conducting primary research and developing computational models in the fields of Applied Meteorology, Thermal and Multispectral Remote Sensing, and Machine Learning at the Space Applications Centre (SAC), Indian Space Research Organisation (ISRO), Ahmedabad."
+        },
+        {
+            "designation": "Visiting Faculty",
+            "organization": "Gujarat University, Ahmedabad, India",
+            "start_date": "Jul 2017-Jun 2018",
+            "end_date": "",
+            "duration": "",
+            "description": "Teaching subjects including Spatial Analysis and Statistics, Natural Resource Management, and GIS Lab to students of M.Sc. (Geoinformatics)."
+        },
+        {
+            "designation": "Researcher",
+            "organization": "St. Xavier's College, Ahmedabad, India",
+            "start_date": "Oct 2017-Jun 2018",
+            "end_date": "",
+            "duration": "",
+            "description": "Conducting primary research under the project 'Quantization of Aerosol Radiative Forcing over an Urban Environment' at the Department of Physics and Electronics at St. Xavier's College."
+        },
+        {
+            "designation": "Corporate Consultant",
+            "organization": "Orbrick Consulting Pvt. Ltd., Ahmedabad, India",
+            "start_date": "Mar 2024-Present",
+            "end_date": "",
+            "duration": "",
+            "description": "Providing solutions for deploying Machine Learning in employment management systems for higher education institutions."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 5,
+        "conference_publications": 14,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

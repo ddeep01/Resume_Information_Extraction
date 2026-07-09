@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Snehamoy Pramanik",
+        "current_designation": "Assistant Professor.",
+        "total_experience": "",
+        "email": "snehamoy.pramanik@gmail.com, psneha.ism@gmail.com",
+        "phone": "+91-9262339404",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "",
+            "institution": "Indian Institute of Technology (Indian School of Mines)",
+            "board_university": "",
+            "year": "2015 - 2023",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Mathematics and Computing",
+            "institution": "Indian Institute of Technology (Indian School of Mines)",
+            "board_university": "",
+            "year": "2013 - 2015",
+            "cgpa_percentage": "88.84"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Mathematics",
+            "institution": "West Bengal State University",
+            "board_university": "",
+            "year": "2010 - 2013",
+            "cgpa_percentage": "57.57"
+        },
+        {
+            "degree": "HSC (10+2)",
+            "specialization": "",
+            "institution": "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E)",
+            "board_university": "",
+            "year": "2008 - 2010",
+            "cgpa_percentage": "77.60"
+        },
+        {
+            "degree": "SSC (10)",
+            "specialization": "",
+            "institution": "West Bengal Board of Secondary Education (W.B.B.S.E)",
+            "board_university": "",
+            "year": "2008-",
+            "cgpa_percentage": "78.87"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor.",
+            "organization": "Department of Mathematics, CHRIST (Deemed to be university), Bangalore, India.",
+            "start_date": "2022 -",
+            "end_date": "",
+            "duration": "",
+            "description": "Current Employment"
+        },
+        {
+            "designation": "Post Doctoral.",
+            "organization": "Tufts University, Medford, MA,USA.",
+            "start_date": "2020 - 2021",
+            "end_date": "",
+            "duration": "",
+            "description": "Task involved: Develop guided nonlinear ultrasound techniques to characterize claddingsubstrate bond quality."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 10,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

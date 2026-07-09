@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Isha Sharma",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "ishasharmaphy@iitkgp.ac.in",
+        "phone": "8130349452",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Department of Physics, IIT Kharagpur, West Bengal-721302",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Technology Kharagpur, West Bengal, India",
+            "board_university": "",
+            "year": "2018-2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Masters of Science",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Technology Kharagpur, West Bengal, India",
+            "board_university": "",
+            "year": "2016-2018",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Science",
+            "specialization": "Physics",
+            "institution": "Miranda House, Delhi University, Delhi, India",
+            "board_university": "",
+            "year": "2013-2016",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Class 12",
+            "specialization": "",
+            "institution": "D.A.V. Public School, Mahendragarh, Haryana, India",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Class 10",
+            "specialization": "",
+            "institution": "D.A.V. Public School, Mahendragarh, Haryana, India",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "PhD Student",
+            "organization": "Indian Institute of Technology Kharagpur, West Bengal, India",
+            "start_date": "2018",
+            "end_date": "2024",
+            "duration": "7 years",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 5,
+        "conference_publications": 3,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

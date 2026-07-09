@@ -1,0 +1,90 @@
+{
+    "personal_information": {
+        "full_name": "Priya Ranjan Sahoo",
+        "current_designation": "",
+        "total_experience": "13 years",
+        "email": "prsahoo.chem@gmail.com",
+        "phone": "+1 (716) 748-1586",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "University at Buffalo, The State University of New York, Department of Chemistry, NY",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Chemistry",
+            "institution": "University of Delhi",
+            "board_university": "",
+            "year": "Nov. 2018",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Organic Chemistry",
+            "institution": "University of Delhi",
+            "board_university": "",
+            "year": "May. 2013",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Chemistry (Honors)",
+            "institution": "Utkal University",
+            "board_university": "",
+            "year": "May. 2011",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Postdoctoral Associate",
+            "organization": "University at Buffalo New York",
+            "start_date": "Dec. 2021",
+            "end_date": "Present",
+            "duration": "",
+            "description": "Advisor: Prof. Janet R. Morrow"
+        },
+        {
+            "designation": "Postdoctoral Fellow",
+            "organization": "Sorbonne Université Paris",
+            "start_date": "Feb. 2021",
+            "end_date": "Nov. 2021",
+            "duration": "",
+            "description": "Advisor: Prof. Hélène C. Bertrand"
+        },
+        {
+            "designation": "Postdoctoral Fellow",
+            "organization": "Tohoku University Sendai",
+            "start_date": "Jul. 2018",
+            "end_date": "Nov. 2020",
+            "duration": "",
+            "description": "Advisor: Prof. Shin Mizukami"
+        },
+        {
+            "designation": "Research Scientist",
+            "organization": "Jubilant Generics Limited Noida",
+            "start_date": "Apr. 2017",
+            "end_date": "Jul. 2018",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Internship",
+            "organization": "CSIR-IMMT Bhubaneswar",
+            "start_date": "May. 2012",
+            "end_date": "Jul. 2012",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 16,
+        "conference_publications": 6,
+        "book_publications": 2,
+        "book_chapters": 1,
+        "patents": 0
+    }
+}

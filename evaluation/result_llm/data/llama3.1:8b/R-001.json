@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dr. AFZAL BEG",
+        "current_designation": "Assistant Professor",
+        "total_experience": "11 years",
+        "email": "afzalbeg09@gmail.com",
+        "phone": "+91 9098248646, 7415952569",
+        "date_of_birth": "29th September 1988",
+        "gender": "Male",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PH.D.",
+            "specialization": "Computer Science",
+            "institution": "Sarveapalli RadhaKrishnan University Bhopal (M.P.)",
+            "board_university": "",
+            "year": "2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Computer Science (Msc cs)",
+            "specialization": "",
+            "institution": "MakhanLal Chaturvedi Rastriya Patrakarita Avam sanchar Vishwavidhyalay (MCURPV) Bhopal",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "70%"
+        },
+        {
+            "degree": "Master of Social Work (MSW)",
+            "specialization": "",
+            "institution": "Maharishi Mahesh Yogi Vedic Vishwavidhyalay Jabalpur",
+            "board_university": "",
+            "year": "2020",
+            "cgpa_percentage": "70%"
+        },
+        {
+            "degree": "Bachelor of computer application (B.C.A)",
+            "specialization": "",
+            "institution": "Awadhesh Pratap Singh University (APSU), Rewa (M.P)",
+            "board_university": "MP Board",
+            "year": "2010",
+            "cgpa_percentage": "58%"
+        },
+        {
+            "degree": "12th (10+2)",
+            "specialization": "",
+            "institution": "BSEMP Bhopal (MP Board)",
+            "board_university": "MP Board",
+            "year": "2007",
+            "cgpa_percentage": "74%"
+        },
+        {
+            "degree": "Metric (10th)",
+            "specialization": "",
+            "institution": "BSEMP Bhopal (MP Board)",
+            "board_university": "MP Board",
+            "year": "2005",
+            "cgpa_percentage": "72%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Rai University, Ahmadabad Gujarat",
+            "start_date": "July 2024",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Vindhya Institute of Technology and Science, Satna (M.P.)",
+            "start_date": "March 2023",
+            "end_date": "Dec 2023",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Shri Rama Krishna College of Commerce & Science, Satna (M.P.)",
+            "start_date": "July 2016",
+            "end_date": "March 2023",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "SSICAIT College Maihar, Distt-Satna (M.P.)",
+            "start_date": "July 2012",
+            "end_date": "Dec 2015",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 2,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

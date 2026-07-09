@@ -1,0 +1,98 @@
+{
+    "personal_information": {
+        "full_name": "Kritishnu Sanyal",
+        "current_designation": "PhD Research Scholar",
+        "total_experience": "",
+        "email": "sanyalkritishnu@gmail.com, d18065@students.iitmandi.ac.in",
+        "phone": "+91-8278784544(M)",
+        "date_of_birth": "May 03, 1988",
+        "gender": "Male",
+        "address": "6/3 M.C. Ghosh Lane, Howrah, West Bengal, PIN - 711101",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD.",
+            "specialization": "",
+            "institution": "School of Humanities and Social Sciences (SHSS), Indian Institute of Technology Mandi",
+            "board_university": "",
+            "year": "2019 - Present",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.A.",
+            "specialization": "Economics",
+            "institution": "Jadavpur University, West Bengal",
+            "board_university": "",
+            "year": "2008-10",
+            "cgpa_percentage": "63%"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Economics honours, Mathematics and Statistics general",
+            "institution": "University of Calcutta, West Bengal",
+            "board_university": "",
+            "year": "2005-08",
+            "cgpa_percentage": "55.625%"
+        },
+        {
+            "degree": "Higher Secondary Examination",
+            "specialization": "",
+            "institution": "West Bengal Council of Higher Secondary Education (WBCHSE)",
+            "board_university": "",
+            "year": "2003-2005",
+            "cgpa_percentage": "72.3%"
+        },
+        {
+            "degree": "Madhyamik Examination",
+            "specialization": "",
+            "institution": "West Bengal Board of Secondary Education (WBBSE)",
+            "board_university": "",
+            "year": "2003",
+            "cgpa_percentage": "80.75%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Associate",
+            "organization": "Indian Institute of Technology Mandi",
+            "start_date": "2018 - 2019",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor of Economics",
+            "organization": "Susil Kar College, Calcutta University",
+            "start_date": "2012 - 2014",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Guest Lecturer of Economics",
+            "organization": "Vijaygarh Jyotish Ray College, Calcutta University",
+            "start_date": "2011 - 2012",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Project Fellow",
+            "organization": "Department of Economics, Jadavpur University",
+            "start_date": "2010 - 2011",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 5,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

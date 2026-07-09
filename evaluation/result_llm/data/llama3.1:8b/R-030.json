@@ -1,0 +1,130 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Amit kumar",
+        "current_designation": "",
+        "total_experience": "15 years of exposure of theories and practices, skills and ethics related to professional social work.",
+        "email": "amitmsw08@gmail.com, amitk@iima.ac.in",
+        "phone": "9732092011",
+        "date_of_birth": "3rd December, 1984",
+        "gender": "",
+        "address": "Amit Kumar, S/o Ramchandra Roy, Bajrang Colony, Near Aman Vihar, Phulwari Shariff, Patna: 800002, Bihar.",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "BA(H)",
+            "specialization": "",
+            "institution": "University of Delhi",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": "61.3%"
+        },
+        {
+            "degree": "Master in Arts (Social Work)",
+            "specialization": "",
+            "institution": "Kurukshetra University",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "63.3%"
+        },
+        {
+            "degree": "Master of Science",
+            "specialization": "",
+            "institution": "IIT KGP",
+            "board_university": "",
+            "year": "2018",
+            "cgpa_percentage": "92.3%"
+        },
+        {
+            "degree": "Doctor of Philosophy",
+            "specialization": "",
+            "institution": "IIT KGP",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": "80.0%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Senior Survey Scientist",
+            "organization": "Misra Centre for Financial Market and Economy, IIM Ahmedabad",
+            "start_date": "1st January, 2024",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Sciences, Jaipur National University, Jaipur",
+            "start_date": "5th July, 2022",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Program Officer, NSS",
+            "organization": "Jaipur National University, Jaipur",
+            "start_date": "15th July, 2023",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work, Bhopal School of Social Sciences Bhopal -462024",
+            "start_date": "1st January, 2021",
+            "end_date": "31st May, 2022",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "Rekhi Centre of Excellence for the Science of Happiness",
+            "start_date": "4th December, 2017",
+            "end_date": "10th July, 2018",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Guest faculty",
+            "organization": "Department of sociology and social work, Hemwati Nandan Bahuguna Garhwal Central University, Srinagar, Uttarkhand",
+            "start_date": "19th September, 2013",
+            "end_date": "20th December, 2014",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work, Model Public Education College, Chandausi, Moradabad, UP",
+            "start_date": "22nd November, 2010",
+            "end_date": "11th July, 2013",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work Jain Vishwa Bharti University Ladnun Rajasthan-341306",
+            "start_date": "4th August, 2009",
+            "end_date": "11th September, 2010",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Labour Welfare Trainee",
+            "organization": "Vardman Textiles Ltd.",
+            "start_date": "1st July, 2008",
+            "end_date": "27th July, 2009",
+            "duration": "",
+            "description": "Responsible and accountable for work related to IR and HR practices as Labour Welfare Officer."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 3,
+        "conference_publications": 2,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

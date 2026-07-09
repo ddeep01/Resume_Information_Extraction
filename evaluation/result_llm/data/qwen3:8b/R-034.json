@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "KRITISHNU SANYAL",
+        "current_designation": "PhD. Research Scholar",
+        "total_experience": "",
+        "email": "sanyalkritishnu@gmail.com",
+        "phone": "+91-8278784544(M)",
+        "date_of_birth": "May 03, 1988",
+        "gender": "Male",
+        "address": "6/3 M.C. Ghosh Lane, Howrah, West Bengal, PIN - 711101",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Humanities and Social Sciences",
+            "institution": "Indian Institute of Technology Mandi",
+            "board_university": "School of Humanities and Social Sciences (SHSS)",
+            "year": "2019 - Present",
+            "cgpa_percentage": "8.69"
+        },
+        {
+            "degree": "M.A.",
+            "specialization": "Economics",
+            "institution": "Jadavpur University",
+            "board_university": "West Bengal",
+            "year": "2008-10",
+            "cgpa_percentage": "63%"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Economics honours, Mathematics and Statistics general",
+            "institution": "University of Calcutta",
+            "board_university": "West Bengal",
+            "year": "2005-08",
+            "cgpa_percentage": "55.625%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Associate",
+            "organization": "Indian Institute of Technology Mandi",
+            "start_date": "2018",
+            "end_date": "2019",
+            "duration": "1 year",
+            "description": "Assisted in research projects focusing on forest dependence, management, and ecological identity in the Western Indian Himalayan Region."
+        },
+        {
+            "designation": "Assistant Professor of Economics",
+            "organization": "Susil Kar College, Calcutta University",
+            "start_date": "2012",
+            "end_date": "2014",
+            "duration": "2 years",
+            "description": "Taught Economics courses and conducted research on development economics and ecological economics."
+        },
+        {
+            "designation": "Guest Lecturer of Economics",
+            "organization": "Vijaygarh Jyotish Ray College, Calcutta University",
+            "start_date": "2011",
+            "end_date": "2012",
+            "duration": "1 year",
+            "description": "Delivered lectures on Economics and conducted research on economic anthropology."
+        },
+        {
+            "designation": "Project Fellow",
+            "organization": "Department of Economics, Jadavpur University",
+            "start_date": "2010",
+            "end_date": "2011",
+            "duration": "1 year",
+            "description": "Conducted research on climate change impacts and economic policies in the Himalayan region."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 3,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 1,
+        "patents": 0
+    }
+}

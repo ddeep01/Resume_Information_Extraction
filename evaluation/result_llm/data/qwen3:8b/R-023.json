@@ -1,0 +1,66 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Dharmendra Pathak",
+        "current_designation": "Associate Professor",
+        "total_experience": "12 years 11 months",
+        "email": "dharmendra.pathak281086@gmail.com",
+        "phone": "09202238453",
+        "date_of_birth": "28th Oct 1986",
+        "gender": "",
+        "address": "920/9 Nehru Nagar, Indore, Madhya Pradesh, 452011",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science Engineering",
+            "institution": "Amity School of Engineering & Technology, Raipur",
+            "board_university": "Amity University Chhattisgarh",
+            "year": "2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech.",
+            "specialization": "Information Architecture & Software Engineering",
+            "institution": "School of Computer Science and I.T. (SCSIT), Indore",
+            "board_university": "Devi Ahilya University (D.A.V.V.), Indore, M.P.",
+            "year": "2012",
+            "cgpa_percentage": "9.45 CGPA (DAVV TOPPER)"
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Computer Science & Engineering",
+            "institution": "Swami Vivekananda College of Engineering, Indore",
+            "board_university": "Rajiv Gandhi Technical University (R.G.T.U.), Bhopal, M.P.",
+            "year": "2009",
+            "cgpa_percentage": "76.38% (Hons.)"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "Chameli Devi Group of Institutions, Indore, M.P.",
+            "start_date": "7th July 2012",
+            "end_date": "till date",
+            "duration": "12 years 11 months",
+            "description": "Teaching and research activities."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Sanghvi Institute of Management and Science, Indore, M.P.",
+            "start_date": "17th Aug 2009",
+            "end_date": "1st July, 2010",
+            "duration": "1 year",
+            "description": "Teaching activities."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 13,
+        "book_publications": 0,
+        "book_chapters": 1,
+        "patents": 3
+    }
+}

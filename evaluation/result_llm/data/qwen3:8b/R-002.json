@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Anil Hirpara",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "hirparaanil7@gmail.com",
+        "phone": "9427373948",
+        "date_of_birth": "07-02-1995",
+        "gender": "Male",
+        "address": "Chorali moli, Girgadhda,\nGirsomnath, 362560,\nGujarat, India.",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "(Physics)",
+            "institution": "Sardar Patel University",
+            "board_university": "",
+            "year": "October-2023",
+            "cgpa_percentage": "N.A."
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Physics",
+            "institution": "Sardar Patel University",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "8.2"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics",
+            "institution": "Shri Alpesh N Patel Post Graduate Institute of Science and Research",
+            "board_university": "Veer Narmad South Gujarat University",
+            "year": "April - 2017",
+            "cgpa_percentage": "6.87"
+        },
+        {
+            "degree": "H.S.C",
+            "specialization": "",
+            "institution": "K. K. Parekh & Maheta R P Vidyalay High School",
+            "board_university": "GSEB",
+            "year": "March-2012",
+            "cgpa_percentage": "52 %"
+        },
+        {
+            "degree": "S.S.C",
+            "specialization": "",
+            "institution": "Shri Madhyamik shala, Nariyeli-moli",
+            "board_university": "GSEB",
+            "year": "March-2010",
+            "cgpa_percentage": "73.54 %"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Indian Institute of Teacher Education, Gandhinagar",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": "for academic year 2023-2024."
+        },
+        {
+            "designation": "Laboratory Assistant",
+            "organization": "Department of Physics, Sardar Patel University, Vallabh Vidyanagar",
+            "start_date": "2019-2020",
+            "end_date": "",
+            "duration": "2019-2020",
+            "description": "Assisted in M.Sc. Semester (1 & 2) Laboratory courses."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 5,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Isha Sharma",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "isharmaphy@iitkgp.ac.in",
+        "phone": "8130349452",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Department of Physics, IIT Kharagpur, West Bengal-721302",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Technology Kharagpur",
+            "board_university": "West Bengal, India",
+            "year": "2018-2024",
+            "cgpa_percentage": "7.89"
+        },
+        {
+            "degree": "Masters of Science",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Technology Kharagpur",
+            "board_university": "West Bengal, India",
+            "year": "2016-2018",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Science",
+            "specialization": "Physics",
+            "institution": "Miranda House, Delhi University",
+            "board_university": "Delhi, India",
+            "year": "2013-2016",
+            "cgpa_percentage": "8.96"
+        },
+        {
+            "degree": "Class 12",
+            "specialization": "",
+            "institution": "D.A.V. Public School, Mahendragarh",
+            "board_university": "Haryana, India",
+            "year": "2013",
+            "cgpa_percentage": "92%"
+        },
+        {
+            "degree": "Class 10",
+            "specialization": "",
+            "institution": "D.A.V. Public School, Mahendragarh",
+            "board_university": "Haryana, India",
+            "year": "2011",
+            "cgpa_percentage": "10"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 4,
+        "book_publications": 0,
+        "book_chapters": 1,
+        "patents": 0
+    }
+}

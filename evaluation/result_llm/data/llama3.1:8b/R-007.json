@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Nitiraj Shete",
+        "current_designation": "",
+        "total_experience": "12+ Years of experience as Biostatistician and Academician",
+        "email": "nit.shete@gmail.com / nit_eins@yahoo.com",
+        "phone": "+ (91) 8000717702 / 7778005706",
+        "date_of_birth": "Dec. 7, 1987",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "M Sc.",
+            "specialization": "Statistics",
+            "institution": "Sardar Patel University, Anand Gujarat",
+            "board_university": "",
+            "year": "2010",
+            "cgpa_percentage": "62.69%"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Statistics",
+            "institution": "Shivaji University Kolhapur, Maharashtra",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "62%"
+        },
+        {
+            "degree": "12th STD",
+            "specialization": "",
+            "institution": "Maharashtra Board in Science Stream.",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": "63.33%"
+        },
+        {
+            "degree": "10th STD",
+            "specialization": "",
+            "institution": "Maharashtra Board.",
+            "board_university": "",
+            "year": "2003",
+            "cgpa_percentage": "68.26%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Bio-statistician",
+            "organization": "Muljibhai Patel Urological Hospital (MPUH), Nadiad, Gujarat",
+            "start_date": "11 December 2019",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor (Adhoc)",
+            "organization": "Sardar Patel University",
+            "start_date": "Aug-2011",
+            "end_date": "Dec-2019",
+            "duration": "08 years 3months in teaching.",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 8,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

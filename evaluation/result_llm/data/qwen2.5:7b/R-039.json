@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Soumen Mukherjee",
+        "current_designation": "Associate Professor, Dept. of English, School of Social Sciences & Languages, Vellore Institute of Technology (VIT), Vellore - 632 014, Tamilnadu, India",
+        "total_experience": "Nineteen years",
+        "email": "jayitach2007@gmail.com",
+        "phone": "+91-9880859911",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "House No. -1, 1st Floor, Shastri Street, Bharathi Nagar Ext., Vellore-632007, Tamil Nadu, India",
+        "linkedin": "",
+        "google_scholar": "L3Yp0IOGXrEC",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph. D in Indian English Literature",
+            "specialization": "",
+            "institution": "University of Lucknow, Lucknow (U.P), India",
+            "board_university": "",
+            "year": "May 2012",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Arts in English Literature",
+            "specialization": "",
+            "institution": "Banaras Hindu University, Varanasi (U.P), India",
+            "board_university": "",
+            "year": "May 2000",
+            "cgpa_percentage": "Ist Division"
+        },
+        {
+            "degree": "Bachelor of Arts in English Literature (Hons.)",
+            "specialization": "",
+            "institution": "Vidyasagar University, Midnapore (W.B) India",
+            "board_university": "",
+            "year": "June 1998",
+            "cgpa_percentage": "IInd Division"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor & Instructor-in-Charge",
+            "organization": "Department of English, School of Social Sciences & Languages, Vellore Institute of Technology (VIT), Vellore - 632 014, Tamilnadu, India",
+            "start_date": "May, 2017",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor & Instructor-in-Charge",
+            "organization": "Presidency University, Bangalore-560064, Karnataka, India",
+            "start_date": "July, 2015",
+            "end_date": "May, 2017",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "Alliance University, Bangalore-562106, Karnataka, India",
+            "start_date": "July, 2013",
+            "end_date": "June, 2015",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "NIET, Mahamaya Technical University, Greater Noida-201306, Uttar Pradesh, India",
+            "start_date": "Nov., 2012",
+            "end_date": "May, 2013",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor and Area Chairperson-Institute of Management Studies",
+            "organization": "Ghaziabad-201009, Uttar Pradesh, India",
+            "start_date": "Jan., 2008",
+            "end_date": "Oct., 2012",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Uttar Pradesh Technical University, Ghaziabad-201009, Uttar Pradesh, India",
+            "start_date": "Nov., 2002",
+            "end_date": "Aug., 2006",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "One year & one-month sabbatical for pursuing Research",
+            "organization": "",
+            "start_date": "Nov., 2004",
+            "end_date": "Nov., 2005",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 7,
+        "conference_publications": 19,
+        "book_publications": 1,
+        "book_chapters": 4,
+        "patents": 0
+    }
+}

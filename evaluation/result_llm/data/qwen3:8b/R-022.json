@@ -1,0 +1,90 @@
+{
+    "personal_information": {
+        "full_name": "C.V.Ravi kumar",
+        "current_designation": "Associate Professor",
+        "total_experience": "15 +Yrs",
+        "email": "cvrkvit@gmail.com",
+        "phone": "+91-8309450722",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D",
+            "specialization": "Wireless Communication",
+            "institution": "VIT",
+            "board_university": "",
+            "year": "Year not provided",
+            "cgpa_percentage": "71%"
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Digital Electronics & Communication Systems",
+            "institution": "JNTU, Ananthapur",
+            "board_university": "",
+            "year": "Year not provided",
+            "cgpa_percentage": "71%"
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "Electronics and Communications Engineering",
+            "institution": "Anna University",
+            "board_university": "",
+            "year": "Year not provided",
+            "cgpa_percentage": "67%"
+        },
+        {
+            "degree": "Intermediate",
+            "specialization": "Science + Maths Stream",
+            "institution": "B.I.E",
+            "board_university": "",
+            "year": "Year not provided",
+            "cgpa_percentage": "83%"
+        },
+        {
+            "degree": "SSC",
+            "specialization": "",
+            "institution": "SSC",
+            "board_university": "",
+            "year": "Year not provided",
+            "cgpa_percentage": "59"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "School of Electronics Engineering at VIT University Vellore",
+            "start_date": "Jan 2023",
+            "end_date": "Till date",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Asst. Professor, Asst. professor senior grade",
+            "organization": "School of Electronics Engineering at VIT University Vellore",
+            "start_date": "June 2012",
+            "end_date": "Dec 2023",
+            "duration": "",
+            "description": "Worked as an Asst. Professor"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Electronics & Communications Department at VBIT (Institute of Technology, Ghatkesar, Hyderabad (dist.)",
+            "start_date": "July 2009",
+            "end_date": "June 2012",
+            "duration": "",
+            "description": "Worked as a Assistant Professor"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 8,
+        "conference_publications": 3,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

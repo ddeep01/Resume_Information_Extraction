@@ -1,4 +1,5 @@
-"""Faculty Resume Prompt Builder.
+"""
+Faculty Resume Prompt Builder.
 
 Project:
     LLM Based Faculty Resume Information Extraction
@@ -17,9 +18,6 @@ Does NOT:
     - Call LLM
     - Parse JSON
     - Save files
-
-Flow:
-    Resume.txt -> PromptBuilder -> Messages -> extractor.py -> Ollama
 """
 
 from __future__ import annotations
@@ -29,14 +27,18 @@ from typing import Dict, List
 
 
 class PromptBuilder:
-    """Production Prompt Builder.
-
-    This class generates prompts for faculty resume extraction.
-    """
+    """Production Prompt Builder."""
 
     def __init__(self):
+
+        ######################################################################
+        # OUTPUT SCHEMA
+        ######################################################################
+
         self.schema = {
+
             "personal_information": {
+
                 "full_name": "",
                 "current_designation": "",
                 "total_experience": "",
@@ -46,78 +48,73 @@ class PromptBuilder:
                 "gender": "",
                 "address": "",
                 "linkedin": "",
-                "website": "",
-                "orcid": "",
                 "google_scholar": "",
                 "researchgate": ""
+
             },
+
             "education": [
+
                 {
+
                     "degree": "",
                     "specialization": "",
                     "institution": "",
                     "board_university": "",
                     "year": "",
                     "cgpa_percentage": ""
+
                 }
+
             ],
+
             "experience": [
+
                 {
+
                     "designation": "",
                     "organization": "",
                     "start_date": "",
                     "end_date": "",
                     "duration": "",
                     "description": ""
+
                 }
+
             ],
-            "research_interests": [],
-            "publications": [
-                {
-                    "title": "",
-                    "authors": [],
-                    "journal": "",
-                    "conference": "",
-                    "year": "",
-                    "doi": "",
-                    "publisher": ""
-                }
-            ],
-            "projects": [
-                {
-                    "title": "",
-                    "description": "",
-                    "technologies": [],
-                    "duration": ""
-                }
-            ],
-            "patents": [],
-            "books": [],
-            "book_chapters": [],
-            "conferences": [],
-            "awards": [],
-            "certifications": [
-                {
-                    "name": "",
-                    "organization": "",
-                    "year": ""
-                }
-            ],
-            "skills": [],
-            "languages": [],
-            "references": []
+
+            "publication_summary": {
+
+                "journal_publications": 0,
+                "conference_publications": 0,
+                "book_publications": 0,
+                "book_chapters": 0,
+                "patents": 0
+
+            }
+
         }
 
+    ##########################################################################
+    # SYSTEM PROMPT
+    ##########################################################################
+
     def system_prompt(self) -> str:
+
         return (
             "You are an expert faculty resume parser. "
-            "Extract information accurately from resumes. "
-            "Return ONLY valid JSON that exactly matches the provided schema. "
-            "Do not add explanations, markdown, or extra text."
+            "Extract information accurately from faculty resumes. "
+            "Return ONLY valid JSON matching the provided schema. "
+            "Do not return markdown. "
+            "Do not explain anything. "
+            "Do not hallucinate missing information."
         )
 
+    ##########################################################################
+    # EXTRACTION RULES
+    ##########################################################################
+
     def extraction_rules(self) -> str:
-        """User instructions. Kept concise to reduce prompt tokens."""
 
         return """
 RULES
@@ -138,63 +135,96 @@ RULES
 
 8. Missing list -> []
 
-9. Never return null.
+9. Missing count -> 0
 
-11. Preserve original order.
+10. Never return null.
 
-12. Preserve education order.
+11. Preserve education order.
 
-13. Preserve experience order.
+12. Preserve experience order.
 
-14. Return unique skills only.
+13. Extract every education entry.
 
-15. Calculate total_experience using all professional
-experience entries.
+14. Extract every experience entry.
 
-16. If candidate is currently employed,
-calculate experience until today.
+15. Keep experience description concise.
+Maximum 1-2 sentences.
 
-17. Do not double count overlapping jobs.
+16. DO NOT extract individual publication details.
 
-18. If a section contains multiple entries,
-return each entry as a separate object.
+17. Count only:
+    - Journal publications
+    - Conference publications
+    - Books
+    - Book Chapters
+    - Patents
 
-19. Every JSON array and object must be properly closed.
+18. Do NOT include:
+    - publication title
+    - authors
+    - journal name
+    - conference name
+    - DOI
+    - publisher
+    - ISBN
 
-20. Every object must end with a comma except the last one.
+19. Return publication counts only.
 
-21. Never truncate the JSON response.
+20. If a publication category is absent,
+return 0.
 
-22. If the output is too long, regenerate the complete JSON instead of returning partial JSON.
-
-23. The response must be valid JSON parsable by Python's json.loads().
-
-24. Double-check the JSON before returning it.
+21. Return JSON only.
 """
 
+    ##########################################################################
+    # JSON SCHEMA
+    ##########################################################################
+
     def json_schema(self) -> str:
-        """Returns formatted JSON schema."""
 
-        return json.dumps(self.schema, indent=4, ensure_ascii=False)
+        return json.dumps(
+            self.schema,
+            indent=4,
+            ensure_ascii=False
+        )
 
-    def build_messages(self, resume_text: str) -> List[Dict[str, str]]:
-        """Build chat messages for Ollama."""
+    ##########################################################################
+    # BUILD CHAT MESSAGES
+    ##########################################################################
+
+    def build_messages(
+        self,
+        resume_text: str
+    ) -> List[Dict[str, str]]:
 
         if not isinstance(resume_text, str):
-            raise TypeError("resume_text must be a string.")
+
+            raise TypeError(
+                "resume_text must be a string."
+            )
 
         resume_text = resume_text.strip()
 
         if not resume_text:
-            raise ValueError("Resume text is empty.")
+
+            raise ValueError(
+                "Resume text is empty."
+            )
 
         return [
+
             {
+
                 "role": "system",
+
                 "content": self.system_prompt()
+
             },
+
             {
+
                 "role": "user",
+
                 "content": f"""
 {self.extraction_rules()}
 
@@ -208,5 +238,7 @@ RESUME
 
 Return ONLY valid JSON.
 """.strip()
+
             }
+
         ]

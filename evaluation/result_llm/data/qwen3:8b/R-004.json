@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "DR. MITESHKUMAR SOLANKI",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "Mitesh4physics@gmail.com, miteshsolanki_ta@iiitvadodara.ac.in",
+        "phone": "(M) +91 8000 11 7505",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Parul University, Waghodia, Vadodara Gujarat, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy (PhD)",
+            "specialization": "Single Crystal Growth and DFT",
+            "institution": "Pandit Deendayal Energy University Gandhinagar, INDIA",
+            "board_university": "",
+            "year": "2013-2021",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Science (M. Sc.)",
+            "specialization": "Physics",
+            "institution": "Saurashtra University Rajkot, INDIA",
+            "board_university": "",
+            "year": "2010-2012",
+            "cgpa_percentage": "62.00 %"
+        },
+        {
+            "degree": "Bachelor of Science (B. Sc.)",
+            "specialization": "Physics",
+            "institution": "Saurashtra University Rajkot, INDIA",
+            "board_university": "",
+            "year": "2003-2006",
+            "cgpa_percentage": "60.85 %"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Physics, Parul Institute of Applied Sciences Parul University, Vadodara, INDIA.",
+            "start_date": "July. 2023",
+            "end_date": "till date",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Post-doctoral Fellow",
+            "organization": "School of Engineering and Applied Sciences, Ahmedabad University, Ahmedabad, INDIA.",
+            "start_date": "Jan. 2021",
+            "end_date": "Oct. 2021",
+            "duration": "",
+            "description": "Post-doctoral fellowship"
+        },
+        {
+            "designation": "Visiting Assistant Professor",
+            "organization": "Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA.",
+            "start_date": "July. 2022",
+            "end_date": "Jan. 2023",
+            "duration": "",
+            "description": "Visiting assistant professor"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Physics, Khyati Institute of Science, Ahmedabad, INDIA.",
+            "start_date": "Feb. 2020",
+            "end_date": "Jan. 2022",
+            "duration": "",
+            "description": "Assistant professor"
+        },
+        {
+            "designation": "Visiting Assistant Professor",
+            "organization": "Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA.",
+            "start_date": "Feb. 2019",
+            "end_date": "Aug. 2019",
+            "duration": "",
+            "description": "Visiting assistant professor"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Physics, Kadi Sarva Vishwavidyalaya University, Gandhinagar, INDIA.",
+            "start_date": "June. 2017",
+            "end_date": "April. 2019",
+            "duration": "",
+            "description": "Assistant professor"
+        },
+        {
+            "designation": "Step-Up Jewels (CVD-Dimond Growth)",
+            "organization": "Khatodara Road Udhana Darwaja Surat, INDIA.",
+            "start_date": "Aug. 2021",
+            "end_date": "Dec. 2021",
+            "duration": "",
+            "description": "Worked on CVD-diamond growth"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 18,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

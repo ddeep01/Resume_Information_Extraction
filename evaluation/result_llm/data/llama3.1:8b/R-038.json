@@ -1,0 +1,130 @@
+{
+    "personal_information": {
+        "full_name": "Swapnil Shukla",
+        "current_designation": "Project Scientist II",
+        "total_experience": "",
+        "email": "swapnilshukla025@gmail.com",
+        "phone": "9999044865",
+        "date_of_birth": "25th May 1988",
+        "gender": "Female",
+        "address": "A-301, Shanti Botonica, BAPS Road, Raysan, Gandhinagar, Gujarat-382421, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Chemistry",
+            "institution": "Shiv Nadar University",
+            "board_university": "Uttar Pradesh, India",
+            "year": "12/16",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M. Sc.",
+            "specialization": "Chemistry",
+            "institution": "Hindu college, University of Delhi",
+            "board_university": "Delhi, India",
+            "year": "05/11",
+            "cgpa_percentage": "68.9%"
+        },
+        {
+            "degree": "B. Sc. (Hons.)",
+            "specialization": "Chemistry",
+            "institution": "Sri Venkateswara College, University of Delhi",
+            "board_university": "Delhi, India",
+            "year": "05/09",
+            "cgpa_percentage": "81.2%"
+        },
+        {
+            "degree": "12th Class (Equivalent to A levels)",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education",
+            "board_university": "Delhi, India",
+            "year": "05/06",
+            "cgpa_percentage": "82%"
+        },
+        {
+            "degree": "10th Class",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education",
+            "board_university": "Delhi, India",
+            "year": "05/04",
+            "cgpa_percentage": "88.6%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Scientist II",
+            "organization": "Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar.",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "Dept. of Chemistry, Shiv Nadar University",
+            "start_date": "08/12",
+            "end_date": "06/14",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Project Scientist II",
+            "organization": "Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar.",
+            "start_date": "09/23",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Scientist",
+            "organization": "Reliance Industries Ltd.; Elastomer division",
+            "start_date": "05/17",
+            "end_date": "10/18",
+            "duration": "",
+            "description": "Involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques."
+        },
+        {
+            "designation": "Research Associate",
+            "organization": "Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications.",
+            "start_date": "10/16",
+            "end_date": "03/17",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Summer Training",
+            "organization": "School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India",
+            "start_date": "05/08",
+            "end_date": "07/08",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Add-on course in Nanotechnology",
+            "organization": "Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi",
+            "start_date": "08/07",
+            "end_date": "02/08",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Certificate Program in Bioinformatics and Computational Biology",
+            "organization": "Sri Venkateswara College, University of Delhi",
+            "start_date": "09/08",
+            "end_date": "12/08",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 11,
+        "conference_publications": 0,
+        "book_publications": 2,
+        "book_chapters": 2,
+        "patents": 0
+    }
+}

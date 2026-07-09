@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Chandan Patra",
+        "current_designation": "Research Scholar, Department of Physics",
+        "total_experience": "",
+        "email": "chandanpatra9696@gmail.com",
+        "phone": "(+91)9609513143",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Unconventional Superconducting Properties of Layered Chalcogenides",
+            "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "8.61"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics",
+            "institution": "Vidyasagar University (Midnapore College)",
+            "board_university": "West Bengal Council of Higher Secondary Education",
+            "year": "2016",
+            "cgpa_percentage": "70.60"
+        },
+        {
+            "degree": "Higher Secondary",
+            "specialization": "Physics",
+            "institution": "West Bengal Council of Higher Secondary Education",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": "82.00"
+        },
+        {
+            "degree": "Secondary",
+            "specialization": "Physics",
+            "institution": "West Bengal Council of Secondary Education",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "81.70"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Post Doctoral Research Associate",
+            "organization": "S. N. Bose National Centre for Basic Sciences, Kolkata",
+            "start_date": "2024-02-21",
+            "end_date": "",
+            "duration": "since 2024",
+            "description": "Postdoctoral research associate in superconducting materials."
+        },
+        {
+            "designation": "General Physics Laboratory I",
+            "organization": "IISER Bhopal",
+            "start_date": "2019",
+            "end_date": "2020",
+            "duration": "1 year",
+            "description": "Taught General Physics Laboratory I."
+        },
+        {
+            "designation": "Mechanics",
+            "organization": "IISER Bhopal",
+            "start_date": "2020",
+            "end_date": "2021",
+            "duration": "1 year",
+            "description": "Taught Mechanics."
+        },
+        {
+            "designation": "Nuclear Physics Laboratory",
+            "organization": "IISER Bhopal",
+            "start_date": "2020",
+            "end_date": "2021",
+            "duration": "1 year",
+            "description": "Taught Nuclear Physics Laboratory."
+        },
+        {
+            "designation": "Atomic and Molecular Physics",
+            "organization": "IISER Bhopal",
+            "start_date": "2021",
+            "end_date": "2022",
+            "duration": "1 year",
+            "description": "Taught Atomic and Molecular Physics."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 11,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

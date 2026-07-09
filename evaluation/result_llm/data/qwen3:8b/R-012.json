@@ -1,0 +1,146 @@
+{
+    "personal_information": {
+        "full_name": "Arghya Maity",
+        "current_designation": "Postdoctoral Researcher",
+        "total_experience": "",
+        "email": "arghyamaity@hri.res.in",
+        "phone": "0091 7732899577 / 0532 227 4421",
+        "date_of_birth": "04 May 1989",
+        "gender": "Male",
+        "address": "Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group, Allahabad 211 019, India",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?user=arghyamaityphysics@gmail.com",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Postdoc",
+            "specialization": "Quantum Information Theory",
+            "institution": "Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group",
+            "board_university": "",
+            "year": "8th May,2021",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Postdoc",
+            "specialization": "Quantum Thermodynamics",
+            "institution": "IIT-Bombay",
+            "board_university": "",
+            "year": "6th Nov,2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Theoretical Physics",
+            "institution": "BITS-Pilani",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Physics",
+            "institution": "Sambalpur University",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": "7.56(OGPA)≡71%"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics (Hons.)",
+            "institution": "Vidyasagar University",
+            "board_university": "",
+            "year": "2010",
+            "cgpa_percentage": "52 % (2nd class)"
+        },
+        {
+            "degree": "H.S.",
+            "specialization": "Pure Science",
+            "institution": "W.B.C.H.S.E.",
+            "board_university": "",
+            "year": "2006",
+            "cgpa_percentage": "60 % (1st class)"
+        },
+        {
+            "degree": "10th",
+            "specialization": "Bengali-I,Bengali-II, English",
+            "institution": "W.B.B.S.E.",
+            "board_university": "",
+            "year": "2004",
+            "cgpa_percentage": "71 % (1st class)"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Research Associate",
+            "organization": "QuEST - Quantum-Enabled Science & Technology",
+            "start_date": "8th May, 2021",
+            "end_date": "4th Oct, 2023",
+            "duration": "2 years 5 months",
+            "description": "Working on Quantum-Enabled Science & Technology project sponsored by DST, India."
+        },
+        {
+            "designation": "Guest Researcher",
+            "organization": "Department of Physics, Free University of Berlin",
+            "start_date": "2018",
+            "end_date": "2020",
+            "duration": "2 years",
+            "description": "Guest Researcher at Free University of Berlin, Germany."
+        },
+        {
+            "designation": "Project Fellow (JRF and SRF)",
+            "organization": "BITS-Pilani",
+            "start_date": "2014",
+            "end_date": "2020",
+            "duration": "6 years",
+            "description": "Project Fellow under DST, India at BITS-Pilani."
+        },
+        {
+            "designation": "Short term Project",
+            "organization": "UGC-DAE CONSORTIUM FOR SCIENTIFIC RESEARCH, Kolkata",
+            "start_date": "April 2012",
+            "end_date": "",
+            "duration": "",
+            "description": "Short term project on Thin Film Processing Techniques and α-spectroscopy."
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "NPTEL",
+            "start_date": "2021",
+            "end_date": "",
+            "duration": "",
+            "description": "Teaching Assistant at NPTEL."
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "IIT-Bombay",
+            "start_date": "2021",
+            "end_date": "",
+            "duration": "",
+            "description": "Teaching Assistant with Prof. Ranjith Padinhateeri at IIT-Bombay."
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "BITS-Pilani",
+            "start_date": "2014",
+            "end_date": "2019",
+            "duration": "5 years",
+            "description": "Teaching Assistant in Physics Lab Course for 1st year B.Tech students."
+        },
+        {
+            "designation": "Guest Lecturer",
+            "organization": "VSSUT (Veer Surendra Sai University of Technology)",
+            "start_date": "July 2013",
+            "end_date": "November 2013",
+            "duration": "5 months",
+            "description": "Guest Lecturer at VSSUT."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 14,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 1,
+        "patents": 0
+    }
+}

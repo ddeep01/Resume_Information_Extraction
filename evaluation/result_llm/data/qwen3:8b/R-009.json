@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Anurag Choudhary",
+        "current_designation": "Post-doctoral Fellow",
+        "total_experience": "",
+        "email": "anurag@hku.hk, anurag.choudhary087@gmail.com",
+        "phone": "+852-44651646(Hong Kong), +91-8534066345(India)",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy",
+            "specialization": "",
+            "institution": "Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India.",
+            "board_university": "",
+            "year": "2020-2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Engineering in Instrumentation and Control",
+            "specialization": "",
+            "institution": "National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh, India",
+            "board_university": "",
+            "year": "2016-2018",
+            "cgpa_percentage": "7.4"
+        },
+        {
+            "degree": "Bachelor of Technology in Electrical and Electronics Engineering",
+            "specialization": "",
+            "institution": "Uttarakhand Technical University (UTU), Dehradun, India",
+            "board_university": "",
+            "year": "2012-2015",
+            "cgpa_percentage": "66.67%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Post-doctoral Fellow",
+            "organization": "Department of Data and Systems Engineering at the University of Hong Kong, Hong Kong",
+            "start_date": "Sep'24",
+            "end_date": "",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Junior Research Fellow",
+            "organization": "Centre for Automotive Research and Tribology, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India",
+            "start_date": "Feb'20",
+            "end_date": "Aug'20",
+            "duration": "",
+            "description": "Research in condition monitoring and fault diagnosis solutions for the HT and LV induction motors."
+        },
+        {
+            "designation": "Project Assistant III",
+            "organization": "Department of Computational Instrumentation, CSIR-Central Scientific Instruments Organisation, Chandigarh, India",
+            "start_date": "Sep'18",
+            "end_date": "Feb'20",
+            "duration": "",
+            "description": "Development of an intelligent condition monitoring system for wind turbine."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Department of Electrical Engineering, College of Engineering Roorkee (COER), Roorkee, India",
+            "start_date": "Jun'15",
+            "end_date": "Jul'16",
+            "duration": "",
+            "description": "R&D Experience During Ph.D."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 8,
+        "conference_publications": 5,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 1
+    }
+}

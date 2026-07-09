@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. B. S. Ratanpal",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "bharatratanpal@gmail.com",
+        "phone": "+91-9825185736",
+        "date_of_birth": "30th August 1979",
+        "gender": "",
+        "address": "A-9/35, Sant Kanwar Colony, Warashiya, Vadodara - 390 006, Gujarat, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D",
+            "specialization": "General Theory of Relativity, Orbital Dynamics",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M. Sc.",
+            "specialization": "Applied Mathematics",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "64.75"
+        },
+        {
+            "degree": "B. Sc.",
+            "specialization": "Mathematics",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "56.75%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "The Maharaja Sayajirao University of Baroda",
+            "start_date": "24/07/2009",
+            "end_date": "",
+            "duration": "",
+            "description": "Department of Applied Mathematics, Faculty of Technology & Engineering"
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Babaria Institute of Technology, Varnama, Vadodara",
+            "start_date": "1/8/2006",
+            "end_date": "19/7/2009",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Temporary Teaching Assistant",
+            "organization": "The Maharaja Sayajirao University of Baroda",
+            "start_date": "Dec 2001",
+            "end_date": "July 2006",
+            "duration": "",
+            "description": "Department of Applied Mathematics, Faculty of Technology & Engineering"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 22,
+        "conference_publications": 1,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

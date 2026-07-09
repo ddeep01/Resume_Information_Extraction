@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Swapnil Shukla",
+        "current_designation": "Project Scientist II",
+        "total_experience": "",
+        "email": "swapnilshukla025@gmail.com",
+        "phone": "9999044865",
+        "date_of_birth": "25th May 1988",
+        "gender": "Female",
+        "address": "A-301, Shanti Botonica BAPS Road, Raysan, Gandhinagar Gujarat- 382421, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Chemistry",
+            "specialization": "Sustainable Benzoxazines - Sources, Synthesis and Applications",
+            "institution": "Shiv Nadar University, Uttar Pradesh, India",
+            "board_university": "",
+            "year": "08/12 - 12/16",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "1st Class M. Sc. in Chemistry",
+            "specialization": "Importance of Kinases as potential drug targets",
+            "institution": "Hindu college, University of Delhi, Delhi, India",
+            "board_university": "",
+            "year": "07/09 - 05/11",
+            "cgpa_percentage": "68.9%"
+        },
+        {
+            "degree": "1st Class B. Sc. (Hons.) in Chemistry",
+            "specialization": "",
+            "institution": "Sri Venkateswara College, University of Delhi, Delhi, India",
+            "board_university": "",
+            "year": "07/06 - 05/09",
+            "cgpa_percentage": "81.2%"
+        },
+        {
+            "degree": "12th Class (Equivalent to A levels)",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education, Delhi, India",
+            "board_university": "",
+            "year": "04/05 - 05/06",
+            "cgpa_percentage": "82%"
+        },
+        {
+            "degree": "10th Class",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education, Delhi, India",
+            "board_university": "",
+            "year": "04/03 - 05/04",
+            "cgpa_percentage": "88.6%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Scientist II",
+            "organization": "Central University of Gujarat, Gandhinagar",
+            "start_date": "Currently working",
+            "end_date": "",
+            "duration": "",
+            "description": "Working under the sponsored Project Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project"
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "Dept. of Chemistry, Shiv Nadar University",
+            "start_date": "08/12",
+            "end_date": "06/14",
+            "duration": "1 year 8 months",
+            "description": "Teaching Assistant in the Dept. of Chemistry, Shiv Nadar University"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 9,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 2,
+        "patents": 0
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Manoj Kumar Singh",
+        "current_designation": "Assistant Professor (Research)",
+        "total_experience": "9 years and 11 months onward",
+        "email": "singhmanoj59@gmail.com, singhmanoj59@gmail.com",
+        "phone": "+91-7755834535, +91-7755834535",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Permanent Address\nVillage : Jamaitha\nDepartment of Physics\nPost : Sheopur\nInstitute of Applied Science & Humanities\nDistrict : Jaunpur\nGLA University\nPin Code : 222180\nMathura 281406, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy",
+            "specialization": "",
+            "institution": "Veer Bahadur Singh Purvanchal University Jaunpur, UP, India.",
+            "board_university": "",
+            "year": "Awarded in April, 2014.",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Science",
+            "specialization": "Physics",
+            "institution": "Veer Bahadur Singh Purvanchal University Jaunpur, UP, India.",
+            "board_university": "",
+            "year": "2007",
+            "cgpa_percentage": "60.9 %"
+        },
+        {
+            "degree": "Bachelor of Science",
+            "specialization": "Physics, Mathmatics, Chemistry",
+            "institution": "Veer Bahadur Singh Purvanchal University Jaunpur, UP, India.",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": "59.6 %"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor (Research)",
+            "organization": "Department of Physics, Institute of Applied Science & Humanities, GLA University, Mathura, India.",
+            "start_date": "March 02, 2019 onward",
+            "end_date": "",
+            "duration": "",
+            "description": "Research and Development of : Ge- detector, NaI(Tl) detector, Neutron detector, Plastic Scintilator detector, Nuclear Emulsion detector etc."
+        },
+        {
+            "designation": "Dr. D. S. KOTHARI Post Doctoral Fellow (India)",
+            "organization": "Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, India.",
+            "start_date": "December 07, 2016",
+            "end_date": "28 February 2019",
+            "duration": "",
+            "description": "Research and Development of : Ge- detector, NaI(Tl) detector, Neutron detector, Plastic Scintilator detector, Nuclear Emulsion detector etc."
+        },
+        {
+            "designation": "Post Doctoral Fellow (Taiwan)",
+            "organization": "Institute of Physics, Academia Sinica, Taipei, Taiwan",
+            "start_date": "June 1, 2014",
+            "end_date": "December 04, 2016",
+            "duration": "",
+            "description": "Research and Development of : Ge- detector, NaI(Tl) detector, Neutron detector, Plastic Scintilator detector, Nuclear Emulsion detector etc."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 65,
+        "conference_publications": 16,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

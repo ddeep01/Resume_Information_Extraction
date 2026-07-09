@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Snehamoy Pramanik",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "psneha.ism@gmail.com, snehamoy.pramanik@gmail.com",
+        "phone": "+91-9262339404",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Post Doctoral",
+            "specialization": "",
+            "institution": "Tufts University",
+            "board_university": "",
+            "year": "2020 - 2021",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Analysis of Shear and G-type Waves Under Influence of Point Sources and Regulated Material Interfaces",
+            "institution": "Indian Institute of Technology (Indian School of Mines)",
+            "board_university": "",
+            "year": "2015 - 2023",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Mathematics and Computing",
+            "institution": "Indian Institute of Technology (Indian School of Mines)",
+            "board_university": "",
+            "year": "2013 - 2015",
+            "cgpa_percentage": "8.89"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Mathematics, Chemistry (Pass) and Physics (Pass)",
+            "institution": "West Bengal State University",
+            "board_university": "",
+            "year": "2010 - 2013",
+            "cgpa_percentage": "8.84"
+        },
+        {
+            "degree": "HSC (10+2)",
+            "specialization": "Mathematics, Physics, Chemistry, Biology (optional), English and Bengali",
+            "institution": "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E)",
+            "board_university": "",
+            "year": "2008 - 2010",
+            "cgpa_percentage": "77.60"
+        },
+        {
+            "degree": "SSC (10)",
+            "specialization": "Mathematics, Physical science, Life science, History, Geography, English and Bengali",
+            "institution": "West Bengal Board of Secondary Education (W.B.B.S.E)",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "78.87"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Mathematics, CHRIST (Deemed to be university), Bangalore, India",
+            "start_date": "2022",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 17,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

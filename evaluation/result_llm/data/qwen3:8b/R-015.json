@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Isha Sharma",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "ishasharmaphy@iitkgp.ac.in",
+        "phone": "8130349452",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Department of Physics, IIT Kharagpur, West Bengal-721302",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Technology Kharagpur",
+            "board_university": "",
+            "year": "2018-2024",
+            "cgpa_percentage": "7.89"
+        },
+        {
+            "degree": "Masters of Science",
+            "specialization": "Physics",
+            "institution": "Indian Institute of Technology Kharagpur",
+            "board_university": "",
+            "year": "2016-2018",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Science",
+            "specialization": "Physics",
+            "institution": "Miranda House, Delhi University",
+            "board_university": "",
+            "year": "2013-2016",
+            "cgpa_percentage": "8.96"
+        },
+        {
+            "degree": "",
+            "specialization": "",
+            "institution": "D.A.V. Public School, Mahendragarh",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": "92%"
+        },
+        {
+            "degree": "",
+            "specialization": "",
+            "institution": "D.A.V. Public School, Mahendragarh",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "10"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "Indian Institute of Technology Kharagpur",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": "Researcher"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 3,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

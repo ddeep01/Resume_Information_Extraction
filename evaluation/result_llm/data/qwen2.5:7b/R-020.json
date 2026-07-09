@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Keyur Patel",
+        "current_designation": "Head of Research with School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University",
+        "total_experience": "8 years",
+        "email": "['pkeyur.436@gmail.com', 'drkeyur7@gmail.com']",
+        "phone": "+919998768219",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "101/Mithila-1, Near-Tata Nagar, Meghaninagar Ahmedabad, Gujarat-380016; At& Po-Shamana, Ta-Lunawada, Dist-Mahisagar, Gujarat-389230",
+        "linkedin": "https://www.linkedin.com/in/dr-keyur-patel-415ba121/",
+        "google_scholar": "https://scholar.google.com/citations?hl=en&user=7FIONVoAAAA",
+        "researchgate": "https://www.researchgate.net/profile/Keyur Patel41"
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Electrical and Computer Science",
+            "institution": "Institute of Infrastructure Technology Research and Management (IITRAM) Established by Gov.of Gujarat, Mentored by IIT Gandhinagar, Ahmedabad",
+            "board_university": "",
+            "year": "2016 - 2020",
+            "cgpa_percentage": "8.83"
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Control and Automation (Drone Technology)",
+            "institution": "Department of Electronics Engg, Institute of Technology, Nirma University, Ahmedabad",
+            "board_university": "",
+            "year": "2012 - 2014",
+            "cgpa_percentage": "7.9/10"
+        },
+        {
+            "degree": "B.E.",
+            "specialization": "Electronics",
+            "institution": "BVM Gov. Engineering College, Vallabh Vidhyanagar, Gujarat",
+            "board_university": "",
+            "year": "2005 - 2009",
+            "cgpa_percentage": "64.32%"
+        },
+        {
+            "degree": "H.S.C.",
+            "specialization": "Science",
+            "institution": "Kisan Madhyamik Vidhyalaya, Lunawada, Gujarat",
+            "board_university": "",
+            "year": "2003 - 2004",
+            "cgpa_percentage": "83.11%"
+        },
+        {
+            "degree": "S.S.C.",
+            "specialization": "",
+            "institution": "Omkar Maulik Vidhayalaya, Lunawada, Gujarat",
+            "board_university": "",
+            "year": "2002 - 2003",
+            "cgpa_percentage": "82.71%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Head of Research with School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University",
+            "organization": "Rashtriya Raksha University, Ministry of Home Affairs, An Institute of National Importance, Government of India, Gandhinagar, Gujarat",
+            "start_date": "2023-09-22",
+            "end_date": "",
+            "duration": "Present",
+            "description": "Spearheaded the development of a state-of-the-art IoT lab and served as PhD Coordinator(Head of Research)."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University",
+            "start_date": "2023-09-22",
+            "end_date": "",
+            "duration": "Present",
+            "description": "Delivered lectures on Machine Learning, Speech Information Processing, Digital Systems, Internet of Things, and Deep Learning."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Unitedworld School of Computational Intelligence, Karnavati University",
+            "start_date": "2022-07-20",
+            "end_date": "2023-09-21",
+            "duration": "1 year 2 months",
+            "description": "Delivered lectures on Computer Networks, Industry Elective (Collaborative), and Human Computer Interaction (HCI)."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Institute of Advanced Research, Gandhinagar",
+            "start_date": "2020-06-01",
+            "end_date": "2022-07-19",
+            "duration": "2 years 2 months",
+            "description": "Worked as Lab-incharge for the development of IoT lab and Program Leader of B.Tech ICT."
+        },
+        {
+            "designation": "Project Engineer - Railway Signalling",
+            "organization": "INSTRUMENTATION LTD. - KOTA (A Govt. Of India Enterprise)",
+            "start_date": "2009-10-22",
+            "end_date": "2011-11-01",
+            "duration": "2 years 1 month 10 days",
+            "description": "Designed, installed, tested and commissioned SSI system at various stations."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "SVBIT Engineering College Gandhinagar - Gujarat",
+            "start_date": "2014-06-16",
+            "end_date": "2016-07-30",
+            "duration": "2 years 1 month 14 days",
+            "description": "Delivered lectures on Control System Engineering, Microprocessor and Microcontroller, and Signal and System."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 9,
+        "conference_publications": 8,
+        "book_publications": 2,
+        "book_chapters": 3,
+        "patents": 6
+    }
+}

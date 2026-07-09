@@ -1,0 +1,58 @@
+{
+    "personal_information": {
+        "full_name": "Bhumika Shah",
+        "current_designation": "Professor",
+        "total_experience": "Over 20 years",
+        "email": "drbhumikashah@gmail.com",
+        "phone": "+91 9727797105",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "linkedin.com/in/dr-bhumika-bhatt-shah-b8008419",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Computer Science",
+            "institution": "Gujarat University, Department of Computer Science",
+            "board_university": "",
+            "year": "April 2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "MCA",
+            "specialization": "Computer Science",
+            "institution": "IGNOU (Indira Gandhi National Open University)",
+            "board_university": "",
+            "year": "May 2007",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Professor",
+            "organization": "Department of Computer Science, Gujarat University, Ahmedabad, Gujarat",
+            "start_date": "August 2011",
+            "end_date": "Present",
+            "duration": "",
+            "description": "Taught MCA and M.Sc students, developed quizzes, exams, and homework, revised syllabus, served as a student counselor, designed syllabi, represented the department at international conferences, organized workshops, delivered engaging lectures, wrote research funding proposals, provided guidance to project students, oversaw placement process, designed pedagogy for STEM courses."
+        },
+        {
+            "designation": "",
+            "organization": "Department of Computer Science, IBMR College, Pune, Maharashtra",
+            "start_date": "January 2006",
+            "end_date": "March 2011",
+            "duration": "",
+            "description": "Conducted lectures and tutorials for undergraduate and graduate students, represented the department at international conferences, organized workshops, managed placement process, provided mentorship to project students."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 4,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

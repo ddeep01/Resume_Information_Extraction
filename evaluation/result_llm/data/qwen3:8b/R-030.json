@@ -1,0 +1,138 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Amit kumar",
+        "current_designation": "Senior Survey Scientist",
+        "total_experience": "15 years",
+        "email": "amitmsw08@gmail.com, amitk@iima.ac.in",
+        "phone": "9732092011",
+        "date_of_birth": "3 rd December, 1984",
+        "gender": "",
+        "address": "Amit Kumar, S/o Ramchandra Roy, Bajrang Colony, Near Aman Vihar, Phulwari Shariff, Patna: 800002, Bihar.",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Dr. of Philosophy",
+            "specialization": "",
+            "institution": "IIT KGP",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": "80.0%"
+        },
+        {
+            "degree": "Master of Science",
+            "specialization": "",
+            "institution": "IIT KGP",
+            "board_university": "",
+            "year": "2018",
+            "cgpa_percentage": "92.3%"
+        },
+        {
+            "degree": "Master in Arts (Social Work)",
+            "specialization": "",
+            "institution": "Kurukshetra University",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "63.3%"
+        },
+        {
+            "degree": "BA(H)",
+            "specialization": "",
+            "institution": "University of Delhi",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": "61.3%"
+        },
+        {
+            "degree": "All India Senior Secondary School Examination",
+            "specialization": "",
+            "institution": "Patna Central School",
+            "board_university": "",
+            "year": "2002",
+            "cgpa_percentage": "61.6%"
+        },
+        {
+            "degree": "All India Secondary School Examination",
+            "specialization": "",
+            "institution": "Patna Central School",
+            "board_university": "",
+            "year": "1999",
+            "cgpa_percentage": "61.4%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Senior Survey Scientist",
+            "organization": "Misra Centre for Financial Market and Economy, IIM Ahmedabad",
+            "start_date": "1st January, 2024",
+            "end_date": "",
+            "duration": "",
+            "description": "Working as Senior Survey Scientist"
+        },
+        {
+            "designation": "Program Officer, NSS",
+            "organization": "",
+            "start_date": "15th July, 2023",
+            "end_date": "",
+            "duration": "",
+            "description": "Working as Program Officer, NSS"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Sciences, Jaipur National University, Jaipur",
+            "start_date": "5th July 2022",
+            "end_date": "",
+            "duration": "",
+            "description": "Worked as Assistant Professor"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work, Bhopal School of Social Sciences Bhopal -462024",
+            "start_date": "1st January, 2021",
+            "end_date": "31st May, 2022",
+            "duration": "1 year and 5 months",
+            "description": "Served as Assistant Professor"
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "Rekhi Centre of Excellence for the Science of Happiness",
+            "start_date": "4th December, 2017",
+            "end_date": "10th July, 2018",
+            "duration": "9 months",
+            "description": "Served as Research Assistant"
+        },
+        {
+            "designation": "Guest faculty",
+            "organization": "Department of sociology and social work, Hemwati Nandan Bahuguna Garhwal Central University, Srinagar, Uttarkhand",
+            "start_date": "19th September, 2013",
+            "end_date": "20th December, 2014",
+            "duration": "1 year and 3 months",
+            "description": "Worked as Guest faculty"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Social Work Jain Vishwa Bharti University Ladnun Rajasthan-341306",
+            "start_date": "4th August, 2009",
+            "end_date": "11th September, 2010",
+            "duration": "1 year and 2 months",
+            "description": "Worked as Assistant Professor"
+        },
+        {
+            "designation": "Labour Welfare Trainee",
+            "organization": "Vardman Textiles Ltd.",
+            "start_date": "1st July, 2008",
+            "end_date": "27th July, 2009",
+            "duration": "1 year and 31 days",
+            "description": "Worked experience as Labour Welfare Trainee"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 0,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

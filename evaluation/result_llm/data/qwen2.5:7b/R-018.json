@@ -1,0 +1,98 @@
+{
+    "personal_information": {
+        "full_name": "Dibakar Roy Chowdhury",
+        "current_designation": "Professor of Physics",
+        "total_experience": "",
+        "email": "dibakarrc@gmail.com",
+        "phone": "+91-765-897-1188 (m), +91-40-6173-5169 (o)",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Technical University of Darmstadt, Darmstadt, Germany",
+            "institution": "Technical University of Darmstadt, Darmstadt, Germany",
+            "board_university": "",
+            "year": "2003 - 2008",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M. Tech (Solid state technology)",
+            "specialization": "",
+            "institution": "Indian Institute of Technology, Madras",
+            "board_university": "",
+            "year": "2001 - 2003",
+            "cgpa_percentage": "8.74/10"
+        },
+        {
+            "degree": "MSc (Physics, specialization in solid state physics)",
+            "specialization": "",
+            "institution": "Rani Durgavati Vishwavidyalaya, Jabalpur, India",
+            "board_university": "",
+            "year": "1998 - 2000",
+            "cgpa_percentage": "75.75%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Professor",
+            "organization": "Mahindra University, India",
+            "start_date": "October 2018",
+            "end_date": "",
+            "duration": "",
+            "description": "Metamaterials, Plasmonics, Ultrafast Spectroscopy and Terahertz Spectroscopy, Micro- Nano- Fabrication"
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "Mahindra Ecole Centrale, India",
+            "start_date": "January 2015",
+            "end_date": "October 2018",
+            "duration": "",
+            "description": "Terahertz, Metamaterials, Plasmonics"
+        },
+        {
+            "designation": "Scientist - level B (equivalent to Senior Lecturer)",
+            "organization": "Australian National University, Canberra, Australia",
+            "start_date": "August 2013",
+            "end_date": "January 2015",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral research associate",
+            "organization": "Center of Integrated Nanotechnologies (CINT), Los Alamos National Laboratory, NM, USA",
+            "start_date": "June 2009",
+            "end_date": "March 2013",
+            "duration": "",
+            "description": "Active and non-linear metamaterials, Terahertz Science & Technology, Absorbers and Ultrafast phenomena"
+        },
+        {
+            "designation": "Postdoctoral research associate",
+            "organization": "Center for Nanointegration Duisburg-Essen (CeNIDE), University of Duisburg-Essen, Duisburg, Germany",
+            "start_date": "April 2008",
+            "end_date": "April 2009",
+            "duration": "",
+            "description": "Synthesis of nanostructures, Electrical and structural characterization"
+        },
+        {
+            "designation": "Graduate Research Assistant",
+            "organization": "Faculty of Electrical Engineering, Technical University of Darmstadt, Darmstadt, Germany",
+            "start_date": "August 2003",
+            "end_date": "March 2008",
+            "duration": "",
+            "description": "Ultrafast electronic devices RTD, Schottky diode etc. for THz frequencies, Fabrication and electrical characterizations of micro- nano- structures"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 104,
+        "conference_publications": 35,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 6
+    }
+}

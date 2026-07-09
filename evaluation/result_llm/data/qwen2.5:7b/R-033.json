@@ -1,0 +1,66 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Abhisek Ghosal",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "abhisekghosal419@gmail.com",
+        "phone": "9734292060/6296966678",
+        "date_of_birth": "29/04/1993",
+        "gender": "Male",
+        "address": "Indraprastha, Baburbag. P.O. Rajbati. Dist. Burdwan, West Bengal. PIN 713104",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "M.A.",
+            "specialization": "English",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "7.18 (CGPA)"
+        },
+        {
+            "degree": "M.Phil.",
+            "specialization": "Interface between Crime and Globalization in Select South Asian Fictions",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "79%"
+        },
+        {
+            "degree": "Ph.D",
+            "specialization": "Critical Interventions into Energopolitics: Blue Humanities and Geocriticism of Minor Writings",
+            "institution": "IIT Kharagpur",
+            "board_university": "UGC CBSE",
+            "year": "2022 (Awarded)",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "Christ (Deem to be University), BGR Campus, Bengaluru, Karnataka, India",
+            "start_date": "",
+            "end_date": "9 months",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "OP Jindal Global University",
+            "start_date": "",
+            "end_date": "4 Months",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 29,
+        "conference_publications": 0,
+        "book_publications": 3,
+        "book_chapters": 10,
+        "patents": 0
+    }
+}

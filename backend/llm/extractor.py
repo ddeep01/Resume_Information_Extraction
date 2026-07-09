@@ -75,7 +75,10 @@ LOG_DIR.mkdir(
 ##############################################################################
 # CONFIGURATION
 ##############################################################################
-MODEL_NAME = "qwen2.5:7b"
+# MODEL_NAME = "qwen2.5:7b"
+# MODEL_NAME = "mistral:7b"
+MODEL_NAME = "llama3.1:8b"
+
 
 REQUEST_TIMEOUT = 180
 
@@ -242,7 +245,7 @@ class LLMExtractor:
 
                 )
 
-
+                logger.info(response)
                 message = response.get(
                     "message",
                     {}

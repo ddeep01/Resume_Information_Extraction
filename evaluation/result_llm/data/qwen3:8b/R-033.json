@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Abhisek Ghosal",
+        "current_designation": "Faculty, IIT (ISM), Dhanbad, Jharkhand",
+        "total_experience": "",
+        "email": "abhisekghosal419@gmail.com",
+        "phone": "9734292060/6296966678",
+        "date_of_birth": "29/04/1993",
+        "gender": "Male",
+        "address": "Indraprastha, Baburbag. P.O. Rajbati. Dist. Burdwan, West Bengal. PIN 713104",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "B.A. (English)",
+            "specialization": "",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "62.5%"
+        },
+        {
+            "degree": "M.A. (English)",
+            "specialization": "",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "7.18"
+        },
+        {
+            "degree": "M.Phil. (English)",
+            "specialization": "Interface between Crime and Globalization in Select South Asian Fictions",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "79%"
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Critical Interventions into Energopolitics: Blue Humanities and Geocriticism of Minor Writings",
+            "institution": "IIT Kharagpur",
+            "board_university": "",
+            "year": "2022",
+            "cgpa_percentage": "7.18"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "Christ (Deem to be University), BGR Campus, Bengaluru, Karnataka, India",
+            "start_date": "",
+            "end_date": "",
+            "duration": "9 months",
+            "description": "Teaching and research in English literature and postcolonial studies."
+        },
+        {
+            "designation": "Assistant Professor (Regular and Full Time)",
+            "organization": "OP Jindal Global University",
+            "start_date": "",
+            "end_date": "",
+            "duration": "4 months",
+            "description": "Teaching and research in English literature and postcolonial studies."
+        },
+        {
+            "designation": "Faculty",
+            "organization": "IIT (ISM), Dhanbad, Jharkhand",
+            "start_date": "",
+            "end_date": "",
+            "duration": "Present",
+            "description": "Teaching and research in English literature and postcolonial studies."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 32,
+        "conference_publications": 5,
+        "book_publications": 3,
+        "book_chapters": 10,
+        "patents": 0
+    }
+}

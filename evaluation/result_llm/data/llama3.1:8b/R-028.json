@@ -1,0 +1,90 @@
+{
+    "personal_information": {
+        "full_name": "Priya Ranjan Sahoo",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "prsahoo.chem@gmail.com",
+        "phone": "+1 (716) 748-1586",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "Google Scholar ORCiD",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Chemistry",
+            "institution": "University of Delhi",
+            "board_university": "",
+            "year": "Nov. 2018",
+            "cgpa_percentage": "Grade: A"
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Organic Chemistry",
+            "institution": "University of Delhi",
+            "board_university": "",
+            "year": "May. 2013",
+            "cgpa_percentage": "Grade: 1st Class"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Chemistry (Honors)",
+            "institution": "Utkal University",
+            "board_university": "",
+            "year": "May. 2011",
+            "cgpa_percentage": "Grade: 1st Class"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Postdoctoral Associate",
+            "organization": "University at Buffalo",
+            "start_date": "Dec. 2021",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral Fellow",
+            "organization": "Sorbonne Université",
+            "start_date": "Feb. 2021",
+            "end_date": "Nov. 2021",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral Fellow",
+            "organization": "Tohoku University",
+            "start_date": "Jul. 2018",
+            "end_date": "Nov. 2020",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Scientist",
+            "organization": "Jubilant Generics Limited",
+            "start_date": "Apr. 2017",
+            "end_date": "Jul. 2018",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Internship",
+            "organization": "CSIR-IMMT",
+            "start_date": "May. 2012",
+            "end_date": "Jul. 2012",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 25,
+        "conference_publications": 8,
+        "book_publications": 3,
+        "book_chapters": 4,
+        "patents": 0
+    }
+}

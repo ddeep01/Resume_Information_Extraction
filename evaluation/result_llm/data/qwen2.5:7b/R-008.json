@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Aakash Choudhary",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "achoudhary1396@gmail.com",
+        "phone": "(+91) 7838270379",
+        "date_of_birth": "01/03/1996",
+        "gender": "",
+        "address": "Sihani Road Vishwas Nagar, Ghaziabad, UP-201001, India.",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Master of Science",
+            "specialization": "Mathematics and Computing",
+            "institution": "Indian Institute of Technology (IIT) Guwahati, Assam, India",
+            "board_university": "",
+            "year": "July 2016 - June 2018",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Science (Honours)",
+            "specialization": "Mathematics",
+            "institution": "Deshbandhu College, University of Delhi, New Delhi, India",
+            "board_university": "",
+            "year": "July 2013 - May 2016",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Senior Secondary",
+            "specialization": "",
+            "institution": "S.B.N Public School, CBSE Board, Ghaziabad, India",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Secondary School Examination",
+            "specialization": "",
+            "institution": "Aum Sun Public School, CBSE Board, Ghaziabad, India",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Research Scholar (Senior)",
+            "organization": "Department of Mathematics, IIT Delhi",
+            "start_date": "January 2021",
+            "end_date": "March 2024",
+            "duration": "3 years 2 months",
+            "description": ""
+        },
+        {
+            "designation": "Research Scholar (Junior)",
+            "organization": "Department of Mathematics, IIT Delhi",
+            "start_date": "January 2019",
+            "end_date": "December 2020",
+            "duration": "2 years",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Mathematics, Krishna Institute of Engineering and Technology",
+            "start_date": "August 2018",
+            "end_date": "November 2018",
+            "duration": "4 months",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 1,
+        "conference_publications": 3,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

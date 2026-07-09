@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Keyur Patel",
+        "current_designation": "Assistant Professor",
+        "total_experience": "8 years",
+        "email": "pkeyur.436@gmail.com, drkeyur7@gmail.com",
+        "phone": "+919998768219",
+        "date_of_birth": "06/05/1988",
+        "gender": "",
+        "address": "101/Mithila-1, Near-Tata Nagar, Meghaninagar, Ahmedabad, Gujarat-380016",
+        "linkedin": "https://www.linkedin.com/in/dr-keyur-patel-415ba121/",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Electrical and Computer Science",
+            "institution": "Institute of Infrastructure Technology Research and Management (IITRAM)",
+            "board_university": "Gov.of Gujarat",
+            "year": "2016 - 2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Control and Automation(Drone Technology)",
+            "institution": "Department of Electronics Engg, Institute of Technology, Nirma University",
+            "board_university": "",
+            "year": "2012 - 2014",
+            "cgpa_percentage": "7.9/10 (First class with distinction)"
+        },
+        {
+            "degree": "Bachelor of Engineering",
+            "specialization": "Electronics",
+            "institution": "BVM gov. engineering college",
+            "board_university": "",
+            "year": "2005 - 2009",
+            "cgpa_percentage": "64.32%(First class)"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University",
+            "start_date": "22nd Sep 2023",
+            "end_date": "Till Date",
+            "duration": "",
+            "description": "Delivered lectures on the subjects Machine Learning, Speech Information Processing, Digital Systems, Internet of Things, Deep Learning, Basic Networking essentials for Cyber Security to Nepal Police at Rashtriya Raksha University."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Computer Science, Unitedworld School of Computational Intelligence, Karnavati University",
+            "start_date": "20 July 2022",
+            "end_date": "20th Sep 2023",
+            "duration": "1 Year 2 months",
+            "description": "Delivered lectures on the subjects Computer Networks, Industry Elective (Collobrative) and Human Computer Interaction (HCI), Electrical and Electronics for undergraduate computer science students."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Computer Science and Engineering, Institute of Advanced Research",
+            "start_date": "1 June 2020",
+            "end_date": "19 July 2022",
+            "duration": "2 Years 2 months",
+            "description": "Delivered lectures on the subjects Microprocessor and Microcontroller, Computer Network,Computer Architecture, Digital Logic Design, Software Engineering, Signal and System, Embedded System, Basic Electronics for the undergraduate engineering students."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 2,
+        "book_publications": 1,
+        "book_chapters": 1,
+        "patents": 6
+    }
+}

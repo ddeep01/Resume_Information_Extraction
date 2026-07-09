@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dibakar Roy Chowdhury",
+        "current_designation": "Professor",
+        "total_experience": "",
+        "email": "dibakarrc@gmail.com, dibakar.roychowdhury@mahindrauniversity.edu.in",
+        "phone": "0091-765-897-1188 (m), 0091-40-6173-5169 (o)",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Technical University of Darmstadt, Darmstadt, Germany",
+            "institution": "Technical University of Darmstadt",
+            "board_university": "",
+            "year": "2003 - 2008",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M. Tech (Solid state technology)",
+            "specialization": "",
+            "institution": "Indian Institute of Technology, Madras",
+            "board_university": "",
+            "year": "2001-2003",
+            "cgpa_percentage": "8.74/10"
+        },
+        {
+            "degree": "MSc (Physics, specialization in solid state physics)",
+            "specialization": "",
+            "institution": "Rani Durgavati Vishwavidyalaya, Jabalpur, India",
+            "board_university": "",
+            "year": "1998-2000",
+            "cgpa_percentage": "75.75%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Professor",
+            "organization": "Mahindra University, India",
+            "start_date": "October 2018 -",
+            "end_date": "",
+            "duration": "",
+            "description": "Metamaterials, Plasmonics\nTerahertz Spectroscopy\nMicro- Nano- Fabrication"
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "Mahindra Ecole Centrale, India",
+            "start_date": "January 2015 - October 2018",
+            "end_date": "",
+            "duration": "",
+            "description": "Terahertz\nMetamaterials\nPlasmonics,"
+        },
+        {
+            "designation": "Scientist - level B (equivalent to Senior Lecturer)",
+            "organization": "Australian National University, Canberra, Australia",
+            "start_date": "August 2013 - January 2015",
+            "end_date": "",
+            "duration": "",
+            "description": "Plasmonics\nMetamaterials"
+        },
+        {
+            "designation": "Research associate",
+            "organization": "National University of Singapore, Singapore",
+            "start_date": "March 2013 - July, 2013",
+            "end_date": "",
+            "duration": "",
+            "description": "Metamaterials"
+        },
+        {
+            "designation": "Postdoctoral research associate",
+            "organization": "Center of Integrated Nanotechnologies (CINT), Los Alamos National Laboratory, NM, USA",
+            "start_date": "June 2009 - March 2013",
+            "end_date": "",
+            "duration": "",
+            "description": "Active and non-linear metamaterials\nTerahertz Science & Technology\nAbsorbers and Ultrafast phenomena"
+        },
+        {
+            "designation": "Postdoctoral research associate",
+            "organization": "Center for Nanointegration Duisburg-Essen (CeNIDE), University of Duisburg-Essen, Duisburg, Germany",
+            "start_date": "April 2008 - April 2009",
+            "end_date": "",
+            "duration": "",
+            "description": "Synthesis of nanostructures\nElectrical and structural characterization"
+        },
+        {
+            "designation": "Graduate Research Assistant",
+            "organization": "Faculty of Electrical Engineering, Technical University of Darmstadt, Darmstadt, Germany",
+            "start_date": "Aug, 2003 - Mar, 2008",
+            "end_date": "",
+            "duration": "",
+            "description": "Ultrafast electronic devices RTD, Schottky diode etc. for THz frequencies\nFabrication and electrical characterizations of micro- nano- structures"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 4
+    }
+}

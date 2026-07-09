@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Anil Babubhai Hirpara",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "hirparaanil7@gmail.com",
+        "phone": "9427373948",
+        "date_of_birth": "7th Feb 1995.",
+        "gender": "Male",
+        "address": "Chorali moli, Girgadhda, Girsomnath, 362560, Gujarat, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Physics",
+            "institution": "Sardar Patel University",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": "N.A."
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Physics",
+            "institution": "Sardar Patel University",
+            "board_university": "",
+            "year": "2017",
+            "cgpa_percentage": "8.2"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics",
+            "institution": "Veer Narmad South Gujarat University",
+            "board_university": "Navyug Science College, Surat",
+            "year": "2015",
+            "cgpa_percentage": "6.87"
+        },
+        {
+            "degree": "H.S.C",
+            "specialization": "",
+            "institution": "K. K. Parekh & Maheta R P Vidyalay High School, Amreli",
+            "board_university": "GSHSEB",
+            "year": "2012",
+            "cgpa_percentage": "52 %"
+        },
+        {
+            "degree": "S.S.C",
+            "specialization": "",
+            "institution": "Shri Madhyamik shala, Nariyeli-moli",
+            "board_university": "GSEB",
+            "year": "2010",
+            "cgpa_percentage": "73.54 %"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "Indian Institute of Teacher Education, Gandhinagar",
+            "start_date": "",
+            "end_date": "2023-2024",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "",
+            "organization": "",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": "Assisted in M.Sc. Semester (1 & 2) Laboratory courses at Department of Physics, Sardar Patel University, Vallabh Vidyanagar during the year 2019-2020."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 6,
+        "conference_publications": 5,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

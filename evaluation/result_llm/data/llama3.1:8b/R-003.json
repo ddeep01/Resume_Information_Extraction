@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "Anibrata Pal",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "palanibrata@gmail.com/2081041@kiit.ac.in",
+        "phone": "+91 8617042611",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Ambient Height 7, Subodh Park. Bansdroni Kolkata-700070",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=ANIBRATA+PAL #",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD (Pursuing)",
+            "specialization": "Functionally Graded Concrete",
+            "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
+            "board_university": "",
+            "year": "2021",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Structural Engineering",
+            "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "84.30%"
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "",
+            "institution": "Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata",
+            "board_university": "West Bengal University of Technology",
+            "year": "2014",
+            "cgpa_percentage": "70.00%"
+        },
+        {
+            "degree": "10+2 th",
+            "specialization": "",
+            "institution": "Krishnath College School, Berhampore",
+            "board_university": "WBCHSE Board",
+            "year": "2010",
+            "cgpa_percentage": "70.00%"
+        },
+        {
+            "degree": "10th",
+            "specialization": "",
+            "institution": "Krishnath College School, Berhampore",
+            "board_university": "WBBSE Board",
+            "year": "2008",
+            "cgpa_percentage": "78.00%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, Siliguri Institute of Technology, Techno India Group.",
+            "start_date": "17th August 2023",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Regent Education of Research Foundation, MAKAUT University. Kolkata-700121",
+            "start_date": "9th February 2022",
+            "end_date": "16th August 2023",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "College of Engineering Bhubaneswar, BPUT University, Bhubaneswar-751024",
+            "start_date": "March 2021",
+            "end_date": "January 2022",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bengal College of Engineering & Technology Durgapur, MAKAUT University, W.B.",
+            "start_date": "April 2017",
+            "end_date": "March 2021",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bharti College of Engineering & Technology Durg, CSVT University, Chattishgarh",
+            "start_date": "January 2017",
+            "end_date": "April 2017",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh",
+            "start_date": "June 2016",
+            "end_date": "January 2017",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 5,
+        "conference_publications": 3,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "personal_information": {
+        "full_name": "Bhumika Shah",
+        "current_designation": "",
+        "total_experience": "20 years",
+        "email": "drbhumikashah@gmail.com",
+        "phone": "+91 9727797105",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "linkedin.com/in/dr-bhumika-bhatt-shah-b8008419",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "",
+            "institution": "Gujarat University, Department of Computer Science",
+            "board_university": "",
+            "year": "2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "MCA",
+            "specialization": "Computer Science",
+            "institution": "IGNOU (Indira Gandhi National Open University)",
+            "board_university": "",
+            "year": "2007",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Department of Computer Science, Gujarat University, Ahmedabad, Gujarat",
+            "organization": "Gujarat University",
+            "start_date": "August 2011",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Department of Computer Science, IBMR College, Pune, Maharashtra",
+            "organization": "IBMR College",
+            "start_date": "January 2006",
+            "end_date": "March 2011",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 4,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

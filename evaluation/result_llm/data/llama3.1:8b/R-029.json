@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Priyanka Sharma",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "sharmaps94@yahoo.in, ps3668047@gmail.com",
+        "phone": "+91-7814440618",
+        "date_of_birth": "4 Sept, 1994",
+        "gender": "",
+        "address": "Ludhiana, Punjab-141014",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?user=4c8wRBwAAAAJ&hl=en",
+        "researchgate": "https://www.researchgate.net/profile/Priyanka-Sharma-70"
+    },
+    "education": [
+        {
+            "degree": "PhD (Physics and Materials Science)",
+            "specialization": "",
+            "institution": "Jaypee University of Information Technology, Solan, H.P.",
+            "board_university": "Punjab University, Chandigarh",
+            "year": "2024",
+            "cgpa_percentage": "96.0%"
+        },
+        {
+            "degree": "M.Sc. (Physics)",
+            "specialization": "",
+            "institution": "Guru Nanak Girls college, Ludhiana",
+            "board_university": "Punjab University, Chandigarh",
+            "year": "2018",
+            "cgpa_percentage": "78.9%"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Physics, Chemistry, Mathematics",
+            "institution": "Govt. College for Girls, Ludhiana",
+            "board_university": "Punjab University, Chandigarh",
+            "year": "2016",
+            "cgpa_percentage": "77.3%"
+        },
+        {
+            "degree": "Senior Secondary (12th)",
+            "specialization": "",
+            "institution": "Indian Public Sen. Sec. School, Ludhiana",
+            "board_university": "Punjab School Education Board, Mohali (PSEB), Punjab",
+            "year": "2013",
+            "cgpa_percentage": "91.1%"
+        },
+        {
+            "degree": "Matric (10th)",
+            "specialization": "",
+            "institution": "Indian Public Sen. Sec. School, Ludhiana",
+            "board_university": "Punjab School Education Board, Mohali (PSEB), Punjab",
+            "year": "2011",
+            "cgpa_percentage": "88.08%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "Jaypee University of Information Technology, Solan, H.P.",
+            "start_date": "July 2018",
+            "end_date": "May 2023",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 1,
+        "book_publications": 0,
+        "book_chapters": 1,
+        "patents": 0
+    }
+}

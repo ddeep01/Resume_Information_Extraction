@@ -1,0 +1,58 @@
+{
+    "personal_information": {
+        "full_name": "Rakesh Ranjan",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "rakeshranjan2911@gmail.com",
+        "phone": "+91-8287526006",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Indian Institute of Technology (IIT), Dhanbad, India, 826004",
+        "linkedin": "ï LinkedIn",
+        "google_scholar": " Google Scholar",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy (Ph.D)",
+            "specialization": "Communication and Signal Processing",
+            "institution": "Indian Institute of Technology (IIT), Dhanbad, India, 826004",
+            "board_university": "",
+            "year": "2019 - 2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Technology (M.Tech.)",
+            "specialization": "Communication and Signal Processing",
+            "institution": "Indian Institute of Technology (IIT), Dhanbad, India, 826004",
+            "board_university": "",
+            "year": "2017 - 2019",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+            "specialization": "",
+            "institution": "The University of Burdwan - Burdwan, West Bengal, India, 713104",
+            "board_university": "",
+            "year": "2009 - 2013",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 1,
+        "conference_publications": 2,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Rakesh Bhatnagar",
+        "current_designation": "Associate Professor",
+        "total_experience": "",
+        "email": "bhatnagar.contact@gmail.com, rakesh.bhatnagar@ksv.ac.in",
+        "phone": "(M) 8320965296, 9898198203",
+        "date_of_birth": "August 28, 1979",
+        "gender": "",
+        "address": "262/1, Vasanti Palace, Sector 29, Gandhinagar - 382030 (Gujarat)",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctorate",
+            "specialization": "Ph.D. (Computer Science)",
+            "institution": "Hemchandracharya North Gujarat University",
+            "board_university": "",
+            "year": "2017",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Post Graduation",
+            "specialization": "M.Tech.(CS)",
+            "institution": "Rajasthan Vidyapeeth University",
+            "board_university": "",
+            "year": "2006",
+            "cgpa_percentage": "First Class"
+        },
+        {
+            "degree": "Post Graduation",
+            "specialization": "M.C.A.",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "2002",
+            "cgpa_percentage": "First Class"
+        },
+        {
+            "degree": "Graduation",
+            "specialization": "B.Sc with Electronics",
+            "institution": "Gujarat University",
+            "board_university": "",
+            "year": "1999",
+            "cgpa_percentage": "Gold Medalist, First Class"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "S. K. Patel Institute of Management and Computer Studies, Gandhinagar",
+            "start_date": "2021",
+            "end_date": "",
+            "duration": "",
+            "description": "Coordination of Exams (Internal and External), Teaching subjects like Artificial Intelligence, Cloud Infrastructure & Services & Wireless Sensor Networks to students"
+        },
+        {
+            "designation": "Assistant Professor & Coordinator",
+            "organization": "S. K. Patel Institute of Computer Studies, Gandhinagar",
+            "start_date": "July 12, 2008",
+            "end_date": "Dec 31, 2020",
+            "duration": "",
+            "description": "Coordination of the MCA Department, Facilitator to the students, Teaching subjects like Cloud Infrastructure & Services, Wireless Sensor Networks, etc. to students"
+        },
+        {
+            "designation": "Coordinator (PGDCA) - Additional Charge",
+            "organization": "B. P. College of Computer Studies, Gandhinagar",
+            "start_date": "August 20, 2007",
+            "end_date": "July 12, 2008",
+            "duration": "",
+            "description": "Coordination of the PGDCA Department, Taught various Subjects to PGDCA students."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "S. K. Patel Institute of Management and Computer Studies, Gandhinagar",
+            "start_date": "January 1, 2006",
+            "end_date": "July 12, 2008",
+            "duration": "",
+            "description": "Taught various Subjects to MCA students."
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "Shree Swaminarayan Institute of Technology, Gnagar",
+            "start_date": "September 17, 2003",
+            "end_date": "December 31, 2005",
+            "duration": "",
+            "description": "Taught various Subjects to MCA students."
+        },
+        {
+            "designation": "System Administrator cum Computer Faculty",
+            "organization": "Jawahar Navodaya Vidyalaya, Gandhinagar",
+            "start_date": "April 1, 2003",
+            "end_date": "September 15, 2003",
+            "duration": "",
+            "description": "Teaching Computer Subjects and Computerization of Academic activities and Office activities."
+        },
+        {
+            "designation": "Database Administrator",
+            "organization": "CMC Limited, Ahmedabad",
+            "start_date": "October 21, 2002",
+            "end_date": "March 31, 2003",
+            "duration": "",
+            "description": "Administering and managing Database consisting of more than 40 Lac Records."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 6,
+        "conference_publications": 0,
+        "book_publications": 2,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

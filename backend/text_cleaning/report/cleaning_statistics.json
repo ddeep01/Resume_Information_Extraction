@@ -2,13 +2,13 @@
     "documents": 40,
     "successful": 40,
     "failed": 0,
-    "original_characters": 616393,
-    "cleaned_characters": 594715,
-    "compression_ratio": 0.9648,
+    "original_characters": 616340,
+    "cleaned_characters": 594717,
+    "compression_ratio": 0.9649,
     "unicode_replacements": 2858,
     "hyphen_fixes": 246,
     "control_characters_removed": 0,
     "bullet_normalized": 0,
-    "spaces_removed": 10426,
+    "spaces_removed": 10371,
     "blank_lines_removed": 358
 }

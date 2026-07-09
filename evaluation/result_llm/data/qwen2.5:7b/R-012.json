@@ -1,0 +1,122 @@
+{
+    "personal_information": {
+        "full_name": "Arghya Maity",
+        "current_designation": "Postdoctoral Researcher",
+        "total_experience": "",
+        "email": "arghyamaity@hri.res.in, arghyamaityphysics@gmail.com",
+        "phone": "+91 7732899577 / +91 0532 227 4421",
+        "date_of_birth": "04 May, 1989",
+        "gender": "Male",
+        "address": "Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group, Allahabad 211 019, India",
+        "linkedin": "",
+        "google_scholar": "Google Scholar",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Postdoc.",
+            "specialization": "Quantum Information Theory",
+            "institution": "Harish-Chandra Research Institute (HRI), QIC Group",
+            "board_university": "",
+            "year": "2021-至今",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Theoretical Physics, Soft Condensed Matter",
+            "institution": "BITS-Pilani",
+            "board_university": "",
+            "year": "2014-2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Physics",
+            "institution": "Sambalpur University",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.Sc. (Hons.)",
+            "specialization": "Physics, Mathematics (General), Chemistry (General)",
+            "institution": "Vidyasagar University",
+            "board_university": "",
+            "year": "2010",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "10th",
+            "specialization": "Pure Science",
+            "institution": "W.B.B.S.E.",
+            "board_university": "",
+            "year": "2004",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Research Associate",
+            "organization": "QuEST - Quantum-Enabled Science & Technology, project",
+            "start_date": "2021-05-08",
+            "end_date": "2023-10-04",
+            "duration": "2 years 6 months",
+            "description": "Sponsored by The Department of Science & Technology (DST), INDIA."
+        },
+        {
+            "designation": "Guest Researcher",
+            "organization": "Department of Physics, Free University of Berlin, Germany",
+            "start_date": "2018-04-01",
+            "end_date": "",
+            "duration": "4 years",
+            "description": ""
+        },
+        {
+            "designation": "Project Fellow (JRF and SRF)",
+            "organization": "Department of Science & Technology (DST), INDIA, at BITS-Pilani",
+            "start_date": "2014-07-01",
+            "end_date": "",
+            "duration": "6 years",
+            "description": ""
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "NPTEL (National Programme on Technology Enhanced Learning), IITs and IISC, India",
+            "start_date": "2021-07-01",
+            "end_date": "",
+            "duration": "至今",
+            "description": ""
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "IIT-Bombay, with Prof. Ranjith Padinhateeri",
+            "start_date": "2021-07-01",
+            "end_date": "",
+            "duration": "至今",
+            "description": ""
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "BITS-Pilani, Pilani Campus, Department of Physics",
+            "start_date": "2014-07-01",
+            "end_date": "2019-06-30",
+            "duration": "5 years",
+            "description": ""
+        },
+        {
+            "designation": "Guest Lecturer",
+            "organization": "VSSUT (Veer Surendra Sai University of Technology), Sambalpur, Burla, Odisha, India",
+            "start_date": "2013-07-01",
+            "end_date": "2013-11-30",
+            "duration": "5 months",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 8,
+        "conference_publications": 4,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}
