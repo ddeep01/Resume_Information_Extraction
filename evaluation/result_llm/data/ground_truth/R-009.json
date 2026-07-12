@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Anurag Choudhary",
+        "current_designation": "Post-doctoral Fellow",
+        "total_experience": "",
+        "email": "anurag@hku.hk, anurag.choudhary087@gmail.com",
+        "phone": "+852-44651646 (Hong Kong), +91-8534066345 (India)",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy (PhD)",
+            "specialization": "Development of Fault Diagnostic Strategies for Electric Vehicle Motor",
+            "institution": "Indian Institute of Technology Delhi",
+            "board_university": "",
+            "year": "2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Engineering",
+            "specialization": "Instrumentation and Control",
+            "institution": "NITTTR Chandigarh",
+            "board_university": "",
+            "year": "2018",
+            "cgpa_percentage": "7.4"
+        },
+        {
+            "degree": "Bachelor of Technology",
+            "specialization": "Electrical and Electronics Engineering",
+            "institution": "Uttarakhand Technical University",
+            "board_university": "",
+            "year": "2015",
+            "cgpa_percentage": "66.67%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Post-doctoral Fellow",
+            "organization": "University of Hong Kong",
+            "start_date": "September 2024",
+            "end_date": "Present",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Junior Research Fellow",
+            "organization": "Centre for Automotive Research and Tribology, IIT Delhi",
+            "start_date": "February 2020",
+            "end_date": "August 2020",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Project Assistant III",
+            "organization": "CSIR-Central Scientific Instruments Organisation",
+            "start_date": "September 2018",
+            "end_date": "February 2020",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "College of Engineering Roorkee (COER)",
+            "start_date": "June 2015",
+            "end_date": "July 2016",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 23,
+        "conference_publications": 15,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 2
+    }
+}
