@@ -1,0 +1,49 @@
+{
+    "personal_information": {
+        "full_name": "Rakesh Ranjan",
+        "current_designation": "Graduate Student Member, IEEE",
+        "total_experience": "",
+        "email": "rakeshranjan2911@gmail.com",
+        "phone": "+91-8287526006",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Indian Institute of Technology (IIT), Dhanbad, India, 826004",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Doctor of Philosophy (Ph.D.",
+            "specialization": "Communication and Signal Processing",
+            "institution": "Indian Institute of Technology (IIT), Dhanbad",
+            "board_university": "",
+            "year": "2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Technology (M.Tech.)",
+            "specialization": "Communication and Signal Processing",
+            "institution": "Indian Institute of Technology (IIT), Dhanbad",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Bachelor of Technology",
+            "specialization": "Electronics and Communication Engineering",
+            "institution": "The University of Burdwan",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [],
+    "publication_summary": {
+        "journal_publications": 3,
+        "conference_publications": 1,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

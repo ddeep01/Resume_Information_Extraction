@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Nitiraj Shete",
+        "current_designation": "Biostatistician",
+        "total_experience": "12+ years",
+        "email": "nit.shete@gmail.com / nit_eins@yahoo.com",
+        "phone": "+91 8000717702 / 7778005706",
+        "date_of_birth": "Dec. 7, 1987",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "M.Sc.",
+            "specialization": "Statistics",
+            "institution": "Sardar Patel University",
+            "board_university": "",
+            "year": "2010",
+            "cgpa_percentage": "62.69%"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Statistics",
+            "institution": "Shivaji University",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "62%"
+        },
+        {
+            "degree": "12th",
+            "specialization": "Science",
+            "institution": "",
+            "board_university": "Maharashtra Board",
+            "year": "2005",
+            "cgpa_percentage": "63.33%"
+        },
+        {
+            "degree": "10th",
+            "specialization": "",
+            "institution": "",
+            "board_university": "Maharashtra Board",
+            "year": "2003",
+            "cgpa_percentage": "68.26%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Biostatistician",
+            "organization": "Muljibhai Patel Urological Hospital (MPUH), Nadiad, Gujarat",
+            "start_date": "11 December 2019",
+            "end_date": "Present",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor (Adhoc)",
+            "organization": "Sardar Patel University",
+            "start_date": "August 2011",
+            "end_date": "December 2019",
+            "duration": "8 years 3 months",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 13,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

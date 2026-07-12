@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Sampurna Sengupta",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "sampurna2492@gmail.com",
+        "phone": "+91 9540734746",
+        "date_of_birth": "02/04/1992",
+        "gender": "Female",
+        "address": "Kolkata, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Mathematics",
+            "specialization": "Mathematical Modeling",
+            "institution": "Indian Institute of Engineering Science and Technology (IIEST), Shibpur",
+            "board_university": "",
+            "year": "2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Science in Applied Mathematics",
+            "specialization": "Applied Mathematics",
+            "institution": "South Asian University, New Delhi",
+            "board_university": "",
+            "year": "2015",
+            "cgpa_percentage": "89.44%"
+        },
+        {
+            "degree": "Bachelor of Science (Honours)",
+            "specialization": "Mathematics",
+            "institution": "",
+            "board_university": "University of Calcutta",
+            "year": "2013",
+            "cgpa_percentage": "56.5%"
+        },
+        {
+            "degree": "Higher Secondary (12th)",
+            "specialization": "",
+            "institution": "",
+            "board_university": "West Bengal Council of Higher Secondary Education",
+            "year": "2009",
+            "cgpa_percentage": "74.17%"
+        },
+        {
+            "degree": "Secondary (10th)",
+            "specialization": "",
+            "institution": "",
+            "board_university": "West Bengal Board of Secondary Education",
+            "year": "2007",
+            "cgpa_percentage": "76%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bharati Vidyapeeth Deemed University, Department of Engineering and Technology",
+            "start_date": "January 2023",
+            "end_date": "Present",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Kalasalingam Academy of Research and Education",
+            "start_date": "July 2021",
+            "end_date": "December 2021",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 1,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}
