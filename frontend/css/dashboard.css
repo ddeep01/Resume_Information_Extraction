@@ -1,0 +1,103 @@
+/* ===============================
+        DASHBOARD STATS
+================================ */
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    margin-top:20px;
+
+}
+
+.metric-card{
+
+    background:var(--surface2);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:22px;
+
+    transition:.25s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-5px);
+
+    border-color:var(--primary);
+
+}
+
+.metric-icon{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#2563eb,#6366f1);
+
+    color:white;
+
+    font-size:22px;
+
+    margin-bottom:18px;
+
+}
+
+.metric-title{
+
+    color:var(--muted);
+
+    font-size:15px;
+
+    margin-bottom:8px;
+
+}
+
+.metric-value{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+@media(max-width:1200px){
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

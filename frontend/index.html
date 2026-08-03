@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Faculty Resume Intelligence</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="topbar glass">
+
+        <div class="topbar__title">
+
+            <h1>Faculty Resume Intelligence System</h1>
+
+            <p>
+                AI Powered Faculty Resume Visualization Dashboard
+            </p>
+
+        </div>
+
+        <div class="topbar__actions">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-search"></i>
+
+                <input
+                        id="search-input"
+                        type="text"
+                        placeholder="Search faculty...">
+
+            </div>
+
+            <button class="icon-btn" id="theme-toggle">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+            <button class="icon-btn">
+
+                <i class="fa-solid fa-rotate-right"></i>
+
+            </button>
+
+            <button class="icon-btn">
+
+                <i class="fa-solid fa-gear"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- ================= FILTER + STATS ================= -->
+
+    <section class="dashboard-row">
+
+        <!-- FILTER PANEL -->
+
+        <aside class="filter-card glass">
+
+            <div class="panel-title">
+
+                <i class="fa-solid fa-filter"></i>
+
+                <h2>Filters</h2>
+
+            </div>
+
+            <div class="filter-panel">
+
+                <label>Degree</label>
+                <select id="filter-degree"></select>
+
+                <label>Institute Type</label>
+                <select id="filter-institute"></select>
+
+                <label>Designation</label>
+                <select id="filter-designation"></select>
+
+                <label>Experience</label>
+                <select id="filter-experience"></select>
+
+                <label class="checkbox-row">
+                    <input type="checkbox"
+                           id="filter-journal">
+                    Journal Publications
+                </label>
+
+                <label class="checkbox-row">
+                    <input type="checkbox"
+                           id="filter-conference">
+                    Conference Publications
+                </label>
+
+                <label class="checkbox-row">
+                    <input type="checkbox"
+                           id="filter-patent">
+                    Patents
+                </label>
+
+                <div class="filter-actions">
+
+                    <button
+                            class="btn btn-primary"
+                            id="apply-filters">
+
+                        Apply Filters
+
+                    </button>
+
+                    <button
+                            class="btn btn-secondary"
+                            id="clear-filters">
+
+                        Clear Filters
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+        <!-- STATS -->
+
+        <section class="stats-panel">
+
+            <div class="panel-title">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <h2>Dashboard Overview</h2>
+
+            </div>
+
+            <div
+                    class="stats-grid"
+                    id="stats-grid">
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <!-- ================= FACULTY DIRECTORY ================= -->
+
+    <section class="directory-section glass">
+
+        <div class="directory-header">
+
+            <div>
+
+                <h2>Faculty Directory</h2>
+
+                <p>
+
+                    Browse all extracted faculty profiles
+
+                </p>
+
+            </div>
+
+            <div
+                    id="results-count"
+                    class="section-badge">
+
+                0 Results
+
+            </div>
+
+        </div>
+
+        <div
+                class="faculty-grid"
+                id="faculty-grid">
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="js/loader.js"></script>
+<script src="js/app.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/search.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/utils.js"></script>
+
+</body>
+</html>

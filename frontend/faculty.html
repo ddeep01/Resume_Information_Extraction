@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Faculty Profile</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/dashboard.css">
+
+    <link rel="stylesheet"
+          href="css/faculty.css">
+
+</head>
+
+<body>
+
+<div class="profile-wrapper">
+
+<!-- ========================================================= -->
+<!-- HEADER -->
+<!-- ========================================================= -->
+
+<header class="profile-header">
+
+    <div class="header-left">
+
+        <button class="back-btn"
+                onclick="window.location.href='index.html'">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            <span>Dashboard</span>
+
+        </button>
+
+    </div>
+
+    <div class="header-center">
+
+        <h1>
+
+            Faculty Profile
+
+        </h1>
+
+        <p>
+
+            LLM Extracted Faculty Information
+
+        </p>
+
+    </div>
+
+    <div class="header-right">
+
+        <button
+            id="resumeBtn"
+            class="btn primary-btn">
+
+            <i class="fa-solid fa-file-pdf"></i>
+
+            <span>
+
+                Original Resume
+
+            </span>
+
+        </button>
+
+        <button
+            id="jsonBtn"
+            class="btn secondary-btn">
+
+            <i class="fa-solid fa-code"></i>
+
+            <span>
+
+                JSON
+
+            </span>
+
+        </button>
+
+        <button
+            id="downloadBtn"
+            class="btn secondary-btn">
+
+            <i class="fa-solid fa-download"></i>
+
+            <span>
+
+                Download
+
+            </span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- ========================================================= -->
+<!-- HERO -->
+<!-- ========================================================= -->
+
+<section class="hero-card">
+
+    <div class="hero-left">
+
+        <div
+            id="avatar"
+            class="avatar">
+
+            DP
+
+        </div>
+
+        <div class="hero-details">
+
+            <div class="hero-name-row">
+
+                <h1 id="facultyName">
+
+                    Faculty Name
+
+                </h1>
+
+                <span
+                    id="degreeBadge"
+                    class="degree-badge">
+
+                    Ph.D.
+
+                </span>
+
+            </div>
+
+            <div
+                id="designation"
+                class="designation">
+
+                Assistant Professor
+
+            </div>
+
+            <div
+                id="university"
+                class="university">
+
+                <i class="fa-solid fa-building-columns"></i>
+
+                University Name
+
+            </div>
+
+            <div class="contact-row">
+
+                <div
+                    id="email"
+                    class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    faculty@email.com
+
+                </div>
+
+                <div
+                    id="phone"
+                    class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    +91 9876543210
+
+                </div>
+
+                <div
+                    id="location"
+                    class="contact-item">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    India
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <div class="profile-status-card">
+
+            <div class="status-title">
+
+                Academic Profile
+
+            </div>
+
+            <div
+                id="profileCompletion"
+                class="status-score">
+
+                100%
+
+            </div>
+
+            <div class="status-subtitle">
+
+                Information Successfully Extracted
+
+            </div>
+
+            <div class="status-divider"></div>
+
+            <div class="status-items">
+
+                <div class="status-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Personal Information
+
+                </div>
+
+                <div class="status-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Education
+
+                </div>
+
+                <div class="status-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Experience
+
+                </div>
+
+                <div class="status-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Publications
+
+                </div>
+
+                <div class="status-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Skills
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- NEXT PART STARTS HERE -->
+<!-- Statistics Cards -->
+<!-- ========================================================= -->
+ <!-- ========================================================= -->
+<!-- PROFILE STATISTICS -->
+<!-- ========================================================= -->
+
+<section class="stats-section">
+
+    <div class="stat-card">
+
+        <div class="stat-icon">
+            <i class="fa-solid fa-business-time"></i>
+        </div>
+
+        <div
+            id="experienceYears"
+            class="stat-value">
+
+            0
+
+        </div>
+
+        <div class="stat-title">
+
+            Experience
+
+        </div>
+
+    </div>
+
+
+
+    <div class="stat-card">
+
+        <div class="stat-icon">
+            <i class="fa-solid fa-book"></i>
+        </div>
+
+        <div
+            id="journalCount"
+            class="stat-value">
+
+            0
+
+        </div>
+
+        <div class="stat-title">
+
+            Journal Papers
+
+        </div>
+
+    </div>
+
+
+
+    <div class="stat-card">
+
+        <div class="stat-icon">
+            <i class="fa-solid fa-file-lines"></i>
+        </div>
+
+        <div
+            id="conferenceCount"
+            class="stat-value">
+
+            0
+
+        </div>
+
+        <div class="stat-title">
+
+            Conference Papers
+
+        </div>
+
+    </div>
+
+
+
+    <div class="stat-card">
+
+        <div class="stat-icon">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+
+        <div
+            id="patentCount"
+            class="stat-value">
+
+            0
+
+        </div>
+
+        <div class="stat-title">
+
+            Patents
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- TABS -->
+<!-- ========================================================= -->
+
+<nav class="profile-tabs">
+
+    <button
+        class="tab-btn active"
+        data-tab="overview">
+
+        <i class="fa-solid fa-house"></i>
+
+        <span>Overview</span>
+
+    </button>
+
+    <button
+        class="tab-btn"
+        data-tab="education">
+
+        <i class="fa-solid fa-graduation-cap"></i>
+
+        <span>Education</span>
+
+    </button>
+
+    <button
+        class="tab-btn"
+        data-tab="experience">
+
+        <i class="fa-solid fa-briefcase"></i>
+
+        <span>Experience</span>
+
+    </button>
+
+    <button
+        class="tab-btn"
+        data-tab="research">
+
+        <i class="fa-solid fa-book-open"></i>
+
+        <span>Research</span>
+
+    </button>
+
+    <button
+        class="tab-btn"
+        data-tab="skills">
+
+        <i class="fa-solid fa-lightbulb"></i>
+
+        <span>Skills</span>
+
+    </button>
+
+</nav>
+
+
+
+<!-- ========================================================= -->
+<!-- MAIN CONTENT -->
+<!-- ========================================================= -->
+
+<main class="tab-content">
+
+<!-- ========================================================= -->
+<!-- OVERVIEW -->
+<!-- ========================================================= -->
+
+<section
+    id="overview"
+    class="tab-panel active">
+
+    <div class="overview-grid">
+
+        <!-- AI SUMMARY -->
+
+        <div class="content-card">
+
+            <div class="card-header">
+
+                <i class="fa-solid fa-robot"></i>
+
+                <h2>
+
+                    AI Summary
+
+                </h2>
+
+            </div>
+
+            <div
+                id="aiSummary"
+                class="summary-box">
+
+                AI Generated Summary
+
+            </div>
+
+        </div>
+
+
+
+        <!-- QUICK INFO -->
+
+        <div class="content-card">
+
+            <div class="card-header">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+                <h2>
+
+                    Quick Information
+
+                </h2>
+
+            </div>
+
+            <div class="info-grid">
+
+                <div class="info-item">
+
+                    <label>
+
+                        Highest Degree
+
+                    </label>
+
+                    <span id="highestDegree">
+
+                        -
+
+                    </span>
+
+                </div>
+
+                <div class="info-item">
+
+                    <label>
+
+                        Current Position
+
+                    </label>
+
+                    <span id="currentPosition">
+
+                        -
+
+                    </span>
+
+                </div>
+
+                <div class="info-item">
+
+                    <label>
+
+                        Current Institute
+
+                    </label>
+
+                    <span id="currentInstitute">
+
+                        -
+
+                    </span>
+
+                </div>
+
+                <div class="info-item">
+
+                    <label>
+
+                        Experience
+
+                    </label>
+
+                    <span id="experienceText">
+
+                        -
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- NEXT PART -->
+<!-- Education -->
+<!-- Experience -->
+<!-- Research -->
+<!-- Skills -->
+<!-- ========================================================= -->
+ <!-- ========================================================= -->
+<!-- EDUCATION -->
+<!-- ========================================================= -->
+
+<section
+    id="education"
+    class="tab-panel">
+
+    <div class="content-card">
+
+        <div class="card-header">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h2>
+
+                Education Timeline
+
+            </h2>
+
+        </div>
+
+        <div
+            id="educationTimeline"
+            class="timeline">
+
+            <!-- Filled dynamically by faculty.js -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- EXPERIENCE -->
+<!-- ========================================================= -->
+
+<section
+    id="experience"
+    class="tab-panel">
+
+    <div class="content-card">
+
+        <div class="card-header">
+
+            <i class="fa-solid fa-briefcase"></i>
+
+            <h2>
+
+                Professional Experience
+
+            </h2>
+
+        </div>
+
+        <div
+            id="experienceTimeline"
+            class="timeline">
+
+            <!-- Filled dynamically by faculty.js -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- RESEARCH -->
+<!-- ========================================================= -->
+
+<section
+    id="research"
+    class="tab-panel">
+
+    <div class="research-grid">
+
+        <div class="research-card">
+
+            <i class="fa-solid fa-book"></i>
+
+            <div
+                id="journalPublications"
+                class="research-number">
+
+                0
+
+            </div>
+
+            <div class="research-title">
+
+                Journal Publications
+
+            </div>
+
+        </div>
+
+
+
+        <div class="research-card">
+
+            <i class="fa-solid fa-file-lines"></i>
+
+            <div
+                id="conferencePublications"
+                class="research-number">
+
+                0
+
+            </div>
+
+            <div class="research-title">
+
+                Conference Papers
+
+            </div>
+
+        </div>
+
+
+
+        <div class="research-card">
+
+            <i class="fa-solid fa-lightbulb"></i>
+
+            <div
+                id="patentPublications"
+                class="research-number">
+
+                0
+
+            </div>
+
+            <div class="research-title">
+
+                Patents
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="content-card mt-30">
+
+        <div class="card-header">
+
+            <i class="fa-solid fa-chart-column"></i>
+
+            <h2>
+
+                Research Highlights
+
+            </h2>
+
+        </div>
+
+        <div
+            id="researchSummary"
+            class="summary-box">
+
+            Research statistics and highlights will appear here.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- SKILLS -->
+<!-- ========================================================= -->
+
+<section
+    id="skills"
+    class="tab-panel">
+
+    <div class="content-card">
+
+        <div class="card-header">
+
+            <i class="fa-solid fa-lightbulb"></i>
+
+            <h2>
+
+                Technical Skills
+
+            </h2>
+
+        </div>
+
+        <div
+            id="skillsContainer"
+            class="skills-container">
+
+            <!-- Skill badges generated by faculty.js -->
+
+        </div>
+
+    </div>
+
+
+
+    <div class="content-card mt-30">
+
+        <div class="card-header">
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <h2>
+
+                Expertise Areas
+
+            </h2>
+
+        </div>
+
+        <div
+            id="expertiseContainer"
+            class="skills-container">
+
+            <!-- Optional expertise badges -->
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- ========================================================= -->
+<!-- JSON MODAL -->
+<!-- ========================================================= -->
+
+<div
+    id="jsonModal"
+    class="modal">
+
+    <div class="modal-container">
+
+        <div class="modal-header">
+
+            <h2>
+
+                <i class="fa-solid fa-code"></i>
+
+                Extracted JSON
+
+            </h2>
+
+            <button
+                id="closeModal"
+                class="close-btn">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <pre
+                id="jsonViewer">
+
+Loading...
+
+            </pre>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- LOADING SCREEN -->
+<!-- ========================================================= -->
+
+<div
+    id="loadingScreen"
+    class="loading-screen">
+
+    <div class="loading-card">
+
+        <div class="spinner"></div>
+
+        <h2>
+
+            Loading Faculty Profile
+
+        </h2>
+
+        <p>
+
+            Preparing extracted information...
+
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- TOAST -->
+<!-- ========================================================= -->
+
+<div
+    id="toast"
+    class="toast">
+
+    <i class="fa-solid fa-circle-check"></i>
+
+    <span
+        id="toastMessage">
+
+        Success
+
+    </span>
+
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- FOOTER -->
+<!-- ========================================================= -->
+
+<footer class="profile-footer">
+
+    <div class="footer-left">
+
+        <div class="footer-title">
+
+            Faculty Profile Dashboard
+
+        </div>
+
+        <div class="footer-subtitle">
+
+            LLM Based Resume Information Extraction System
+
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <div>
+
+            <i class="fa-solid fa-brain"></i>
+
+            Powered by Qwen 2.5
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================================================= -->
+
+<script src="js/faculty.js"></script>
+
+</body>
+
+</html>

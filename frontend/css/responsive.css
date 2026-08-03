@@ -1,0 +1,239 @@
+/* ===========================================================
+                    LARGE SCREENS
+=========================================================== */
+
+@media (max-width: 1500px){
+
+.stats-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+.faculty-grid{
+
+grid-template-columns:repeat(3,minmax(0,1fr));
+
+}
+
+}
+
+
+/* ===========================================================
+                    LAPTOP
+=========================================================== */
+
+@media (max-width:1200px){
+
+.dashboard-row{
+
+grid-template-columns:280px 1fr;
+
+}
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.faculty-grid{
+
+grid-template-columns:repeat(2,minmax(0,1fr));
+
+}
+
+.search-box{
+
+width:260px;
+
+}
+
+}
+
+
+/* ===========================================================
+                    TABLET
+=========================================================== */
+
+@media (max-width:992px){
+
+.main-container{
+
+width:96%;
+
+padding:15px;
+
+}
+
+.topbar{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:20px;
+
+}
+
+.topbar__actions{
+
+width:100%;
+
+justify-content:space-between;
+
+flex-wrap:wrap;
+
+}
+
+.search-box{
+
+width:100%;
+
+}
+
+.dashboard-row{
+
+grid-template-columns:1fr;
+
+}
+
+.filter-card{
+
+order:1;
+
+}
+
+.stats-panel{
+
+order:2;
+
+}
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.faculty-grid{
+
+grid-template-columns:repeat(2,minmax(0,1fr));
+
+}
+
+.directory-header{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:12px;
+
+}
+
+}
+
+
+/* ===========================================================
+                    MOBILE
+=========================================================== */
+
+@media (max-width:768px){
+
+.topbar{
+
+padding:18px;
+
+}
+
+.topbar__title h1{
+
+font-size:24px;
+
+}
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.faculty-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.filter-actions{
+
+flex-direction:column;
+
+}
+
+.btn{
+
+width:100%;
+
+}
+
+.directory-section{
+
+padding:18px;
+
+}
+
+}
+
+
+/* ===========================================================
+                    SMALL MOBILE
+=========================================================== */
+
+@media (max-width:480px){
+
+.main-container{
+
+padding:10px;
+
+}
+
+.search-box{
+
+padding:10px 14px;
+
+}
+
+.icon-btn{
+
+width:42px;
+
+height:42px;
+
+}
+
+.panel-title h2{
+
+font-size:20px;
+
+}
+
+.directory-header h2{
+
+font-size:22px;
+
+}
+
+.faculty-card{
+
+padding:18px;
+
+}
+
+.info-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
