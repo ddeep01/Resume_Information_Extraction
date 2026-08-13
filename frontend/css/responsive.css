@@ -12,17 +12,13 @@
 
 @media (max-width: 1200px) {
   .app-wrapper {
-    grid-template-columns: 200px minmax(0, 1fr);
+    grid-template-columns: 270px minmax(0, 1fr);
     gap: 16px;
     padding: 16px 12px;
   }
 
   .portal-brand__text h1 {
-    font-size: 15px;
-  }
-
-  .search-global {
-    width: 180px;
+    font-size: 16px;
   }
 
   .analytics-grid {
@@ -38,30 +34,28 @@
 
   .sidebar {
     position: static;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 14px;
     width: 100%;
   }
 
-  .sidebar-heading {
-    display: none;
+  .filter-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
 
-  .sidebar-menu {
+  .checkbox-group {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 16px;
+  }
+
+  .filter-actions {
+    flex-direction: row;
   }
 
   .portal-header__inner {
     padding: 0 14px;
     gap: 12px;
-  }
-
-  .search-global {
-    width: 160px;
   }
 
   .page-header-banner {
@@ -74,10 +68,10 @@
 @media (max-width: 768px) {
   .portal-header__inner {
     height: auto;
-    padding: 10px 14px;
+    padding: 12px 14px;
     flex-direction: column;
-    gap: 10px;
-    align-items: stretch;
+    gap: 12px;
+    align-items: center;
   }
 
   .portal-brand {
@@ -87,14 +81,6 @@
   .portal-nav {
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .portal-header__actions {
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .search-global {
     width: 100%;
   }
 
@@ -109,6 +95,10 @@
   .faculty-grid {
     grid-template-columns: 1fr;
   }
+
+  .filter-actions {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px) {
@@ -118,10 +108,6 @@
 
   .stats-grid {
     grid-template-columns: 1fr;
-  }
-
-  .user-profile-badge__info {
-    display: none;
   }
 
   .filter-card {

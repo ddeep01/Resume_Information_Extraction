@@ -1,6 +1,6 @@
 (function () {
   const app = {
-    viewMode: "table", // 'table' or 'grid'
+    viewMode: "grid", // 'grid' (default) or 'table'
 
     init() {
       window.addEventListener("candidates:loaded", (event) => {
@@ -52,9 +52,6 @@
           if (!targetTab) return;
 
           document.querySelectorAll(".portal-nav__item").forEach((b) => {
-            b.classList.toggle("active", b.getAttribute("data-tab") === targetTab);
-          });
-          document.querySelectorAll(".sidebar-menu__link").forEach((b) => {
             b.classList.toggle("active", b.getAttribute("data-tab") === targetTab);
           });
 
@@ -160,9 +157,7 @@
                 <th>Designation</th>
                 <th>Institution</th>
                 <th>Highest Degree</th>
-                <th>Experience</th>
-                <th>Publications</th>
-                <th>Action</th>
+                <th style="text-align: right;">Action</th>
               </tr>
             </thead>
             <tbody>
@@ -174,9 +169,6 @@
 
     buildTableRow(candidate) {
       const avatar = this.getInitials(candidate.fullName || "Faculty");
-      const publications =
-        Number(candidate.publicationSummary?.journal_publications || 0) +
-        Number(candidate.publicationSummary?.conference_publications || 0);
       const institute = candidate.institution || candidate.university || "University";
 
       return `
@@ -191,12 +183,10 @@
             </div>
           </td>
           <td><strong>${candidate.designation || "Faculty"}</strong></td>
-          <td>${institute}</td>
+          <td class="table-institute-cell">${institute}</td>
           <td>${this.getDegreeBadge(candidate.highestDegree)}</td>
-          <td>${candidate.experienceYears || 0} Yrs</td>
-          <td><strong>${publications}</strong> Papers</td>
-          <td>
-            <button class="btn btn-secondary view-btn" data-id="${candidate.id}" style="padding:4px 10px; font-size:12px;">
+          <td style="text-align: right;">
+            <button class="btn btn-secondary view-btn" data-id="${candidate.id}" style="padding:6px 12px; font-size:12px; width:auto; display:inline-flex;">
               View Profile &rarr;
             </button>
           </td>

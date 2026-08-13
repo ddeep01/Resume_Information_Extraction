@@ -1,6 +1,8 @@
 from pathlib import Path
+
 import fitz
 import pdfplumber
+from docx import Document
 
 
 class PDFExtractor:
@@ -61,6 +63,58 @@ class PDFExtractor:
         return "", "failed"
 
 
+class DOCXExtractor:
+
+    MIN_TEXT_LENGTH = 100
+
+    @staticmethod
+    def extract_docx(docx_path):
+
+        try:
+            document = Document(docx_path)
+
+            text_parts = []
+
+
+
+            for paragraph in document.paragraphs:
+
+                text = paragraph.text.strip()
+
+                if text:
+                    text_parts.append(text)
+
+
+            for table in document.tables:
+
+                for row in table.rows:
+
+                    row_text = []
+
+                    for cell in row.cells:
+
+                        cell_text = cell.text.strip()
+
+                        if cell_text:
+                            row_text.append(cell_text)
+
+                    if row_text:
+                        text_parts.append(" | ".join(row_text))
+
+            text = "\n".join(text_parts).strip()
+
+            if len(text) >= DOCXExtractor.MIN_TEXT_LENGTH:
+                return text, "python-docx"
+
+            return "", "failed"
+
+        except Exception as e:
+
+            print(f"DOCX Error: {docx_path} -> {e}")
+
+            return "", "failed"
+
+
 RAW_DIR = Path("data/raw_resumes")
 OUTPUT_DIR = Path("data/extracted_text")
 
@@ -72,32 +126,60 @@ OUTPUT_DIR.mkdir(
 
 def process_all_resumes():
 
-    pdf_files = list(RAW_DIR.glob("*.pdf"))
 
-    print(f"\nFound {len(pdf_files)} PDF files\n")
+    files = [
+        file
+        for file in RAW_DIR.iterdir()
+        if file.is_file()
+        and file.suffix.lower() in [".pdf", ".docx"]
+    ]
+
+    print(f"\nFound {len(files)} PDF/DOCX files\n")
 
     success = 0
     failed = 0
 
-    for pdf_file in pdf_files:
+    for file in files:
 
-        text, method = PDFExtractor.extract(
-            str(pdf_file)
-        )
+        extension = file.suffix.lower()
+
+
+        if extension == ".pdf":
+
+            text, method = PDFExtractor.extract(
+                str(file)
+            )
+
+        elif extension == ".docx":
+
+            text, method = DOCXExtractor.extract_docx(
+                str(file)
+            )
+
+
+        else:
+
+            print(
+                f"[UNSUPPORTED] {file.name}"
+            )
+
+            continue
+
 
         if method == "failed":
 
             failed += 1
 
             print(
-                f"[FAILED] {pdf_file.name}"
+                f"[FAILED] {file.name}"
             )
 
             continue
 
+
         output_file = (
             OUTPUT_DIR /
-            f"{pdf_file.stem}.txt"
+            f"{file.stem}.txt"
         )
 
         output_file.write_text(
@@ -108,11 +190,11 @@ def process_all_resumes():
         success += 1
 
         print(
-            f"[SUCCESS] {pdf_file.name} -> {method}"
+            f"[SUCCESS] {file.name} -> {method}"
         )
 
     print("\n" + "=" * 50)
-    print(f"Total Files : {len(pdf_files)}")
+    print(f"Total Files : {len(files)}")
     print(f"Success     : {success}")
     print(f"Failed      : {failed}")
     print("=" * 50)

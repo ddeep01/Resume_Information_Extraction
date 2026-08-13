@@ -38,54 +38,70 @@
                     <i class="fa-solid fa-chart-pie"></i> Academic Analytics
                 </button>
             </nav>
-
-            <div class="portal-header__actions">
-                <div class="search-global">
-                    <i class="fa-solid fa-search"></i>
-                    <input id="search-input" type="text" placeholder="Search faculty by name, degree, dept...">
-                </div>
-
-                <div class="user-profile-badge">
-                    <div class="user-profile-badge__avatar">AD</div>
-                    <div class="user-profile-badge__info">
-                        <span class="user-profile-badge__name">Academic Admin</span>
-                        <span class="user-profile-badge__role">Faculty Affairs</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </header>
 
     <!-- ================= MAIN APP WRAPPER ================= -->
     <div class="app-wrapper">
 
-        <!-- SIDEBAR NAVIGATION -->
+        <!-- LEFT SIDEBAR: FIND FACULTY FILTER PANEL -->
         <aside class="sidebar">
-            <div class="sidebar-heading">Navigation</div>
-            <ul class="sidebar-menu">
-                <li>
-                    <a class="sidebar-menu__link active" data-tab="tab-directory">
-                        <i class="fa-solid fa-users"></i>
-                        <span>Faculty Directory</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="sidebar-menu__link" data-tab="tab-analytics">
-                        <i class="fa-solid fa-chart-column"></i>
-                        <span>Academic Analytics</span>
-                    </a>
-                </li>
-            </ul>
+            <section class="filter-card" id="filter-card">
+                <div class="filter-card__header">
+                    <h3 class="filter-card__title">
+                        <i class="fa-solid fa-filter"></i> Find Faculty
+                    </h3>
+                    <p class="filter-card__subtitle">
+                        Filter faculty members by academic and professional attributes.
+                    </p>
+                </div>
 
-            <div class="sidebar-heading">System</div>
-            <ul class="sidebar-menu">
-                <li>
-                    <a class="sidebar-menu__link" id="refresh-data-btn">
-                        <i class="fa-solid fa-rotate-right"></i>
-                        <span>Refresh Data</span>
-                    </a>
-                </li>
-            </ul>
+                <div class="filter-grid">
+                    <div class="form-group">
+                        <label for="filter-degree">Degree</label>
+                        <select id="filter-degree" class="form-control"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="filter-institute">Institution</label>
+                        <select id="filter-institute" class="form-control"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="filter-designation">Designation</label>
+                        <select id="filter-designation" class="form-control"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="filter-experience">Experience</label>
+                        <select id="filter-experience" class="form-control"></select>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="filter-journal">
+                        Journal Publications
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="filter-conference">
+                        Conference Papers
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="filter-patent">
+                        Patents
+                    </label>
+                </div>
+
+                <div class="filter-actions">
+                    <button class="btn btn-primary" id="apply-filters">
+                        <i class="fa-solid fa-sliders"></i> Apply Filters
+                    </button>
+                    <button class="btn btn-secondary" id="clear-filters">
+                        <i class="fa-solid fa-rotate-left"></i> Clear Filters
+                    </button>
+                </div>
+            </section>
         </aside>
 
         <!-- MAIN CONTENT AREA -->
@@ -106,64 +122,6 @@
             <!-- ================= TAB 1: FACULTY DIRECTORY & OVERVIEW ================= -->
             <div id="tab-directory" class="tab-pane active">
 
-                <!-- FIND FACULTY FILTER PANEL -->
-                <section class="filter-card">
-                    <div class="filter-card__header">
-                        <h3 class="filter-card__title">
-                            <i class="fa-solid fa-filter"></i> Find Faculty
-                        </h3>
-                        <p class="filter-card__subtitle">
-                            Search and filter faculty members by academic and professional attributes.
-                        </p>
-                    </div>
-
-                    <div class="filter-grid">
-                        <div class="form-group">
-                            <label for="filter-degree">Degree</label>
-                            <select id="filter-degree" class="form-control"></select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="filter-institute">Institution</label>
-                            <select id="filter-institute" class="form-control"></select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="filter-designation">Designation</label>
-                            <select id="filter-designation" class="form-control"></select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="filter-experience">Experience</label>
-                            <select id="filter-experience" class="form-control"></select>
-                        </div>
-                    </div>
-
-                    <div class="checkbox-group">
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="filter-journal">
-                            Journal Publications
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="filter-conference">
-                            Conference Papers
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="filter-patent">
-                            Patents
-                        </label>
-                    </div>
-
-                    <div class="filter-actions">
-                        <button class="btn btn-primary" id="apply-filters">
-                            <i class="fa-solid fa-sliders"></i> Apply Filters
-                        </button>
-                        <button class="btn btn-secondary" id="clear-filters">
-                            <i class="fa-solid fa-rotate-left"></i> Clear Filters
-                        </button>
-                    </div>
-                </section>
-
                 <!-- DASHBOARD METRIC STATS -->
                 <section class="dashboard-overview">
                     <div class="dashboard-section-header">
@@ -182,11 +140,11 @@
                         </div>
 
                         <div class="view-switcher">
-                            <button class="view-switcher__btn active" id="view-table-btn">
-                                <i class="fa-solid fa-table-list"></i> Table View
-                            </button>
-                            <button class="view-switcher__btn" id="view-grid-btn">
+                            <button class="view-switcher__btn active" id="view-grid-btn">
                                 <i class="fa-solid fa-border-all"></i> Grid View
+                            </button>
+                            <button class="view-switcher__btn" id="view-table-btn">
+                                <i class="fa-solid fa-table-list"></i> Table View
                             </button>
                         </div>
                     </div>
