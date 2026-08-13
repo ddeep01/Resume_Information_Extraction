@@ -1,218 +1,267 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Faculty Resume Intelligence</title>
-
+    <title>Faculty Information & Analytics Portal | University Administration</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
-
 <body>
 
-<div class="main-container">
+    <!-- ================= PORTAL HEADER ================= -->
+    <header class="portal-header">
+        <div class="portal-header__inner">
+            <a href="index.html" class="portal-brand">
+                <div class="portal-brand__logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="portal-brand__text">
+                    <h1>University Faculty Portal</h1>
+                    <p>Faculty Information & Analytics System</p>
+                </div>
+            </a>
 
-    <!-- ================= HEADER ================= -->
+            <nav class="portal-nav">
+                <button class="portal-nav__item active" data-tab="tab-directory">
+                    <i class="fa-solid fa-address-book"></i> Faculty Directory
+                </button>
+                <button class="portal-nav__item" data-tab="tab-analytics">
+                    <i class="fa-solid fa-chart-pie"></i> Academic Analytics
+                </button>
+            </nav>
 
-    <header class="topbar glass">
-
-        <div class="topbar__title">
-
-            <h1>Faculty Resume Intelligence System</h1>
-
-            <p>
-                AI Powered Faculty Resume Visualization Dashboard
-            </p>
-
-        </div>
-
-        <div class="topbar__actions">
-
-            <div class="search-box">
-
-                <i class="fa-solid fa-search"></i>
-
-                <input
-                        id="search-input"
-                        type="text"
-                        placeholder="Search faculty...">
-
-            </div>
-
-            <button class="icon-btn" id="theme-toggle">
-
-                <i class="fa-solid fa-moon"></i>
-
-            </button>
-
-            <button class="icon-btn">
-
-                <i class="fa-solid fa-rotate-right"></i>
-
-            </button>
-
-            <button class="icon-btn">
-
-                <i class="fa-solid fa-gear"></i>
-
-            </button>
-
-        </div>
-
-    </header>
-
-    <!-- ================= FILTER + STATS ================= -->
-
-    <section class="dashboard-row">
-
-        <!-- FILTER PANEL -->
-
-        <aside class="filter-card glass">
-
-            <div class="panel-title">
-
-                <i class="fa-solid fa-filter"></i>
-
-                <h2>Filters</h2>
-
-            </div>
-
-            <div class="filter-panel">
-
-                <label>Degree</label>
-                <select id="filter-degree"></select>
-
-                <label>Institute Type</label>
-                <select id="filter-institute"></select>
-
-                <label>Designation</label>
-                <select id="filter-designation"></select>
-
-                <label>Experience</label>
-                <select id="filter-experience"></select>
-
-                <label class="checkbox-row">
-                    <input type="checkbox"
-                           id="filter-journal">
-                    Journal Publications
-                </label>
-
-                <label class="checkbox-row">
-                    <input type="checkbox"
-                           id="filter-conference">
-                    Conference Publications
-                </label>
-
-                <label class="checkbox-row">
-                    <input type="checkbox"
-                           id="filter-patent">
-                    Patents
-                </label>
-
-                <div class="filter-actions">
-
-                    <button
-                            class="btn btn-primary"
-                            id="apply-filters">
-
-                        Apply Filters
-
-                    </button>
-
-                    <button
-                            class="btn btn-secondary"
-                            id="clear-filters">
-
-                        Clear Filters
-
-                    </button>
-
+            <div class="portal-header__actions">
+                <div class="search-global">
+                    <i class="fa-solid fa-search"></i>
+                    <input id="search-input" type="text" placeholder="Search faculty by name, degree, dept...">
                 </div>
 
+                <div class="user-profile-badge">
+                    <div class="user-profile-badge__avatar">AD</div>
+                    <div class="user-profile-badge__info">
+                        <span class="user-profile-badge__name">Academic Admin</span>
+                        <span class="user-profile-badge__role">Faculty Affairs</span>
+                    </div>
+                </div>
             </div>
+        </div>
+    </header>
 
+    <!-- ================= MAIN APP WRAPPER ================= -->
+    <div class="app-wrapper">
+
+        <!-- SIDEBAR NAVIGATION -->
+        <aside class="sidebar">
+            <div class="sidebar-heading">Navigation</div>
+            <ul class="sidebar-menu">
+                <li>
+                    <a class="sidebar-menu__link active" data-tab="tab-directory">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Faculty Directory</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="sidebar-menu__link" data-tab="tab-analytics">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>Academic Analytics</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="sidebar-heading">System</div>
+            <ul class="sidebar-menu">
+                <li>
+                    <a class="sidebar-menu__link" id="refresh-data-btn">
+                        <i class="fa-solid fa-rotate-right"></i>
+                        <span>Refresh Data</span>
+                    </a>
+                </li>
+            </ul>
         </aside>
 
-        <!-- STATS -->
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
 
-        <section class="stats-panel">
-
-            <div class="panel-title">
-
-                <i class="fa-solid fa-chart-column"></i>
-
-                <h2>Dashboard Overview</h2>
-
+            <!-- PAGE HEADER BANNER -->
+            <div class="page-header-banner">
+                <div class="page-header-banner__title">
+                    <h2>Faculty Information & Academic Intelligence</h2>
+                    <p>Verified Profiles & Extraction Analytics</p>
+                </div>
+                <div class="system-status-chip">
+                    <span class="system-status-chip__dot"></span>
+                    <span>System Active &bull; 39 Profiles</span>
+                </div>
             </div>
 
-            <div
-                    class="stats-grid"
-                    id="stats-grid">
+            <!-- ================= TAB 1: FACULTY DIRECTORY & OVERVIEW ================= -->
+            <div id="tab-directory" class="tab-pane active">
 
+                <!-- FIND FACULTY FILTER PANEL -->
+                <section class="filter-card">
+                    <div class="filter-card__header">
+                        <h3 class="filter-card__title">
+                            <i class="fa-solid fa-filter"></i> Find Faculty
+                        </h3>
+                        <p class="filter-card__subtitle">
+                            Search and filter faculty members by academic and professional attributes.
+                        </p>
+                    </div>
+
+                    <div class="filter-grid">
+                        <div class="form-group">
+                            <label for="filter-degree">Degree</label>
+                            <select id="filter-degree" class="form-control"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filter-institute">Institution</label>
+                            <select id="filter-institute" class="form-control"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filter-designation">Designation</label>
+                            <select id="filter-designation" class="form-control"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filter-experience">Experience</label>
+                            <select id="filter-experience" class="form-control"></select>
+                        </div>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="filter-journal">
+                            Journal Publications
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="filter-conference">
+                            Conference Papers
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="filter-patent">
+                            Patents
+                        </label>
+                    </div>
+
+                    <div class="filter-actions">
+                        <button class="btn btn-primary" id="apply-filters">
+                            <i class="fa-solid fa-sliders"></i> Apply Filters
+                        </button>
+                        <button class="btn btn-secondary" id="clear-filters">
+                            <i class="fa-solid fa-rotate-left"></i> Clear Filters
+                        </button>
+                    </div>
+                </section>
+
+                <!-- DASHBOARD METRIC STATS -->
+                <section class="dashboard-overview">
+                    <div class="dashboard-section-header">
+                        <h3><i class="fa-solid fa-chart-line"></i> Institutional Overview</h3>
+                    </div>
+                    <div class="stats-grid" id="stats-grid">
+                        <!-- Dynamic Metric Cards Inserted by JS -->
+                    </div>
+                </section>
+
+                <!-- FACULTY DIRECTORY TOOLBAR & DIRECTORY VIEWS -->
+                <section class="directory-section">
+                    <div class="directory-toolbar">
+                        <div class="directory-toolbar__count">
+                            Faculty Directory Results: <strong id="results-count">0 Results</strong>
+                        </div>
+
+                        <div class="view-switcher">
+                            <button class="view-switcher__btn active" id="view-table-btn">
+                                <i class="fa-solid fa-table-list"></i> Table View
+                            </button>
+                            <button class="view-switcher__btn" id="view-grid-btn">
+                                <i class="fa-solid fa-border-all"></i> Grid View
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- DIRECTORY CONTENT CONTAINER (Table or Cards) -->
+                    <div id="faculty-directory-container">
+                        <!-- Rendered by JS -->
+                    </div>
+                </section>
             </div>
 
-        </section>
+            <!-- ================= TAB 2: ACADEMIC ANALYTICS ================= -->
+            <div id="tab-analytics" class="tab-pane" style="display: none;">
+                <div class="dashboard-section-header">
+                    <h3><i class="fa-solid fa-chart-pie"></i> Institutional Academic Analytics</h3>
+                </div>
 
-    </section>
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <div class="analytics-card__header">
+                            <h4 class="analytics-card__title">
+                                <i class="fa-solid fa-graduation-cap"></i> Faculty by Canonical Degree
+                            </h4>
+                        </div>
+                        <div class="analytics-card__chart">
+                            <canvas id="chart-degree"></canvas>
+                        </div>
+                    </div>
 
-    <!-- ================= FACULTY DIRECTORY ================= -->
+                    <div class="analytics-card">
+                        <div class="analytics-card__header">
+                            <h4 class="analytics-card__title">
+                                <i class="fa-solid fa-user-tie"></i> Faculty Designation Distribution
+                            </h4>
+                        </div>
+                        <div class="analytics-card__chart">
+                            <canvas id="chart-designation"></canvas>
+                        </div>
+                    </div>
 
-    <section class="directory-section glass">
+                    <div class="analytics-card">
+                        <div class="analytics-card__header">
+                            <h4 class="analytics-card__title">
+                                <i class="fa-solid fa-briefcase"></i> Experience Distribution (Years)
+                            </h4>
+                        </div>
+                        <div class="analytics-card__chart">
+                            <canvas id="chart-experience"></canvas>
+                        </div>
+                    </div>
 
-        <div class="directory-header">
-
-            <div>
-
-                <h2>Faculty Directory</h2>
-
-                <p>
-
-                    Browse all extracted faculty profiles
-
-                </p>
-
+                    <div class="analytics-card">
+                        <div class="analytics-card__header">
+                            <h4 class="analytics-card__title">
+                                <i class="fa-solid fa-book"></i> Total Research Output Summary
+                            </h4>
+                        </div>
+                        <div class="analytics-card__chart">
+                            <canvas id="chart-research"></canvas>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div
-                    id="results-count"
-                    class="section-badge">
+        </main>
+    </div>
 
-                0 Results
-
-            </div>
-
-        </div>
-
-        <div
-                class="faculty-grid"
-                id="faculty-grid">
-
-        </div>
-
-    </section>
-
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script src="js/degree_normalizer.js"></script>
-<script src="js/loader.js"></script>
-<script src="js/app.js"></script>
-<script src="js/filters.js"></script>
-<script src="js/search.js"></script>
-<script src="js/dashboard.js"></script>
+    <!-- Chart.js and Frontend Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/degree_normalizer.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/dashboard.js"></script>
 
 </body>
 </html>

@@ -1,960 +1,429 @@
 /* ==========================================================
-                FACULTY.JS
-                PART 1
+   FACULTY.JS - Institutional Profile Logic
 ========================================================== */
 
 "use strict";
 
-/* ==========================================================
-                CONFIGURATION
-========================================================== */
-
-const JSON_FOLDER =
-    "../evaluation/result_llm/data/qwen2.5_7b/";
-
-const RESUME_FOLDER =
-    "../data/raw_resumes/";
-
-/* ==========================================================
-                GLOBAL STATE
-========================================================== */
+const JSON_FOLDER = "../evaluation/result_llm/data/qwen2.5_7b/";
+const RESUME_FOLDER = "../data/raw_resumes/";
 
 let facultyData = null;
-
 let facultyId = null;
-
-
-/* ==========================================================
-                START
-========================================================== */
 
 document.addEventListener("DOMContentLoaded", init);
 
-
-/* ==========================================================
-                INITIALIZATION
-========================================================== */
-
 async function init() {
+  try {
+    showLoader(true);
+    facultyId = getFacultyId();
 
-    try {
-
-        showLoader(true);
-
-        facultyId = getFacultyId();
-
-        if (!facultyId) {
-
-            alert("Faculty ID not found.");
-            window.location.href = "index.html";
-            return;
-
-        }
-
-        facultyData = await loadFacultyJSON(facultyId);
-
-        populatePage();
-
-        // IMPORTANT
-        initializeComponents();
-
-        showLoader(false);
-
+    if (!facultyId) {
+      showErrorState("Faculty ID is missing from the URL.");
+      showLoader(false);
+      return;
     }
 
-    catch (error) {
+    facultyData = await loadFacultyJSON(facultyId);
 
-        console.error(error);
-
-        showLoader(false);
-
-        alert(error.message);
-
+    if (!facultyData) {
+      showErrorState("Faculty profile data could not be retrieved.");
+      showLoader(false);
+      return;
     }
 
+    populatePage();
+    initializeComponents();
+    showLoader(false);
+  } catch (error) {
+    console.error("Error loading profile:", error);
+    showErrorState("The requested faculty profile could not be found.");
+    showLoader(false);
+  }
 }
-button.addEventListener("click", () => {
-
-    console.log("Clicked:", button.dataset.tab);
-
-    buttons.forEach(btn => btn.classList.remove("active"));
-
-    panels.forEach(panel => panel.classList.remove("active"));
-
-    button.classList.add("active");
-
-    const target = button.dataset.tab;
-
-    document.getElementById(target).classList.add("active");
-
-});
-
-
-/* ==========================================================
-                GET FACULTY ID
-========================================================== */
 
 function getFacultyId() {
-
-    const params = new URLSearchParams(window.location.search);
-
-    return params.get("id");
-
+  const params = new URLSearchParams(window.location.search);
+  return params.get("id");
 }
-
-
-/* ==========================================================
-                LOAD JSON
-========================================================== */
 
 async function loadFacultyJSON(id) {
-
-    const response = await fetch(`${JSON_FOLDER}${id}.json`);
-
-    if (!response.ok) {
-
-        throw new Error("JSON file not found.");
-
-    }
-
-    return await response.json();
-
+  const response = await fetch(`${JSON_FOLDER}${id}.json`);
+  if (!response.ok) {
+    throw new Error("JSON file not found.");
+  }
+  return await response.json();
 }
-
-
-/* ==========================================================
-                POPULATE PAGE
-========================================================== */
 
 function populatePage() {
-
-    renderHero();
-
-    renderStatistics();
-
-    renderOverview();
-
-    renderEducation();
-
-    renderExperience();
-
-    renderResearch();
-
-    renderSkills();
-
+  renderHero();
+  renderStatistics();
+  renderOverview();
+  renderEducation();
+  renderExperience();
+  renderResearch();
+  renderSkills();
 }
-
-
-/* ==========================================================
-                HELPERS
-========================================================== */
 
 function $(id) {
-
-    return document.getElementById(id);
-
+  return document.getElementById(id);
 }
 
-
-function value(data, fallback = "-") {
-
-    if (data === undefined || data === null) {
-
-        return fallback;
-
-    }
-
-    if (typeof data === "string" && data.trim() === "") {
-
-        return fallback;
-
-    }
-
-    return data;
-
+function value(data, fallback = "—") {
+  if (data === undefined || data === null) {
+    return fallback;
+  }
+  if (typeof data === "string" && data.trim() === "") {
+    return fallback;
+  }
+  return data;
 }
-
-
-/* ==========================================================
-                GET PERSONAL INFO
-========================================================== */
 
 function personal() {
-
-    return facultyData.personal_information || {};
-
+  return facultyData.personal_information || {};
 }
-
 
 function education() {
-
-    return facultyData.education || [];
-
+  return facultyData.education || [];
 }
-
 
 function experience() {
-
-    return facultyData.experience || [];
-
+  return facultyData.experience || [];
 }
-
 
 function publications() {
-
-    return facultyData.publication_summary || {};
-
+  return facultyData.publication_summary || {};
 }
-
-
-/* ==========================================================
-                NORMALIZE DEGREE
-========================================================== */
 
 function normalizeDegree(degree) {
-    if (!degree) return "";
-    if (window.DegreeNormalizer) {
-        return window.DegreeNormalizer.normalizeDegree(degree);
-    }
-    return degree;
+  if (!degree) return "";
+  if (window.DegreeNormalizer) {
+    return window.DegreeNormalizer.normalizeDegree(degree);
+  }
+  return degree;
 }
-
-
-/* ==========================================================
-                GET INITIALS
-========================================================== */
 
 function initials(name) {
-
-    if (!name) return "F";
-
-    return name
-
-        .split(" ")
-
-        .map(word => word[0])
-
-        .slice(0, 2)
-
-        .join("")
-
-        .toUpperCase();
-
+  if (!name) return "F";
+  return name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((word) => word[0])
+    .join("")
+    .toUpperCase();
 }
 
 /* ==========================================================
-                RENDER HERO
+   RENDER HERO
 ========================================================== */
 
 function renderHero() {
+  const p = personal();
+  const edu = education();
 
-    const p = personal();
+  const highestDegree =
+    facultyData.normalized_highest_degree ||
+    (window.DegreeNormalizer
+      ? window.DegreeNormalizer.getHighestDegree(edu)
+      : edu.length > 0
+      ? normalizeDegree(edu[0].degree)
+      : "—");
 
-    const edu = education();
+  const institute = edu.length > 0 ? value(edu[0].institution || edu[0].board_university, "—") : "—";
 
-    const highestDegree =
-        facultyData.normalized_highest_degree ||
-        (window.DegreeNormalizer
-            ? window.DegreeNormalizer.getHighestDegree(edu)
-            : (edu.length > 0 ? normalizeDegree(edu[0].degree) : "-"));
+  if ($("facultyName")) $("facultyName").textContent = value(p.full_name, facultyId || "Faculty Member");
 
-    const institute =
-        edu.length > 0
-            ? value(
-                edu[0].institution ||
-                edu[0].board_university
-            )
-            : "-";
+  if ($("designation"))
+    $("designation").textContent = value(p.current_designation || experience()[0]?.designation, "Faculty Member");
 
-    $("facultyName").textContent =
-        value(p.full_name);
+  if ($("university")) {
+    $("university").innerHTML = `<i class="fa-solid fa-building-columns"></i> ${institute}`;
+  }
 
-    $("designation").textContent =
-        value(
-            p.current_designation ||
-            experience()[0]?.designation
-        );
-
-    $("university").innerHTML = `
-        <i class="fa-solid fa-building-columns"></i>
-        ${institute}
-    `;
-
-    $("email").innerHTML = `
-        <i class="fa-solid fa-envelope"></i>
-        ${value(p.email)}
-    `;
-
-    $("phone").innerHTML = `
-        <i class="fa-solid fa-phone"></i>
-        ${value(p.phone)}
-    `;
-
-    $("location").innerHTML = `
-        <i class="fa-solid fa-location-dot"></i>
-        ${value(p.address)}
-    `;
-
-    $("avatar").textContent =
-        initials(p.full_name);
-
-    if (highestDegree === "Ph.D.") {
-
-        $("degreeBadge").style.display = "inline-flex";
-
-        $("degreeBadge").textContent = highestDegree;
-
+  if ($("email")) {
+    if (p.email && p.email.trim()) {
+      $("email").style.display = "inline-flex";
+      $("email").innerHTML = `<i class="fa-solid fa-envelope"></i> ${p.email.trim()}`;
+    } else {
+      $("email").style.display = "none";
     }
+  }
 
-    else {
-
-        $("degreeBadge").style.display = "none";
-
+  if ($("phone")) {
+    if (p.phone && p.phone.trim()) {
+      $("phone").style.display = "inline-flex";
+      $("phone").innerHTML = `<i class="fa-solid fa-phone"></i> ${p.phone.trim()}`;
+    } else {
+      $("phone").style.display = "none";
     }
+  }
 
+  if ($("location")) {
+    if (p.address && p.address.trim()) {
+      $("location").style.display = "inline-flex";
+      $("location").innerHTML = `<i class="fa-solid fa-location-dot"></i> ${p.address.trim()}`;
+    } else {
+      $("location").style.display = "none";
+    }
+  }
+
+  if ($("avatar")) $("avatar").textContent = initials(p.full_name || facultyId);
+
+  if ($("degreeBadge")) {
+    if (highestDegree && highestDegree !== "—" && highestDegree !== "Other") {
+      $("degreeBadge").style.display = "inline-flex";
+      $("degreeBadge").textContent = highestDegree;
+    } else {
+      $("degreeBadge").style.display = "none";
+    }
+  }
 }
 
-
-
 /* ==========================================================
-                RENDER STATISTICS
+   RENDER STATISTICS
 ========================================================== */
 
 function renderStatistics() {
+  const p = personal();
+  const pub = publications();
+  const years = parseExperienceYears(p.total_experience);
 
-    const p = personal();
-
-    const pub = publications();
-
-    const years =
-        parseExperienceYears(
-            p.total_experience
-        );
-
-    $("experienceYears").textContent =
-        years;
-
-    $("journalCount").textContent =
-        pub.journal_publications || 0;
-
-    $("conferenceCount").textContent =
-        pub.conference_publications || 0;
-
-    $("patentCount").textContent =
-        pub.patents || 0;
-
+  if ($("experienceYears")) $("experienceYears").textContent = years;
+  if ($("journalCount")) $("journalCount").textContent = pub.journal_publications || 0;
+  if ($("conferenceCount")) $("conferenceCount").textContent = pub.conference_publications || 0;
+  if ($("patentCount")) $("patentCount").textContent = pub.patents || 0;
 }
 
-
-
 /* ==========================================================
-                RENDER OVERVIEW
+   RENDER OVERVIEW
 ========================================================== */
 
 function renderOverview() {
+  const p = personal();
+  const edu = education();
+  const expYears = parseExperienceYears(p.total_experience);
 
-    const p = personal();
+  const highestDegree =
+    facultyData.normalized_highest_degree ||
+    (window.DegreeNormalizer
+      ? window.DegreeNormalizer.getHighestDegree(edu)
+      : edu.length
+      ? normalizeDegree(edu[0].degree)
+      : "—");
 
-    const edu = education();
+  const institute = edu.length ? value(edu[0].institution || edu[0].board_university, "—") : "—";
 
-    const expYears =
-        parseExperienceYears(
-            p.total_experience
-        );
-
-    const highestDegree =
-        facultyData.normalized_highest_degree ||
-        (window.DegreeNormalizer
-            ? window.DegreeNormalizer.getHighestDegree(edu)
-            : (edu.length ? normalizeDegree(edu[0].degree) : "-"));
-
-    const institute =
-        edu.length
-            ? value(
-                edu[0].institution ||
-                edu[0].board_university
-            )
-            : "-";
-
-    $("highestDegree").textContent =
-        highestDegree;
-
-    $("currentPosition").textContent =
-        value(
-            p.current_designation ||
-            experience()[0]?.designation
-        );
-
-    $("currentInstitute").textContent =
-        institute;
-
-    $("experienceText").textContent =
-        `${expYears} Years`;
-
-    $("aiSummary").innerHTML = createSummary();
-
+  if ($("highestDegree")) $("highestDegree").textContent = highestDegree;
+  if ($("currentPosition"))
+    $("currentPosition").textContent = value(p.current_designation || experience()[0]?.designation, "Faculty Member");
+  if ($("currentInstitute")) $("currentInstitute").textContent = institute;
+  if ($("experienceText")) $("experienceText").textContent = `${expYears} Years`;
+  if ($("aiSummary")) $("aiSummary").innerHTML = createSummary();
 }
-
-
-
-/* ==========================================================
-                AI SUMMARY
-========================================================== */
 
 function createSummary() {
+  const p = personal();
+  const pub = publications();
+  const years = parseExperienceYears(p.total_experience);
 
-    const p = personal();
+  const highestDegree =
+    facultyData.normalized_highest_degree ||
+    (window.DegreeNormalizer
+      ? window.DegreeNormalizer.getHighestDegree(education())
+      : education().length
+      ? normalizeDegree(education()[0].degree)
+      : "—");
 
-    const pub = publications();
-
-    const years =
-        parseExperienceYears(
-            p.total_experience
-        );
-
-    const highestDegree =
-        facultyData.normalized_highest_degree ||
-        (window.DegreeNormalizer
-            ? window.DegreeNormalizer.getHighestDegree(education())
-            : (education().length ? normalizeDegree(education()[0].degree) : "-"));
-
-    return `
-        <p>
-            <strong>${value(p.full_name)}</strong>
-            is an
-            <strong>${value(
-                p.current_designation ||
-                "Faculty Member"
-            )}</strong>
-            with approximately
-            <strong>${years} years</strong>
-            of academic experience.
-        </p>
-
-        <br>
-
-        <p>
-            Highest qualification:
-            <strong>${highestDegree}</strong>.
-        </p>
-
-        <br>
-
-        <p>
-            Research output includes
-            <strong>${pub.journal_publications || 0}</strong>
-            journal publications,
-            <strong>${pub.conference_publications || 0}</strong>
-            conference papers and
-            <strong>${pub.patents || 0}</strong>
-            patents.
-        </p>
-    `;
-
+  return `
+    <p style="font-size:14px; line-height:1.6; color:#334155;">
+        <strong>${value(p.full_name, "This faculty member")}</strong> is an
+        <strong>${value(p.current_designation || "Faculty Member")}</strong>
+        with approximately <strong>${years} years</strong> of academic and professional experience.
+    </p>
+    <div style="margin-top:10px; font-size:13px; color:#475569;">
+        Highest qualification: <strong>${highestDegree}</strong>.
+    </div>
+    <div style="margin-top:8px; font-size:13px; color:#475569;">
+        Research record includes <strong>${pub.journal_publications || 0}</strong> journal papers,
+        <strong>${pub.conference_publications || 0}</strong> conference publications, and
+        <strong>${pub.patents || 0}</strong> patents.
+    </div>
+  `;
 }
-
-
-
-/* ==========================================================
-                EXPERIENCE PARSER
-========================================================== */
 
 function parseExperienceYears(text) {
-
-    if (!text) return 0;
-
-    const match =
-        String(text).match(/\d+/);
-
-    return match
-        ? Number(match[0])
-        : 0;
-
+  if (!text) return 0;
+  const match = String(text).match(/\d+/);
+  return match ? Number(match[0]) : 0;
 }
 
 /* ==========================================================
-                RENDER EDUCATION
+   RENDER EDUCATION
 ========================================================== */
 
 function renderEducation() {
+  const container = $("educationTimeline");
+  if (!container) return;
+  container.innerHTML = "";
 
-    const container = $("educationTimeline");
+  const list = education();
 
-    container.innerHTML = "";
+  if (!list.length) {
+    container.innerHTML = `
+      <div class="timeline-item">
+        <div class="timeline-title">No education details extracted</div>
+      </div>`;
+    return;
+  }
 
-    const list = education();
+  list.forEach((item) => {
+    const canonical = item.normalized_degree || normalizeDegree(item.degree);
+    const rawDegree = item.degree && item.degree.trim() !== canonical ? item.degree.trim() : "";
 
-    if (!list.length) {
-
-        container.innerHTML = `
-            <div class="timeline-item">
-                <div class="timeline-title">
-                    No education information available
-                </div>
-            </div>
-        `;
-
-        return;
-
-    }
-
-    list.forEach(item => {
-        const canonical = item.normalized_degree || normalizeDegree(item.degree);
-        const rawDegree = item.degree && item.degree.trim() !== canonical ? item.degree.trim() : "";
-
-        container.innerHTML += `
-
-            <div class="timeline-item">
-
-                <div class="timeline-title">
-
-                    ${canonical}
-                    ${rawDegree ? `<span style="font-size:13px; font-weight:normal; opacity:0.85; margin-left:8px;">(${rawDegree})</span>` : ""}
-
-                </div>
-
-                <div class="timeline-subtitle">
-
-                    ${value(
-                        item.institution ||
-                        item.board_university
-                    )}
-
-                </div>
-
-                <div class="timeline-meta">
-
-                    ${value(item.year)}
-
-                </div>
-
-            </div>
-
-        `;
-
-    });
-
+    container.innerHTML += `
+      <div class="timeline-item">
+        <div class="timeline-title">
+          ${canonical}
+          ${rawDegree ? `<span style="font-size:12px; font-weight:normal; color:#64748B; margin-left:6px;">(${rawDegree})</span>` : ""}
+        </div>
+        <div class="timeline-subtitle">${value(item.institution || item.board_university)}</div>
+        <div class="timeline-meta">${value(item.year)}</div>
+      </div>`;
+  });
 }
 
-
-
 /* ==========================================================
-                RENDER EXPERIENCE
+   RENDER EXPERIENCE
 ========================================================== */
 
 function renderExperience() {
+  const container = $("experienceTimeline");
+  if (!container) return;
+  container.innerHTML = "";
 
-    const container = $("experienceTimeline");
+  const list = experience();
 
-    container.innerHTML = "";
+  if (!list.length) {
+    container.innerHTML = `
+      <div class="timeline-item">
+        <div class="timeline-title">No experience details extracted</div>
+      </div>`;
+    return;
+  }
 
-    const list = experience();
-
-    if (!list.length) {
-
-        container.innerHTML = `
-            <div class="timeline-item">
-                <div class="timeline-title">
-                    No experience information available
-                </div>
-            </div>
-        `;
-
-        return;
-
-    }
-
-    list.forEach(item => {
-
-        container.innerHTML += `
-
-            <div class="timeline-item">
-
-                <div class="timeline-title">
-
-                    ${value(item.designation)}
-
-                </div>
-
-                <div class="timeline-subtitle">
-
-                    ${value(
-                        item.organization ||
-                        item.institution ||
-                        item.company
-                    )}
-
-                </div>
-
-                <div class="timeline-meta">
-
-                    ${value(item.start_date)}
-
-                    ${item.end_date
-                        ? " - " + item.end_date
-                        : ""}
-
-                </div>
-
-            </div>
-
-        `;
-
-    });
-
+  list.forEach((item) => {
+    container.innerHTML += `
+      <div class="timeline-item">
+        <div class="timeline-title">${value(item.designation, "Faculty Role")}</div>
+        <div class="timeline-subtitle">${value(item.organization || item.institution || item.company)}</div>
+        <div class="timeline-meta">
+          ${value(item.start_date)} ${item.end_date ? " - " + item.end_date : ""}
+        </div>
+      </div>`;
+  });
 }
 
-
-
 /* ==========================================================
-                RENDER RESEARCH
+   RENDER RESEARCH
 ========================================================== */
 
 function renderResearch() {
+  const pub = publications();
+  const journalEl = $("journalCount") || $("journalPublications");
+  if (journalEl) journalEl.textContent = pub.journal_publications || 0;
 
-    const pub = publications();
+  const confEl = $("conferenceCount") || $("conferencePublications");
+  if (confEl) confEl.textContent = pub.conference_publications || 0;
 
-    $("journalPublications").textContent =
-        pub.journal_publications || 0;
-
-    $("conferencePublications").textContent =
-        pub.conference_publications || 0;
-
-    $("patentPublications").textContent =
-        pub.patents || 0;
-
+  const patentEl = $("patentCount") || $("patentPublications");
+  if (patentEl) patentEl.textContent = pub.patents || 0;
 }
 
-
-
 /* ==========================================================
-                RENDER SKILLS
+   RENDER SKILLS
 ========================================================== */
 
 function renderSkills() {
+  const container = $("skillsContainer");
+  if (!container) return;
+  container.innerHTML = "";
 
-    const container = $("skillsContainer");
+  const raw = facultyData || {};
+  const skillSet = new Set();
 
-    container.innerHTML = "";
+  [
+    ...(raw.skills || []),
+    ...(raw.technical_skills || []),
+    ...(raw.key_skills || []),
+    ...(raw.core_skills || []),
+  ].forEach((skill) => {
+    if (!skill) return;
+    if (typeof skill === "string") skillSet.add(skill.trim());
+    else if (skill.name) skillSet.add(skill.name.trim());
+  });
 
-    const raw = facultyData;
+  const skills = [...skillSet];
 
-    const skillSet = new Set();
+  if (!skills.length) {
+    container.innerHTML = `<div style="font-size:13px; color:#94A3B8;">No skills extracted</div>`;
+    return;
+  }
 
-    [
-        ...(raw.skills || []),
-        ...(raw.technical_skills || []),
-        ...(raw.key_skills || []),
-        ...(raw.core_skills || [])
-    ].forEach(skill => {
-
-        if (!skill) return;
-
-        if (typeof skill === "string") {
-
-            skillSet.add(skill.trim());
-
-        }
-
-        else if (skill.name) {
-
-            skillSet.add(skill.name.trim());
-
-        }
-
-    });
-
-    const skills = [...skillSet];
-
-    if (!skills.length) {
-
-        container.innerHTML = `
-
-            <div class="empty-card">
-
-                No skills extracted.
-
-            </div>
-
-        `;
-
-        return;
-
-    }
-
-    skills.forEach(skill => {
-
-        const badge = document.createElement("span");
-
-        badge.className = "skill-chip";
-
-        badge.textContent = skill;
-
-        container.appendChild(badge);
-
-    });
-
+  skills.forEach((skill) => {
+    const badge = document.createElement("span");
+    badge.className = "skill-chip";
+    badge.textContent = skill;
+    container.appendChild(badge);
+  });
 }
+
 /* ==========================================================
-                TAB SWITCHING
+   TAB SWITCHING & RESUME BUTTON
 ========================================================== */
 
 function initializeTabs() {
+  const buttons = document.querySelectorAll(".tab-btn");
+  const panels = document.querySelectorAll(".tab-panel");
 
-    const buttons =
-        document.querySelectorAll(".tab-btn");
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      buttons.forEach((btn) => btn.classList.remove("active"));
+      panels.forEach((panel) => panel.classList.remove("active"));
 
-    const panels =
-        document.querySelectorAll(".tab-panel");
-
-    buttons.forEach(button => {
-
-        button.addEventListener("click", () => {
-
-            buttons.forEach(btn =>
-                btn.classList.remove("active")
-            );
-
-            panels.forEach(panel =>
-                panel.classList.remove("active")
-            );
-
-            button.classList.add("active");
-
-            const target =
-                button.dataset.tab;
-
-            document
-                .getElementById(target)
-                .classList.add("active");
-
-        });
-
+      button.classList.add("active");
+      const target = button.dataset.tab;
+      if ($(target)) $(target).classList.add("active");
     });
-
+  });
 }
-
-
-
-/* ==========================================================
-                JSON MODAL
-========================================================== */
-
-function initializeJsonModal() {
-
-    const modal = $("jsonModal");
-
-    const viewer = $("jsonViewer");
-
-    $("jsonBtn").addEventListener("click", () => {
-
-        viewer.textContent =
-            JSON.stringify(
-                facultyData,
-                null,
-                2
-            );
-
-        modal.classList.add("active");
-
-    });
-
-    $("closeModal").addEventListener("click", () => {
-
-        modal.classList.remove("active");
-
-    });
-
-    modal.addEventListener("click", e => {
-
-        if (e.target === modal) {
-
-            modal.classList.remove("active");
-
-        }
-
-    });
-
-}
-
-
-
-/* ==========================================================
-                RESUME BUTTON
-========================================================== */
 
 function initializeResumeButton() {
+  const btn = $("resumeBtn");
+  if (!btn) return;
 
-    $("resumeBtn").addEventListener("click", () => {
-
-        const extensions = [
-            ".pdf",
-            ".docx",
-            ".doc"
-        ];
-
-        for (const ext of extensions) {
-
-            const url =
-                `${RESUME_FOLDER}${facultyId}${ext}`;
-
-            window.open(url, "_blank");
-
-            break;
-
-        }
-
-    });
-
+  btn.addEventListener("click", () => {
+    const url = `${RESUME_FOLDER}${facultyId}.pdf`;
+    window.open(url, "_blank");
+  });
 }
-
-
-
-/* ==========================================================
-                DOWNLOAD JSON
-========================================================== */
-
-function initializeDownloadButton() {
-
-    $("downloadBtn").addEventListener("click", () => {
-
-        const blob = new Blob(
-
-            [
-                JSON.stringify(
-                    facultyData,
-                    null,
-                    2
-                )
-            ],
-
-            {
-                type: "application/json"
-            }
-
-        );
-
-        const url =
-            URL.createObjectURL(blob);
-
-        const a =
-            document.createElement("a");
-
-        a.href = url;
-
-        a.download =
-            `${facultyId}.json`;
-
-        document.body.appendChild(a);
-
-        a.click();
-
-        a.remove();
-
-        URL.revokeObjectURL(url);
-
-    });
-
-}
-
-
-
-/* ==========================================================
-                LOADER
-========================================================== */
 
 function showLoader(show) {
-
-    const loader =
-        $("loadingScreen");
-
-    if (!loader) return;
-
-    loader.style.display =
-        show ? "flex" : "none";
-
+  const loader = $("loadingScreen");
+  if (!loader) return;
+  loader.style.display = show ? "flex" : "none";
 }
 
-
-
-/* ==========================================================
-                TOAST
-========================================================== */
-
-function showToast(message) {
-
-    const toast =
-        $("toast");
-
-    if (!toast) return;
-
-    $("toastMessage").textContent =
-        message;
-
-    toast.classList.add("show");
-
-    setTimeout(() => {
-
-        toast.classList.remove("show");
-
-    }, 2500);
-
+function showErrorState(message) {
+  const profileContainer = $("profileContainer");
+  const errorContainer = $("errorContainer");
+  if (profileContainer) profileContainer.style.display = "none";
+  if (errorContainer) {
+    errorContainer.style.display = "block";
+    const p = errorContainer.querySelector("p");
+    if (p && message) p.textContent = message;
+  }
 }
-
-
-
-/* ==========================================================
-                INITIALIZE COMPONENTS
-========================================================== */
 
 function initializeComponents() {
-
-    initializeTabs();
-
-    initializeJsonModal();
-
-    initializeResumeButton();
-
-    initializeDownloadButton();
-
+  initializeTabs();
+  initializeResumeButton();
 }
-
-
-
-/* ==========================================================
-                UPDATE INIT()
-========================================================== */
-
-/*
-Replace the end of your init() function with:
-
-facultyData = await loadFacultyJSON(facultyId);
-
-populatePage();
-
-initializeComponents();
-
-showLoader(false);
-
-*/
-
-
-/* ==========================================================
-                OPTIONAL
-========================================================== */
-
-/*
-If your index.html passes the filename instead of
-an ID, for example
-
-faculty.html?id=resume1
-
-everything will work automatically because
-
-resume1.json
-resume1.pdf
-
-will both be used.
-
-No further changes required.
-*/

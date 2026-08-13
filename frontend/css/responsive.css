@@ -1,239 +1,149 @@
-/* ===========================================================
-                    LARGE SCREENS
-=========================================================== */
+/* ==========================================================================
+   INSTITUTIONAL FACULTY PORTAL RESPONSIVE STYLES
+   ========================================================================== */
 
-@media (max-width: 1500px){
-
-.stats-grid{
-
-grid-template-columns:repeat(3,1fr);
-
+@media (max-width: 1440px) {
+  .portal-header__inner,
+  .app-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
-.faculty-grid{
+@media (max-width: 1200px) {
+  .app-wrapper {
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 16px;
+    padding: 16px 12px;
+  }
 
-grid-template-columns:repeat(3,minmax(0,1fr));
+  .portal-brand__text h1 {
+    font-size: 15px;
+  }
 
+  .search-global {
+    width: 180px;
+  }
+
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
+@media (max-width: 992px) {
+  .app-wrapper {
+    grid-template-columns: 1fr;
+    padding: 16px 12px;
+  }
+
+  .sidebar {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    width: 100%;
+  }
+
+  .sidebar-heading {
+    display: none;
+  }
+
+  .sidebar-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .portal-header__inner {
+    padding: 0 14px;
+    gap: 12px;
+  }
+
+  .search-global {
+    width: 160px;
+  }
+
+  .page-header-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
 
+@media (max-width: 768px) {
+  .portal-header__inner {
+    height: auto;
+    padding: 10px 14px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
 
-/* ===========================================================
-                    LAPTOP
-=========================================================== */
+  .portal-brand {
+    justify-content: center;
+  }
 
-@media (max-width:1200px){
+  .portal-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-.dashboard-row{
+  .portal-header__actions {
+    justify-content: space-between;
+    width: 100%;
+  }
 
-grid-template-columns:280px 1fr;
+  .search-global {
+    width: 100%;
+  }
 
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faculty-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.stats-grid{
+@media (max-width: 480px) {
+  .app-wrapper {
+    padding: 10px 8px;
+  }
 
-grid-template-columns:repeat(2,1fr);
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
 
+  .user-profile-badge__info {
+    display: none;
+  }
+
+  .filter-card {
+    padding: 14px 12px;
+  }
+
+  .view-switcher__btn {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
 }
 
-.faculty-grid{
-
-grid-template-columns:repeat(2,minmax(0,1fr));
-
-}
-
-.search-box{
-
-width:260px;
-
-}
-
-}
-
-
-/* ===========================================================
-                    TABLET
-=========================================================== */
-
-@media (max-width:992px){
-
-.main-container{
-
-width:96%;
-
-padding:15px;
-
-}
-
-.topbar{
-
-flex-direction:column;
-
-align-items:flex-start;
-
-gap:20px;
-
-}
-
-.topbar__actions{
-
-width:100%;
-
-justify-content:space-between;
-
-flex-wrap:wrap;
-
-}
-
-.search-box{
-
-width:100%;
-
-}
-
-.dashboard-row{
-
-grid-template-columns:1fr;
-
-}
-
-.filter-card{
-
-order:1;
-
-}
-
-.stats-panel{
-
-order:2;
-
-}
-
-.stats-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-.faculty-grid{
-
-grid-template-columns:repeat(2,minmax(0,1fr));
-
-}
-
-.directory-header{
-
-flex-direction:column;
-
-align-items:flex-start;
-
-gap:12px;
-
-}
-
-}
-
-
-/* ===========================================================
-                    MOBILE
-=========================================================== */
-
-@media (max-width:768px){
-
-.topbar{
-
-padding:18px;
-
-}
-
-.topbar__title h1{
-
-font-size:24px;
-
-}
-
-.stats-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.faculty-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.filter-actions{
-
-flex-direction:column;
-
-}
-
-.btn{
-
-width:100%;
-
-}
-
-.directory-section{
-
-padding:18px;
-
-}
-
-}
-
-
-/* ===========================================================
-                    SMALL MOBILE
-=========================================================== */
-
-@media (max-width:480px){
-
-.main-container{
-
-padding:10px;
-
-}
-
-.search-box{
-
-padding:10px 14px;
-
-}
-
-.icon-btn{
-
-width:42px;
-
-height:42px;
-
-}
-
-.panel-title h2{
-
-font-size:20px;
-
-}
-
-.directory-header h2{
-
-font-size:22px;
-
-}
-
-.faculty-card{
-
-padding:18px;
-
-}
-
-.info-grid{
-
-grid-template-columns:1fr;
-
-}
-
+@media (max-width: 375px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faculty-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }
