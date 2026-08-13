@@ -1,0 +1,110 @@
+{
+  "personal_information": {
+    "full_name": "HAMED PIRSIAVASH",
+    "current_designation": "Associate Professor",
+    "total_experience": "",
+    "email": "hpirsiav@ucdavis.edu",
+    "phone": "",
+    "date_of_birth": "",
+    "gender": "",
+    "address": "One Shields Ave, Kemper Hall 3061, Davis, CA 95616",
+    "linkedin": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+  "education": [
+    {
+      "degree": "Ph.D. in Computer Science",
+      "specialization": "Computer Science",
+      "institution": "University of California Irvine, Irvine, CA",
+      "board_university": "",
+      "year": "09/2007 - 09/2012",
+      "cgpa_percentage": "",
+      "normalized_degree": "Ph.D."
+    },
+    {
+      "degree": "M.Sc. in Electrical Engineering",
+      "specialization": "Electrical Engineering",
+      "institution": "Sharif University of Technology, Tehran, Iran",
+      "board_university": "",
+      "year": "09/2003 - 01/2006",
+      "cgpa_percentage": "",
+      "normalized_degree": "M.Sc."
+    },
+    {
+      "degree": "B.Sc. in Electrical Engineering",
+      "specialization": "Electrical Engineering",
+      "institution": "Iran University of Science and Technology, Tehran, Iran",
+      "board_university": "",
+      "year": "09/1999 - 09/2003",
+      "cgpa_percentage": "",
+      "normalized_degree": "B.Sc."
+    }
+  ],
+  "experience": [
+    {
+      "designation": "Associate Professor (with tenure)",
+      "organization": "University of California, Davis, CA",
+      "start_date": "09/2021",
+      "end_date": "Present",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Assistant Professor and Associate Professor (with tenure)",
+      "organization": "University of Maryland, Baltimore County (UMBC), Baltimore, MD",
+      "start_date": "08/2015",
+      "end_date": "09/2021",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Assistant Professor (Secondary) at the Department of Diagnostic Radiology and Nuclear Medicine",
+      "organization": "University of Maryland School of Medicine, Baltimore, MD",
+      "start_date": "12/2019",
+      "end_date": "09/2021",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Postdoctoral Research Associate",
+      "organization": "Massachusetts Institute of Technology (MIT), Cambridge, MA",
+      "start_date": "10/2012",
+      "end_date": "06/2015",
+      "duration": "with Prof. Antonio Torralba",
+      "description": ""
+    },
+    {
+      "designation": "Research Assistant",
+      "organization": "University of California Irvine (UCI), Irvine, CA",
+      "start_date": "09/2007",
+      "end_date": "09/2012",
+      "duration": "",
+      "description": "with Prof. Deva Ramanan; Object detection and tracking and action recognition"
+    },
+    {
+      "designation": "Research Assistant",
+      "organization": "University of Miami, Coral Gables, FL",
+      "start_date": "08/2006",
+      "end_date": "06/2007",
+      "duration": "",
+      "description": "with Prof. Shahriar Negahdaripour; Pairing optical and sonar cameras to perform underwater 3D reconstruction"
+    },
+    {
+      "designation": "Research Assistant",
+      "organization": "Sharif University of Technology, Tehran, Iran",
+      "start_date": "09/2003",
+      "end_date": "01/2006",
+      "duration": "",
+      "description": "with Prof. Farokh Marvasti; Segmentation, denoising, and watermarking in images and videos"
+    }
+  ],
+  "publication_summary": {
+    "journal_publications": 9,
+    "conference_publications": 35,
+    "book_publications": 0,
+    "book_chapters": 0,
+    "patents": 2
+  },
+  "normalized_highest_degree": "Ph.D."
+}

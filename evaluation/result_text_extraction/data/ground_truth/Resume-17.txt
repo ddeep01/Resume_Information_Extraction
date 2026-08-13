@@ -1,0 +1,446 @@
+Serina Chang
+serinac@berkeley.edu -https://serinachang5.github.io
+Last updated: March 27, 2026
+Most Recent CV Here
+ACADEMIC
+POSITIONS
+University of California, Berkeley, Berkeley, CA
+2025-present
+Assistant Professor, Department of Electrical Engineering and Computer Science (50%), UCSF UC Berkeley
+Joint Program in Computational Precision Health (50%)
+Microsoft Research, New York, NY
+2024-2025
+Postdoctoral Researcher, Computational Social Science group
+EDUCATION
+Stanford University, Stanford, CA
+2019-2024
+Ph.D., Computer Science
+Advisors: Jure Leskovec, Johan Ugander; Thesis committee: Dan Jurafsky, Eric Horvitz
+Dissertation: "Computational Methods for Human Networks and High-Stakes Decisions"
+Columbia University, New York, NY
+2015-2019
+B.A., Computer Science (major), Sociology (concentration), magna cum laude
+Advisor: Kathleen McKeown
+HONORS
+Forbes 30 under 30 (United States, Healthcare)
+2026
+ACM SIGKDD Dissertation Award
+2025
+Google Research Scholar Award
+2025
+Rising Stars in Data Science, University of Chicago and University of California San Diego
+2023
+EECS Rising Stars, Georgia Institute of Technology
+2023
+Future Faculty Symposium Scholar, Cornell University
+2023
+Meta PhD Fellowship, Computational Social Science
+2022
+ACM SIGKDD 2021 Best Paper Award, Applied Data Science Track
+2021
+Graduate Research Fellowship, National Science Foundation
+2019
+The Finch Family Fellowship, Stanford University, School of Engineering
+2019
+Outstanding Undergraduate Researcher Award, Computing Research Association
+2019
+Phi Beta Kappa, Columbia University
+2019
+Theodore R. Bashkow Award, Columbia University, Computer Science
+2019
+Academic Excellence Award, Columbia University, Computer Science
+2019
+King's Crown Leadership Award, Innovation and Enhancement, Columbia University
+2018
+Dean's List (all semesters), Columbia University
+2015-2019
+PAPERS
+∗indicates co-first authorship.
+[23] Learning Demographic-Conditioned Mobility Trajectories with Aggregate Supervision
+Jessie Li, Zhiqing Hong, Toru Shirakawa, and Serina Chang
+Under review
+[22] Same Event, Different Truths: How Next-Generation Social Media Platforms Reframe Political Events
+Mao Li, Xinyi Chen, and Serina Chang
+Under review
+[21] Graph-Based Alternatives to LLMs for Human Simulation
+Joseph Suh, Suhong Moon, and Serina Chang
+To appear in ACL 2026 (main)
+Page 1 of 6
+
+[20] Valid Survey Simulations with Limited Human Data:
+The Roles of Prompting, Fine-Tuning, and
+Rectification
+Stefan Krsteski, Giuseppe Russo, Serina Chang, Robert West, and Kristina Gligorić
+To appear in ACL 2026 (main)
+[19] Global Approaches to Infectious Disease Surveillance and Modelling
+Mark Khurana, Joseph Tsui, Bernardo Gutierrez, Ayush Chopra, Neil Scheidwasser, Harrison Zhu,
+Serina Chang, David Duchêne, Cathal Mills, Rhys Inward, ..., Samir Bhatt, Moritz Kraemer
+To appear in Nature Medicine
+[18] What Do Large Language Models Know About Opinions?
+Erfan Jahanparast, Zhiqing Hong, and Serina Chang
+ICLR 2026
+[17] ChatBench: From Static Benchmarks to Human-AI Evaluation
+Serina Chang, Ashton Anderson, and Jake Hofman
+ACL 2025 (main)
+[16] Language Model Fine-Tuning on Scaled Survey Data for Predicting Distributions of Public Opinions
+Joseph Suh∗, Erfan Jahanparast∗, Suhong Moon∗, Minwoo Kang∗, and Serina Chang
+ACL 2025 (main)
+Also presented at American Association for Public Opinion Research (AAPOR) Conference 2025 (oral)
+and the Social Sim and NLPOR Workshops at COLM 2025
+[15] LLMs generate structurally realistic social networks but overestimate political homophily
+Serina Chang∗, Alicja Chaszczewicz∗, Emma Wang, Maya Josifovska, Emma Pierson, and Jure Leskovec
+ICWSM 2025
+Also presented at IC2S2 2024 as Plenary Talk (2.8% of submissions)
+[14] Learning production functions for supply chains with graph neural networks
+Serina Chang, Zhiyin Lin, Benjamin Yan, Swapnil Bembde, Qi Xiu, Chi Heem Wong, Yu Qin, Frank
+Kloster, Xi Luo, Raj Palleti, and Jure Leskovec
+AAAI 2025 (oral, 4.9% of submissions)
+Also presented at Stanford Graph Learning Workshop 2023 and Stanford Causal Science Conference 2023
+[13] Artificial intelligence for modelling infectious disease epidemics
+Moritz U. G. Kraemer∗, Joseph L.-H. Tsui∗, Serina Chang∗, Spyros Lytras, Mark P. Khurana, Samantha
+Vanderslott, Sumali Bajaj, Neil Scheidwasser, Jacob Liam Curran-Sebastian, ..., and Samir Bhatt
+Nature 2025
+[12] Measuring vaccination coverage and concerns of vaccine holdouts from web search logs
+Serina Chang, Adam Fourney, and Eric Horvitz
+Nature Communications 2024
+Also presented at KDD 2023 Workshop on Epidemiology Meets Data Mining and Knowledge Discovery
+(oral); KDD 2023 Workshop on Data Science for Social Good (oral); IC2S2 2024 (oral)
+[11] Inferring dynamic networks from marginals with iterative proportional fitting
+Serina Chang∗, Frederic Koehler∗, Zhaonan Qu∗, Jure Leskovec, and Johan Ugander
+ICML 2024
+Also presented at Learning on Graphs 2023
+[10] Estimating geographic spillover effects of COVID-19 policies from large-scale mobility networks
+Serina Chang, Damir Vrabac, Jure Leskovec, and Johan Ugander
+AAAI 2023
+Also presented at KDD 2022 Workshop on Data-driven Humanitarian Mapping and Policymaking (oral);
+IC2S2 2022
+[9] Computational analysis of 140 years of US political speeches reveals more positive but increasingly
+polarized framing of immigration
+Dallas Card, Serina Chang, Chris Becker, Julia Mendelsohn, Rob Voigt, Leah Boustan, Ran Abramitzky,
+and Dan Jurafsky
+PNAS 2022
+Also presented at Conference on New Directions in Analyzing Text as Data (TADA) 2021 (oral)
+Page 2 of 6
+
+[8] To recommend or not? A model-based comparison of item-matching processes
+Serina Chang and Johan Ugander
+ICWSM 2022 (oral)
+Also presented at IC2S2 2021 (oral)
+[7] Data-driven real-time strategic placement of mobile vaccine distribution sites
+Zakaria Mehrab, Mandy Wilson, Serina Chang, Galen Harrison, Bryan L. Lewis, Alex Tellionis, Justin
+Crowe, Dennis Kim, Scott Spillman, Kate Peters, Jure Leskovec, and Madhav Marathe
+IAAI 2022
+[6] Supporting COVID-19 policy response with large-scale mobility-based modeling
+Serina Chang, Mandy Wilson, Bryan Lewis, Zakaria Mehrab, Komal K. Dudakiya, Emma Pierson, Pang
+Wei Koh, Jaline Gerardin, Beth Redbird, David Grusky, Madhav Marathe, and Jure Leskovec
+KDD 2021 (oral)
+Best Paper Award, Applied Data Science Track (1 out of 705 submissions)
+[5] Mobility network models of COVID-19 explain inequities and inform reopening
+Serina Chang∗, Emma Pierson∗, Pang Wei Koh∗, Jaline Gerardin, Beth Redbird, David Grusky, and Jure
+Leskovec
+Nature 2021
+Also presented at Networks 2021 (oral); NeurIPS 2020 COVID-19 Symposium (invited talk); NeurIPS
+2020 Machine Learning for Health Workshop
+Coverage in 650+ news outlets, including The New York Times and The Washington Post; ranked as #3
+most online impact among 901 similar-age papers published by Nature (metrics)
+[4] Epidemic dynamics in inhomogeneous populations and the role of superspreaders
+Kyle Kawagoe∗, Mark Rychnovsky∗, Serina Chang, Greg Huber, Lucy M. Li, Jonathan Miller, Reuven
+Pnini, Boris Veytsman, and David Yllanes
+Physical Review Research 2021
+[3] Automatically inferring gender associations from language
+Serina Chang and Kathleen McKeown
+EMNLP 2019 (oral, short paper)
+[2] Detecting gang-involved escalation on social media using context
+Serina Chang, Ruiqi Zhong, Ethan Adams, Fei-Tzin Lee, Siddharth Varia, Desmond Patton, William
+Frey, Chris Kedzie, and Kathleen McKeown
+EMNLP 2018 (oral, long paper)
+[1] Crowd-sourced iterative annotation for narrative summarization corpora
+Jessica Ouyang, Serina Chang, and Kathleen McKeown
+EACL 2017 (oral, short paper)
+INVITED
+TALKS
+Northwestern University, Validating Generative AI-Based Social Sciences
+2026
+University of Michigan, Program in Survey and Data Science, Likert Symposium
+2026
+Alameda County Public Health Department, All Epi meeting
+2026
+UC Berkeley, Berkeley AI Research (BAIR) Lab Seminar
+2026
+UC Berkeley, Demography Brown Bag Series
+2026
+UC Berkeley, Institute of Transportation Studies Seminar
+2026
+UC Berkeley, Applied Statistical Methods (STAT 215B)
+2026
+UCSF, Deep Learning for Biological and Clinical Research (BMI/BioE 212)
+2026
+UVA Workshop on Social Contagions, Artificial Intelligence, and Democracy (Keynote)
+2025
+NeurIPS Workshop on LLM Persona Modeling (Keynote)
+2025
+Conference on AI and Statistics, ISU and National Institute of Statistical Sciences (Plenary)
+2025
+WHO Pandemic and Epidemic Intelligence Innovation Forum
+2025
+UC Berkeley, EECS Colloquium
+2025
+EPINEXT: Next-gen Methods for Data-Rich Epidemic Models (satellite of CCS2025)
+2025
+UC Berkeley, Biostatistics Seminar
+2025
+Frontiers in Computational Health, Berkeley, CA
+2025
+CHI 2025 Panels, "Opportunities and Challenges of Applying LLM-Simulated Data to HCI Studies"
+2025
+Princeton, Machine Behavior (COS 598B)
+2025
+Page 3 of 6
+
+Stanford, AI Agents and Simulations (CS 222)
+2024
+MIT, Initiative on Digital Economy (IDE) Seminar
+2024
+Learning on Graphs Conference, NYC Meetup
+2024
+UC Berkeley, Computational Precision Health Doctoral Seminar
+2024
+CMU, AI and Emerging Economies (Course 94-894)
+2024
+Cornell Tech, Urban Data (INFO 5430)
+2024
+Public Health Insight Podcast
+2024
+Oxford, Networks Seminar
+2024
+Stanford, Big Data Methods for Behavioral, Social, and Population Health Research (EPI 270)
+2024
+CMU School of Computer Science, Machine Learning Department
+2024
+UC Berkeley, EECS Department & Computational Precision Health
+2024
+University of Illinois Urbana-Champaign, Department of Computer Science
+2024
+AAAI'24 Workshop on Graphs and More Complex Structures for Learning and Reasoning
+2024
+University of Washington, Paul G. Allen School of Computer Science & Engineering
+2024
+Microsoft Research NYC, Computational Social Science
+2024
+Columbia Business School, Decision, Risk, and Operations Division
+2024
+Cornell, Departments of Computer Science & Information Science
+2023
+Johns Hopkins, Department of Computer Science
+2023
+MIT, Department of Political Science & Schwarzman College of Computing
+2023
+NYU Stern School of Business, Department of Technology, Operations, and Statistics
+2023
+Learning on Graphs Conference, Stanford Meetup
+2023
+Northeastern, Network Science Institute Seminar
+2023
+Cornell Tech, Applied Data Science: Decision-Making Beyond Prediction (ORIE 5355)
+2023
+Stanford, Graph Learning Workshop
+2023
+Columbia, Analysis of Networks and Crowds (COMS 6998)
+2023
+Cornell Tech, Data Science for Social Change (CS 6382)
+2023
+NSF Predictive Intelligence for Pandemic Prevention (PIPP), PandEval Research Team
+2023
+NIH National COVID Cohort Collaborative (N3C), Machine Learning Seminar
+2023
+Stanford, Algorithmic Fairness Seminar
+2023
+Stanford, Networks (MS&E 135)
+2023
+Meta, Computational Social Science Seminar
+2023
+Stanford, Introduction to Computational Social Science (MS&E 231)
+2022
+Stanford, Fundamental Concepts in MS&E (MS&E 302)
+2022
+OECD-ODISSEI Webinar on Open Data Infrastructure
+2021
+Data Science Connect Conference
+2021
+March for Science Podcast
+2021
+PathCheck Global Health Innovators Seminar
+2021
+Diaries of Social Data Research Podcast
+2021
+NeurIPS, COVID-19 Symposium
+2020
+AI Science Spotlight Series
+2020
+Global Pervasive Computational Epidemiology Seminar
+2020
+The Octavian Report Podcast
+2020
+Placekey Community Seminar
+2020
+Stanford, Stats ML Retreat
+2020
+WORK
+EXPERIENCE
+AI Advisor, United Nations Development Programme (UNDP)
+2024
+-Served as AI Advisor on "Project Vision: AI Unveils Tomorrow", which seeks to use AI to analyze how countries are responding
+to impending risks (e.g., climate change, pandemics, democratic backsliding) and adapting their development strategies
+Research Intern, Microsoft Research
+2022-2024
+-Developed graph ML methods to mine search logs and derive public health insights. See Chang, Fourney, and Horvitz,
+"Measuring vaccination coverage and concerns of vaccine holdouts from web search logs", Nature Communications (2024).
+Software Engineering Intern, Google, Geo Assistant
+2018
+-Built a new, user-facing feature for Google Search and Assistant; implemented changes from backend to frontend
+Engineering Practicum Intern, Google, Search Site Reliability Engineering (SRE)
+2017
+-Improved internal tools for monitoring and tracking requests to Google Now
+Page 4 of 6
+
+TEACHING
+Instructor, UCSF UC Berkeley, Public Health Practicum (CPH201B)
+2026
+-This is a graduate-level course for PhD students in the Computational Precision Health program
+-Course material introduces students to public health research and practice, including lectures from public health experts and
+in-depth experiences where students conduct 1-1 interviews with public health professionals
+Instructor, UC Berkeley, Machine Learning and Human Behavior (CS294-286)
+2025
+-This is a new graduate-level CS course that I created with projects, paper readings, and paper presentations
+-Course material explores the intersection of ML and human behavior, including modeling human behaviors with ML,
+algorithmically infused societies (e.g., recommender systems), and human-AI interaction
+Head course assistant (CA), Stanford University, Machine Learning with Graphs (CS224W)
+2021
+-Managed team of 9 CAs and class of around 300 students; oversaw lecture slides, assignments, exams, and final projects
+-Course material covers the foundations and state-of-the-art of machine learning with graphs, including representation learning,
+graph neural networks, reasoning over knowledge graphs, and algorithms for large-scale networks
+Instructor, Girls Who Code, Summer Immersion Program
+2019
+-Served as the primary teacher for a classroom of 20 high school girls
+-Taught a 7-week curriculum including Python, HTML, CSS, JavaScript, and Arduino
+Instructional assistant, Columbia University, Data Structures in Java (COMS 3134)
+2017
+-Led discussion sections, held weekly office hours, and graded assignments and exams
+Peer tutor, Columbia University, Computer Science Theory (COMS 3261)
+2017
+ADVISING
+Advising as Faculty, UC Berkeley
+PhD: Joseph Suh (Berkeley EECS, co-advised with John Canny), Zhiqing Hong (Berkeley visiting student from
+Rutgers CS)
+Master's: Jessie Li (Berkeley Biostatistics)
+Undergraduate: Murari Ganesan, Erfan Jahanparast, Steven Luo, Jonathan Ngai, Ayush Raj (Berkeley)
+Research mentees during PhD, Stanford University
+PhD: Alicja Chaszczewicz (Stanford CS), Jordan Troutman (Stanford CS)
+Master's: Damir Vrabac (Stanford CS)
+Undergraduate: Zhiyin Lin, Daisuke Masuda, Emma Wang, Benjamin Yan (Stanford); Maya Josifovska (UCLA)
+SERVICE
+Organization
+Co-Organizer, KDD Workshop on Data-driven Decision Making for Public and Population Health
+2026
+Co-Organizer, NeurIPS Workshop on Behavioral Machine Learning
+2024
+Co-Organizer, KDD Workshop on Epidemiology meets Data Mining and Knowledge discovery
+2024
+Program Chair, Machine Learning for Health (ML4H)
+2023
+Co-Organizer, KDD Workshop on Data Science for Social Good
+2023
+Panel Moderator, KDD Equity, Diversity & Inclusion (EDI) Day
+2023
+Faculty Search Committee, Stanford Data Science and School of Engineering
+2023
+Organizer, NYC Digital Humanities Week, Using Computation to Analyze Gender in Film
+2019
+Journal reviewer
+Proceedings of the National Academy of Sciences (PNAS)
+2025
+The New England Journal of Medicine AI (NEJM AI)
+2024
+Proceedings of the National Academy of Sciences (PNAS)
+2024
+Science Advances
+2023
+Nature Human Behaviour
+2022
+American Journal of Sociology
+2021
+ACM Transactions on Spatial Algorithms and Systems
+2021
+npj Urban Sustainability
+2021
+Conference reviewer
+KDD, Research Track, Area Chair
+2026
+IJCAI-ECAI, AI for Social Good Track, Senior Program Committee
+2026
+Machine Learning for Health, Area Chair
+2025
+AAAI, Special Track on AI for Social Impact, Senior Program Committee
+2025
+ACL Rolling Review
+2025
+Page 5 of 6
+
+UIST
+2025
+WWW
+2025
+AAAI
+2025
+Machine Learning for Health
+2024
+International Conference on Computational Social Science (IC2S2)
+2024
+KDD, epiDAMIK Workshop
+2024
+AAAI
+2024
+EMLNP
+2024
+Machine Learning for Health
+2023
+ACL Rolling Review
+2023
+ICWSM
+2023
+KDD, epiDAMIK Workshop
+2023
+KDD, Data Science for Social Good Workshop
+2023
+ACL Rolling Review
+2022
+Machine Learning for Health
+2022
+ACL, NLP for Positive Impact Workshop
+2022
+KDD, epiDAMIK Workshop
+2022
+ACL-IJCNLP
+2021
+Machine Learning for Health
+2021
+ACL, NLP for Positive Impact Workshop
+2021
+ICLR, AI for Public Health Workshop
+2021
+Mentorship
+Machine Learning for Health (ML4H), Career Mentorship Program
+2025
+IJCNLP-AACL Student Research Workshop, Mentor
+2025
+International Conference for Computational Social Science (IC2S2), Mentor
+2024
+Stanford Computer Science, CURIS (undergraduate summer research), Mentor
+2023
+Machine Learning for Health (ML4H), Career Mentorship Program
+2023
+Stanford Computer Science, Undergraduate Mentoring Program
+2022
+Stanford Engineering, Summer Undergraduate Research Fellowship, Mentor
+2021
+Page 6 of 6

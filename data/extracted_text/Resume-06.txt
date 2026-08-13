@@ -1,0 +1,790 @@
+JEAN PONCE
+CURRICULUM VITAE
+EDUCATION
+• Doctorat d’Etat, Computer Science, University of Paris Orsay (1988).
+• Doctorat de Troisi`eme Cycle, Computer Science, University of Paris Orsay (1983).
+• Ecole Normale Sup´erieure de l’Enseignement Technique, Mathematics (1978–1982).
+• Diplˆome d’Etudes Approfondies, Computer Science, University of Paris Orsay (1981).
+• Maˆıtrise, Mathematics, University of Paris Orsay (1980).
+EMPLOYMENT
+• Chair, D´epartement d’Informatique, Ecole Normale Sup´erieure [ENS], Paris (2011–).
+• Professor, exceptional class (permanent position, “titulaire”), D´epartement d’Informatique, ENS,
+Paris (2007–).
+• Professor, ﬁrst class (non-permanent position, “professeur associ´e”), D´epartement d’Informatique,
+ENS, Paris (2006).
+• Professor, Dept.
+of Computer Science and Beckman Institute, University of Illinois at Urbana-
+Champaign [UIUC] (1998–2006).
+• Associate Professor, Dept. of Computer Science and Beckman Institute, UIUC (1993-1998).
+• Assistant Professor, Dept. of Computer Science and Beckman Institute, UIUC (1990-1993).
+• Sr.
+Research Associate, Robotics Laboratory, Dept.
+of Computer Science, Stanford University
+(1988-1989).
+• Research Associate, Robotics Laboratory, Dept. of Computer Science, Stanford University (1985-
+1988).
+• Visiting Scientist, MIT Artiﬁcial Intelligence Laboratory (1984-1985).
+• Research Scientist, Institut National de Recherche en Informatique et Automatique (1982-1985).
+RESEARCH INTERESTS
+• Computer Vision, Computer Graphics, Machine Learning, Robotics.
+HONORS AND AWARDS
+• Sr. Member, Institut Universitaire de France (2012–).
+• Recipient of the ERC Advanced Grant “VideoWorld” (2011).
+• IEEE Fellow (2003).
+• Outstanding Undergraduate Advisor award, College of Engineering, University of Illinois (2000).
+• Sr. Xerox award for faculty research, College of Engineering, University of Illinois (1998).
+• Beckman Associate in the Center of Advanced Study of the University of Illinois (1994-95).
+• Jr. Xerox award for faculty research, College of Engineering, University of Illinois (1993).
+US PATENTS
+• “Match, Expand, and Filter Technique for Multi-View Stereopsis”, Y. Furukawa and J. Ponce, US
+Patent # 8,331,615 (2012). PMVS, an implementation of this technique available under a GPL license
+at http://http://www.di.ens.fr/pmvs/, is used in the Photo Tours feature of Google Maps. It is
+also used in production by both Lucasﬁlm and Weta Digital.
+• “Automated Reconﬁgurable Object Manipulation Device with an Array of Pins”, S. Akella, S. Blind,
+C. Mc Cullough, and J. Ponce, US Patent # 6,633,797 (2003).
+1
+
+PROFESSIONAL ACTIVITIES
+• Editorial Board Member, SIAM Journal on Imaging Sciences (2010–2011).
+• Editor-in-Chief, International Journal of Computer Vision (2003–2008).
+• Editorial Board Member, Foundation and Trends in Computer Graphics and Vision (2005–).
+• Editorial Board Member, International Journal of Computer Vision (2001-2002).
+• Associate Editor, IEEE Transactions on Robotics and Automation (1998-2001).
+• Area Editor, Computer Vision and Image Understanding (1994-2000).
+• General Chair, European Conf. on Computer Vision, Marseille, France (2008).
+• General Chair, IEEE Conf. on Computer Vision and Pattern Recognition, Hilton Head Island, SC
+(2000).
+• Program Chair, IEEE Conf. on Computer Vision and Pattern Recognition, San Juan, PR (1997).
+• Chair, Third Int. Workshop on Object Recognition, Siracusa, Italy (2006).
+• Chair, Second Int. Workshop on Object Recognition, Taormina, Italy (2004).
+• Chair, First Int. Workshop on Object Recognition, Taormina, Italy (2003).
+• Chair, DIMACS Workshop on Computer Vision and Robotics, Rutgers University (1999).
+• Chair, Int. Workshop on Object Representation in Computer Vision, University of Cambridge, UK
+(1996).
+• Chair, NSF/ARPA Workshop on Object Representation in Computer Vision, New York City, NY
+(1994).
+• Member, contents thematic commission, Cap Digital, (2009–).
+• Member, Scientiﬁc Advisory Board of the ENS Institute (2007–).
+• Member, Network of North American Advisors to the French Academy of Engineering (2002–2005).
+• Member, Scientiﬁc Advisory Board of France T´el´ecom (2001-2004).
+• Member, Scientiﬁc Advisory Board of Electricit´e de France (1998-2002).
+• Member, ARO Computational Geometry for Intelligent Systems Advisory Board (1996–).
+• Member, ARPA/ORD RADIUS Image Understanding Advisory Committee (1994-1996).
+• Recent Invited Lectures (2010–2013)
+2010: Keynote speaker, British Association for Machine Vision Conference, Aberystwyth, Wales;
+What Can Computer Vision Do for Neuroscience and Vice Versa Conference, Janelia Farm; Labora-
+toire d’informatique Gaspard-Monge, Paris; Laboratoire Jacques-Louis Lions, Paris. 2011: Distin-
+guished speaker, Taiwan Academica Sinica; Distinguished speaker, University of Delaware Computer
+Science Department; ETH Zurich Computer Science Department.
+2012: Invited speaker at the ACCV Workshop on E-Heritage, Daejong, Korea.
+2013: Keynote speaker for the 37th Annual Workshop of the Austrian Association for Pattern Recog-
+nition, Innsbruck, Austria; Distinguished speaker for the XRCE 20th anniversary, Grenoble, France.
+ADMINISTRATIVE RESPONSABILITIES
+UIUC:
+• Faculty committees: faculty search, graduate admission, promotion and tenure.
+• Head of the artiﬁcial intelligence group of the computer science department.
+• Head of the artiﬁcial group of the Beckman Institute.
+ENS:
+• Head of the WILLOW project-team (2007–). WILLOW is part of DI (“D´epartement d’Informatique
+2
+
+de l’ENS), the ENS computer science department, a joint unit of ENS, CNRS, and INRIA (UMR
+8548). Its research focuses on computer vision. WILLOW consists of 15 researchers, including 3 per-
+manent faculty members.
+• In charge of the ENS computer science entrance exam (2007–2010).
+• In charge of teaching at the ENS computer science department (2008–2011).
+• In charge of the “habilitation diriger les recherches” (habilitation to direct research) degree at the
+ENS computer science department (2009–).
+• In charge of the DI activities linked to the French “investissements d’avenir” (“investing in the
+future”) initiative: I have been instrumental in the eﬀort to make DI a member of the Paris Foun-
+dation of Mathematical Sciences (“Fondation de Sciences Math´ematiques de Paris,” or FSMP), and I
+have headed the computer science part of the successful FSMP Laboratory of Excellence (“LABEX”)
+project, granted in 2011. I have also headed the computer science part of the successful Excellence
+Initiative (“IDEX”) project of the “Paris Sciences et Lettres” Foundation, granted in 2011.
+• Head of the ENS computer science department (2011–).
+TEACHING
+UIUC:
+• CS257: Numerical Methods (sophomores).
+• CS318: Introduction to Computer Graphics (seniors).
+• CS319: Advanced Computer Graphics (seniors).
+• CS348: Introduction to Artiﬁcial Intelligence (seniors).
+• CS397: Geometric and Symbolic Computation (seniors).
+• CS397: Geometric Modeling (seniors).
+• ECE449/CS443: Computer Vision (graduate students).
+• ECE450: Advanced Robotic Planning (graduate students).
+• CS497: Geometric Methods in Computer Vision (graduate students).
+ENS:
+• Introduction to Scientiﬁc Computing and its Applications (M1, 45h).
+• Geometric Bases of Computer Science (M1, 24h).
+• Geometry and Computer Vision (M2, 45h).
+• Introduction to Computer Vision (M1, 45h).
+• Object Recognition (M2, 6h).
+Tutorials and Summer Schools:
+• Tutorial on sparce coding and machine learning for image analysis, International Conference on
+Computer Vision, with Francis Bach, Julien Mairal, and Guillermo Sapiro, 2010 (3 hours).
+• Tutorial on sparce coding and machine learning for image analysis, IEEE Conference on Computer
+Vision and Pattern Recognition, with Francis Bach, Julien Mairal, and Guillermo Sapiro, 2010 (4
+hours).
+• ENS/INRIA Visual Recognition and Machine Learning Summer School, with Ivan Laptev, Cordelia
+Schmid, and Josef Sivic, 2011-2013.
+STUDENT SUPERVISION
+Current PhD Students:
+• Louise Benoˆıt.
+• Florent Couzinie-Devy.
+• Piotr Bojanowski.
+3
+
+• Rafael Sampaio de Rezende.
+Past PhD Students:
+• A. Joulin. Post-Doctoral Researcher, Stanford University.
+• O. Duchenne. Engineer, Inter Korea.
+• Y-Lan Boureau. Post-Doctoral Researcher, New York University.
+• Oliver Whyte. Engineer, Microsoft.
+• Julien Mairal. Research Scientist, INRIA.
+• Yakup Genc. Siemens SCR.
+• Tanuja Joshi. Microsoft.
+• Yasutaka Furukawa. Assistant Professor, Dept. of Computer Science and Engineernig, Washington
+University in St. Louis.
+• Akash Kushal. Two Sigma Investments.
+• Svetlana Lazebnik. Assistant Professor, Dept. of Computer Science, University of Illinois at Urbana-
+Champaign.
+• Kenton McHenry. National Center for Supercomputing Applications.
+• Frederick Rothganger. Sandia Laboratories.
+• Ilan Shimshoni. Professor, Dept. of Management Information Systems, University of Haifa, Israel.
+• Attawith Sudsang. Assistant Professor, Dept. of Computer Engineering, Chulalongkom University,
+Thailand.
+• Steven Sullivan. Senior Technology Oﬃcer, LucasFilm.
+Past MS Students:
+• S´ebastien Blind.
+• Sung-il Pae.
+• Zeynep Kantarcioglu (de jur´e advisor).
+• Val´erie Lehner (de jur´e advisor).
+• Troy Thomas.
+• Sylvain Petitjean.
+• Darrell Stam.
+• Anthony Hoogs.
+GRANTS
+UIUC:
+• National Science Foundation: Toward Category-Level Object Recognition, J. Ponce (PI) and Y. Le-
+Cun, IIS-0535152/0535166, 2005-2008, $600,000 ($345,000 for UIUC).
+• France Telecom R&D: UIUC-France Telecom Collaboration: Learning Part-Based Models of Artic-
+ulated Objects, J. Ponce (PI), 2006-2007, $93,368.
+• National Science Foundation: Collaborative Research: Toward Category-Level Object Recognition, J.
+Ponce (PI) and Y. LeCun, IIS-0535152/0535166, 2005-2008, $600,000.
+• Toyota Motor Corporation: UIUC-Toyota Collaboration: Scene Segmentation and Recognition, J.
+Ponce (PI), 2005-2006, $101,438.
+• National Science Foundation: Toward 3D Object Recognition, J. Ponce (PI), IIS-0308087, 2003-2006,
+$240,000.
+• National Science Foundation: ITR: An Integrated Approach to 3D Photography Using Shape, Tex-
+ture, and Motion Cues, J. Ponce (PI), IIS-0312438, 2003-2006, $381,485.
+• Toyota Motor Corporation: UIUC-Toyota Collaboration: 3D Object Modeling, Recognition and Clas-
+siﬁcation from Photographs, J. Ponce (PI), 2004-2005, $73,000.
+• National Science Foundation: Designing Tomorrow’s Category-Level Object Recognition Systems, J.
+Ponce (PI), IIS-0335780, 2003, $20,000.
+• National Science Foundation: Capture Regions for Grasping, Manipulating, and Re-Orienting Parts,
+4
+
+J. Ponce (PI), IIS-9907009, 1999-2002, $300,000.
+• National Science Foundation: Algorithms for Constructing Immobilizing Fixtures and Grasps of
+Three-Dimensional Objects, J. Ponce (PI), IRI-9634393, 1996-1999, $154,355.
+• National Science Foundation: Generalized Cylinders Revisited, J. Ponce (PI), IRI-9634312, 1996-
+1999, $154,355.
+• National Science Foundation: Modeling and Recognition of Arbitrary Curved Objects from Image
+Contours, Jean Ponce (PI) and David J. Kriegman, IRI-9224815, 1993-1997, $330,000.
+• National Science Foundation: Practical Algebraic Techniques for Robotics and Computer Vision,
+Jean Ponce (PI), Seth Hutchinson, and David J. Kriegman, NSF CISE Instrumentation, CDA 91-
+21899 EQ, 1992, $146,624.
+• National Science Foundation: Representations and Algorithms for Recognizing and Locating 3D
+curved Objects from Monocular Images, Jean Ponce (PI) and David J. Kriegman, IRI-9015749, 1991–
+1993, $280,000.
+ENS:
+• ERC Advanced Grant: VideoWorld, Jean Ponce, PI (2011-2015).
+• MSR-INRIA Laboratory: Image and Video Mining for the Sciences and Humanities, Jean Ponce,
+PI (2008-2010). Joint project with the INRIA VISTA and LEAR teamns, MSR, and INA.
+• Agence Nationale de la Recherche (ANR): Graphical models and applications, Francis Bach, PI
+(2008-2010). Joint project between Ecole Nationale Sup´erieure des Mines de Paris, Ecole Nationalte
+Sup´erieure des T´el´ecommunications, and INRIA.
+• Agence Nationale de la Recherche: High-ﬁdelity image-based modeling and rendering, Josef Sivic, PI
+(2008-2010). Joint project between the WILLOW and ARTIS INRIA teams, and the COMSEE team
+of LASMEA in Clermont-Ferrand.
+• Agence Nationale de la Recherche: Triangles, O. Devillers, PI (2008–2010). Joint project between
+the GEOMETRICA and WILLOW INRIA teams, and Universit´e de Lyon.
+• D´el´egation G´en´erale pour l’Armement (DGA): Development and evaluation of new algorithms for
+automated target recognition (2008-2010). Joint project with BERTIN, the University of Caen and the
+VISTA INRIA team.
+• D´el´egation G´en´erale pour l’Armement: Projet ITISECURE : s´ecurisation d’itin´eraires contre les
+IED par analyse optique, Jean Ponce (PI), 2008. Joint project between the EVITECH company and
+WILLOW.
+• Getty Conservation Institute: Stereo methods for the quantitative evaluation of stone deteroriation
+on the Copan hyeroglyphic stairway, Jean Ponce (PI), 2007.
+PUBLICATIONS
+I have published one textbook, three edited volumes, 48 journal articles, and over 100 peer-reviewed
+papers in international conferences. My h-index is 52, with over 15,000 citations.
+BOOK
+1. David Forsyth and Jean Ponce, Computer Vision: A Modern Approach, Prentice-Hall,
+2003. (This textbook is used in over 40 universities worldwide, including MIT, UC Berkeley,
+Carnegie-Mellon University, Oxford University. Chinese, Japanese, and Russian translations are
+available. It was entirely rewritten for the second edition, published by Pearson in November
+2011.)
+EDITED BOOKS
+5
+
+1. Jean Ponce, Martial Hebert, Cordelia Schmid, and Andrew Zisserman (eds.), Toward Category-
+Level Object Recognition, Springer-Verlag, Lecture Notes in Computer Science, Vol. 4170,
+2007.
+2. J. Ponce, A. Zisserman and M. Hebert (eds.), Object Representation in Computer Vision
+II, Springer-Verlag, Lecture Notes in Computer Science 1144, October 1996.
+3. M. Hebert, J. Ponce, T.E. Boult, and A. Gross (eds.), Object Representation in Computer
+Vision, Springer-Verlag, Lecture Notes in Computer Science 994, 1995.
+JOURNAL ARTICLES
+1. Florent Couzinie, Julien Mairal, Francis Bach, Jean Ponce, Dictionary Learning for Deblurring
+and Digital Zoom. Submitted to Journal of Mathematical Imaging and Vision, 2012.
+2. Oliver Whyte, Josef Sivic, Andrew Zisserman, Jean Ponce, Non-Uniform Deblurring for Shaken
+Images, International Journal of Computer Vision, 98(2):168-186, 2012.
+3. Julien Mairal, Francis Bach, and Jean Ponce, Task-Driven Dictionary Learning, IEEE Transac-
+tions on Pattern Analysis and Machine Intelligence, 34(4):791-804, 2012.
+4. Olivier Duchenne, Francis Bach, In-So Kweon, Jean Ponce, A Tensor-Based Algorithm for
+High-Order Graph Matching, IEEE Transactions on Pattern Analysis and Machine Intelligence,
+33(12):2383-2395, 2011.
+5. Yasutaka Furukawa and Jean Ponce, Accurate, Dense, and Robust Multi-View Stereopsis, IEEE
+Transactions on Pattern Analysis and Machine Intelligence, 32(8), 2010.
+6. Hui Kong, Jean-Yves Audibert, and Jean Ponce, Detecting Abandoned Objects with a Moving
+Camera, IEEE Transactions on Image Processing, 9(18):2201-2210, 2010.
+7. Hui Kong, Jean-Yves Audibert, and Jean Ponce, General Road Detection from a Single Image,
+IEEE Transactions on Image Processing, 9(18):2211-2220, 2010.
+8. Julien Mairal, Francis Bach, Jean Ponce, and Guillermo Sapiro, Online Learning for Matrix
+Factorization and Sparse Coding, Journal of Machine Learning Research, 11:19-60, January
+2010.
+9. Yasutaka Furukawa and Jean Ponce, Accurate Camera Calibration from Multi-View Stereo and
+Bundle Adjustment, the International Journal of Computer Vision, 84(3):257-268, 2009.
+10. Yasutaka Furukawa and Jean Ponce, Carved Visual Hulls for Image-Based Modeling, the In-
+ternational Journal of Computer Vision, 81(1):53–67, 2009. Special issue dedicated to the best
+papers of ECCV’06.
+11. JeﬀErickson, Shripad Thite, Fred Rothganger and Jean Ponce, Capturing a Convex Object with
+Three Discs, the IEEE Transaction on Robotics and Automation, 23(6):1133–1140, 2007.
+12. Svetlana Lazebnik, Yasutaka Furukawa, and Jean Ponce, Projective Visual Hulls, the Interna-
+tional Journal of Computer Vision, 74(2):137–165, 2007.
+13. Fred Rothganger, Svetlana Lazebnik, Cordelia Schmid and Jean Ponce, Segmenting, Modeling,
+and Matching Video Clips Containing Multiple Moving Objects, IEEE Transactions on Pattern
+Analysis and Machine Intelligence, 29(3):477–491, 2007.
+6
+
+14. Fred Rothganger, Svetlana Lazebnik, Cordelia Schmid and Jean Ponce, 3D Object Modeling and
+Recognition Using Local Aﬃne-Invariant Image Descriptors and Multi-View Spatial Constraints,
+International Journal of Computer Vision, 66(3):231–259, 2006.
+15. Yasutaka Furukawa, Amit Sethi, Jean Ponce and David Kriegman, Robust Structure and Motion
+from Outlines of Smooth Curved Surfaces, IEEE Transactions on Pattern Analysis and Machine
+Intelligence, 28(2):302-315, 2006.
+16. Svetlana Lazebnik, Cordelia Schmid and Jean Ponce, A Sparse Texture Representation Us-
+ing Local Aﬃne Regions, IEEE Transactions on Pattern Analysis and Machine Intelligence,
+27(8):1265–1278, 2005.
+17. Svetlana Lazebnik and Jean Ponce, The Local Projective Shape of Smooth Surfaces and Their
+Outlines, International Journal of Computer Vision, 63(1):65-83, 2005.
+18. Amit Sethi, David Renaudie, David Kriegman and Jean Ponce, Curve and Surface Duals and
+the Recognition of Curved 3D Objects from their Silhouettes, International Journal of Computer
+Vision, 58(1):73-86, 2004.
+19. Attawith Sudsang, Fred Rothganger and Jean Ponce, Motion Planning for Disc-Shaped Robots
+Pushing a Polygonal Object in the Plane, IEEE Transactions on Robotics and Automation,
+18(4):550-562, 2002.
+20. Sbastien Blind, Christopher McCullough, Srinivas Akella and Jean Ponce, Manipulating Parts
+with an Array of Pins: A Method and a Machine, International Journal of Robotics Research,
+20(10):808-818, 2001.
+21. Sung-il Pae and Jean Ponce, On Computing Structural Changes in Evolving Surfaces and their
+Appearance, International Journal of Computer Vision, 43(2):113–131, 2001.
+22. Yakup Genc and Jean Ponce, Image-Based Rendering Using Parameterized Image Varieties,
+International Journal of Computer Vision, 41(3):143–170, 2001.
+23. Ilan Shimshoni and Jean Ponce, Probabilistic 3D Object Recognition, International Journal of
+Computer Vision, 36(1):51-70, 2000.
+24. Attawith Sudsang, Jean Ponce and Narayan Srinivasa, Grasping and In-Hand Manipulation:
+Geometry and Algorithms, Algorithmica, 26:466-493, 2000.
+25. Tanuja Joshi, Narendra Ahuja and Jean Ponce, Structure and Motion Estimation from Dynamic
+Silhouettes under Perspective Projection, International Journal of Computer Vision, 31(1):31-50,
+1999.
+26. B. Vijayakumar, David J. Kriegman and Jean Ponce, Invariant-Based Recognition of Com-
+plex Curved 3D Objects from Images Contours, Computer Vision and Image Understanding,
+72(3):287-303, 1998.
+27. Attawith Sudsang, Jean Ponce and Narayan Srinivasa, Grasping and In-Hand Manipulation:
+Experiments with a Reconﬁgurable Gripper, Advanced Robotics, 12(5):509-533, 1998.
+28. Steve Sullivan and Jean Ponce, Automatic Model Construction, Pose Estimation, and Object
+Recognition from Photographs Using Triangular Splines, IEEE Transactions on Pattern Recog-
+nition and Machine Intelligence, 20(10):1091–1096, 1998.
+29. Jean Ponce and Yakup Genc, Epipolar Geometry and Linear Subspace Methods: A New Approach
+to Weak Calibration, International Journal of Computer Vision, 28(3):223–243, 1998.
+7
+
+30. Tanuja Joshi, B. Vijayakumar, David J. Kriegman and Jean Ponce, Hot Curves for Modelling
+and Recognition of Smooth Curved 3D Objects, Image and Vision Computing, 15(7):479-498,
+1997.
+31. Alison Noble, Dale Wilson and Jean Ponce, On Computing Aspect Graphs of Smooth Shapes
+from Volumetric Data, Computer Vision and Image Understanding, special issue on Biomedical
+Image Analysis, 66(2):179–192, 1997.
+32. Ilan Shimshoni and Jean Ponce, Finite-Resolution Aspect Graphs of Polyhedral Objects, IEEE
+Transactions on Pattern Analysis and Machine Intelligence, 19(4):315-327, 1997.
+33. Ilan Shimshoni and Jean Ponce, Recovering the Shape of Polyhedra Using Line-Drawing Analysis
+and Complex Reﬂectance Models, Computer Vision and Image Understanding, special issue on
+Physics-Based Vision, 65(2):296-310, 1997.
+34. Jean Ponce, Steve Sullivan, Attawith Sudsang, Jean-Daniel Boissonnat, and Jean-Pierre Merlet,
+On Computing Four-Finger Equilibrium and Force-Closure Grasps of Polyhedral Objects, the
+International Journal of Robotics Research, 16(1):11-35, 1997.
+35. Jean Ponce and Bernard Faverjon, On Computing Three-Finger Force-Closure Grasps of Polyg-
+onal Objects, IEEE Transactions on Robotics and Automation, 11(6):868-881, 1995.
+36. Steve Sullivan, Lorraine Sandford and Jean Ponce, Using Geometric Distance Fits for 3D Object
+Modelling and Recognition, IEEE Transactions on Pattern Analysis and Machine Intelligence,
+16(12):1183–1196, 1994.
+37. Gabriel Taubin, Fernando Cukierman, Steve Sullivan, Jean Ponce et David J. Kriegman, Pa-
+rameterized Families of Polynomials for Bounded Algebraic Curve And Surface Fitting, IEEE
+Transactions on Pattern Analysis and Machine Intelligence, 16(3):287-303, 1994.
+38. Jean Ponce, Darrell Stam and Bernard Faverjon, On Computing Force-Closure Grasps of Curved
+Two-Dimensional Objects, International Journal of Robotics Research, 12(3):263–273, 1993.
+39. Sylvain Petitjean, Jean Ponce and David J. Kriegman, Computing Exact Aspect Graphs of Curved
+Objects: Algebraic Surfaces, International Journal of Computer Vision, 9(3):231–255, 1992.
+40. Jean Ponce, Anthony Hoogs and David J. Kriegman, On Using CAD Models to Compute the Pose
+of Curved 3D Objects, Computer Vision, Graphics, and Image Processing: Image Understanding,
+special issue on Directions in Automated CAD-Based Vision, 55(2):184–197, 1992.
+41. Jean Ponce, On Characterizing Ribbons and Finding Skewed Symmetries, Computer Vision,
+Graphics, and Image Processing, 52(3):328-340, 1990.
+42. David J. Kriegman and Jean Ponce On Recognizing and Positioning Curved 3D Objects from
+Image Contours, IEEE Transactions on Pattern Analysis and Machine Intelligence, 12(12):1127–
+1137, 1990.
+43. David J. Kriegman and Jean Ponce, Computing Exact Aspect Graphs of Curved Objects: Solids
+of Revolution, the International Journal of Computer Vision, 5(2):119–135, 1990.
+44. Jean Ponce, Straight Homogeneous Generalized Cylinders: Diﬀerential Geometry and Uniqueness
+Results, the International Journal of Computer Vision, 4(1):79–100, 1990.
+45. Jean Ponce and David J. Kriegman, An Algebraic Approach to Computer Vision, Revue d’Intelligence
+Artiﬁcielle, special issue on Geometric Reasoning, Vol. 3, No. 2, pp. 105–136, 1989.
+8
+
+46. Jean Ponce, David Chelberg, Wallace Mann, Invariant Properties of Straight Homogeneous Gen-
+eralized Cylinders and their Contours, IEEE Transactions on Pattern Analysis and Machine
+Intelligence, 11(9):951-966, 1989.
+47. Jean Ponce and David Chelberg Finding the Limbs and Cusps of Generalized Cylinders, the
+International Journal of Computer Vision, 1(3):195–210, 1987.
+48. Jean Ponce and Olivier Faugeras, An Object Centered, Hierarchical Representation for 3D Ob-
+jects: the Prism Tree, Computer Vision, Graphics, and Image Processing, 38(1):1–28, 1987.
+49. Michael Brady, Jean Ponce, Alan Yuille and Haruo Asada, Describing Surfaces, Computer Vi-
+sion, Graphics, and Image Processing, 32(1):1–28, 1985.
+BOOK CHAPTERS
+1. Oliver Whyte, Josef Sivic, Andrew Zisserman, and Jean Ponce, Eﬃcient, Blind, Spatially-Variant
+Deblurring for Shaken Images, in Motion Deblurring: Algorithms and Systems, Cam-
+bridge University Press (2013), to appear.
+2. Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, Spatial Pyramid Matching, in Object
+Categorization: Computer and Human Vision Perspectives, S. Dickinson (ed.), Cam-
+bridge University Press, 2008.
+3. Cordelia Schmid, Gyorgy Dorko, Svetlana Lazebnik, Krystian Mikolajczyk, and Jean Ponce,
+Pattern Recognition with Local Invariant Features, in Handbook of Pattern Recognition
+and Computer Vision, 3rd edition.
+C.H. Chen and P.S.P Wang editors, World Scientiﬁc
+Publishing Co., 2004.
+4. Jean Ponce, Martha Cepeda, Sung-il Pae and Steve Sullivan, Shape Models and Object Recogni-
+tion, in Shape, Contour and Grouping in Computer Vision, D.A. Forsyth, J.L. Mundy,
+V. Gesu and R. Cipolla, (eds.), Springer-Verlag, Lecture Notes in Computer Science 1681, pp.
+31-55, 1999.
+5. J. Ponce, Manipulation and Grasping, in The MIT Encyclopedia of Cognitive Sciences,
+R. Wilson and F. Keil (eds.), MIT Press, pp. 508-511, 1999.
+6. A. Sudsang, J. Ponce and N. Srinivasa, Algorithms for Constructing Immobilizing Fixtures and
+Grasps of Three-Dimensional Objects, in Algorithms for Robotics Motion and Manipu-
+lation (WAFR 1996), J.-P. Laumont and M. Overmars (eds.), AK Peters, Ltd., pp. 363-380,
+1997.
+7. J. Ponce, A. Sudsang, S. Sullivan, B. Faverjon, J.-D. Boissonnat, and J.-P. Merlet, Algorithms for
+Computing Multi-Finger Force-Closure Grasps of Polyhedral Objects, in Algorithmic Founda-
+tions of Robotics, K. Goldberg, D. Halperin, J.-C. Latombe, and R. Wilson (eds.), AK Peters,
+Ltd., pp. 167-184, 1995.
+8. Jean Ponce, David J. Kriegman, Sylvain Petitjean, Steven Sullivan, Gabriel Taubin, B. Vijayaku-
+mar, Representations and Algorithms for 3D Curved Object Recognition, in Three-Dimensional
+Object Recognition Systems, P. Flynn and A. Jain (eds.), Elsevier Press, pp. 327-352, 1993.
+9. Jean Ponce and David J. Kriegman, Elimination Theory and Computer Vision: Recognition
+and Positioning of Curved 3D Objects from Range, Intensity, or Contours, in Symbolic and
+Numerical Computation for Artiﬁcial Intelligence, B. Donald, D. Kapur and J. Mundy
+(eds.), Computational Mathematics and Applications Series, Academic Press, pp. 123-146, 1992.
+9
+
+10. Jean Ponce and David J. Kriegman, Toward 3D Curved Object Recognition from Image Contours,
+in Geometric Invariance in Computer Vision, J. Mundy and A. Zisserman (eds.), MIT
+Press, pp. 408-439, 1992.
+11. David J. Kriegman and Jean Ponce, A New Curve Tracing Algorithm and some Applications,
+in Curves and Surfaces, P.J. Laurent, A. Le M´ehaut´e and L.L. Schumaker (eds.), Academic
+Press, New York, pp. 267-270, 1991.
+12. David J. Kriegman and Jean Ponce On Recognizing and Positioning Curved 3D Objects from
+Image Contours, in Selected Papers on Automatic Object Recognition, H. Nasrem (ed.),
+SPIE Milestones Series, SPIE Optical Engineering Series Press, pp. 213-223, 1991. (Reprinted
+from IEEE Transactions on Pattern Analysis and Machine Intelligence, 1990.)
+13. Jean Ponce and Michael Brady, Toward a Surface Primal Sketch, in Three-Dimensional Ma-
+chine Vision, T. Kanade (ed.), Kluwer Academic Publishers, pp. 195-240, 1987.
+14. Michael Brady, Jean Ponce, Alan Yuille, and Haruo Asada, Describing Surfaces, in Human and
+Machine Vision II, A. Rosenfeld (ed.), Academic Press, pp. 58-85, 1986. (Reprinted from
+Computer Vision, Graphics, and Image Processing 1985.)
+15. Olivier Faugeras, Jean-Daniel Boissonnat, Fran¸cois Germain, Martial Hebert, Fran¸cois Kriz´e,
+Philippe Mussi, Eric Pauchon, and Jean Ponce, Towards a Flexible Vision System, in Robot
+Vision Book, A. Pugh (ed.), IFS, UK, pp. 129-142, 1982.
+REFEREED CONFERENCE PAPERS
+1. P. Bojanowski, F. Bach, I. and Laptev, J. Ponce, C. Schmid, and J. Sivic, Finding Actors and
+Actions in Movies, Proc. International Conference on Computer Vision, 2013. Note: To appear.
+2. M. Cho, K. Alahari, and J. Ponce, Learning Graphs to Match, Proc. International Conference
+on Computer Vision, 2013. Note: To appear.
+3. J. Sun and J. Ponce, Learning Discriminative Part Detectors for Image Classiﬁcation and Coseg-
+mentation, Proc. International Conference on Computer Vision, 2013. Note: To appear.
+4. F. Couzini´e-Devy, J. Sun, K. Alahari, and J. Ponce, Learning to Estimate and Remove Non-
+uniform Image Blur, Proc. IEEE Conference on Computer Vision and Pattern Recognition,
+2013.
+5. A. Joulin, F. Bach, and J. Ponce, Multi-Class Cosegmentation, Proc.
+IEEE Conference on
+Computer Vision and Pattern Recognition, 2012.
+6. L. Benoit, J. Mairal, F. Bach, and J. Ponce, Sparse Image Representation with Epitomes, Proc.
+IEEE Conference on Computer Vision and Pattern Recognition, 2011.
+7. Y-L. Boureau, N. Le Roux, F. Bach, J. Ponce, and Y. LeCun, Ask the locals: Multi-way local
+pooling for image recognition, Proc. International Conference on Computer Vision, 2011.
+8. O. Duchenne, A. Joulin, and J. Ponce, A Graph-Matching Kernel for Object Categorization,
+Proc. International Conference on Computer Vision, 2011.
+9. B. C. Russell, J. Sivic, J. Ponce, and H. Dessales, Automatic Alignment of Paintings and Pho-
+tographs Depicting a 3D Scene, Proc. 3rd International IEEE Workshop on 3D Representation
+for Recognition (3dRR-11), with ICCV 2011, 2011.
+10
+
+10. G. Batog, X. Goaoc, and J. Ponce, Admissible Linear Map Models of Linear Cameras, Proc.
+IEEE Conference on Computer Vision and Pattern Recognition, 2010.
+11. Y-L. Boureau, F. Bach, LeCun Y., and J. Ponce, Learning Mid-Level Features for Recognition,
+Proc. IEEE Conference on Computer Vision and Pattern Recognition, 2010.
+12. Y-L. Boureau, J. Ponce, and Y. LeCun, A Theoretical Analysis of Feature Pooling in Visual
+Recognition, Proc. International Conference on Machine Learning, 2010.
+13. A. Joulin, F. Bach, and J. Ponce, Discriminative Clustering for Image Co-Segmentation, Proc.
+IEEE Conference on Computer Vision and Pattern Recognition, 2010.
+14. A. Joulin, F. Bach, and J. Ponce, Eﬃcient Optimization for Discriminative Latent Class Models,
+Proc. Advances in Neural Information Processing Systems, 2010.
+15. O. Whyte, J. Sivic, A. Zisserman, and J. Ponce, Non-uniform Deblurring for Shaken Images,
+Proc. IEEE Conference on Computer Vision and Pattern Recognition, 2010.
+16. Olivier Duchenne, Francis Bach, Inso Kweon, and Jean Ponce, A Tensor-Based Algorithm for
+High-Order Graph Matching, Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, 2009. Best Student Paper - Honorable Mention award.
+17. Olivier Duchenne, Ivan Laptev, Josef Sivic, Francis Bach, and Jean Ponce, Automatic Annotation
+of Human Actions in Video, Proceedings of the IEEE International Conference on Computer
+Vision, 2009.
+18. Yasutaka Furukawa and Jean Ponce, Dense 3D Motion Capture for Human Faces, Proceedings
+of the IEEE Conference on Computer Vision and Pattern Recognition, 2009.
+19. Hui Kong, Jean-Yves Audibert, and Jean Ponce, Vanishing Point Detection for Road Detection,
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2009.
+20. Julien Mairal, Francis Bach, Jean Ponce, and Guillermo Sapiro, Online Dictionary Learning for
+Sparse Coding, Proceedings of the International Conference on Machine Learning, 2009.
+21. Julien Mairal, Francis Bach, Jean Ponce, Guillermo Sapiro, and Andrew Zisserman, Non-local
+Sparse Models for Image Restoration, Proceedings of the IEEE International Conference on
+Computer Vision, 2009.
+22. Jean Ponce, What is a camera?, Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, 2009.
+23. Julien Mairal, Francis Bach, Jean Ponce, Guillermo Sapiro, and Andrew Zisserman, Supervised
+Dictionary Learning, Proceedings of the Conference on Neural Information Processing Systems
+(NIPS), 2008.
+24. Julien Mairal, Marius Leordeanu, Francis Bach, Martial Hebert, and Jean Ponce, Discriminative
+Sparse Image Models for Class-Speciﬁc Edge Detection and Image Interpretation, Proceedings
+of the European Conference on Computer Vision, 2008.
+25. Olivier Duchenne, Jean-Yves Audibert, Jean Ponce, Florent S´egonne, and Renaud Keriven,
+Segmentation by transduction, Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, 2008.
+26. Yasutaka Furukawa and Jean Ponce, Accurate Camera Calibration from Multi-View Stereo and
+Bundle Adjustment, Proceedings of the IEEE Conference on Computer Vision and Pattern
+Recognition, 2008.
+11
+
+27. Yasutaka Furukawa and Jean Ponce, Dense 3D Motion Capture from Synchronized Video Streams,
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2008.
+28. Julien Mairal, Francis Bach, Jean Ponce, Guillermo Sapiro, and Andrew Zisserman, Learning
+Discriminative Dictionaries for Local Image Analysis, Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition, 2008.
+29. Yasutaka Furukawa and Jean Ponce, Accurate, Dense, and Robust Multi-View Stereopsis, Pro-
+ceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2007.
+30. Akash Kushal, Cordelia Schmid and Jean Ponce, Flexible Object Models for Category-Level 3D
+Object Recognition, Proceedings of the IEEE Conference on Computer Vision and Pattern Recog-
+nition, 2007.
+31. Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, Beyond Bags of Features: Spatial Pyramid
+Matching for Recognizing Natural Scene Categories, Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition, New York City, New York, 2006, vol. 2, pp. 2169-
+2178.
+32. Kenton McHenry and Jean Ponce, A Geodesic Active Contour Framework for Finding Glass,
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, New York
+City, New York, 2006, vol. 1, pp. 1038-1044.
+33. Yasutaka Furukawa and Jean Ponce, Carved Visual Hulls for Image-Based Modeling, Proceedings
+of the European Conference on Computer Vision, Graz, Austria, 2006, vol. 1, pp. 564-577.
+34. Akash Kushal and Jean Ponce, A Novel Approach to Modeling 3D Objects from Stereo Views
+and Recognizing them in Photographs, Proceedings of the European Conference on Computer
+Vision, Graz, Austria, 2006, vol. 2, pp. 563-574.
+35. Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, A Maximum Entropy Framework for Part
+Based Texture and Object Recognition, Proceedings of the 2005 International Conference on
+Computer Vision, Beijing, China, October 2005, vol. 1, pp. 832-838.
+36. Jean Ponce, Kenton McHenry, Theo Papadopoulo, Monique Teillaud, and Bill Triggs, On the
+Absolute Quadratic Complex and its Application to Autocalibration, Proceedings of the IEEE
+Conference on Computer Vision and Pattern Recognition, June 2005, vol. 1, pp. 780-787.
+37. Kenton McHenry, Jean Ponce, and David A. Forsyth, Finding Glass, Proceedings of the IEEE
+Conference on Computer Vision and Pattern Recognition, June 2005, vol. 2, pp. 973-979.
+Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, Semi-Local Aﬃne Parts for Object Recog-
+nition, Proceedings of the British Machine Vision Conference, September 2004, vol.
+2, pp.
+959-968.
+38. Fred Rothganger, Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, Segmenting, Modeling,
+and Matching Video Clips Containing Multiple Moving Objects, Proceedings of the IEEE Con-
+ference on Computer Vision and Pattern Recognition, Washington, D.C., June 2004, vol. 2, pp.
+914-921.
+39. Yasutaka Furukawa, Amit Sethi, Jean Ponce, and David Kriegman, Structure and Motion from
+Images of Smooth Textureless Objects, Proceedings of the European Conference on Computer
+Vision, Prague, Czech Rebublic, May 2004, vol. 2, pp. 287-298.
+40. Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, Aﬃne-Invariant Local Descriptors and
+Neighborhood Statistics for Texture Recognition, Proceedings of the IEEE International Confer-
+ence on Computer Vision, Nice, France, October 2003, pp. 649-655.
+12
+
+41. Svetlana Lazebnik and Jean Ponce, The Local Projective Shape of Smooth Surfaces and Their
+Outlines, Proceedings of the IEEE International Conference on Computer Vision, Nice, France,
+October 2003, pp. 83-89.
+42. T. Zickler, J. Ho, D. Kriegman, P. Belhumeur, and J. Ponce, Binocular Helmholtz Stereopsis,
+Proceedings of the IEEE International Conference on Computer Vision, Nice, France, October
+2003, pp. 1411-1417.
+43. Fred Rothganger, Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, 3D Object Modeling and
+Recognition Using Aﬃne-Invariant Patches and Multi-View Spatial Constraints, Proceedings of
+the IEEE Conference on Computer Vision and Pattern Recognition, Madison, WI, June 2003,
+Vol. II, pp. 272-277.
+44. Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce, A Sparse Texture Representation Using
+Aﬃne-Invariant Regions, Proceedings of the IEEE Conference on Computer Vision and Pattern
+Recognition, Madison, WI, June 2003, Vol. II, pp. 319-324.
+45. JeﬀErickson, Shripad Thite, Fred Rothganger, and Jean Ponce, Capturing a Convex Object
+with Three Discs, Proceedings the IEEE International Conference on Robotics and Automation,
+Taipei, Taiwan, September 2003, Vol. II, pp. 2242-2247.
+46. Svetlana Lazebnik, Amit Sethi, Cordelia Schmid, David Kriegman, Jean Ponce and Martial
+Hebert, On Pencils of Tangent Planes and the Recognition of Smooth 3D Shapes from Silhouettes,
+Proceedings of the European Conference on Computer Vision, Copenhagen, Denmark, May 2002.
+Springer-Verlag Lecture Notes in Computer Science 2352, A. Heyden, G. Sparr, M. Nielsen, P.
+Johansen (Eds.), pp. 651-665.
+47. Shyjan Mahamud, Martial Hebert, Yasuhiro Omori and Jean Ponce, Provably-Convergent It-
+erative Methods for Projective Structure from Motion, Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition, Kauai, Hawaii, December 2001, Vol. 1, pp. 1018-
+1025.
+48. Svetlana Lazebnik, Edmond Boyer and Jean Ponce, On Computing Exact Visual Hulls of Solids
+Bounded by Smooth Surfaces, Proceedings of the IEEE Conference on Computer Vision and
+Pattern Recognition, Kauai, Hawaii, December 2001, Vol. 1, pp. 156-161.
+49. Frederick Rothganger, Attawith Sudsang and Jean Ponce, An Implemented Planner for Ma-
+nipulating a Polygonal Object in the Plane with Three Disc-Shaped Mobile Robots, Proceedings
+of the IEEE/RSJ International Conference on Intelligent Robots and Systems, Maui, Hawaii,
+October-November 2001, Vol. 3, pp. 1499-1506.
+50. Jean Ponce, On Computing Metric Upgrades of Projective Reconstructions Under the Rectangular
+Pixel Assumption, Proc. of the SMILE Workshop on 3D Structure from Multiple Images of
+Large-Scale Environments, Dublin, Ireland, June Springer-Verlag Lecture Notes in Computer
+Science 2018, M. Pollefeys, L. Van Gool, A. Zisserman and A. Fitzgibbon (Eds.), pp. 52-67.
+51. David Renaudie, David J. Kriegman and Jean Ponce, Duals, Invariants, and the Recognition
+of Smooth Objects from their Occluding Contour, Proceedings of the European Conference on
+Computer Vision, Dublin, Ireland, June 2000.
+Springer-Verlag Lecture Notes in Computer
+Science 1842, D. Vernon (Ed.), Vol. 1., pp. 784-798.
+52. Attawith Sudsang and Jean Ponce, A New Approach to Motion Planning for Disc-Shaped Robots
+Manipulating a Polygonal Object in the Plane, Proceedings of the IEEE Conference on Robotics
+and Automation, April 2000, pp. 1068-1075.
+13
+
+53. S´ebastien Blind, Christopher McCullough, Srinivas Akella and Jean Ponce, A Reconﬁgurable
+Parts Feeder with an Array of Pins: A Method and a Machine, Proceedings of the IEEE Con-
+ference on Robotics and Automation, April 2000, pp. 147-153.
+54. S´ebastien Blind, Christopher McCullough, Srinivas Akella and Jean Ponce, Manipulating Parts
+with an Array of Pins: A Method and a Machine, Robotics Research: The Ninth International
+Symposium, J.M. Hollerbach and D.E. Koditscheck (Eds.), Springer Verlag, pp. 123-130, 2000.
+55. Yakup Genc and Jean Ponce, Point- and Line-Based Parameterized Image Varieties for Image-
+Based Rendering, Vision Algorithms: Theory and Practice (Proceedings of the Interna-
+tional Workshop on Vision Algorithms, Corfu, Greece, September 1999), Springer-Verlag Lecture
+Notes in Computer Science 1883, B. Triggs, A. Zisserman and R. Szeliski (Eds.), pp. 132-148.
+56. Sung-il Pae and Jean Ponce, Toward a Scale-Space Aspect Graph: Solids of Revolution, Proceed-
+ings of the 1999 IEEE Conference on Computer Vision and Pattern Recognition, Fort Collins,
+Colorado, June 1999, Vol II, pp. 196-201.
+57. Yakup Genc, Jean Ponce, Yoram Leedan and Peter Meer, Parameterized Image Varieties and
+Estimation with Bilinear Constraints, Proceedings of the 1999 IEEE Conference on Computer
+Vision and Pattern Recognition, Fort Collins, Colorado, June 1999, Vol II, pp. 67-72.
+58. Attawith Sudsang, Jean Ponce, Mark Hyman and David J. Kriegman, On Manipulating Polygo-
+nal Objects with Three 2-DOF Robots in the Plane, Proceedings of the 1999 IEEE International
+Conference on Robotics and Automation, Detroit, Michigan, May 1999, pp. 2227-2233.
+59. Attawith Sudsang and Jean Ponce, On Grasping and Manipulating Polygonal Objects with Disc-
+Shaped Robots in the Plane, Proc. of the 1998 IEEE International Conference on Robotics and
+Automation, Leuven, Belgium, May 1998, pp. 2740-2746.
+60. Y. Genc and J. Ponce, Parameterized Image Varieties: A Novel Approach to the Analysis and
+Synthesis of Image Sequences, Proc. of the 1998 International Conference on Computer Vision,
+Bombay, India, January 1998, pp. 11-16.
+61. Steve Sullivan and Jean Ponce, Automatic Model Construction, Pose Estimation, and Object
+Recognition from Photographs using Triangular Splines, Proc. of the 1998 International Confer-
+ence on Computer Vision, Bombay, India, January 1998, pp. 510-516.
+62. Attawith Sudsang, Narayan Srinivasa and Jean Ponce, On Planning Immobilizing Grasps for
+a Reconﬁgurable Gripper, Proc. of the 1997 IEEE/RSJ International Conference on Intelligent
+Robots and Systems, Grenoble, France, September 1997, pp. 106-113.
+63. Attawith Sudsang and Jean Ponce, In-Hand Manipulation: Geometry and Algorithms, Proc.
+of the 1997 IEEE/RSJ International Conference on Intelligent Robots and Systems, Grenoble,
+France, September 1997, pp. 98-105. Selected as one of the excellent papers of IROS’97 by the
+IROS program committee.
+64. Alison Noble, Dale Wilson, and Jean Ponce, On Computing Aspect Graphs of Smooth Shapes from
+Volumetric Data, Proc. of the 1996 IEEE Workshop on Mathematical Methods in Biomedical
+Image Analysis, San Francisco, CA, June 21-22, 1996, pp. 299-308.
+65. Jean Ponce and Yakup Genc, Epipolar Geometry and Linear Subspace Methods: A New Approach
+to Weak Calibration, Proc.
+of the 1996 IEEE Conference on Computer Vision and Pattern
+Recognition, San Francisco, CA, June 18-20, 1996, pp. 776-781.
+14
+
+66. B. Vijayakumar, David J. Kriegman, and Jean Ponce, Structure and Motion of Curved 3D
+Objects from Monocular Silhouettes, Proc. of the 1996 IEEE Conference on Computer Vision
+and Pattern Recognition, San Francisco, CA, June 18-20, 1996, pp. 327-334.
+67. Jean Ponce, On Planning Immobilizing Fixtures for Three-Dimensional Polyhedral Parts, Proc.
+of the 1996 IEEE International Conference on Robotics and Automation, Minneapolis, MN,
+April 24-26, 1996, pp. 509-514.
+68. Jean Ponce, Joel Burdick, and Elon Rimon, Computing the Immobilizing Three-Finger Grasps
+of Planar Objects, Proc. of the 1995 Workshop on Computational Kinematics, Nice, France,
+1995, pp. 281-300.
+69. B. Vijayakumar, David J. Kriegman, and Jean Ponce, Invariant-Based Recognition of Com-
+plex Curved 3D Objects from Image Contours, Proc. of the 1995 International Conference on
+Computer Vision, Cambridge, MA, June 20-23, 1995, pp. 508-514.
+70. Tanuja Joshi, Narendra Ahuja, and Jean Ponce, Structure and Motion Estimation from Dy-
+namic Silhouettes under Perspective Projection, Proc. of the 1995 International Conference on
+Computer Vision, Cambridge, MA, June 20-23, 1995, pp. 290-295.
+71. Ilan Shimshoni and Jean Ponce, Probabilistic 3D Object Recognition, Proc. of the International
+Conference on Computer Vision, Cambridge, MA, June 20-23, 1995, pp. 488-493.
+72. Attawith Sudsang and Jean Ponce, New Techniques for Computing Four-Finger Force-Closure
+Grasps of Polyhedral Objects, Proc. of the 1995 IEEE International Conference on Robotics and
+Automation, Nagoya, Japan, May 21-27, 1995, pp. 1355-1360.
+73. Steve Sullivan, Alison Noble, and Jean Ponce, On Reconstructing Curved Object Boundaries
+from Sparse Sets of X-Ray Images, Proc. of the 1995 Conference on Computer Vision, Virtual
+Reality, and Robotics in Medicine, Nice, France, April 3-6, 1995, Springer-Verlag Lecture Notes
+in Computer Science 905, N. Ayache (Ed.), pp. 385-391.
+74. Tanuja Joshi, Narendra Ahuja, and Jean Ponce, Toward Structure and Motion Estimation from
+Dynamic Silhouettes, Proc. of the 1994 IEEE Workshop on Motion of Nonrigid and Articulate
+Objects, Austin, TX, November 11-12, 1994, pp. 166-171.
+75. Tanuja Joshi, Jean Ponce, B. Vijayakumar. and David J. Kriegman, HOT Curves for Modelling
+and Recognition of Smooth Curved 3D Shapes, Proc. of the 1994 IEEE Conference on Computer
+Vision and Pattern Recognition, Seattle, WA, June 21-23, 1994, pp. 876-880.
+76. Ilan Shimshoni and Jean Ponce, Recovering the Shape of Polyhedra Using Line-Drawing Analysis
+and Complex Reﬂectance Models, Proc. of the 1994 IEEE Conference on Computer Vision and
+Pattern Recognition, Seattle, WA, June 21-23, 1994, pp. 514-519.
+77. Jean Ponce, David H. Marimont, and Todd A. Cass, Geometric Methods for Relative Recon-
+struction from Weakly Calibrated Images, Proc. of the 1994 IEEE Conference on Robotics and
+Automation, San Diego, CA, May 8-13, 1994, pp. 1169-1174.
+78. Jean Ponce, David H. Marimont, and Todd A. Cass, Analytical Methods for Uncalibrated Stereo
+and Motion Reconstruction, Proc. of the 1994 European Conference on Computer Vision, Stock-
+holm, Sweden, May 2-6, 1994, Springer-Verlag Lecture Notes in Computer Science 800, J.-O.
+Eklundh (Ed.), Vol. 1., pp. 463-470.
+15
+
+79. Steve Sullivan, Jean Ponce, and Lorraine Sandford, On Using Geometric Distance Fits to Es-
+timate 3D Object Shape, Pose, and Deformation from Range, CT, and Video Images, Proc. of
+the 1993 IEEE Conference on Computer Vision and Pattern Recognition, New York City, NY,
+June 15-17, 1993, pp. 110-116.
+80. David J. Kriegman, B. Vijayakumar, and Jean Ponce, Reconstruction of HOT Curves from Image
+Sequences, Proc. of the 1993 IEEE Conference on Computer Vision and Pattern Recognition,
+New York City, NY, June 15-17, 1993, pp. 20-26.
+81. J. Ponce, S. Sullivan, J-D. Boissonnat, J-P. Merlet, On Characterizing and Computing Three-
+and Four-Finger Force-Closure Grasps of Polyhedral Objects, Proc. of the 1993 IEEE Conference
+on Robotics and Automation, Atlanta, Georgia, May 2-7, 1993, pp. 821-827.
+82. D. Stam, J. Ponce, and B. Faverjon, A System for Planning and Executing Two-Finger Force-
+Closure Grasps of Curved 2D Objects, Proc. of the 1992 IEEE/RSJ International Conference on
+Intelligent Robots and Systems, Raleigh, NC, July 1992, pp. 210-217.
+83. G. Taubin, F. Cukierman, S. Sullivan, J. Ponce, and D.J. Kriegman, Parameterizing and Fitting
+Bounded Algebraic Curves and Surfaces, Proc. of the 1992 IEEE Conference on Computer Vision
+and Pattern Recognition, Champaign, IL, June 1992, pp. 103-108.
+84. Jean Ponce, Sylvain Petitjean, and David J. Kriegman, Computing Exact Aspect Graphs of
+Curved Objects: Algebraic Surfaces, Proc. of the 1992 European Conference on Computer Vision,
+Santa Margherita Ligure, Italy, May 1992, Springer-Verlag Lecture Notes in Computer Science
+588, G. Sandini (Ed.), pp. 599-614.
+85. David J. Kriegman, B. Vijayakumar, and Jean Ponce Constraints for Recognizing and locating
+Curved 3D Objects from Monocular Image Features, Proc. of the 1992 European Conference on
+Computer Vision, Santa Margherita Ligure, Italy, May 1992, Springer-Verlag Lecture Notes in
+Computer Science 588, G. Sandini (Ed.), pp. 829-833.
+86. Jean Ponce and Ilan Shimshoni, An Algebraic Approach to Line-Drawing Analysis in the Presence
+of Uncertainty, Proc. of the 1992 IEEE International Conference on Robotics and Automation,
+Nice, France, May 1992, pp. 1786-1791.
+87. Jean Ponce and Bernard Faverjon, On Computing Three-Finger Force-Closure Grasps of Polygo-
+nal Objects, Proc. of the 1991 International Conference on Advanced Robotics, Pisa, Italy, June
+1991, pp. 1018-1023.
+88. Jean Ponce, Anthony Hoogs, and David J. Kriegman, On Using CAD Models to Compute the
+Pose of Curved 3D Objects, Proc. of the IEEE Workshop on Directions in Automated CAD-
+Based Vision, Maui, Hawaii, June 1991, pp. 136-145.
+89. Bernard Faverjon and Jean Ponce, On Computing Two-Finger Force-Closure Grasps of Curved
+2D Objects, Proc. of the 1991 IEEE International Conference on Robotics and Automation,
+Sacramento, CA, April 1991, pp. 424-429.
+90. Jean Ponce and David J. Kriegman, Computing Exact Aspect Graphs of Curved Objects: Para-
+metric Surfaces, Proc. of the 1990 AAAI Conference, Boston, MA, July 1990, pp. 1074-1079.
+91. David J. Kriegman and Jean Ponce, Computing Exact Aspect Graphs of Curved Objects: Solids
+of Revolution, Proc. of the 1989 IEEE Workshop on the Interpretation of 3D Scenes, Austin,
+TX, November 1989, pp. 116-122.
+16
+
+92. Jean Ponce and David J. Kriegman, On Recognizing and Positioning Curved 3D Objects from
+Image Contours, Proc. of the 1989 IEEE Workshop on the Interpretation of 3D Scenes, Austin,
+TX, November 1989, pp. 61-67.
+93. Jean Ponce, On Characterizing Ribbons and Finding Skewed Symmetries, Proc. of the Sixth
+IEEE International Conference on Robotics and Automation, Scottsdale, AZ, May 1989, pp.
+49-54.
+94. Jean Ponce, Straight Homogeneous Generalized Cylinders: Diﬀerential Geometry and Uniqueness
+Results, Proc. of the 1988 IEEE Conference on Computer Vision and Pattern Recognition, Ann
+Arbor, MI, June 1988, pp. 327-334.
+95. Jean Ponce, David Chelberg, David J. Kriegman, and Wallace Mann, Geometric Modeling with
+Generalized Cylinders, Proc. of the 1987 IEEE Workshop on Computer Vision, Miami, Florida,
+December 1987, pp. 268-270.
+96. Jean Ponce, David Chelberg, and Wallace Mann, View-Independent Properties of the Projections
+of Generalized Cylinders, Proc.
+of the First International Conference on Computer Vision,
+London, England, June 1987, pp. 631-635.
+97. Jean Ponce and David Chelberg, Finding the Limbs and Cusps of Generalized Cylinders, Proc.
+of the Fourth IEEE International Conference on Robotics and Automation, Raleigh, NC, April
+1987, pp. 62-67.
+98. Jean Ponce and David Chelberg, Localized Intersections Computation for Solid Modeling with
+Straight Homogeneous Generalized Cylinders, Proc. of the Fourth IEEE International Conference
+on Robotics and Automation, Raleigh, NC, April 1987, pp. 1481-1486.
+99. Jean Ponce and Michael Brady, Toward a Surface Primal Sketch, Proc. of the Second IEEE
+International Conference on Robotics and Automation, St. Louis, Missouri, March 1985, pp.
+420-425.
+100. Olivier Faugeras, Martial Hebert, Eric Pauchon, and Jean Ponce, Mod´elisation and Analyse de
+sc`enes en trois dimensions, Proc. of the Congr`es AFCET de Reconnaissance des Formes and
+Intelligence Artiﬁcielle, Paris, France, January 1984, pp. 295-314.
+101. Olivier Faugeras and Jean Ponce, Prism Trees, a Hierarchical Representation for 3D Objects,
+Proc. of the International Joint Conference on Artiﬁcial Intelligence, Karlsruhe, Germany, Au-
+gust 1983, pp. 982-988.
+102. Olivier Faugeras, Jean-Daniel Boissonnat, Fran¸cois Germain, Martial Hebert, Fran¸cois Kriz´e,
+Philippe Mussi, Eric Pauchon, and Jean Ponce, Towards a Flexible Vision System, Proc. of the
+International Symposium on Industrial Robots, Paris, France, 1982.
+103. Martial Hebert and Jean Ponce, A New Method for Segmenting 3D Scenes into Primitives, Proc.
+of the International Joint Conference on Pattern Recognition, Munich, Germany, October 1982,
+pp. 836-838.
+REFEREED ABSTRACTS
+1. Yasutaka Furukawa, Svetlana Lazebnik, and Jean Ponce, Carved Visual Hulls for High-Accuracy
+Image-Based Modeling, Sketch, Siggraph 2005.
+2. Steve Sullivan and Jean Ponce, Constructing 3D Object Models from Photographs, Technical
+Sketch, Siggraph 1996.
+17
+
+INVITED CONFERENCE PAPERS
+1. Jean Ponce, Svetlana Lazebnik, Fred Rothganger, and Cordelia Schmid, Toward True 3D Object
+Recognition, Congr`es de Reconnaissance des Formes etIntelligence Artiﬁcielle, Toulouse, France,
+January 2004.
+2. Jean Ponce, Fred Rothganger, Svetlana Lazebnik, Kenton McHenry, Cordelia Schmid, Shyjan
+Mahamud, and Martial Hebert, 3D Photography from Photographs and Video Clips, Proceedings
+of the International Symposium on Core Research for Evolutional Science, Technology (CREST),
+Tokyo, Japan, 2003.
+3. Jean Ponce, Yakup Genc and Steve Sullivan, Constructing Geometric Object Models from Images,
+Proceedings of the IEEE Conference on Robotics and Automation, April 2000, pp. 871-878.
+4. J. Ponce, R. Bajcsy, D. Metaxas, T.O. Binford, D.A. Forsyth, M. Hebert, K. Ikeuchi, A.C.
+Kak, L. Shapiro, S. Sclaroﬀ, A. Pentland, G.C. Stockman, Object Representation for Object
+Recognition, Proc. of the 1994 IEEE Conference on Computer Vision and Pattern Recognition,
+Seattle, WA, June 21-23, 1994, pp. 147-152.
+5. B. Vijayakumar, D.J. Kriegman, T. Joshi, and J. Ponce, Towards Invariant-Based Recognition of
+Complex Curved Objects in Images, Proc. of the 8th Yale Workshop on Adaptive and Learning
+Systems, New Haven, CT, June 13-15, 1994, pp. 59-65.
+6. Jean Ponce and David J. Kriegman, New Progress in Prediction and Interpretation of Line-
+Drawings of Curved 3D Objects, Proc. of the Fifth IEEE Symposium on Intelligent Control,
+Philadelphia, PA, September 1990.
+7. Michael Brady, Jean Ponce, Alan Yuille, and Haruo Asada, Describing Surfaces, Proceedings of
+the 2nd International Symposium on Robotics Research, Kyoto, Japan, Hanafusa H., and Inoue,
+H., (eds.), MIT Press, pp. 5-16, 1985.
+8. Olivier Faugeras, Martial Hebert, Eric Pauchon, and Jean Ponce, Object Representation, Iden-
+tiﬁcation, and Positioning from Range Data, Proceedings of the 1st International Symposium
+on Robotics Research, Bretton Woods, Brady M., and Paul R., (eds.), MIT Press, pp. 425-446,
+1984.
+SOFTWARE
+Several signiﬁcant sotware packages developed in my research groups at UIUC and INRIA are available
+under open-source licenses:
+• 3D recognition software: This is a C implementation of the recognition method described in
+[Rothganger et al., IJCV’06].
+It is avaible at:
+http://www-cvr.ai.uiuc.edu/ponce_grp/
+software/3d.html, and has been transfered to Bertin Technologies and Toyota.
+• PMVS: This is a C implementation of the multi-view stereo algorithm described in [Furukawa
+and Ponce, PAMI’10]. It is available at: http://http://www.di.ens.fr/pmvs/.
+• SPAMS: This is an optimization toolbox for eﬃcient sparse coding and dictionary learning. See
+[Mairal et al., JMLR’10] for details. It is available at: http://www.di.ens.fr/willow/SPAMS/.
+18

@@ -1,0 +1,467 @@
+Iran R. Roman
+QueenMaryUniversityofLondon Phone: +1(650)441-4323
+SchoolofElectronicEngineeringandComputerScience Email: i.roman@qmul.ac.uk
+London,UK Web: iranroman.github.io
+Academic Affiliation
+2024
+- now | AssistantProfessorandLecturerofArtificialIntelligence,QueenMaryUniversityofLondon
+· Designedanddeliveredthegraduate-levelcourseECS759P:ArtificialIntelligence
+· Supervisedstudentresearchonmultimodalartificialintelligence
+· InitiatedandledanindustryresearchpartnershipwithMetaInc. onmultimodalAIforProjectAria
+· LedtheComputationalAuditoryPerceptionLaboratory
+Education
+2014 21
+- | Ph.D.inComputer-basedmusictheoryandacoustics,StanfordUniversity
+Thesistitle: Mathematicalmodelsofrhythmsynchronizationandanticipation
+Advisors: Dr. JuliusO.Smith,Dr. EdwardW.Large,andDr. ChrisChafe
+2025 26
+- | Postgraduatecertificateinacademicpractice,QueenMaryUniversityofLondon
+2009 14
+- | B.A.inBiology,minorinchemistry,UniversityofNorthTexas
+2009 14
+- | B.M.inMusictheory,UniversityofNorthTexas
+2009 14
+- | B.A.inGermanlanguage,UniversityofNorthTexas
+Professional Experience
+2021 24
+- | Human-centeredAIresearcher,postdoctoralscholar,NewYorkUniversity,NewYork,NY
+· Optimizedlargemultimodalmodels(LMMs)tounderstand3DscenesandguidehumanbehaviorinAR.
+· Developedalgorithmsthatusespatialcuestodetect,localizeandtrackobjectsintherealworld.
+· Contributedtoopen-sourcepythonprojects,includinglibrosa,spatialscaper,mirdata,andmicarraylib.
+2020 21
+- | Signalprocessingengineer,internship,TeslaInc,PaloAlto,CA
+· DesignedsignalprocessingalgorithmsfortheembeddedaudiosystemoftheModelSandModelX.
+· WrotetestingpipelinestoidentifysignaldistortioninA2DPandPCMstreaming.
+· DesignedsignalprocessinglayoutswiththeAudioWeaversoftwarefordedicatedaudiohardware.
+2018 19
+- | Deeplearningresearcher,internship,AppleInc,Cupertino,CA
+· Optimizedthetransformerneuralarchitecturetocarryoutautomaticspeechrecognition(ASR).
+· CollectedhumandatawithnovelsensorsdesignedfornaturalvoiceinteractionwithSiri.
+· Designeddeepneuralnetworkarchitecturesthatintegratespeechwithmultimodalsignals.
+2017 18
+- | Machinelearningengineer,internship,Poly,SantaCruz,CA
+· Developedneuralnetworksandcurateddatasetsforbiometricauthenticationofuserswithaudioheadsets.
+· Optimizedthesizeoftheneuralnetworktobesmallenoughtoruninanembeddedsystem.
+IranR.Roman 2
+Publications
+Refereed Journal Articles
+· Harding EE, Kim JC, Demos A, Roman IR, Tichko P, Palmer C, Large EW. Musical neurodynamics. Nature
+ReviewsNeuroscience. 2025.
+· McGowan E, Rulff J, Castelo S, Wu G, Chen S, Lopez R, Steers B, Roman IR, Dias FF, Qian J, Solunke P,
+Middleton M, McKendrick R, Zhao C, Silva C. Design and implementation of the transparent, interpretable,
+andmultimodal(TIM)ARpersonalassistant. IEEEComputerGraphicsandApplications. 2025.
+· CasteloS,RulffJ,SolunkeP,McGowanE,WuG,RomanIR,LopezR,SteersB,SunQ,BelloJ,FeestB,Middleton
+M, Mckendrick, Silva C. HuBar: a visual analytics tool to explore human behavior based on fNIRS in AR
+guidancesystems. TransactionsinVisualizationandComputerGraphics. 2024.
+· Fuentes M, Salamon J, Zinemanas P, Rocamora M, Paja G, Roman IR, Miron M, Serra X, Bello JP. Soundata:
+Reproducibleuseofaudiodatasets. JournalofOpenSourceSoftware. 2024;9(98):6634.
+· Castelo S, Rulff J, McGowan E, Steers B, Wu G, Chen S, Roman IR, Lopez R, Brewer E, Zhao C, Qian J, Cho
+K, He H, Sun Q, Vo H, Bello J, Krone M, Silva C. ARGUS: visualization of AI-assisted task guidance in AR.
+TransactionsinVisualizationandComputerGraphics. 2023.
+· RomanIR,RomanAS,KimJC,LargeEW.Hebbianlearningwithelasticityexplainshowthespontaneousmotor
+tempoaffectsmusicperformancesynchronization. PLOSComputationalBiology. 2023Jun7;19(6):e1011154.
+· LargeEW,RomanIR,KimJC,CannonJ,PazderaJK,TrainorLJ,RinzelJ,BoseA.Dynamicmodelsformusical
+rhythmperceptionandcoordination. FrontiersinComputationalNeuroscience. 2023May17;17:1151895.
+· Liang BS, Liang AS, Roman IR, Weiss T, Duinkharjav B, Bello JP, Sun Q. Reconstructing room scales with a
+singlesoundforaugmentedrealitydisplays. JournalofInformationDisplay. 2023Jan2;24(1):1-2
+· Roman IR, Washburn A, Large EW, Chafe C, Fujioka T. Delayed feedback embedded in perception-action
+coordinationcyclesresultsinanticipationbehaviorduringsynchronizedrhythmicaction: Adynamicalsystems
+approach. PLOSComputationalBiology. 2019Oct31;15(10):e1007371.
+· Washburn A, Roman IR, Huberth M, Gang N, Dauer T, Reid W, Nanou C, Wright M, Fujioka T. Musical role
+asymmetriesinpianoduetperformanceinfluencealpha-bandneuraloscillationandBehavioralsynchronization.
+FrontiersinNeuroscience. 2019Oct15;13:1088.
+· Huberth M, Dauer T, Nanou C, Roman IR, Gang N, Reid W, Wright M, Fujioka T. Performance monitoring of
+selfandotherinaturn-takingpianoduet: Adual-EEGstudy. SocialNeuroscience. 2019Jul4;14(4):449-61.
+· Jiménez JE, Crego RD, Soto GE, Roman IR, Rozzi R, Vergara PM. Potential impact of the alien American
+mink(Neovisonvison)onMagellanicwoodpeckers(Campephilusmagellanicus)inNavarinoIsland,SouthernChile.
+BiologicalInvasions. 2014Apr;16(4):961-6.
+Refereed Articles in Conference Proceedings
+· Carone BJ, Roman IR, Ripollés P. Evaluating Multimodal Large Language Models on Core Music Perception
+Tasks. InProceedingsoftheNeurIPSWorkshoponAIforMusic,2025.
+· Shimada K, Politis A, Roman IR, Sudarsanam P, Diaz-Guerra D, Pandey R, Uchida K, Koyama Y, Takahashi
+N, Shibuya T, Takahashi S, Virtanen T, Mitsufuji Y. Stereo Sound Event Localization and Detection with On-
+screen/offscreenClassification. InProceedingsoftheWorkshoponDetectionandClassificationofAcousticScenesand
+Events(DCASE),2025.
+· RomanAS,RomanIR,BelloJP.LatentAcousticMappingforDirectionofArrivalEstimation: ASelf-Supervised
+Approach. InProceedingsoftheIEEEWorkshoponApplicationsofSignalProcessingtoAudioandAcoustics(WASPAA),
+2025.
+· Urrego-Gómez I, Colton S, Roman IR. Vibe Sorcery: Integrating Emotion Recognition with Generative Music
+forPlaylistCuration. InProceedingsoftheISMIRWorkshoponLargeLanguageModelsforMusic&Audio,2025.
+IranR.Roman 3
+· Chang A, Li Y, Roman IR, Poeppel D. Spectrotemporal modulation: Efficient and interpretable feature repre-
+sentationforclassifyingspeech,music,&environmentalsounds. InProceedingsofInterspeech,2025.
+· Wang A, Roman IR. Toward Affective Empathy in AI: Encoding Internal Representations of “Artificial Pain”.
+InProceedingsoftheCognitiveComputationalNeuroscience(CCN)meeting,2025.
+· Zimokha M, Jamone L, Roman IR. Combining Recurrent & Bayesian Models for Action Anticipation with
+MultipleCues. InProceedingsoftheCognitiveComputationalNeuroscience(CCN)meeting,2025.
+· Wang A, Gupta A, Roman IR, Zubiaga A. QMUL at SemEval-2025 Task 11: Explicit Emotion Detection with
+EmoLex, Feature Engineering, and Threshold-Optimized Multi-Label Classification. In Proceedings of the 19th
+InternationalWorkshoponSemanticEvaluation(SemEval),2025.
+· Pedroza HE, Abreu W, Corey R, Roman IR. Guitar-TECHS: an electric guitar dataset covering techniques,
+musical excerpts, chords and scales using a diverse array of hardware. In Proceedings of the IEEE International
+ConferenceonAcoustics,SpeechandSignalProcessing(ICASSP),2025.
+· PengX,ChenK,RomanIR,BelloJP,ChakravarthulaP,SunQ.Perceptually-guidedacoustic"foveation". In32nd
+IEEEConferenceonVirtualRealityand3DUserInterfaces(IEEEVR),2025.
+· Walls K, Roman IR, Van Ert K, Harper C, Adu-Gilmore L. Analyzing pitch content in traditional Ghanaian
+seperewasongs. In1stLatinAmericanMusicInformationRetrieval(LAMIR)workshop,2024.
+· Pedroza HE, Abreu W, Corey R, Roman IR. Leveraging electric guitar tones and effects to improve robustness
+inguitartablaturetranscriptionmodeling. In27thInternationalConferenceonDigitalAudioEffects(DAFx),2024.
+· RomanAS,RomanIR,BelloJP.Robustdirectionofarrivalestimationfromdeepacousticimaging. InProceedings
+oftheIEEEInternationalConferenceonAcoustics,SpeechandSignalProcessing(ICASSP),2024.
+· Roman IR, Ick C, Sivan D, Roman AS, McFee B, Bello JP. Spatial Scaper: a library to simulate and augment
+soundscapesforsoundeventlocalizationanddetectioninrealisticrooms. InProceedingsoftheIEEEInternational
+ConferenceonAcoustics,SpeechandSignalProcessing(ICASSP),2024.
+· KushwahaSS,RomanIR,FuentesM,BelloJP.Soundsourcedistanceestimationindiverseanddynamicacous-
+tic conditions. In Proceedings of the IEEE Workshop on Applications of Signal Processing to Audio and Acoustics
+(WASPAA),2023.
+· RomanIR,FaronbiD,Burger-WeiserI,Adu-GilmoreL.F0analysisofGhanaianpopsingingrevealsprogressive
+alignment with equal temperament over the past three decades: a case study. In Proceedings of the Sound and
+MusicComputingConference(SMC),2023.
+· Faronbi D, Roman IR, Bello JP. Exploring approaches to multi-task automatic synthesizer programming. In
+ProceedingsoftheIEEEInternationalConferenceonAcoustics,SpeechandSignalProcessing(ICASSP),2023.
+· Kushwaha SS, Roman IR, Bello JP. Analyzing the effect of equal-angle spatial discretization on sound event
+localization and detection. In Proceedings of the Workshop on Detection and Classification of Acoustic Scenes and
+Events(DCASE),2022.
+· Roman IR, Bello JP. Micarraylib: software for reproducible aggregation, standardization, and signal processing
+of microphone array datasets. In Proceedings of the Workshop on Detection and Classification of Acoustic Scenes and
+Events(DCASE),2021.
+Other Non-Refereed Publications
+· BozilovicB.,RomanIR.Decodingmelodicacousticfeaturesfromneuraldata. 2025-AES-AIMLA.
+· BhargavaS,ChuE,LeeM,ChenC,WallsK,SteersB,RomanIR.Generativesingingstyletransferacrossgenres.
+ismir2024program.ismir.net
+· Rodríguez Castañeda M, Roman IR. The Voice of an instrument: analysis of x-vectors for music applications.
+ismir2024program.ismir.net
+· Bas E, Roman IR. Enhancement of speech and language models through unsupervised Learning with Music
+Datasets. ismir2024program.ismir.net
+IranR.Roman 4
+· Walls KL, Roman IR, Steers B, Georgieva E. Total variation in popular rap vocals from 2009–2023: extension of
+theanalysisbyGeorgieva,Ripollés&McFee. ismir2023program.ismir.net
+· RomanIR,ReidW.Anoscillatoryneuralnetworkmodelofmotordynamicsduringcontinuousperiodicmove-
+ment. cs379c.stanford.edu
+· O’BrienT,RomanIR.ARNNformusicalstructureprocessingandexpectation. cs224d.stanford.edu
+· RomanIR.Assessingneuroplasticitywithconvolutionalandrecurrentneuralnetworks. vision.stanford.edu
+Open-Source Contributions
+Software
+· audiblelight,projectco-creatorandcurrentmaintainer,github.com/AudibleLight
+· spatialscaper,projectco-creatorandcurrentmaintainer,github.com/SpatialScaper
+· musicinformationretrieval,currentmaintainerofthewebsiteandgithubrepo,musicinformationretrieval.com
+· seldvisualsynth,projectco-creator,github.com/SELDVisualSynth
+· librosa,re-wrotetheAPItoefficientlyhandlemulti-channelaudio,github.com/librosa
+· mirdata,wrotecodetoloadandusetheEGFxSetdataset,github.com/mirdata
+· micarraylib,createdtheprojectandwrotethefirstAPIversioninitsentirety,github.com/micarraylib
+· soundata,wrotecodetoprocessspatialaudioandmicrophonearraydatasets,github.com/soundata
+Data
+· MULTIVOX:spatialaudio-visualdatasetofsinginggroups,zenodo.com/multivox
+· Guitar-TECHS:anelectricguitardatasetcoveringtechniques,musicalexcerpts,chordsandscalesusingadiverse
+arrayofhardware,zenodo.com/guitartechs
+· EGSet12: twelve real & original solo electric guitar performances with diverse playing styles to evaluate guitar
+tablaturetranscription,zenodo.com/egset12
+· EGFxSet: electricguitartonesprocessedthroughrealeffects,zenodo.com/egfxset
+Conference Presentations with Refereed Abstracts
+Podium
+· Roman IR, Large EW. Neuronal dynamics of strong anticipation in musical action. In Abstracts of the SIAM
+ConferenceonApplicationsofDynamicalSystems,2023
+· Roman IR, Rabinovitch E, Golumbic EZ, Large EW. A dynamic model of neural oscillation can synchronize
+withnaturalspeech. InAbstractsofthe2022AdvancesandPerspectivesinAuditoryNeurosciencemeeting,2022
+· Roman,AS,Roman,IR.Individualmusician’sspontaneousperformanceratesaffectinterpersonalsynchronyin
+jointmusicalperformance: adynamicalsystemsmodel. InAbstractsofthebiennialmeetingoftheSocietyforMusic
+PerceptionandCognition,2019.
+· RomanIR,WashburnA,LargeE,ChafeC,FujiokaT.Delayedfeedbackembeddedinperception-actioncoordi-
+nation cycles results in anticipation behavior. In Abstracts of the International Conference on Music Perception and
+Cognition,2018.
+· Roman IR, Fujioka T. Music syntactic processing is influenced by integration of local and global harmonic
+structures: anERPstudy. InAbstractsoftheCognitiveNeuroscienceSocietymeeting,2016.
+IranR.Roman 5
+Poster
+· Roman IR, Rabinovitch E, Golumbic EZ, Large EW. A dynamic model of neural oscillation can synchronize
+withnaturalspeech. InProgramNo. 241.02. SanDiego,CA:SocietyforNeuroscience,2022
+· RomanIR,FujiokaT.Musicsyntacticprocessingisdeterminedbythearchitectureofarecurrentneuralnetwork.
+InAbstractsoftheNeurosciencesandMusicConference,2017.
+· Roman IR, Huberth M, Gang N, Dauer T, Reid W, Nanou C, Wright M, Fujioka T. A dual piano performance
+EEG study: the effect of the partner’s animacy and melodic content on alpha-band oscillations. In Abstracts of
+theCognitiveNeuroscienceSocietymeeting,2017.
+· Huberth M, Dauer T, Roman IR, Nanou C, Gang N, Reid W, Wright M, Fujioka T. Involvement or irrelevance:
+representationoftheselfvs. otherinjointpianoperformancerecordedbydual-EEG.InAbstractsoftheCognitive
+NeuroscienceSocietymeeting,2017.
+· Roman IR, Imam J, Stearns T. Characterization of five human p53 mutants using the budding yeast (Saccha-
+romyces cerevisiae) as a model. In Abstracts of the Annual Biomedical Research Conference for Minority Students,
+2013.
+· Roman IR, Jiménez JE, Vergara P, Rozzi R. Magellanic woodpecker (Campephilus magellanicus) behavior when
+approachedbyhumansinthecontextofecotourism. InAbstractsoftheEcologicalSocietyofAmericameeting,2013.
+Invited Lectures and Seminars
+2024
+| Bridgingdata,models,andtheory: fromcomputationalmusicologytomultimodalAIandneural
+signalprocessing. DataScienceSeminarSeries. UniversityofOregon. Feb26th,Eugene,OR
+2023
+| Multimodalsensingtorecognizestepsinmedicalprocedures. DefenseAdvancedResearchProjects
+Agency,PerceptualTaskGuidancePIMeetingatWrightStateUnivesity. May23rd,Dayton,OH
+2023 | Mathematicalmodelsofmusicanticipationandsynchronization. MaastrichtUniversity. Mar20th,
+Maastricht,Netherlands
+2022 | Deeplearningformusic. UniversidaddeNuevoLeón. Dec9th,NuevoLeón,Mexico
+2022
+| ActionandobjectrecognitionforTIM:atransparent,interpretable,andmultimodalpersonal
+assistant. DefenseAdvancedResearchProjectsAgency,PerceptualTaskGuidancePIMeeting
+attheMassachussetsInstituteofTechnology. Nov8th,Cambridge,MA
+2021
+| Atransparent,interpretable,andmultimodalpersonalassistant. DefenseAdvancedResearch
+ProjectsAgency,PerceptualTaskGuidanceKickoffMeeting. Nov17th,Washington,DC
+2021
+| Hebbianlearningwithelasticityexplainsmusicperformancesynchronizationandspeech
+envelopeprocessing. NewYorkUniversityCenterforNeuralScience. Oct11th,NewYorkCity,NY
+2020 | Deeplearningappliedtoaudio. UniversidadPolitécnicadeMadrid. Nov13th,Madrid,Spain
+2020
+| Mathematicalmodelsofmusicanticipationandsynchronization. NewYorkUniversityCenterfor
+NeuralScience. Feb22nd,NewYorkCity,NY
+2019
+| Delayedfeedbackembeddedinperception-actioncoordinationcyclesresultsinanticipationbehavior
+duringsynchronizedrhythmicaction: adynamicalsystemsapproach. StanfordUniversityCenterfor
+Mind,Brain,andComputation. May20th,Stanford,CA
+Honors and Awards
+2023
+| Honorablementionforbestpaper,IEEEVIS:Visualization&VisualAnalytics
+2019
+| Excellenceinadvocacyaward,StanfordUniversityDiversityandAdvocacyCommittee
+2019
+| OutstandingartificialintelligenceprojectforSirispeech,AppleInc
+2016
+| Honorablementionforbestpaper,StanfordUniversityDeepLearningforGenomicsandBiomedicine
+2013
+| Bestposterpresentation,AnnualBiomedicalResearchConferenceforMinorityStudents
+2013
+| Honorablementionfororalpresentation,StanfordSummerResearchProgram
+2013
+| Nationallycompetitiveawardspublicrecognition,UniversityofNorthTexasHonorsDay
+IranR.Roman 6
+Grants, Fellowships, and Scholarships
+2025 | MetaPlatformsInc,UnrestrictedAcademicGift $25,000USD
+2025 | UKRIEPSRC,OutreachandUnderpinningthePipelineforAISkills £20,000GBP
+2025 | TheBritishComputerSociety,ImplementingLevellingUpMathsforComputerScience £3,200GBP
+2024 | InternationalConferenceonDigitalAudioEffects,TravelScholarship £500GBP
+2024 | NationalScienceFoundation,SpatialSoundSceneDescriptionIIS-1955357,REUSupp. $17,600USD
+2023 | NationalScienceFoundation,SpatialSoundSceneDescriptionIIS-1955357,REUSupp. $15,000USD
+2023 | SIAMConferenceonApplicationsofDynamicalSystems,TravelScholarship $650USD
+2023 | ColdSpringHarbor,ScienceForward: InclusiveExcellenceSymposium,TravelScholar $250USD
+2021 | NationalScienceFoundation,SpatialSoundSceneDescriptionIIS-1955357,REUSupp. $45,000USD
+2021 | DefenseAdvancedResearchProjectsAgency,PerceptuallyEnabledTaskGuidance $5,129,870USD
+(proposalco-authoredwithPI:ClaudioSilva,grantHR001121S0015-PTG-FP-041)
+2019 | StanfordUniversity,Human-CenteredArtificialIntelligenceResearchFellowship $70,000USD
+2015 | StanfordUniversity,Mind,BrainandComputationGraduateResearchTraineeship $4,500USD
+2015 | NationalInstituteofMentalHealth,CognitiveNeuroscienceSummerInstituteScholar ∼$2,500USD
+2014 | StanfordUniversity,GraduateFellowship $308,000USD
+2014 | HowardHughesMedicalInstitute,ExceptionalResearchOpportunitiesCapstone ∼$20,000USD
+2013 | HowardHughesMedicalInstitute,ExceptionalResearchOpportunitiesFellowship ∼$20,000USD
+2012 | HowardHughesMedicalInstitute,UndergraduateResearchFellowship ∼$20,000USD
+Student Research Advisees
+Current
+2025
+- now | ZorkaBozilovic,Undergrad,QueenMaryUniversityofLondon
+2025
+- now | AyatAdam,Undergrad,QueenMaryUniversityofLondon
+2024
+- now | GerardoMeza,Ph.D.candidate,NationalAutonomousUniversityofMexico
+2024
+- now | BrandonCarone,Ph.D.candidate,NewYorkUniversity
+2023
+- now | KelvinWalls,Ph.D.candidate,NewYorkUniversity
+2023
+- now | HegelPedroza,Ph.D.candidate,NationalAutonomousUniversityofMexico
+2022
+- now | ChuyangChen,Undergrad,NewYorkUniversity
+Past
+2025
+| CarlosHernandezOliván,Ph.D.,UniversityofZaragoza(nowPostdocatNTT)
+2025
+| GisellePedraza,Undergrad,UniversityofTexasatAustin
+2024 25
+- | IsabelUrregoMasterstudent,QueenMaryUniversityofLondon(nowResearchEngineeratMeta)
+2024 25
+- | AngelineWang,Masterstudent,QueenMaryUniversityofLondon
+2024 25
+- | MariiaZimokha,Masterstudent,QueenMaryUniversityofLondon
+2024 25
+- | MarianaRodriguezCastañeda,Masterstudent,NationalAutonomousUniversityofMexico
+2022 25
+- | AmeyaltzinCastilloAlmazán,Ph.D.candidate,NationalAutonomousUniversityofMexico
+2018 25
+- | AdrianS.Roman,Masterstudent,UniversityofSouthernCalifornia(nowPh.D.atNYU)
+2024
+| KarinnaCvijanovich,Undergrad,AmherstCollege(nowMasterstudentatDartmouth)
+2023 24
+- |WallaceAbreu,Masterstudent,FederalUniversityofRiodeJaneiro(nowPh.D.atsameinstitution)
+2023 24
+- | ClémentSicard,Masterstudent,ETHZurich(nowDataEngineeratIsomorphicLabs)
+2023
+| LaurenPryor,Undergrad,CaliforniaInstituteofTechnology
+2023
+| NalichaAntoine,High-School,AchievementFirstBrooklynHighSchool(nowUndergradatRPI)
+2022 23
+- | SakshamSinghKushwaha,Masterstudent,NewYorkUniversity(nowPh.D.atUTDallas)
+2022
+| AidanSingh,Undergrad,NewYorkUniversity(nowSoftwareEngineeratAmazon)
+2022
+| BridgetMeier,High-School,StatenIslandTechnicalHighSchool(nowUndergradatNYU)
+2021
+| AliaaMahgoub,High-School,BrooklynTechnicalHighSchool,(nowUndergradatYale)
+IranR.Roman 7
+Courses Taught
+Graduate level
+2024 - 25 | ECS759P:ArtificialIntelligence,QueenMaryUniversityofLondon
+2022 - 23 | CSCI-GA3813: AdvancedLaboratoryinComputerScience,NewYorkUniversity
+2022
+| DeepLearningforMusicInformationRetrieval,NationalAutonomousUniversityofMexico
+2017 - 18 | MUSIC280: MusicDepartmentTeachingAssistantTraining,StanfordUniversity
+2017 | EE367A:SignalProcessingModelsinMusicalAcoustics,StanfordUniversity
+2016 - 17 | MUSIC320B:IntrotoAudioSignalProcessingPartII:DigitalFilters,StanfordUniversity
+2016 | EE367D:SignalProcessingTechniquesforDigitalAudioEffects,StanfordUniversity
+2015 - 16 | MUSIC320A:IntrotoAudioSignalProcessingPartI:SpectrumAnalysis,StanfordUniversity
+Undergraduate level
+2014 | BIOL4022: MicrobiologyLaboratory,UniversityofNorthTexas
+2013 | BIOL1710: PrinciplesofBiologyI,UniversityofNorthTexas
+2012 | BIOL3452: GeneticsLaboratory,UniversityofNorthTexas
+Week-long tutorials
+2017 25
+- | DeepLearningforMusicInformationRetrieval,StanfordUniversity(onceayear)
+2020
+| AIforAudiousingNeuralNetworks,MexicanCenterforMusicandSonicArts
+2020
+| ArtificialIntelligence,StanfordUniversitySummerPre-CollegiateInstitute
+2018
+| IntroductiontoDeepLearning,HigherTechnologicalInstituteofSouthernGuanajuato
+2016
+| MathematicsforSpectralAnalysisandDigitalFilters,MexicanCenterforMusicandSonicArts
+2016
+| ArtificialIntelligence,StanfordUniversitySummerPre-CollegiateInstitute
+Online (on demand)
+· GenerativeMusicAICourse,(collaborationwithUniversitatPompeuFabra),The Sound of AI
+· DeepLearningforMusicInformationRetrieval: GenerativeModels,dl4genaudio.github.io
+· ArtificialIntelligenceforAudioUsingNeuralNetworks,cmmas.com
+Service
+Editorial Roles
+2025
+| GuestEditor,FrontiersinComputationalNeuroscience,ResearchTopic: "ArtificialNeuroscience: machine
+cognitionandbehavior"
+Article Review
+2025 26
+- | AnnalsoftheNewYorkAcademyofSciences
+2025
+| NeuralInformationProcessingSystems(NeurIPS)
+2025
+| EuropeanSignalProcessingConference(EUSIPCO)
+2025
+| PublicLibraryofScience(PLOS),ComputationalBiology
+2025
+| JournaloftheAudioEngineeringSociety
+2024
+| TransactionsoftheInternationalSocietyforMusicInformationRetrieval
+2024
+| IEEE/CVFWinterConferenceonApplicationsofComputerVision(WACV)
+2024
+| SignalProcessing: ImageCommunication
+2023 24
+- | IEEEInternationalConferenceonAcoustics,Speech,andSignalProcessing
+2023 24
+- | IEEEInternationalWorkshoponMachineLearningforSignalProcessing
+2023 24
+- | eLife
+2023 24
+- | Music&Science
+2021 24
+- | InternationalSocietyforMusicInformationRetrieval
+2023
+| JournalofAttention,Perception,&Psychophysics
+2022
+| CognitiveSystemsResearchJournal
+IranR.Roman 8
+Grant Review
+2021 22
+- | NationalResearchProjectCompetition,Chile’sNationalScienceFoundation
+Doctoral Thesis Committees
+2025
+| MarcoComunità,QueenMaryUniversityofLondon
+2025
+| DanielKrauze,TampereUniversity
+2025
+| CarlosHernándezOliván,UnivesityofZaragoza
+Academic
+2025
+| Meetingchair,MachineLearningforTimeSeriesAnalysisII,IEEEICASSP
+2022 25
+- | Volunteerprofessor,NationalAutonomousUniversityofMexico
+2023
+| Meetingchair,WorkshoponNeuroscienceandNeuralNetworks,NationalCollegeofMexico
+2022
+| Meetingchair,IEEEMexicoLatAmBISHBash
+2021 22
+- | Policycouncilofficer,NorthsideCenterforChildDevelopment
+2019 20
+- | ASSUexecutivedirectorofgraduatestudentaffordability,StanfordUniversity
+2017 19
+- |Memberoftheworkinggroupfordiversityandinclusion,StanfordUniversityDepartmentofMusic
+2017 19
+- | Seminarcoordinator,StanfordUniversityCenterforMind,Brain,andComputation
+2012 13
+- | Studentambassador,UniversityofNorthTexasWorldLanguagesandLiteratures
+Other
+2013
+| Bilingualtourguide,UNESCOCapeHornBiosphereReserve,PuertoWilliams,Chile
+Diversity and Inclusion
+2025 26
+- | ProgramDirector,LevelingUp: MathforComputerScience,QueenMaryUniversityofLondon
+· Directedanoutreachprogramsupporting20highschoolstudentsfromLondonpublicschools.
+· StudentspreparedtoconfidentlytaketheA-levelMathexamsandpursueuniversitySTEMdegrees.
+2023 25
+- | Mentor,IEEESPSMentoringExperiencesforUnderrepresentedYoungResearchers
+· Mentoredtalentedundergraduate&graduatestudentstogainresearchexperienceinsignalprocessing&AI.
+· Studentspublishedtheirworkaspeer-reviewedconferencepapersatconferenceslikeDAFxandICASSP.
+· Studentsalsogainedgrantwritingexperience,eachonefundraising$4,000USDtotraveltoconferences.
+2022 25
+- | Mentor,WomeninMusicInformationRetrieval(WiMIR)
+· IntroducedaspiringresearcherstothefieldofMusicInformationRetrieval(MIR).
+· Metindividuallywitheachstudenttodiscusshowtonavigatecareeroptionsinindustryandacademia.
+· Mentoredstudentstogainhands-onskillscarryingoutMIRresearch.
+2016 24
+- | Scholarshipcoordinator,DiversityinMusicTechnologySummerScholarship,StanfordUniversity
+· PreparedandpublicizedasummertuitionscholarshipapplicationtostudymusictechnologyatStanford.
+· ThisscholarshiphassupportedstudentsfrombackgroundsandnationalitiesunderrepresentedinSTEM.
+2021 24
+- | Recruiter,UndergradResearchExperience,MusicandAudioResearchLab,NewYorkUniversity
+· PublicizedREUpositionsinourlabatminority-servingengineeringprogramsacrosstheUnitedStates.
+· ProducedapooloftalentedapplicantswithstrongrepresentationfromminoritygroupsinSTEM.
+2021 23
+- | Researchmentor,AppliedResearchInnovationsinScienceandEngineering,NewYorkUniversity
+· Mentoredhigh-schoolstudentscarryingoutsummerresearchattheMusicandAudioResearchLab.
+· Helpedstudentspreparearesearchpresentation,deliveredatasymposiumcelebratingminoritiesinSTEM.
+2023
+|Presentation,ScienceForward: TowardsInclusiveExcellenceSymposium,ColdSpringHarborLab
+IranR.Roman 9
+· Presentedthepostertitled"Highlightingrepresentationinmulti-modalmachinelearningresearch".
+· CreatedaspotlightaroundBIPOCresearchersbyinvitingthemtopresentathigh-impactvenues.
+· RecordedtheirpresentationstocurateaYouTubeplaylist(withtheirconsent).
+2016
+| Programleader,StanfordSummerResearchProgram,StanfordMedicalSchool
+· Mentoredagroupofdiverseundergraduatestudentscarryingoutsummerresearch.
+· Guidedstudentstopreparehigh-qualityoralandposterpresentationsforaresearchsymposium.
+· ProvidedstudentswithfeedbackontheirpersonalstatementsforPh.D.programapplications.
+2015
+| Programleader,StanfordBiosciencesADVANCESummerInstitute,StanfordMedicalSchool
+· PlannedandconductedajournalclubserieswithadiversegroupofnewPh.D.students.
+Languages
+· Spanish: Native
+· English: Fluent
+· German: Advanced
+Press
+2025 | MusicResonatesAndRewardsTheBrain,Forbes,May19th
+2025
+| WhenYourFavoriteSongPlays,YourBrain‘PhysicallyEmbodies’Music,ScienceShows,StudyFinds,
+May9th
+2025
+| Groundbreaking research reveals how the brain turns sound into music, Queen Mary EECS Research
+News,Apr8th
+2024 | NewtoolhelpsanalyzepilotperformanceandmentalworkloadinAR,NYUResearchNews,Oct14th
+2019 | Delayedneuralcommunicationmayunderlieanticipatorybehaviors,EurekAlert!,Oct31st
+2019 | Stanford’sHuman-CenteredAIInstituteawards30seedgrants,TheStanfordDaily,May1st
+2016
+| High school students wrestle with perennial questions and make connections between art practice
+andotherdisciplines,StanfordUniversityNews,Aug9th
+2013 | UNTundergraduatestudentearnsHowardHughesgrant,TheNorthTexan,Jun5th
+Lastupdated:September25,2025

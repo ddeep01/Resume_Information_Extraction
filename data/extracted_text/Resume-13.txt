@@ -1,0 +1,830 @@
+Curriculum Vitae – Percy Liang
+Personal Details
+Name:
+Percy Liang
+Email:
+pliang@cs.stanford.edu
+Education
+2011
+Ph.D. in Computer Science, University of California at Berkeley
+2005
+M.Eng in Computer Science, Massachusetts Institute of Technology
+2004
+B.S. in Computer Science, Massachusetts Institute of Technology
+Experience
+2019–
+Associate Professor at Stanford University
+2012–2019
+Assistant Professor at Stanford University
+2011–2012
+Post-doc at Google, New York, NY
+2010
+Intern at Intel Labs, Berkeley, CA
+2005
+Intern at Microsoft Research, Cambridge, UK
+2004
+Intern at Microsoft Research, Redmond, WA
+2002
+Intern at Google, Mountain View, CA
+Awards and Honors
+2019
+Presidential Early Career Award for Scientists and Engineers (PECASE)
+2018
+Best short paper award (ACL)
+2017
+Best paper award (ICML)
+2017
+Best paper award (COLT)
+2016
+IJCAI Computers and Thought Award
+2016
+NSF CAREER Award
+2015
+Sloan Research Fellowship
+2014
+Microsoft Research Faculty Fellowship
+Publications
+Book chapters
+1. Percy Liang, Michael I. Jordan, and Dan Klein.
+Probabilistic grammars and hierarchical Dirichlet
+processes. In The Oxford Handbook of Applied Bayesian Analysis. 2009.
+2. Stefan Wager, Will Fithian, and Percy Liang. Data augmentation via L´evy processes. In Perturbations,
+Optimization and Statistics. 2016.
+Refereed journal publications
+1. Percy Liang and Christopher Potts. Bringing machine learning and compositional semantics together.
+Annual Reviews of Linguistics, 1(1):355–376, 2015.
+2. Percy Liang, Michael Jordan, and Dan Klein.
+Learning dependency-based compositional semantics.
+Computational Linguistics, 39:389–446, 2013.
+1
+
+Peer-reviewed conference papers
+1. John Thickstun, D. Hall, Chris Donahue, and Percy Liang. Anticipatory music transformer. Transca-
+tions of Machine Learning Research (TMLR), 0, 2024.
+2. Rohith Kuditipudi, John Thickstun, Tatsunori Hashimoto, and Percy Liang.
+Robust distortion-free
+watermarks for language models. Transcations of Machine Learning Research (TMLR), 0, 2024.
+3. Qian Huang, Jian Vora, Percy Liang, and Jure Leskovec. MLAgentBench: Evaluating language agents
+on machine learning experimentation.
+In International Conference on Machine Learning (ICML),
+2024.
+4. Siddharth Karamcheti, Suraj Nair, Ashwin Balakrishna, Percy Liang, Thomas Kollar, and Dorsa
+Sadigh. Prismatic vlms: Investigating the design space of visually-conditioned language models. In
+International Conference on Machine Learning (ICML), 2024.
+5. Sayash Kapoor, Rishi Bommasani, Kevin Klyman, Shayne Longpre, Ashwin Ramaswami, Peter Ci-
+hon, Aspen Hopkins, Kevin Bankston, Stella Biderman, Miranda Bogen, Rumman Chowdhury, Alex
+Engler, Peter Henderson, Yacine Jernite, Seth Lazar, Stefano Maﬀulli, Alondra Nelson, Joelle Pineau,
+Aviya Skowron, Dawn Song, Victor Storchan, Daniel Zhang, Daniel E. Ho, Percy Liang, and Arvind
+Narayanan.
+On the societal impact of open foundation models.
+In International Conference on
+Machine Learning (Position Paper Track) (ICML), 2024.
+6. Shayne Longpre, Sayash Kapoor, Kevin Klyman, Ashwin Ramaswami, Rishi Bommasani, Borhane
+Blili-Hamelin, Yangsibo Huang, Aviya Skowron, Zheng-Xin Yong, Suhas Kotha, Yi Zeng, Weiyan
+Shi, Xianjun Yang, Reid Southen, Alexander Robey, Patrick Chao, Diyi Yang, Ruoxi Jia, Daniel
+Kang, Sandy Pentland, Arvind Narayanan, Percy Liang, and Peter Henderson. A safe harbor for AI
+evaluation and red teaming. In International Conference on Machine Learning (Position Paper Track)
+(ICML), 2024.
+7. Xiang Lisa Li, Vaishnavi Shrivastava, Siyan Li, Tatsunori Hashimoto, and Percy Liang. Benchmarking
+and improving generator-validator consistency of language models.
+In International Conference on
+Learning Representations (ICLR), 2024.
+8. Michihiro Yasunaga, Xinyun Chen, Yujia Li, Panupong Pasupat, J. Leskovec, Percy Liang, Ed H. Chi,
+and Denny Zhou.
+Large language models as analogical reasoners.
+In International Conference on
+Learning Representations (ICLR), 2024.
+9. Chenchen Gu, Xiang Lisa Li, Percy Liang, and Tatsunori Hashimoto. On the learnability of watermarks
+for language models. In International Conference on Learning Representations (ICLR), 2024.
+10. S. Fleming, A. Lozano, W. Haberkorn, Jenelle A. Jindal, E. Reis, Rahul Thapa, L. Blankemeier, Ju-
+lian Z. Genkins, E. Steinberg, A. Nayak, Birju S. Patel, Chia-Chun Chiang, A. Callahan, Zepeng Huo,
+S. Gatidis, S. Adams, Oluseyi Fayanju, Shreya J. Shah, Thomas Savage, Ethan Goh, A. Chaudhari,
+N. Aghaeepour, Christopher D. Sharp, M. Pfeﬀer, Percy Liang, Jonathan H. Chen, K. Morse, E. Brun-
+skill, Jason Alan Fries, and N. Shah. Medalign: A clinician-generated dataset for instruction following
+with electronic medical records. In Association for the Advancement of Artiﬁcial Intelligence (AAAI),
+2024.
+11. Sang Michael Xie, Shibani Santurkar, Tengyu Ma, and Percy Liang. Data selection for language models
+via importance resampling. In Advances in Neural Information Processing Systems (NeurIPS), 2023.
+12. Sang Michael Xie, Hieu Pham, Xuanyi Dong, Nan Du, Hanxiao Liu, Yifeng Lu, Percy Liang, Quoc V.
+Le, Tengyu Ma, and A. Yu. Doremi: Optimizing data mixtures speeds up language model pretraining.
+In Advances in Neural Information Processing Systems (NeurIPS), 2023.
+2
+
+13. Qian Huang, Hongyu Ren, Peng Chen, Gregor Krvzmanc, D. Zeng, Percy Liang, and J. Leskovec.
+PRODIGY: Enabling in-context learning over graphs. In Advances in Neural Information Processing
+Systems (NeurIPS), 2023.
+14. Qian Huang, E. Zelikman, Sarah Chen, Yuhuai Wu, G. Valiant, and Percy Liang.
+Lexinvariant
+language models. In Advances in Neural Information Processing Systems (NeurIPS), 2023.
+15. Connor Toups, Rishi Bommasani, Kathleen A. Creel, Sarah H. Bana, Dan Jurafsky, and Percy Liang.
+Ecosystem-level analysis of deployed machine learning reveals homogeneous outcomes. In Advances in
+Neural Information Processing Systems (NeurIPS), 2023.
+16. Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin,
+Percy Liang, and Tatsunori B. Hashimoto.
+AlpacaFarm: A simulation framework for methods that
+learn from human feedback. In Advances in Neural Information Processing Systems (NeurIPS), 2023.
+17. Deepak Narayanan, Keshav Santhanam, Peter Henderson, Rishi Bommasani, Tony Lee, and Percy
+Liang. Cheaply evaluating inference eﬃciency metrics for autoregressive transformer apis. In Advances
+in Neural Information Processing Systems (NeurIPS), 2023.
+18. Tony Lee, Michihiro Yasunaga, Chenlin Meng, Yifan Mai, Joon Sung Park, Agrim Gupta, Yun-
+zhi Zhang, Deepak Narayanan, Hannah Teufel, Marco Bellagente, Minguk Kang, Taesung Park,
+J. Leskovec, Jun-Yan Zhu, Fei-Fei Li, Jiajun Wu, Stefano Ermon, and Percy Liang.
+Holistic eval-
+uation of text-to-image models.
+In Neural Information Processing Systems Track on Datasets and
+Benchmarks (NeurIPS Datasets and Benchmarks), 2023.
+19. Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and
+Percy Liang.
+Lost in the middle: How language models use long contexts.
+Transactions of the
+Association for Computational Linguistics (TACL), 0, 2023.
+20. Nelson F. Liu, Tianyi Zhang, and Percy Liang. Evaluating veriﬁability in generative search engines.
+In Findings of Empirical Methods in Natural Language Processing (Findings of EMNLP), 2023.
+21. Mina Lee, Megha Srivastava, Amelia Hardy, John Thickstun, Esin Durmus, Ashwin Paranjape, Ines
+Gerard-Ursin, Xiang Lisa Li, Faisal Ladhak, Frieda Rong, Rose E. Wang, Minae Kwon, Joon Sung
+Park, Hancheng Cao, Tony Lee, Rishi Bommasani, Michael Bernstein, and Percy Liang. Evaluating
+human-language model interaction. Transcations of Machine Learning Research (TMLR), 0, 2023.
+22. Rishi Bommasani and Percy Liang. Trustworthy social bias measurement. arXiv, 2023.
+23. Tianyi Zhang, Faisal Ladhak, Esin Durmus, Percy Liang, K. McKeown, and Tatsunori Hashimoto.
+Benchmarking large language models for news summarization. arXiv, 2023.
+24. Omar Khattab, Keshav Santhanam, Xiang Lisa Li, David Hall, Percy Liang, Christopher Potts, and
+Matei Zaharia. Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-
+intensive NLP. arXiv, 2023.
+25. Joon Sung Park, Joseph C. O’Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and Michael S.
+Bernstein. Generative agents: Interactive simulacra of human behavior. In User Interface Software
+and Technology (UIST), 2023.
+26. Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A. Lemley, and Percy Liang.
+Foundation models and fair use. Journal of Machine Learning Research (JMLR), 0, 2023.
+27. Rishi Bommasani, Dilara Soylu, Thomas Liao, Kathleen A. Creel, and Percy Liang. Ecosystem graphs:
+The social footprint of foundation models. arXiv, 2023.
+3
+
+28. Siddharth Karamcheti, Suraj Nair, Annie S. Chen, T. Kollar, Chelsea Finn, Dorsa Sadigh, and Percy
+Liang. Language-driven representation learning for robotics. In Robotics: Science and Systems (RSS),
+2023.
+29. Ying Sheng, Lianmin Zheng, Binhang Yuan, Zhuohan Li, Max Ryabinin, Daniel Y. Fu, Zhiqiang Xie,
+Beidi Chen, Clark W. Barrett, Joseph Gonzalez, Percy Liang, Christopher R´e, I. Stoica, and Ce Zhang.
+High-throughput generative inference of large language models with a single GPU. In International
+Conference on Machine Learning (ICML), 2023.
+30. Michihiro Yasunaga, Armen Aghajanyan, Weijia Shi, Rich James, Jure Leskovec, Percy Liang, Mike
+Lewis, Luke Zettlemoyer, and Wen tau Yih. Retrieval-augmented multimodal language modeling. In
+International Conference on Machine Learning (ICML), 2023.
+31. Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, and Tatsunori Hashimoto.
+Whose opinions do language models reﬂect? In International Conference on Machine Learning (ICML),
+2023.
+32. Yann Dubois, Tatsunori Hashimoto, and Percy Liang.
+Evaluating self-supervised learning via risk
+decomposition. In International Conference on Machine Learning (ICML), 2023.
+33. Irena Gao, Shiori Sagawa, Pang Wei Koh, Tatsunori Hashimoto, and Percy Liang.
+Out-of-domain
+robustness via targeted augmentations.
+In International Conference on Machine Learning (ICML),
+2023.
+34. Nelson F. Liu, Ananya Kumar, Percy Liang, and Robin Jia. Are sample-eﬃcient NLP models more
+robust? In Association for Computational Linguistics (ACL), 2023.
+35. Nelson F. Liu, Tony Lee, Robin Jia, and Percy Liang. Do question answering modeling improvements
+hold across benchmarks? In Association for Computational Linguistics (ACL), 2023.
+36. Yuhui Zhang, Michihiro Yasunaga, Zhengping Zhou, JeﬀZ. HaoChen, James Zou, Percy Liang, and
+Serena Yeung. Beyond positive scaling: How negation impacts scaling trends of language models. In
+Findings of the Association for Computational Linguistics (Findings of ACL), 2023.
+37. Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke
+Zettlemoyer, and M. Lewis. Contrastive decoding: Open-ended text generation as optimization. In
+Association for Computational Linguistics (ACL), 2023.
+38. John Hewitt, John Thickstun, Christopher D. Manning, and Percy Liang. Backpack language models.
+In Association for Computational Linguistics (ACL), 2023.
+39. Yuchen Cui, Siddharth Karamcheti, Raj Palleti, Nidhya Shivakumar, Percy Liang, and Dorsa Sadigh.
+”no, to the right”– online language corrections for robotic manipulation via shared autonomy.
+In
+ACM/IEEE International Conference on Human Robot Interaction (HRI), 2023.
+40. Shibani Santurkar, Yann Dubois, Rohan Taori, Percy Liang, and Tatsunori Hashimoto. Is a caption
+worth a thousand images? a controlled study for representation learning. In International Conference
+on Learning Representations (ICLR), 2023.
+41. Yoonho Lee, Annie S. Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, and Chelsea
+Finn. Surgical ﬁne-tuning improves adaptation to distribution shifts. In International Conference on
+Learning Representations (ICLR), 2023.
+42. John Hewitt, Christopher D. Manning, and Percy Liang.
+Truncation sampling as language model
+desmoothing. In Findings of Empirical Methods in Natural Language Processing (Findings of EMNLP),
+2022.
+4
+
+43. Yuhuai Wu, Felix Li, and Percy Liang.
+Insights into pre-training via simpler synthetic tasks.
+In
+Advances in Neural Information Processing Systems (NeurIPS), 2022.
+44. Yann Dubois, Tatsunori Hashimoto, S. Ermon, and Percy Liang. Improving self-supervised learning
+by characterizing idealized representations.
+In Advances in Neural Information Processing Systems
+(NeurIPS), 2022.
+45. Binhang Yuan, Yongjun He, Jared Quincy Davis, Tianyi Zhang, Tri Dao, Beidi Chen, Percy Liang,
+Christopher Re, and Ce Zhang.
+Decentralized training of foundation models in heterogeneous envi-
+ronments. In Advances in Neural Information Processing Systems (NeurIPS), 2022.
+46. Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, and Tatsunori Hashimoto. Diﬀusion-
+LM improves controllable text generation.
+In Advances in Neural Information Processing Systems
+(NeurIPS), 2022.
+47. Shivam Garg, Dimitris Tsipras, Percy Liang, and G. Valiant.
+What can transformers learn in-
+context?
+a case study of simple function classes.
+In Advances in Neural Information Processing
+Systems (NeurIPS), 2022.
+48. Michihiro Yasunaga, Antoine Bosselut, Hongyu Ren, Xikun Zhang, Christopher D. Manning, Percy
+Liang, and Jure Leskovec. Deep bidirectional language-knowledge graph pretraining. In Advances in
+Neural Information Processing Systems (NeurIPS), 2022.
+49. Rishi Bommasani, Kathleen A. Creel, Ananya Kumar, Dan Jurafsky, and Percy Liang. Picking on the
+same person: Does algorithmic monoculture lead to outcome homogenization? In Advances in Neural
+Information Processing Systems (NeurIPS), 2022.
+50. Chris Donahue, John Thickstun, and Percy Liang. Melody transcription via generative pre-training.
+In International Society for Music Information Retrieval (ISMIR), 2022.
+51. J. Park, Lindsay Popowski, Carrie J. Cai, M. Morris, Percy Liang, and Michael S. Bernstein. Social
+simulacra: Creating populated prototypes for social computing systems.
+In User Interface Software
+and Technology (UIST), 2022.
+52. Jason Wei, Yi Tay, Rishi Bommasani, Colin Raﬀel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama,
+Maarten Bosma, Denny Zhou, Donald Metzler, Ed Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy
+Liang, JeﬀDean, and William Fedus. Emergent abilities of large language models. Transcations of
+Machine Learning Research (TMLR), 0, 2022.
+53. Ananya Kumar, Tengyu Ma, Percy Liang, and Aditi Raghunathan. Calibrated ensembles can mitigate
+accuracy tradeoﬀs under distribution shift. In Uncertainty in Artiﬁcial Intelligence (UAI), 2022.
+54. Kendrick Shen, Robbie Jones, Ananya Kumar, Sang Michael Xie, JeﬀZ. HaoChen, Tengyu Ma, and
+Percy Liang. Connect, not collapse: Explaining contrastive learning for unsupervised domain adapta-
+tion. In International Conference on Machine Learning (ICML), 2022.
+55. Michihiro Yasunaga, Jure Leskovec, and Percy Liang. LinkBERT: Pretraining language models with
+document links. In Association for Computational Linguistics (ACL), 2022.
+56. Shiori Sagawa, Pang Wei Koh, Tony Lee, Irena Gao, Sang Michael Xie, Kendrick Shen, Ananya Ku-
+mar, Weihua Hu, Michihiro Yasunaga, H. Marklund, Sara Beery, E. David, I. Stavness, Wei Guo,
+J. Leskovec, Kate Saenko, Tatsunori B. Hashimoto, S. Levine, Chelsea Finn, and Percy Liang.
+Ex-
+tending the WILDS benchmark for unsupervised adaptation. In International Conference on Learning
+Representations (ICLR), 2022.
+5
+
+57. Ananya Kumar, Aditi Raghunathan, Robbie Jones, Tengyu Ma, and Percy Liang.
+Fine-tuning can
+distort pretrained features and underperform out-of-distribution.
+In International Conference on
+Learning Representations (ICLR), 2022.
+58. Sang Michael Xie, Aditi Raghunathan, Percy Liang, and Tengyu Ma.
+An explanation of in-context
+learning as implicit Bayesian inference.
+In International Conference on Learning Representations
+(ICLR), 2022.
+59. Xuechen Li, Florian Tram`er, Percy Liang, and Tatsunori B. Hashimoto. Large language models can
+be strong diﬀerentially private learners.
+In International Conference on Learning Representations
+(ICLR), 2022.
+60. Xikun Zhang, Antoine Bosselut, Michihiro Yasunaga, Hongyu Ren, Percy Liang, Christopher D. Man-
+ning, and J. Leskovec. Greaselm: Graph reasoning enhanced language models for question answering.
+In International Conference on Learning Representations (ICLR), 2022.
+61. Mina Lee, Percy Liang, and Qian Yang.
+CoAuthor: Designing a human-AI collaborative writing
+dataset for exploring language model capabilities.
+In Conference on Human Factors in Computing
+Systems (CHI), 2022.
+62. Siddharth Karamcheti, Megha Srivastava, Percy Liang, and Dorsa Sadigh. LILA: Language-informed
+latent actions. In Conference on Robot Learning (CoRL), 2021.
+63. Michihiro Yasunaga, Jure Leskovec, and Percy Liang. LM-Critic: Language models for unsupervised
+grammatical error correction. In Empirical Methods in Natural Language Processing (EMNLP), 2021.
+64. John Hewitt, Kawin Ethayarajh, Percy Liang, and Christopher D. Manning.
+Conditional probing:
+measuring usable information beyond a baseline. In Empirical Methods in Natural Language Processing
+(EMNLP), 2021.
+65. Rodrigo Castellon, Chris Donahue, and Percy Liang.
+Codiﬁed audio language modeling learns use-
+ful representations for music information retrieval.
+In International Society for Music Information
+Retrieval (ISMIR), 2021.
+66. Michihiro Yasunaga and Percy Liang. Break-It-Fix-It: Unsupervised learning for program repair. In
+International Conference on Machine Learning (ICML), 2021.
+67. Jared Quincy Davis, Albert Gu, Krzysztof Choromanski, Tri Dao, Christopher Re, Chelsea Finn, and
+Percy Liang.
+Catformer: Designing stable transformers via sensitivity analysis.
+In International
+Conference on Machine Learning (ICML), 2021.
+68. Evan Zheran Liu, Behzad Haghgoo, Annie S. Chen, Aditi Raghunathan, Pang Wei Koh, Shiori Sagawa,
+Percy Liang, and Chelsea Finn. Just train twice: Improving group robustness without training group
+information. In International Conference on Machine Learning (ICML), 2021.
+69. Evan Zheran Liu, Aditi Raghunathan, Percy Liang, and Chelsea Finn. Decoupling exploration and ex-
+ploitation for meta-reinforcement learning without sacriﬁces. In International Conference on Machine
+Learning (ICML), 2021.
+70. Sang Michael Xie, Tengyu Ma, and Percy Liang. Composed ﬁne-tuning: Freezing pre-trained denoising
+autoencoders for improved generalization. In International Conference on Machine Learning (ICML),
+2021.
+71. Pang Wei Koh, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubra-
+mani, Weihua Hu, Michihiro Yasunaga, Richard Lanas Phillips, Irena Gao, Tony Lee, Etienne David,
+Ian Stavness, Wei Guo, Berton A. Earnshaw, Imran S. Haque, Sara Beery, Jure Leskovec, Anshul
+Kundaje, Emma Pierson, Sergey Levine, Chelsea Finn, and Percy Liang.
+WILDS: A benchmark of
+in-the-wild distribution shifts. In International Conference on Machine Learning (ICML), 2021.
+6
+
+72. John Miller, Rohan Taori, Aditi Raghunathan, Shiori Sagawa, Pang Wei Koh, Vaishaal Shankar, Percy
+Liang, Yair Carmon, and Ludwig Schmidt. Accuracy on the line: on the strong correlation between out-
+of-distribution and in-distribution generalization.
+In International Conference on Machine Learning
+(ICML), 2021.
+73. Mina Lee, C. Donahue, Robin Jia, Alexander Iyabor, and Percy Liang.
+Swords: A benchmark for
+lexical substitution with improved data coverage and quality.
+In North American Association for
+Computational Linguistics (NAACL), 2021.
+74. Michihiro Yasunaga, Hongyu Ren, Antoine Bosselut, Percy Liang, and Jure Leskovec.
+QA-GNN:
+Reasoning with language models and knowledge graphs for question answering.
+In North American
+Association for Computational Linguistics (NAACL), 2021.
+75. Xiang Lisa Li and Percy Liang.
+Preﬁx-tuning: Optimizing continuous prompts for generation.
+In
+Association for Computational Linguistics (ACL), 2021.
+76. Erik Jones, Shiori Sagawa, Pang Wei Koh, Ananya Kumar, and Percy Liang. Selective classiﬁcation can
+magnify disparities across groups. In International Conference on Learning Representations (ICLR),
+2021.
+77. Sang Michael Xie, Ananya Kumar, Robbie Jones, Fereshte Khani, Tengyu Ma, and Percy Liang. In-
+N-out: Pre-training and self-training using auxiliary information for out-of-distribution robustness. In
+International Conference on Learning Representations (ICLR), 2021.
+78. Fereshte Khani and Percy Liang.
+Removing spurious features can hurt accuracy and aﬀect groups
+disproportionately. In ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2021.
+79. Yu Gu, Sue Kase, Michelle T. Vanni, Brian M. Sadler, Percy Liang, Xifeng Yan, and Yu Su. Beyond
+i.i.d.: Three levels of generalization for question answering on knowledge bases. In World Wide Web
+(WWW), 2021.
+80. Pang Wei Koh, Jacob Steinhardt, and Percy Liang.
+Stronger data poisoning attacks break data
+sanitization defenses. Machine Learning, 1, 2021.
+81. Stephen Mussmann, Robin Jia, and Percy Liang.
+On the importance of adaptive data collection
+for extremely imbalanced pairwise tasks.
+In Findings of Empirical Methods in Natural Language
+Processing (Findings of EMNLP), 2020.
+82. John Hewitt, Michael Hahn, Surya Ganguli, Percy Liang, and Christopher D. Manning.
+RNNs can
+generate bounded hierarchical languages with optimal memory.
+In Empirical Methods in Natural
+Language Processing (EMNLP), 2020.
+83. Sumanth Dathathri, Krishnamurthy Dvijotham, Alexey Kurakin, Aditi Raghunathan, Jonathan Ue-
+sato, Rudy Bunel, Shreya Shankar, Jacob Steinhardt, Ian Goodfellow, Percy Liang, and Pushmeet
+Kohli. Enabling certiﬁcation of veriﬁcation-agnostic networks via memory-eﬃcient semideﬁnite pro-
+gramming. In Advances in Neural Information Processing Systems (NeurIPS), 2020.
+84. Semantic Machines, Jacob Andreas, John Bufe, David Burkett, Charles Chen, Josh Clausman, Jean
+Crawford, Kate Crim, Jordan DeLoach, Leah Dorner, Jason Eisner, Hao Fang, Alan Guo, David Hall,
+Kristin Hayes, Kellie Hill, Diana Ho, Wendy Iwaszuk, Smriti Jha, Dan Klein, Jayant Krishnamurthy,
+Theo Lanman, Percy Liang, Christopher H. Lin, Ilya Lintsbakh, Andy McGovern, Aleksandr Nisnevich,
+Adam Pauls, Dmitrij Petters, Brent Read, Dan Roth, Subhro Roy, Jesse Rusak, Beth Short, Div
+Slomin, Ben Snyder, Stephon Striplin, Yu Su, Zachary Tellman, Sam Thomson, Andrei Vorobev,
+Izabela Witoszko, Jason Wolfe, Abby Wray, Yuchen Zhang, and Alexander Zotov.
+Task-oriented
+dialogue as dataﬂow synthesis. Transactions of the Association for Computational Linguistics (TACL),
+8, 2020.
+7
+
+85. Shiori Sagawa, Aditi Raghunathan, Pang Wei Koh, and Percy Liang. An investigation of why over-
+parameterization exacerbates spurious correlations. In International Conference on Machine Learning
+(ICML), 2020.
+86. Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been Kim, and
+Percy Liang. Concept bottleneck models. In International Conference on Machine Learning (ICML),
+2020.
+87. Fereshte Khani and Percy Liang. Feature noise induces loss discrepancy across groups. In International
+Conference on Machine Learning (ICML), 2020.
+88. Michihiro Yasunaga and Percy Liang.
+Graph-based, self-supervised program repair from diagnostic
+feedback. In International Conference on Machine Learning (ICML), 2020.
+89. Aditi Raghunathan, Sang Michael Xie, Fanny Yang, John C. Duchi, and Percy Liang. Understanding
+and mitigating the tradeoﬀbetween robustness and accuracy. In International Conference on Machine
+Learning (ICML), 2020.
+90. Ananya Kumar, Tengyu Ma, and Percy Liang. Understanding self-training for gradual domain adap-
+tation. In International Conference on Machine Learning (ICML), 2020.
+91. Megha Srivastava, Tatsunori Hashimoto, and Percy Liang.
+Robustness to spurious correlations via
+human annotations. In International Conference on Machine Learning (ICML), 2020.
+92. Erik Jones, Robin Jia, Aditi Raghunathan, and Percy Liang.
+Robust encodings: A framework for
+combating adversarial typos. In Association for Computational Linguistics (ACL), 2020.
+93. Amita Kamath, Robin Jia, and Percy Liang.
+Selective question answering under domain shift.
+In
+Association for Computational Linguistics (ACL), 2020.
+94. Jesse Mu, Percy Liang, and Noah Goodman. Shaping visual representations with language for few-shot
+classiﬁcation. In Association for Computational Linguistics (ACL), 2020.
+95. Shikhar Murty, Pang Wei Koh, and Percy Liang. ExpBERT: Representation engineering with natural
+language explanations. In Association for Computational Linguistics (ACL), 2020.
+96. Chris Donahue, Mina Lee, and Percy Liang.
+Enabling language models to ﬁll in the blanks.
+In
+Association for Computational Linguistics (ACL), 2020.
+97. Shiori Sagawa, Pang Wei Koh, Tatsunori B. Hashimoto, and Percy Liang.
+Distributionally robust
+neural networks for group shifts: On the importance of regularization for worst-case generalization. In
+International Conference on Learning Representations (ICLR), 2020.
+98. Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, and Jure Leskovec.
+Strategies for pre-training graph neural networks. In International Conference on Learning Represen-
+tations (ICLR), 2020.
+99. Cody Coleman, Christopher Yeh, Stephen Mussmann, Baharan Mirzasoleiman, Peter Bailis, Percy
+Liang, Jure Leskovec, and Matei Zaharia.
+Selection via proxy: Eﬃcient data selection for deep
+learning. In International Conference on Learning Representations (ICLR), 2020.
+100. Ray Li, Percy Liang, and Stephen Mussmann. A tight analysis of greedy yields subexponential time
+approximation for uniform decision tree. In Symposium on Discrete Algorithms (SODA), 2020.
+101. Robin Jia, Aditi Raghunathan, Kerem G¨oksel, and Percy Liang. Certiﬁed robustness to adversarial
+word substitutions. In Empirical Methods in Natural Language Processing (EMNLP), 2019.
+8
+
+102. Yonatan Oren, Shiori Sagawa, Tatsunori Hashimoto, and Percy Liang. Distributionally robust language
+modeling. In Empirical Methods in Natural Language Processing (EMNLP), 2019.
+103. John Hewitt and Percy Liang.
+Designing and interpreting probes with control tasks.
+In Empirical
+Methods in Natural Language Processing (EMNLP), 2019.
+104. Sumith Kulal, Panupong Pasupat, Kartik Chandra, Mina Lee, Oded Padon, Alex Aiken, and Percy
+Liang. Spoc: Search-based pseudocode to code. In Advances in Neural Information Processing Systems
+(NeurIPS), 2019.
+105. Yair Carmon, Aditi Raghunathan, Ludwig Schmidt, Percy Liang, and John C. Duchi. Unlabeled data
+improves adversarial robustness. In Advances in Neural Information Processing Systems (NeurIPS),
+2019.
+106. Ananya Kumar, Percy Liang, and Tengyu Ma. Veriﬁed uncertainty calibration. In Advances in Neural
+Information Processing Systems (NeurIPS), 2019.
+107. Pang Wei Koh, Kai-Siang Ang, Hubert H. K. Teo, and Percy Liang. On the accuracy of inﬂuence func-
+tions for measuring group eﬀects. In Advances in Neural Information Processing Systems (NeurIPS),
+2019.
+108. Tatsunori Hashimoto, Hugh Zhang, and Percy Liang. Unifying human and statistical evaluation for
+natural language generation. In North American Association for Computational Linguistics (NAACL),
+2019.
+109. Nanyun Peng, He He, and Percy Liang. Pun generation with surprise. In North American Association
+for Computational Linguistics (NAACL), 2019.
+110. Daniel Selsam, Matthew Lamm, Benedikt B¨unz, Percy Liang, Leonardo de Moura, and David L.
+Dill.
+Learning a SAT solver from single-bit supervision.
+In International Conference on Learning
+Representations (ICLR), 2019.
+111. Yuchen Zhang and Percy Liang.
+Defending against whitebox adversarial attacks via randomized
+discretization. In Artiﬁcial Intelligence and Statistics (AISTATS), 2019.
+112. Emma Pierson, Pang Wei Koh, Tatsunori Hashimoto, Daphne Koller, Jure Leskovec, Nick Eriksson,
+and Percy Liang.
+Inferring multidimensional rates of aging from cross-sectional data.
+In Artiﬁcial
+Intelligence and Statistics (AISTATS), 2019.
+113. Kensen Shi, Jacob Steinhardt, and Percy Liang.
+FrAngel: Component-based synthesis with control
+structures. In Principles of Programming Languages (POPL), 2019.
+114. Aditi Raghunathan, Jacob Steinhardt, and Percy Liang.
+Semideﬁnite relaxations for certifying ro-
+bustness to adversarial examples. In Advances in Neural Information Processing Systems (NeurIPS),
+2018.
+115. Stephen Mussmann and Percy Liang.
+Uncertainty sampling is preconditioned stochastic gradient
+descent on zero-one loss. In Advances in Neural Information Processing Systems (NeurIPS), 2018.
+116. Tatsunori Hashimoto, Kelvin Guu, Yonatan Oren, and Percy Liang.
+A retrieve-and-edit framework
+for predicting structured outputs. In Advances in Neural Information Processing Systems (NeurIPS),
+2018.
+117. Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen tau Yih, Yejin Choi, Percy Liang, and Luke
+Zettlemoyer.
+QuAC: Question answering in context.
+In Empirical Methods in Natural Language
+Processing (EMNLP), 2018.
+9
+
+118. He He, Derek Chen, Anusha Balakrishnan, and Percy Liang. Decoupling strategy and generation in
+negotiation dialogues. In Empirical Methods in Natural Language Processing (EMNLP), 2018.
+119. Panupong Pasupat, Tian-Shun Jiang, Evan Zheran Liu, Kelvin Guu, and Percy Liang.
+Mapping
+natural language commands to web elements. In Empirical Methods in Natural Language Processing
+(EMNLP), 2018.
+120. Matthew Lamm, Arun Chaganty, Christopher D. Manning, Dan Jurafsky, and Percy Liang. Textual
+analogy parsing: What’s shared and what’s compared among analogous facts. In Empirical Methods
+in Natural Language Processing (EMNLP), 2018.
+121. Stephen Mussmann and Percy Liang. On the relationship between data eﬃciency and error in active
+learning. In International Conference on Machine Learning (ICML), 2018.
+122. Tatsunori B. Hashimoto, Megha Srivastava, Hongseok Namkoong, and Percy Liang.
+Fairness with-
+out demographics in repeated loss minimization.
+In International Conference on Machine Learning
+(ICML), 2018.
+123. Braden Hancock, Paroma Varma, Stephanie Wang, Martin Bringmann, Percy Liang, and Christo-
+pher R´e. Training classiﬁers with natural language explanations. In Association for Computational
+Linguistics (ACL), 2018.
+124. Arun Chaganty, Stephen Mussmann, and Percy Liang.
+The price of debiasing automatic metrics in
+natural language evaluation. In Association for Computational Linguistics (ACL), 2018.
+125. Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don’t know: Unanswerable questions
+for SQuAD. In Association for Computational Linguistics (ACL), 2018.
+126. Stephen Mussmann and Percy Liang.
+Generalized binary search for split-neighborly problems.
+In
+Artiﬁcial Intelligence and Statistics (AISTATS), 2018.
+127. Fereshte Khani, Noah D. Goodman, and Percy Liang. Planning, inference and pragmatics in sequential
+language games. Transactions of the Association for Computational Linguistics (TACL), 6, 2018.
+128. Kelvin Guu, Tatsunori B. Hashimoto, Yonatan Oren, and Percy Liang.
+Generating sentences by
+editing prototypes. Transactions of the Association for Computational Linguistics (TACL), 0, 2018.
+129. Juncen Li, Robin Jia, He He, and Percy Liang.
+Delete, retrieve, generate: A simple approach to
+sentiment and style transfer. In North American Association for Computational Linguistics (NAACL),
+2018.
+130. Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, and Percy Liang.
+Reinforcement
+learning on web interfaces using workﬂow-guided exploration. In International Conference on Learning
+Representations (ICLR), 2018.
+131. Aditi Raghunathan, Jacob Steinhardt, and Percy Liang. Certiﬁed defenses against adversarial exam-
+ples. In International Conference on Learning Representations (ICLR), 2018.
+132. Osbert Bastani, Rahul Sharma, Alex Aiken, and Percy Liang. Active learning of points-to speciﬁca-
+tions. In Programming Language Design and Implementation (PLDI), 2018.
+133. Vatsal Sharan, Sham Kakade, Percy Liang, and Gregory Valiant. Prediction with a short memory. In
+Symposium on Theory of Computing (STOC), 2018.
+134. Jacob Steinhardt, Pang Wei Koh, and Percy Liang. Certiﬁed defenses for data poisoning attacks. In
+Advances in Neural Information Processing Systems (NeurIPS), 2017.
+10
+
+135. Tatsunori B. Hashimoto, John Duchi, and Percy Liang.
+Unsupervised transformation learning via
+convex relaxations. In Advances in Neural Information Processing Systems (NeurIPS), 2017.
+136. Vatsal Sharan, Sham Kakade, Percy Liang, and Gregory Valiant. Learning overcomplete HMMs. In
+Advances in Neural Information Processing Systems (NeurIPS), 2017.
+137. Robin Jia and Percy Liang. Adversarial examples for evaluating reading comprehension systems. In
+Empirical Methods in Natural Language Processing (EMNLP), 2017.
+138. Yuchen Zhang, Panupong Pasupat, and Percy Liang.
+Macro grammars and holistic triggering for
+eﬃcient semantic parsing. In Empirical Methods in Natural Language Processing (EMNLP), 2017.
+139. Arun Chaganty, Ashwin Paranjape, Percy Liang, and Chris Manning.
+Importance sampling for
+unbiased on-demand evaluation of knowledge base population.
+In Empirical Methods in Natural
+Language Processing (EMNLP), 2017.
+140. Pang Wei Koh and Percy Liang.
+Understanding black-box predictions via inﬂuence functions.
+In
+International Conference on Machine Learning (ICML), 2017.
+141. Yuchen Zhang, Percy Liang, and Martin J. Wainwright. Convexiﬁed convolutional neural networks.
+In International Conference on Machine Learning (ICML), 2017.
+142. Daniel Selsam, Percy Liang, and David Dill. Developing bug-free machine learning systems with formal
+mathematics. In International Conference on Machine Learning (ICML), 2017.
+143. Tianlin Shi, Andrej Karpathy, Linxi Fan, Jonathan Hernandez, and Percy Liang.
+World of bits:
+An open-domain platform for web-based agents.
+In International Conference on Machine Learning
+(ICML), 2017.
+144. Yuchen Zhang, Percy Liang, and Moses Charikar.
+A hitting time analysis of stochastic gradient
+Langevin dynamics. In Conference on Learning Theory (COLT), 2017.
+145. Osbert Bastani, Rahul Sharma, Alex Aiken, and Percy Liang. Synthesizing program input grammars.
+In Programming Language Design and Implementation (PLDI), 2017.
+146. Sida I. Wang, Sam Ginn, Percy Liang, and Christopher D. Manning.
+Naturalizing a programming
+language via interactive learning. In Association for Computational Linguistics (ACL), 2017.
+147. He He, Anusha Balakrishnan, Mihail Eric, and Percy Liang. Learning symmetric collaborative dialogue
+agents with dynamic knowledge graph embeddings.
+In Association for Computational Linguistics
+(ACL), pages 1766–1776, 2017.
+148. Kelvin Guu, Panupong Pasupat, Evan Zheran Liu, and Percy Liang.
+From language to programs:
+Bridging reinforcement learning and maximum marginal likelihood. In Association for Computational
+Linguistics (ACL), 2017.
+149. Jacob Steinhardt and Percy Liang. Unsupervised risk estimation using only conditional independence
+structure. In Advances in Neural Information Processing Systems (NeurIPS), 2016.
+150. Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. SQuAD: 100,000+ questions
+for machine comprehension of text. In Empirical Methods in Natural Language Processing (EMNLP),
+2016.
+151. Sida I. Wang, Percy Liang, and Chris Manning.
+Learning language games through interaction.
+In
+Association for Computational Linguistics (ACL), 2016. Acceptance rate: 25.4% (328/1290).
+152. Robin Jia and Percy Liang.
+Data recombination for neural semantic parsing.
+In Association for
+Computational Linguistics (ACL), 2016. Acceptance rate: 25.4% (328/1290).
+11
+
+153. Reginald Long, Panupong Pasupat, and Percy Liang.
+Simpler context-dependent logical forms via
+model projections.
+In Association for Computational Linguistics (ACL), 2016.
+Acceptance rate:
+25.4% (328/1290).
+154. Panupong Pasupat and Percy Liang.
+Inferring logical forms from denotations.
+In Association for
+Computational Linguistics (ACL), 2016. Acceptance rate: 25.4% (328/1290).
+155. Fereshte Khani, Martin Rinard, and Percy Liang.
+Unanimous prediction for 100% precision with
+application to learning semantic mappings.
+In Association for Computational Linguistics (ACL),
+2016. Acceptance rate: 25.4% (328/1290).
+156. Arun Tejasvi Chaganty and Percy Liang.
+How much is 131 million dollars?
+Putting numbers in
+perspective with compositional descriptions.
+In Association for Computational Linguistics (ACL),
+2016. Acceptance rate: 25.4% (328/1290).
+157. Aditi Raghunathan, Roy Frostig, John Duchi, and Percy Liang. Estimation from indirect supervision
+with linear moments. In International Conference on Machine Learning (ICML), 2016.
+158. Yushi Wang, Jonathan Berant, and Percy Liang. Building a semantic parser overnight. In Association
+for Computational Linguistics (ACL), 2015. Acceptance rate: 25% (173/692).
+159. Jonathan Berant and Percy Liang. Imitation learning of agenda-based semantic parsers. Transactions
+of the Association for Computational Linguistics (TACL), 3:545–558, 2015.
+160. Jacob Steinhardt and Percy Liang.
+Learning with relaxed supervision.
+In Advances in Neural
+Information Processing Systems (NeurIPS), 2015.
+161. Sida I. Wang, Arun Chaganty, and Percy Liang. Estimating mixture models via mixture of polynomials.
+In Advances in Neural Information Processing Systems (NeurIPS), 2015.
+162. Keenon Werling, Arun Chaganty, Percy Liang, and Chris Manning. On-the-job learning with Bayesian
+decision theory. In Advances in Neural Information Processing Systems (NeurIPS), 2015.
+163. Volodymyr Kuleshov and Percy Liang.
+Calibrated structured prediction.
+In Advances in Neural
+Information Processing Systems (NeurIPS), 2015.
+164. Volodymyr Kuleshov, Arun Chaganty, and Percy Liang. Simultaneous diagonalization: the asymmet-
+ric, low-rank, and noisy settings. arXiv, 2015.
+165. Kelvin Guu, John Miller, and Percy Liang. Traversing knowledge graphs in vector space. In Empirical
+Methods in Natural Language Processing (EMNLP), 2015. Acceptance rate: 24% (312/1315).
+166. Panupong Pasupat and Percy Liang. Compositional semantic parsing on semi-structured tables. In
+Association for Computational Linguistics (ACL), 2015. Acceptance rate: 25% (173/692).
+167. Dipendra K. Misra, Kejia Tao, Percy Liang, and Ashutosh Saxena.
+Environment-driven lexicon
+induction for high-level instructions.
+In Association for Computational Linguistics (ACL), 2015.
+Acceptance rate: 25% (173/692).
+168. Jacob Steinhardt and Percy Liang. Reiﬁed context models. In International Conference on Machine
+Learning (ICML), 2015. Acceptance rate: 26%.
+169. Jacob Steinhardt and Percy Liang. Learning fast-mixing models for structured prediction. In Inter-
+national Conference on Machine Learning (ICML), pages 1063–1072, 2015. Acceptance rate: 26%.
+170. Tianlin Shi, Jacob Steinhardt, and Percy Liang. Learning where to sample in structured prediction.
+In Artiﬁcial Intelligence and Statistics (AISTATS), pages 875–884, 2015. Acceptance rate: 28.7%.
+12
+
+171. Volodymyr Kuleshov, Arun Chaganty, and Percy Liang. Tensor factorization via matrix factorization.
+In Artiﬁcial Intelligence and Statistics (AISTATS), 2015. Acceptance rate: 28.7%.
+172. Vignesh Ramanathan, Armand Joulin, Percy Liang, and Li Fei-Fei. Linking people with ”their” names
+using coreference resolution. In European Conference on Computer Vision (ECCV), 2014.
+173. Jonathan Berant and Percy Liang. Semantic parsing via paraphrasing. In Association for Computa-
+tional Linguistics (ACL), 2014. Acceptance rate: 26.2% (146/572).
+174. Panupong Pasupat and Percy Liang. Zero-shot entity extraction from web pages. In Association for
+Computational Linguistics (ACL), 2014. Acceptance rate: 26.2% (146/572).
+175. Arun Chaganty and Percy Liang.
+Estimating latent-variable graphical models using moments and
+likelihoods. In International Conference on Machine Learning (ICML), 2014. Acceptance rate: 22%.
+176. Jacob Steinhardt and Percy Liang.
+Adaptivity and optimism: An improved exponentiated gradient
+algorithm. In International Conference on Machine Learning (ICML), 2014. Acceptance rate: 22%.
+177. Jacob Steinhardt and Percy Liang. Filtering with abstract particles. In International Conference on
+Machine Learning (ICML), pages 727–735, 2014. Acceptance rate: 22%.
+178. Stefan Wager, Will Fithian, Sida I. Wang, and Percy Liang.
+Altitude training: Strong bounds for
+single-layer dropout. In Advances in Neural Information Processing Systems (NeurIPS), 2014.
+179. Roy Frostig, Sida I. Wang, Percy Liang, and Chris Manning.
+Simple MAP inference via low-rank
+relaxations. In Advances in Neural Information Processing Systems (NeurIPS), 2014.
+180. Sida I. Wang, Roy Frostig, Percy Liang, and Chris Manning. Relaxations for inference in restricted
+Boltzmann machines.
+In International Conference on Learning Representations Workshop (ICLR),
+2014.
+181. Percy Liang.
+Lambda dependency-based compositional semantics.
+arXiv preprint arXiv:1309.4408,
+2013.
+182. Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. Semantic parsing on Freebase from
+question-answer pairs.
+In Empirical Methods in Natural Language Processing (EMNLP), 2013. Ac-
+ceptance rate: 27% (205/772).
+183. Sida I. Wang, Mengqiu Wang, Stefan Wager, Percy Liang, and Chris Manning.
+Feature noising for
+log-linear structured prediction.
+In Empirical Methods in Natural Language Processing (EMNLP),
+2013. Acceptance rate: 27% (205/772).
+184. Stefan Wager, Sida I. Wang, and Percy Liang.
+Dropout training as adaptive regularization.
+In
+Advances in Neural Information Processing Systems (NeurIPS), 2013.
+185. Arun Chaganty and Percy Liang. Spectral experts for estimating mixtures of linear regressions. In
+International Conference on Machine Learning (ICML), 2013. Acceptance rate: 24% (283/1204).
+186. Vignesh Ramanathan, Percy Liang, and Li Fei-Fei. Video event understanding using natural language
+descriptions. In International Conference on Computer Vision (ICCV), 2013.
+187. Rahul Sharma, Saurabh Gupta, Bharath Hariharan, Alex Aiken, Percy Liang, and Aditya V. Nori. A
+data driven approach for algebraic loop invariants. In European Symposium on Programming (ESOP),
+2013.
+188. Daniel Hsu, Sham M. Kakade, and Percy Liang. Identiﬁability and unmixing of latent parse trees. In
+Advances in Neural Information Processing Systems (NeurIPS), 2012.
+13
+
+189. Percy Liang, Michael I. Jordan, and Dan Klein. Learning dependency-based compositional semantics.
+In Association for Computational Linguistics (ACL), pages 590–599, 2011.
+Acceptance rate: 26%
+(164/634).
+190. Percy Liang and Mayur Naik.
+Scaling up abstraction reﬁnement via pruning.
+In Programming
+Language Design and Implementation (PLDI), 2011.
+191. Percy Liang, Omer Tripp, and Mayur Naik.
+Learning minimal abstractions.
+In Principles of Pro-
+gramming Languages (POPL), 2011.
+192. Percy Liang, Michael I. Jordan, and Dan Klein. Learning programs: A hierarchical Bayesian approach.
+In International Conference on Machine Learning (ICML), pages 639–646, 2010. Acceptance rate:
+25.9% (152/594).
+193. Percy Liang and Nati Srebro. On the interaction between norm and dimensionality: Multiple regimes
+in learning. In International Conference on Machine Learning (ICML), 2010. Acceptance rate: 25.9%
+(152/594).
+194. Percy Liang, Michael I. Jordan, and Dan Klein. Type-based MCMC. In North American Association
+for Computational Linguistics (NAACL), 2010. Acceptance rate: 31% (90/291).
+195. Percy Liang, Omer Tripp, Mayur Naik, and Mooly Sagiv.
+A dynamic evaluation of static heap
+abstractions.
+In Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA),
+2010.
+196. Dave Golland, Percy Liang, and Dan Klein.
+A game-theoretic approach to generating spatial de-
+scriptions.
+In Empirical Methods in Natural Language Processing (EMNLP), pages 410–419, 2010.
+Acceptance rate: 25% (125/500).
+197. Gabor Angeli, Percy Liang, and Dan Klein. A simple domain-independent probabilistic approach to
+generation. In Empirical Methods in Natural Language Processing (EMNLP), 2010. Acceptance rate:
+25% (125/500).
+198. Percy Liang, Francis Bach, Guillaume Bouchard, and Michael I. Jordan.
+Asymptotically optimal
+regularization in smooth parametric models. In Advances in Neural Information Processing Systems
+(NeurIPS), 2009.
+199. Percy Liang, Michael I. Jordan, and Dan Klein. Learning semantic correspondences with less super-
+vision. In Association for Computational Linguistics and International Joint Conference on Natural
+Language Processing (ACL-IJCNLP), pages 91–99, 2009.
+200. Percy Liang and Dan Klein. Online EM for unsupervised models. In North American Association for
+Computational Linguistics (NAACL), pages 611–619, 2009.
+201. Percy Liang, Michael I. Jordan, and Dan Klein. Learning from measurements in exponential families.
+In International Conference on Machine Learning (ICML), 2009. Acceptance rate: 26.9% (160/595).
+202. Percy Liang, Dan Klein, and Michael I. Jordan.
+Agreement-based learning.
+In Advances in Neural
+Information Processing Systems (NeurIPS), 2008.
+203. Percy Liang and Michael I. Jordan. An asymptotic analysis of generative, discriminative, and pseu-
+dolikelihood estimators.
+In International Conference on Machine Learning (ICML), pages 584–591,
+2008. Acceptance rate: 27% (155/583).
+204. Percy Liang, Hal Daum´e III, and Dan Klein. Structure compilation: Trading structure for features.
+In International Conference on Machine Learning (ICML), 2008. Acceptance rate: 27% (155/583).
+14
+
+205. Percy Liang and Dan Klein.
+Analyzing the errors of unsupervised learning.
+In Human Language
+Technology and Association for Computational Linguistics (HLT/ACL), 2008.
+206. Aria Haghighi, Percy Liang, Taylor Berg-Kirkpatrick, and Dan Klein. Learning bilingual lexicons from
+monolingual corpora. In Human Language Technology and Association for Computational Linguistics
+(HLT/ACL), 2008.
+207. Alexandre Bouchard-Cˆot´e, Percy Liang, Tom Griﬃths, and Dan Klein.
+A probabilistic approach to
+language change. In Advances in Neural Information Processing Systems (NeurIPS), 2008.
+208. Percy Liang, Michael I. Jordan, and Ben Taskar.
+A permutation-augmented sampler for Dirichlet
+process mixture models. In International Conference on Machine Learning (ICML), 2007. Acceptance
+rate: 29% (150/522).
+209. Alexandre Bouchard-Cˆot´e, Percy Liang, Tom Griﬃths, and Dan Klein.
+A probabilistic approach
+to diachronic phonology.
+In Empirical Methods in Natural Language Processing and Computational
+Natural Language Learning (EMNLP/CoNLL), 2007.
+210. Percy Liang, Slav Petrov, Michael I. Jordan, and Dan Klein.
+The inﬁnite PCFG using hierarchical
+Dirichlet processes. In Empirical Methods in Natural Language Processing and Computational Natural
+Language Learning (EMNLP/CoNLL), 2007.
+211. Percy Liang, Alexandre Bouchard-Cˆot´e, Dan Klein, and Ben Taskar.
+An end-to-end discriminative
+approach to machine translation.
+In International Conference on Computational Linguistics and
+Association for Computational Linguistics (COLING/ACL), 2006.
+212. Percy Liang, Ben Taskar, and Dan Klein. Alignment by agreement. In North American Association
+for Computational Linguistics (NAACL), pages 104–111, 2006.
+213. Percy Liang, Mukund Narasimhan, Michael Shilman, and Paul Viola. Eﬃcient geometric algorithms
+for parsing in two dimensions.
+In International Conference on Document Analysis and Recognition
+(ICDAR), 2005.
+Professional Activities
+Reviewer for conferences International Conference on Machine Learning (ICML), Computational Learn-
+ing Theory (COLT), Neural Information Processing Systems (NeurIPS), North American Association
+of Computational Linguistics (NAACL), Association of Computational Linguistics (ACL), Empirical
+Methods in Natural Language Processing (EMNLP), Uncertainty in Artiﬁcial Intelligence (UAI), Ar-
+tiﬁcial Intelligence and Statistics (AISTATS), International Joint Conference on Artiﬁcial Intelligence
+(IJCAI), Principles of Programming Languages (POPL).
+Reviewer for journals Transactions of Association of Computational Linguistics (TACL), Journal of Arti-
+ﬁcial Intelligence Research (JAIR), Journal of Machine Learning Research (JMLR), IEEE Transactions
+on Pattern Analysis and Machine Intelligence (PAMI).
+Area chair for conferences North American Association of Computational Linguistics (NAACL), Inter-
+national Conference on Machine Learning (ICML), Association of Computational Linguistics (ACL).
+Program chair for conferences Neural Information Processing Systems (NeurIPS).
+15
+
+Teaching
+2012–2023
+Artiﬁcial Intelligence: Principles and Techniques (Stanford CS221)
+2013–2016
+Statistical Learning Theory (Stanford CS229T)
+2021–2022
+Advances in Foundation Models (Stanford CS324)
+2023
+Language Models From Scratch (Stanford CS336)
+2008
+Introduction to Artiﬁcial Intelligence (Berkeley, teaching assistant)
+2007
+Statistical Learning Theory (CS281A) (Berkeley, teaching assistant)
+16

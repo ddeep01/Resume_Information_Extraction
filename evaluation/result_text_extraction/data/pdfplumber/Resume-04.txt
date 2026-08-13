@@ -1,0 +1,427 @@
+Ioannis Mitliagkas, asssociate professor Curriculum vitae, May 2025
+Contact DepartmentofComputerScienceandOperationsResearch
+Information UniversityofMontre´al
+Mila,QuebecAIInstitute E-mail: ioannis@iro.umontreal.ca
+6666St. Urbain,Montre´al Web: mitliagkas.github.io
+Research Statistical machine learning, optimization, deep learning, game theory, generative
+Interests models,distributedlearningsystems.
+Affiliations UniversityofMontre´al,DepartmentofComputerScienceandOperationsResearch
+Associateprofessor June2022-
+Assistantprofessor Sept. 2017-May2022
+Mila,QuebecAIInstitute September2017-
+Coremember,CanadaCIFARAIchair
+MemberofMila’sScientificCouncil
+GoogleDeepMind,Montre´al,StaffResearchScientist(parttime) September2022-
+Archimedes,AIInstitute January2024-
+Affiliateresearcher
+Pastaffiliations ElementAI,Montre´al,FacultyFellow(parttime) 2018-2020
+StanfordUniversity,Postdoc,DepartmentsofCSandStatistics 2015-2017
+Supervisedby: Associateprof. ChristopherRe´,Adjunctprof. LesterMackey
+Education TheUniversityofTexasatAustin
+PhD,ECEdepartment. AwardedinAugust2015
+Advisedby: Prof. ConstantineCaramanisandProf. SriramVishwanath
+Thesistopic: Resource-Constrained,ScalableLearning
+TechnicalUniversityofCrete,Chania,Greece
+MSc.,ECEdepartment. 2008-2010
+Diploma,ElectronicandComputerEngineering(5yeardegree), 2002-2008
+Advisor: ProfessorNikosD.Sidiropoulos
+1of11
+Researchgrants Duringmyfirstsixyearsoftenure-trackwork,Iwasawardedatotalofabout90PhD
+yearsincompetitivefunding(about2.7millionCADaftersubtractinganyoverhead),
+tobedisbursedoveraperiodof10years.
+• Metacollaborativegrant,awarded2024
+• CIFARCanadaAIchair,(originallyawardedDecember2018forfiveyears): Phase
+IIawardeduntil2028.
+• GooglexMilaResearchgrant,awarded2023
+• MicrosoftResearchcollaborativegrant,awarded2021
+• Samsung-Milacollaborativethree-yeargrant,awarded2020.
+• IVADOPostdoctoralScholarship,formypostdocK.Ahuja,awardedAugust2020
+• CIFAR Catalyst Grant, in collaboration with Manuela Girotti and Murat Erdogdu
+(UofT,Vector).
+• IVADOPostdoctoralScholarship, Fellowtier, formypostdocN.Loizou, awarded
+December2019
+• MicrosoftResearchcollaborativegrant,awardedJune2019
+• NSERCDiscovery,awardedApril2019(+competitiveacceleratorsupplement)
+• CIFARCanadaAIchair,awardedDecember2018
+• FondsdeRechercheduQue´bec,Natureettechnologies,NouveauChercheur,2018
+• IVADOprofessorshipgrant,2017
+Doctoral
+students
+CharlesGuille-Escuret(PhDcandidate)
+RyanD’Orazio(PhDcandidate)
+HirokiNaganuma(PhDcandidate)
+DivyatMahajan(PhDcandidate)
+BradyNeal(PhDcandidate)
+ZichuLiu(PhDstudent)
+MehrabHamidi(PhDstudent)
+Ahmed(Mehdi)Inane(PhDstudent)
+YuktiMakhija(PhDstudent,startingFall’25)
+MahdiGhaznavi(PhDstudent,startingFall’25)
+Mastersstudents
+VincentQuirion
+Interns,research
+assistants
+MehrnazMofakhami
+2of11
+Paststudents
+andsupervisees
+NicolasLoizou(postdoctoralscholar → assistantprof. atJohnsHopkinsUniv.)
+Manuela Girotti (postdoctoral scholar → assistant prof. at Emory University, At-
+lanta,GA)
+KartikAhuja(postdoctoralscholar → researchscientistatFAIRParis)
+KilianFatras(postdoctoralscholar → researchscientistatDreamfold,Montreal)
+Alexia Jolicoeur-Martineau (PhD → research scientist at Samsung SAIT AI Lab,
+Montreal)
+ReyhaneAskari(PhD → Meta,Montreal)
+AdamIbrahim(PhD → H,Paris)
+Re´miPiche´-Taillefer(graduatedMScsummer2021→MicrosoftResearch,Montre´al)
+MehrnazMofakhami(graduatedMScsummer2024;researchassistantatMila)
+BradyNeal(graduatedMSc,December2019;continuinghisPhDatMila/Senior
+ResearchScientistatDataiku)
+OscarClivio,fall2024,PhDstudent,UniversityofOxford)
+LyleKim(intern,summer2023;PhDcandidateRiceUniversity)
+VincentQuirion(intern,summer2024;MScatUdeM/Mila)
+Ange-Clement Akazan (intern, fall 2023; MSc student at the African Institute of
+MathematicalSciences)
+Se´bArnold(intern,summer2018;PhDcandidateatUSC)
+VinayakTantia(intern,2018,nowatFAIRMontre´al)
+BaptisteGoujeaud(intern,2020;PhDcandidateEcolePolytechnique)
+AmartyaMitra(intern,summer2020;PhDcandidateatUCRiverside)
+NicolasGagne´ (intern,summer2018;PhDcandidateatMcGill)
+JianZhang(mentee;PhDcandidateatStanford)
+PanosAchlioptas(mentee;PhDcandidateatStanford)
+Teaching UniversityofMontreal Latestteachingevaluation: 3.7/4.0
+Fundamentalsofmachinelearning(infrench) Fall2024
+Fundamentalsofmachinelearning Fall2023
+Theoreticalprinciplesfordeeplearning Winter2023
+Fundamentalsofmachinelearning Fall2022
+Theoreticalprinciplesfordeeplearning Winter2022
+Fundamentalsofmachinelearning Fall2021
+Theoreticalprinciplesfordeeplearning Winter2021
+Fundamentalsofmachinelearning Fall2020
+Theoreticalprinciplesfordeeplearning Winter2020
+Fundamentalsofmachinelearning Fall2019
+Theoreticalprinciplesfordeeplearning Winter2019
+Fundamentalsofmachinelearning Fall2018
+Theoreticalprinciplesfordeeplearning Winter2018
+3of11
+TheUniversityofTexasatAustin
+TeachingAssistant—InformationTheory Spring2012
+TechnicalUniversityofCrete
+TeachingAssistant—TelecommunicationNetworks Fall2008
+Publications
+D.Mahajan,M.Pezeshki,C.Arnal,I.Mitliagkas,K.Ahuja,P.Vincent
+Compositionalriskminimization
+ICML2025,arXivpreprintarXiv:2410.06303
+D.Beaglehole,I.Mitliagkas,A.Agarwala
+Featurelearningasalignment: astructuralpropertyofgradientdescentinnon-linear
+neuralnetworks
+TMLR2024,arXivpreprintarXiv:2402.05271
+E. Triantafillou, P. Kairouz, F. Pedregosa, J. Hayes, M. Kurmanji, K. Zhao, V. Du-
+moulin, J.J. Junior, I. Mitliagkas, J. Wan, L.S. Hosoya, S. Escalera, G.K. Dziugaite,
+P.Triantafillou,I.Guyon
+Are we making progress in unlearning? Findings from the first NeurIPS unlearning
+competition
+arXiv:2406.09073.
+R.D’Orazio,D.Vucetic,Z.Liu,JL.Kim,I.Mitliagkas,G.Gidel
+Solvinghiddenmonotonevariationalinequalitieswithsurrogatelosses
+ICLR2025,arXivpreprintarXiv:2411.05228
+C.Guille-Escuret,PA.Nol,I.Mitliagkas,D.Vazquez,J.Monteiro
+ExpectingTheUnexpected: TowardsBroadOut-Of-DistributionDetection
+AdvancesinNeuralInformationProcessingSystems37,130953-130976
+C.Guille-Escuret,H.Naganuma,K.Fatras,I.Mitliagkas
+NoWrongTurns: TheSimpleGeometryOfNeuralNetworksOptimizationPaths
+ICML,2024,arxiv:2306.11922
+D.Mahajan,I.Mitliagkas,B.Neal,V.Syrgkanis
+EmpiricalAnalysisofModelSelectionforHeterogeneousCausalEffectEstimation
+ICLR,2024,arXiv:2210.01210. [spotlightpresentation]
+R.AskariHemmat*,A.Mitra*,G.Lajoie,I.Mitliagkas.
+LEAD:Least-ActionDynamicsforMin-MaxOptimization
+ICLR2024(invited),TransactionsofMachineLearningResearch(TMLR)[featured]arXiv:2010.13846
+S.Lachapelle,D.Mahajan,I.Mitliagkas,S.Lacoste-Julien
+AdditiveDecodersforLatentVariablesIdentificationandCartesian-ProductExtrapo-
+lation
+NeurIPS,2023. [oralpresentation]
+C.G.Escuret,P.Rodriguez,D.Vazquez,I.Mitliagkas,J.Monteiro
+CADet: FullySelf-SupervisedAnomalyDetectionWithContrastiveLearning
+NeurIPS2023arXiv:2210.01742.
+T.Salvador,K.Fatras,I.Mitliagkas,A.Oberman
+AReproducibleandRealisticEvaluationofPartialDomainAdaptationMethods
+TransactionsofMachineLearningResearch(TMLR)arXiv:2210.01210.
+4of11
+R.D’Orazio,N.Loizou,I.Laradji,I.Mitliagkas
+StochasticMirrorDescent: ConvergenceAnalysisandAdaptiveVariantsviatheMir-
+rorStochasticPolyakStepsize
+TransactionsofMachineLearningResearch(TMLR)arXiv:2110.15412.
+S.Lachapelle,T.Deleu,D.Mahajan,I.Mitliagkas,Y.Bengio,S.Lacoste-Julien,Q.Bertrand.
+SynergiesBetweenDisentanglementandSparsity: aMulti-TaskLearningPerspective
+ICML,2023.
+H. Naganuma, K. Ahuja, S. Takagi, T. Motokawa, R. Yokota, K. Ishikawa, I. Sato,
+I.Mitliagkas
+EmpiricalStudyonOptimizerSelectionforOut-of-DistributionGeneralization
+TransactionsofMachineLearningResearch(TMLR) arXiv:2211.08583.
+S. Sokota, R. D’Orazio, J. Z. Kolter, N. Loizou, M. Lanctot, I. Mitliagkas, N. Brown,
+C.Kroer
+A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and
+Two-PlayerZero-SumGames
+ICLR,2023.
+A.Mousavi-Hosseini,S.Park,M.Girotti,I.Mitliagkas,M.A.Erdogdu
+NeuralNetworksEfficientlyLearnLow-DimensionalRepresentationswithSGD
+ICLR,2023.
+M.Mofakhami,I.Mitliagkas,G.Gidel.
+PerformativePredictionwithNeuralNetworks
+ArtificialInterlligenceandStatistics(AISTATS)2023.
+C.Guille-Escuret,A.Ibrahim,B.Goujaud,I.Mitliagkas
+Gradient Descent Is Optimal Under Lower Restricted Secant Inequality And Upper
+ErrorBound
+NeuralInformationProcessingSystems(NeuRIPS),2022.
+K.Fatras,H.Naganuma,I.Mitliagkas.
+OptimaltransportmeetsnoisylabelrobustlossandMixUpregularizationfordomain
+adaptation.
+CoLLAs2022.
+K.Ahuja,D.Mahajan,V.Syrgkanis,I.Mitliagkas.
+Towardsefficientrepresentationidentificationinsupervisedlearning
+CLeaR2022.
+N.Loizou,H.Berard,G.Gidel,I.Mitliagkas,S.Lacoste-Julien.
+StochasticGradientDescent-AscentandConsensusOptimizationforSmoothGames:
+ConvergenceAnalysisunderExpectedCo-coercivity
+NeuralInformationProcessingSystems(NeuRIPS),2021.
+K.Ahuja,E.Caballero,D.Zhang,Y.Bengio,I.Mitliagkas,I.Rish.
+Invariance Principle Meets Information Bottleneck for Out-of-Distribution General-
+ization
+NeuralInformationProcessingSystems(NeuRIPS),2021. [spotlightpresentation]
+A.Jolicoeur-Martineau,R.Piche-Taillefer,I.Mitliagkas,R.TachetdesCombes.
+Adversarialscorematchingandimprovedsamplingforimagegeneration
+InternationalConferenceonLearningRepresentations(ICLR),2021.
+5of11
+C.Guille-Escuret*,B.Goujaud*,M.Girotti,I.Mitliagkas.
+AStudyofConditionNumbersforFirst-OrderOptimization
+ArtificialIntelligenceandStatistics(AISTATS)2021. [beststudentpaperawardOPT2020]
+G.K.Dziugaite,A.Drouin,B.Neal,N.Rajkumar,E.Caballero,L.Wang,I.Mitliagkas,
+D.Roy.
+Insearchofrobustmeasuresofgeneralization
+NeuralInformationProcessingSystems(NeurIPS),2020.
+N.Loizou,H.Berard,A.Jolicoeur-Martineau,P.Vincent,S.Lacoste-Julien,I.Mitliagkas.
+StochasticHamiltonianGradientMethodsforSmoothGames
+InternationalConferenceonMachineLearning(ICML),2020.
+A.Ibrahim,W.Azizian,G.Gidel,I.Mitliagkas.
+LinearLowerBoundsandConditioningofDifferentiableGames
+InternationalConferenceonMachineLearning(ICML),2020.
+W.Azizian,D.Scieur,I.Mitliagkas,S.Lacoste-Julien,G.Gidel.
+AcceleratingSmoothGamesbyManipulatingSpectralShapes
+ArtificialintelligenceandStatistics(AISTATS),2020
+W.Azizian,I.Mitliagkas,S.Lacoste-Julien,G.Gidel.
+A Tight and Unified Analysis of Gradient-Based Methods for a Whole Spectrum of
+DifferentiableGames
+ArtificialIntelligenceandStatistics(AISTATS),2020
+S.M.Arnold,P.A.Manzagol,R.Babanezhad,I.Mitliagkas,N.L.Roux.
+Reducingthevarianceinonlineoptimizationbytransportingpastgradients.
+NeuralInformationProcessingSystems(NeurIPS),2019 [spotlightpresentation].
+I.Albuquerque,J.Monteiro,T.Doan,B.Considine,T.Falk,I.Mitliagkas.
+Multi-objectivetrainingofGenerativeAdversarialNetworks.
+InternationalConferenceonMachineLearning(ICML),2019.
+V.Verma,A.Lamb,C.Beckham,A.Najafi,I.Mitliagkas,A.Courville,D.Lopez-Paz,
+Y.Bengio.
+ManifoldMixup: BetterRepresentationsbyInterpolatingHiddenStates.
+InternationalConferenceonMachineLearning(ICML),2019.
+A.Lamb,J.Binas,A.Goyal,S.Subramanian,I.Mitliagkas,Y.Bengio,M.Mozer.
+State-Reification Networks: Improving Generalization by Modeling the Distribution
+ofHiddenRepresentations.
+InternationalConferenceonMachineLearning(ICML),2019 [oralpresentation].
+B.Kanuparthi,D.Arpit,G.Kerg,N.R.Ke,I.Mitliagkas,Y.Bengio.
+h-detach: ModifyingtheLSTMGradientTowardsBetterOptimization.
+InternationalConferenceonLearningRepresentations(ICLR),2019.
+G.Gidel,R.Askari,M.Pezeshki,G.Huang,S.Lacoste-Julien,I.Mitliagkas.
+NegativeMomentumforImprovedGameDynamics.
+ArtificialIntelligenceandStatistics(AISTATS),2019.
+J.Zhang,I.Mitliagkas.
+YellowFinandtheArtofMomentumTuning.
+SystemsandML(SysML),2019.
+6of11
+P.Achlioptas,O.Diamanti,I.Mitliagkas,L.Guibas.
+LearningRepresentationsandGenerativeModelsfor3DPointClouds.
+InternationalConferenceonMachineLearning(ICML),2018.
+J.Zhang,I.Mitliagkas.
+YellowFin: Adaptiveoptimizationfor(A)synchronoussystems.
+SystemsandML(SysML),2018 [oralpresentation].
+C.DeSa,B.He,I.Mitliagkas,C.Re´,P.Xu.
+Acceleratedstochasticpoweriteration.
+ArtificialIntelligenceandStatistics(AISTATS),2018.
+T.Kurth,J.Zhang,N.Satish,I.Mitliagkas,E.Racah,M.A.Patwary,T.Malas,N.Sun-
+daram,W.Bhimji,M.Smorkalov,J.Deslippe,M.Shiryaev,S.Sridharan,P.Dubey.
+Deep Learning at 15PF: Supervised and Semi-Supervised Classification for Scientific
+Data.
+Supercomputing(SC),2017.
+I.Mitliagkas,L.Mackey.
+ImprovingGibbsSamplerScanQualitywithDoGS.
+InternationalConferenceonMachineLearning(ICML),2017.
+I.Mitliagkas,C.Zhang,S.Hadjis,C.Re´.
+AsynchronybegetsMomentum,withanApplicationtoDeepLearning.
+AllertonConferenceonCommunication,Control,andComputing,2016.
+B.He,C.DeSa,I.Mitliagkas,C.Re´.
+Scan Order in Gibbs Sampling: Models in Which it Matters and Bounds on How
+Much.
+NeuralInformationProcessingSystems(NIPS),2016.
+I.Mitliagkas,M.Borokhovich,A.Dimakis,C.Caramanis.
+FrogWild! –FastPageRankApproximationsonGraphEngines.
+VLDB,2015.
+D.Papailiopoulos,I.Mitliagkas,A.Dimakis,C.Caramanis.
+Findingdensesubgraphsthroughlow-rankapproximations.
+InternationalConferenceonMachineLearning(ICML),2014.
+I.Mitliagkas,C.Caramanis,P.Jain.
+Memory-limitedStreamingPCA.
+NeuralInformationProcessingSystems(NIPS),2013.
+I.Mitliagkas,A.Gopalan,C.Caramanis,S.Vishwanath.
+UserRankingsfromComparisons: LearningPermutationsinHighDimensions.
+AllertonConferenceonCommunication,Control,andComputing,2011.
+I.Mitliagkas,N.D.Sidiropoulos,andA.Swami.
+Joint Power and Admission Control for Ad-hoc and Cognitive Underlay Networks:
+ConvexApproximationandDistributedImplementation.
+IEEETransactionsonWirelessCommunications,2011.
+I.Mitliagkas,S.Vishwanath.
+StrongInformation-TheoreticLimitsforSource/ModelRecovery.
+AllertonConferenceonCommunication,Control,andComputing,2010.
+7of11
+I.Mitliagkas,N.D.Sidiropoulos,andA.Swami.
+Distributed Joint Power and Admission Control for Ad-hoc and Cognitive Underlay
+Networks.
+ICASSP2010.
+I.Mitliagkas,N.D.Sidiropoulos,andA.Swami.
+Convex Approximation-based Joint Power and Admission Control for Cognitive Un-
+derlayNetworks.
+InternationalWirelessComm. andMobileComputingConference,2008. IWCMC’08. IEEE.
+Workshoppapers
+H.Naganuma,JL.Kim,A.Kyrilllidis,I.Mitliagkas
+Smoothness-adaptivesharpness-awareminimizationforfindingflatterminima
+5thWorkshoponpracticalMLforlimited/lowresourcesettings
+M.Mofakhami,R.Bayat,I.Mitliagkas,J.Monteiro,V.Zantedeschi
+Performance Control in Early Exiting to Deploy Large Models at the Same Cost of
+SmallerOnes
+arXivpreprintarXiv:2412.19325
+ICML2024workshoponEfficientSystemsforFoundationalModels.
+B.Neal,I.Mitliagkas.
+In Support of Over-Parametrization in Deep Reinforcement Learning: an Empirical
+Study
+ICML2019WorkshoponIdentifyingandUnderstandingDeepLearningPhenomena
+B.Neal,S.Mittal,A.Baratin,V.Tantia,M.Scicluna,S.Lacoste-Julien,I.Mitliagkas.
+AModernTakeontheBias-VarianceTradeoffinNeuralNetworks
+ICML2019WorkshoponIdentifyingandUnderstandingDeepLearningPhenomena
+J.Zhang,C.DeSa,I.Mitliagkas,C.Re´.
+ParallelSGD:Whendoesaveraginghelp?
+OptimizationMethodsfortheNextGenerationofMachineLearningWorkshop,ICML2016.
+Preprintsunder
+review,technical H.Naganuma,X.Zhang,MC.Yue,I.Mitliagkas,PA.Witte,RJ.Hewett
+reports Pseudo-AsynchronousLocalSGD:RobustandEfficientData-ParallelTraining
+arXivpreprintarXiv:2504.18454
+O.Clivio,D.Mahajan,P.Taslakian,S.Magliacane,I.Mitliagkas
+LearningtoDeferforCausalDiscoverywithImperfectExperts
+arXivpreprintarXiv:2502.13132
+L.Maes,TH.Zhang,A.Jolicoeur-Martineau,I.Mitliagkas,D.Scieur
+UnderstandingAdamRequiresBetterRotationDependentAssumptions
+arXivpreprintarXiv:2410.19964
+AC.Akazan,A.Jolicoeur-Martineau,I.Mitliagkas
+GeneratingTabularDataUsingHeterogeneousSequentialFeatureForestFlowMatch-
+ing
+arXivpreprintarXiv:2410.15516
+8of11
+A.Ibrahim,C.Guille-Escuret,I.Mitliagkas,I.Rish,D.Krueger,P.Bashivan
+TowardsOut-of-DistributionAdversarialRobustness
+arXiv:2210.03150.
+M.Girotti,I.Mitliagkas,GauthierGidel
+Convergence Analysis and Implicit Regularization of Feedback Alignment for Deep
+LinearNetworks
+arXiv:2110.10815.
+A.Jolicoeur-Martineau,K.Li*,R.Pich-Taillefer*,T.Kachman*,I.Mitliagkas.
+GottaGoFastWhenGeneratingDatawithScore-BasedModels
+arXiv:2105.14080.
+I.Albuquerque,J.Monteiro,T.Falk,I.Mitliagkas.
+Generalizingtounseendomainsviadistributionmatching
+preprint,2020.
+A.Jolicoeur-Martineau,I.Mitliagkas.
+Gradientpenaltyfromamaximummarginperspective
+preprint,2020
+S.Hadjis,C.Zhang,I.Mitliagkas,C.Re´.
+Omnivore: AnOptimizerforMulti-deviceDeepLearningonCPUsandGPUs. Tech-
+nicalreport,arXiv:1606.04487.
+InthePress TheGreekAIEcosystem
+TrudeaumeetswithnewlyappointedCanadaCIFARAIChairs,CIFARNews
+Sept chercheurs de lUdeM titulaires de chaires en intelligence artificielle Canada-
+CIFAR,UdeMNouvelles
+NERSCScalesScientificDeepLearningto15Petaflops,HPCWire
+DelaGre`cea` l’UdeM:l’e´tonnantparcoursd’IoannisMitliagkas,UdeMNouvelles
+Awards,
+Distinctions NeurIPSFoundation,top10%ofreviewers,2020
+CIFARCanadaAIchair
+NIPSFoundation,listedamongbestreviewers,2018
+GerondelisFoundationInc.: GraduateScholarship,2014
+The University of Texas at Austin: Microelectronics and Computer Development
+(MCD)Fellowship,2009-2011
+TechnicalUniversityofCrete: Undergraduateexcellenceaward,2008
+StateScholarshipsFoundation(Greece): Undergraduateexcellenceaward,2005
+9of11
+TechnicalChamberofGreece: Undergraduateexcellenceaward,2005
+Professional
+Service Archimedessummerschool,Athens,Greece(2022)
+NeuromatchAcademyDeepLearningTrack,World-wide(2021,2022)
+AI4GoodSummerSchool,Canada(2021)
+Co-organizerofINFORMS2021workshop:
+“Acceleratedmethodsinconvexandnon-convexoptimzation”
+Co-founder and organizer of MTL MLOpt, a Montreal-based group of researchers
+frommanyuniversitiesandindustriallabs.
+MemberoftheinauguralprogramcommitteeofMLSys:
+Thecommittee’srolewastodecidetheconference’sfocusandsteeritsfuturegoals.
+OrganizerofNeurIPS2018,2019workshop:
+“SmoothGamesOptimizationandMachineLearning”
+ReviewerofMITACSAccelerategrants
+Served as head of the scientific committee in charge of evaluating IVADO grants
+(2018)andasmemberinsubsequentyears.
+Hostoforalsession,NeurIPS2021
+ReviewerandACforanumberofjournalsandconferencesincludingNeurIPS,ICML,
+COLT,AISTATS,ALT,AAAI,ICLR,JMLR(editorialboard),IJCAI,SIGGRAPH,Trans-
+actions on Information Theory, ISIT, ICASSP, Transactions on Wireless Communica-
+tions.
+RecentInvited
+Talks(not NeuromatchAcademyDeepLearningTrack,World-wide Summer2023
+including Archimedessummerschool,Athens,Greece July2022
+acceptedpaper Simonssemesteringametheory,Berkeley,CA January-March,2022
+presentations) SIAMconferenceinoptimizationOP21,Spokane,WA July2021
+NeuromatchAcademyDeepLearningTrack,World-wide Summer2021
+AI4GoodSummerSchool,Canada May2021
+GoogleBrain,Montreal,QC November2020
+ITA,SanDiego,CA February2020
+INFORMS,Seattle,WA October2019
+MicrosoftResearchworkshop,Montre´al,QC October2019
+TheoreticalAdvancesinDeepLearning,Workshop,Istanbul July2019
+UTAustin,TX March2019
+NVIDIA,Webinar March2019
+ElementAI,Toronto,ON November2018
+BorealisAI,Toronto,ON October2018
+USC,LosAngeles,CA October2018
+MicrosoftResearchworkshop,Montre´al,QC October2018
+ElementAI,Toronto,ON September2018
+10of11
+MicrosoftResearch,Montre´al,QC August2018
+ElementAI,Montre´al,QC June2018
+FAIR,Montre´al,QC May2018
+RLLab,McGill,Montre´al,QC April2018
+ElementAI,Montre´al,QC April2018
+TechAide,Montre´al,QC April2018
+ECESeminar,UTAustin,TX March2018
+BayesComp,BarcelonaSpain March2018
+SysML,StanfordCA February2018
+GoogleBrain,Montre´al November2017
+TexasWirelessSummit,Austin,TX October2017
+Colloquium,UniversityofMontre´al September2017
+Colloquium,TheUniversityofTexas,Austin September2017
+AutoMLworkshop,ICML,Sydney August2017
+WorkshoponAdvancesinComputingArchitectures,StanfordSystemX April2016
+ITAworkshop,SanDiego,CA February2017
+AAAI2017WorkshoponDistributedMachineLearning February2017
+MicrosoftResearch,Cambridge,UK December2016
+SystemXStanfordAllianceFallConference November2016
+MicrosoftResearch,NewEngland October2016
+AllertonConference,Monticello,IL September2016
+GoogleBrain,MountainView,CA August2016
+MITLincolnLabs,MA August2016
+NVIDIA,SantaClara,CA July2016
+11of11

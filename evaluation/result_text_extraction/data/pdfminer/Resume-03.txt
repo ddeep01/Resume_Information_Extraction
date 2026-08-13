@@ -1,0 +1,592 @@
+Curriculum Vitae
+
+HAMED PIRSIAVASH
+
+contact
+information
+
+current
+position
+
+research
+interests
+
+education
+
+One Shields Ave, Kemper Hall 3061
+Davis, CA 95616
+
+Associate Professor
+Department of Computer Science
+University of California, Davis
+
+Machine Learning
+Computer Vision
+
+E-mail: hpirsiav@ucdavis.edu
+Web: https://web.cs.ucdavis.edu/~hpirsiav/
+
+academic
+experience
+
+University of California, Davis, CA
+Associate Professor (with tenure)
+
+University of California Irvine, Irvine, CA
+Ph.D. in Computer Science
+
+• Advisor: Prof. Deva Ramanan
+• Co-advisor: Prof. Ramesh Jain
+• Thesis: Scalable Action Recognition in Continuous Video Streams
+
+Sharif University of Technology, Tehran, Iran
+M.Sc. in Electrical Engineering
+
+• Advisor: Prof. Farokh Marvasti
+• Co-advisor: Prof. Shohreh Kasaei
+• Thesis: Moving Object Segmentation in Video Sequences
+
+Iran University of Science and Technology, Tehran, Iran
+B.Sc. in Electrical Engineering
+
+09/2007 - 09/2012
+
+09/2003 - 01/2006
+
+09/1999 - 09/2003
+
+09/2021 - present
+
+University of Maryland, Baltimore County (UMBC), Baltimore, MD
+Assistant Professor and Associate Professor (with tenure)
+
+08/2015 - 09/2021
+
+12/2019 - 09/2021
+University of Maryland School of Medicine, Baltimore, MD
+Assistant Professor (Secondary) at the Department of Diagnostic Radiology and Nuclear Medicine
+
+Massachusetts Institute of Technology (MIT), Cambridge, MA
+Postdoctoral Research Associate with Prof. Antonio Torralba
+
+University of California Irvine (UCI), Irvine, CA
+Research Assistant with Prof. Deva Ramanan
+• Object detection and tracking and action recognition
+
+10/2012 - 06/2015
+
+09/2007 - 09/2012
+
+University of Miami, Coral Gables, FL
+Research Assistant with Prof. Shahriar Negahdaripour
+• Pairing optical and sonar cameras to perform underwater 3D reconstruction
+
+08/2006 - 06/2007
+
+Sharif University of Technology, Tehran, Iran
+Research Assistant with Prof. Farokh Marvasti
+• Segmentation, denoising, and watermarking in images and videos
+
+09/2003 - 01/2006
+
+1
+
+teaching
+experience
+
+University of California, Davis, Davis, CA
+Instructor for “Machine Learning”, “Computer Vision”, and “Advanced Deep Learning”
+
+2022-present
+
+selected
+honors and
+awards
+
+University of Maryland, Baltimore County, Baltimore, MA
+Instructor for “Machine Learning”, “Computer Vision”, and “Algorithms”
+
+University of California Irvine, Irvine, CA
+Teaching Assistant for “Digital Logic Design”
+
+Sharif University of Technology, Tehran, Iran
+Instructor for “Wireless Communications Lab”
+
+Sharif University of Technology, Tehran, Iran
+Teaching Assistant for “Advanced Image Processing” and “Digital Image Processing”
+
+Iran University of Science and Technology, Tehran, Iran
+Teaching Assistant for “Electrical Circuits”
+
+2015-2021
+
+2008-2009
+
+2005
+
+2005
+
+2001
+
+Allameh Helli Middle School (NODET), Tehran, Iran
+Instructor for “Computer Programming and Algorithms” and “Logic Circuit Design”
+
+2000-2004
+
+• Early Career Faculty Excellence Award
+
+at College of Engineering and Information Technology
+
+• Best Paper Award at ICTAI 2017
+• Best Paper Award at BMG Workshop at CVPR 2007
+• Travel Grant, CVPR 2014
+• Doctoral Consortium Travel Grant, CVPR 2012
+• Ranked in Top 3 in hITEC Entrepreneurship Competition at UC Irvine
+• Ranked 13/∼8,000, Nationwide Entrance Exam for Graduate Studies
+• Ranked in Top 0.1%, National Electrical Engineering Olympiad
+• Silver Medal in the National Physics Olympiad for high school students
+• Admission to middle school and high school in National Organization
+
+2020
+2017
+2007
+2014
+2012
+2009
+2003
+2003
+1998
+
+for Development of Exceptional Talents (NODET) (success rate <0.3%)
+
+1992 and 1995
+
+academic
+service
+
+Proposal Review Panel
+• NSF Panels 2024, 2023, 2022, 2019, 2018, 2017
+
+Area Chair
+• ICLR 2025, 2024: International Conference on Learning Representations
+• ECCV 2024: European Conference on Computer Vision
+• CVPR 2025, 2023, 2020, 2018, 2017: IEEE Conference on Computer Vision and Pattern Recog-
+
+nition
+
+• NeurIPS 2025, 2024, 2023: Advances in Neural Information Processing Systems
+• ICCV 2023: International Conference on Computer Vision
+• ICPR 2022, 2020: International Conference on Pattern Recognition
+
+Senior Program Committee Member
+• IJCAI 2020, 2019: International Joint Conference on Artiﬁcial Intelligence
+• AAAI 2023, 2018: AAAI Conference on Artiﬁcial Intelligence
+
+Co-organizer
+• Workshop on Egocentric Vision at CVPR 2012
+
+2
+
+Associate Editor
+• IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2021-present)
+• IEEE Transactions on Neural Networks and Learning Systems (TNNLS) (2023-present)
+• IET Computer Vision (2017-2024)
+
+Program Committee Member / Reviewer
+• Several conference and journals including IJCV, TPAMI, CVPR, ICCV, ECCV, NeurIPS, ICML,
+
+FC, ACCV, IROS, etc.
+
+• Forbes, Wired, PopSci, CNN, NPR, Associated Press, Late Show with Stephen Colbert, The
+New York Times, MIT News, “Algorithm Binge Watches TV to Predict Human Behavior”,
+06/2016.
+
+• NBC News, WIRED-UK, GIGAOM, ScienceDaily, Technology Review, MIT News, “Tech-
+niques from Natural Language Processing Enable Computers to Eﬃciently Search Video for
+Actions”, 05/2014.
+
+• MIT Technology Review, “Random Image Experiment Reveals The Building Blocks of Human
+
+Imagination”, 10/2014.
+
+selected
+press coverage
+
+patents
+
+• “Systems and methods for indexing presentation videos”, US08280158.
+
+• “Deep learning for real-time colon polyp detection”, US11308614B2.
+
+selected
+publications
+
+• Chayne Thrash, Reed Andreas, Ali Abbasi, Parsa Nooralinejad, Soroush Abbasi Kooh-
+payegani, Hamed Pirsiavash, Soheil Kolouri, “MCNC: Manifold-Constrained Reparameteriza-
+tion for Neural Compression”, International Conference on Learning Representations (ICLR)
+2025.
+
+• K L Navaneet*, Kossar Pourahmadi Meibodi*, Soroush Abbasi Koohpayegani, Hamed Pir-
+siavash, “Compact3D: Smaller and Faster Gaussian Splatting with Vector Quantization”,
+European Conference on Computer Vision (ECCV) 2024. *: equal contribution
+
+• K L Navaneet*, Soroush Abbasi Koohpayegani*, Essam Sleiman*, Hamed Pirsiavash, “Slow-
+Former: Adversarial Attack on Compute and Energy Consumption of Eﬃcient Vision Trans-
+formers”, International Conference on Computer Vision and Pattern Recognition (CVPR)
+2024.
+*: equal contribution
+
+• Ali Abbasi, Parsa Nooralinejad, Hamed Pirsiavash, Soheil Kolouri, “BrainWash: A Poisoning
+Attack to Forget in Continual Learning”, International Conference on Computer Vision and
+Pattern Recognition (CVPR) 2024.
+
+• Soroush Abbasi Koohpayegani*, K L Navaneet*, Parsa Nooralinejad, Soheil Kolouri, Hamed
+Pirsiavash, “NOLA: Compressing LoRA using Linear Combination of Random Basis”, Inter-
+national Conference on Learning Representations (ICLR) 2024. *: equal contribution
+
+• Andrea Soltoggio, Eseoghene Ben-Iwhiwhu, Vladimir Braverman, Eric Eaton, Benjamin Ep-
+stein, Yunhao Ge, Lucy Halperin, Jonathan How, Laurent Itti, Michael A Jacobs, Pavan Kan-
+tharaju, Long Le, Steven Lee, Xinran Liu, Sildomar T Monteiro, David Musliner, Saptarshi
+Nath, Priyadarshini Panda, Christos Peridis, Hamed Pirsiavash, Vishwa Parekh, Kaushik
+Roy, Shahaf Shperberg, Hava T Siegelmann, Peter Stone, Kyle Vedder, Jingfeng Wu, Lin
+Yang, Guangyao Zheng, Soheil Kolouri, “A collective AI via lifelong learning and sharing at
+the edge”, Nature Machine Intelligence 2024. *: equal contribution
+
+• Soroush Abbasi Koohpayegani, Hamed Pirsiavash, “SimA: Simple Softmax-free Attention for
+Vision Transformers ”, IEEE CVF Winter Conference on Applications of Computer Vision
+
+3
+
+(WACV) 2024.
+
+• Akshayvarun Subramanya, Soroush Abbasi Koohpayegani, Aniruddha Saha, Ajinkya Te-
+jankar, Hamed Pirsiavash, “A Closer Look at Robustness of Vision Transformers to Backdoor
+Attacks”, IEEE CVF Winter Conference on Applications of Computer Vision (WACV) 2024.
+
+• Soheil Kolouri, Ali Abbasi, Soroush Abbasi Koohpayegani, Parsa Nooralinejad, Hamed Pir-
+siavash, “Multi-Agent Lifelong Implicit Neural Learning”, IEEE Signal Processing Letters
+2023.
+
+• Jules A Larke, Elizabeth L Chin, Yasmine Y Bouzid, Tu Nguyen, Yael Vainberg, Dong Hee
+Lee, Hamed Pirsiavash, Jennifer T Smilowitz, Danielle G Lemay, “Surveying nutrient assess-
+ment with photographs of meals (SNAPMe): a benchmark dataset of food photos for dietary
+assessment”, Nutrients 2023. (IF=5.7)
+
+• Ali Abbasi, Parsa Nooralinejad, Vladimir Braverman, Hamed Pirsiavash, Soheil Kolouri,
+“Sparsity and heterogeneous dropout for continual learning in the null space of neural acti-
+vations”, Conference on Lifelong Learning Agents 2023.
+
+• Parsa Nooralinejad, Ali Abbasi, Soroush Abbasi Koohpayegani*, Kossar Pourahmadi Mei-
+bodi*, Rana Muhammad Shahroz Khan*, Soheil Kolouri, Hamed Pirsiavash, “PRANC: Pseudo
+RAndom Networks for Compacting deep models”, International Conference on Computer Vi-
+sion (ICCV) 2023. *: equal contribution
+
+• Randall Balestriero, Mark Ibrahim, Vlad Sobal, Ari Morcos, Shashank Shekhar, Tom Gold-
+stein, Florian Bordes, Adrien Bardes, Gregoire Mialon, Yuandong Tian, Avi Schwarzschild,
+Andrew Gordon Wilson, Jonas Geiping, Quentin Garrido, Pierre Fernandez, Amir Bar,
+Hamed Pirsiavash, Yann LeCun, Micah Goldblum, “A Cookbook of Self-Supervised Learn-
+ing”, arXiv 2023.
+
+• Ajinkya Tejankar, Maziar Sanjabi, Qifan Wang, Sinong Wang, Hamed Firooz, Hamed Pir-
+siavash, Liang Tan, “Defending Against Patch-based Backdoor Attacks on Self-supervised
+Learning”, International Conference on Computer Vision and Pattern Recognition (CVPR)
+2023.
+
+• Zihao Wu, Huy Tran, Hamed Pirsiavash, Soheil Kolouri, “Is Multi-Task Learning an Upper
+Bound for Continual Learning?” IEEE International Conference on Acoustics, Speech and
+Signal Processing (ICASSP) 2023.
+
+• Ali Abbasi, Parsa Nooralinejad, Vladimir Braverman, Hamed Pirsiavash, Soheil Kolouri,
+“Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural
+Activations”, Conference on Lifelong Learning Agents. PMLR 2022.
+
+• Ajinkya Tejankar*, Soroush Abbasi Koohpayegani*, K L Navaneet*, Kossar Pourahmadi Mei-
+bodi, Akshayvarun Subramanya, Hamed Pirsiavash, “Constrained Mean Shift Using Distant
+Yet Related Neighbors for Representation Learning”, European Conference on Computer
+Vision (ECCV), 2022. *: equal contribution
+
+• Mohsen Fayyaz*, Soroush Abbasi Koohpayegani*, Farnoush Rezaei Jafari*, Sunando Sen-
+gupta, Hamid Reza Vaezi Joze, Eric Sommerlade, Hamed Pirsiavash, Juergen Gall, “Adap-
+tive Inverse Transform Sampling For Eﬃcient Vision Transformers”, European Conference on
+Computer Vision (ECCV), 2022 (oral presentation). *: equal contribution
+
+• Rex Liu, Huanle Zhang, Hamed Pirsiavash, Xin Liu, “MASTAF: A Model-Agnostic Spatio-
+Temporal Attention Fusion Network for Few-shot Video Classiﬁcation”, IEEE/CVF Winter
+Conference on Applications of Computer Vision (WACV), 2023.
+
+• Akshayvarun Subramanya, Hamed Pirsiavash, “A Simple Approach to Adversarial Robustness
+in Few-shot Image Classiﬁcation”, ECCV 2022 Workshop on Adversarial Robustness in the
+Real World, 2022.
+
+4
+
+• Ajinkya Tejankar, Maziar Sanjabi, Bichen Wu, Madian Khabsa, Saining Xie, Hamed Pir-
+siavash, Hamed Firooz, “Can we train vision and language zero-shot classiﬁcation models
+without syntax?”, NeurIPS 2022 Workshop: Self-Supervised Learning - Theory and Practice,
+2022.
+
+• Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash, “Back-
+door Attacks on Self-Supervised Learning”, International Conference on Computer Vision and
+Pattern Recognition (CVPR) 2022 (oral presentation).
+
+• Vipin Pillai, Soroush Abbasi Koohpayegani, Ashley Ouligian, Dennis Fong, Hamed Pirsiavash,
+“Consistent Explanations by Constrastive Learning”, International Conference on Computer
+Vision and Pattern Recognition (CVPR) 2022.
+
+• Akshayvarun Subramanya, Hamed Pirsiavash, “Adversarially Robust Few-shot Learning through
+
+Simple Transfer”, ECCV Workshops: Adversarial Robustness in the Real World 2022.
+
+• K L Navaneet, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash, “SimReg:
+Regression as a Simple Yet Eﬀective Tool for Self-supervised Knowledge Distillation”, British
+Machine Vision Conference (BMVC) 2021.
+
+• Soroush Abbasi Koohpayegani*, Ajinkya Tejankar*, Hamed Pirsiavash, “Mean Shift for Self-
+Supervised Learning”, International Conference on Computer Vision (ICCV) 2021 (oral pre-
+sentation). *equal contribution
+
+• Ajinkya Tejankar*, Soroush Abbasi Koohpayegani*, Vipin Pillai, Paolo Favaro, Hamed Pir-
+siavash, “ISD: Self-Supervised Learning by Iterative Similarity Distillation”, International
+Conference on Computer Vision (ICCV) 2021. *equal contribution
+
+• Vipin Pillai, Hamed Pirsiavash, “Explainable Models with Consistent Interpretations”, 35th
+
+AAAI Conference on Artiﬁcial Intelligence (AAAI) 2021.
+
+• Soroush Abbasi Koohpayegani*, Ajinkya Tejankar*, Hamed Pirsiavash, “CompRess: Self-
+Supervised Learning by Compressing Representations”, Neural Information Processing Sys-
+tems (NeurIPS) 2020. *equal contribution
+
+• Simon Ging*, Mohammadreza Zolfaghari*, Hamed Pirsiavash, Thomas Brox, “COOT: Coop-
+erative Hierarchical Transformer for Video-Text Representation Learning”, Neural Informa-
+tion Processing Systems (NeurIPS) 2020.
+
+• M. T. H. Anik, M. Ebrahimabadi, H. Pirsiavash, J. L. Danger, S. Guilley, and N. Karimi,
+“On-Chip Voltage and Temperature Digital Sensor for Security, Reliability, and Portability”,
+IEEE International Conference on Computer Design (ICCD), 2020.
+
+• Soheil Kolouri* , Aniruddha Saha* , Hamed Pirsiavash†, Heiko Hoﬀmann†, “Universal Litmus
+Patterns: Revealing Backdoor Attacks in CNNs”, International Conference on Computer
+Vision and Pattern Recognition (CVPR) 2020 (oral presentation) *,†: equal contribution
+
+• Aniruddha Saha, Akshayvarun Subramanya, Hamed Pirsiavash, “Hidden Trigger Backdoor
+Attacks”, 34th AAAI Conference on Artiﬁcial Intelligence (AAAI) 2020 (oral presentation)
+
+• Aniruddha Saha, Akshayvarun Subramanya, Koninika Patil, Hamed Pirsiavash , “Role of
+spatial context in adversarial robustness for object detection”, IEEE/CVF Conference on
+Computer Vision and Pattern Recognition Workshops 2020.
+
+• Akshayvarun Subramanya*, Vipin Pillai*, Hamed Pirsiavash, “Fooling Network Interpreta-
+tion in Image Classiﬁcation”, International Conference on Computer Vision (ICCV) 2019.
+*equal contribution
+
+• Susan Y. Quan, Shai Friedland, Hamed Pirsiavash, Ravindra Kompella, Vineet Sachdev,
+“Artiﬁcial Intelligence Based Computer Aided Detection System Reliably Detects Polyps
+Earlier Than Physicians During Colonoscopy,” ACG Annual Scientiﬁc Meeting 2019.
+
+5
+
+• Hadis Dashtestani, Rachel Zaragoza, Hamed Pirsiavash, Kristine M. Knutson, Riley Ker-
+manian, Joy Cui, J. Douglas Harrison Jr., Milton Halem, Amir Gandjbakhche, “Canonical
+correlation analysis of brain prefrontal activity measured by functional near infra-red spec-
+troscopy (fNIRS) during a moral judgment task”, Behavioural Brain Research 2018.
+
+• Akshayvarun Subramanya*, Vipin Pillai*, Hamed Pirsiavash, “Towards Hiding Adversarial
+Examples from Network Interpretation”, NeurIPS 2018 Workshop on Security in Machine
+Learning. *equal contribution
+
+• Mehdi Noroozi, Ananth Vinjimoor, Paolo Favaro, Hamed Pirsiavash, “Boosting Self-Supervised
+Learning via Knowledge Transfer”, International Conference on Computer Vision and Pattern
+Recognition (CVPR) 2018.
+
+• Yusuf Aytar, Lluis Castrejon, Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, “Cross-
+Modal Scene Networks”, IEEE Transactions on Pattern Analysis and Machine Intelligence
+(TPAMI) (2018).
+
+• Mehdi Noroozi, Hamed Pirsiavash, Paolo Favaro, “Representation Learning by Learning to
+Count”, International Conference on Computer Vision (ICCV) 2017 (oral presentation)
+(acceptance rate <4%).
+
+• Arpita Roy, Anamika Rupa, Hamed Pirsiavash, Shimei Pan, “Automated Detection of Sub-
+stance Use-Related Social Media Posts Based on Image and Text Analysis”, IEEE Interna-
+tional Conference on Tools for Artiﬁcial Intelligence (ICTAI), 2017. (Best Paper Award).
+
+• Ali Diba, Vivek Sharma, Ali Pazandeh, Hamed Pirsiavash, Luc Van Gool, “Weakly Super-
+vised Cascaded Convolutional Networks”, International Conference on Computer Vision and
+Pattern Recognition (CVPR) 2017.
+
+• Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, “Generating Videos with Scene Dynam-
+
+ics”, Neural Information Processing Systems (NeurIPS), 2016.
+
+• Arsalan Mousavian, Hamed Pirsiavash, Jana Kosecka, “Joint Semantic Segmentation and
+Depth Estimation with Deep Convolutional Networks”, International Conference on 3DVision
+(3DV), 2016.
+
+• Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, “Anticipating Visual Representations
+with Unlabeled Video”, International Conference on Computer Vision and Pattern Recogni-
+tion (CVPR) 2016 (spotlight presentation).
+
+• Llu´ıs Castrej´on, Yusuf Aytar, Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, “Learning
+Aligned Cross-Modal Representations from Weakly Aligned Data”, International Conference
+on Computer Vision and Pattern Recognition (CVPR) 2016.
+
+• Carl Vondrick, Deniz Oktay, Hamed Pirsiavash, Antonio Torralba, “Predicting Motivations
+of Actions by Leveraging Text”, International Conference on Computer Vision and Pattern
+Recognition (CVPR) 2016.
+
+• Ali Diba, Ali Mohammad Pazandeh, Hamed Pirsiavash, Luc Van Gool, “DeepCAMP: Deep
+Convolutional Action and Attribute Mid-Level Patterns”, International Conference on Com-
+puter Vision and Pattern Recognition (CVPR) 2016.
+
+• Carl Vondrick, Aditya Khosla, Hamed Pirsiavash, Tomasz Malisiewicz, Antonio Torralba,
+“Visualizing Object Detection Features”, to appear in International Journal of Computer
+Vision (IJCV), 2016.
+
+• Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, “Learning Visual Biases from Human
+
+imagination”, Neural Information Processing Systems (NeurIPS) 2015.
+
+• Hamed Pirsiavash, Carl Vondrick, Antonio Torralba, “Assessing the Quality of Actions”,
+
+European Conference on Computer Vision (ECCV) 2014.
+
+6
+
+• Hamed Pirsiavash, Deva Ramanan, “Parsing Videos of Actions with Segmental Grammars”,
+
+International Conference on Computer Vision and Pattern Recognition (CVPR) 2014
+(oral presentation) (acceptance rate <4%).
+
+• Joseph Lim, Hamed Pirsiavash, Antonio Torralba, “Parsing IKEA Objects: Fine Pose Esti-
+
+mation”, International Conference on Computer Vision (ICCV) 2013.
+
+• Hamed Pirsiavash, Deva Ramanan, “Detecting Activities of Daily Living in First-person Cam-
+era Views”, International Conference on Computer Vision and Pattern Recognition (CVPR)
+2012 (oral presentation) (acceptance rate <3%).
+
+• Hamed Pirsiavash, Deva Ramanan, “Steerable Part Models”, International Conference on
+
+Computer Vision and Pattern Recognition (CVPR) 2012.
+
+• Hamed Pirsiavash, Deva Ramanan, Charless Fowlkes, “Globally-Optimal Greedy Algorithms
+for Tracking a Variable Number of Objects”, International Conference on Computer Vision
+and Pattern Recognition (CVPR) 2011.
+
+• Sangmin Oh et al., “A Large-scale Benchmark Dataset for Event Recognition in Surveillance
+Video”, International Conference on Computer Vision and Pattern Recognition (CVPR) 2011.
+
+• John Adcock, Matthew Cooper, Laurent Denoue, Hamed Pirsiavash, Lawrence Rowe, “Talk-
+
+Miner: A Lecture Webcast Search Engine”, ACM Multimedia 2010.
+
+• Hamed Pirsiavash, Deva Ramanan, Charless Fowlkes, “Bilinear Classiﬁers for Visual Recog-
+
+nition”, Neural Information Processing Systems (NeurIPS) 2009
+(spotlight presentation) (acceptance rate <8%).
+
+• Shahriar Negahdaripour, Hicham Sekkati, Hamed Pirsiavash, “Opti-Acoustic Stereo Imag-
+ing: On System Calibration and 3-D Target Reconstruction”, IEEE Transactions on Image
+Processing, Vol 18, Issue 6, Jun 2009, PP: 1203-1214.
+
+• Vivek Singh, Hamed Pirsiavash, Ish Rishabh, Ramesh Jain, “Towards Environment-to-Environment
+
+(E2E) multimedia communication systems”, Multimedia Tools and Applications Journal,
+Springer Netherlands, Vol 44, Num 3, pp 361-388, May 2009.
+
+• Soroush Abbasi Koohpayegani*, Anuj Singh*, K L Navaneet, Hadi Jamali-Rad, Hamed Pir-
+siavash, “GeNIe: Generative Hard Negative Images Through Diﬀusion”, arXiv 2024. *: equal
+contribution
+
+• Chayne Thrash, Ali Abbasi, Parsa Nooralinejad, Soroush Abbasi Koohpayegani, Reed An-
+dreas, Hamed Pirsiavash, Soheil Kolouri, “MCNC: Manifold Constrained Network Compres-
+sion”, arXiv 2024.
+
+• Ali Abbasi, Ashkan Shahbazi, Hamed Pirsiavash, Soheil Kolouri , “One Category One Prompt:
+
+Dataset Distillation using Diﬀusion Models”, arXiv 2024.
+
+• Akshayvarun Subramanya, Aniruddha Saha, Soroush Abbasi Koohpayegani, Ajinkya Te-
+
+jankar, Hamed Pirsiavash, “Backdoor Attacks on Vision Transformers”, arXiv 2022.
+
+• Kossar Pourahmadi, Parsa Nooralinejad, Hamed Pirsiavash, “A Simple Baseline for Low-
+
+Budget Active Learning”, arXiv 2021.
+
+• Ajinkya Tejankar, Hamed Pirsiavash, “A simple baseline for domain adaptation using rotation
+
+prediction”, arXiv 2019.
+
+• Aniruddha Saha, Akshayvarun Subramanya, Koni Patil, Hamed Pirsiavash, “Adversarial
+
+Patches Exploiting Contextual Reasoning in Object Detection”, arXiv 2019.
+
+• Agata Lapedriza, Hamed Pirsiavash, Zoya Bylinskii, Antonio Torralba, “Are all training
+
+examples equally valuable?”, arXiv 2013.
+
+7
+
+technical reports
+
+other
+publications
+
+• Maxim Lazarov, Hamed Pirsiavash, Behzad Sajadi, Uddipan Mukherjee, Aditi Majumder,
+“Data Handling Displays”, Workshops of CVPR 2009 - 6th IEEE/ACM International Work-
+shop on Projector-Camera Systems (Procams 2009).
+
+• Pinaki Sinha, Hamed Pirsiavash, Ramesh Jain, “Personal Photo Album Summarization”,
+
+ACM Multimedia 2009 - Grand Challenge.
+
+• Hamed Pirsiavash, Vivek Singh, Aditi Majumder, Ramesh Jain, “Shared Visualization Spaces
+for Environment-to-Environment Communication”, NSF Workshop on Media Arts, Science,
+and Technology 2009.
+
+• Vivek Singh, Hamed Pirsiavash, Ish Rishabh, Ramesh Jain, “Towards Environment-to-Environment
+
+(E2E) Multimedia Communication Systems”, Workshops of ACM Multimedia 2008 - Seman-
+tic Ambient Media Experience.
+
+• Ish Rishabh, Vivek Kumar Singh, Hamed Pirsiavash, Ramesh Jain, “Environment to environ-
+ment (E2E) communication systems for collaborative work”, Computer supported cooperative
+work (CSCW) 2008.
+
+• Shahriar Negahdaripour, Hamed Pirsiavash, Hicham Sekkati, “Integration of motion cues in
+optical and sonar video imaging for 3-D positioning”, Workshops of CVPR 2007 - Towards
+Benchmarking Automated Calibration, Orientation, and Surface Reconstruction from Images.
+
+• Shahriar Negahdaripour, Hicham Sekkati, Hamed Pirsiavash, “Opti-Acoustic Stereo Imaging,
+System Calibration and 3-D Reconstruction”, Workshops of CVPR 2007 - Beyond Multiview
+Geometry (Best Paper Award).
+
+• Amir Houmansadr, Hamed Pirsiavash, Shahrokh Ghaemmaghami, “Robust Content-based
+Video Watermarking Exploiting Motion Entropy Masking Eﬀect”, International Conference
+on Signal Processing and Multimedia Applications 2006.
+
+• Hamed Pirsiavash, Shohreh Kasaei, Farokh Marvasti, “An Eﬃcient Parameter Selection Cri-
+terion for Image Denoising”, 5th IEEE International Symposium on Signal Processing and
+Information Technology 2005.
+
+• Hamed Pirsiavash, Mohammad Soleymani, Gholam-Ali Hossein-Zadeh, “An Iterative Ap-
+proach for Reconstruction of Arbitrary Sparsely Sampled Magnetic Resonance Images”, The
+18th IEEE International Symposium on Computer-Based Medical Systems 2005.
+
+• Hamed Pirsiavash, Ramin Mehran, Farbod Razzazi, “A Robust Free Size OCR for Omni-font
+Persian/Arabic Printed Document using MLP/SVM”, Lecture Notes in Computer Science,
+LNCS 3773, pp. 601-610, Springer Verlag, Nov. 2005.
+
+• Ramin Mehran, Hamed Pirsiavash, Farbod Razzazi, “A Front-end OCR for Omni-font Per-
+sian/Arabic Cursive Printed Documents”, Digital Image Computing: Techniques and Appli-
+cations (DICTA) 2005.
+
+• Hamed Pirsiavash, Farbod Razzazi, “Design and Implementation of a Hierarchical Classiﬁer
+for Isolated Handwritten Persian/Arabic Characters”, Int. Conference on Signal Processing,
+2003.
+
+8
+
+

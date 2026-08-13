@@ -1,0 +1,101 @@
+{
+  "personal_information": {
+    "full_name": "Mor Harchol-Balter",
+    "current_designation": "Bruce J. Nelson Professor in Computer Science",
+    "total_experience": "",
+    "email": "harchol@cs.cmu.edu",
+    "phone": "",
+    "date_of_birth": "",
+    "gender": "",
+    "address": "Carnegie Mellon University, Pittsburgh, PA 15213",
+    "linkedin": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "specialization": "Computer Science",
+      "institution": "University of California, Berkeley",
+      "board_university": "",
+      "year": "1990-1996",
+      "cgpa_percentage": "",
+      "normalized_degree": "Ph.D."
+    },
+    {
+      "degree": "B.A.",
+      "specialization": "Computer Science and Mathematics",
+      "institution": "Brandeis University, Waltham, Massachusetts",
+      "board_university": "",
+      "year": "1984-1988",
+      "cgpa_percentage": "",
+      "normalized_degree": "B.A."
+    }
+  ],
+  "experience": [
+    {
+      "designation": "Bruce J. Nelson Professor in Computer Science",
+      "organization": "Carnegie Mellon University, Computer Science Department",
+      "start_date": "2020",
+      "end_date": "Present",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Full Professor",
+      "organization": "Carnegie Mellon University, Computer Science Department",
+      "start_date": "2014",
+      "end_date": "Present",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Associate Professor",
+      "organization": "Carnegie Mellon University, Computer Science Department",
+      "start_date": "2012",
+      "end_date": "2014",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Associate Professor and Associate Department Head",
+      "organization": "Carnegie Mellon University, Computer Science Department",
+      "start_date": "2008",
+      "end_date": "2011",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Associate Professor without tenure",
+      "organization": "Carnegie Mellon University, Computer Science Department",
+      "start_date": "2005",
+      "end_date": "2008",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "McCandless Assistant Professor",
+      "organization": "Carnegie Mellon University, Computer Science Department",
+      "start_date": "1999",
+      "end_date": "2005",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "NSF Postdoctoral Fellow",
+      "organization": "Massachusetts Institute of Technology",
+      "start_date": "1996",
+      "end_date": "1999",
+      "duration": "",
+      "description": "Funded by NSF Postdoctoral Fellowship in the Mathematical Sciences. Mentor: Prof. Tom Leighton."
+    }
+  ],
+  "publication_summary": {
+    "journal_publications": 58,
+    "conference_publications": 69,
+    "book_publications": 2,
+    "book_chapters": 2,
+    "patents": 6
+  },
+  "normalized_highest_degree": "Ph.D."
+}

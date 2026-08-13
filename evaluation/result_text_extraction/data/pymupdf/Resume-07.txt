@@ -1,0 +1,450 @@
+JOSEF  SIVIC 
+ 
+INRIA – Willow project 
+Departement d'Informatique, Ecole Normale Supérieure 
+23, avenue d’Italie, CS 81321, 75214 Paris Cedex 13, France 
+Josef.Sivic@ens.fr, http://www.di.ens.fr/~josef 
+ +33 1 39 63 55 48 
+ 
+ 
+CURRENT POSITION 
+Research Scientist (Chargé de recherche), CR1 
+ 
+ 
+March 2008-present 
+Institut National de Recherche en Informatique et en Automatique (INRIA) 
+WILLOW project, Laboratoire d'Informatique, Ecole Normale Supérieure 
+ 
+EDUCATION 
+University of Oxford, UK 
+ 
+ 
+ 
+ 
+ 
+ 
+  2002-2006 
+      Ph.D. in Engineering Science  
+      Thesis: Efficient Visual Search of Images and Videos      
+      Supervisor: Professor A. Zisserman 
+Awarded the 2007 BMVA Sullivan Thesis Prize and short-listed (top 3) for the 2007 BCS 
+Distinguished Dissertation award 
+ 
+Czech Technical University, Prague  
+ 
+ 
+ 
+ 
+M.Sc. in Electrical Engineering (with distinction, graduated first in a class of 89) 
+ 
+M.Sc. Thesis: Geometry of Concentric Multi-perspective Panoramas 
+ 
+RESARCH INTERESTS 
+Visual search, object/person/activity/place recognition, and dynamic 3D scene understanding 
+applied to large image and video collections.  
+ 
+ACADEMIC AND RESEARCH POSITIONS 
+Postdoctoral Research Associate 
+                        
+          2007-2008 (6 months) 
+CSAIL, Massachusetts Institute of Technology, Cambridge, USA 
+Research Fellow, University of Oxford, UK               
+            Jul. 2006- Sep. 2007 
+ 
+ 
+Internship at Microsoft Research, Redmond, USA                                        3 months, 2005 
+ 
+Student Research Assistant (during MSc), 
+ 
+ 
+ 
+               1997-2002 
+ 
+ 
+Center for Machine Perception, Czech Technical University, Prague 
+ 
+ 
+ 
+TEACHING 
+ 
+Ecole Normale Supérieure, Paris / Ecole Normale Supérieure de Cachan (2009-2014) 
+• 
+Co-lecturing Object recognition and Computer Vision (M2) and Introduction to 
+computer vision (M1) 
+• 
+Preparing and grading practical assignments and final class projects. 
+  
+Co-organizer of a series of international summer schools on Visual Recognition and 
+Machine Learning, which attracted 140-170 participants each year (2010-2013). 
+http://www.di.ens.fr/willow/events/cvml2013/ 
+ 
+Lectures at summer schools  
+• 
+INRIA/ENS Summer school on visual recognition and machine learning, Paris 2013 
+
+• 
+INRIA summer school on visual recognition and machine learning, Grenoble 2012 
+• 
+INRIA/ENS Summer school on visual recognition and machine learning, Paris 2011 
+• 
+Winter school on computer vision (ENS Lyon, January 2011) 
+• 
+International computer vision summer school (Sicily, July 2011) 
+• 
+INRIA summer school on visual recognition and machine learning, Grenoble 2010 
+ 
+ 
+ 
+ 
+ 
+University of Oxford, UK 
+ 
+ 
+ 
+Demonstrating Information Engineering labs for third year undergraduate students:
+ 
+ 
+ 
+ 
+Image Processing and Signal Analysis Laboratory  
+ 
+ 
+ 
+Computational Geometry and Estimation Laboratory 
+ 
+SELECTED HONORS AND AWARDS 
+• ERC Starting Grant, 2013 
+• Google Research Award, 2012 
+• Prime d'excellence scientifique, INRIA research excellence award, 2009-2016 
+• Best poster prize, BMVC’2008 
+• Sullivan Thesis Prize, Best Computer Vision PhD thesis in UK, British Machine 
+Vision Association, 2007 
+• Short-listed (top 3) for the Distinguished Dissertation Award, Best Computer Science 
+PhD thesis in UK, British Computer Society, 2007 
+• Outstanding reviewer award, BMVC 2008, CVPR 2007 
+• Best industrial paper prize, British Machine Vision Conference, 2006 
+• Dean’s award for academic achievement, Czech Tech. University, 2002 
+• Dean’s List and National Collegiate Engineering Award, Fall semester 1998 
+ 
+PROFESSIONAL ACTIVITIES  
+Associate editor, International Journal of Computer Vision (IJCV). IJCV is one of the 
+top two journals in the field. 
+ 
+Area chair for major conferences: CVPR’11, ICCV’11, ECCV’12, CVPR’13, ICCV’13 
+ 
+Invited co-editor of IJCV special issue on “Video Search”, 2014. 
+Peer Reviewer for major conferences and journals in computer vision (ECCV, ICCV, CVPR, 
+PAMI, IJCV), machine learning (NIPS, ICML), computer graphics (SIGGRAPH) and 
+robotics (ICRA, IROS). 
+Phd Thesis Examiner: M. Johnson, University of Cambridge; M. Bendris, Telecom 
+ParisTech, B. Kaneva, Massachusetts Institute of Technology; N. Ballas, Mines ParisTech 
+ 
+Workshop co-organizer:  
+MSR-INRIA Workshop on Computer Vision and Machine Learning, January 2010 
+Workshop on Action Recognition and Pose Estimation in Still Images, ECCV 2012 
+ 
+STUDENTS AND COLLABORATORS 
+Since joining INRIA in 2008 I have supervised 7 Phd students (1 graduated, 2 more graduating in 
+2014), 11 MSc students and 5 post-docs. 
+ 
+Post-docs 
+ 
+ 
+Bryan Russell, post-doc INRIA, Category-level scene matching and recognition, 2008-2010 
+ 
+ 
+Neva Cherniavsky, post-doc MSR-INRIA, Visual attributes for person recognition, 2009-10 
+ 
+ 
+Mikel Rodriguez, post-doc DGA/ENS, Visual analysis of crowds in video, 2010-2011 
+ 
+ 
+Karteek Alahari, post-doc INRIA, Object and scene recognition in video, 2010- 2013 
+ 
+ 
+Visesh Chari, post-doc INRIA, Visual analysis of crowds in video, 2012- 
+
+ 
+Phd students (with percentage of supervision) 
+ 
+ 
+Oliver Whyte, graduated 2012, Removing camera shake blur and unwanted occluders from 
+photographs, 50% 
+ 
+Petr Gronat, 3rd year, Visual place recognition, 50% 
+Vincent Delaitre, 3rd year, Learning person-object interactions, 50%  
+Guillaume Seguin, 3rd year, Human pose and action recognition in stereoscopic videos, 50% 
+Mathieu Aubry, 3rd year, Visual recognition and retrieval of 3D objects and scenes, 80% 
+ 
+Piotr Bojanowski, 2nd year, Learning to annotate dynamic video scenes, 30% 
+ 
+Maxime Oquab, 1st year, Learning to annotate dynamic scenes with convolutional neural 
+networks, 30% 
+ 
+FUNDING I.D. 
+• 
+ERC Starting Grant LEAP, PI. Funding for 2014-2018: 1.5ME. 
+• 
+ANR (Agence Nationale de la Recherche) “SEMAPOLIS: Semantic visual analysis and 
+3D reconstruction of urban environments”, PI. Funding during 2013-2016: 136kE. 
+• 
+MSR-INRIA project “Understanding Video: understanding, searching, and organizing 
+dynamic video content”. Co-PI. Funding during 2013-2016: 350kE. 
+• 
+IARPA Finder program, PI. Funding for 2012–2015: 350kE. 
+• 
+Google Research Award. Co-PI. “Learning to annotate videos from movie scripts”, 
+2012, 42kE. 
+• 
+EIT-ICT Labs funded activity “Cross-linking Visual Information and Internet Resources 
+using Mobile Networks”. Co-PI, Funding for 2011-2013: 122kE.  
+• 
+DGA funded project CrowdChecker. Funding in 2010– 2011: 70kE. 
+• 
+MSR-INRIA project “Image and Video Mining for Sciences and Humanities”. Funding 
+during 2009-2012: 300kE.  
+ 
+INVITED PRESENTATIONS 
+34 invited presentations since 2008, including: 
+ 
+Invitations to international workshops: International Workshop on Object Recognition, 
+Lake Como, Italy, 2008; International Workshop on Video, Barcelona, 2009; BIRS 
+Workshop on Computer Vision and the Internet, Banff, Canada, 2010; International 
+Workshop on Search Computing, Brussels, 2012 
+ 
+Invited speaker: Scene Understanding Symposium, MIT, USA, 2008; One day colloquium, 
+Czech Technical University, Prague, 2008 and 2011; AViRS workshop on video surveillance, 
+Paris, 2011; Workshop on Visual Analysis and Geo-Localization of Large-Scale Imagery, 
+ECCV 2012; GdR ISIS workshop, Telecom ParisTech, 2012; Visual analysis beyond 
+semantics, CVPR 2013 workshop; Visual Analysis and Geo-Localization of Large-Scale 
+Imagery, CVPR 2013 workshop; Large-scale video search and mining, ICCV13 workshop; 
+University of Central Florida (2014) 
+ 
+Seminars: University of Oxford (2008); Harvard University (2008) ; Massachusetts Institute 
+of Technology (2008) ; University of Washington (2008) ; Microsoft Research (2008, 2010, 
+2011) ; University of California, Berkeley (2008, 2012) ; Czech Technical University (2008) ; 
+École nationale supérieure des télécommunications (2008) ; INRIA Grenoble (2009) ; INRIA 
+Rennes (2009) ; Simon Fraser University (2012) ; Google Los Angeles (2012);  Carnegie 
+
+Mellon University (2012);  École Centrale (2013); University of Oxford (2014), New York 
+University (2014); Inria Sophia-Antipolis (2014); KTH Stockholm (2014), MPI Saabrucken 
+(2014) 
+ 
+SELECTED SOFTWARE AND TRANSFER 
+Developed web-based demo software1 for object and person retrieval from entire feature 
+length movies based on (Sivic and Zisserman, 2003) and (Sivic et al., 2005); about 7,000 
+lines of code.  
+Since 2008, I have been consulting on several projects involving large-scale visual search 
+and classification of images and videos (EADS, ObjectVideo, ProfilTechnology). Building on 
+the follow-up research, mobile visual search company Plink Art was the first UK start-up 
+bought by Google. 
+Software and demo for non-uniform deblurring from a single image, results of work of my 
+first Phd student O. Whyte are available online2. 
+ 
+INRIA SERVICE AND DISSEMINATION 
+Member of the INRIA “Commission de développement technologique” (CDT), since 2012. 
+Participant in the INRIA CityLabs initiative, since 2013 
+Representing INRIA at Salon européen de la Recherche et de l'Innovation (Paris, 2009),  
+CeBit (2012), “Futur en Seine” (2013). 
+ 
+PUBLICATIONS 
+I have published 40 papers in international journals and major peer-reviewed conferences. The 
+leading conferences in computer vision (ICCV, ECCV, CVPR), machine learning (NIPS) and 
+computer graphics (SIGGRAPH / TOG) have a low acceptance rate (typically below 25%), and 
+publications in their proceedings are considered more important than journal publications. The top 
+journals of the field are the International Journal of Computer Vision (IJCV) and the IEEE 
+Transactions on Pattern Analysis and Machine Intelligence (PAMI). Overall, my publications have 
+over 10,261 citations and my h-number is 33 (both obtained from Google Scholar).  My 
+publications include: 
+• 
+3 book chapters: Springer, Wiley, Cambridge University Press 
+• 
+11 journal papers: IJCV (5), PAMI (1), PIEE (2), IVC (1), SIGGRAPH/TOG (2) 
+• 
+35 peer-reviewed conference papers: ICCV (8), CVPR (12), ECCV (8), NIPS (2), BMVC (5) 
+Three of my conference papers [ECCV’04, BMVC’08, ECCV’12] were selected for publication in 
+special issues of IJCV (2006, 2011 and 2014) dedicated to the best (5-6) papers from these 
+conferences. 
+Publications are available at: http://www.di.ens.fr/~josef/publications.html 
+Book Chapters 
+[B1] Sivic, J. and Zisserman, A., Video Google: Efficient Visual Search of Images and 
+Videos, in Ponce, J., Hebert, M., Schmid, C. and Zisserman, A. (eds), Toward Category-Level 
+Object Recognition, Springer-Verlag LNCS Vol. 4170, 2006 
+                                                            
+1 www.robots.ox.ac.uk/~vgg/research/vgoogle and www.robots.ox.ac.uk/~vgg/research/fgoogle 
+2 http://www.di.ens.fr/willow/research/deblurring 
+
+[B2] Rodriguez, M., Sivic, J., Laptev, I., Analysis of crowded scenes in video, Intelligent 
+Video Surveillance Systems, Wiley, 2012 
+[B3] Whyte, O., Sivic, J., Zisserman, A., Ponce, J., Efficient, Blind, Spatially-Variant 
+Deblurring for Shaken Images, Cambridge University Press, 2014 
+ 
+Journal articles 
+[J1] Sivic, J., Schaffalitzky, F. and Zisserman, A., Object Level Grouping for Video Shots, 
+International Journal of Computer Vision, 2006 
+[J2] Everingham, M. and Sivic, J. and Zisserman, A., Taking the bite out of automated 
+naming of characters in TV video, Image and Vision Computing, 2009 
+[J3] Sivic, J. and Zisserman A., Efficient Visual Search Cast as Text Retrieval, IEEE 
+Transactions on Pattern Analysis and Machine Intelligence, accepted, 2008 
+[J4] Sivic, J. and Zisserman A., Efficient Visual Search for Objects in Videos, Proceedings of 
+the IEEE, invited paper to the special issue on Advances in Multimedia Information 
+Retrieval, 2008 
+[J5] Kaneva, B., Sivic, J., Torralba, A., Avidan, S. and Freeman, W.T., Inﬁnite Images: 
+Creating and Exploring a Large Photorealistic Virtual Space, Proceedings of the IEEE, 
+accepted, 2009 
+[J6] Philbin, J., Sivic, J. and Zisserman, A., Geometric Latent Dirichlet Allocation on a 
+Matching Graph for Large-Scale Image Datasets, International Journal of Computer Vision, 
+2010  
+[J7] Whyte, O., Sivic, J., Zisserman, A. and Ponce, J., Non-uniform de-blurring for shaken 
+images, International Journal of Computer Vision, 2012 
+[J8] Doersch, C., Singh, S., Gupta, A., Sivic, J. and Efros, A., What Makes Paris Look like 
+Paris?, ACM Transactions on Graphics (SIGGRAPH), 31(4), 2012. 
+[J9] Aubry, M., Russell, B. and Sivic, J., Painting-to-3D model alignment via discriminative 
+visual elements, Transactions on Graphics (TOG), 2014. 
+[J10] Whyte, O., Sivic, J., and Zisserman, A., Efficient, Blind, Spatially-Variant Deblurring 
+for Shaken Images, International Journal of Computer Vision, 2014. 
+[J11] Fouhey, D., Delaitre, V., Gupta, A., Efros, A., Laptev, I. and Sivic, J., People watching: 
+human actions as a cue for single-view geometry, International Journal of Computer Vision, 
+2014. 
+ 
+Reviewed Conference Proceedings 
+[C1] Sivic, J. and Zisserman, A., Video Google: A Text Retrieval Approach to Object 
+Matching in Videos, International Conference on Computer Vision (ICCV), Oct 2003, (Over 
+2500 citations on Google Scholar) 
+Demo: http://www.robots.ox.ac.uk/~vgg/research/vgoogle 
+[C2] Sivic, J., Schaffalitzky, F. and Zisserman, A., Object Level Grouping for Video Shots, 
+European Conference on Computer Vision (ECCV), May 2004, Oral presentation 
+[C3] Sivic, J. and Zisserman, A., Video Data Mining Using Configurations of   Viewpoint 
+Invariant Regions, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 
+June 2004, Oral presentation 
+[C4] Sivic, J., Everingham, M. and Zisserman, A., Person spotting: video shot retrieval for 
+face sets, International Conference on Image and Video Retrieval (CIVR), 2005, Oral 
+presentation  
+Demo: http://www.robots.ox.ac.uk/~vgg/research/fgoogle 
+
+[C5] Sivic, J., Russell, B. C., Efros, A. A., Zisserman, A. and Freeman, W. T., Discovering 
+Object Categories in Image Collections, Proceedings of the International Conference on 
+Computer Vision (ICCV), 2005, Together with associated technical report: over 1000 
+citations on Google Scholar) 
+[C6] Russell, B. C., Efros, A. A., Sivic, J., Freeman, W. T. and Zisserman, A., Using Multiple 
+Segmentations to Discover Objects and their Extent in Image Collections, Proceedings of the 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2006  
+[C7] Sivic, J., Zitnick, C. L. and Szeliski, R., Finding people in repeated shots of the same 
+scene, Proceedings of the British Machine Vision Conference (BMVC), 2006, Oral 
+presentation 
+[C8] Everingham, M., Sivic, J. and Zisserman, A., Hello! My name is... Buffy -- Automatic 
+Naming of Characters in TV Video, Proceedings of the British Machine Vision Conference 
+(BMVC), 2006, Oral presentation 
+[C9] Philbin, J., Chum, O., Isard, M., Sivic, J. and Zisserman, A., Object retrieval with large 
+vocabularies and fast spatial matching, Proceedings of the IEEE Conference on Computer 
+Vision and Pattern Recognition (CVPR), 2007, Over 800 citations on Google Scholar 
+[C10] Chum, O., Philbin, J., Sivic, J., Isard, M. and Zisserman, A., Total Recall: Automatic 
+Query Expansion with a Generative Feature Model for Object Retrieval, Proceedings of the 
+International Conference on Computer Vision (ICCV), 2007 
+[C11] Sivic, J., Russell, B. C., Zisserman, A., Freeman, W. T. and Efros, A. A., Unsupervised 
+Discovery of Visual Object Class Hierarchies, Proceedings of the IEEE Conference on 
+Computer Vision and Pattern Recognition, CVPR, 2008 
+[C12] Philbin, J., Chum, O., Isard, M., Sivic, J. and Zisserman, A., Lost in Quantization: 
+Improving Particular Object Retrieval in Large Scale Image Databases, Proceedings of the 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2008 
+ [C13] Philbin, J., Sivic, J. and Zisserman, A., Geometric LDA: A Generative Model for 
+Particular Object Discovery, Proceedings of the British Machine Vision Conference 
+(BMVC), 2008 
+[C14] Liu, C.,Yuen, J., Torralba, A., Sivic, J. and Freeman, W.T., SIFT Flow: Dense 
+Correspondence across Different Scenes, Proceedings of the European Conference on 
+Computer Vision (ECCV), 2008, Oral presentation 
+[C15] Sivic, J., Everingham, M. and Zisserman, A., “Who are you?”: Learning person 
+specific classifiers from video, Proceedings of the IEEE Conference on Computer Vision and 
+Pattern Recognition (CVPR), 2009 
+[C16] Whyte, O., Sivic, J. and Zisserman, A., Get Out of my Picture! Internet-based 
+Inpainting, Proceedings of the British Machine Vision Conference (BMVC), 2009, Oral 
+presentation 
+[C17] Duchenne, O.,Laptev, I., Sivic, J., Bach, F. and Ponce, J., Automatic Annotation of 
+Human Actions in Video, Proceedings of the International Conference on Computer Vision 
+(ICCV), 2009 
+[C18] Russell, B., Efros, A., Sivic, J., Freeman, W.T. and Zisserman, A., Segmenting Scenes 
+by Matching Image Composites, Advances in Neural Information Processing Systems 
+(NIPS), 2009 
+[C19] Whyte, O., Sivic, J., Zisserman, A., Ponce, J., Non-uniform de-blurring for shaken 
+images, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2010, Oral 
+presentation 
+[C20] Delaitre, V., Laptev, I., Sivic, J., Recognizing human actions in still images: a study of 
+bag-of-features and part-based representations, British Machine Vision Conference 
+(BMVC), 2010 
+
+[C21] Knopp, J., Sivic, J. Pajdla, T., Avoiding confusing features in place recognition, 
+European Conference on Computer Vision (ECCV), 2010 
+[C22] Philbin, J., Isard, M., Sivic, J., Zisserman, A., Descriptor learning for efficient 
+retrieval, European Conference on Computer Vision (ECCV), 2010, Oral presentation 
+[C23] Lezama, J., Alahari, K., Sivic. J. and Laptev, I. Track to the future: Spatio-temporal 
+video segmentation with long-range motion cues, IEEE Conference on Computer Vision and 
+Pattern Recognition (CVPR), 2011 
+[C24] Rodriguez, M., Laptev, I., Sivic, J. and Audibert, J.-Y. Density-aware person detection 
+and tracking in crowds, IEEE International Conference on Computer Vision (ICCV), 2011 
+[C25] Rodriguez, M., Sivic, J., Laptev, I. and Audibert, J.-Y., Data-driven crowd analysis in 
+videos, IEEE International Conference on Computer Vision (ICCV), 2011, Oral 
+presentation 
+[C26] Delaitre, V., Sivic, J. and Laptev, I., Learning person-object interactions for action 
+recognition in still images, Advances in Neural Information Processing Systems (NIPS), 
+2011 
+[C27] Delaitre, V., Fouhey, D., Efros, A., Gupta, A., Laptev, I. and Sivic, J., People 
+Watching: Human Actions as a Cue for Single View Geometry, European Conference on 
+Computer Vision, 2012, Oral presentation 
+[C28] Delaitre, V., Fouhey, D., Laptev, I., Sivic, J., Efros, A., Gupta, A., Scene semantics 
+from long-term observation of people, European Conference on Computer Vision, 2012.  
+[C29] Gronat, P., Obozinski, G., Sivic, J. and Pajdla, T., Learning per-location classifiers for 
+visual place recognition, IEEE Conference on Computer Vision and Pattern Recognition 
+(CVPR), 2013 
+[C30] Torii, A., Sivic, J., Pajdla, T. and Okutomi, M., Visual place recognition with repetitive 
+structures, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013 
+[C31] Bojanowski, P., Laptev, I., Ponce, J., Schmid, C. and Sivic, J., Finding actors and 
+actions in movies, IEEE International Conference on Computer Vision (ICCV), 2013 
+[C32] Alahari, K., Seguin, G., Laptev, I. and Sivic, J., Pose estimation and segmentation of 
+people in 3D movies, IEEE International Conference on Computer Vision (ICCV), 2013 
+[C33] Aubry, M., Efros, A., Russell, B. and Sivic, J., Seeing 3D chairs: exemplar part-based 
+2D-3D alignment using a large dataset of CAD models, IEEE Conference on Computer 
+Vision and Pattern Recognition (CVPR), 2014 
+[C34] Oquab, M., Bottou, L., Laptev, I. and Sivic, J., Learning and transferring mid-level 
+image representations using convolutional neural networks, IEEE Conference on Computer 
+Vision and Pattern Recognition (CVPR), 2014 
+[C35] Bojanowski, P., Lajugie, R., Bach, F., Laptev, I., Ponce, J., Schmid, C. and Sivic, J., 
+Weakly Supervised Action Labeling in Videos Under Ordering Constraints, European 
+Conference on Computer Vision (ECCV), 2014 
+[C36] Vu, T.-H., Olsson, C., Laptev, I., Oliva, A. and Sivic, J. Predicting Actions from Static 
+Scenes European Conference on Computer Vision (ECCV), 2014 
+ 
+Pre-prints 
+[P1] Oquab, M., Bottou, L., Laptev, I. and Sivic, J., Weakly Supervised Object Recognition 
+with Convolutional Neural Networks,  http://www.di.ens.fr/willow/research/weakcnn/ 
+ 
+Reviewed workshops 
+
+[W1] Sivic, J., Kaneva, B., Torralba, A., Avidan, S. and Freeman, W.T., Creating and 
+Exploring a Large Photorealistic Virtual Space, First IEEE Workshop on Internet Vision (in 
+conjunction with CVPR), 2008 
+[W2] Cherniavsky, N., Laptev, I., Sivic, J., Zisserman, A., Semi-supervised learning of facial 
+attributes in video, First International Workshop on Parts and Attributes, European 
+Conference on Computer Vision (ECCV), 2010, Oral presentation 
+[W3] Kaneva, B., Sivic, J., Torralba, A., Avidan, S. and Freeman, W. T., Matching and 
+predicting street level images, Workshop on Vision for Cognitive Tasks, European 
+Conference on Computer Vision, 2010 
+[W4] Russell, B., Sivic, J., Ponce, J. and Dessales, H., Automatic alignment of paintings and 
+photographs depicting a 3D scene, 3rd International IEEE Workshop on 3D Representation 
+for Recognition, 2011 
+[W5] Torii, A., Sivic, J. and Pajdla, T., Visual localization by linear combination of image 
+descriptors, 2nd IEEE Workshop on Mobile Vision, 2011 
+[W6] Whyte, O., Sivic, J. and Zisserman, A., Deblurring shaken and partially saturated 
+images, IEEE Workshop on Color and Photometry in Computer Vision, 2011 
+ 
+Invited Papers 
+[I1] Sivic, J., Schaffalitzky, F. and Zisserman, A., Efficient Object Retrieval from Videos, 
+European Signal Processing Conference (EUSIPCO), Vienna, Austria, 2004, (invited to 
+special session on affine covariant regions), Oral presentation 
+[I2] Sivic, J. and Zisserman, A., Efficient Visual Content Retrieval and Mining in Videos, 
+Pacific-rim conference on Multimedia (PCM), Tokyo, Japan, 2004, Oral presentation 
+ 
+Technical Reports 
+[T1] Sivic, J. and Pajdla, T., Geometry of Concentric Multiperspective Panoramas, M.Sc. 
+thesis and technical report, Czech Technical University, February 2002.  
+[T2] Philbin, J. , Bosch, A. , Chum, O. , Geusebroek, J. , Sivic, J. and Zisserman, A., Oxford 
+TRECVID 2006 - Notebook Paper, November 2006 

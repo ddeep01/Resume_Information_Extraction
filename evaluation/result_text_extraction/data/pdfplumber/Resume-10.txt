@@ -1,0 +1,864 @@
+Curriculum Vitae
+Nisheeth K. Vishnoi
+Department of Computer Science nisheeth.vishnoi@yale.edu
+Yale University http://cs.yale.edu/homes/vishnoi/
+Research Interests
+My work spans various areas of Mathematics, Theoretical Computer Science, Optimization, and Artificial
+Intelligence. I aim to tackle some of the most pressing and complex problems at the intersection of
+computation and society.
+Education
+Georgia Institute of Technology Atlanta, GA
+Ph.D. in Algorithms, Combinatorics and Optimization 1999-2004
+Indian Institute of Technology Bombay Mumbai, India
+Bachelor of Technology in Computer Science and Engineering 1995-1999
+Employment
+Yale University USA
+A. Bartlett Giamatti Professor of Computer Science January 2021-
+Yale University USA
+Professor of Computer Science January 2019-2020
+E´cole Polytechnique F´ed´erale de Lausanne (EPFL) Switzerland
+Associate Professor June 2014-December 2018
+Microsoft Research India
+Researcher March 2009-May 2014
+CNRS France
+Charg´e de Recherche, 1st Class, September 2008-March 2009
+University of California, Berkeley Berkeley, CA
+Visiting Researcher January 2007-December 2007
+Georgia Institute of Technology Atlanta, GA
+Visiting Researcher March 2006-December 2006
+IBM Research India
+Research Staff Member September 2004-September 2008
+1
+Other Affiliations and Appointments
+Indian Institute of Technology Kanpur Kanpur, India
+Adjunct Faculty 2012-2015, 2017-2019, 2022-Present
+Simons Institute for the Theory of Computing Berkeley, CA
+Visiting Scientist and Program Organizer - Geometric Methods in Optimization and Sampling Fall 2021
+Cowles Foundation for Research in Economics Yale University
+Research Staff 2021-Present
+Institution for Social and Policy Studies Yale University
+Faculty Fellow 2021-Present
+Google Mountain View
+Visiting Researcher May 2021-May 2022
+Computation and Society Initiative Yale University
+co-founder 2019-Present
+A+ Alliance Geneva
+Advisory Board Member 2019-Present
+Thurman Arnold Project at Yale Yale University
+Affiliated Faculty 2019-Present
+Indian Institute of Technology Goa Goa, India
+Adjunct Professor 2019-2021
+Simons Institute for the Theory of Computing Berkeley, CA
+Visiting Scientist - Foundations of Deep Learning Summer 2019
+Simons Institute for the Theory of Computing Berkeley, CA
+Visiting Scientist - Geometry of Polynomials March 2019
+School of Mathematics, Institute for Advanced Study Princeton, NJ
+Short-Term Scholar January-February 2018
+Simons Institute for the Theory of Computing Berkeley, CA
+Visiting Scientist - Bridging continuous and discrete optimization August-September 2017
+Computation, Nature and Society Think Tank Switzerland
+Co-Founder June 2017-2018
+Indian Institute of Technology Delhi New Delhi, India
+Adjunct Faculty 2016-2018
+Simons Institute for the Theory of Computing Berkeley, CA
+Visiting Scientist - Algorithmic spectral graph theory September-October 2014
+Simons Institute for the Theory of Computing Berkeley, CA
+Visiting Scientist - Evolutionary biology and the theory of computing March-May 2014
+International Centre for Theoretical Sciences Bangalore, India
+Associate 2013-2018
+Selected Awards
+Fellow, American Mathematical Society 2025
+Co-PI in a 20,000,000 USD NSF funded AI Institute 2021-2026
+Fellow, ACM 2019
+Best Technical Paper Award, ACM Conference on Fairness, Accountability, 2019
+and. Transparency (ACM FAccT)
+IIT Bombay Young Alumnus Achievers Award 2016
+http://www.iitb.ac.in/alumni/en/content/young-alumnus-achiever-awards
+Indian National Science Academy Young Scientist Medal 2011
+http://www.insaindia.org/aa4young1.php
+IBM Research Pat Goldberg Memorial Award 2006
+http://researcher.watson.ibm.com/researcher/view_group.php?id=5855
+Best Paper Award, IEEE Foundations of Computer Science (FOCS) 2005
+Publications
+An up-to-date list can be found at http://cs.yale.edu/homes/vishnoi/Publications.html.
+(a) Monographs and Surveys
+1. BoazBarak,YaelKalai,RanRaz,SalilVadhan,NisheethK.Vishnoi. OntheworksofAviWigderson.
+In: Holden, H., Piene, R. (eds) The Abel Prize 2018-2022. The Abel Prize. Springer, Cham, 2024.
+Available online at https://arxiv.org/abs/2307.09524.
+2. Jonathan Leake, Nisheeth K. Vishnoi. Optimization and Sampling Under Continuous Symmetry:
+Examples and Lie Theory. Available online at https://arxiv.org/abs/2109.01080. Sep., 2021.
+3. Nisheeth K. Vishnoi. An Introduction to Hamiltonian Monte Carlo Method for Sampling. Available
+online at https://arxiv.org/abs/2108.12107. Sep., 2021.
+4. Nisheeth K. Vishnoi. Geodesic convex optimization: differentiation on manifolds, geodesics, and
+convexity. Available online at https://arxiv.org/abs/1806.06373. May, 2018.
+5. Nisheeth K. Vishnoi. Algorithms for Convex Optimization, Cambridge University Press, 2021. A
+version of this book is available online at https://convex-optimization.github.io/.
+6. Sushant Sachdeva, Nisheeth K. Vishnoi. Faster algorithms via approximation theory. Foundations
+and Trends in Theoretical Computer Science, 9(2):125–210, 2014.
+7. Nisheeth K. Vishnoi. Lx = b. Foundations and Trends in Theoretical Computer Science, 8(1-2):1–
+141, 2013.
+8. Nisheeth K. Vishnoi. Zeros of polynomials and their applications to theory: A primer. Survey
+accompanying a tutorial at FOCS 2013. Available online at http://cs.yale.edu/homes/vishnoi/
+Publications_files/ZerosIntro.pdf.
+(b) Published
+9. L. Elisa Celis, Lingxiao Huang, Nisheeth K. Vishnoi. A Mathematical Framework for AI-Human
+Integration in Work. In The Forty-Second International Conference on Machine Learning (ICML),
+2025.
+10. Oren Mangoubi, Neil He, Nisheeth K. Vishnoi. Efficient Diffusion Models for Symmetric Manifolds.
+In The Forty-Second International Conference on Machine Learning (ICML), 2025.
+11. Oren Mangoubi, Nisheeth K. Vishnoi. Private Low-Rank Approximation for Covariance Matrices,
+Dyson Brownian Motion, and Eigenvalue-Gap Bounds for Gaussian Perturbations. In the Journal of
+the ACM, Volume 72, Issue 2 Article No. 14, Pages 1 - 88, 2025.
+12. L. Elisa Celis, Amit Kumar, Nisheeth K. Vishnoi, S. Andrew Xu. Centralized Selection with Prefer-
+encesinthePresenceofBiases. Inthe The Forty-first International Conference on Machine Learning
+(ICML), 2024. Available online at https://openreview.net/pdf?id=9QRcp2ubDt. Also appears as
+Invited Talk at the fourth ACM Conference on Equity and Access in Algorithms, Mechanisms, and
+Optimization (EAAMO’24).
+13. Oren Mangoubi, Nisheeth K. Vishnoi. Faster Sampling from Log-Concave Densities over Polytopes
+via Efficient Linear Solvers. In The Twelfth International Conference on Learning Representations
+(ICLR), 2024. Available online at https://openreview.net/pdf?id=v63GWletn8
+14. L. Elisa Celis, Amit Kumar, Anay Mehrotra, Nisheeth K. Vishnoi. Bias in Evaluation Processes:
+An Optimization-Based Model. In the Thirty-seventh Annual Conference on Neural Information
+Processing Systems (NeurIPS), 2023. Available online at https://arxiv.org/abs/2310.17489
+15. L. Elisa Celis, Amit Kumar, Anay Mehrotra, Nisheeth K. Vishnoi. Bias in Evaluation Processes:
+An Optimization-Based Model. In the Thirty-seventh Annual Conference on Neural Information
+Processing Systems (NeurIPS), 2023. Available online at https://arxiv.org/abs/2310.17489
+16. Oren Mangoubi, Nisheeth K. Vishnoi. Sampling from Structured Log-Concave Distributions via a
+Soft-Threshold Dikin Walk. In the Thirty-seventh Annual Conference on Neural Information Pro-
+cessing Systems (NeurIPS), 2023. Available online at https://arxiv.org/abs/2206.09384
+17. Oren Mangoubi, Nisheeth K. Vishnoi. Private Covariance Approximation and Eigenvalue-Gap
+Bounds for Complex Gaussian Perturbations. In Conference On Learning Theory (COLT), 2023.
+Available online at https://arxiv.org/abs/2306.16648
+18. Niclas Boehmer, L. Elisa Celis, Lingxiao Huang, Anay Mehrotra, Nisheeth K Vishnoi. Subset Se-
+lection Based On Multiple Rankings in the Presence of Bias: Effectiveness of Fairness Constraints
+for Multiwinner Voting Score Functions. In Proceedings of the 39th International Conference on
+Machine Learning (ICML), 2023. Available online at https://arxiv.org/abs/2306.09835
+19. Anay Mehrotra, Nisheeth K. Vishnoi. Maximizing Submodular Functions for Recommendation in
+the Presence of Biases. In the Proceedings of the ACM Web Conference (WWW), 2023. Available
+online at https://arxiv.org/abs/2305.02806
+20. Oren Mangoubi, Nisheeth K. Vishnoi. Re-Analyze Gauss: Bounds for private matrix approximation
+viaDysonBrownianmotion. SpotlightintheThirty-sixthAnnualConferenceonNeuralInformation
+Processing Systems (NeurIPS), 2022. Available online at https://arxiv.org/abs/2211.06418
+21. Oren Mangoubi, Nisheeth K. Vishnoi. Sampling from log-concave distributions with infinity-distance
+guarantees. Spotlight in in the Thirty-sixth Annual Conference on Neural Information Processing
+Systems (NeurIPS), 2022. Available online at https://arxiv.org/abs/2111.04089
+22. Anay Mehrotra, Nisheeth K. Vishnoi. Fair ranking with noisy protected attributes. In the Thirty-
+sixth Annual Conference on Neural Information Processing Systems (NeurIPS), 2022. Available
+online at https://arxiv.org/abs/2211.17067
+23. Jonathan Leake, Nisheeth K. Vishnoi. On the computability of continuous maximum entropy
+distributions with applications. In SIAM Journal of Computing, 51(5): 1451–1505 (2022). Available
+online at https://dl.acm.org/doi/10.1145/3357713.3384302
+24. OrenMangoubi, YikaiWu, SatyenKale, AbhradeepThakurta, NisheethK.Vishnoi. PrivateMatrix
+Approximation and Geometry of Unitary Orbits. In Conference On Learning Theory (COLT), 2022.
+Available online at https://arxiv.org/abs/2207.02794
+25. VijayKeswani,OrenMangoubi,SushantSachdeva,NisheethK.Vishnoi. AConvergentandDimension-
+Independent First-Order Algorithm for Min-Max Optimization. In Proceedings of the 38th Interna-
+tional Conference on Machine Learning (ICML), 2022. Available online at https://arxiv.org/
+abs/2006.12376.
+26. Anay Mehrotra, Bary Pradleski, Nisheeth K. Vishnoi. Selection in the Presence of Implicit Bias:
+The Advantage of Intersectional Constraints. In ACM Conference on Fairness, Accountability, and
+Transparency (FAccT), 2022. Available online at https://arxiv.org/abs/2202.01661.
+27. Hortense Fong, Vineet Kumar, Anay Mehrotra, Nisheeth K. Vishnoi. Fairness for AUC via Feature
+Augmentation. In ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2022.
+Available online at https://arxiv.org/abs/2111.12823.
+28. Damian Straszak, Nisheeth K. Vishnoi. Iteratively reweighted least squares and Slime Mold: Con-
+nection and Convergence. In Mathematical Programming, Series A, 2022. Invited Paper in 8th
+InnovationsinTheoreticalComputerScience(ITCS),2017. Fullversionavailableathttps://arxiv.
+org/abs/1601.02712. MIT Technology Review “Best of the arXiv”: https://goo.gl/ShLBKY.
+29. Lingxiao Huang, K. Sudhir, Nisheeth K. Vishnoi. Coresets for Time Series Clustering. Spotlight
+in the Thirty-fifth Annual Conference on Neural Information Processing Systems (NeurIPS), 2021.
+Available online at https://arxiv.org/abs/2110.15263
+30. L.ElisaCelis,AnayMehrotra,NisheethK.Vishnoi. Fairclassificationwithadversarialperturbations.
+In the Thirty-fifth Annual Conference on Neural Information Processing Systems (NeurIPS), 2021.
+Available online at https://arxiv.org/abs/2106.05964
+31. L. Elisa Celis, Vijay Keswani, Lingxiao Huang, Nisheeth K. Vishnoi. Fair classification with noisy
+protectedattributes: Aframeworkwithprovableguarantees. InProceedings of the 37th International
+Conference on Machine Learning (ICML),2021. Available online athttps://arxiv.org/abs/2006.
+04778
+32. Rohit Gurjar, Nisheeth K. Vishnoi. On the number of near-shortest circuits in regular matroids. In
+SIAM Journal of Discrete Math, 35(3), 1688–1705, 2021.
+33. Rohit Gurjar, Thomas Thierauf, Nisheeth K. Vishnoi. Isolating a vertex via lattices: Polytopes
+with totally unimodular faces. In SIAM Journal of Computing, 50(2), 636–661, 2021.
+34. Weiming Feng, Nisheeth K. Vishnoi, Yitong Yin. Dynamic sampling from graphical models. In
+SIAM Journal of Computing, 50(2), 350–381, 2021.
+35. Jonathan Leake, Colin McSwiggen, Nisheeth K. Vishnoi. Sampling Matrices from Harish-Chandra–
+Itzykson–Zuber Densities with Applications to Quantum Inference and Differential Privacy In ACM
+53rd ACM Symposium on Theory of Computing (STOC), 2021. Available online at https://arxiv.
+org/abs/2011.05417.
+36. Oren Mangoubi, Nisheeth K. Vishnoi. Greedy Adversarial Equilibrium: An Efficient Alternative
+to Nonconvex-Nonconcave Min-Max Optimization In ACM 53rd ACM Symposium on Theory of
+Computing (STOC), 2021. Available online at https://arxiv.org/abs/2006.12363.
+37. L. Elisa Celis, Chris Hays, Anay Mehrotra, Nisheeth K. Vishnoi. The effect of the Rooney Rule on
+implicit bias in the long term. In ACM Conference on Fairness, Accountability, and Transparency
+(FAccT), 2021. Available online at https://arxiv.org/abs/2010.10992.
+38. Javad Ebrahimi, Damian Straszak, Nisheeth K. Vishnoi. Sub-determinant maximization via non-
+convex relaxations and anti-concentration. In SIAM Journal of Computing, 49(6): 1249–1270, 2020.
+39. Lingxiao Huang, K. Sudhir, Nisheeth K. Vishnoi. Coresets for regressions with panel data. In
+the Thirty-forth Annual Conference on Neural Information Processing Systems (NeurIPS), 2020.
+Available online at https://arxiv.org/abs/2011.00981
+40. L.ElisaCelis,VijayKeswani,NisheethK.Vishnoi. Datapreprocessingtomitigatebias: Amaximum
+entropy based approach. In Proceedings of the 36th International Conference on Machine Learning
+(ICML), 2020. Available online at https://arxiv.org/abs/1906.02164
+41. Jonathan Leake, Nisheeth K. Vishnoi. On the computability of continuous maximum entropy
+distributions with applications. In ACM 52nd ACM Symposium on Theory of Computing (STOC),
+2020. Available online at https://arxiv.org/abs/2004.07403.
+42. Lingxiao Huang, Nisheeth K. Vishnoi. Coresets for clustering in Euclidean spaces: Importance
+sampling is nearly optimal. In ACM 52nd ACM Symposium on Theory of Computing (STOC), 2020.
+Available online at https://arxiv.org/abs/2004.06263.
+43. L. Elisa Celis, Anay Mehrotra, Nisheeth K. Vishnoi. Interventions for ranking in the presence of
+implicit bias. In ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT),
+2020. Available online at https://arxiv.org/abs/2001.08767.
+44. Lingxiao Huang, Shaofeng Jiang, Nisheeth K. Vishnoi. Coresets for clustering with fairness con-
+straints. IntheThirty-thirdAnnualConferenceonNeuralInformationProcessingSystems(NeurIPS),
+2019. Available online at https://arxiv.org/abs/1906.08484
+45. Holden Lee, Oren Mangoubi, Nisheeth K. Vishnoi. Online sampling from log-concave distributions.
+In the Thirty-third Annual Conference on Neural Information Processing Systems (NeurIPS), 2019.
+46. OrenMangoubi,NisheethK.Vishnoi. Fasteralgorithmsforpolytoperounding,sampling,andvolume
+computation via a sublinear ”Ball Walk”. In 60th IEEE Foundations of Computer Science (FOCS),
+2019.
+47. L. Elisa Celis, Anay Mehrotra, Nisheeth K. Vishnoi. Toward controlling discrimination in online ads.
+In Proceedings of the 36th International Conference on Machine Learning (ICML), PMLR 97:4456-
+4465, 2019. Awarded Best Student Paper in the 3rd workshop on Mechanism Design for Social
+Good, 2019 (MD4SG).
+48. Lingxiao Huang, Nisheeth K. Vishnoi. Stable and fair classification. In Proceedings of the 36th
+International Conference on Machine Learning (ICML), PMLR 97:2879-2890, 2019.
+49. Oren Mangoubi, Nisheeth K. Vishnoi. Nonconvex sampling with the Metropolis-adjusted Langevin
+algorithm . In Conference On Learning Theory (COLT), 2019. Available online at https://arxiv.
+org/abs/1902.08452.
+50. Damian Straszak, Nisheeth K. Vishnoi. Maximum entropy distributions: Bit complexity and
+stability. In Conference On Learning Theory (COLT), 2019. Available online at https://arxiv.
+org/abs/1711.02036.
+51. Nisheeth K. Vishnoi. Isolating a matching when your coins go missing. Invited Technical Per-
+spective in Communications of the ACM, March 2019.
+52. Damian Straszak, Nisheeth K. Vishnoi. Belief propagation, Bethe approximation and polynomials.
+In IEEE Transactions on Information Theory, 2019.
+53. L. Elisa Celis, Sayash Kapoor, Farnood Salehi, Vijay Keswani, Nisheeth K. Vishnoi. A dashboard
+for controlling polarization in personalization. Invited for publication in AI Communications, vol.
+32, no. 1, pp. 77-89, 2019.
+54. Weiming Feng, Nisheeth K. Vishnoi, Yitong Yin. Dynamic sampling from graphical models. In
+ACM 51st ACM Symposium on Theory of Computing (STOC). Available online at https://arxiv.
+org/abs/1807.06481.
+55. L. Elisa Celis, Lingxiao Huang, Vijay Keswani, Nisheeth K. Vishnoi. Classification with fairness
+constraints: a meta-algorithm with provable guarantees. In ACM Conference on Fairness, Account-
+ability, and Transparency (ACM FAccT), 2019. Available online at https://arxiv.org/abs/1806.
+06055.
+56. L. Elisa Celis, Farnood Salehi, Sayash Kapoor, Nisheeth K. Vishnoi. An algorithmic framework
+to control polarization in personalization. Awarded Best Technical Paper at ACM Conference
+on Fairness, Accountability, and Transparency (ACM FAccT), 2019. Available online at https:
+//arxiv.org/abs/1802.08674. Preliminary version appeared as (69).
+57. Rohit Gurjar, Nisheeth K. Vishnoi. On the number of near-shortest circuits in regular matroids. In
+ACM-SIAM Symposium on Discrete Algorithms (SODA), 2019.
+58. Oren Mangoubi, Nisheeth K. Vishnoi. Dimensionally tight bounds for second-order Hamiltonian
+Monte Carlo. In the Thirty-second Annual Conference on Neural Information Processing Systems
+(NeurIPS), 2018.
+59. SuvritSra,NisheethK.Vishnoi,OzanYildiz. OngeodesicallyconvexformulationsfortheBrascamp-
+Lieb constant. In the 21st International Conference on Approximation Algorithms for Combinatorial
+Optimization Problems (APPROX), 2018.
+60. L. Elisa Celis, Vijay Keswani, Damian Straszak, Amit Deshpande, Tarun Kathuria, Nisheeth K.
+Vishnoi. Fair and diverse DPP-based data summarization. In Proceedings of the 35th International
+Conference on Machine Learning (ICML), 2018.
+61. Oren Mangoubi, Nisheeth K. Vishnoi. Convex optimization with nonconvex oracles using simulated
+annealing. In Conference On Learning Theory (COLT), pages 1086–1124, 2018.
+62. L. Elisa Celis, Lingxiao Huang, Nisheeth K. Vishnoi. Multiwinner voting with fairness constraints.
+In 27th International Joint Conference on Artificial Intelligence (IJCAI) and the 23rd European
+Conference on Artificial Intelligence (ECAI), 2018. Available online at https://arxiv.org/abs/
+1710.10057.
+63. SayashKapoor, VijayKeswani, NisheethK.Vishnoi, L.ElisaCelis. Balancednewsusingconstrained
+bandit-based personalization. In 27th International Joint Conference on Artificial Intelligence (IJ-
+CAI) and the 23rd European Conference on Artificial Intelligence (ECAI) (Demo track), 2018.
+64. Rohit Gurjar, Thomas Thierauf, Nisheeth K. Vishnoi. Isolating a vertex via lattices: Polytopes
+with totally unimodular faces. In 45th International Colloquium on Automata, Languages, and
+Programming (ICALP), 2018. Available online at https://arxiv.org/abs/1708.02222.
+65. L. Elisa Celis, Damian Straszak, Nisheeth K. Vishnoi. Ranking with fairness constraints. In 45th
+International Colloquium on Automata, Languages, and Programming (ICALP), 2018. Available
+online at https://arxiv.org/abs/1704.06840.
+66. L. Elisa Celis, Mina Dalirrooyfard, Nisheeth K. Vishnoi. A dynamics for advertising on networks.
+In 13th Conference on Web and Internet Economics (WINE), 2017.
+67. Javad Ebrahimi, Damian Straszak, Nisheeth K. Vishnoi. Sub-determinant maximization via non-
+convex relaxations and anti-concentration. In 58th IEEE Foundations of Computer Science (FOCS),
+pages 1020–1031, 2017.
+68. Damian Straszak, Nisheeth K. Vishnoi. Belief propagation, Bethe approximation and polynomials.
+Invited for presentationat the 55th Annual Allerton Conference on Communication, Control, and
+Computing, 2017. Full version available at https://arxiv.org/abs/1708.02581
+69. L. Elisa Celis, Nisheeth K. Vishnoi. Fair personalization. In 4th Workshop on Fairness, Account-
+ability, and Transparency in Machine Learning (FAT/ML), 2017.
+70. L. Elisa Celis, Amit Deshpande, Tarun Kathuria, Damian Straszak, Nisheeth K. Vishnoi. On the
+complexity of constrained determinantal point processes. In Proceedings of the 20th APPROX-
+RANDOM, 36, pages 1–22, 2017.
+71. L. Elisa Celis, Peter M. Krafft, Nisheeth K. Vishnoi. A distributed learning dynamics in social
+groups. In Proceedings of the ACM Symposium on Principles of Distributed Computing (PODC),
+pages 441–450, 2017.
+72. Damian Straszak, Nisheeth K. Vishnoi. Real Stable Polynomials and Matroids: Optimization and
+counting. In 49th ACM Symposium on Theory of Computing (STOC), pages 370–383 2017.
+73. Yuval Peres, Mohit Singh, Nisheeth K. Vishnoi. Random walks in polytopes and negative depen-
+dence. In 8th Innovations in Theoretical Computer Science (ITCS), 2017.
+74. L. Elisa Celis, Amit Deshpande, Tarun Kathuria, Nisheeth K. Vishnoi. How to be fair and diverse?
+In 3rd Workshop on Fairness, Accountability, and Transparency in Machine Learning (FAT/ML),
+2016.
+75. Sushant Sachdeva, Nisheeth K. Vishnoi. The Mixing time of the Dikin walk in polytopes – A simple
+proof. In Operations Research Letters, 44(5), pages 630–634, 2016.
+76. Ioannis Panageas, Nisheeth K. Vishnoi. Mixing time of Markov chains, dynamical systems and
+evolution. In International Colloquium on Automata, Languages, and Programming (ICALP), 63,
+pages 1–14, 2016.
+77. Christos H. Papadimitriou, Nisheeth K. Vishnoi. On the computational complexity of limit cycles in
+dynamical systems. In 7th Innovations in Theoretical Computer Science (ITCS), 2016. Full version
+available at https://arxiv.org/pdf/1511.07605.
+78. Damian Straszak, Nisheeth K. Vishnoi. On a natural dynamics for linear programming. In 7th
+InnovationsinTheoreticalComputerScience(ITCS),2016. Fullversionavailableathttps://arxiv.
+org/abs/1511.07020.
+79. Damian Straszak, Nisheeth K. Vishnoi. Natural algorithms for flow problems. In Proceedings of the
+27th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), pages 1868–1883, 2016.
+80. Ioannis Panageas, Piyush Srivastava, and Nisheeth K. Vishnoi. Evolutionary dynamics in finite
+populations mix rapidly. In Proceedings of the Twenty-Seventh Annual ACM-SIAM Symposium on
+Discrete Algorithms (SODA), pages 480–497, 2016.
+81. Subhash Khot and Nisheeth K. Vishnoi. The unique games conjecture, integrality gap for cut
+problems and embeddability of negative-type metrics into ℓ . In Journal of the ACM, 62(1): pages
+1
+8:1–8:39, 2015.
+82. Nisheeth K. Vishnoi. The speed of evolution. In Proceedings of the Twenty-sixth Annual ACM-
+SIAM Symposium on Discrete Algorithms (SODA), pages 1590–1601, 2015.
+83. Subhash A. Khot, Preyas Popat, Nisheeth K. Vishnoi. Almost polynomial factor hardness for
+Closest Vector Problem with Preprocessing. In SIAM Journal of Computing, 43(3), pages 1184-1205,
+2014.
+84. Mohit Singh and Nisheeth K. Vishnoi. Entropy, optimization and counting. In Symposium on
+Theory of Computing, (STOC), pages 50–59, 2014.
+85. Nisheeth K. Vishnoi. Making evolution rigorous- the error threshold. In 5th Innovations in
+Theoretical Computer Science (ITCS), 2013. Full version available at http://cs.yale.edu/homes/
+vishnoi/Publications_files/VError.pdf.
+86. Jugal Garg, Ruta Mehta, Milind A. Sohoni, and Nisheeth K. Vishnoi. Towards polynomial simplex-
+like algorithms for market equlibria. In Proceedings of the Twenty-Fourth Annual ACM-SIAM
+Symposium on Discrete Algorithms (SODA), pages 1226–1242, 2013.
+87. Nisheeth K. Vishnoi. A permanent approach to the Traveling Salesman Problem. In 53rd Annual
+IEEE Symposium on Foundations of Computer Science (FOCS), pages 76–80, 2012.
+88. Kushal Tripathi, Rajesh Balagam, Nisheeth K. Vishnoi, and Narendra M. Dixit. Stochastic sim-
+ulations suggest that HIV-1 survives close to its error threshold. PLoS Computational Biology,
+8(9):e1002684, 09, 2012.
+89. Narendra Dixit, Piyush Srivastava, and Nisheeth K. Vishnoi. A finite population model of molecular
+evolution: Theory and computation. Journal of Computational Biology, 19(10):1176–1202, 2012.
+90. Michael W. Mahoney, Lorenzo Orecchia, and Nisheeth K. Vishnoi. A local spectral method for
+graphs: with applications to improving graph partitions and exploring data graphs locally. Journal
+of Machine Learning Research, 13: pages 2339–2365, 2012.
+91. Lorenzo Orecchia, Sushant Sachdeva, and Nisheeth K. Vishnoi. Approximating the exponential,
+the Lanczos method and an O˜(m)-time spectral algorithm for balanced separator. In 44th ACM
+Symposium on Theory of Computing (STOC), pages 1141–1160, 2012.
+92. Subhash Khot, Preyas Popat, Nisheeth K. Vishnoi.
+2log1−εn
+hardness for closest vector problem with
+preprocessing. In 44th ACM Symposium on Theory of Computing (STOC), pages 277–288, 2012.
+93. Mikhail Alekhnovich, Subhash Khot, Guy Kindler, Nisheeth K. Vishnoi. Hardness of approximating
+the closest vector problem with pre-Processing. In Computational Complexity, 20(4): pages 741–753,
+2011.
+94. Subhransu Maji, Nisheeth K. Vishnoi, and Jitendra Malik. Biased normalized cuts. In 24th IEEE
+Conference on Computer Vision and Pattern Recognition, (CVPR), pages 2057–2064, 2011.
+95. AmitKumar,RajsekarManokaran,MadhurTulsiani,andNisheethK.Vishnoi. OnLP-basedapprox-
+imability for strict CSPs. In ACM-SIAM Symposium on Discrete Algorithms (SODA), pages1560–
+1573, 2011.
+96. LorenzoOrecchiaandNisheethK.Vishnoi. TowardsanSDP-basedapproachtospectralmethods: A
+nearly-linear-time algorithm for graph partitioning and decomposition. In ACM-SIAM Symposium
+on Discrete Algorithms (SODA), pages 532–545, 2011.
+97. Amit Deshpande, Madhur Tulsiani, Nisheeth K. Vishnoi. Algorithms and hardness for subspace
+approximation. In ACM-SIAM Symposium on Discrete Algorithms (SODA), pages 482–496, 2011.
+98. AnandLouis,NisheethK.Vishnoi. Improvedalgorithmfordegreeboundedsurvivablenetworkdesign
+problem. In the 12th Scandinavian Symposium and Workshops on Algorithm Theory (SWAT), pages
+408–419, 2010.
+99. Mihail N. Kolountzakis, Richard J. Lipton, Evangelos Markakis, Aranyak Mehta, Nisheeth K. Vish-
+noi. On the Fourier spectrum of symmetric Boolean functions. In Combinatorica, 29(3), pages
+363–387, 2009.
+100. Markus Blaser, Moritz Hardt, Richard J. Lipton, Nisheeth K. Vishnoi. Deterministically test-
+ing sparse polynomial identities of unbounded degree. In Information Processing Letters, 109(3),
+pages187–192, 2009.
+101. LorenzoOrecchia, LeonardJ.Schulman, UmeshV.Vazirani, andNisheethK.Vishnoi. Onpartition-
+ing graphs via single commodity flows. In 40th ACM Symposium on Theory of Computing (STOC),
+pages 461–470, 2008.
+102. Sanjeev Arora, Subhash Khot, Alexandra Kolla, David Steurer, Madhur Tulsiani, and Nisheeth K.
+Vishnoi. Unique games on expanding constraint graphs are easy. In 40th ACM Symposium on
+Theory of Computing (STOC), pages 21–28, 2008.
+103. Nisheeth K. Vishnoi. The impact of noise on the scaling of collectives: The nearest neighbor model.
+In the 14th International Conference on High Performance Computing (HiPC), pages 476–487, 2007.
+104. NikhilR.Devanur,SubhashKhot,RishiSaket,andNisheethK.Vishnoi. Integralitygapsforsparsest
+cut and minimum linear arrangement problems. In 38th ACM Symposium on Theory of Computing
+(STOC), pages 537–546, 2006.
+105. Subhash Khot and Nisheeth K. Vishnoi. The unique games conjecture, integrality gap for cut
+problems and embeddability of negative type metrics into ℓ . Best Paper at the 46th Annual IEEE
+1
+Symposium on Foundations of Computer Science (FOCS), pages 53–62, 2005.
+106. Mikhail Alekhnovich, Subhash Khot, Guy Kindler, and Nisheeth K. Vishnoi. Hardness of approx-
+imating the closest vector problem with pre-processing. In the 46th Annual IEEE Symposium on
+Foundations of Computer Science (FOCS), pages 216–225, 2005.
+107. Parikshit Gopalan, Howard J. Karloff, Aranyak Mehta, Milena Mihail, Nisheeth K. Vishnoi. Caching
+with expiration times for internet applications. In Internet Mathematics, 2(2), pages 165–184, 2005.
+108. Saurabh Agarwal, Rahul Garg, Nisheeth K. Vishnoi. The Impact of Noise on the Scaling of Collec-
+tives: A Theoretical Approach. the 12th International Conference on High Performance Computing
+(HiPC), pages 280–289, 2005.
+109. Richard J. Lipton, Evangelos Markakis, Aranyak Mehta, Nisheeth K. Vishnoi. On the Fourier Spec-
+trum of Symmetric Boolean Functions with Applications to Learning Symmetric Juntas. In IEEE
+Conference on Computational Complexity (CCC), pages 112–119, 2005.
+110. Nikhil R. Devanur, Richard J. Lipton, and Nisheeth K. Vishnoi. On the complexity of Hilbert’s 17th
+problem. In Foundations of Software Technology and Theoretical Computer Science (FSTTCS),
+pages 237–249, 2004.
+111. NisheethK.Vishnoi. Nonuniformrandomwalks. InDiscreteMathematicsandTheoreticalComputer
+Science, vol. AC (2003), pages 345–358, Discrete Random Walks 2003. Editors: Cyril Banderier and
+Christian Krattenthaler.
+112. Who’s The Weakest Link? Nikhil R. Devanur, Richard J. Lipton, Nisheeth K. Vishnoi. In the 2nd
+Symposium on Stochastic Algorithms, Foundations and Applications, pp. 108–116, 2003.
+113. Parikshit Gopalan, Howard Karloff, Aranyak Mehta, Milena Mihail, Nisheeth K. Vishnoi. Caching
+with expiration times. In the 13th ACM-SIAM ACM Symposium on Discrete Algorithms (SODA),
+pages 540–547, 2002.
+114. Milena Mihail, Nisheeth K. Vishnoi. On generating graphs with prescribed degree sequences for
+complex network modeling applications. In Approximation and Randomized Algorithms for Commu-
+nication Networks, 2002.
+115. An algebraic proof of Alon’s Combinatorial Nullstellensatz. Nisheeth K. Vishnoi. In Congressus
+Numerantium, vol. 152, pages 89–91, 2001.
+(d) Technical Reports
+116. Damian Straszak, Nisheeth K. Vishnoi. On convex programming relaxations for the permanent.
+Available online at https://arxiv.org/abs/1701.01419, 2017.
+117. Rahul Jain, Troy Lee, Nisheeth K. Vishnoi. A quadratically tight partition bound for classical
+communication complexity and query complexity. Available online at https://arxiv.org/abs/
+1401.4512, 2014.
+118. Sushant Sachdeva, Nisheeth K. Vishnoi. Matrix inversion is as easy as exponentiation. Available
+online at https://arxiv.org/abs/1305.0526, 2013.
+119. DavidSteurer,NisheethK.Vishnoi. ConnectionsbetweenUniqueGamesandMulticut. ECCCTech-
+nical Report TR09-125. Available online at https://eccc.weizmann.ac.il/report/2009/125/,
+2009.
+120. Rohit M. Khandekar, Subhash A. Khot, Lorenzo Orecchia, Nisheeth K. Vishnoi. On a cut-matching
+game for expansion. University of California, Berkeley Technical Report No. UCB/EECS-2007-
+177. Available online at http://vm133.lib.berkeley.edu:90/reports/TRWebData/accessPages/
+EECS-2007-177.html, 2007.
+121. Richard J. Lipton, Nisheeth K. Vishnoi. A Generalization of the Characteristic Polynomial of a
+Graph. Presented in 35th Southeastern International Conference on Combinatorics, Graph The-
+ory and Computing, Boca Raton, 2004. Available online at http://cs.yale.edu/homes/vishnoi/
+Publications_files/LVgraphpoly.pdf, 2004.
+122. Joseph M. Landsberg, Jacob Taylor, Nisheeth K. Vishnoi. The geometry of matrix rigidity. Avail-
+able online athttps://smartech.gatech.edu/bitstream/handle/1853/6514/GIT-CC-03-54.pdf,
+2003.
+Selected Media Coverage
+1. Interview: “AMA Issues Principles on AI in Healthcare, Calls for Larger Regulatory Framework”.
+MedCentral. December26,2023. https://www.medcentral.com/ai/ama-issues-principles-on-
+ai-in-healthcare-calls-for-larger-regulatory-framework
+2. In the news: “Pentagon Urged to Do More Against Biased Artificial Intelligence”. Bloomberg
+Law, May 2, 2022. https://news.bloomberglaw.com/tech-and-telecom-law/pentagon-urged-
+to-do-more-against-biased-artificial-intelligence
+3. Interview on bias in AI: “Hard choices: AI in health care”. Yale Medicine, 2021 Issue 166. https:
+//medicine.yale.edu/news/yale-medicine-magazine/hard-choices-ai-in-health-care/
+4. Interview and article on our work on controlling bias in AI: “Artificial intelligence could deepen bi-
+ases and make us more mechanical”. March 13, 2021. https://timesofindia.indiatimes.com/
+artificial-intelligence-could-deepen-biases-and-make-us-more-mechanical/articleshow/
+81472179.cms
+5. Interview and article on our work on reducing polarization: “When our view of the world is dis-
+torted by algorithms”. March 28, 2019. https://www.pbs.org/wgbh/nova/article/radical-
+ideas-social-media-algorithms
+6. Links to extensive media coverage on our work on Fair Elections in September 2018 can be found at
+https://nisheethvishnoi.wordpress.com/2018/09/16/fair-elections/.
+7. An article on reducing polarization: “When our view of the world is distorted by algorithms”.
+April 19, 2018. https://actu.epfl.ch/news/when-our-view-of-the-world-is-distorted-by-
+algorit/
+8. An interview on Algorithm dynamics: Asking Google, Facebook and others to be “fair”. January 26,
+2018. The Ken. Available at https://the-ken.com/relook-google-facebook-algorithm/.
+9. AninterviewonthedeploymentofArtificialIntelligenceinIndia. October30, 2017. The Ken. Avail-
+ableathttps://the-ken.com/you-can-bring-bullet-train-from-japan-but-not-artificial-
+intelligence/.
+10. An interview on Algorithmic Bias. August 9, 2017. livemint. Available at http://www.livemint.
+com/Technology/VXCMw0Vfilaw0aIInD1v2O/When-artificial-intelligence-goes-wrong.html.
+11. An interview on Algorithmic Bias. January 23, 2017. The Ken. Available at https://the-ken.
+com/humanising-algorithms/.
+Professional Activities
+(a) At Yale
+Member of Provost’s AI Task Force. Yale
+1.
+2024
+Member of Advisory Committee of the QBio with PEB Yale
+2.
+2023-2025
+Member of Steering Committee of the Kline Tower Institute (KTI) Yale
+3.
+2022-2024
+Member of Provost’s Data Science Advisory Committee Yale
+4.
+2021-2022
+Member of the Strategic Planning Committee Yale
+5.
+School of Engineering and Applied Sciences 2020-2021
+Member of the Ph.D. student recruiting committee Yale
+6.
+Department of Computer Science 2020
+Member of the faculty recruiting committee Yale
+7.
+Department of Computer Science 2020
+Member of the PSE Area and Tenure Appointments Committee Yale
+8.
+Physical Science and Engineering 2019-2020
+(b) At EPFL
+Member of the Research Commission EPFL
+1.
+Official body of the Swiss Nat. Science Found. and advisory to the EPFL direction 2017-Present
+Chair of the Doctoral Dissertation Awards Committee EPFL
+2.
+School of Computer and Communication Sciences 2017
+Chair of the School of Computer and Communication Sciences Research Day EPFL
+3.
+Title: The Computational Universe 2015
+Organization of Summer@EPFL EPFL
+4.
+Helped with internship program of the School of Computer and Communication Sciences 2015
+Member of the Committee that runs the Doctoral Program (EDIC) EPFL
+5.
+School of Computer and Communication Sciences 2014-Present
+Member of the Faculty Hiring Committee EPFL
+6.
+School of Computer and Communication Sciences 2014
+(d) Panels/Conference/Workshop/Semester Organization
+Panelist in Session for IndiaAI Innovation Centre organized by Govt. of India
+7.
+2024
+Panelist in an Expert Group Meeting for the CEDAW GR 40 on AI
+8.
+2023
+NSF Panel: Reliability of Current Large Language Models
+9.
+2023
+Panelist in AI Ethics roundtable organized by the TILOS AI Institute
+10.
+2023
+Workshop Organizer - Entropy and Optimization DIMACS
+11.
+2022
+Panelist in AI and Big Data: Risks and Opportunities
+12.
+Jackson Institute for Global Affairs, Yale 2022
+Panelist in Deconstructing AI Adoption
+13.
+Tata Consultancy Services 2022
+Workshop Organizer - Optimization under Symmetry Simons
+14.
+2021
+Program Organizer - Geometric Methods for Optimization & Sampling Simons
+15.
+2021
+Panelist in U.S. - India AI Initiative: Principles of Trustworthy AI
+16.
+Indo-U.S. Science and Technology Forum 2021
+Committee member for XPrize at AI for Good Global Summit AI for Good Summit
+17.
+2020
+Co-Organizer of Workshop on Dynamical Systems and Computation Gump Station
+18.
+2019
+NSF Panels
+19.
+2018, 2019, 2022
+Co-Organizer of the 1st Yale workshop on AI, Ethics, and Society Yale
+20.
+2019
+21. Panelist in ICRC/IIT Delhi Initiative on Humanitarian Policy and Technology, (New
+Delhi, 2019).
+22. RoundtablesonGovernanceofDecisionMakingAlgorithmsorganizedbyIRGC(Zurich,
+2018), AI and Global Health organized by Wilton Park (London, 2018).
+23. Panels of Philanthropy Impact panel on Artificial Intelligence (Zurich, 2018), Respon-
+sible Finance & Investment Summit (Zurich, 2018).
+The goal of these panels is to direct philanthropy and investment in AI
+24. Steering Committee Member of the “DIMACS/Simons Collaboration in Bridging Con-
+tinuous and Discrete Optimization”.
+25. Co-organizer of a semester at the Bernoulli Center, Lausanne on “Computational As-
+pects of Partition Functions”
+Co-Organizer of an interdisciplinary workshop EPFL
+26.
+Title: Computation and Society 2018
+27. Organizer of a session at the International Symposium on Math. Prog. (2018) on
+“Algorithmic Fairness and Optimization”
+Co-Organizer of a workshop ICTS, Bangalore, India
+28.
+Title: Algorithms and Optimization 2018
+Co-Organizer of a Banff Workshop Banff, Canada
+29.
+Title: Approximation and Hardness of Approximation 2017
+Co-Organizer of a Bellairs workshop EPFL
+30.
+Title: Algorithmic Aspects of Dynamical Systems 2017
+Co-Organizer of an interdisciplinary workshop Mysore
+31.
+Title: Computation, Sciences and Society 2017
+Co-Organizer of a Dagstuhl Seminar Dagstuhl, Germany
+32.
+Title: Evolution and Computing 2016
+Co-Organizer of a workshop series India
+33.
+Title: Breakthroughs in Theoretical Computer Science 2011, 2013
+Co-Organizer of a winter school Bangalore, India
+34.
+Title: The 2011 School of Approximability 2011
+(c) Committees
+35. Senior PC Member of Computational Learning Theory (COLT) 2023
+36. Senior PC Member of Computational Learning Theory (COLT) 2022
+37. PC Chair of IEEE Foundations of Computer Science (FOCS) 2021
+38. PC Member of FORC: Foundations of Responsible Computing 2020
+39. Program Committee of India Science Festival, Pune, India 2020-2021
+40. PC Member of CRAFT: Critiquing and Rethinking Accountability, Fairness and Transparency2020
+41. PC Member of ACM Conference on Fairness, Accountability, and Transparency (FAccT) 2020
+42. PC Member of ACM-SIAM Symposium on Discrete Algorithms (SODA) 2020
+43. PC Member of Computational Learning Theory (COLT) 2019
+44. PC Member of ACM Conference on Fairness, Accountability, and Transparency (FAccT) 2019
+45. PC Member of IEEE Foundations of Computer Science (FOCS) 2018
+46. PC Member of Foundations of Software Technology and Theoretical Computer Science 2018
+47. PC Member of ACM-SIAM Symposium on Discrete Algorithms (SODA) 2018
+48. PC Member of Innovations in Theoretical Computer Science (ITCS) 2016
+49. PC Member of Innovations in Theoretical Computer Science (ITCS) 2015
+50. PC Member of ACM-SIAM Symposium on Discrete Algorithms (SODA) 2014
+51. PC Chair of Foundations of Software Technology and Theoretical Computer Science 2013
+52. PC Member of ACM Symposium on Theory of Computing (STOC) 2011
+53. PC Member of Foundations of Software Technology and Theoretical Computer Science 2011
+54. PC Member of Foundations of Software Technology and Theoretical Computer Science 2009
+Selected Talks in Recent Years
+Invited talk at Responsible AI in Global Business April 2025
+AI and Society School of Management, Yale
+Invited talk at IIT Kanpur Jan 2025
+Title: College Admissions in the Presence of Biases Kanpur, India
+Invited talk at TIFR Jan 2025
+Title: Algorithms in the Presence of Biased Inputs Mumbai, India
+Invited talk by Yale Class of 1960 December 2024
+Title: AI and Society: Applications, Impacts, and the Future Virtual
+Invited talk at Yale Class of 1969 55th Reunion June 2024
+Title: The (Broken) AI Mirror and how we could fix it New Haven, USA
+Invited talk at TILOS Ethics and Early Career Webinar March 2024
+Title: The AI Mirror Virtual
+Invited talk at IBM Research March 2024
+Title: Algorithms in the Presence of Biased Inputs Gurugram, India
+Invited talk at IIT Kanpur March 2024
+Title: Algorithms in the Presence of Biased Inputs Kanpur, India
+Invited talk at IIT Delhi March 2024
+Title: Algorithms in the Presence of Biased Inputs Delhi, India
+Invited talk at IIT Bombay March 2024
+Title: Algorithms in the Presence of Biased Inputs Mumbai, India
+Invited talk at Yale Law School February 2024
+Title: The AI Mirror New Haven, USA
+Invited talk at Google Research December 2023
+Title: Algorithms in the Presence of Biased Inputs Bangalore, India
+Fireside Chat at People+ai December 2023
+Title: AI’s Impact on Society Bangalore, India
+Keynote talk at FSTTCS December 2023
+Title: Algorithms in the Presence of Biased Inputs Hyderabad, India
+TILOS Fireside Chat October 2022
+Theory in the age of modern AI Virtual
+Invited talk at the School of Mathematics October 2023
+Title: Private Optimization and Statistical Physics IAS, Princeton
+Invited seminar at the Department of Computer Science and Engineering January 2023
+Title: Selection in the Presence of Biases IIT Delhi
+Invited seminar at the Department of Computer Science and Engineering January 2023
+Title: Selection in the Presence of Biases IIT Bombay
+Invited speaker at the Infosys-Chandrasekharan Random Geometry Colloquium January 2023
+Title: Private Optimization and Statistical Physics TIFR Mumbai
+Invited speaker at the ICTS discussion meeting “Statistical Physics of Complex Systems” December 2022
+Title: Private Optimization and Statistical Physics ICTS Bangalore
+Fireside Chat at Data Science Conference Europe November 2022
+Title: Understanding the nature of Bias in Natural & AI Systems Virtual
+Invited seminar at the Department of Computer Science and Engineering June 2022
+Title: Sampling Under Symmetry IIT Kanpur
+Invited speaker at the Sampling Methods and Inverse Problems Workshop June 2022
+Title: Sampling Under Symmetry Duke University
+Invited speaker at the CS Colloquium, Hebrew University May 2022
+Title: Sampling under Symmetry Virtual
+Invited seminar at the IBM India Research Lab Mar. 2022
+Title: Bias in Algorithms Gurugram, India
+Invited seminar at the Department of Computer Science and Engineering Mar. 2022
+Title: Bias in Algorithms IIT Kanpur
+Invited speaker at the Simons Institute Workshop on Adversarial Approaches in ML Feb. 2022
+Title: Computationally Efficient Alternatives to Nonconvex-Nonconcave Min-Max Optimization Virtual
+Invited speaker at the joint TILOS and OPTML++ Seminar at MIT Feb. 2022
+Title: Sampling under Symmetry Virtual
+Invited speaker in the Colloquium Series of the Inference Project Nov. 2021
+Title: Bias in Algorithms Virtual
+Invited speaker in the Algorithms and Machine Learning Seminar at Princeton University Nov. 2021
+Title: Optimization and Sampling Under Continuous Symmetry Virtual
+Invited talk at Google India Oct. 2021
+Title: Controlling Bias in Algorithmic Decision Making Virtual
+Bootcamp talk at Simons semester on Geometric Methods for Optimization and Sampling Sep. 2021
+Title: Optimization and Sampling Under Symmetry: Examples Virtual
+Bootcamp talk at Simons semester on Geometric Methods for Optimization and Sampling Sep. 2021
+Title: An introduction to Hamiltonian Monte Carlo method for sampling Virtual
+Invited talk at Theory Lunch at Dept. of Economics, Yale May 2021
+Title: Selection problems in the presence of implicit biases Virtual
+Invited talk at Franke Ideas Salon January 2021
+Title: A Minimalist Approach to Intelligence Virtual
+Keynote at Walmart AI Summit January 2021
+Title: Controlling bias in algorithmic decision making Virtual
+Tutte Colloquium at University of Waterloo November 2020
+Title: Sampling under Symmetry Virtual
+Invited Talk at Google Brain October 2020
+Title: Efficient Alternatives to Min-Max Models Virtual
+Invited talk in the Law & Tech Series at Yale Law School September 2020
+Title: Challenges of Making Unbiased Decisions in a World of Data and Algorithms Virtual
+Invited talk in the Convening Yale series at Yale SOM September 2020
+Title: Challenges of Making Unbiased Decisions in a World of Data and Algorithms Virtual
+Invited talk ML Seminar at JHU September 2020
+Title: Equilibrium in Min-Max Optimization Virtual
+Keynote talk at Highlights of Algorithms September 2020
+Title: Controlling Bias in Algorithms Virtual
+Invited talk in Simons reunion workshop on Deep Learning, Berkeley August 2020
+Title: Equilibrium in Min-Max Optimization Virtual
+Invited presentation to European Commission May 2020
+Title: Controlling Bias in AI Virtual
+Invited Webinar of A+ Alliance April 2020
+Title: Virtual Algorithms 101 Virtual
+Trusted AI Seminar at IBM Research February 2020
+Title: Optimization-Based Approaches to Control Algorithmic Bias New York
+Invited talk at India Science Festival January 2020
+Title: Humans are not alone, AI discriminates too Pune
+Invited talk at ICTS January 2020
+Title: Physics-Inspired Algorithms Bangalore
+Keynote talk at LinkedIn-IISC workshop January 2020
+Title: Towards Controlling Bias in AI/ML Bangalore
+Invited talk at Rice University October 2019
+Title: Towards Controlling Bias in AI Houston
+Invited talk at University of Colorado October 2019
+Title: Physics-inspired Algorithms: Hamiltonian Monte Carlo for Sampling Boulder
+Invited talk at Google ML Theory Day September 2019
+Title: Physics-inspired Algorithms: Hamiltonian Monte Carlo for Sampling New York City
+Invited talk at Courant Institute August 2019
+Title: Entropy, Optimization and Symmetry NYU
+Invited talk at Facebook July 2019
+Title: Towards Controlling Bias in AI Systems Seattle
+HCI and Data Visualization PIC Seminar Series May 2019
+Title: Towards controlling bias in machine learning IBM Research, Cambridge
+Invited talk at Jump Trading May 2019
+Title: Towards controlling bias in machine learning Jump Trading, Chicago
+Invited talk at Collaboration on Algorithms and Geometry Annual Meeting May 2019
+Title: Physics-inspired Algorithms: Hamiltonian Monte Carlo for Sampling Simons Foundation, NY
+Department Seminar at the Statistics and Data Science Dept. April 2019
+Title: Physics-Inspired Algorithms for Sampling Yale University
+Invited talk at the Workshop on Deterministic counting March 2019
+Title: Entropy, Capacity, and Counting Simons Institute, UC Berkeley
+Invited talk at the Geometry of Polynomials seminar March 2019
+Title: Bethe approximation for partition functions Simons Institute, UC Berkeley
+CMI seminar March 2019
+Title: Towards controlling bias in AI systems Caltech
+ACO Alumni Colloquium January 2019
+Title: Opportunities at the intersection of AI and society Georgia Tech
+CSE Department Talk November 2018
+Title: Algorithms for Machine Learning, Inspired from Physics IIT Delhi
+CSE Department Talk October 2018
+Title: Algorithms from Physics IIT Goa
+STCS Colloquium October 2018
+Title: Algorithms from Physics TIFR, Mumbai
+CSE Department Talk October 2018
+Title: Algorithms from Physics IIT Bombay
+Invited talk at the FOCS workshop on Scaling Algorithms and Applications June 2018
+Title: On the Computability of Maximum Entropy Distributions Paris
+Invited talk at AWS August 2018
+Title: Algorithms and Bias New York
+Invited talk at ISMP July 2018
+Title: Fair and Diverse DPP-based Sampling Bordeaux
+Invited talk at the workshop on Optimization, Complexity and Invariant Theory June 2018
+Title: An Introduction to Geodesic Convexity IAS, Princeton
+DSI Colloquium May 2018
+Title: Optimization, Sampling, and Physics Boston University
+Center for Quantum Technologies Seminar April 2018
+Title: Algorithms from Physics National University of Singapore
+CSE Seminar February 2018
+Title: Algorithms, Nature, and Society U Michigan
+CS Colloquium February 2018
+Title: Algorithms and Bias Yale University
+DSI Distinguished Lecture February 2018
+Title: Algorithms, Nature, and Society Boston University
+CS Colloquium February 2018
+Title: Algorithms, Nature, and Society Northeastern University
+DCS Colloquia February 2018
+Title: Algorithms, Nature, and Society Rutgers University
+CS Seminar February 2018
+Title: Algorithms from Physics Princeton University
+Invited talk at ICTS at TEN January 2018
+Title: The mathematics of bias Bangalore
+Distinguished speakers lecture December 2017
+Title: Algorithms, complexity, and bias Max Planck Institute for Informatics
+Invited Presentation to delegates from United Nations OHCHR and Women@TheTable November 2017
+Title: Bias in AI Geneva
+Invited talk in the Theory seminar in the Computer Science department October 2017
+Title: Entropy, optimization and polynomials (to counter algorithmic bias) UIUC
+Invited talk at Allerton October 2017
+Title: Belief propagation, Bethe approximation and polynomials Illinois
+Invited talk at the Workshop on Fast Iterative Methods October 2017
+Title: Slime molds and sparse recovery Simons Institute, UC Berkeley
+Invited talk at the Workshop on Discrete Opt. via Continuous Relaxations September 2017
+Title: Subdeterminant maximization via nonconvex relaxations Simons Institute, UC Berkeley
+Invited talk in the Optimization Seminar at the Simons Institute September 2017
+Title: Entropy, optimization and polynomials Simons Institute, UC Berkeley
+Invited talk at Google September 2017
+Title: Fair algorithms Mountain View, CA
+Invited talk at the Workshop on Learning Theory at Foundations of Computational Math. July 2017
+Title: Learning in nature Barcelona
+Plenary talk at the “Special Year on Complexity Theory and Cryptography” January 2017
+Title: Computational aspects of partition functions IISc, Bangalore
+Invited talk at the Innovations in Theoretical Computer Science (ITCS) conference Jan. 2017
+Title: IRLS and slime molds: Equivalence and convergence Berkeley
+Invited talk at the meeting “The Interface of Biology & TCS” December 2016
+Title: Evolution and computation Simons Center, NCBS
+Invited talk at the MIT Theory of Computation Colloquium November 2016
+Title: Slime molds, sparse recovery and beyond MIT
+Invited talk at the Yale Applied Math Seminar November 2016
+Title: Slime molds, sparse recovery and beyond Yale
+Invited talk at the CS/IEOR Seminar November 2016
+Title: Slime molds, sparse recovery and beyond Columbia
+Plenary talk at “Probabilistic Structures in Deterministic Population Genetics“ November 2016
+Title: Evolutionary dynamics in finite populations Vienna
+Invited Talk at FOCS 2016 Workshop on Orthogonal Polynomials October 2016
+Title: Orthogonal polynomials and spectral algorithms New Brunswick
+Invited talk at the meeting on Discrete Optimization August 2016
+Title: Sparse recovery, iteratively reweighed least squares and beyond ETH Zurich
+Invited talk at 5th Mysore Park Workshop August 2016
+Title: Sparse recovery, iteratively reweighed least squares and beyond Mysore
+Invited talk at Algebraic and Spectral Graph Theory Workshop August 2016
+Title: IRLS, sparse recovery and beyond Banff
+Invited talk at the ICML Workshop on Advances in Nonconvex Analysis and Optimization June 2016
+Title: Slime molds and sparse recovery New York
+Invited talk at the Computational Complexity Conference June 2016
+Title: Evolution and computation Tokyo
+Ng Kong Beng Public Lecture at the Institute of Mathematical Sciences March 2016
+Title: Evolution and computation IMS-NUS, Singapore
+Keynote at the meeting on “Computation and Optimization in Science and Engineering” February 2016
+Title: Evolution and computation IIT Kanpur
+Invited talk at the meeting “Population Genetics and Evolution” January 2016
+Title: Evolution and computation ICTS, Bangalore
+Invited talk at the workshop Fast Algorithms via Spectral Methods December 2015
+Title: Faster spectral algorithms via approximation theory Simons Institute, UC Berkeley
+Invited talk at the OR Seminar December 2015
+Title: Natural algorithms for flows and linear programming LSE
+Distinguished Speaker at the 6th Cargese workshop on Combinatorial Optimization September 2015
+Title: Three lectures on linear solvers and convex optimization Corsica
+Invited Talk at the Department of Computer Science July 2015
+Title: Evolution, dynamical systems and computation Princeton
+Invited talk at the 22nd International Symposium on Mathematical Programming July 2015
+Title: Natural algorithms for flow problems Pittsburgh
+Invited talk at the Theory Seminar April 2015
+Title: Natural algorithms for flow problems Columbia, NY
+Plenary talk at the Bellairs Workshop on Combinatorial Optimization April 2015
+Title: Natural algorithms for flow problems Barbados
+Invited talk at the Computer Science/Discrete Mathematics Seminar April 2015
+Title: Natural algorithms for flow problems IAS, Princeton
+Invited Lecture Series at the Department of Computer Science and Engineering December 2014
+Title: Three lectures on convex optimization IIT Kanpur
+Invited Lecture Series at the Department of Computer Science and Engineering December 2014
+Title: Three lectures on convex optimization IIT Madras
+Invited talk at the Workshop on Flexible Network Design July 2014
+Title: On the computability of max-entropy distributions for combinatorial problems Lugano
+Keynote talk at ARC Theory Day April 2014
+Title: Entropy, optimization and counting Georgia Tech
+Invited talk at the workshop “Electrical Flows, Graph Laplacians, and Algorithms ...” April 2014
+Title: Faster algorithms via approximation theory ICERM, Brown
+Invited talk at the Ideas and Problems Seminar March 2014
+Title: How could life have emerged? Simons Institute, UC Berkeley
+Plenary talk at the meeting “Population Genetics and Evolution” February 2014
+Title: Making evolution rigorous? ICTS, Bangalore
+Invited talk at RIMS January 2014
+Title: Entropy, optimization and counting Kyoto
+Plenary talk at the ELC Workshop in Inapproximability January 2014
+Title: Inapproximability Tokyo
+Invited talk at the Department of Mathematics January 2014
+Title: Approximation theory and the design of fast algorithms Indian Institute of Science
+Invited talk at the Chennai Mathematical Institute January 2014
+Title: Zeros of polynomials and their applications to theory Chennai
+Invited talk in the International Center for Theoretical Sciences Colloquium November 2013
+Title: Asexual evolution through the lens of theory ICTS, Bangalore
+Invited talk at the FOCS Workshop on Zeros of Polynomials and their Applications to Theory Oct. 2013
+Title: Introduction to real stability and strongly Rayleigh measures Berkeley
+School of Natural Science Colloquium September 2013
+Title: Asexual evolution through the lens of theory TIFR, Mumbai
+Invited talk at TCS+ March 2013
+Title: Evolution through the lens of theory Online seminar

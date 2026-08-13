@@ -3,7 +3,7 @@ import shutil
 
 ROOT = Path(__file__).resolve().parents[2]
 
-GROUND_TRUTH = ROOT / "data" / "groundt_truth"
+GROUND_TRUTH = ROOT / "data" / "ground_truth"
 EXTRACTED = ROOT / "data" / "extracted_text"
 
 DEST = Path(__file__).parent / "data"

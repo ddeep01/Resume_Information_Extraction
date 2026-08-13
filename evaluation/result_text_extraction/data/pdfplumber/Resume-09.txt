@@ -1,0 +1,2024 @@
+Mor Harchol-Balter
+ComputerScienceDepartment
+CarnegieMellonUniversity
+Pittsburgh,PA15213
+harchol@cs.cmu.edu;
+www.cs.cmu.edu/∼harchol
+RESEARCHAREAS
+Designandperformanceanalysisofcomputersystemsincludingboththeoryandimplementation:
+AlgorithmicWork: Designingandanalyzingalgorithmsfor: resourceallocation,task/jobscheduling,loadshar-
+ing,routing,cyclestealing,replication,power-management,multi-class/multi-serverscheduling,multi-corepar-
+allelscheduling,fairness. Correlatedarrivalprocesses,andanalysisunderhigh-variabilityworkloads. “All-Can-
+WinTheorem”,demonstratingthatschedulingpolicieswhicharebiasedtowardsfavoringsmalljobscanalsobe
+preferabletolargejobs.
+StochasticAnalysis&QueueingTechniques: Developing new methods for stochastic analysis. Examples in-
+clude: (i)RecursiveDimensionalityReduction(RDR),atechniquetoreduceamulti-dimensionalMarkovchain
+toa1-dimantionalchain,byusingbusyperiodtransitions; (ii)RecursiveRenewalReward(RRR)andClearing
+AnalysisonPhases(CAP),techniquesthatallowonetoobtainclosed-formsolutionsformanyone-dimensional
+infiniterepeatingMarkovchains,includingtheM/M/kwithsetupchain;(iii)ExactanalysisofReplicationSys-
+tems: the first exact solution (in product-form) for replication systems, involving any number of servers, and
+number of classes, and any degree of replication; (iv) SOAP Analysis of Scheduling Policies, the first exact re-
+sponse time analysis of a huge class of scheduling policies with no prior analysis, including the Gittins Index;
+(v)OptimalSchedulingforMulti-serversystems,thefirstalgorithmsandanalysisforoptimalschedulinginthe
+M/G/k,bothwithknownandunknownjobsizes;(vi)FirstoptimalschedulingpoliciesforMultiserver-Jobs;(vii)
+Firstoptimalschedulingpoliciesforparalleljobswithconcavespeedupfunctions.
+Systemsimplementation: Resource management/scheduling in data centers and supercomputing centers. Im-
+plementationofQoStaillatencyguaranteesforflowsinnetworkedstoragesystems(PriorityMeisterandSNC-
+Meister). Onlineschedulingofjobswithheterogeneouspreferences(TetriSched). Dynamicpowermanagement
+inmulti-tierdatacenters(AutoScale),adoptedbyFacebook. SchedulingofMemoryControllers(ATLAS).Pric-
+ing and queueing optimizations for cloud services. Kernel-level SRPT connection scheduling in Web servers
+(SyNC).SchedulingtocopewithtransientoverloadinWebservers.
+ModelingandWorkloadcharacterization:KnownfordiscoveryofParetoheavy-taileddistributionofUNIXpro-
+cessCPUlifetimes. StatisticalcharacterizationofworkloadsincludingUNIXprocesses,web,OLTP,supercom-
+puting,memoryworkloads,datacenterworkloads,andparallelmulti-corejobs.
+EMPLOYMENT
+2020-pres BruceJ.NelsonProfessorinComputerScience. ComputerScienceDepartment. CarnegieMellonUniversity.
+2014-pres FullProfessor. ComputerScienceDepartment. CarnegieMellonUniversity.
+2012-2014AssociateProfessor. ComputerScienceDepartment. CarnegieMellonUniversity.
+2008-2011AssociateProfessorandAssociateDepartmentHead.
+ComputerScienceDepartment,CarnegieMellonUniversity.
+2005-2008AssociateProfessorwithouttenure. ComputerScienceDepartment. CarnegieMellonUniversity.
+1
+1999-2005 McCandlessAssistantProfessor. ComputerScienceDepartment. CarnegieMellonUniversity.
+1996-1999 NSFPostdoctoralFellow. MassachusettsInstituteofTechnology.
+Fundedby: NSFPostdoctoralFellowshipintheMathematicalSciences.
+Mentor: Prof. TomLeighton.
+EDUCATION
+1990-1996 UniversityofCalifornia,Berkeley.
+Ph.D.inComputerScience,August1996.
+Thesis: NetworkAnalysiswithoutExponentialityAssumptions.
+Advisor: Prof. ManuelBlum. Committee: ManuelBlum,SheldonRoss,VenkatAnantharam.
+1984-1988 BrandeisUniversity,Waltham,Massachusetts.
+B.A.inComputerScienceandMathematics,May1988. SummaCumLaude.
+Thesis: EvaluationofDataEncryptionStandardUsingWalsh-HadamardMatrixFactorization.
+Advisor: Prof. MartinCohn.
+HONORS
+2025 KeynoteSpeaker: YoungEuropeanQueueingTheoryconference(YEQT2025).
+2024 EAIVALUETOOLS2024BestStudentPaperAward.
+2024 KeynoteSpeaker: CONFEST2024: CONCUR,QEST,andFORMATS
+2023 KeynoteSpeaker: QueueingTheoryforEmergingClassical&QuantumSystems(QTECQS2023)
+2023 APSTutorialSpeakeratINFORMSAnnualConference.
+2023 ElectedSIGChairforACMSIGMETRICS(4yearposition).
+2023 SNAPPSeminarSpeaker.
+2022 INFORMS2022GeorgeNicholsonBestStudent-ledPaperinOperationsResearchthisyear.
+2022 KeynoteSpeaker: InternationalTeletrafficCongress(ITC2022)
+2022 KeynoteSpeaker: MatrixAnalyticMethodsConference(MAM2022)
+2021 KeynoteSpeaker: UbiquitousComputing,Electronics&MobileCommunications(UEMCON2021)
+2021 DistinguishedLectureSeriesSpeaker: PennState,ComputerScienceDepartment.
+2021 KeynoteSpeaker: Data-DrivenQueueingChallenges(DDQC2021)
+2021 ACMSIGMETRICS2021BestPaperAward.
+2021 SecondInauguralSpeaker: SchedulingSeminar
+2021 PlenarySpeaker: STOCTheoryFestShortPlenaryPick,STOC2021.
+2020 GoogleFacultyAward.
+2020 ACMSIGMETRICS2020BestVideoAward.
+2020 BruceJ.NelsonEndowedChairinComputerScience
+2019 ACMSIGMETRICS2019BestStudentPaperAward.
+2019 KeynoteSpeaker: QueueingTheoryandNetworkApplications(QTNA2019).
+2019 RuthandJoelSpiraOutstandingTeachingAward.
+2019 FellowofIEEE.
+2018 IFIPPERFORMANCE2018BestStudentPaperAward.
+2018 KeynoteSpeaker: YoungEuropeanQueueingTheoryConference(YEQT2018).
+2018 APSBestStudentPaperAwardFinalist.
+2018 MicrosoftFacultyAward.
+2018 DistinguishedLectureSeriesSpeaker: UCSD,ComputerScienceDepartment.
+2018 DistinguishedSpeaker: InformationModelingandControlofComplexSystemsWorkshop(IMaCCS2018)
+2
+2018 PlenaryspeakeratDutchQueueingColloquium40thAnniversary.
+2018 FellowofACM.
+2017 KeynoteSpeaker: MITLIDSStudentConference.
+2016 KeynoteSpeaker: CanQueue2016.
+2016 KeynoteSpeaker: ACMSIGMETRICS2016.
+2016 DistinguishedSpeaker: InformationModelingandControlofComplexSystemsWorkshop(IMaCCS2016)
+2016 EuroSysBestStudentPaper.
+2011-16 IntelFacultyGifteveryyear.
+2015 GoogleFacultyAward.
+2015 FacebookFacultyAward.
+2015 KeynoteSpeaker: IEEEICDCS2015.
+2014 KeynoteSpeaker: GreenMetrics2014.
+2014 CMUMudgeHouseDinnerwiththeDeansHonoraryEventforInfluentialTeachers.
+2014 ApplePiewithAlphaChiHonoraryEventforCMUFacultywithImpactonStudents.
+2013 DistinguishedSpeakerSeries,NorthwesternUniversity.
+2013 GeneralChairACMSIGMETRICS2013.
+2012 MicrosoftFacultyAward.
+2012 InvitedSpeaker: BrandeisUniversityDistinguishedHigh-TechAlumniEvent.
+2011 MicrosoftFacultyAward.
+2011 DistinguishedSpeakeratOpeningofCenterComputerEngineering,Technion,Israel.
+2011 KaufmanFoundationFacultyAward.
+2010 MicrosoftFacultyAward.
+2010 GoogleFacultyAward.
+2010 Yahoo! FacultyAward.
+2010 IEEEMICRO’sTopPicksfrom2010awardpaper.
+2010 DistinguishedSpeakerSeries,UniversityofToronto.
+2008-09 IntelFacultyGifteachyear.
+2009 InvitedSpeaker: ColumbiaAppliedProbabilityDay2009.
+2009 Yahoo! FacultyAward.
+2008 KeynoteSpeaker: IEEEMASCOTS2008.
+2008 KeynoteSpeaker: SIPEW2008.
+2008 IBMFacultyAward.
+2007 MicrosoftFacultyAward.
+2007 Programco-ChairACMSIGMETRICS2007.
+2007 Programco-ChairQEST2007.
+2007 PlenarySpeaker: AnnualLunterenConference2007.
+2007 KeynoteSpeaker: ORSIS2007.
+2006 PlenarySpeaker: CarnegieMellon50YearAnniversarySymposium.
+2005 InvitedtoIFIP7.3WGonComputerPerformanceModelingandAnalysis.
+2001-04 IBMFacultyAwardeachyear.
+2003 HerbertA.SimonAwardforTeachingExcellence,CarnegieMellonUniversity.
+2003 ACMSIGMETRICSBestStudentPaperAward.
+2003 IEEEInternationalTeletrafficCongressBestStudentPaperAward.
+2001 NSFCAREERAward.
+2001 EMCFacultyAward.
+2001-04 AnnaMcCandlessChairforCareerDevelopment,CarnegieMellonUniversity.
+1996-99 NSFMathematicalSciencesPostdoctoralFellowship.
+1996 ACMSIGMETRICSBestPaperAwardforIntegratingSystemsandTheory.
+1990-96 6-yearNationalPhysicalScienceConsortiumFellowshipforWomenandMinorities.
+1995 DemitriAngelakosAltruismAward,U.C.Berkeley.
+1994 OutstandingGraduateStudentInstructorAward,Campus-Wide,U.C.Berkeley.
+1994 EECSGraduateStudentInstructoroftheYearAward,U.C.Berkeley.
+3
+1994 TeachingEffectivenessAward,Campus-Wide,U.C.Berkeley.
+1990 AwardedNationalScienceFoundationGraduateFellowship.
+1990 AwardedOfficeofNavalResearchGraduateFellowship.
+1988 MitchomPrizeinComputerScience,BrandeisUniversity.
+1988 GraduatedSummaCumLaude,BrandeisUniversity.
+1988 UndergraduateThesisHighestHonors,BrandeisUniversity.
+1987 PhiBetaKappa.
+1984-88 BrandeisUniversity4-yearMeritScholarship.
+1984-88 LuluT.Briggs4-yearScholarship.
+1984 ValedictorianSouthBrunswickHighSchool,NewJersey.
+PUBLICATIONS
+Books
+[24] MorHarchol-Balter.IntroductiontoProbabilityforComputing.CambridgeUniversityPress.2024.Based
+on800pagesoflecturenotesfrom15-259and15-359classesatCMU.
+[13] MorHarchol-Balter.PerformanceAnalysisandDesignofComputerSystems.CambridgeUniversityPress.
+2013. Basedon1000pagesoflecturenotesfrom15-849a,band15-857classesatCMU.
+Thesis
+[96] MorHarchol-Balter. NetworkAnalysiswithoutExponentialityAssumptions. Ph.D.Thesis. Universityof
+California,Berkeley,December1996.
+GuestEditor
+[07] Mor Harchol-Balter. “New Perspectives on Scheduling.” ACM Performance Evaluation Review, Special
+Issue,vol. 34,no. 4,March2007. Guesteditor: MorHarchol-Balter.
+ChaptersinBooks
+[21] Ben Berg, Mor Harchol-Balter. “Optimal Scheduling of Parallel Jobs with Unknown Service Require-
+ments.” HandbookofResearchonMethodologiesandApplicationsofSupercomputing,2021. pp. 18-40.
+[99] MorHarchol-BalterandAllenDowney. “ExploitingProcessLifetimeDistributionsforLoadBalancing.”
+BookchapterinMobility: Processes,ComputersandAgents(ACMPressSeries),editedbyDejanMiloji-
+cic,FredDouglis,andRichardWheeler. Addison-WesleyPublishingCompanyandtheACMPress,April
+1999,pp. 229-259.
+[97] Earlierversionappearedin: ACMTransactionsonComputerSystems,vol. 15,no. 3,August1997,
+pp. 253-285.
+[96] Earlierversionappearedin: ProceedingsofACMSIGMETRICS1996ConferenceonMeasurement
+and Modeling of Computer Systems (SIGMETRICS 96), May 1996, Philadelphia, PA, pp. 13-24.
+WinnerofBestPaperAwardforIntegratingSystemsandTheory.
+[95] Much earlier version appeared in: Fifteenth ACM Symposium on Operating Systems Principles
+(SOSP)PosterSession,CopperMountain,CO,December1995.
+4
+RefereedJournalPapers
+[26] Zhouzi Li, Mor Harchol-Balter, Alan Scheller-Wolf. “When does partial priority improve revenue?”
+QueueingSystems,vol. 110,no. 9,2026,pp. 1–35.
+[26] Keerthana Gurushankar, Zhouzi Li, Mor Harchol-Balter, Alan Scheller-Wolf. “LookAhead: the optimal
+non-decreasingindexpolicyforatime-varyingholdingcostproblem.”QueueingSystems,vol. 110,no. 7,
+2026,pp. 1–35.
+[23] IsaacGrosof,YigeHong,MorHarchol-Balter,AlanScheller-Wolf. “TheRESETandMARCTechniques,
+withApplicationstoMultiserver-JobAnalysis.” InPerformanceEvaluation,vol. 162,2023.
+[23] Conferenceversionappearedin: 38thInternationalSymposiumonComputerPerformance, Model-
+ing,Measurements,andEvaluation(IFIPPerformance2023),Evanston,IL,November2023.
+[23] Jalani Williams, Mor Harchol-Balter, and Weina Wang. “M/M/k with Deterministic Setup Times.” Pro-
+ceedingsoftheACMMeasurementandAnalysisofComputerSystems-SIGMETRICS:Volume6,Issue
+3,Article56(Dec2022),pp. 56:1–56:33.
+[23] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2023 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS23),Orlando,Florida. June2023.
+[23] Isaac Grosof, Ziv Scully, Mor Harchol-Balter, and Alan Scheller-Wolf. “Optimal Scheduling in the
+Multiserver-job Model under Heavy Traffic.” Proceedings of the ACM Measurement and Analysis of
+ComputerSystems-SIGMETRICS:Volume6,Issue3,Article51(Dec2022),pp. 51:1–51:32.
+[23] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2023 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS23),Orlando,Florida. June2023.
+[22] Isaac Grosof, Mor Harchol-Balter, Alan Scheller-Wolf. “WCFS: a new framework for analyzing multi-
+serversystems.” QueueingSystems,vol. 102,June,2022,pp. 143–174.
+[22] Mor Harchol-Balter. “The multiserver job queueing model.” Queueing Systems, vol. 100, 2022, pp.
+201–203.
+[21] MorHarchol-Balter. “OpenProblemsinQueueingTheoryInspiredbyDatacenterComputing.” Queueing
+Systems,vol. 97,no. 1,2021,pp. 3–37.
+[21] Ziv Scully, Isaac Grosof, and Mor Harchol-Balter. “The Gittins Policy is Nearly Optimal in the M/G/k
+underExtremelyGeneralConditions.” ProceedingsoftheACMMeasurementandAnalysisofComputer
+Systems-SIGMETRICS:Volume4,Issue3,Article43(Dec2020),pp. 43:1–43:29.
+[21] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2021 Conference on
+Measurement and Modeling of Computer Systems (SIGMETRICS 21), Beijing, China. June 2021.
+WinnerINFORMS2022GeorgeNicholsonPrize.
+[21] Mor Harchol-Balter, Takayuki Osogami, Alan Scheller-Wolf, Adam Wierman. “Correction to: Multi-
+serverQueueingSystemswithMultiplePriorityClasses.” QueueingSystems.
+[21] IsaacGrosof,KunheYang,ZivScully,andMorHarchol-Balter. “Nudge: Stochasticallyimprovingupon
+FCFS.”ProceedingsoftheACMMeasurementandAnalysisofComputerSystems-SIGMETRICS:Vol-
+ume5,Issue2,Article21(2021),pp. 21:1–21:29.
+[21] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2021 Conference on
+Measurement and Modeling of Computer Systems (SIGMETRICS 21), Beijing, China. June 2021.
+WinnerBestPaperAward.
+5
+[21] Rein Vesilo, Mor Harchol-Balter, Alan Scheller-Wolf. “Scaling properties of queues with time-varying
+loadprocesses: extensionsandapplications..” ProbabilityintheEngineeringandInformationalSciences.
+2021,pp. 1–42.
+[21] WeinaWang,QiaominXie,andMorHarchol-Balter.“ZeroQueueingforMulti-ServerJobs.”Proceedings
+oftheACMMeasurementandAnalysisofComputerSystems-SIGMETRICS:Volume5,Issue1,Article
+7(2021),pp. 7:1–7:25.
+[21] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2021 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS21),Beijing,China. June2021.
+[21] Sherwin Doroudi, Thanassis Avgerinos, and Mor Harchol-Balter. “To Clean or Not to Clean: Malware
+RemovalStrategiesforServersUnderLoad.” EuropeanJournalofOperationalResearch,vol.292,2021),
+pp. 596–609.
+[21] IsaacGrosof,ZivScully,MorHarchol-Balter. “OptimalMultiserverSchedulingwithUnknownJobSizes
+inHeavyTraffic.” InPerformanceEvaluation,vol. 145,2021,pp. 1-31.
+[20] Conferenceversionappearedin: 38thInternationalSymposiumonComputerPerformance, Model-
+ing,Measurements,andEvaluation(IFIPPerformance2020),Milan,Italy,November2020.
+[20] BenjaminBerg, ReinVesilo, andMorHarchol-Balter. “heSRPT:ParallelSchedulingtoMinimizeMean
+Slowdown”InPerformanceEvaluation,vol. 144,2020,pp. 1-20.
+[20] Conferenceversionappearedin: 38thInternationalSymposiumonComputerPerformance, Model-
+ing,Measurements,andEvaluation(IFIPPerformance2020),Milan,Italy,November2020.
+[20] Ziv Scully, Mor Harchol-Balter, Alan Scheller-Wolf. “Simple Near-Optimal Scheduling for the M/G/1.”
+Proceedings of the ACM Measurement and Analysis of Computer Systems - SIGMETRICS: Volume 4,
+Issue1,Article11(March2020),pp. 11:1–11:29.
+[20] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2020 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS20),Boston,MA.June2020. Win-
+nerBestVideoPresentationAward.
+[19] IsaacGrosof,ZivScully,MorHarchol-Balter. “LoadBalancingGuardrails: KeepingYourHeavyTraffic
+ontheRoadtoLowResponseTimes.” ProceedingsoftheACMMeasurementandAnalysisofComputer
+Systems-SIGMETRICS:Volume3,Issue2,Article42(June2019),pp. 42:1–42:31,2019.
+[19] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2019 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS19),Phoenix,AZ.June2019.Win-
+nerBestStudentPaperAward. AlsoSTOC21TheoryFestShortPlenaryPick.
+[19] WeinaWang,MorHarchol-Balter,HaotianJiang,AlanScheller-Wolf,andR.Srikant. “Delayasymptotics
+andboundsformultitaskparalleljobs.” QueueingSystems,vol. 91,no. 3-4,March2019,pp. 207–239.
+[18] Conferenceversionappearedin: 36thInternationalSymposiumonComputerPerformance, Model-
+ing,Measurements,andEvaluation(Performance2018),Toulouse,France,December2018.
+[18] IsaacGrosof,ZivScully,MorHarchol-Balter. “SRPTforMultiserverSystems.” PerformanceEvaluation,
+vol. 127-128,Nov. 2018,pp. 154–175.
+[18] Conferenceversionappearedin: 36thInternationalSymposiumonComputerPerformance, Model-
+ing,Measurements,andEvaluation(Performance2018),Toulouse,France,December2018. Winner
+ofBestStudentPaperAward.
+[18] DanielBerger,NathanBeckmann,MorHarchol-Balter. “PracticalBoundsonOptimalCachingwithVari-
+ableObjectSizes.” ProceedingsoftheACMonMeasurementandAnalysisofComputerSystems-SIG-
+METRICS:Volume2,Issue2,June2018,pp. 32:1–32:38,2018.
+6
+[18] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2018 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS18),LosAngeles,CA.June2018.
+[18] Ziv Scully, Mor Harchol-Balter, Alan Scheller-Wolf. “SOAP: One Clean Analysis of All Age-Based
+Scheduling Policies.” Proceedings of the ACM on Measurement and Analysis of Computer Systems -
+SIGMETRICS: Volume 2, Issue 1, March 2018, pp. 16:1 – 16:30, 2018. Applied Probability Society
+BestStudentPaperAwardFinalist.
+[18] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2018 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS18),LosAngeles,CA.June2018.
+[17] Ben Berg, Jan-Pieter Dorsman, Mor Harchol-Balter. “Towards Optimality in Parallel Job Scheduling.”
+Proceedings of theACM on Measurement and Analysisof Computer Systems - SIGMETRICS: Volume
+1,Issue2,December2017,pp: 40:1–40:30.
+[18] Conference version appeared in Proceedings of ACM Sigmetrics/Performance 2018 Conference on
+MeasurementandModelingofComputerSystems(SIGMETRICS18),LosAngeles,CA.June2018.
+[17] Kristen Gardner, Mor Harchol-Balter, Alan Scheller-Wolf. “A Better Model for Job Redundancy: De-
+coupling Server Slowdown and Job Size.” IEEE/ACM Transactions on Networking, vol. 25, no. 6, pp.
+3353-3367,2017.
+[16] Earlier version appeared as: “A Better Model for Job Redundancy: Decoupling Server Slowdown
+andJobSize.” IEEEModeling, AnalysisandSimulationofComputerandTelecommunicationSys-
+tems(MASCOTS2016),London,UK,September2016,pp. 1–10. Firstrunner-upforBestPaper
+Award.
+[17] KristenGardner,MorHarchol-Balter,EsaHyytia,RhondaRighter.“Schedulingforefficiencyandfairness
+insystemswithredundancy.” PerformanceEvaluation,Vol. 116,November,2017,pp. 1–25.
+[17] KristenGardner,MorHarchol-Balter,AlanScheller-Wolf,MarkVelednitsky,SamuelZbarsky.“Redundancy-
+d: ThePowerofdChoicesforRedundancy”OperationsResearch,vol. 65,no. 4,pp. 1078-1094,2017.
+[16] Earlierversionappearedas: “ThePowerofdChoicesforRedundancy.” ProceedingsofACMSIG-
+METRICS2016ConferenceonMeasurementandModelingofComputerSystemsPosterPaper,An-
+tibesJuan-les-Pins,France,June2016.
+[16] SherwinDoroudi,BrianFralix,MorHarchol-Balter. “Clearinganalysisonphases: Exactlimitingproba-
+bilitiesforskip-free,unidirectional,quasi-birth-deathprocesses”StochasticSystems,vol. 6,no. 2,2016,
+pp. 420-458.
+[16] Kristen Gardner, Sam Zbarsky, Sherwin Doroudi, Mor Harchol-Balter, Esa Hyytia, Alan Scheller-Wolf.
+“Reducing Latency via Redundant Requests: Exact Analysis” Queueing Systems: Theory and Applica-
+tions,vol. 83,no. 3,2016,pp. 227-259.
+[15] EarlierversionappearedinProceedingsofACMSigmetrics/Performance2015ConferenceonMea-
+surementandModelingofComputerSystems(SIGMETRICS15),Portland,OR.June2015,pp.347–
+360. SelectedasoneofbestpapersandinvitedtoQUESTAjournal.
+[14] SherwinDoroudi,EsaHyytia,MorHarchol-Balter. “ValueDrivenLoadBalancing.” PerformanceEvalu-
+ation,vol. 79,2014,pp. 306-327.
+[14] Earlier version appeared as: “Value Driven Load Balancing.” 32nd International Symposium on
+ComputerPerformance,Modeling,Measurements,andEvaluation(Performance2014),Turin,Italy,
+November2014.
+7
+[14] Anshul Gandhi, Sherwin Doroudi, Mor Harchol-Balter, and Alan Scheller-Wolf. “Exact Analysis of the
+M/M/k/setup Class of Markov Chains via Recursive Renewal Reward.” Queueing Systems: Theory and
+Applications,vol. 77,no. 2,2014,pp. 177–209.
+[13] EarlierversionappearedinProceedingsofACMSigmetrics2013ConferenceonMeasurementand
+Modeling of Computer Systems (SIGMETRICS 13), Pittsburgh, PA June, 2013, pp. 153–166. Se-
+lectedasoneofbestpapersandinvitedtoQueueingSystemsjournal.
+[14] ChristianBorgs,JenniferT.Chayes,SherwinDoroudi,MorHarchol-BalterandKuangXu. “TheOptimal
+AdmissionThresholdinObservableQueueswithStateDependentPricing.”ProbabilityintheEngineering
+andInformationalSciences,vol. 28,2014,pp. 101-119.
+[13] AnshulGandhiandMorHarchol-Balter. “M/G/kwithStaggeredSetup.” ORLetters,vol. 41,no. 4,2013,
+pp. 317-320.
+[12] AnshulGandhi,MorHarchol-Balter,RamRaghunathan,andMikeKozuch.“AutoScale:Dynamic,Robust
+Capacity Management for Multi-Tier Data Centers.” ACM Transactions on Computer Systems, vol. 30,
+no. 4,article14,2012,pp. 1-26.
+[12] Earlierversionappearedas: CarnegieMellonTechnicalReportCMU-CS-12-109,2012.
+[12] ChangWooYang,AdamWierman,SanjayShakkotti,andMorHarchol-Balter. “Manyflowsasymptotics
+for SMART scheduling policies,” IEEE Transactions on Automatic Control, vol. 57, no. 2, 2012, pp.
+376-391.
+[06] Earlier version appeared as: “Tail Asymptotics for Policies Favoring Short Jobs in a Many-Flows
+Regime.”ProceedingsofACMSigmetrics2006ConferenceonMeasurementandModelingofCom-
+puterSystems(SIGMETRICS06),SaintMalo,France. June2006,pp. 97-108.
+[11] FieldCady, YiZhuang, andMorHarchol-Balter. “AStochasticAnalysisofHardDiskDrives,” Interna-
+tionalJournalofStochasticAnalysis,vol. 2011,ArticleID390548,21pages.
+[11] Yoongu Kim, Michael Papamichael, Onur Mutlu, and Mor Harchol-Balter. “Thread Cluster Memory
+Scheduling”,IEEEMicro,SpecialIssue:Micro’sTopPicksfrom2010ComputerArchitectureConferences
+(MICROTOPPICKS),vol. 31,no. 1,January/February,2011,pp. 78-89.
+[10] Earlierversionappearedas: “ThreadClusterMemoryScheduling: ExploitingDifferencesinMem-
+ory Access Behavior.” 43rd International Symposium on Microarchitecture (MICRO-43), Atlanta,
+Georgia,December2010,pp. 65-76. SelectedasTopPicks2010paperbyIEEEMicro.
+[11] MorHarchol-Balter. “QueueingDisciplines.”WileyEncyclopediaOfOperationsResearchandManage-
+mentScience,2011.
+[10] VarunGupta,MichelleBurroughs,andMorHarchol-Balter. “AnalysisofSchedulingPoliciesunderCor-
+relatedJobSizes.” PerformanceEvaluation,vol. 67,no. 11,2010,pp. 996-1013.
+[10] Earlierversionappearedas: “AnalysisofSchedulingPoliciesunderCorrelatedJobSizes.” 28thIn-
+ternationalSymposiumonComputerPerformance, Modeling, Measurements, andEvaluation(Per-
+formance2010),Namur,Belgium,November2010.
+[10] Anshul Gandhi, Mor Harchol-Balter, and Ivo Adan. “Server Farms with Setup Costs.” Performance
+Evaluation,vol. 67,no. 11,2010,pp. 1123-1138.
+[10] Earlier version appeared as: “Server Farms with Setup Costs.” 28th International Symposium on
+ComputerPerformance,Modeling,Measurements,andEvaluation(Performance2010),Namur,Bel-
+gium,November2010.
+8
+[10] AnshulGandhi,VarunGupta,MorHarchol-Balter,andMichaelKozuch. “OptimalityAnalysisofEnergy-
+PerformanceTrade-offsforServerFarmManagement.” PerformanceEvaluation, vol. 67, no. 11, 2010,
+pp. 1155-1171.
+[10] Earlierversionappearedas:“OptimalityAnalysisofEnergy-PerformanceTrade-offsforServerFarm
+Management.” 28thInternationalSymposiumonComputerPerformance,Modeling,Measurements,
+andEvaluation(Performance2010),Namur,Belgium,November2010.
+[10] MorHarchol-BalterandReinVesilo. “ToBalanceorUnbalanceLoadinSize-IntervalTaskAllocation.”
+ProbabilityintheEngineeringandInformationalSciences,vol. 24,2010,pp. 219-244.
+[10] Varun Gupta, Mor Harchol-Balter, Jim Dai, and BertZwart. “On theInapproximability ofM/G/k: Why
+Two Moments of Job Size Distribution are Not Enough.” Queueing Systems: Theory and Applications,
+vol. 64,no. 1,January,2010,pp. 5-48.
+[08] Atul Bhandari, Alan Scheller-Wolf, and Mor Harchol-Balter. “An Exact and Efficient Algorithm for the
+ConstrainedDynamicOperatorStaffingProblemforCallCenters.” ManagementScience,vol. 54,no. 2,
+February2008,pp. 339-353.
+[07] Varun Gupta, Mor Harchol-Balter, Karl Sigman, and Ward Whitt. “Analysis of Join-the-Shortest-Queue
+RoutingforWebServerFarms.”PerformanceEvaluation,vol.64,no.9-12,October2007,pp.1062-1081.
+[07] EarlierversionappearedinIFIP7.3InternationalSymposiumonComputerPerformance,Modeling,
+Measurements,andEvaluation(Performance2007),Cologne,Germany,October2007.
+[06] Robert C. Hampshire, Mor Harchol-Balter, and William A. Massey. “Fluid and Diffusion Limits for
+Transient Sojourn Times of Processor Sharing Queues with Time Varying Rates.” Queueing Systems:
+TheoryandApplicationsjournal(QUESTA),vol. 53,no. 1/2,June2006,pp. 19-30.
+[06] TakayukiOsogamiandMorHarchol-Balter. “ClosedFormSolutionsforMappingGeneralDistributions
+to Quasi-MinimalPH Distributions.” Performance Evaluation, vol. 63(6), pp. 524-552 (2006). (Special
+IssueforbestpapersofTools03).
+[03] Earlierversionappearedas:“AClosed-FormSolutionforMappingGeneralDistributionstoMinimal
+PHDistributions.” LectureNotesinComputerScience2794: The13thInternationalConferenceon
+Modeling Techniques and Tools for Computer Performance Evaluation (Performance TOOLS 03).
+Urbana,Illinois,September2003,pp. 200-217. Selectedasoneofbestpapers.
+[06] Bianca Schroeder and Mor Harchol-Balter. “Web Servers under Overload: How Scheduling can Help.”
+ACMTransactionsonInternetTechnologies,vol. 6,no. 1,February,2006,pp. 20-52.
+[03] Earlier version appeared in Teletraffic Science and Engineering: Providing QoS in Heterogeneous
+Environments, Elsevier publisher, vol. 5a, 2003. Based on Proceedings of the 18th IEEE Inter-
+national Teletraffic Congress, Berlin, Germany, September, 2003, pp. 171-180. Winner of IEEE
+InternationalTeletrafficCongressBestStudentPaperAward.
+[06] Adam Wierman, Takayuki Osogami, Mor Harchol-Balter, Alan Scheller-Wolf. “How Many Servers are
+BestinaDual-PriorityM/PH/kSystem?” PerformanceEvaluation,vol. 63,no. 12,2006,pp. 1253-1272.
+[05] MorHarchol-Balter,TakayukiOsogami,AlanScheller-Wolf,andAdamWierman. “Multi-ServerQueue-
+ingSystemswithMultiplePriorityClasses.”QueueingSystems:TheoryandApplicationsjournal(QUESTA),
+vol. 51,no.3-4,2005,pp. 331-360.
+[05] TakayukiOsogami,MorHarchol-Balter,andAlanScheller-Wolf.“AnalysisofCycleStealingwithSwitch-
+ingCostandThresholds.”PerformanceEvaluation,vol. 61,no. 4,2005,pp. 347-369.
+9
+[03] Earlierversionappearedas: “AnalysisofCycleStealingwithSwitchingCost.” ProceedingsofACM
+Sigmetrics 2003 Conference on Measurement and Modeling of Computer Systems (SIGMETRICS
+03). SanDiego,CA.June2003,pp. 184-195.
+[04] BiancaSchroederandMorHarchol-Balter. “EvaluationofTaskAssignmentPoliciesforSupercomputing
+Servers: TheCaseforLoadUnbalancingandFairness.” InvitedtoClusterComputing,vol. 7,no. 2,April
+2004,pp. 151-161.
+[00] Earlierversionappearedin: Proceedingsof9thIEEESymposiumonHighPerformanceDistributed
+Computing(HPDC’00),Pittsburgh,PA,August2000,pp. 211–220.
+[04] AdamWierman,NikhilBansal,MorHarchol-Balter.“ANoteonComparingResponseTimesinM/GI/1/FB
+andM/GI/1/PSQueues.” OperationsResearchLetters,vol. 32,no. 1,January2004,pp. 73-76.
+[03] MorHarchol-Balter, BiancaSchroeder, NikhilBansal, andMukeshAgrawal. “Size-basedSchedulingto
+Improve Web Performance.” ACM Transactions on Computer Systems, vol. 21, no. 2, May 2003, pp.
+207-233.
+[02] Mor Harchol-Balter. “Task Assignment with Unknown Duration.” Journal of the ACM, vol. 49, no. 2,
+March2002,pp. 260-288.
+[00] Earlierversionappearedin: 20thIEEEInternationalConferenceonDistributedComputingSystems
+(ICDCS’00)Taipei,Taiwan,April2000,pp. 214-223.
+[02] MorHarchol-Balter,KarlSigman,andAdamWierman. “AsymptoticConvergenceofSchedulingPolicies
+withRespecttoSlowdown.” PerformanceEvaluation,vol. 49,no. 1-4,2002,pp. 241-256.
+[02] Earlierversionappearedin:IFIP7.3InternationalSymposiumonComputerPerformance,Modeling,
+Measurements,andEvaluation(Performance2002),Rome,Italy,September2002.
+[00] Matthew Andrews, Antonio Fernandez, Mor Harchol-Balter, Tom Leighton, Lisa Zhang. “General Dy-
+namic Routing with Per-Packet Delay Guarantees of O(distance + 1/session rate).” SIAM Journal on
+Computing,vol. 30,no. 5,2000,pp. 1594-1623.
+[97] Earlierversionappearedin: Proceedingsofthe38thIEEESymposiumonFoundationsofComputer
+Science(FOCS97),Miami,FL,October1997,pp. 294-303.
+[99] MorHarchol-Balter,MarkCrovella,CristinaMurta. “OnChoosingaTaskAssignmentPolicyforaDis-
+tributedServerSystem.”IEEEJournalofParallelandDistributedComputing,vol.59,1999,pp.204-228.
+[98] Earlier version appeared in: Lecture Notes in Computer Science, No. 1469: 10th International
+ConferenceonModelingTechniquesandToolsforComputerPerformanceEvaluation(Performance
+TOOLS98),September1998,pp. 231-242.
+[94] Peter Gemmell and Mor Harchol. “Tight Bounds on Expected Time to Add Correctly and Add Mostly
+Correctly.” InformationProcessingLetters,vol.49,January1994,pp. 77-83.
+RefereedConference/WorkshopPapers(notoverlappingwithabove)
+[24] Ziyue Qiu, Juncheng Yang, Mor Harchol-Balter. “Can Increasing the Hit Ratio Hurt Cache Through-
+put?”17thEAIInternationalConferenceonPerformanceEvaluationMethodologiesandTools(ValueTools
+2024),Milan,Italy,December2024. BestStudentPaperAward.
+[24] ZhouziLi,MorHarchol-Balter,AlanScheller-Wolf. “HybridPriorityQueueanditsApplications.” ACM
+SIGMETRICS Performance Evaluation Review, vol. 52, no. 2, September, 2024, pp. 12–14. (MAMA
+2024).
+10
+[24] Zhouzi Li, Ben Berg, Arpan Mukhopadhyay, Mor Harchol-Balter. “How to Rent GPUs on a Budget.”
+European Performance Engineering Workshop (EPEW 2024), Venice, Italy, June, 2024. pp. 1-7. Also
+availableonarXiv:2406.15560.
+[23] Isaac Grosof and Mor Harchol-Balter. “ServerFilling: A better approach to packing multiserver jobs.”
+Proceedings of the 5th workshop on Advanced tools, programming langhages, and platforms for imple-
+mentingandevaluatingalgorithmsfordistributedsystems(ApPLIED2023). InconjunctionwithPODC
+2023Conference. ArticleNo. 7,pp. 1–5,Orlando,CA,June2023.
+[23] IsaacGrosof,MorHarchol-Balter,AlanScheller-Wolf.“NewStabilityResultsforMultiserver-jobModels
+viaProduct-formSaturatedSystems.” ACMSIGMETRICSPerformanceEvaluationReview,vol. 4,no. 6,
+pp. 1–3. (MAMA2023).
+[21] MorHarchol-BalterandZivScully.“TheMostCommonQueueingTheoryQuestionsAskedbyComputer
+Systems Practitioners.” 1st International Workshop on Teaching Performance Analysis of ComputerSys-
+tems(TeaPACS2021).InconjunctionwiththeIFIPPerformance2021Conference.Milan,Italy,November
+2021.
+[21] ZivScullyandMorHarchol-Balter. “TheGittinsPolicyintheM/G/1Queue.” 19thInternationalSympo-
+siumonModelingandOptimizationinMobile,Adhoc,andWirelessNetworks(WiOpt2021),Philadelphia,
+PA,October2021.
+[21] NaveenPai,SeanZhang,MorHarchol-Balter. “ComputingtheDeathRateofCOVID-19.” In: ByrskiA.,
+CzachrskiT.,GelenbeE.,GrochlaK.,MurayamaY.(eds)InternationalConferenceonComputerScience
+Protecting Human Society Against Epidemics (ANTICOVID 2021). IFIP Advances in Information and
+CommunicationTechnology,vol616. Springer,Cham.,pp77-94,2021.
+[21] Ben Berg, Justin Whitehouse, Ben Moseley, Weina Wang, Mor Harchol-Balter. “The Case for Phase-
+AwareSchedulingofParallelizableJobs.” IFIPPerformanceConference,Milan,Italy,November2021.
+[20] BenBerg,DanielBerger,SaraMcAllister,IsaacGrosof,SathyaGunasekar,JimmyLu,MichaelUhlar,Jim
+Carrig, Nathan Beckmann, Mor Harchol-Balter, Greg Ganger. “The CacheLib Caching Engine: Design
+and Experiences at Scale.” 14th USENIX Symposium on Operating Systems Design and Implementation
+(OSDI2020),Banff,CA,November2020,pp. 769–786.
+[20] BenjaminBerg,MorHarchol-Balter,BenMoseley,WeinaWang,JustinWhitehouse. “OptimalResource
+AllocationforElasticandInelasticJobs.” 32ndACMSymposiumonParallelisminAlgorithmsandArchi-
+tectures(SPAA’20),Philadelphia,PA,July2020,pp. 75–87.
+[20] Muhammad Tirmazi, Adam Barker, Nan Deng, Md Ehtesam Haque, Zhijing Gene Qin, Steven Hand,
+Mor Harchol-Balter, John Wilkes. “Borg: the Next Generation.” Proceedings of the Fifteenth EuroSys
+Converence,(EUROSYS’20),Greece,April2020,pp. 1–14.
+[19] Benjamin Berg, Rein Vesilo, Mor Harchol-Balter. “heSRPT: Optimal Scheduling of Parallel Jobs with
+KnownSizes.” ACMSIGMETRICSPerformanceEvaluationReview,vol. 47,no. 2,pp. 18-20. (MAMA
+2019).
+[18] ZivScully,MorHarchol-Balter. “SOAPBubbles: RobustSchedulingunderAdversarialNoise.” 56thAn-
+nualAllertonConferenceonCommunication,Control,andComputing(Allerton2018),Urbana-Champaign,
+IL,October2018,pp. 144-154.
+[18] DanielS.Berger,BenjaminBerg,TimothyZhu,SiddharthaSen,MorHarchol-Balter. “RobinHood: Tail
+LatencyAwareCaching–DynamicReallocationfromCache-RichtoCache-Poor.” 13thUSENIXSympo-
+sium on Operating Systems Design and Implementation (OSDI 2018), Carlsbad, CA, October 2018, pp.
+195–212.
+11
+[18] IsaacGrosof,ZivScully,MorHarchol-Balter. “SRPTforMultiserverSystems”ACMSIGMETRICSPer-
+formanceEvaluationReview,vol. 46,no. 3,pp. 8–9(MAMA2018).
+[17] Timothy Zhu, Mor Harchol-Balter, Michael Kozuch. “WorkloadCompactor: Reducing datacenter cost
+while providing tail latency SLO guarantees.” ACM Symposium on Cloud Computing (SoCC’17), Santa
+Clara,Oct2017,pp. 598–610.
+[17] ZivScully, GuyE.Blelloch, MorHarchol-Balter, AlanScheller-Wolf. “OptimallySchedulingJobswith
+MultipleTasks.” ACMSIGMETRICSPerformanceEvaluationReview,vol. 45,no. 2,pp. 36-38. (MAMA
+2017).
+[17] DanielBerger, BenBerg, TimothyZhu, MorHarchol-Balter. “TheCaseofDynamicCachePartitioning
+for Tail Latency.” 14th USENIX Symposium on Networked Systems Design and Implementation Poster
+Paper(NSDI’17Poster),Boston,MA,March2017.
+[17] DanielBerger,RameshSitaraman,MorHarchol-Balter. “AdaptSize: OrchestratingtheHotObjectMem-
+oryCacheinaCDN.”14thUSENIXSymposiumonNetworkedSystemsDesignandImplementation(NSDI
+’17),Boston,MA,March2017,pp. 483–498.
+[16] Timothy Zhu, Daniel Berger, Mor Harchol-Balter. “SNC-Meister: Admitting More Tenants with Tail
+LatencySLOs.”ACMSymposiumonCloudComputing(SoCC’16),SantaClara,October2016,pp. 374–
+387.
+[16] Kristen Gardner, Samuel Zbarsky, Mark Velednitsky, Mor Harchol-Balter, Alan Scheller-Wolf. “Under-
+standing Response Time in the Redundancy-d System.” ACM SIGMETRICS Performance Evaluation
+Review,vol. 44,no. 2,pp. 33-35. (MAMA2016).
+[16] Alexey Tumanov, Timothy Zhu, Jun Woo Park, Michael A. Kozuch, Mor Harchol-Balter, Gregory R.
+Ganger. “TetriSched: OptimisticGlobalContinuousReschedulinginDynamicHeterogeneousClusters.”
+ProceedingsofEuroSys2016,London,UK,April2016. WinnerofEuroSysBestStudentPaperAward.
+[15] KristenGardner, SemBorst, MorHarchol-Balter. “OptimalSchedulingforJobswithProgressiveDead-
+lines.” IEEEINFOCOM15,HongKong,April,2015.
+[14] Timothy Zhu, Alexey Tumanov, Michael A. Kozuch, Mor Harchol-Balter, Gregory R. Ganger. “Prior-
+ityMeister: Tail Latency QoS for Shared Networked Storage.” ACM Symposium on Cloud Computing
+2014(SoCC’14),Seattle,WA,November,2014,pp. 1–14.
+[12] ChristianBorgs,JenniferT.Chayes,SherwinDoroudi,MorHarchol-Balter,andKuangXu. “Pricingand
+queueing.” ACMPerformanceEvaluationReview(MAMA12),vol. 40,no.3,2012,pp. 71-73.
+[12] AnshulGandhi,TimothyZhu,MorHarchol-Balter,andMikeKozuch. “SOFTScale:StealingOpportunis-
+tically for Transient Scaling.” ACM/IFIP/USENIX Middleware Conference (Middleware 12), Montreal,
+Canada,December,2012,pp. 142-163.
+[12] Earlierversionappearedas: CarnegieMellonTechnicalReportCMU-CS-12-111,2012.
+[12] Timothy Zhu, Anshul Gandhi, Mor Harchol-Balter, and Michael Kozuch. “Saving Cash by Using Less
+Cache.” 4th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 12), Boston, MA, June,
+2012.
+[12] Anshul Gandhi, Mor Harchol-Balter, and Michael Kozuch. “Are sleep states effective in data centers?”
+IEEEInternationalGreenComputingConference(IGCC2012),SanJose,CA,June2012,pp. 1-10.
+[11] AnshulGandhi,MorHarchol-Balter,RamRaghunathanandMichaelKozuch. “Distributed,RobustAuto-
+Scaling Policies for Power Management in Compute Intensive Server Farms.” Open Cirrus Summit 11,
+GeorgiaTech,Atlanta,GA,October2011.
+12
+[11] Anshul Gandhi and Mor Harchol-Balter. “How Data Center Size Impacts the Effectiveness of Dynamic
+Power Management.” 49th Annual Allerton Conference on Communication, Control, and Computing
+(Allerton11),Urbana-Champaign,IL,2011.
+[11] AnshulGandhi,MorHarchol-Balter,andMikeKozuch. “Thecaseforsleepstatesinservers.” SOSP4th
+Workshop on Power-Aware Computing and Systems (HotPower 2011), Cascais, Portugal, October 2011,
+pp. 1–5.
+[10] YoonguKim,DongsuHan,OnurMutlu,andMorHarchol-Balter.“ATLAS:AScalableandHigh-Performance
+SchedulingAlgorithmforMultipleMemoryControllers.” 16thIEEEInternationalSymposiumonHigh-
+PerformanceComputerArchitecture(HPCA10),2010,pp. 1-12.
+[10] Anshul Gandhi, Mor Harchol-Balter, and Ivo Adan. “Analysis of an M/M/k System with Exponential
+Setup Times under Staggered Bootup.” Madrid Conference on Queueing Theory (MCQT 10), Toledo,
+Spain,June2010.
+[10] AnshulGandhi,MorHarchol-Balter,andIvoAdan.“DecompositionResultsforanM/M/kwithStaggered
+Setup.” ACMPerformanceEvaluationReview(MAMA10),vol. 38,no.2,2010,pp. 48-50.
+[09] Mor Harchol-Balter, Alan Scheller-Wolf, and Andrew Young. “Why Segregating Short Jobs from Long
+OnesunderHighVariabilityisNotAlwaysaWin.” 47thAnnualAllertonConferenceoncommunication,
+Control,andComputing(Allerton09),Urbana-Champaign,Illinois,September,2009,pp. 121–127.
+[09] Anshul Gandhi, Mor Harchol-Balter, Rajarshi Das, Jeff Kephart, and Charles Lefurgy. “Power Capping
+ViaForcedIdleness.” WorkshoponEnergy-EfficientDesign(WEED09),Austin,Texas,June2009.
+[09] Mor Harchol-Balter, Alan Scheller-Wolf, and Andrew Young. “Surprising Results on Task Assignment
+in Server Farms with High-Variability Workloads.” Proceedings of ACM Sigmetrics/Performance 2009
+Conference on Measurement and Modeling of Computer Systems (SIGMETRICS 09), Seattle, WA. June
+2009,pp. 287-298.
+[09] Anshul Gandhi, Mor Harchol-Balter, Rajarshi Das, and Charles Lefurgy. “Optimal Power Allocation
+in Server Farms.” Proceedings of ACM Sigmetrics/Performance 2009 Conference on Measurement and
+ModelingofComputerSystems(SIGMETRICS09),Seattle,WA.June2009,pp. 157-168.
+[09] Varun Gupta and Mor Harchol-Balter. “Self-Adaptive Admission Control Policies for Resource-Sharing
+Systems.” ProceedingsofACMSigmetrics/Performance2009ConferenceonMeasurementandModeling
+ofComputerSystems(SIGMETRICS09),Seattle,WA.June2009,pp. 311-322.
+[07] VarunGupta,JimDai,MorHarchol-Balter,andBertZwart. “TheEffectofHigherMomentsofJobSize
+Distribution on the Performance of an M/G/s Queueing System.” ACM Performance Evaluation Review
+(MAMA07),vol. 35,no.2,2007,pp. 12-14.
+[07] VarunGupta,KarlSigman,MorHarchol-Balter,andWardWhitt. “InsensitivityforPSserverfarmswith
+JSQrouting.” ACMPerformanceEvaluationReview(MAMA07),vol. 35,no.2,2007,pp. 24-26.
+[06] VarunGupta,MorHarchol-Balter,AlanScheller-Wolf,andUriYechiali. “FundamentalCharacteristicsof
+Queues with Fluctuating Load.” Proceedings of ACM Sigmetrics 2006 Conference on Measurement and
+ModelingofComputerSystems(SIGMETRICS06),SaintMalo,France. June2006,pp. 203-215.
+[06] Bianca Schroeder, Adam Wierman, and Mor Harchol-Balter. “Closed versus Open System Models: a
+Cautionary Tale.” Proceedings of Networked Systems Design and Implementation (NSDI 06), San Jose,
+CA.May2006. pp. 239-252.
+[06] Bianca Schroeder, Mor Harchol-Balter, Arun Iyengar, Erich Nahum, and Adam Wierman. “How to De-
+termineaGoodMulti-ProgrammingLevelforExternalScheduling.” 22ndIEEEInternationalConference
+onDataEngineering(ICDE06),Atlanta,Georgia,April2006,pp. 60-70.
+13
+[06] Bianca Schroeder, Mor Harchol-Balter, Arun Iyengar, Erich Nahum. “Achieving Class-Based QoS for
+Transactional Workloads.” Poster paper in 22nd IEEE International Conference on Data Engineering
+(ICDE06),Atlanta,Georgia,April2006,pp. 153-154.
+[05] Adam Wierman, Mor Harchol-Balter, and Takayuki Osogami. “Nearly Insensitive Bounds on SMART
+Scheduling.” Proceedings of ACM Sigmetrics 2005 Conference on Measurement and Modeling of Com-
+puterSystems(SIGMETRICS05),Banff,Canada,June2005,pp. 205-216.
+[05] Adam Wierman and Mor Harchol-Balter. “Classifying Scheduling Policies with Respect to Higher Mo-
+mentsofConditionalResponseTime.” ProceedingsofACMSigmetrics2005ConferenceonMeasurement
+andModelingofComputerSystems(SIGMETRICS05),Banff,Canada,June2005,pp. 229-240.
+[05] Mor Harchol-Balter, Takayuki Osogami, and Alan Scheller-Wolf. “Robustness of Threshold Policies in
+Beneficiary-Donor Model.” ACM Performance Evaluation Review (MAMA 05), vol. 33, no.2, 2005, pp.
+36-38.
+[05] DavidMcWherter,BiancaSchroeder,NatassaAilamaki,andMorHarchol-Balter. “ImprovingPreemptive
+Prioritization via Statistical Characterization of OLTP Locking.” Proceedings of the 21st IEEE Interna-
+tionalConferenceonDataEngineering(ICDE05),SanFrancisco,CA,April2005,pp. 446-457.
+[04] TakayukiOsogami,MorHarchol-Balter,AlanScheller-Wolf,andLiZhang. “ExploringThreshold-based
+PoliciesforLoadSharing.”42ndAnnualAllertonConferenceonCommunication,Control,andComputing
+(Allerton04),UniversityofIllinois,Urbana-Champaign,October,2004,pp. 1012-1021.
+[04] Takayuki Osogami, Adam Wierman, Mor Harchol-Balter, Alan Scheller-Wolf. “A Recursive Analy-
+sis Technique for Multi-Dimensionally infinite Markov Chains.” ACM Performance Evaluation Review
+(MAMA04),vol. 32,no. 2,2004,pp. 3-5.
+[04] AdamWiermanandMorHarchol-Balter. “FormalizingSMARTScheduling.” ACMPerformanceEvalua-
+tionReview(MAMA04),vol. 32,no. 2,2004,pp. 12-13.
+[04] DavidMcWherter,BiancaSchroeder,NatassaAilamaki,andMorHarchol-Balter. “PriorityMechanisms
+forOLTPandTransactionalWebApplications.”20thIEEEInternationalConferenceonDataEngineering
+(ICDE04),Boston,MA,April2004,pp. 535-546.
+[03] TakayukiOsogamiandMorHarchol-Balter. “NecessaryandSufficientConditionsforRepresentingGen-
+eralDistributionsbyCoxians.” LectureNotesinComputerScience2794. 13thInternationalConference
+onModelingTechniquesandToolsforComputerPerformanceEvaluation(PerformanceTOOLS03),Ur-
+bana,Illinois,September2003,pp. 182-199. Selectedasoneofbestpapers.
+[03] Mor Harchol-Balter, Cuihong Li, Takayuki Osogami, Alan Scheller-Wolf, and Mark Squillante. “Cycle
+Stealing under Immediate Dispatch Task Assignment.” Fifteenth ACM Annual Symposium on Parallel
+AlgorithmsandArchitectures(SPAA03),SanDiego,CA,June,2003,pp. 274-285.
+[03] AdamWiermanandMorHarchol-Balter.“ClassifyingSchedulingPolicieswithrespecttoUnfairnessinan
+M/GI/1.” ProceedingsofACMSigmetrics2003ConferenceonMeasurementandModelingofComputer
+Systems(SIGMETRICS03),SanDiego,CA.June2003,pp. 238-249. WinnerofSigmetricsBestStudent
+PaperAward.
+[03] Mor Harchol-Balter, Cuihong Li, Takayuki Osogami, Alan Scheller-Wolf, Mark Squillante. “Task As-
+signmentwithCycleStealingunderCentralQueue.” 23rdIEEEInternationalConferenceonDistributed
+ComputingSystems(ICDCS03),Providence,RI,May2003,pp. 628-637.
+[01] Nikhil Bansal and Mor Harchol-Balter. “Analysis of SRPT Scheduling: Investigating Unfairness.” Pro-
+ceedingsofACMSigmetrics2001ConferenceonMeasurementandModelingofComputerSystems(SIG-
+METRICS01),June2001,Cambridge,MA,pp. 279-290.
+14
+[01] Mor Harchol-Balter. “Job Placement with Unknown Duration and No Preemption” ACM Performance
+EvaluationReview(MAMA01),vol. 28,no. 4,March2001.
+[01] Nikhil Bansal and Mor Harchol-Balter. “Approximate Analysis of M/G/1/PS and M/G/1/SRPT under
+TransientOverload.” ACMPerformanceEvaluationReview(MAMA01),vol29,no. 3,December,2001.
+ExtendedversionavailableasTechnicalreportNumberCMU-CS-01-134.
+[01] MorHarchol-Balter,NikhilBansal,BiancaSchroeder. “SRPTSchedulingforWebServers.” (invitedpa-
+per)LectureNotesinComputerScience,No. 2221. 7thInternationalWorkshop,JobSchedulingStrategies
+forParallelProcessing(JSSPP01),Cambridge,MA,June2001,pp. 11-20.
+[99] MarkCrovella,BobFrangioso,andMorHarchol-Balter.“ConnectionSchedulinginWebServers.”USENIX
+SymposiumonInternetTechnologiesandSystems(USITS99),Boulder,Colorado,October1999,pp. 243-
+254.
+[99] Mor Harchol-Balter, Tom Leighton, and Daniel Lewin. “Resource Discovery in Distributed Networks.”
+18thAnnualACMSIGACT-SIGOPSSymposiumonPrinciplesofDistributedComputing(PODC99),At-
+lanta,May1999,pp. 229-238.
+[99] Mor Harchol-Balter. “The Effect of Heavy-Tailed Job Size Distributions on Computer System Design.”
+Proceedings of the ASA-IMS Conference on Applications of Heavy Tailed Distributions in Economics,
+EngineeringandStatistics,Washington,DC,June1999.
+[98] MarkCrovella,MorHarchol-Balter,CristinaMurta. “TaskAssignmentinaDistributedSystem: Improv-
+ingPerformancebyUnbalancingLoad.” ProceedingsofACMSigmetrics1998ConferenceonMeasure-
+mentandModelingofComputerSystems(SIGMETRICS98)PosterSession,June1998,Madison,WI,pp.
+268-269.
+[95] Mor Harchol-Balter and David Wolfe. “Bounding Delays in Packet-Routing Networks.” Proceedings of
+the 27th Annual ACM Symposium on the Theory of Computation (STOC 95), Las Vegas, May 1995, pp.
+248-275.
+[94] Micah Adler, Peter Gemmell, Mor Harchol-Balter, Richard M. Karp, Claire Kenyon. “Selection in the
+PresenceofNoise: TheDesignofPlayoffSystems.” ProceedingsoftheFifthAnnualACM-SIAMSympo-
+siumonDiscreteAlgorithms(SODA94),Arlington,VA,January1994,pp. 564-572.
+[94] MorHarchol-BalterandPaulE.Black. “Queueinganalysisofobliviouspacket-routingalgorithms.” Pro-
+ceedingsoftheFifthAnnualACM-SIAMSymposiumonDiscreteAlgorithms(SODA94), Arlington, VA,
+January1994,pp. 583-592.
+Technicalreports(notoverlappingwithabove)
+[24] IsaacGrosof,YigeHong,MorHarchol-Balter. “AnalysisofMarkovianArrivalsandServicewithAppli-
+cationstoIntermittentOverload.” arXiv.2405.04102. May2024.
+[21] IsaacGrosof,MorHarchol-Balter,AlanScheller-Wolf. “TheFinite-SkipMethodforMultiserverAnaly-
+sis.” ArXiv:2109.12663. September,2021.
+[20] IsaacGrosof,MorHarchol-Balter,AlanScheller-Wolf.“StabilityforTwo-classMultiserver-jobSystems.”
+ArXiv:2010.00631. 2020.
+[13] Sherwin Doroudi, Mustafa Akan, Mor Harchol-Balter, Jeremy Karp, Christian Borgs and Jennifer T.
+Chayes. “Priority Pricing in Queues with a Continuous Distribution of Customer Valuations.” CMU-
+CS-13-109,May2013.
+[09] AnshulGandhi, MorHarchol-Balter, andIvoAdan“M/G/kwithExponentialSetup.” CMU-CS-09-166,
+September2009.
+15
+[98] Mor Harchol-Balter, Mark Crovella, SungSim Park. “The Case for SRPT Scheduling in Web Servers.”
+MIT-LCS-TR-767,October1998.
+[97] Mor Harchol-Balter, Mark Crovella, Cristina Murta. “To Queue or Not to Queue: When Queueing is
+BetterThanTimesharinginaDistributedSystem.” BUCS-TR-1997-017,October1997.
+[95] Mor Harchol-Balter. “Bounding Delays in Packet-Routing Networks with Light Traffic.” University of
+CaliforniaatBerkeleyComputerScienceDivisionTechReportNumberUCB/CSD-95-885.October1995.
+[95] Allen Downey and Mor Harchol-Balter. “A Note on ‘The Limited Performance Benefits of Migrating
+ActiveProcessesforLoadBalancing’.” UniversityofCaliforniaatBerkeleyComputerScienceDivision
+TechReportNumberUCB/CSD-95-888,November1995.
+[94] Mor Harchol-Balter and David Wolfe. “In Network of Queues, M/M/1 Can Outperform M/D/1.” Uni-
+versity of California at Berkeley Computer Science Division Tech Report Number UCB/CSD-94-841,
+November1994.
+PatentsIssued
+[15] Mor Harchol-Balter, Anshul Gandhi, Rajarshi Das, and Jeffrey Kephart. “Power Budget Allocation in
+Multi-ProcessorSystems.” U.S.PatentSerialNo. 9,052,895. Filed: April7,2011. IssuedJune9,2015.
+[15] AnshulGandhi,VarunGupta,MorHarchol-Balter,andMikeKozuch.“DynamicCapacityManagementof
+MultipleParallelConnectedComputingResources.” U.S.PatentSerialNumber: 8,806,018. FiledMarch
+30,2012. IssuedAug. 12,2014.
+[13] MorHarchol-BalterandAnshulGandhi. “SystemsandMethodsforManagingPowerConsumptionand
+Performance of a Processor.” U.S. Patent Serial No. 8,589,709. Filed: July 22, 2010. Issued Nov. 19,
+2013.
+[10] Mor Harchol-Balter and Tom Leighton and Daniel Lewin. “System and Method for Resource Discov-
+ery.” U.S. Patent Serial No. 7,808,926. Filed Oct. 2007. Issued October 5, 2010. Licensed to Akamai
+Technologies,Inc.
+[07] MorHarchol-BalterandTomLeightonandDanielLewin. “SystemandMethodforResourceDiscovery.”
+U.S. Patent Serial No. 7,295,523. Filed May 1999. Issued November 13, 2007. Licensed to Akamai
+Technologies,Inc.
+[01] Mor Harchol-Balter and Mark Crovella. “Method and Apparatus for Assigning Tasks in a Distributed
+ServerSystem.” U.S.PatentSerialNo. 6,223,205. FiledFeb13,1998. IssuedApril24,2001.
+PatentsPending
+[05] Arun Iyengar, Erich Nahum, Bianca Schroeder, and Mor Harchol-Balter. “Method and Apparatus for
+Dynamically Scheduling Requests.” U.S. Patent Application Serial No. 10/804,516. Filed: March 19,
+2004.
+TALKS
+Mar2026 “WhereQueuesComefrom,andHowtoMakethemGoAway.”
+PomonaCollegeCSColloqium,Claremont,CA.
+InvitedbyMikZlatinandTzu-YiChen.
+Mar2026 “WhereQueuesComefrom,andHowtoMakethemGoAway.”
+16
+NationalLaboratoryoftheRockies(NRL)ComputationalScienceColloqium.
+InvitedbyNadiaAuch,KristiPotter,JackieKulfan.
+Dec2025 “OptimalCoreAllocationforParallelSpeedupJobs.”
+NetworkEngineeringScienceandTheoryinDurham(NESTiD)Seminar,Durham,UK.
+InvitedbyGeorgeB.Mertzios,ThirupathaiahVasantam,AmitabhTrehan.
+Nov2025 “OptimalCoreAllocationforParallelSpeedupJobs.”
+KeynoteSpeakerforYoungEuropeanQueueingTheoryConference(YEQT2025),EURANDOM,Eindhoven,Netherlands.
+InvitedbyFionaSloothaakandRoubaIbrahim.
+Oct2025 “OptimalCoreAllocationforParallelSpeedupJobs.”
+AmericanMathematicalSociety(AMS)Fall2025EasternSectionalMeeting.
+InvitedbyAlanKrinik,RandallJ.Swift,andGerardoRubino.
+May2025 “OptimalCoreAllocationforParallelSpeedupJobs.”
+AIMACCSWorkshopatOhioStateUniversity.
+InvitedbyNessShroff,BoJi,JiaLiu,andAtillaEryilmaz.
+Feb2025 “QueueingSolutionsforToday’sDataCenterJobs.”
+IEORSeminarSeries,U.C.Berkeley.
+InvitedbyRajanUdwani,ThibautMastrolia,RhondaRighter.
+Dec2024 “CanIncreasingtheHitRatioHurtCacheThroughput?”
+I7thEAIInternationalConferenceonPerformanceEvaluationMethodologiesandTools,
+(ValueTools2024),Milan,Italy.
+Oct2024 “QueueingSolutionsforToday’sDataCenterJobs.”
+IsyESeminarSeries,UniversityofMinnesota.
+InvitedbyNickArnosti,MarinZubeldia,andSaumyaSinha.
+Sep2024 “QueueingModelsforToday’sComputeCenters.”
+KeynotetalkatCONFEST2024: CONCUR,QEST,andFORMATS,Calgary,Canada.
+InvitedbyDiwakarKrishnamurthy,SadeghSoudjani,YasamanAmannejad,andJaneHillston.
+Nov2023 “QueueingModelsforToday’sComputeCenters.” KeynotetalkatIFIPPerformanceWorkshop:
+QueueingTheoryforEmergingClassicalandQuantumSystems.
+Chicago,Illinois.
+Invitedby: ArpanMukhopadhyayandThirupathaiahVasantam
+Oct2023 “QueueingModelsforToday’sComputeCenters.” TutorialatAPSInforms.
+Phoenix,Arizona.
+Invitedby: ChristinaLeeYuandAndrewDaw
+Oct2023 “TheHybridPriorityQueue.” TalkatINFORMSannualmeeting.
+Phoenix,Arizona.
+Invitedby: MartinZubeldia
+Sep2023 “SchedulingMultiserverComputeJobs.” ISyEseminaratGeorgiaTech.
+Invitedby: DebankurMukherjee,EunhyeSong,DiegoF.CifuentesPardo
+May2023 “QueueingModelsforToday’sComputeCenters.” InvitedtalkatSNAPPSeminar,Online.
+Invitedby: YuanHong,RoubaIbrahim,Chang-HanRhee,VsevolodShneer,andKuangXu.
+Oct2022 “CanHybridPriorityIncreaseRevenue”
+InvitedtalkatINFORMS2022,Indianapolis,IN.InvitedbyNasserBarjesteh.
+Sept2022 “RecentBreakthroughsinStochasticSchedulingTheory”
+KeynotepresentationatInternationalTeletrafficCongress2022.
+InvitedbyMinghuaChenandLongboHuang.
+Sept2022 “OptimalSchedulingforMulti-ServerSystems”
+InvitedSpeakeratAllertonConference.
+Urbana-Champaign,IL.Hosts: R.SrikantandBruceHajek.
+June2022 “MarkovChainsInspiredbyDataCenterComputing”
+KeynotepresentationatMatrix-AnalyticMethodsConference2022. InvitedbyBarbaraMargolius.
+Dec2021 “TheMostCommonQueueingTheoryQuestionsAskedbyComputerSystemsPractitioners”
+JamesF.KellyDistinguishedLecureSeries
+17
+PennStateUniversity,ComputerScienceDepartment. InvitedbyTimothyZhu.
+Dec2021 “RecentBreakthroughsinStochasticSchedulingTheory”
+IEEEUEMCONKeynoteSpeaker.
+12thAnnualUbiquitousComputing,Electronics&MobileCommunicationConference.
+InvitedbyRajashreePaul.
+Nov2021 “TheMostCommonQueueingTheoryQuestionsAskedbyComputerSystemsPractitioners”
+Presentationat1stInternationalWorkshoponTeachingPerformanceAnalysis
+ofComputerSystems(TeaPACS2021). InvitedbyY.C.Tay.
+Oct2021 “OverviewofMulti-ServerQueueingProblemsInspiredbyToday’sDatacenters”
+INFORMSAnnualConference,Anaheim,CA.
+Sept2021 “NewDirectionsinStochasticScheduling”
+KeynotePresentation: Data-drivenQueueingChallenges(DDQC2021). InvitedbyPeterTaylor.
+Sept2021 “OptimalSchedulingforMulti-ServerSystems”
+CMUCSDTheoryLunchSeminar.
+June2021 “OptimalSchedulinginMulti-ServerSystems”
+STOCTheoryFestPlenaryTalk. InvitedbyNicoleImmorlica.
+Apr2021 “RecentBreakthroughsinStochasticSchedulingTheory”
+SchedulingSeminar. InvitedbyMichaelPinedo.
+Nov2020 “NewBreakthroughsinSchedulingTheory”
+ColumbiaUniversity. AppliedProbabilityandRiskSeminar. NYC,NY.
+Invitedby: VineetGoyalandHenryLam.
+Oct2020 “NewBreakthroughsinSchedulingTheory”
+MIT-LaboratoryofInformationandDecisionSystems,Boston,MA.
+Invitedby: EytanModiano.
+Nov2019 “NewBreakthroughsinScheduling”
+NYU-SternSchoolofBusiness,NY,NY.
+Invitedby: ZhengyuanZhouandMichaelPinedo.
+Nov2019 “QueueingTheoryGetsaMakeOver”
+MIT-LIDS80thAnniversaryCelebration,Boston,MA.
+Invitedby: JohnTsitsiklis.
+Oct2019 “SchedulinginaParallelWorld”
+INFORMSAnnualConference,Seattle,WA.
+Invitedby: IshaiMenache.
+Aug2019 “NewBreakthroughsinScheduling”
+QueueingTheoryNetworkApplications(QTNA2019)KeynoteTalk,Ghent,Belgium.
+Invitedby: SabineWittevrongel.
+July2019 “ImprovingBatchBE”
+GoogleTechTalk,Sunnyvale,CA.
+Invitedby: SteveHand.
+June2019 “ThePowerofSOAPScheduling”
+TutorialspeakeratACMSIGMETRICS2019conference,Phoenix,AZ.
+May2019 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+ORIEColloquiumatCornellUniversity.
+Invitedby: JamolPender.
+Apr2019 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+JointOR/OMSeminaratTepperSchoolofBusiness,CMU.
+Host: AlanScheller-Wolf.
+Dec2018 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+KeynoteSpeakeratYoungEuropeanQueueingTheoristsconference2018,ToulouseFrance.
+Invitedby: OnnoBoxma,ManuKumarGupta,andEyalCastiel.
+Dec2018 “DelayAsymptoticsandBoundsforMulti-taskParallelJobs”
+SpeakeratIFIPPerformance2018Conference,ToulouseFrance.
+18
+Nov2018 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+INFORMSAnnualConferencespeaker. Phoenix,AZ.
+Oct2018 “ResourceManagementintheFaceofStochasticUncertainty”
+DistinguishedLectureSeriesSpeaker. UniversityofCalifornia,SanDiego.
+Host: YoavFreund.
+Oct2018 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+InvitedSpeakeratJointISL-ORSeminar,StanfordUniversity,PaloAlto,CA.
+Host: BalajiPrabhakar.
+Oct2018 “SOAPBubbles: RobustSchedulingUnderAdversarialNoise”
+InvitedSpeakeratAllertonConference.
+Urbana-Champaign,IL.Hosts: R.SrikantandBruceHajek.
+July2018 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+InvitedSpeakeratTTICWorkshoponDataCenterSchedulingfromTheorytoPractice.
+TTIC,Chicago,IL.Hosts: LeanaGolubchik,SamirKhuller,BarnaSaha,CliffStein.
+July2018 “IntroductoryQueueingTheoryTutorial”
+InvitedSpeakeratWorkshoponOperationsResearchofBiologicalSystems.
+InternationalCenterforTheoreticalPhysics(ICTP),Trieste,Italy. Host: RamiPugatch.
+June2018 “SOAP:OneCleanAnalysisofallAge-BasedSchedulingPolicies”
+DistinguishedSpeakeratIMaCCSInformationModelingandControlofComplexSystemsWorkshop.
+OhioStateUniversity. Host: NessShroff.
+May2018 “ReducingLatencyviaRedundantRequests.”
+Plenaryspeakerat40thAnnualDutchQueueingColloquium. Hosts: BertZwartandPetervandeVen.
+Mar2018 PanelistGoogleWomeninTechSummit.
+Host: KaraBoutselis.
+Oct2017 “Queueing-TheoreticModelsforDataCenterPerformance.”
+Talkat2017INFORMSAnnualConference,Houston,TX.
+Feb2017 “ReducingLatencyviaRedundantRequests.”
+KeynoteTalkat2017MITLIDSStudentConference,Boston,MA.Host: MartinZubeldia.
+Oct2016 “QueueingwithRedundantRequests: AMoreRealisticModel”
+UniversityofIllinois,Urbana-Champaign,IL.Host: YiLu.
+Sep2016 “QueueingwithRedundantRequests: AMoreRealisticModel”
+IBMT.J.WatsonResearchLab,YorktownHeights,NY.Host: SivaTheja.
+Sep2016 “QueueingwithRedundantRequests: AMoreRealisticModel”
+ColumbiaUniversity,NewYorkCity,NY.Host: WardWhitt,KarlSigman.
+Sep2016 “QueueingwithRedundantRequests: AMoreRealisticModel”
+CMUINFORMSStudentChapterpresentation. Host: ThiagoSerra.
+Aug2016 “SmarterTaskAssignmentforServerFarmsviaReplication”
+CanQueueKeynotePresentation.
+July2016 “QueueingwithRedundantRequests: AMoreRealisticModel”
+IBMSparkCenter,SanFrancisco,CA.Host: NimrodMegiddo.
+June2016 “SmarterTaskAssignmentforServerFarmsviaReplication”
+ACMSigmetricsKeynotePresentation.
+May2016 “SmarterTaskAssignmentforServerFarmsviaReplication”
+SimonsInstitute,U.C.Berkeley. WomeninTheoryconference.
+May2016 “QueueingwithRedundantRequests: FirstExactAnalysis”
+DistinguishedSpeakeratIMaCCSInformationModelingandControlofComplexSystemsWorkshop.
+OhioStateUniversity. Host: NessShroff.
+Apr2016 “TowardsBetterDispatchingPoliciesforServerFarms: HowReplicationcanHelp”
+UniversityofCaliforniaatBerkeley. Host: RhondaRighter.
+Apr2016 “QueueingwithRedundantRequests: FirstExactAnalysis”
+StanfordUniversity. Host: PeterGlynn.
+Mar2016 “TowardsBetterDispatchingPoliciesforServerFarms: HowReplicationcanHelp”
+19
+Google,Mountainview. Host: JohnWilkes.
+Mar2016 “QueueingwithRedundantRequests: FirstExactAnalysis”
+UniversityofSouthernCalifornia. Host: AmyWard.
+Feb2016 “ThePowerofdChoicesforJobReplication”
+InformationTheoryandApplicationsWorkshop(ITA),SanDiego,CA.
+Nov2015 “QueueingwithRedundantRequests: FirstExactAnalysis”
+RotmanSchoolofBusiness,U.Toronto. Hosts: OpherBaronandOdedBerman.
+Jul2015 “QueueingwithRedundantRequests: FirstExactAnalysis”
+INFORMSAPSConference,Istanbul.
+Jul2015 “WhatQueueingTheoryTeachesusaboutDistributedSystemsDesign.”
+Keynotetalk. ICDCS2015Conference,Columbus,OH.Hosts: XiaodongZhangandTarekF.Abdelzaher.
+Jun2015 “WhatQueueingTheoryTeachesusaboutSystemsDesign.”
+Three-hourtutorialtalkatACM/IEEEISCA2015Conference,Portland,OR.
+May2015 “QueueingwithRedundantRequests: FirstExactAnalysis.”
+StanfordISLColloquium. Host: NealMaster.
+May2015 “WaitingfortheLooandotherQueueingTales.”
+ManuelBlumMagic77CelebrationatCarnegieMellonUniversity. Host: LenoreBlum.
+Feb2015 “QueueingwithRedundantRequests: FirstExactAnalysis.”
+U.C.Berkeley,IEORDepartment. Host: RhondaRighter.
+Feb2015 “QueueingwithRedundantRequests: FirstExactAnalysis.”
+InformationTheoryandApplicationsWorkshop(ITA),SanDiego,CA.
+Oct2014 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+15-719LectureinGarthGibson’sclass(CMU).
+July2014 “TheChickenMcNuggetsProblem: SolvingLinearDiophantineEquations.”
+Leaptalk,CMU.Host: StevenRudich.
+June2014 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+KeynotePresentationforGreenMetricsConference,Austin,TX.InvitedbyAdamWierman.
+May2014 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+LCCCWorkshopinCloudControl,LundUniversity,Sweden. Invitedby: MariaKihl.
+Apr2014 “ValueDrivenLoadBalancing.” MSR-CMUMindSwapinNYC.
+Apr2014 “DynamicPowerManagementofDataCenters.”
+Industry-AcademiaPartnership(IAP)CloudWorkshopatCMU.
+InvitedbyJimBallingall.
+Dec2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+DIMACSWorkingGrouponAlgorithmsforGreenDataStorage. Invitedby: StarkDraper.
+Oct2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+EECSDepartment,NorthwesternUniversity,DistinguishedSpeakersSeminar. Host: PeterDinda.
+Sept2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+ComputerScienceDepartment,CarnegieMellonUniversity. Host: GuyBlelloch.
+July2013 “MarkovChainsandtheiruseinComputerSystemsAnalysis.” Andrew’sLeaptalk,CMU.Host: StevenRudich.
+July2013 “MatchingwithFlexibility.” INFORMS-APSconferencetalk.
+July2013 “QueueinginComputerScience.” INFORMS-APSconferencetalk.
+July2013 “PowerManagementinDataCenters: RecursiveRenewalReward.” INFORMS-APSconferencetalk.
+May2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+ComputerScienceDepartment,GeorgiaInstituteofTechnology. Host: JunXu.
+May2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+ComputerScienceDepartment,ColumbiaUniversity. Host: VishalMisra.
+May2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+ComputerScienceDepartment,UniversityofSouthernCalifornia. Host: LeanaGolubchik.
+May2013 “DynamicPowerManagementofDataCenters: TheoryandPractice.”
+TepperSchoolofBusiness,CMU.Host: MustafaAkan.
+Nov2012 “SolvingM/M/k/SetupandOtherOpenVariants.”
+20
+MITLIDS.Invitedby: DevavratShahandEytanModiano.
+Nov2012 “PowerManagementinDataCenters.”
+BrandeisUniversityHighTechAlumniLeadershipConference.
+InvitedbyJordanPollack.
+Aug2012 “SolvingM/M/k/SetupandOtherOpenVariantsviaRecursiveRenewalReward.”
+EURANDOM.Eindhoven,Netherlands. StochasticActivityMonth.
+InvitedbyOnnoBoxma.
+June2012 “PricingandQueueing.”
+MAMAWorkshopaffiliatedwithSigmetrics2012.
+Feb2012 “OptimalThreshold-basedPricingforCloudServices.”
+Microsoft-NewEngland,Cambridge,MA.Invitedby: JenniferChayes.
+July2011 “AutoScale: DynamicPowerManagementinDataCenters.”
+Microsoft-NewEngland,Cambridge,MA.Invitedby: JenniferChayes.
+July2011 “AutoScale: DynamicPowerManagementinDataCenters.”
+Microsoft,Redmond,WA.Invitedby: TomMcMail.
+July2011 “PowerManagementinDataCenters: AQueueingTheorist’sPerspective.”
+BasqueCenterAppliedMathematics(BCAM),BasqueCounty,Spain.
+Invitedby: UrtziAyesta.
+June2011 “PowerManagementinDataCenters.”
+DistinguishedSpeakerforOpeningofComputerEngineeringCenteratTechnion,Haifa,Israel.
+Invitedby: RonKimmel,AdamSchwartz,EliBiham.
+April2011 “DynamicPowerManagementinDataCenters.”
+HPLabs. Invitedby: KimKeeton.
+April2011 “DynamicPowerManagementinDataCenters.”
+Facebook. Invitedby: AdamWard.
+Nov2010 “OpenProblemsinPowerManagement.”
+2010IFIPWG7.3Workshop,Namur,Belgium.
+Nov2010 “ServerFarmswithSetupCosts.”
+2010PerformanceConference,Namur,Belgium.
+Nov2010 “PowerManagementinServerFarms.”
+2010INFORMSConference,Austin,TX,November2010. Sessionchair. Invitedby: CathyXia.
+Oct2010 “AnalyticalModelingofDataCenterstoOptimizePerformanceandPower.”
+DistinguishedSpeakerSeries. ComputerScienceDept.,UniversityofToronto.
+Invitedby: MarshaChechik.
+June2010 “WhySegregatingShortJobsfromLongOnesunderHighVariabilityisnotalwaysaWin.”
+2010INFORMSConference,Austin,TX,November2010. Invitedby: DougDown.
+Feb2010 “SchedulinginServerFarms: ApproachesandOpenProblems.” Tutorialspeaker.
+2010InformationTheoryandApplicationsWorkshop,UCSD.Invitedby: TaraJavidi.
+Feb2010 “WhySegregatingShortJobsfromLongOnesunderHighVariabilityisnotalwaysaWin.”
+StanfordManagementSciencesandEngineeringColloquium. Host: PeterGlynn.
+Nov2009 “WhySegregatingShortJobsfromLongOnesunderHighVariabilityisnotalwaysaWin.”
+InvitedspeakeratNET-COOP2009. EURANDOMInstitute. Netherlands. Invitedby: OnnoBoxma.
+Oct2009 “SurprisingResultsonTaskAssignmentinServerFarmsunderHighVariabilityWorkloads.”
+InvitedSpeakeratOperationsResearchSeminarinISYEDepartment,GeorgiaTech. Host: JimDai.
+Sep2009 “WhySegregatingShortJobsFromLongOnesUnderHighVariabilityIsNotAlwaysaWin.”
+Allerton2009Conferencetalk,Urbana,Illinois.
+July2009 “SurprisingResultsonTaskAssignmentwithHigh-VariabilityWorkloads.”
+INFORMSAppliedProbabilitySociety,Ithaca,NY.
+July2009 “SurprisingResultsonTaskAssignmentwithHigh-VariabilityWorkloads.”
+ColumbiaAppliedProbabilityDay,ColumbiaUniversity,NY.Invitedby: KarlSigman.
+June2009 “SurprisingResultsonTaskAssignmentwithHigh-VariabilityWorkloads.”
+SIGMETRICS2009conferencetalk.
+21
+Sep2008 “SchedulingforServerFarms: ApproachesandOpenProblems.” Keynotetalk,MASCOTS2008,
+Baltimore,MD.Invitedby: CareyWilliamsonandEthanMiller.
+Jul2008 “ImmigrationandEmigrationatCMU.”CRA-Snowbirdconference.
+Invitedby: KimBruceandHankKorth.
+Jun2008 “SchedulingforServerFarms: ApproachesandOpenProblems.” Keynotetalk,SIPEW2008,
+Darmstadt,Germany. Invitedby: KaiSachs.
+May2008 “AnalysisofJoin-the-Shortest-QueueScheduling.” HisashiKobayashiRetirementWorkshop.
+PrincetonUniversity. Invitedby: BrianMark.
+Oct2007 “WhatPerformanceModelingTeachesusAboutComputerSystemDesign.”
+CrawDistinguishedLectureSeriesSpeaker. OhioStateUniversity. Host: BettinaBair.
+Jun2007 “AnalysisofSchedulinginServerFarms.”
+MathematicsDepartment,UniversityofSanDiego. Host: RuthWilliams.
+May2007 “AnalysisofSchedulinginServerFarms.”
+KeynoteSpeaker,OperationsResearchSocietyofIsrael(ORSIS)Conference.
+Apr2007 “AnalyzingMulti-ServerSystemswithDependencies:
+CycleStealing,PriorityQueueing,AffinityScheduling,andMore.”
+ComputerScienceDepartment,StanfordUniversity. Host: BalajiPrabhakar.
+Apr2007 “AnalysisofWebServerFarmswithJoin-the-Shortest-QueueRouting.”
+OperationsResearchGroup,StanfordUniversity. Host: BalajiPrabhakar.
+Mar2007 “Auction-BasedSchedulingoftheTeraGrid.”
+CMU/Pitt/IntelWorkshoponNext-GenerationComputing. Host: PeterLee.
+Jan2007 “AnalysisofSchedulinginServerFarms.”
+PlenarySpeaker,LunterenConference,Netherlands.
+Jan2007 “Works-in-Progress: FromWebServerFarmstoLimitedResourceSharing.”
+EURANDOM,Netherlands. Host: OnnoBoxma.
+Sep2006 “WhatPerformanceModelingTeachesUsAboutComputerSystemsDesign.”
+CMUStudentTheoryLunch.
+Aug2006 “AnalysisofSchedulinginServerFarms.”
+Invitedtalk. IBMWatsonResearchLabs. Hosts: AsserTantawiandMarkSquillante.
+Jul2006 “WhatPerformanceModelingTeachesusaboutComputerSystemsDesign.”
+Invitedtalk. MicrosoftResearch,Redmond,WA.Hosts: JenniferChayesandKenChurch.
+Jun2006 “AnalysisofSchedulinginServerFarms.”
+Invitedtutorial. Sigmetrics2006,SanMalo,France. Host: ThomasBonald.
+May2006 “NearlyInsensitiveBoundsonSMARTScheduling.”
+InvitedtalkatUriYechiali’sretirementworkshop,Shefayim,Israel.
+Apr2006 “TaskAssignmentforServerFarms.”
+GuestlecturerinSatya’sclass,CMU.
+Apr2006 “WhatPerformanceModelingTeachesUsAboutComputerSystemsDesign.”
+CS50AnniversaryCelebration,CMU.
+May2006 “DimensionalityReductionAnalysisofCycleStealing,PriorityQueueingandMore.”
+Microsoft,Cambridge,England. Host: DushyanthNarayanan.
+Mar2006 “DimensionalityReductionAnalysisofCycleStealing,ThresholdPoliciesandMore.”
+ImperialCollege,London,England. Host: PeterHarrison.
+Jan2006 “DimensionalityReductionAnalysisofCycleStealing,ThresholdPoliciesandMore.”
+UniversityofCalifornia,Berkeley. Host: RhondaRighter.
+Sep2005 “SchedulingYourNetworkConnections(theSYNCProject).”
+PolytechnicUniversity,NYC.Host: KeithRossandTorstenSuel.
+Jul2005 “NearlyInsensitiveBoundsonSMARTScheduling.”
+INFORMSAppliedProbabilityconference,Ottawa,Canada.
+June2005 “RobustnessofThresholdPoliciesinBeneficiary-DonorModel.”
+MAMAWorkshop,Banff,Canada.
+Jun2005 “NearlyInsensitiveBoundsonSMARTScheduling.”
+22
+ACMSigmetricsConference,Banff,Canada.
+Feb2005 “RecursiveDimensionalityReductionAppliedtotheAnalysisofMultiserverScheduling.”
+LehighUniversity. Host: AndrewRoss.
+Feb2005 “RecursiveDimensionalityReductionTechniquesAppliedtotheAnalysisofMultiserverScheduling.”
+ColumbiaUniversity–IndustrialEngineeringandOperationsResearchdepartment. Host: CliffStein.
+Feb2005 “SchedulingYourNetworkConnections(theSYNCProject).”
+ColumbiaUniversity–CSdepartment. Host: VishalMisra.
+Feb2005 “RecursiveDimensionalityReductionAppliedtotheAnalysisofMultiserverScheduling.”
+UniversityofPittsburgh–IndustrialEngineeringandOperationsResearch. Host: JayRajgopal.
+Dec2004 “RecursiveDimensionalityReductionTechniquesAppliedtotheAnalysisofMultiserverScheduling.”
+TelAvivUniversity–Mathematicsdepartment. Host: UriYechiali.
+Dec2004 “SchedulingYourNetworkConnections(theSYNCProject).”
+TelAvivUniversity–CSdepartment. Host: HanochLevy.
+Jul2004 “RecursiveDimensionalityReductionTechniquesAppliedtotheAnalysisofMultiserverScheduling
+includingCycleStealing,PriorityQueueing,andThresholdPolicies”
+Invitedspeaker. StochasticNetworksConference,Montreal,Canada.
+Jul2004 “RecursiveDimensionalityReductionTechniquesAppliedtotheAnalysisofMultiserverScheduling
+includingCycleStealing,PriorityQueueing,andThresholdPolicies.”
+MIT–EECSandLIDSdepartments. Host: CharlesLeiserson.
+Jul2004 “SchedulingYourNetworkConnections(theSYNCProject).”
+MIT–EECSandLIDSdepartments. Host: DinaKatabi.
+Jun2004 “RecursiveDimensionalityReductionTechniquesAppliedtotheAnalysisofMultiserverScheduling
+includingCycleStealing,PriorityQueueing,andThresholdPolicies.”
+Invitedtalk. EURANDOM.Eindhoven,Netherlands. Host: OnnoBoxma.
+Jun2004 “Exactclosed-formanalysisofQueueswithFluctuatingLoad.”
+Invitedtalk. EURANDOM.Eindhoven,Netherlands. Host: Geert-janvanHoutum.
+Nov2003 “SchedulingStaticandDynamicWebRequests.”
+Invitedtalk. MicrosoftResearch. Host: JohnDunagan.
+Nov2003 “SchedulingYourNetworkConnections(theSYNCProject).”
+Invitedtalk. UniversityofWashington. Host: SusanEggers.
+Nov2003 “TaskAssignmentPoliciesforServerFarms: IncludingNewAnalysisofCycleStealing.”
+Invitedtalk. UniversityofWashington. Host: SusanEggers.
+Oct2003 “SchedulingYourNetworkConnections(theSYNCProject).”
+Invitedtalk. BrownUniversity. Host: AnnaLysyanskaya.
+Oct2003 “TaskAssignmentPoliciesforServerFarms: IncludingNewAnalysisofCycleStealing.”
+Invitedtalk. BrownUniversity. Host: AnnaLysanskaya.
+Jul2003 “SchedulinginMultiserverSystems.”
+TalkatAladdinSITEReview.
+Jun2003 “ApplyingtoGraduateSchoolinComputerScience.”
+TalkatAladdinfirstCollegeWorkshop.
+May2003 “TaskAssignmentPoliciesforServerFarms: IncludingNewAnalysisofCycleStealing.”
+Invitedtalk. EMC2Corporation. Hosts: PeterLauterbach,RicWheeler.
+Apr2003 “SchedulingStaticandDynamicWebRequests.”
+Invitedtalk. IBMT.J.WatsonResearchLab. Host: ArunIyengar.
+Nov2002 “LoadbalancingalgorithmsinNetworksofWorkstations.”
+Invitedtalk. CarnegieMellon,ConcertGroupMeeting. Host: KarlCrary.
+Oct2002 “Reductionof2D-infiniteMarkovChainsto1D-infiniteMarkovChains.”
+Invitedtalk. CarnegieMellon,AladdinMeeting. Host: GuyBlelloch.
+Jun2002 “TaskAssignmentwithImmediateDispatch.”
+SPAA03Conference.
+May2002 “TaskAssignmentwithCycleStealingunderCentralQueue.”
+ICDCS03Conference.
+23
+Jul2002 “InvestigatingUnfairnessinSchedulingAlgorithms.”
+Invitedtalk. ConferenceonStochasticNetworks. StanfordUniversity.
+Jul2002 “SchedulingYourNetworkConnections.”
+Invitedtalk. ComputerScienceSeminar. UniversityofCaliforniaBerkeley. Host: MattWelsh.
+Nov2001 “SchedulingYourNetworkConnections.”
+Invitedtalk. ComputerNetworkingSeminar. CaltechUniversity. Host: StevenLow.
+Sep2001 “SchedulingYourNetworkConnections.”
+Invitedtalk. ComputerSystemsSeminar. UniversityofIllinoisUrbana-Champaign.
+Host: MichaelLoui.
+Sep2001 “SchedulingSolutionsforCopingwithTransientOverload.”
+Invitedtalk. CommunicationsSeminar. UniversityofIllinoisUrbana-Champaign.
+Host: MichaelLoui.
+Jun2001 “SchedulingYourNetworkConnections.”
+LIRMM–Laboratoired’Informatique,deRobotiqueetdeMicroelectroniquedeMontpellier,France.
+Host: AlainJean-Marie.
+Jun2001 “SchedulingYourNetworkConnections.”
+Invitedtalk. InstitutoSuperiorTecnico,Lisbon. Host: CarlosFilipeGomesBisbo.
+Jun2001 “TaskAssignmentwithUnknownDuration.”
+Invitedtalk. InstitutoSuperiorTecnico,Lisbon. Host: CarlosFilipeGomesBisbo.
+Jun2001 “AnalysisofM/G/1/PSandM/G/1/SRPTunderTransientOverload.”
+Invitedtalkat3rdWorkshoponMathematicalperformanceModelingandAnalysis(MAMA2001).
+Invitedby: MarkSquillante.
+Jun2001 “SchedulingYourNetworkConnections.”
+M.I.T.LabforComputerScience. Hosts: VincentChenandJohnGuttag.
+Jun2001 “HowHeavyTailsImpactJobScheduling.”
+InvitedtalkatJobSchedulingStrategiesforParallelProcessingWorkshop. Cambridge,MA.
+Invitedby: LarryRudolph.
+May2001 “SchedulingYourNetworkConnections.”
+Invitedtalk. IBMCorporationT.J.WatsonResearchLab.
+Mar2001 “SchedulingYourNetworkConnections.” InvitedtalkatDIMACSWorkshoponResourceManagement
+andSchedulinginNextGenerationNetworks. Invitedby: Rajmohan
+Mar2001 “SchedulingYourNetworkConnections.” DukeUniversity. Host: RonParr.
+Jan2001 “SchedulingYourNetworkConnections.” Invitedtalk. HPLabs. Host: JohnWilkes.
+Jan2001 “SchedulingYourNetworkConnections.” Invitedtalk. StanfordUniversity. Host: MaryBaker.
+Jun2000 “TaskAssignmentwithUnknownDuration.”
+Invitedtalkat2ndWorkshoponMathematicalperformanceModelingandAnalysis(MAMA2000).
+Invitedby: MarkSquillante.
+Oct1999 “ConnectionSchedulinginWebServers.”
+PresentedatUSITS’99.
+Jun1999 “TheCaseforSRPTSchedulinginWebServers.”
+End-to-EndResearchGroupMeeting. MITLabforComputerScience. Host: DavidClark.
+Jun1999 “TaskAssignmentwithUnknownDuration.”
+InvitedpaperatASA-IMSConferenceonApplicationsofHeavyTailedDistributions
+inEconomics,EngineeringandStatistics. WashingtonDC.
+Apr1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: CarnegieMellonUniversity. Host: HuiZhang.
+Apr1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: CaltechInstituteofTechnology. Host: ManiChandy.
+Mar1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: AT&TResearchLabs. Host: JenniferRexford.
+Mar1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: JohnsHopkins. Host: GeraldMason.
+24
+Mar1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: MassachusettsInstituteofTechnology. Host: CharlesLeiserson.
+Mar1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: UniversityofTexas,Austin. Host: MikeDahlin.
+Mar1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: NewYorkUniversity. Host: RichardCole.
+Mar1999 “TheEffectofHeavy-TailedJobSizeDistributionsonSystemDesign.”
+Interviewtalk: UMASS-Amherst. Host: DonTowsley.
+Feb1999 “TaskAssignmentinaDistributedServerSystem.”
+BrandeisUniversity. Host: LiubaShrira.
+Jan1999 “TaskAssignmentinaDistributedServerSystem.”
+Invitedtalk. UniversityofCalifornia,Berkeley. Host: ManuelBlum.
+Oct1998 “TaskAssignmentinaDistributedServerSystem.”
+M.I.T.,TheoryGroup. Host: TomLeighton.
+Sep1998 “TaskAssignmentinaDistributedServerSystem.” Presentedatthe10thInternational
+ConferenceonModelingTechniquesandToolsforComputerPerformanceEvaluation.
+Mar1998 “TaskAssignmentinaDistributedWebServer.” CiscoSystems.
+Mar1998 “TaskAssignmentinaDistributedSupercomputingServer.”
+MITXolasSupercomputingGroup. Host: CharlesLeiserson.
+Mar1998 “TaskAssignmentinaDistributedWebServer.” LucentTechnologies.
+Feb1998 “TaskAssignmentinaDistributedWebServer.” ArrowpointCommunications.
+Feb1998 “TaskAssignmentforaDistributedSupercomputingServer.”
+CornellUniversity. Host: SidResnick.
+Feb1998 “TaskAssignmentinaDistributedServerSystem.” IBM.
+Jan1998 “TaskAssignmentinaDistributedServerSystem.” BayNetworks.
+Jun1997 “TheImpactofHeavy-TailedDistributionsonLoadBalancinginWebServers.”
+InvitedtotheINFORMSAppliedProbabilityConference,Cambridge,MA.InvitedbyMarkCrovella.
+Jan1997 “ExploitingProcessLifetimeDistributionsforDynamicLoadBalancing.”
+AT&TResearchLab. Host: GisliHjalmtysson.
+Oct1996 “ExploitingProcessLifetimeDistributionsforDynamicLoadBalancing.”
+BostonUniversity. Host: MuradTaqqu.
+May1996 “ExploitingProcessLifetimeDistributionsforDynamicLoadBalancing.” Presentedat
+theACMSIGMETRICSConferenceonMeasurementandModelingofComputerSystems.
+May1996 “ExploitingProcessLifetimeDistributionsforDynamicLoadBalancing.”
+UniversityofCalifornia,SanDiego. Hosts: FranBermanandRussellImpagliazzo.
+Jan1996 “BoundingDelaysinPacket-RoutingNetworks.” IBMAlmaden. Host: EliUpfal.
+May1995 “BoundingDelaysinPacket-RoutingNetworks.” Presentedatthe27thAnnualSymposium
+TheoryofComputing.
+Jan1994 “QueueingAnalysisofObliviousPacket-RoutingNetworks.” PresentedattheFifthAnnual
+ACM-SIAMSymposiumonDiscreteAlgorithms.
+PROFESSIONALSERVICE
+SIGChair:
+2023-27 ACMSIGChairforSIGMETRICS.
+Highprofileandhigh-workloadposition,involvingthemanagementofallactivitiesandfinancesfortheSIG.
+Fellowof: ACM,IEEE
+25
+Memberof: ACM-Sigmetrics,Informs,IFIPW.G.7.3.
+ConferenceChair:
+2013 ConferenceChairSIGMETRICS2013.
+2005 ConferenceCo-ChairandProgramCo-ChairCMU/EindhovenCollaborativeWorkshoponQueueing.
+Seewww.aladdin.cs.cmu.edu/workshops/eindhoven/.
+2004 ConferenceCo-ChairandProgramCo-ChairWORkshoponMultiserverScheduling(WORMS04).
+Seewww.cs.cmu.edu/∼harchol/WORMS04/.
+TechnicalProgramChair:
+2007 Programco-ChairSIGMETRICS2007.
+2007 Programco-ChairQEST2007.
+SIGOfficer:
+2005-2007 Secretary/TreasurerACMSIGMETRICS.
+Editor:
+2019-2022AssociateEditorQueueingSystems: TheoryandApplications(QUESTA).
+2014-2016AssociateEditorACMTransactionsonModelingandPerformanceofComputerSystems.
+2008-2010AssociateEditorPerformanceEvaluationjournal.
+2007 GuestEditorPerformanceEvaluationReview,SpecialIssueonScheduling,March2007.
+TechnicalProgramCommitteeandRelated:
+2024 TechnicalProgramCommittee: ApPLIED’24.
+2023 TechnicalProgramCommittee: IFIPPERFORMANCE’23.
+2022 TechnicalProgramCommittee: StochasticNetworkConference’22.
+2021 TechnicalProgramCommittee: SIGMETRICS’21,IFIPPERFORMANCE’21.
+2020 TechnicalProgramCommitteesIFIPPERFORMANCE’20,StochasticNetworkConference’20.
+MeettheStarseventPERFORMANCE’20.
+2018 TechnicalProgramCommittees: SIGMETRICS’18.
+2017 SigmetricsRisingStarAwardCommittee.
+2017 TechnicalProgramCommittees: SIGMETRICS’17.
+2015 SigmetricsRisingStarAwardCommittee.
+2015 TechnicalProgramCommittees: SIGMETRICS’15.
+2014 ServedonReviewBoardforHeidelbergLaureateForum.
+2014 TechnicalProgramCommittees: SIGMETRICS’14,IFIPPERFORMANCE’14,ECQT’14.
+2013 TechnicalProgramCommittees: IC2E’13.
+2012 TechnicalProgramCommittees: SIGMETRICS’12,IEEEIGCC’12.
+2011 TechnicalProgramCommittees: PERFORMANCE’11.
+2010 TechnicalProgramCommittees: HOTMETRICS’10,PERFORMANCE’10.
+2009 TechnicalProgramCommittees: SIGMETRICS’09,MAMA’09,HotPower’09.
+2009 SigmetricsRisingStarAwardCommittee.
+2008 TechnicalProgramCommittees: SIGMETRICS’08,SIPEW’08,HotPower’08,MAMA’08.
+2008 SigmetricsRisingStarAwardCommittee.
+26
+2007 TechnicalProgramCommittees: SIGMETRICS’07,QEST’07,MAMA’07.
+2006 TechnicalProgramCommittees: SIGMETRICS’06,WWW’06,QEST’06.
+2005 TechnicalProgramCommittees: SIGMETRICS’05,WWW’05.
+2004 TechnicalProgramCommittees: SIGMETRICS’04,WWW’04.
+2003 TechnicalProgramCommittee: SIGMETRICS’03.
+2002 TechnicalProgramCommittees: SIGMETRICS’02,Performance’02.
+2002 PublicityChair: Performance’02.
+2001 TutorialChair: SIGMETRICS’01.
+2000 TechnicalProgramCommittee: SIGMETRICS’00.
+Panelist:
+Sept2025 NSFCAREERPanelforOperationsEngineering(OE).HeadedbyRehaUzsoyandLinkanBian.
+Apr2019 FormalMethodsintheFieldOperatingandDistributedSystems. HeadedbySameeKhan.
+Jun2014 DOEPanelonAnalyticalModelingofDistributedSystems. HeadedbyRichardCarlson.
+Jan2011 DOEASCREarlyCareerResearchPanel. HeadedbySoniaSachs.
+Jan2002 NSFCCR-OperatingSystemsandCompilersPanel. HeadedbyRandyChow.
+Feb2000 NSFITRPanel. HeadedbyDarleneFisher.
+UNIVERSITYSERVICE
+2025-pres OfficeHoursforJuniorTenure-TrackFacultytoExplainReappointment,PromotionandTenureprocess.
+2023-pres CreatedandmanagingSupplementalMentorProgramforFemaleandNon-BinaryStudents.
+2022-pres CreatedweeklySCSGraduateStudentWomensLunch. Helpingwithorganizationandfunding.
+2022-pres ManagingCSDACOProgram.
+2022-pres HeavilyinvolvedinSCSUndergradPerformance.
+–TrackingSCSUndergradPerformanceacrossclasses.
+–ProposingsolutionsviachangestobothAdmissionsandCurriculum.
+–Researchingsolutionsfromotheruniversities.
+2018-pres MentorforfacultymemberWeinaWang. Includeschairingpromotioncases.
+2012-pres MentorforfacultymemberDavidKosbie. Includeschairingpromotioncases.
+2020-2025 ActivememberCSDCommitteeonimprovingclimateinthedepartment.
+–HeadingSub-CommitteeonReporting/TrackingInfractions.
+–MemberSub-CommitteeonIncreasingPhDApplications
+2020-2022 ActivememberofSCSWomenFacultygroup.
+2020-2022 SCS-wideR&PCommittee.
+2022 Hostedfacultyrecruitingeventsatmyhome.
+2021-2022 MemberUndergraduateMathPreparednessCommittee,ledbyTomCortina.
+2021 ChairforDaveKosbiePromotion.
+Aug2021 HostforCSDICPartyatmyhome.
+2021 OrganizedTheoryOpenHouse. Revisedfullslidedeck.
+2010-2020 AoPSMathJamforRecruitingstrongMathUndergrads.
+2020 LeadingTheoryConsortiumInitiative.
+2020 ChairforWeinaWangR&P.
+2020 CSDrepresentativeforSCSCouncil.
+2020 TartanHacksJudge.
+2019 MentorshipoffacultymemberJeanYang.
+2019 CSDrepresentativeforSCSCouncil.
+2018-19 SCSDeanSearchCommittee.
+2018 ManagingCSDACOProgram.
+27
+Aug2018 HostforCSDICPartyatmyhome.
+2018 FacultyMemberRepresentativeforOmegaRho–UndergradHonorSocietyofOR.
+2018 MentorshipoffacultymemberJeanYang.
+2018 CSDrepresentativeforSCSCouncil.
+Apr2018 Women@SCSSpeakerandInterviewee.
+Feb2018 HostedWomen@SCSBrunch.
+2017-18 CSDHiringCommittee.
+2017 MentorshipoffacultymemberJeanYang.
+Jul2017 HostedGoodbyePartyforAvrimBlum.
+Apr2017 CelebrationofRecruiting.
+2017 ManagingCSDACOProgram.
+2017 CSDrepresentativeforSCSCouncil.
+2017 FacultyMemberRepresentativeforOmegaRho–UndergradHonorSocietyofOR.
+2017 SCSUndergraduateStressCommittee.
+2017 ManagingCSDACOProgram.
+2016-17 CSDAdmissionsCommittee.
+2016-17 CSDHiringCommittee.
+2016 ManagingCSDACOProgram.
+2016 MentorshipoffacultymemberBernhardHaeupler.
+2016 MentorshipoffacultymemberJeanYang.
+2016 FacultyMemberRepresentativeforOmegaRho–UndergradHonorSocietyofOR.
+2016 SCSUndergraduateStressCommittee.
+2016 CSDrepresentativeforSCSCouncil.
+Aug2016 HostCSDICpartyatmyhome.
+2015 CSDrepresentativeforSCSCouncil.
+2015 MentorshipoffacultymemberBernhardHaeupler.
+2015 ManagingCSDACOProgram.
+Aug2015 HostCSDICpartyatmyhome.
+Aug2015 OrganizedCSDFaculty&GradStudentPicnicHonoringGraduatingPhDstudents.
+June2015 InitiatingCSD-wideGradStudentTeachingAward. RanCSD-wideawardproces.
+May2015 MemberofSCS-widePerlisAwardCommittee.
+May2015 HostedWomen@SCSbrunchatmyhome.
+Mar2015 Presentationtoundergraduateson“ApplyingtoGradSchool.”
+2014/15 InitiatingCSDPhoneInterviewprocess.
+2014 ManagingthereinstatementoftheACO-CSPhDprogram.
+2014/15 MentorshipoffacultymemberBernhardHaeupler.
+2014 ChairingpromotioncommitteeforDavidKosbie.
+July2014 PresentationatAndrewsLeaptoHighSchoolstudents.
+April2014 Presentationtoundergraduateson“ApplyingtoGradSchool.”
+Aug2013 TalkatCSDIConFindinganAdvisor.
+Aug2013 HostCSDICpartyatmyhome.
+2013 ServedonpromotioncommitteeforArielProccaccia.
+July2013 PresentationatAndrewsLeaptoHighSchoolstudents.
+Oct2012 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Aug2012 HostCSDICpartyatmyhome.
+2012 TeachingTrackSearchCommittee.
+Jan2012 HostCSDWomen’spartyatmyhomeforfemalegradstudentsandfaculty.
+Nov2011 HostCSDWomen’spartyatmyhomeforfemalegradstudentsandfaculty.
+Aug2011 HostCSDICpartyatmyhome.
+Jan2011 Examquestioner/gradingforTepperSchoolqualifiers.
+2011 CSDMastersPlanningCommittee.
+2008-2011 AssociateDepartmentHeadforGraduateEducation,ComputerScience.
+28
+Primaryresponsibilitiesincluded:
+–StructuringComputerSciencePhDProgramandCreatingallRules/RegulationsforPhDProgram
+–ManagementofGraduateAdmissions
+–ManagementofGraduateRecruiting&OpenHouse
+–ManagementofImmigrationCourseandEmigrationSeminars
+–RunningBlackFridaymeetings,everysemester
+–Assignmentofgraduatestudentstofaculty
+–Mentoringofgraduatestudentsandmeetingwiththem
+–ManagingDoctoralReviewCommittee
+2009/10 SelectionCommitteeforCSDDepartmentHead.
+Aug2010 HostCSDICpartyatmyhome.
+Jan2010 Examquestioner/gradingforTepperSchoolqualifiers.
+2010 DoctoralReviewCommittee(DRC).
+Aug2009 HostCSDICpartyatmyhome.
+Jan2009 Examquestioner/gradingforTepperSchoolqualifiers.
+2009 DoctoralReviewCommittee(DRC).
+Nov2008 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Spr2008 CSDRetreatPlanningCommittee.
+Jan2008 Examquestioner/gradingforTepperSchoolqualifiers.
+2008 DoctoralReviewCommittee(DRC).
+2007 CSDFinancescommittee.
+2006/07 Gatesclassroomcommittee.
+2007 DoctoralReviewCommittee(DRC).
+Jun2007 SpeakeratBreakfastforVolunteerAlumniLeaders.
+Jan2007 Examquestioner/gradingforTepperSchoolqualifiers.
+Nov2006 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Aug2006 HostCSDICpartyatmyhome.
+Apr2006 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Apr2006 SpeakeratCarnegieMellon50YearAnniversarySymposium.
+Jan2006 Examquestioner/gradingforTepperSchoolqualifiers.
+2006 DoctoralReviewCommittee(DRC).
+Apr2005 ChairedcommitteeforAllenNewellGraduateTeachingAward.
+Apr2005 ChairedcommitteeforHerbertA.SimonAward.
+Apr2005 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Mar2005 PresentationatOpenHouseGraduateStudentRecruiting.
+Spr2005 CShiringcommittee: Performanceevaluationarea.
+2005 DoctoralReviewCommittee(DRC).
+2004-2005 InstrumentingSCSPerlisTeachingAssistantAward.
+Jan2005 Examquestioner/gradingforTepperSchoolqualifiers.
+Dec2004 Undergraduatemathcolloquiumspeaker. Host: DeborahBrandon.
+Sep2004 WomeninSCSRoadShow.
+Aug2004 HostCSDICpartyatmyhome.
+May2004 JudgeforHerbertA.SimonAward.
+Apr2004 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Jan2004 Examquestioner/gradingforTepperSchoolqualifiers. Also,readeronsomesummerpapers.
+2004 DoctoralReviewCommittee(DRC).
+Aug2003 HostCSDICpartyatmyhome.
+May2003 JudgeforNewellAward.
+Apr2003 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Apr2003 Heavyinvolvementinfacultyrecruiting. Hostparties.
+Jan2003 Examquestioner/gradingforTepperSchoolqualifiers.
+2003 DoctoralReviewCommittee(DRC).
+29
+Nov2002 Presentationto100undergraduateson“ApplyingtoGradSchool.”
+Aug2002 HostCSDICpartyatmyhome.
+Aug2002 Provideinterviewforundergraduaterecruitmenttape.
+July2002 Committeetoevaluatedepartmentchairposition.
+May2002 JoinedSCSWebadvisorycommittee.
+May2002 Heavyinvolvementinfacultyrecruiting. Hostparties.
+Apr2002 Presentationto150undergraduateson“ApplyingtoGradSchool.”
+Mar2002 PresentationatOpenHouseGraduateStudentRecruiting.
+Jan2002 Examquestioner/gradingforTepperSchoolqualifiers.
+Nov2001 Sentletterstotop130CMUalumniencouragingthemtoapplytogradschoolatCMU.
+Nov2001 PresentationtoCMUWomenGraduateOrganizationon“AdvisingandBeingAdvised.”
+Aug2001 HostCSDICpartyatmyhome.
+Aug2001 PresentationatAndrewsLeaptoHighSchoolstudents.
+Apr2001 Heavyinvolvementinfacultyrecruiting. Hostparties/candidates.
+Mar2001 PresentationatOpenHouseGraduateStudentRecruiting.
+Nov2000 PresentationatFreshmanIC.
+Nov2000 LedPannelatCSImmigrationCoursetitled
+“HowtobeaGreatAdvisor/HowtobeaGreatGradStudent.”
+Nov2000 Sentletterstotop40CMUalumniencouragingthemtoapplytogradschoolatCMU.
+Aug2000 HostCSDICpartyatmyhome.
+July2000 PresentationatAndrewsLeaptoHighSchoolstudents.
+Apr2000 PresentationtoprospectiveundergraduatesatUndergradOpenHouse.
+Mar2000 PresentationatOpenHouseGraduateStudentRecruiting.
+Oct1999 PresentationtoWomeninSCSgroupon“GettingtheMostOutofaConference.”
+Aug1999 PresentationatAndrewsLeaptoHighSchoolstudents.
+COMMUNITYSERVICE/OUTREACH
+2018 GoogleWomeninTechSummitspeaker.
+2008-pres Createdfirst-everWesternPAAmericanRegionalMathematicsLeague(ARML)team.
+Includes25highschoolersfromalloverWesternPA.
+Ourteamranked3rdinthenationintheBdivisioninthe2012competitionandisnowintheAdivision.
+Organizeweekly3-hourteampracticesandtripstonationalmathcompetitionsthroughouttheyear.
+ReceiveannualfundingfromJumpTrading,Chicago,IL.
+2004-2005 VolunteerteacherofElementarySchoolNationalMathOlympiadContestatWinchester-Thurstonschool.
+TeacheveryMondayafternoon.
+2002-2004 VolunteermathteacheratWinchester-ThurstonSchool,Pittsburgh,PA.
+Teachadvancedmathematicsto2ndgraders. Wednesdaymornings,everyotherweek.
+1988-1990 VolunteerTeacheratCityYear,StillingSt.,Boston,MA.
+VolunteerTeacherBostonPartnersinEducation.
+Teachmathtodisadvantagedstudentsoneeveningperweek.
+CONTRACTANDGRANTSUPPORT
+Current:
+30
+Title: NSF-CIF:Medium: TowardsOptimalSchedulingforParallelizableMachineLearningTrainingWorkloads
+PI: MorHarchol-Balter.
+co-PI: WeinaWang,BenBerg.
+Agency: NSF-CIF.
+Duration: July’24-June’27.
+Amount: $1,200,000.
+Support: 25%SU.
+AwardNo: 2403194
+PM: AlfredHero.
+Title: NSF-III:High-PerformanceSchedulingforModernDatabaseSystems
+PI: MorHarchol-Balter.
+co-PI: BenBerg.
+Agency: NSF-III.
+Duration: May’24-April’27.
+Amount: $600,000.
+Support: 25%SU.
+AwardNo: 2322973
+PM: JudithCushing.
+Title: NSF-CMMI-OE:NewApproachestoMultiserverScheduling
+PI: MorHarchol-Balter.
+co-PI: ZivScully.
+Agency: NSF-CMMI-OE.
+Duration: Sept’23-Aug’26.
+Amount: $481,454.00.
+Support: 25%SU.
+AwardNo: 2307008
+PM: Georgia-AnnKlutke.
+Pending:
+Title: SqueezingPerformanceOutofGPUsintheCloudviaBudget-OptimalAllocation
+PIs: BenBergandMorHarchol-Balter.
+Agency: AmazonFacultyResearchAward
+Dates: SubmittedNov2025.
+Amount: $70,000
+AwardNo: Amazon
+Title: PreventingandRecoveringfromMetastableFailuresduetoConcurrency
+PIs: TimothyZhuandMorHarchol-Balter.
+Agency: AmazonFacultyResearchAward
+Dates: SubmittedNov2025.
+Amount: $70,000
+AwardNo: Amazon
+31
+Title: High-loadoptimizedLLMserving
+PIs: PhilGibbonsandMorHarchol-Balter.
+Agency: AmazonFacultyResearchAward
+Dates: SubmittedNov2025.
+Amount: $70,000
+AwardNo: Amazon
+Past:
+Title: NSF-CMMI:OptimalSchedulingofParallelizableJobsinCloudComputingEnvironments
+PI: MorHarchol-Balter.
+co-PI: BenMoseley.
+Agency: NSF-CMMI.
+Duration: Jan’20-Dec’22.
+Amount: $549,470.00.
+Support: 25%SU.
+AwardNo: 1938909
+PM: Georgia-AnnKlutke.
+Title: NSF-CSR:Medium: CollaborativeResearch: FoundationsofCacheNetworkOperationsforContentDelivery
+PIs: MorHarchol-BalterandRameshSitaraman.
+Agency: NSF-CSR.
+Duration: Sept’18-Sept’22.
+Amount: $1,200,000.00.
+Support: 33%SU.
+AwardNo: 1763701(originally180341).
+PM: SameeKhan.
+Title: PredictableSchedulingforBorg
+PI: MorHarchol-Balter.
+Agency: GoogleFacultyAward
+Duration: August’20-unrestricted
+Amount: $70,000
+AwardNo: Google
+Title: FacebookGraduateFellowship.
+PI: BenjaminBerg(mygraduatestudent).
+Duration: Jan’19-Jan’21.
+Title: NSF-XPS:FULL:BridgingParallelandQueueing-TheoreticScheduling–SUPPLEMENT
+PIs: MorHarchol-Balter.
+Agency: NSF-XPS–SUPPLEMENT.
+Duration: July’19-July’20
+Amount: $150,000.
+32
+Support: 33%SU.
+AwardNo: 1629444.
+PM: TracyKimbrel.
+Title: RobinHood: CacheSharingSystem
+PI: MorHarchol-Balter.
+Agency: MicrosoftFacultyAward
+Duration: April’18-unrestricted
+Amount: $30,000
+AwardNo: Microsoft
+Title: NSF-XPS:FULL:BridgingParallelandQueueing-TheoreticScheduling.
+PIs: GuyBlleloch,UmutAcar,MorHarchol-Balter.
+Agency: NSF-XPS.
+Duration: July’16-July’19
+Amount: $825,000.
+Support: 33%SU.
+AwardNo: 1629444.
+PM: TracyKimbrel.
+Title: NSFGraduateFellowship.
+PI: ZivScully(mygraduatestudent).
+Duration: September’16-September’19.
+Title: NSF-CMMI:ReducingLatencybyReplicatingJobs.
+PI: MorHarchol-Balter.
+Agency: NSF-CMMI.
+Duration: Sept’15-Sept’18
+Amount: $299,711.
+Support: 33%SU.
+AwardNo: 1538204.
+PM: MichaelFu.
+Title: PerformanceAnalysisandDesignofComputerSystems.
+PI: MorHarchol-Balter.
+Agency: FacebookFacultyAward
+Duration: Sept’15-unrestricted
+Amount: $30,000
+AwardNo: Facebook
+Title: WhenManyWorkloadsShareNetworkedStorage: HowtoGuaranteeTailLatencySLOs.
+PI: MorHarchol-Balter.
+Agency: GoogleFacultyResearchAward: UnrestrictedGift
+Duration: February’15-February’16.
+Amount: $67,000.
+AwardNo: Google–TBA.
+33
+TITLE: NSFREUSupplement
+PI: MorHarchol-Balter.
+Agency: NSF-CSRSupplementtoNSF-CSR-1116282.
+Duration: Summer2015.
+Amount: $8000.
+AwardNo: 25851.2.1122199.
+PM: MimiMcClure.
+Title: NSF-CMMI:PriorityPricingforProfitMaximizationGivenStrategic,Delay-SensitiveCustomers
+withaContinuumofTypes.
+PI: MorHarchol-Balter(withMustafaAkan,co-PI).
+Agency: NSF-CMMI
+Duration: Aug’13-Aug’16
+Amount: $290,000.
+Support: 25%SU.
+AwardNo: 1334194.
+PM: SheldonJacobson.
+Title: IntelPittsburghCloudComputingISTCFellowshipforStudent.
+PI: TimothyZhu(mygraduatestudent).
+Agency: IntelPittsburgh.
+Duration: September’13-’16
+Amount: Yearlysupportfor1Ph.D.student
+Title: NSF-CSR:SmallSimpleDynamicTraffic-ObliviousPowerManagementforMulti-TierWebClusters.
+PI: MorHarchol-Balter.
+Agency: NSF-CSR
+Duration: Aug’11-Aug’15
+Amount: $373,472.
+Support: 33%SU.
+AwardNo: 1116282.
+PM: KrishnaKant.
+Title: NSFGraduateFellowship.
+PI: KristyGardner(mygraduatestudent).
+Duration: September’12-September’15.
+Title: IntelPittsburghCloudComputingISTCFellowshipforStudent.
+PI: AnshulGandhi(mygraduatestudent).
+Agency: IntelPittsburgh.
+Duration: September’11-’13
+Amount: Yearlysupportfor1Ph.D.student
+Title: WesternPAARMLTeamFunding.
+34
+PI: MorHarchol-Balter
+Agency: JumpTrading,Inc.
+Duration: Sept’12-Sept’13.
+Amount: $12,000.
+AwardNo: ARML
+Title: MaximizingRevenueinaMulti-ClassEnvironmentwithUnknownCustomerValuations
+andUnknownDelaySensitivities.
+PI: MorHarchol-Balter.
+Agency: Microsoft-CMUCenterforComputationalThinking
+Duration: Aug’12-Aug’13.
+Amount: $80,000.
+AwardNo: Microsoft
+Title: NSF-CSR:StudentTravelSupportforSigmetrics2013.
+PI: MorHarchol-Balter.
+Agency: NSF-CSR
+Duration: Jan’13-Jan’14
+Amount: $10,000.
+AwardNo: 1300202.
+PM: KrishnaKant.
+Title: MaximizingPricingBasedonCurrentDelay.
+PI: MorHarchol-Balter.
+Agency: Microsoft-CMUCenterforComputationalThinking
+Duration: Aug’11-Aug’12.
+Amount: $74,736.
+AwardNo: Microsoft
+Title: WesternPAARMLTeamFunding.
+PI: MorHarchol-Balter.
+Agency: JumpTrading,Inc.
+Duration: Sept’11-Sept’12.
+Amount: $7,500.
+AwardNo: ARML
+Title: KauffmanFoundationCommercializationGrant.
+PI: Awardedtomystudent: AnshulGandhi.
+Agency: KauffmanFoundation
+Duration: Jan’11-Jan’12.
+Amount: $25,000.
+AwardNo: Kauffman
+Title: PerformanceAnalysisandDesignofComputerSystems.
+PI: MorHarchol-Balter.
+Agency: Yahoo! FacultyResearchAward
+35
+Duration: Sept’10-Sept’11.
+Amount: $30,000
+AwardNo: Yahoo
+Title: EnergyEfficientandProportionalDatacenterComputing.
+PI: DaveAndersenandMorHarchol-Balter.
+Agency: GoogleFocusedResearchAward
+Duration: February’10-February’11.
+Amount: $100,000.
+AwardNo: Google22796.1-2.5003506
+Title: PowerManagementinDataCenters.
+PI: MorHarchol-Balter.
+Agency: Microsoft-CMUCenterforComputationalThinking
+Duration: Aug’10-Aug’11.
+Amount: $75,000.
+AwardNo: Microsoft5004487Project24592
+Title: BuildingaPower-EfficientLoadBalancer.
+PI: MorHarchol-Balter.
+Agency: Yahoo! FacultyResearchAward
+Duration: Sept’09-Sept’10.
+Amount: $25,000
+AwardNo: 5004676
+Title: IBMFacultyAward
+PI: MorHarchol-Balter.
+Agency: IBMFacultyResearchAward
+Duration: June’08-May’09.
+Amount: $30,000
+AwardNo: 5002343
+Title: POW!Project
+PI: MorHarchol-Balter.
+Agency: InnovationWorks
+Duration: June’09-Sept’09.
+Amount: $15,000
+AwardNo: N/A
+Title: OptimizingServerFarmPerformanceinPower-ConstrainedEnvironments.
+PI: MorHarchol-Balter.
+Agency: TheTechnologyCollaborativeofPittsburgh.
+Duration: January’09-June’10.
+Amount: $124,000.
+Support: 66%SU.
+AwardNo: 1010970
+36
+Title: OptimizingServerFarmPerformanceinPower-ConstrainedEnvironments.
+PI: MorHarchol-Balter.
+Agency: Matchingfunds(inkind)fromProjectOlympusandtheIdeaFoundry,Pittsburgh.
+Duration: January’09-June’10.
+Amount: $30,000.
+Title: EfficientPowerManagementbyAlternatingBetween“Extreme”PowerStates.
+PI: MorHarchol-Balter.
+Agency: CMUTechnologyTransferCenter&ProjectOlympus.
+Duration: January’09-June’10.
+Amount: $40,000.
+AwardNo: 2001801
+Title: IntelPittsburghLabFellowshipforStudent.
+PI: AnshulGandhi(mygraduatestudent).
+Agency: IntelPittsburgh.
+Duration: September’08-May’10.
+Amount: 1.5yearsgraduatestudentsupport.
+Title: SMA/PDOSCollaborativeResearch: Design,Analysis,andControlofAdaptiveSharingMechanisms.
+co-PI: MorHarchol-Balter(withVishalMisra,DanRubenstein,EdCoffman,andPredragJelenkovic).
+Agency: NSF.
+GrantNo: NSFCCR-0615262. DivisionofComputerandNetworkSystems. ComputerSystems.
+Duration: August’06-July’09.
+Amount: $1,000,000.
+Support: 33%SU.
+CenterNo: 15653.1.1120828.
+Title: SGER:CollaborativeResearch: CSR-SMA:
+NewBreakthroughinAnalyzingLimitedResourceSharingSystems.
+PI: MorHarchol-Balter(withJimDaiandBertZwart).
+Agency: NSF.
+GrantNo: NSFCNS-0719106.
+Duration: August’07-August’08.
+Amount: $100,000.
+Support: 33%SU.
+CenterNo: 17666.1.1121054
+Title: SchedulingtheTeraGrid.
+PI: MorHarchol-Balter.
+Company: MicrosoftResearch. AwardNumber: 16101.
+Duration: May’07-May’08.
+Amount: $75,000.
+Support: WinnerofMicrosoftBreakthroughResearchGrant. UnrestrictedGift.
+37
+Title: CAREER:TheImpactofResourceSchedulingonImprovingServerPerformance.
+PI: MorHarchol-Balter.
+Agency: NSF.
+GrantNo: NSFCCR-0133077. CAREERAward. DivisionofComputerandNetworkSystems. DistributedSystems.
+Duration: March’02-February’08.
+Amount: $350,000.
+Support: 33%SU.
+CenterNo: 8061.1.1120231.
+Title: ITR:ImprovingthePerformanceofWebServersunderOverload.
+PI: MorHarchol-Balter.
+Agency: NSF.
+GrantNo: ITR-0313148. DivisionofComputerandCommunicationFoundations.
+Duration: August’03-July’07.
+Amount: $280,000.
+Support: 8%SU.
+CenterNo: 10575.1.1120449.
+Title: SiebelFellowship.
+PI: AdamWierman(mygraduatestudent).
+Duration: September’06-September’07.
+Title: ExternalQoSManagementSystemforBackendDatabaseServers.
+PI: MorHarchol-Balter.
+Agency: TheTechnologyCollaborativeofPittsburgh.
+Duration: August’05-August’06.
+Amount: $188,550.
+Support: 33%SU.
+CenterNo: 13821.1a.1010629.
+Title: AnalysisofCycleStealingandotherProblemsvianewDimensionalityReductionApproach.
+PI: MorHarchol-Balter.
+Agency: NSF.
+GrantNo: CCR-0311383. DivisionofComputerandCommunicationFoundations. TheoryofComputing.
+Duration: July’03-July’06.
+Amount: $150,000.
+Support: 25%SU.
+CenterNo: 10372.1.1120427.
+Title: NSFPhDGraduateFellowshipforStudent.
+PI: AdamWierman(mygraduatestudent).
+Agency: NSF.
+Duration: July’03-July’06.
+Amount: 3yearsgraduatestudentsupport.
+38
+Title: QOSforOnlineShopping: ProvidingPrioritybySchedulingtheDatabase.
+PI: MorHarchol-Balter(withNatassaAilamaki,Co-PI)
+Agency: PittsburghDigitalGreenhouse.
+Duration: August’03-August’05.
+Amount: $265,192.
+Support: 33%SU.
+CenterNo: 10363.1.1010366.
+Title: IBMFacultyAwardwithPhDGraduateFellowshipforStudent.
+PI: BiancaSchroeder(mygraduatestudent).
+Agency: IBM.
+Duration: September’03-September’05.
+Amount: 2yearsgraduatestudentsupport.
+Title: ITR:ExploitingRemoteInfrastructureforMobileInformationAccess.
+PI: M.Satyanarayanan(MorHarchol-Balter,Co-PI).
+Agency: NSF.
+GrantNo: ITRANI-0081396. DivisionofComputerandNetworkSystems.
+Duration: September’00-September’05.
+Amount: $448,820.
+Support: 33%SU.
+CenterNo: 6748.1.1120092.
+Title: RunningWebServersunderOverload.
+PI: MorHarchol-Balter.
+Agency: PittsburghDigitalGreenhouse.
+Duration: August’01-August’02.
+Amount: $200,500.
+Support: 50-100%AY.
+CenterNo: 6737.1.1010099.
+Title: ConnectionSchedulinginWebServers.
+PI: MorHarchol-Balter.
+Agency: PittsburghDigitalGreenhouse.
+Duration: August’00-August’01.
+Amount: $200,075.
+Support: 67-100%SU.
+CenterNo: 4737.1.1010099.
+Title: FacultyGift.
+PI: MorHarchol-Balter.
+Agency: EMC2Corporation.
+Duration: April’01-March’04.
+Amount: $100,000.
+Support: 0-22%AY.
+CenterNo: 8236.1.1010272.
+39
+Title: IBMFacultyAwardwithPhDGraduateFellowshipforStudent.
+PI: NikhilBansal(mygraduatestudent).
+Agency: IBM.
+Duration: September’01-September’03.
+Amount: 2yearsgraduatestudentsupport.
+Title: PostdoctoralFellowshipMathematicalSciences.
+PI: MorHarchol-Balter.
+Agency: NSF.
+GrantNo: 9627445.
+Duration: September’96-August’00.
+Support: PostdoctoralResearchFellowshipStipend.
+INDUSTRYEXPERIENCE
+2023-2024 CollaboratingwithGoogleonCapacityProvisioning.
+2020-2024 CollaboratingwithGoogleonExecutionEconomy.
+2019-2023 CollaboratingwithGoogleonBorgScheduling.
+2021-2022 CollaboratingwithVoltrononDatabaseScheduling.
+2019-2021 CollaboratingwithFacebookonCachingSystems.
+2017-2019 CollaboratingwithMicrosoftonWebCaching.
+2016-2018 CollaboratingwithAkamaionCDNCachingAlgorithms.
+2015-2016 CollaboratingwithGoogleonMeetingTailQoSGuaranteesforSharedNetworkedStorage.
+2008-2016 CollaboratingwithIntelResearch-PittsburghonDataCenterPowerManagement(MikeKozuch).
+2012-2014 CollaboratingwithMicrosoftResearch-CambridgeonPrioritizingMixedWorkloads(EnoThereska).
+2011-2014 CollaboratingwithMicrosoftResearch-NewEnglandonPricingandQueueing(JenniferChayes).
+2009-2011 CollaboratingwithIBMonCycleStealingAnalysis.
+2009-2010 CollaboratingwithYahooonBuildingaPower-EfficientLoadBalancer.
+2009-2010 CollaboratingwithGoogleonCo-schedulingbatchandproductionworkloads.
+2007-2009 CollaboratingIBMT.J.WatsonLabonOptimalPowerManagement(JeffKephart).
+2005-2006 SupportedbyIBMCorporation,SeagateTechnologies,SpinnakerNetworks,MayaDesign,
+40
+andCiscoTechnologiesthroughTheTechnologyCollaborativeofPittsburgh(TTC)grant.
+Quarterlymeetings.
+2003-2005 SupportedbyIBMCorp. andSeagateTechnologiesthroughPittsburghDigitalGreenhousegrant.
+Quarterlymeetings.
+2001-2003 SupportedbySpinnakerNetworks,Inc. throughPittsburghDigitalGreenhousegrant.
+QuarterlyMeetings.
+2001-2003 SupportedbygiftfromEMC2Corporation. Contacts: PeterLauterbach,RicWheeler.
+2001-2005 MystudentssupportedbyIBMgraduatefellowships.
+CollaboratewithmanypeopleatIBMonresearch.
+2000-2001 SupportedbyCiscoSystems,throughPDGgrant. Contact: JohnWakerley. Quarterlymeetings.
+1990-1991 EmployedatNASAAmesResearchCenter,MoffitField,CA.
+UsedNewton’sMethodforFractalApproximationtogenerateIteratedFunctionSystem
+(IFS)forpiecewiselineargraphs. Developedrotationandsizeinvariantfiltersforimage
+recognitionusingsimulatedannealing.
+1988-1990 EmployedatGTEGovernmentSystems,Needham,MA.
+MathematicianforAdvancedMachineIntelligenceTechnologygroup. Responsiblefor
+theory,design,andimplementationoftheIntelahedronTM,apatternclassificationsystem
+basedonlinearandnon-linearframe-of-referencetransformations. Workexperienceincluded:
+1. Researchinganddevelopingeigendecompositiontransformationstoforceseparationof
+classes,reducedimensionality,andidentifythecharacteristicfeaturesofaclass.
+2. Researchingfastalgorithmsforobtainingtheeigensystemofanautocorrelation
+matrixforaclassofinputsignals.
+3. ApplyingtheIntelahedronTMto: seismicdataclassification,undergroundoildetection,
+recognitionofmixedsignalswithnoise,decisionmakinginatacticalbattlefield.
+Co-authoredwithDr. AngelDeCegamaseveralhundredpagereport,TheIntelahedronTM
+(GTEProprietary),detailingmathematicaltheory,algorithms,andimplementation.
+Summer87 EmployedatAT&TBellLaboratories,MurrayHill,NJ.
+Developedobject-orientedsoftwaretoolsinSCHEMEforconstraint-basedpropagation
+networks,includinggraphicsanddebuggingtools.
+TEACHINGEXPERIENCE (Linkstoclassesareavailablefrommywebpage.)
+15-829 PerformanceModelingToolsforComputerSystemsResearchers
+NEWgraduateclass. ThisclassisaimedatcomputersystemsPhDstudentswhoarealreadyinvolved
+indoingsystemsresearch,wherethegoalistoimprovetheperformanceofthesystem. Improving
+performancecouldinvolvereducingresponsetimes,providingclass-basedresponsetimedifferentiation,
+improvingtailbehavior,schedulingtofavorcertainjobs,reducingloss/droprate,increasingthroughput,
+increasingrevenue,reducingpowerorothercosts,loadbalancing,etc. Thisclassrequireszeromath
+background. Thefocusoftheclassisonlearninghowtotranslatetheresearchbeingdonebythe
+CSPhDstudentintotheappropriatequeueingnetworkframework. Thereisamajoremphasis
+onguidedresearchperformanceimprovements.
+41
+Fall2022–Reviewswereall5.0outof5.0.
+15-359 ProbabilityandComputing
+NEWUndergraduateclassinprobabilityforcomputersciencemajors.
+Probabilitytheoryhasbecomeindispensableincomputerscience. Inareassuchasartificial
+intelligenceandcomputersciencetheory,probabilisticmethodsandideasbasedonrandomization
+arecentral. Inotherareassuchasnetworksandsystems,probabilityisbecomingan
+increasinglyusefulframeworkforhandlinguncertaintyandmodelingthepatternsofdata
+thatoccurincomplexsystems. Thiscoursegivesanintroductiontoprobabilityasitis
+usedincomputersciencetheoryandpractice,drawingonapplicationsandcurrentresearch
+developmentsasmotivationandcontext. Topicsincludecombinatorialprobabilityandrandom
+graphs,heavytaildistributions,concentrationinequalities,variousrandomizedalgorithms,
+samplingrandomvariablesandcomputersimulation,the“probabilisticmethod”applied
+tographtheoryproblems,andMarkovchainsandtheirmanyapplications,from
+Websearchenginestomodelsofnetworkprotocols.
+Fall2004–Co-taughtwithJohnLafferty. Myreviewsaveraged4.7outof5.0.
+Spring2006–Co-taughtwithJohnLafferty. Myreviewsaveraged4.8outof5.0.
+Fall2007–Co-taughtwithRyanO’Donnell. Myreviewsaveraged4.9outof5.0.
+Fall2008–Co-taughtwithRyanO’Donnell. Myreviewsaveraged4.9outof5.0.
+Spring2012–Co-taughtwithKlausSutner. Myreviewsaveraged4.6outof5.0.
+Spring2013–Co-taughtwithVictorAdamchik. Myreviewsaveraged4.7outof5.0.
+Fall2013–Taughtalone. Reviewsaveraged4.95outof5.0.
+Spring2015–Taughtalone. Reviewsaveraged4.8outof5.0.
+Fall2016–Taughtalone. Reviewsaveraged4.7outof5.0.
+Spring2018–Co-taughtwithRashmiVinayak. Myreviewsaveraged5.0outof5.0.
+15-259 Fall2018–15-359classchangesnameto15-259. Enrollmentjumpsto75-100students.
+Spring2019–Taughtalone. Reviewsaveraged4.9outof5.0.
+Spring2020–Co-taughtwithWeinaWang. Myreviewsaveraged4.9outof5.0.
+Spring2021–Co-taughtwithWeinaWang. Myreviewsaveraged4.8outof5.0.
+Spring2022–Co-taughtwithWeinaWang. Myreviewsaveraged4.9outof5.0.
+Spring2024–Co-taughtwithWeinaWang. Myreviewsaveraged4.9outof5.0.
+Fall2024–Co-taughtwithFerasSaad. Myreviewsaveraged4.95outof5.0.
+Spring2025–Co-taughtwithWeinaWang. Myreviewsaveraged4.9outof5.0.
+15-849a PerformanceAnalysisandDesignofComputerSystems
+Highly-intensivegraduateclassforcomputersystemsstudents. Thecourseemphasizes
+techniquestohelponequicklymakedesigndecisions,suchas: Whichdeviceisworthspeeding-up?
+Isitbettertouseonefastmachineorseveralslowones? Howshouldthemachinesbeconfigured?
+Whichloadbalancingalgorithmwillmaximizethroughput? Whichtaskassignmentpolicywill
+minimizedelays? Forminimizingpacketloss,shouldweincreasethebuffersize,orbuya
+fasterdevice? Howdovariousschedulingpoliciescompare? Techniquestaughtinclude:
+back-of-the-envelopeanalysis,Markovchains,networksofqueues,queueingtheorybasics
+measurementofsystems,creatingmodelsfrommeasurements,confidenceintervals,simulation
+techniques,workingwithheavy-taileddistributions,aswellastaskassignmentpolicies
+andschedulingforserverfarms. Studentreviewswrite: “Takethisclassatallcost!”
+Fall1998–IdevelopedthisclassatMITandpassedoutmyhand-writtenlecturenotes.
+Reviewsaveragedover6.6outof7.0.
+Highestratingoutofthe134EECSclassestaughtatMITduringthepastyear.
+Fall1999–FirsttimetaughtatCMU.Iproduced24latexedlectures,each15-20pages.
+Produced7latexedhomeworks(each10problems)withcompletesolutions.
+42
+Allmaterialsareavailableonmywebpage,andareusedby2000studentsand
+facultyworldwide. Ialsoanswerpeople’squestionsdailyregardingthenotes.
+Reviewsaveraged5.0outof5.0ineverycategory.
+Fall2000–Reviewsaveraged4.8outof5.0.
+Fall2002–Reviewsaveraged4.8outof5.0.
+CourseadoptedasREQUIREMENTforallTepperOMstudentsstarting2002.
+15-857a Fall2006–15-849aclasschangesnameto15-857a. Jointwith47-774and47-775inTepper.
+Reviewsaveraged4.8outof5.0.
+Fall2007–Reviewsaveraged4.9outof5.0.
+Fall2009–Reviewsaveraged5.0outof5.0.
+Fall2011–Reviewsaveraged4.8outof5.0.
+Fall2012–Reviewsaveraged5.0outof5.0.
+Fall2014–Reviewsaveraged5.0outof5.0.
+Fall2015–Reviewsaveraged4.8outof5.0.
+Fall2017–Reviewsaveraged4.9outof5.0.
+Fall2019–Reviewsaveraged4.8outof5.0.
+Fall2021–Reviewsaveraged4.9outof5.0. Co-taughtwithWeinaWang.
+Fall2023–Reviewsaveraged4.9outof5.0.
+Fall2025–Reviewsaveraged5.0outof5.0.
+15-849b TheoryofPerformanceModeling.
+Moretheoreticalversionof15-849a,gearedtowardsstudentswishingtodoresearchin
+queueingtheory. Thegoalofqueueingtheoryhasalwaysbeentoimprovethedesign/performance
+ofsystems,e.g. networks,servers,memory,distributedsystems,etc.,byfindingsmarterschemes
+forallocatingresourcestojobs. Inthisclasswewillstudythebeautifulmathematicaltechniques
+usedinqueueingtheory,includingstochasticanalysis,discrete-timeandcontinuous-timeMarkov
+chains,renewaltheory,BCMPproduct-form,Laplacetransforms,supplementaryrandomvariables,
+fluidtheory,virtualwork,intensiveschedulingtheory,matrix-geometrictechniques,andmore.
+Throughoutweemphasizerealisticworkloads,inparticularheavy-tailedworkloads. Thetechniques
+studiedinthisclassareusefultostudentsinComputerScience,Mathematics,ACO,OR,
+StatisticsandEngineering. Thiscourseispackedwithopenproblems–problemswhichif
+solvedarenotjustinterestingtheoretically,butwhichhavehugeapplicabilitytothe
+designofcomputersystemstoday.
+Fall2001–Firstintroductionofthisclass. Creatednewsetof24lectures,
+withabout50%overlapto15-849a. Lecturenotesareonwebpageandareusedby
+researchersworld-wide. Coursereviewsaveraged4.8outof5.0.
+Fall2003–Reviewsaveraged5.0outof5.0.
+Spring2005–Reviewsaveraged4.7outof5.0.
+15-858a AdvancedTopicsinStochasticProcesses
+Advancedtopicsinclude: StochasticOrderings,Heavy-tailedWorkloads,RateConservationLaw,
+Transform-basedAnalysisofQueueingTheory,SchedulingTheory,FluidAnalysis,TailBehaviors,
+Matrix-AnalyticMethods,andmore.
+Spring2007–Co-taughtwithAlanScheller-Wolf(TepperSchool). Reviews: 5.0outof5.0.
+Spring2017–Co-taughtwithAlanScheller-Wolf(TepperSchool)under47-776.
+15-441 ComputerNetworking
+Courseemphasizesbasicperformanceandengineeringtradeoffsinthedesignandimplementation
+ofcomputernetworks. Tomaketheissuesmoreconcrete,theclassincludesseveralmulti-week
+43
+projectsrequiringsignificantdesignandimplementation. Thegoalisforstudentstolearn
+notonlywhatcomputernetworksareandhowtheyworktoday,butalsowhytheyaredesigned
+thewaytheyareandhowtheyarelikelytoevolveinthefuture. Examplesaredrawnfrom
+theInternet. Topicsinclude: congestion/flow/errorcontrol,routing,addressing,naming,
+multi-casting,switching,internetworking,andnetworksecurity.
+Spring2001–co-taughtwithPeterSteenkiste. Reviewsaveraged4.59outof5.0.
+Spring2002–co-taughtwithPeterSteenkiste. Reviewsaveraged4.83outof5.0.
+Fall2002–co-taughtwithSriniSeshan. Reviewsaveraged4.8outof5.0.
+21-127 ConceptsofMathematics
+Thiscourseintroducesthebasicconcepts,ideasandtoolsinvolvedindoingmathematics.
+Assuch,itsmainfocusisonpresentinginformallogic,andthemethodsofmathematicalproof.
+Thesesubjectsarecloselyrelatedtotheapplicationofmathematicsincomputerscience.
+Topicsdiscussedincludeabasicintroductiontoelementarynumbertheory,induction,
+thealgebraofsets,equivalencerelations,congruences,recurrenceequationsandfunctions.
+Spring2014–co-taughtwithMikePicollelli. Myreviewsaveraged4.7outof5.0.
+Enrollmentof360studentsinourtwosections,plusanother75inanadditionalsection.
+15-820b SQUALLSeminar–SchedulingandQUeueingAroundLunchtime
+Graduate-levelresearchseminarontopicsinschedulingtheory. Studentsreadandpresent
+recentpapersaswellastheirownresearchresults.
+Taughtforthebenefitofgraduatestudents,sothattheycangetfeedbackontheirspeakingskills.
+Attendedbystudents,multiplefaculty,andpostdocs.
+2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,
+2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026.
+TEACHINGASSISTANTEXPERIENCE
+Fall1993 GraduateStudentInstructor,U.C.Berkeley.
+UndergraduateComputerScienceAlgorithms
+Allreviewsavailableuponrequest. Reviewsaveraged5.0outof5.0.
+Winner3teachingawards.
+Fall1987 TeachingAssistant,BrandeisUniversity.
+UndergraduateTheoryofComputation.
+Allreviewsavailableuponrequest. Reviewsaveraged5.0outof5.0.
+STUDENTADVISING
+Postdocs:
+1. DanielBerger–2017-2019. ResearcheratMicrosoftResearch,Seattle,WA.AlsoAffiliateProfessoratU.
+Washington.
+MyPh.D.Students:
+44
+1. Bianca Schroeder – entered Fall 1999. Proposed May 2003. Graduated December 2005. Professor at
+UniversityofToronto,ComputerScienceDepartment.
+2. Takayuki Osogami – entered Fall 2001. Proposed April 2004. Graduated August 2005. Researcher at
+IBMTokyoResearchLabs.
+3. AdamWierman–enteredFall2001. ProposedFeb2005. GraduatedMay2007. Winnerof2007CMU
+SCSDistinguishedDissertationAward. WinnerSIGMETRICSRisingStarAward. ProfessorandDepart-
+mentHeadatCaltech,ComputerScienceDepartment.
+4. David McWherter – entered Fall 2001. Proposed April 2006. Graduated Aug 2008. Researcher at
+Google,SeattleLab.
+5. VarunGupta–enteredFall2004. ProposedOctober2010. GraduatedMay2011. Associateprofessorat
+UniversityofChicagoBoothSchoolofBusiness.
+6. Anshul Gandhi – entered Fall 2007. Proposed November 2010. Graduated July 2013. Winner SPEC
+DissertationAward. WinnerSIGMETRICSRisingStarAward. AssociateprofessoratSUNYStonyBrook,
+ComputerScienceDepartment.
+7. Sherwin Doroudi – entered Fall 2010. Proposed October 2015. Graduated May 2016. Winner 2016
+WilliamW.CooperDoctoralDissertationAwardinManagementorManagementScience. Assistantpro-
+fessoratUniversityofMinnesota,ISyEDepartment.
+8. KristenGardner–enteredFall2012. ProposedDecember2015. GraduatedMay2017. Assistantprofes-
+soratAmherstCollege,MA,ComputerScienceDepartment.
+9. TimothyZhu–enteredFall2011. ProposedNovember2015. GraduatedMay2017. Assistantprofessor
+atPennStateUniversity,StateCollege,PA,ComputerScienceDepartment.
+10. Ziv Scully – entered Fall 2016. Proposed 2021. Graduated Aug 2022. Assistant professor at Cornell
+University,Ithaca,NY,IEORDepartment.
+11. BenBerg–enteredFall2016. Proposed2021. GraduatedAug2022. AssistantprofessoratUNC-Chapel
+Hill,ComputerScienceDepartment.
+12. Isaac Grosof – entered Fall 2017. Proposed 2022. Graduated Aug 2023. Assistant professor at North-
+westernUniversity,ISyEDepartment.
+13. ZhouziLi–enteredFall2023.
+14. KeerthanaGurushankar–switchedtomeinSept2024.
+MyMSStudents:
+1. YiZhuang–enteredFall2008. GraduatedwithMSDecember2010.
+Ph.D.ThesisCommitteeMember:
+1. ChrisLumb–Graduated2004–ECE.
+2. AtulBhandari–Graduated2006–TepperSchool(OperationsManagement).
+3. EnoThereska–Graduated2007–ECE.
+4. CarolFrieze–Graduated2007–CS.
+45
+5. YingXu–Graduated2015–TepperSchool(OperationsManagement).
+6. AlexeyTumanov–Graduated2016–ECE.
+7. LeelaNageswaran–Graduated2018–TepperSchool(OperationsManagement).
+8. DanielBerger–Graduated2018–CS,UniversityofKaiserslautern,Germany.
+9. StephenMueller–Graduated2018–CS.
+10. IgorKadota–Graduated2020–CS,MIT.
+11. NaamaBen-David–Graduated2020–CS,CMU.
+12. TuhinChoudhury–Graduated2024–ECE,CMU.
+13. JalaniWilliams–Graduated2024–CS,CMU.
+14. YigeHong–Graduating2026–CS,CMU.
+UndergraduateResearchersSupervised:
+1. AshleyHu–2024-2025.
+2. CindyZhu–2024-2025.
+3. VanshikaChowdhary–2022.
+4. NaveenPai–2020-2021.
+5. SeanZhang–2020-2021.
+6. KunheYang–2019-2021.
+7. Jacky(Sheng)Zhou–2018-2019.
+8. CorwindeBoor–2017-2018.
+9. TanayVakharia–2017.
+10. HaotianJiang–2017.
+11. SamZbarsky–2014-2015.
+12. AdrianTrejoNunez–2011-2012.
+13. KevinZhao–2010-2011.
+14. VictorMarmol–2010-2011.
+15. RamRaghunathan–2010-2011. ThesiswonAlumniAwardforUndergraduateExcellence.
+16. JustinHurley–2008-2009.
+17. MichelleBurroughs–2008-2009.
+18. GwendolynStockman–2005-2006.
+19. AlexFishman–2005-2006.
+20. SoneshSurana–1999-2000.
+46

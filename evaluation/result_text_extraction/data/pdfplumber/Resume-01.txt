@@ -1,0 +1,422 @@
+Eric Nalisnick
+nalisnick@jhu.edu enalisnick.github.io
+Academic Employment
+AssistantProfessor,TenureTrack JohnsHopkinsUniversity
+DepartmentofComputerScience March2024-present
+AssistantProfessor,TenureTrack UniversityofAmsterdam
+AmsterdamMachineLearningLab September2020-February2024
+PostdoctoralResearchAssociate UniversityofCambridge
+ComputationalandBiologicalLearningLaboratory September2018toSeptember2020
+Industrial Employment
+ResearchScientist GoogleDeepMind
+Parttime,onedayperweek(20%FTE) February2019toJanuary2020
+ResearchScientistIntern GoogleDeepMind
+Supervisor: BalajiLakshminarayanan Summer2018
+AppliedScientistIntern Amazon
+Supervisors: VijaiMohan,EimanElnahrawy Fall2016
+ResearchIntern Twitter
+Supervisor: HugoLarochelle Summer2016
+ResearchIntern Microsoft
+Supervisors: RichCaruana,NickCraswell Summer2015
+ResearchScientistIntern Amazon
+Supervisors: VijaiMohan,RahulBhagat Summer2014
+Education
+Ph.D.ComputerScience 2013-2018
+UniversityofCalifornia,Irvine
+Dissertation: OnPriorsforBayesianNeuralNetworks
+Advisor: PadhraicSmyth
+M.S.ComputerScience 2012-2013
+LehighUniversity
+Thesis: AutomaticMethodsforTrackingSentimentDynamicsinPlays
+Advisor: HenryS.Baird
+EricNalisnick 2
+B.S.ComputerScience&EnglishLiterature 2008-2012
+LehighUniversity
+HonorsThesis: ACombinatorialExplanationforaConjectureofFomin&Zelevinsky
+Advisor: MarkSkandera
+Honors and Awards
+JoelDeanExcellenceinTeachingAward,JHUComputerScienceDept. 2026
+BestPaper(2of38acceptedpapers),QUESTIONWorkshopatICLR 2025
+Oralpresentation(8%ofacceptedpapers),ECCV 2024
+OutstandingStudentPaper(assupervisor,7of546acceptedpapers),AISTATS 2024
+GoogleAwardforInclusionResearch 2024
+NotablePaper(32of496acceptedpapers),AISTATS 2023
+VeniLaureate,DutchResearchCouncil 2021
+Scholar,EuropeanLabforLearningandIntelligentSystems(ELLIS)Society 2021
+Top/BestReviewer NeurIPS2017,ICML2019,ICML2020
+HonorableMentionforBestPosterAward,SoCalMLSymposium 2017
+Academic Supervision
+CurrentPhDStudents/Candidates
+ChiZhang(withKimiaGhobadi) JohnsHopkinsUniversity,2025-
+XiWang JohnsHopkinsUniversity,2025-
+AndreaWynn(withAnqiLiu) JohnsHopkinsUniversity,2024-
+RajeevVerma(withChristianNaesseth,VolkerFischer) UniversityofAmsterdam,2023-
+AlexanderTimans UniversityofAmsterdam,2022-
+(withChristianNaesseth,KasparSakmann,Christoph-NikolasStraehle)
+MetodJazbec(withDanZhang) UniversityofAmsterdam,2022-
+MonaSchirmer(withDanZhang) UniversityofAmsterdam,2022-
+DharmeshTailor UniversityofAmsterdam,2021-
+SabaAmiri(withAdamBelloumandSanderKlous) UniversityofAmsterdam,2021-
+PutraManggala(withHolgerHoos) UniversityofAmsterdam,2021-
+CurrentDoctorofEngineeringCandidates
+MatthewRenze JohnsHopkinsUniversity,2025-
+EricNalisnick 3
+GraduatedPhDCandidates
+UrjaKhurana(withAntskeFokkens) VrijeUniversityAmsterdam
+Thesis: FromConcepttoImpact: TowardMoreRobustLanguageModelDeployment 2020-2025
+Firstpositionaftergraduation: PostdoctoralResearcher,DelftUniversityofTechnology(TUDelft)
+JamesAllingham(externaladvisorviaELLIS) UniversityofCambridge
+Thesis: ImprovingDeepLearningwithProbabilisticApproaches 2019-2024
+Firstpositionaftergraduation: ResearchScientist,GoogleDeepMind
+MrinankSharma(withTomRainforthandYeeWhyeTeh) UniversityofOxford
+Thesis: UncertaintyEstimationwithSmallandLargeModels 2020-2024
+Firstpositionaftergraduation: ResearchScientist,Anthropic
+MastersStudents
+JohnsHopkinsUniversity: ZiyaoMou(2025),RishiMore(2025),HanLiu(2024-2025),YiziruiFang(2024-
+2025),RunzhouChen(2024),KunlunLi(2024)
+University of Amsterdam: Jaap Stefels (2023), Thomas Jurriaans (2023), Mark Fokkema (2023), Arsen
+Sheverdin(2023),NilsLehmann(2022),ShuaiWang(2022),RajeevVerma(2022),DaniëlNobbe(2021).
+VisitingStudents
+UniversityofAmsterdam: RutgerHendrix(2023),JavierAntorán(2022),DanielBarrejón(2022).
+Teaching
+MachineLearning: DeepLearning (Graduate) JohnsHopkinsUniversity,2025-present
+Human-in-the-LoopMachineLearning (Graduate) JohnsHopkinsUniversity,2024-present
+Human-in-the-LoopMachineLearning (Graduate) UniversityofAmsterdam,2023
+MachineLearning I (Graduate) UniversityofAmsterdam,2023
+IntroductiontoMachineLearning (Undergraduate) UniversityofAmsterdam,2020-2022
+BayesianDeepLearning Module,DeepLearningII (Graduate) UniversityofAmsterdam,2022-2023
+ProjectinAI (Graduate) UniversityofAmsterdam,2021
+Professional Service
+Organization/LeadershipRoles
+AdvisoryCommitteeonDataScienceandAI,AmericanStatisticalAssociation 2024-present
+AISafety: TowardsTrustworthyAgenticAI,UAIWorkshop 2026
+TractableProbabilisticModeling,UAIWorkshop 2022-2023
+AnomalyDetectionforScientificDiscovery,VirtualSeminarSeries 2021-2022
+EricNalisnick 4
+BayesianDeepLearning,NeurIPSWorkshop 2019,2021
+BayesianDeepLearning,ELLISWorkshop/NeurIPSMeetup 2020
+AreaChair/SeniorProgramCommittee
+NeuralInformationProcessingSystems(NeurIPS) 2021-present
+InternationalConferenceonMachineLearning(ICML) 2021-present
+UncertaintyinArtificialIntelligence(UAI) 2021-2025
+ArtificialIntelligenceandStatistics(AIStats) 2022
+InternationalConferenceonLearningRepresentations(ICLR) 2021
+JournalReviewing
+AmericanStatisticalAssociation(JASA) 2020-present
+MachineLearningResearch(JMLR) 2018-present
+JournalofEconometrics 2022
+AdvancesinStatisticalAnalysis 2020
+NeuralProcessingLetters 2019
+ConferenceReviewing
+ConferenceonComputerVisionandPatternRecognition(CVPR) 2024
+NeuralInformationProcessingSystems(NeurIPS) 2016-2021
+InternationalConferenceonLearningRepresentations(ICLR) 2018-2024
+InternationalConferenceonMachineLearning(ICML) 2018-2021
+ArtificialIntelligenceandStatistics(AIStats) 2019-2021
+UncertaintyinArtificialIntelligence(UAI) 2019-2020
+HybridHuman-ArtificialIntelligence(HHAI) 2022
+AssociationfortheAdvancementofArtificialIntelligence(AAAI) 2020-2021
+InternationalJointConferenceonArtificialIntelligence(IJCAI) 2019
+GrantReviewing
+JohnsHopkinsProvost’sUndergraduateResearchAward 2026
+EuropeanResearchCouncil 2025
+USArmyResearchOffice 2024
+JohnsHopkinsDiscoveryAwards 2024
+U.S.-IsraelBinationalScienceFoundation 2023
+EricNalisnick 5
+Institutional Service
+Summerinternshipprogramcommittee,JHUDataScience&AIInstitute 2026-present
+ComputerSciencecurriculumcommittee,JohnsHopkinsUniversity 2024-present
+DataScience&AIfacultyhiringcommittee,JohnsHopkinsUniversity 2025-2026
+CognitiveSciencefacultyhiringcommittee,JohnsHopkinsUniversity 2024
+AIeducationprogramcommittee,UniversityofAmsterdam 2021-2024
+Facultyhiringcommittee,MachineLearningLab,UniversityofAmsterdam 2021
+Doctoral Committees
+DissertationDefenseExaminations:
+AlainRyser,ETHZurich 2025
+IncorporatingDomainKnowledgeinSelf-supervisedRep.LearningforClusteringandAnomalyDetection
+TeodoraPandeva,UniversityofAmsterdam 2025
+MachineLearningforMulti-SourceDataIntegration
+FedericoBergamin,TechnicalUniversityofDenmark 2024
+AdvancesinDeepGenerativeModels,ApproximateInference,andtheirApplications
+JakobHavtorn,TechnicalUniversityofDenmark 2024
+UncertaintyandtheMedicalInterview
+BertrandCharpentier,TechnicalUniversityofMunich 2024
+UncertaintyEstimationforIndependentandNon-IndependentData
+KamilDeja,WarsawUniversityofTechnology 2023
+DataRepresentationsinGenerativeModelling
+ChangYongOh,UniversityofAmsterdam 2023
+BayesianOptimizationonNon-ConventionalSearchSpaces
+EmielHoogeboom,UniversityofAmsterdam 2023
+NormalizingFlowsandDiffusionModelsforDiscreteandGeometricData
+ShiHu,UniversityofAmsterdam 2022
+Uncertainty,RobustnessandSafetyinArtificialIntelligence
+DoctoralCandidacyExaminations(NotasAdvisor): LeonardBereska(Univ.ofAmsterdam,2023),Ilze
+AmandaAuzina(Univ.ofAmsterdam,2023),ZhengpingJiang(JHU,2025),GinaWong(JHU,2025),Aayush
+Mishra(JHU,2025),RichardWilliams(UCLA,2025),HaManhBui(JHU,2026)
+Publications
+*Denotesequalcontribution
+EricNalisnick 6
+JournalArticles
+1. X.WangandE.Nalisnick. AreVisionLanguageModelsRobusttoClassicUncertaintyChallenges?
+InTransactionsonMachineLearningResearch(TMLR),2026.
+2. Y.FangandE.Nalisnick. LearningtoDeferwithanUncertainRejectorviaConformalPrediction.
+InTransactionsonMachineLearningResearch(TMLR),2026.
+3. M.Schirmer,D.Zhang,andE.Nalisnick. TemporalTest-TimeAdaptationwithState-SpaceModels.
+InTransactionsonMachineLearningResearch(TMLR),2025. Journal-to-Conference(J2C)Certification
+((cid:24)10%ofacceptedpapers).1
+4. R.Williams,E.Nalisnick,andA.Holbrook. ScalableGenerativeModelingofWeightedGraphs. In
+TransactionsonMachineLearningResearch(TMLR),2025.
+5. L. Manduchi, K. Pandey, C. Meister, R. Bamler, R. Cotterell, S. Däubener, S. Fellenz, A. Fischer,
+T. Gärtner, M. Kirchler, M. Kloft, Y. Li, C. Lippert, G. de Melo, E. Nalisnick, B. Ommer, R. Ran-
+ganath,M.Rudolph,K.Ullrich,G.VandenBroeck,J.E.Vogt,Y.Wang,F.Wenzel,F.Wood,S.Mandt,
+andV.Fortuin. OntheChallengesandOpportunitiesinGenerativeAI.InTransactionsonMachine
+LearningResearch(TMLR),2025.
+6. N. Lehmann, N. M. Gottschling, J. Gawlikowski, A. Stewart, S. Depeweg, and E. Nalisnick. Light-
+ningUQBox: UncertaintyQuantificationforNeuralNetworks. JournalofMachineLearningResearch
+(JMLR),MachineLearningOpenSourceSoftware(MLOSS)track,2025.
+7. S.Amiri,E.Nalisnick,A.Belloum,S.Klous,L.Gommans. PracticalModellingofMixed-TailedData
+withNormalizingFlows. InTransactionsonMachineLearningResearch(TMLR),2024.
+8. E.Nalisnick, P.Smyth, andD.Tran. ABriefTourofDeepLearningfromaStatisticalPerspective.
+AnnualReviewofStatisticsandItsApplication,2023.
+9. G. Papamakarios*, E. Nalisnick*, D. J. Rezende, S. Mohamed, and B. Lakshminarayanan. Normal-
+izingFlowsforProbabilisticModelingandInference. JournalofMachineLearningResearch(JMLR),
+2021.
+ConferenceArticles
+10. M.Schirmer*,M.Jazbec*,C.A.Naesseth,andE.Nalisnick. MonitoringRisksinTest-TimeAdapta-
+tion. InAdvancesinNeuralInformationProcessingSystems(NeurIPS),2025.
+11. A. Carbo and E. Nalisnick. Improving Handshape Representations for Sign Language Processing:
+A Graph Neural Network Approach. In Proceedings of Empirical Methods in Natural Language Pro-
+cessing (EMNLP),MainConferencetrack,2025.
+12. A.Timans*,R.Verma*,E.Nalisnick,andC.A.Naesseth. OnContinuousMonitoringofRiskViola-
+tions under UnknownShift. In Proceedings of the 41st Conferenceon Uncertainty in ArtificialIntelli-
+gence (UAI),2025.
+13. M. Jazbec, E. Wong-Toi, G. Xia, D. Zhang, E. Nalisnick, and S. Mandt. Generative Uncertainty in
+DiffusionModels. InProceedingsofthe41stConferenceonUncertaintyinArtificialIntelligence(UAI),
+1DistinctionallowsthepapertobepresentedatNeurIPS,ICML,orICLR.
+EricNalisnick 7
+2025.
+14. R. Verma, V. Fischer, and E. Nalisnick. On Calibration in Multi-Distribution Learning. In Proceed-
+ingsoftheACMConferenceonFairness,Accountability,andTransparency (FAccT),2025.
+15. D. Tailor, A. Correia, E. Nalisnick, and C. Louizos. Approximating Full Conformal Prediction for
+Neural Network Regression with Gauss-Newton Influence. In Proceedings of the 13th International
+ConferenceonLearningRepresentations(ICLR),2025.
+16. O. Rønning, E. Nalisnick, C. Ley, P. Smyth, and T. Hamelryck. ELBOing Stein: Variational Bayes
+withSteinMixtureInference. InProceedingsofthe13thInternationalConferenceonLearningRepre-
+sentations(ICLR),2025.
+17. A. Timans, C.-N. Straehle, K. Sakmann, C. A. Naesseth, and E. Nalisnick. Max-Rank: Efficient
+Multiple Testing for Conformal Prediction. In Proceedings of the 28th International Conference on
+ArtificialIntelligenceandStatistics(AISTATS),2025.
+18. U.Khurana,E.Nalisnick,andA.Fokkens. DefVerify: DoHateSpeechModelsReflectTheirDataset’s
+Definition? In Proceedings of the 31st International Conference on Computational Linguistics (COL-
+ING),2025.
+19. M. Jazbec*, A. Timans*, T. H. Veljković, K. Sakmann, D. Zhang, C. A. Naesseth, and E. Nalisnick.
+FastyetSafe: Early-ExitingwithRiskControl. InAdvancesinNeuralInformationProcessingSystems
+(NeurIPS),2024.
+20. J. U. Allingham, B. K. Mlodozeniec, S. Padhy, J. Antoran, D. Krueger, R. E. Turner, E. Nalisnick,
+J.M.Hernández-Lobato. AGenerativeModelofSymmetryTransformations. InAdvancesinNeural
+InformationProcessingSystems(NeurIPS),2024.
+21. U.Khurana,E.Nalisnick,A.Fokkens,andS.Swayamdipta. Crowd-Calibrator: CanAnnotatorDis-
+agreementInformCalibrationinSubjectiveTasks? InProceedingsofthe1stConferenceonLanguage
+Modeling (COLM),2024.
+22. A.Timans,C.-N.Straehle,K.Sakmann,andE.Nalisnick. AdaptiveBoundingBoxUncertaintiesvia
+Two-StepConformalPrediction. InProceedingsofthe18thEuropeanConferenceonComputerVision
+(ECCV),2024. Oralpresentation(8%ofacceptedpapers).
+23. M.Jazbec,P.Forré,S.Mandt,D.Zhang,andE.Nalisnick. Early-ExitNeuralNetworkswithNested
+Prediction Sets. In Proceedings of the 40th Conference on Uncertainty in Artificial Intelligence (UAI),
+2024.
+24. D.Tailor,A.Patra,R.Verma,P.Manggala,andE.Nalisnick. LearningtoDefertoaPopulation: A
+Meta-LearningApproach. InProceedingsofthe27thInternationalConferenceonArtificialIntelligence
+andStatistics(AISTATS),2024. Oralpresentation,outstandingstudentpaper(1%ofacceptedpapers).
+25. M. Jazbec, J. U. Allingham, D. Zhang, and E. Nalisnick. Towards Anytime Classification in Early-
+Exit Architectures by Enforcing Conditional Monotonicity. In Advances in Neural Information Pro-
+cessingSystems(NeurIPS),2023.
+26. D. Tailor, M. E. Khan, and E. Nalisnick. Exploiting Inferential Structure in Neural Processes. In
+Proceedingsofthe39thConferenceonUncertaintyinArtificialIntelligence (UAI),2023.
+EricNalisnick 8
+27. J. Antoran*, S. Padhy*, R. Barbano, E. Nalisnick, D. Janz, and J. M. Hernández-Lobato. Sampling-
+BasedInferenceforLargeLinearModels, withApplicationtoLinearisedLaplace. InProceedingsof
+the11thInternationalConferenceonLearningRepresentations(ICLR),2023.
+28. R. Verma*, D. Barrejón*, and E. Nalisnick. Learning to Defer to Multiple Experts: Consistent Sur-
+rogateLosses,ConfidenceCalibration,andConformalEnsembles. InProceedingsofthe26thInterna-
+tionalConferenceonArtificialIntelligenceandStatistics(AISTATS),2023.
+29. M. Sharma, S. Farquhar, E. Nalisnick, and T. Rainforth. Do Bayesian Neural Networks Need To
+BeFullyStochastic? InProceedingsofthe26thInternationalConferenceonArtificialIntelligenceand
+Statistics(AISTATS),2023. ‘Notable’oralpresentation(6%ofacceptedpapers).
+30. R.VermaandE.Nalisnick. CalibratedLearningtoDeferwithOne-vs-AllClassifiers. InProceedings
+ofthe39thInternationalConferenceonMachineLearning (ICML),2022.
+31. J. Antoran, D. Janz, J. U. Allingham, E. Daxberger, R. Barbano, E. Nalisnick, and J. M. Hernández-
+Lobato. AdaptingtheLinearisedLaplaceModelEvidenceforModernDeepLearning. InProceedings
+ofthe39thInternationalConferenceonMachineLearning (ICML),2022.
+32. E.Daxberger,E.Nalisnick*,J.U.Allingham*,J.Antoran*,andJ.M.Hernández-Lobato. Expressive
+yetTractableBayesianDeepLearningviaSubnetworkInference. InProceedingsofthe38thInterna-
+tionalConferenceonMachineLearning (ICML),2021.
+33. E.Nalisnick,J.Gordon,andJ.M.Hernández-Lobato. PredictiveComplexityPriors. InProceedings
+ofthe24thInternationalConferenceonArtificialIntelligenceandStatistics(AISTATS),2021.
+34. R. Pinsler, J. Gordon, E. Nalisnick, and J. M. Hernández-Lobato. Bayesian Batch Active Learning
+as Sparse Subset Approximation. In Advances in Neural Information Processing Systems (NeurIPS),
+2019.
+35. E. Nalisnick, J. M. Hernández-Lobato, and P. Smyth. Dropout as a Structured Shrinkage Prior. In
+Proceedingsofthe36thInternationalConferenceonMachineLearning (ICML),2019.
+36. E.Nalisnick*,A.Matsukawa*,Y.W.Teh,D.Gorur,andB.Lakshminarayanan. HybridModelswith
+DeepandInvertibleFeatures. InProceedingsofthe36thInternationalConferenceonMachineLearning
+(ICML),2019.
+37. E.Nalisnick,A.Matsukawa,Y.W.Teh,D.Gorur,andB.Lakshminarayanan. DoDeepGenerative
+ModelsKnowWhatTheyDon’tKnow? InProceedingsofthe7thInternationalConferenceonLearning
+Representations(ICLR),2019.
+38. D.Ji,E.Nalisnick,Y.Qian,R.Scheuermann,andP.Smyth. BayesianTreesforAutomatedCytom-
+etryDataAnalysis. InProceedingsofMachineLearningforHealthcare (MLHC),2018.
+39. E. Nalisnick andP.Smyth. Learning Priors for Invariance. In Proceedings of the 21st International
+ConferenceonArtificialIntelligenceandStatistics(AISTATS),2018.
+40. E. Nalisnick and P. Smyth. Learning Approximately Objective Priors. In Proceedings of the 33rd
+ConferenceonUncertaintyinArtificialIntelligence (UAI),2017.
+41. E. Nalisnick and P. Smyth. Stick-Breaking Variational Autoencoders. In Proceedings of the 5th
+InternationalConferenceonLearningRepresentations(ICLR),2017.
+EricNalisnick 9
+42. E.Nalisnick,B.Mitra,N.Craswell,andR.Caruana. ImprovingDocumentRankingwithDualWord
+Embeddings. InProceedingsofthe25thWorldWideWebConference (WWW),2016.
+43. E. Nalisnick and H. Baird. Character-to-Character Sentiment Analysis in Shakespeare’s Plays. In
+Proceedingsofthe51stAnnualMeetingoftheAssociationforComputationalLinguistics(ACL),2013.
+44. E.NalisnickandH.Baird. ExtractingSentimentNetworksfromShakespeare’sPlays. InProceedings
+ofthe12thInternationalConferenceonDocumentAnalysisandRecognition(ICDAR),2013.
+Peer-ReviewedWorkshopArticles
+45. R.Verma,R.Derr,C.A.Naesseth,V.Fischer,andE.Nalisnick. SoWhatareGoodImpreciseFore-
+casts? EpistemicIntelligenceinMachineLearning,EurIPS2025.
+46. A.Suresh*,A.Zhang*,R.More*,X.Wang,W.Jurayj,B.VanDurme,E.Nalisnick,andD.Khashabi.
+Compute When Worth It: Risk Control for Reasoning on a Compute Budget. Efficient Reasoning,
+NeurIPS2025.
+47. R.Verma,V.Fischer,C.A.Naesseth,andE.Nalisnick. ConformalPredictioninMulti-Distribution
+Learning. 14thSymposiumonConformalandProbabilisticPrediction(COPA),2025.
+48. M.Schirmer*,M.Jazbec*,C.A.Naesseth,andE.Nalisnick. MonitoringRisksinTest-TimeAdapta-
+tion. Test-TimeAdaptation: PuttingUpdatestotheTest!,ICML2025. Oralpresentation.
+49. M. Jazbec, E. Wong-Toi, G. Xia, D. Zhang, E. Nalisnick, and S. Mandt. Generative Uncertainty in
+Diffusion Models. Quantify Uncertainty and Hallucination in Foundation Models, ICLR 2025. Best
+paperaward(5%ofacceptedpapers).
+50. X.WangandE.Nalisnick. Vision-LanguageModelscanImplicitlyQuantifyAleatoricUncertainty.
+QuantifyUncertaintyandHallucinationinFoundationModels,ICLR2025.
+51. R.Verma,V.Fischer,andE.Nalisnick. OntheCalibrationofConditional-Value-at-Risk. NextGen-
+erationofAISafety,ICML2024.
+52. N.Lehmann,N.M.Gottschling,S.Depeweg,andE.Nalisnick. UncertaintyAwareTropicalCyclone
+WindSpeed Estimation fromSatellite Data. MachineLearningfor Remote Sensing, ICLR 2024. Oral
+presentation.
+53. M. Schirmer, D. Zhang, and E. Nalisnick. Beyond Top-Class Agreement: Using Divergences to
+ForecastPerformanceunderDistributionShift. DistributionShifts,NeurIPS2023.
+54. N.Lehmann,N.M.Gottschling,S.Depeweg,andE.Nalisnick. AComparisonofUncertaintyQuan-
+tificationMethodsforEarthObservationImageRegressionData. UncertaintyQuantificationforCom-
+puterVision,ICCV2023.
+55. S. Wang and E. Nalisnick. Active Learning for Multilingual Fingerspelling Corpora. Adaptive Ex-
+perimentalDesignandActiveLearningintheRealWorld,ICML2022.
+56. J.U.AllinghamandE.Nalisnick. AProductofExpertsApproachtoEarly-ExitEnsembles. Dynamic
+NeuralNetworks,ICML2022.
+57. P. Manggala, H. Hoos, and E. Nalisnick. Bayesian Weak Supervision via an Optimal Transport
+Approach. Human-MachineCollaborationandTeaming,ICML2022.
+EricNalisnick 10
+58. U. Khurana, I. Vermeulen, E. Nalisnick, M. van Noorloos, and A. Fokkens. Hate Speech Criteria:
+A Modular Approach to Task-Specific Hate Speech Definitions. Online Abuse and Harms, NAACL
+2022.
+59. S.Amiri, A.Belloum, E.Nalisnick, S.Klous, andL.Gommans. OntheImpactofNon-IIDDataon
+the Performance and Fairness of Differentially Private Federated Learning. Dependable and Secure
+MachineLearning,DSN2022.
+60. U.Khurana,E.Nalisnick,andA.Fokkens. HowEmotionallyStableisALBERT?TestingRobustness
+withStochasticWeightAveragingonaSentimentAnalysisTask. EvaluationandComparisonofNLP
+Systems,EMNLP2021.
+61. P. Manggala, H. Hoos, and E. Nalisnick. Bayesian Regression from Multiple Sources of Weak Su-
+pervision. MachineLearningforData,ICML2021.
+62. Y. Zhang and E. Nalisnick. On the Inconsistency of Bayesian Inference for Misspecified Neural
+Networks. SymposiumonAdvancesinApproximateBayesianInference,2021.
+63. E. Nalisnick, A. Matsukawa, Y. W. Teh, and B. Lakshminarayanan. Detecting Out-of-Distribution
+InputstoDeepGenerativeModelsUsingTypicality. BayesianDeepLearning,NeurIPS2019.
+64. E. Nalisnick and J. M. Hernández-Lobato. Automatic Depth Determination for Bayesian ResNets.
+BayesianDeepLearning,NeurIPS2018.
+65. O. Rybakov, V. Mohan, A. Misra, S. LeGrand, R. Joseph, K. Chung, S. Singh, Q. You, E. Nalisnick,
+L.Dirac,andR.Luo. TheEffectivenessofaTwo-LayerNeuralNetworkforRecommendations. Work-
+shopTrack,ICLR2018.
+66. D. Ji, E. Nalisnick, and P. Smyth. Mondrian Processes for Flow Cytometry Analysis. Machine
+LearningforHealth,NeurIPS2017.
+67. E. Nalisnick and P. Smyth. Variational Inference with Stein Mixtures. Advances in Approximate
+BayesianInference,NIPS2017.
+68. E.NalisnickandP.Smyth. TheAmortizedBootstrap. ImplicitModels,ICML2017. Oralpresentation.
+69. E. Nalisnick, L. Hertel, and P. Smyth. Approximate Inference for Deep Latent Gaussian Mixtures.
+BayesianDeepLearning,NeurIPS2016.
+70. E. Nalisnick and P. Smyth. Nonparametric Deep Generative Models with Stick-Breaking Priors.
+Data-EfficientMachineLearning,ICML2016. Oralpresentation.
+71. J.Park,M.Blume-Kohout,R.Krestel,E.Nalisnick,andP.Smyth. AnalyzingNIHFundingPatterns
+overTimewithStatisticalTextAnalysis. ScholarlyBigData,AAAI2016.
+Patents
+1. E. M. H. Elnahrawy, V. Mohan, and E. Nalisnick. Generation and Use of Model Parameters in
+Cold-StartScenarios. U.S.PatentNumber10,726,334. 28July2020.
+Invited Talks
+EricNalisnick 11
+InternationalVenues,LargeNationalVenues,Keynotes
+1. LearningtoDefertoMultipleExperts: Fromindividualstopopulationsandcrowds 2025
+InvitedSessiononThePriceofInsight: Cost-awareandhuman-guidedlearning
+Intl.Conf.onComputationalandMethodologicalStatistics(CMStatistics) London,UK
+2. StatisticalMethodsforAISafetywithIndustrialApplications 2025
+InvitedSessiononHarnessingMulti-SectorCollaborationinStatisticsandArtificialIntelligence
+JointStatisticalMeetings(JSM) Nashville,USA
+3. AnomalousAnomalies: MonitoringandAdaptingAnomalyDetectors 2025
+WorkshoponAnomalyDetectioninScientificDomains
+TheAAAIConferenceonArtificialIntelligence Philadelphia,USA
+4. BayesPlaystheLottery: AStudyofPartiallyStochasticNeuralNetworks 2024
+DagstuhlSeminaronRethinkingBayesintheAgeofModernAI Wadern,Germany
+5. TheBoonsofBeingLessBayesian: aStudyofPartiallyStochasticNeuralNetworks 2024
+InvitedSessiononAdvancesinInferenceandTheoryforBayesianNeuralNetworks
+JointStatisticalMeetings(JSM) Portland,USA
+6. DetectingDistributionShiftwithDeepGenerativeModels 2023
+DutchSocietyofPatternRecognitionandImageProcessing Amsterdam,Netherlands
+7. TowardsAnytimeUncertaintyEstimationinEarly-ExitNeuralNetworks 2023
+WorkshoponUncertaintyQuantificationforComputerVision
+InternationalConferenceonComputerVision(ICCV) Paris,France
+8. LearningtoDefertoOne,Multiple,oraPopulationofExpert(s) 2023
+ELLISWorkshoponRobustMachineLearning(RobustML) Helsinki,Finland
+9. BayesianLearning&UncertaintyQuantification 2023
+MediterraneanMachineLearningSummerSchool Thessaloniki,Greece
+10. TowardsAnytimeComputationinDeepArchitectures 2023
+DagstuhlSeminaronDeepGenerativeModels Wadern,Germany
+11. TowardsInformativePriorsforBayesianDeepLearning 2022
+DagstuhlSeminaronTractableProbabilisticModels Wadern,Germany
+12. PredictiveComplexityPriors 2021
+GenUWorkshop: Gen. ModelsandUncertaintyQuantification Copenhagen,Denmark
+13. DetectingDistributionShiftwithDeepGenerativeModels 2020
+WorkshoponInvertibleNeuralNets,NormalizingFlows,andExplicitLikelihoodModels(INNF+)
+InternationalConferenceonMachineLearning(ICML) Virtual
+14. NormalizingFlowsforTractableProbabilisticModelingandInference 2019
+T-Prime,NeurIPSSocial Vancouver,Canada
+DepartmentSeminars,Companies,LocalEvents
+EricNalisnick 12
+1. LearningtoDefertoOne,Multiple,oraPopulationofExpert(s) 2023-2025
+Amazon,JohnsHopkinsAppliedPhysicsLaboratory,VanderbiltMachineLearningSeminar
+2. EfficientCollectionofSignLanguageData 2024
+GallaudetUniversity
+3. TowardsaStatisticalFoundationforHuman-AICollaboration 2023
+Univ. ofTübingen/BoschAI,OregonStateUniv.: ComputerScience,JohnsHopkinsUniv.:
+ComputerScience,GeorgeWashingtonUniv.: ComputerScience
+4. OntheCalibrationofLearning-to-DeferSystems 2022
+Univ.ofCalifornia,Riverside: ComputerScience,Univ.ofManchester: Statistics
+5. PredictiveComplexityPriors 2021
+Univ.ofEdinburgh: ANCSeminar,ImperialCollege: Statistics,AlanTuringInstitute
+6. DetectingDistributionShiftwithDeepGenerativeModels 2020
+SydneyMachineLearningMeetup
+7. BuildingandCritiquingModelsforProbabilisticDeepLearning 2020
+University College London: Gatsby Unit, Carnegie Mellon Univ.: Statistics, Univ. of
+NorthCarolina: ComputerScience,Univ. ofAmsterdam: Informatics
+8. DeepLearning&Statistics:BridgingtheGapwithProb.Structure 2020
+Univ.ofCalifornia,SantaBarbara: Statistics
+9. DeepLearningUnderCovariateShift 2019
+Univ.ofCalifornia,Irvine: AI/MLSeminar
+10. DeepLearning: ASynthesisfromProbabilisticFoundations 2018-2019
+RANDCorporation: Statistics,Univ. ofCalifornia,Irvine: Statistics
+11. EvaluatingDeepGenerativeModelsonOut-of-DistributionInputs 2019
+Univ.ofOxford: Statistics,CamAIML(MSRCambridge),Univ.ofCambridge: LTLSeminar
+12. StructuredShrinkagePriorsforNeuralNetworks 2018
+ImperialCollege: Statistics
+13. ApproximateInferenceforFrequentistUncertaintyEstimation 2017
+SoCalMLSymposium
+14. DeepGenerativeModelswithStick-BreakingPriors 2017
+Univ.ofCalifornia,Irvine: AI/MLSeminar,OpenAI
+GeneralAudience,Outreach
+1. AIforSignLanguageTechnologies,MarylandSchoolfortheDeaf 2025
+2. DiscussantfortheASAwebinarStatisticalFoundationstoSurvivetheAIApocalypse 2025
+3. DiscussedHuman-AICollaborationontheFacultyFactoryPodcast 2024
+4. AIRisks: FromTodaytoDoomsday—AnAcademicPanelDiscussion 2023
+AmsterdamELLISUnit

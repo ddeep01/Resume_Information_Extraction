@@ -1,0 +1,109 @@
+{
+  "personal_information": {
+    "full_name": "Ioannis Mitliagkas",
+    "current_designation": "Associate professor",
+    "total_experience": "",
+    "email": "ioannis@iro.umontreal.ca",
+    "phone": "",
+    "date_of_birth": "",
+    "gender": "",
+    "address": "6666 St. Urbain, Montreal",
+    "linkedin": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+  "education": [
+    {
+      "degree": "PhD, ECE department",
+      "specialization": "Electrical and Computer Engineering",
+      "institution": "The University of Texas at Austin",
+      "board_university": "",
+      "year": "August 2015",
+      "cgpa_percentage": "",
+      "normalized_degree": "Ph.D."
+    },
+    {
+      "degree": "MSc., ECE department",
+      "specialization": "Electrical and Computer Engineering",
+      "institution": "Technical University of Crete, Chania, Greece",
+      "board_university": "",
+      "year": "2008 - 2010",
+      "cgpa_percentage": "",
+      "normalized_degree": "M.Sc."
+    },
+    {
+      "degree": "Diploma, Electronic and Computer Engineering (5 year degree)",
+      "specialization": "Electronic and Computer Engineering",
+      "institution": "Technical University of Crete, Chania, Greece",
+      "board_university": "",
+      "year": "2002 - 2008",
+      "cgpa_percentage": "",
+      "normalized_degree": "Diploma"
+    }
+  ],
+  "experience": [
+    {
+      "designation": "Associate professor",
+      "organization": "University of Montreal, Department of Computer Science and Operations Research",
+      "start_date": "June 2022",
+      "end_date": "Present",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Assistant professor",
+      "organization": "University of Montreal, Department of Computer Science and Operations Research",
+      "start_date": "Sept. 2017",
+      "end_date": "May 2022",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Core member, Canada CIFAR AI chair",
+      "organization": "Mila, Quebec AI Institute",
+      "start_date": "September 2017",
+      "end_date": "Present",
+      "duration": "",
+      "description": "Member of Mila’s Scientific Council"
+    },
+    {
+      "designation": "Staff Research Scientist (part time)",
+      "organization": "Google DeepMind, Montreal",
+      "start_date": "September 2022",
+      "end_date": "Present",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Affiliate researcher",
+      "organization": "Archimedes, AI Institute",
+      "start_date": "January 2024",
+      "end_date": "Present",
+      "duration": ""
+    },
+    {
+      "designation": "Faculty Fellow (part time)",
+      "organization": "ElementAI, Montreal",
+      "start_date": "2018",
+      "end_date": "2020",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Postdoc",
+      "organization": "Stanford University, Departments of CS and Statistics",
+      "start_date": "2015",
+      "end_date": "2017",
+      "duration": "",
+      "description": "Supervised by Associate prof. Christopher Ré and Adjunct prof. Lester Mackey"
+    }
+  ],
+  "publication_summary": {
+    "journal_publications": 7,
+    "conference_publications": 57,
+    "book_publications": 0,
+    "book_chapters": 0,
+    "patents": 0
+  },
+  "normalized_highest_degree": "Ph.D."
+}

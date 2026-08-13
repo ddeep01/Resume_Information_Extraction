@@ -1,0 +1,2084 @@
+S. Raghavan
+ September 2025
+
+ Page 1 of 34
+Curriculum Vitae
+SUBRAMANIAN RAGHAVAN1
+Dean's Professor of Management Science & Operations Management
+Robert H. Smith School of Business & Institute for Systems Research
+University of Maryland, College Park, MD 20742-1815
+Phone: 301-405-6139, Fax: (301)-405-8655
+Email: raghavan@umd.edu; URL: http://www.terpconnect.umd.edu/~raghavan
+
+I. BACKGROUND
+Education
+
+Ph.D., Operations Research, 1995
+
+ Massachusetts Institute of Technology
+
+ Department of Electrical Engineering & Computer Science & Sloan School of Management
+ M.S., Operations Research and Statistics, 1988
+
+Rensselaer Polytechnic Institute
+
+Department of Decision Sciences & Engineering Systems
+
+B.Tech., Aeronautical Engineering, 1987
+
+Indian Institute of Technology, Chennai (India)
+
+Professional Experience
+
+January 2019 - Present: Dean's Professor of Management Science & Operations Management.
+
+August 2010 - Present: Professor of Management Science & Operations Management (joint
+appointment with Institute for Systems Research, A. James Clark School of Engineering).
+
+Affiliate Professor, Department of Computer Science (September 2016 - August 2019).
+
+Faculty, Applied Mathematics & Statistics, and Scientific Computation Program (since
+1998).
+
+August 2005 - July 2010: Associate Professor of Management Science (joint appointment with
+Institute for Systems Research effective August 2006).
+
+August 1998 - July 2005: Assistant Professor of Management Science
+Affiliate Faculty, Institute for Systems Research.
+
+January 1995 - July 1998: Member of Technical Staff (Acting Director: January - June 1998)
+Optimization and Logistics Group, USWEST Advanced Technologies, 4001 Discovery
+Drive, Boulder, CO 80303. (Note USWEST became QWEST which became Century
+Link.)
+
+Honors and Awards
+2025 INFORMS Fellow. INFORMS Fellow is a selective lifetime achievement award for
+individuals who have demonstrated outstanding and exceptional accomplishments and
+made significant contributions to the advancement of operations research and management
+science. Each year, only 12 fellows are elected.
+
+1 Since 2017 my legal name is Raghavan Subramanian Sullivan. I continue to be known (and use) professionally by my
+prior legal name Subramanian Raghavan, as well as S. Raghavan and Raghu Raghavan.
+
+ S. Raghavan
+ September 2025
+
+ Page 2 of 34
+
+Citation: For impactful research applying operations research methods to network design
+and optimization, auction design, data mining, and healthcare; excellence in teaching; and
+sustained service to INFORMS and the profession.
+
+Finalist, INFORMS Telecommunications Section Best Paper Award for the most
+outstanding published paper applying operations research techniques in the context of
+telecommunications.
+2024 University of Maryland, Provost's Do Good Innovator Award. This award is given to
+faculty who create, nurture, expand and amplify social impact through education, programs
+and research, both inside and outside the classroom.
+2023 Third Prize, INFORMS Telecommunications Section Best Paper Award for the most
+outstanding published paper applying operations research techniques in the context of
+telecommunications.
+2022 Finalist, INFORMS Telecommunications Section Best Paper Award for the most
+outstanding published paper applying operations research techniques in the context of
+telecommunications.
+
+Runner-Up, INFORMS Computing Society Prize for a series of papers on influence
+maximization on social networks. The INFORMS Computing Society Prize is given for the
+best paper(s) in the field dealing with the Operations Research/Computer Science interface.
+2020 Finalist, INFORMS Public Sector Operations Research Best Paper Award.
+
+Honorable Mention, POMS College of Healthcare Operations Management Best Paper
+Award.
+2019 Finalist, INFORMS Telecommunications Section Best Paper Award for the most
+outstanding published paper applying operations research techniques in the context of
+telecommunications.
+
+Selected as one of Top 10 Articles in the American Journal of Transplantation, for
+research that moves the field of transplantation forward.
+2016 INFORMS Prize for Teaching OR/MS Practice. This is an annual INFORMS teaching
+prize given to a faculty member for excellence in teaching the practice of operations
+research and management science.
+
+INFORMS Telecommunications Section Best Paper Award for the most outstanding
+published
+paper
+applying
+operations
+research
+techniques
+in
+the
+context
+of
+telecommunications.
+
+Plenary Speaker, INFORMS Telecommunications Conference, March 2016.
+2014 Smith School of Business Distinguished Teaching Award.
+2012 Olian Award for the best Summer Research proposal at Smith School of Business.
+
+Outstanding Systems Engineering Faculty Award, Institute for Systems Research.
+
+Doctoral dissertation advisor to Gisela Bardossy. i) Winner INFORMS Society of Location
+Analysis Dissertation Award. Given every two years to the best dissertation in the area of
+location analysis. ii) Finalist for INFORMS Telecommunications Section Dissertation
+Prize for the best dissertation applying operations research to telecommunications.
+
+ S. Raghavan
+ September 2025
+
+ Page 3 of 34
+2010 Management Science Strategic Innovation Prize. This is awarded by the European
+Operational Research Society annually for an outstanding innovative contribution of
+Management Science in a particular field of management. For 2010 the topic was
+Optimization in Telecommunications.
+2009 Finalist, European Excellence in Practice Award. This is awarded by the European
+Operational Research Society annually for a published paper in the field of Operations
+Research that has the most significant impact on practice.
+2008 INFORMS Computing Society Prize for a paper on the use of optimization techniques to
+calculate fair payments in public sector combinatorial auctions. The INFORMS Computing
+Society Prize is given for the best paper(s) in the field dealing with the Operations
+Research/Computer Science interface.
+
+INFORMS Telecommunications Section Outstanding Service Award.
+2007 Legg-Mason Teaching Innovation Award, Smith School of Business.
+
+Smith School of Business Distinguished Teaching Award.
+
+Doctoral dissertation advisor to Ioannis Gamvros. Finalist for George B. Dantzig
+Dissertation Prize for the best dissertation in operations research and management science.
+2006 Glover-Klingman Prize for the best paper of the year published in Networks.
+
+Olian Award for the best Summer Research proposal at Smith School of Business.
+2005 INFORMS Computing Society Prize for a series of papers on the use of genetic algorithms
+for data mining. The INFORMS Computing Society Prize is given for the best paper(s) in
+the field dealing with the Operations Research/Computer Science interface.
+
+Finalist, INFORMS Daniel H. Wagner Prize for Excellence in Operations Research
+Practice.
+
+INFORMS Computing Society Outstanding Service Award.
+
+Olian Award for the best Summer Research proposal at Smith School of Business.
+
+Doctoral dissertation advisor to Robert W. Day. Winner George B. Dantzig Dissertation
+Prize for the best dissertation in operations research and management science.
+2003 Second Place, INFORMS Junior Faculty Paper Competition.
+2002 Smith School of Business Distinguished Teaching Award.
+1996 George B. Dantzig Dissertation Award. INFORMS award for the best doctoral dissertation
+in operations research/management science.
+1992 Martin B. Farber Internship. Competitive internship for operations research Ph.D. students
+awarded by AT&T Bell Laboratories.
+
+Visiting Positions
+
+January 2007 - May 2007: Visiting Scientist, Operations Research Center, Massachusetts
+Institute of Technology, Cambridge, Massachusetts.
+
+August 2006 - December 2006: Visiting Scholar, Graduate School of Business, Columbia
+University, New York.
+
+ S. Raghavan
+ September 2025
+
+ Page 4 of 34
+II. RESEARCH
+Books
+i.
+TutORials in Operations Research: State-of-the-Art Decision-Making Tools in the
+Information Intensive Age, Zhi-Long Chen and S. Raghavan (editors), INFORMS (2008).
+ii.
+Telecommunications Modeling, Policy and Technology, B. Golden, S. Raghavan, and E.
+Wasil (editors), Springer (2008).
+iii.
+The Vehicle Routing Problem: Latest Advances and New Challenges, B. Golden,
+S. Raghavan, and E. Wasil (editors), Springer (2008).
+iv.
+Telecommunications Planning: Innovation in Pricing, Network Design and Management,
+S. Raghavan and G. Anandalingam (editors), Springer (2006).
+v.
+The Next Wave in Computing, Optimization, and Decision Technologies, B. Golden,
+S. Raghavan, and E. Wasil (editors), Springer (2005).
+vi.
+Telecommunications Network Design and Management, G. Anandalingam and S. Raghavan
+(editors), Kluwer Academic Press (2003).
+
+Research Publications
+(Preprints of most papers are at http://www.terpconnect.umd.edu/~raghavan/preprints/)
+Refereed Journal Papers:
+1. E. Jang, M. Bjarnadóttir, M. Boyd, and S. Raghavan. "Improved LISA Analysis for Zero-Heavy
+Crack Cocaine Seizure Data." Accepted, INFORMS Journal on Data Science.
+2. S. Akshat, S. Raghavan, and N. Wood. "Closing the Gap: Enhancing Geographic Equity under
+the Continuous Distribution Organ Allocation Policy." Operations Research, Data Analytics
+and Logistics, 45, 2025.
+3. B. Golden, E. Oden, and S. Raghavan. "The Urban Air Mobility Problem." Annals of
+Operations Research, 351, 389-429, 2025.
+4. S. Akshat, S. Gentry, and S. Raghavan. "Heterogeneous Donor Circles for Fair Liver Transplant
+Allocation." Health Care Management Science, 27(1), 20-45, 2024. Finalist, 2020 INFORMS
+Public Sector Operations Research Best Paper Award. Honorable Mention, 2020 POMS
+College of Healthcare Operations Management Best Paper Award.
+5. S. Raghavan and R. Zhang. "The Driver-Aide Problem: Coordinated Logistics for Last Mile
+Delivery." Manufacturing and Service Operations Management, 26(1), 291-311, 2024. Finalist,
+2025 INFORMS Telecommunications Section Best Paper Award.
+6. B. Golden, E. Oden, and S. Raghavan. "The Rendezvous Vehicle Routing Problem."
+Optimization Letters, 17(8), 1711-1738, 2023.
+7. S. Akshat, L. Ma, and S. Raghavan. "Improving Broader Sharing to Address Geographic
+Inequity in Liver Transplantation." Manufacturing and Service Operations Management, 25(4),
+1509-1526, 2023.
+8. S. Raghavan and R. Zhang. "Rapid Influence Maximization on Social Networks: The Positive
+Influence Dominating Set Problem." INFORMS Journal on Computing 34(3), 1345-1365, 2022.
+Finalist, 2023 INFORMS Telecommunications Section Best Paper Award.
+9. S. Raghavan and R. Zhang. "Influence Maximization with Latency Requirements on Social
+Networks," INFORMS Journal on Computing, 34(2), 710-728, 2022. Finalist, 2022 INFORMS
+Telecommunications Section Best Paper Award.
+
+ S. Raghavan
+ September 2025
+
+ Page 5 of 34
+10. S. Raghavan and R. Zhang. "Weighted Target Set Selection on Trees and Cycles," Networks,
+77(4), 587-609, 2021.
+11. D. Gunnec, S. Raghavan and R. Zhang. "A Branch-and-Cut Approach for the Least Cost
+Influence Maximization Problem on Social Networks," Networks, 76(1), 84-105, 2020.
+12. D. Gunnec, S. Raghavan, and R. Zhang. "Least Cost Influence Maximization on Social
+Networks," INFORMS Journal on Computing, 32(2), 289-302, 2020.
+13. S. Raghavan and R. Zhang. "A Branch-and-Cut Approach for the Weighted Target Set Selection
+Problem on Social Networks," INFORMS Journal on Optimization, 1(4), 304-322, 2019.
+14. M. Mankowski, M. Kosztowski, S. Raghavan, J.M. Garonzik-Wang, D. Axelrod, D. L. Segev,
+S. E. Gentry. "Accelerating Kidney Allocation: Simultaneously Expiring Offers," American
+Journal of Transplantation, 19(11), 3071-3078, 2019. Selected by Editors of American Journal
+of Transplantation as one of the TOP 10 ARTICLES OF 2019.
+15. S. Raghavan, M. Sahin, and F. S. Salman. "The Capacitated Mobile Facility Location Problem,"
+European Journal of Operational Research, 277, 507-520, 2019.
+16. D. Gunnec and S. Raghavan. "Integrating Social Network Effects in the Share-of-Choice
+Problem," Decision Sciences, 48(6), 1098-1131, 2017.
+17. M. G. Bardossy and S. Raghavan. "An Inexact Sample Average Approximation Approach for
+the Stochastic Connected Facility Location Problem," Networks, 70(1), 19-33, 2017. Finalist,
+2019 INFORMS Telecommunications Section Best Paper Award.
+18. M. G. Bardossy and S. Raghavan. "Approximate Robust Optimization for the Connected
+Facility Location Problem," Discrete Applied Mathematics, 210, 246-260, 2016.
+19. S. Raghavan and M. Sahin. "Efficient Edge-Swapping Heuristics for the Reload Cost Spanning
+Tree Problem," Networks, 65(4), 380-394, 2015.
+20. R. Halper, S. Raghavan, and M. Sahin. "Local Search Heuristics for the Mobile Facility
+Location Problem," Computers & Operations Research, 62, 210-223, 2015.
+21. S. Chen, I. Ljubić, and S. Raghavan. "The Generalized Regenerator Location Problem,"
+INFORMS Journal on Computing, 27(2), 204-220, 2015. Winner of 2016 INFORMS
+Telecommunications Section Best Paper Award.
+22. E. Alvarez-Miranda, I. Ljubić, S. Raghavan, and P. Toth. "The Recoverable Robust Two-Level
+Network Design Problem," INFORMS Journal on Computing, 27(1), 1-19, 2015.
+23. S. Raghavan and D. Stanojević. "Designing WDM Optical Networks using Branch-and-Price,"
+Journal of Mathematical Modelling and Algorithms in Operations Research, 12(4), 407-428,
+2013.
+24. B. Golden, Z. Naji-Azimi, S. Raghavan, M. Salari and P. Toth. "The Generalized Covering
+Salesman Problem," INFORMS Journal on Computing, 24(4), 534-553, 2012.
+25. I. Gamvros, L. Gouveia, and S. Raghavan. "Reload Cost Trees and Network Design," Networks.
+59(4), 365-379, 2012.
+26. I. Gamvros and S. Raghavan. "Multi-Period Traffic Routing in Satellite Networks," European
+Journal of Operational Research, 219(3), 738-750, 2012. Winner of 2010 EURO Management
+Science Strategic Innovation Prize.
+27. R. Halper and S. Raghavan. "The Mobile Facility Routing Problem," Transportation Science,
+45(3), 413-434, 2011.
+
+ S. Raghavan
+ September 2025
+
+ Page 6 of 34
+28. S. Raghavan and D. Stanojević. "Branch-and-Price for WDM Optical Networks with no
+Bifurcation of Flow," INFORMS Journal on Computing, 23(1), 56-74, 2011.
+29. M. Bardossy and S. Raghavan. "Dual-Based Local Search for the Connected Facility Location
+and Related Problems," INFORMS Journal on Computing, 22(4), 584-602, 2010
+30. Z. Naji-Azimi, M. Salari, B. Golden, S. Raghavan and Paulo Toth. "Variable Neighborhood
+Search for the Cost Constrained Minimum Label Spanning Tree and Label Constrained
+Minimum Spanning Tree Problems," Computers & Operations Research, 37(11), 1952-1964,
+2010.
+31. S. Chen, I. Ljubić, and S. Raghavan. "The Regenerator Location Problem," Networks, 55(3),
+205-220, 2010.
+32. R. Day and S. Raghavan. "Matrix Bidding in Combinatorial Auctions," Operations Research,
+57(4), 916-933, 2009.
+33. R. Day and S. Raghavan. "A Combinatorial Procurement Auction featuring Bundle Price
+Revelation without Free Riding," Decision Support Systems, 44(3), 621-640, 2008.
+34. B. Golden, S. Raghavan and D. Stanojević. "The Prize-Collecting Generalized Minimum
+Spanning Tree Problem," Journal of Heuristics, 14(1), 69-93, 2008.
+35. R. Day and S. Raghavan. "Fair Payments for Efficient Allocations in Public Sector
+Combinatorial Auctions," Management Science, 53(9), 1389-1406, 2007. Winner of 2008
+INFORMS Computing Society Prize. Finalist 2009 EURO Excellence in Practice Award.
+36. I. Gamvros, R. Nidel and S. Raghavan. "Investment Analysis and Budget Allocation at Catholic
+Relief Services," Interfaces, 36(5), 400-406, 2006. Finalist for the 2005 INFORMS Daniel H.
+Wagner Prize for Excellence in Operations Research Practice.
+37. Z. Fu, B. Golden, S. Lele, S. Raghavan and E.Wasil. "Diversification for Better Classification
+Trees," Computers & Operations Research, 33(11), 3185-3202, 2006. Winner of 2005
+INFORMS Computing Society Prize.
+38. R. Abbiw-Jackson, B. Golden, S. Raghavan and E. Wasil. "A Divide-and-Conquer Local Search
+Heuristic for Data Visualization," Computers & Operations Research, 33(11), 3070-3087, 2006.
+39. I. Gamvros, B. Golden and S. Raghavan. "The Multi-Level Capacitated Minimum Spanning
+Tree Problem," INFORMS Journal on Computing, 18(3), 348-365, 2006.
+40. T. Magnanti and S. Raghavan. "Strong Formulations for Network Design Problems with
+Connectivity Requirements," Networks, 45(2), 61-79, 2005. Winner of 2006 Glover-Klingman
+Prize.
+41. B. Golden, S. Raghavan and D. Stanojević. "Heuristic Search for the Generalized Minimum
+Spanning Tree," INFORMS Journal on Computing, 17(3), 290-304, 2005.
+42. G. Anandalingam, R. Day and S. Raghavan. "The Landscape for Electronic Market Design,"
+Management Science, 51(3), 316-327, 2005.
+43. S. Raghavan. "Low-Connectivity Network Design on Series-Parallel Graphs," Networks, 43(3),
+163-176, 2004.
+44. R. Berger and S. Raghavan. "Long Distance Access Network Design," Management Science,
+50(3), 309-325, 2004. Awarded 2nd place INFORMS Junior Faculty Paper Competition.
+
+ S. Raghavan
+ September 2025
+
+ Page 7 of 34
+45. Z. Fu, B. Golden, S. Lele, S. Raghavan and E. Wasil. "Genetically Engineered Decision Trees:
+Population Diversity Produces Smarter Trees," Operations Research, 51(6), 894-907, 2003.
+Winner of 2005 INFORMS Computing Society Prize.
+46. Z. Fu, B. Golden, S. Lele, S. Raghavan and E. Wasil. "A Genetic Algorithm-based Approach
+for Building Accurate Decision Trees," INFORMS Journal on Computing, 15(1), pp 3-22, 2003.
+Winner of 2005 INFORMS Computing Society Prize
+47. S. Raghavan, M. Ball and V. Trichur. "Bicriteria Product Design Optimization," Naval
+Research Logistics, 49(6), 574-592, 2002.
+48. E. Condon, B. Golden, S. Lele, S. Raghavan and E. Wasil. "A Visualization Model Based on
+Adjacency Data," Decision Support Systems, 33(4), pp 349-362, 2002.
+49. D. Berger, B. Gendron, J.-Y. Potvin, S. Raghavan and P. Soriano "Tabu Search for a Network
+Loading Problem with Multiple Facilities," Journal of Heuristics, 6(2), pp 253-267, 2000.
+
+Refereed Conference Proceedings:
+1. E. Demaine, M. Hajiaghayi, H. Mahini, D. Malec, S. Raghavan, A. Sawant, M. Zadimoghadam
+"How to Influence People with Partial Incentives" Proceedings of the 23rd International World
+Wide Web Conference, 937-948, 2014.
+Refereed Book Chapters:
+1. R. Day and S. Raghavan. "Assignment Preferences and Combinatorial Auctions," in Selected
+Proceedings of the 12th INFORMS Computing Society Conference, edited by Robert Dell and
+Kevin Wood, INFORMS, pp 50-69, 2011.
+2. B. Chandran and S. Raghavan. "Modeling and Solving the Capacitated Vehicle Routing
+Problem on Trees," in The Vehicle Routing Problem: Latest Advances and New Challenges,
+edited by B. Golden, S. Raghavan, and E. Wasil, Springer, pp 239-261, 2008.
+3. J. Bailey, J. Nagel and S. Raghavan. "Ex-Post Internet Charging," in Telecommunications
+Modeling, Policy, and Technology, edited by S. Raghavan, B. Golden, and E. Wasil, Springer,
+pp 59-79, 2008.
+4. J. Bailey, I. Gamvros and S. Raghavan. "Ex-Post Internet Charging: An Effective Bandwidth
+Model," in Extending the Horizons: Advances in Computing, Optimization, and Decision
+Technologies, edited by E. Baker, A. Joseph, A. Mehrotra, and M. Trick. Springer, pp 221-245,
+2007.
+5. S. Raghavan. "Twinless Strongly Connected Components," in Perspectives in Operations
+Research: Papers in Honor of Saul Gass' 80th Birthday, edited by F. Alt, B. Golden, and M. Fu.
+Springer, pp 285-304, 2007.
+6. S. Raghavan and D. Stanojevic. "A Note on Search by Objective Relaxation" in
+Telecommunications Planning: Innovations in Pricing, Network Design and Management,
+edited by S. Raghavan and G. Anandalingam. Springer, pp 181-201, 2006.
+7. S. Raghavan. "A Note on Eswaran and Tarjan's Algorithm for the Strong Connectivity
+Augmentation Problem," in The Next Wave in Computing, Optimization, and Decision
+Technologies, edited by B. Golden, S. Raghavan, and E. Wasil. Kluwer Academic Press, pp 19-
+26, 2005.
+
+ S. Raghavan
+ September 2025
+
+ Page 8 of 34
+8. I. Gamvros, B. Golden, S. Raghavan and D. Stanojevic. "Heuristic Search for Network Design,"
+in Operations Research and Technology: Tutorials from INFORMS 2004, edited by H.
+Greenberg. Kluwer Academic Press, pp 1-49, 2004.
+9. I. Gamvros, S. Raghavan, and B. Golden. "An Evolutionary Approach to the Multi-Level
+Capacitated Minimum Spanning Tree problem," in Telecommunications Network Design and
+Management, edited by G. Anandalingam and S. Raghavan. Kluwer Academic Press, pp
+99-124, 2003.
+10. Z. Fu, B. Golden, S. Lele, S. Raghavan and E. Wasil. "Building a High-Quality Decision Tree
+with a Genetic Algorithm," in Computing Tools for Modeling, Optimization and Simulation:
+Interfaces in Computer Science and Operations Research, edited by M. Laguna and J. L. G.
+Velarde. Kluwer Academic Publishers, pp 25-38, 1999.
+11. S. Raghavan and T. Magnanti. "Network Connectivity," in Annotated Bibliographies in
+Combinatorial Optimization, edited by M. Dell'Amico, F. Maffioli and S. Martello. John Wiley
+& Sons, pp 335-354, 1997.
+Other Publications:
+1. S. Raghavan and C. Smith. "Preface to Special Issue on Celebrating 50 Years of Networks:
+Part 2". Networks, 77(2), 175-176, 2021.
+2. S. Raghavan and C. Smith. "Preface to Special Issue on Celebrating 50 Years of Networks:
+Part 1". Networks, 77(1), 3-4, 2021.
+3. S. Raghavan. "Industry Experiences Shape Teaching Philosophy," OR/MS Today, 26-29,
+August 2017.
+4. E. Olinick and S. Raghavan. "Introduction to the Special Issue on Telecommunications,"
+Networks and Spatial Economics, 8(1), 1-2, 2008.
+5. R. Day and S. Raghavan. "Computing Core Payments in Combinatorial Auctions". ACM
+SIGecom Exchange, 7(1), 2007.
+6. G. Anandalingam and S. Raghavan. "Introduction to the Special Issue on Electronic Markets,"
+Management Science, 51(3), 315-315, 2005.
+7. Z. Fu, B. Golden, S. Lele, S. Raghavan, and E. Wasil. "Genetic Algorithms for Intelligent
+Trees," in Proceedings of the Artificial Neural Networks in Engineering (ANNIE) Conference.
+November 1999, St. Louis Missouri, ASME Press.
+
+Working Papers:
+1. A. Pani, S. Raghavan, and M. Sahin. "Large-Scale Advertising Portfolio Optimization in Online
+Marketing."
+2. A. Pani, S. Raghavan, and M. Sahin. "Targeted Online Advertising with Multidimensional Bid
+Adjustments."
+3. E. Oden, B. Golden, and S. Raghavan. "A Shared Truckload Service Problem with Original and
+Terminal Point-Dependent Fares."
+
+Invited Seminars
+1. February 2025. Darden School of Business, University of Virginia.
+2. February 2024. School of Business, Stevens Institute of Technology.
+
+ S. Raghavan
+ September 2025
+
+ Page 9 of 34
+3. April 2023. London Business School.
+4. November 2022. Department of Industrial Engineering, Indian Institute of Technology,
+Bombay.
+5. March 2022. Department of Mechanical and Industrial Engineering, Northeastern University.
+6. January 2022. Muma School of Business. University of South Florida.
+7. December 2021. Leeds School of Business, University of Colorado, Boulder.
+8. November 2020. Uppsala University, Sweden. (virtual)
+9. October 2020. Economics of Transplantation Seminar Series, Stanford University. (virtual)
+10. March 2020. Smith School of Business, University of Maryland, College Park.
+11. February 2020. ESSEC Business School, Paris, France.
+12. February 2020. Uber Advanced Technology Group and Ecole Polytechnique, Paris, France.
+13. February 2020. Telecom SudParis, Evry, France.
+14. June 2019. Strathclyde Business School, Glasgow, Scotland.
+15. August 2018. Tsinghua University, Beijing, China.
+16. October 2017. Department of Mathematics, United States Naval Academy.
+17. January 2017. Tuck School of Business, Dartmouth College.
+18. March 2015. University of Lisbon, Portugal.
+19. April 2014. Department of Computer Science, University of Maryland.
+20. December 2012. Koc University, Istanbul, Turkey.
+21. November 2012. Institute for Systems Research, University of Maryland.
+22. August 2012. Department of Mechanical Engineering, IIT Delhi.
+23. March 2011. Department of Industrial and Systems Engineering, University of Florida.
+24. September 2010. Interuniversity Research Centre on Enterprise Networks, Logistics and
+Transportation. University of Montréal.
+25. August 2010. 15th Latin American School on Operations Research (ELAVIO), Fortaleza, Brazil.
+26. April 2010. Smith School of Business, University of Maryland.
+27. April 2010. University of Lisbon, Portugal.
+28. March 2010. University of Alberta, Edmonton, Canada.
+29. January 2010. University of Bologna, Italy.
+30. June 2009. Indian Institute of Management, Bangalore, India.
+31. March 2009. University of Vienna, Austria.
+32. January 2008. University of Lisbon, Portugal.
+33. October 2007. Department of Industrial Engineering and Management Sciences, Northwestern
+University.
+34. April 2007. Katholieke University, Leuven, Belgium.
+35. April 2007. Fuqua School of Business, Duke University.
+36. March 2007. Department of Computer Science, Harvard University.
+37. March 2007. Kenan-Flagler Business School, University of North Carolina, Chapel Hill.
+38. April 2006. Department of Industrial Engineering, Pennsylvania State University.
+39. April 2006. Institute for Systems Research, University of Maryland.
+40. March 2006. Leeds School of Business. University of Colorado.
+
+ S. Raghavan
+ September 2025
+
+ Page 10 of 34
+41. October 2004. Department of Industrial and Systems Engineering, Lehigh University.
+42. July 2004, IBM Research, Yorktown Heights.
+43. March 2004, Department of Mathematics and Statistics, University of Maryland, Baltimore
+County.
+44. May 2003, University of Maryland Institute for Advanced Computer Science.
+45. November 2001, Department of Systems Engineering and Operations Research, George Mason
+University.
+46. March 2001, Decision and Information Technologies, The Robert H. Smith School of Business,
+College Park, Maryland.
+47. April 1999, Decision and Information Technologies, The Robert H. Smith School of Business,
+College Park, Maryland.
+48. February 1998, Maryland Business School, University of Maryland, College Park.
+49. September 1997, Center for Economic Research, Tilburg University, Tilburg, The Netherlands.
+50. June 1997, Operations Research Department, AT&T Laboratories, Holmdel, New Jersey.
+51. June 1997, Department of Mathematics and Computer Science, Drexel University, Philadelphia.
+52. May 1997, Department of Industrial Engineering, University of Houston, Texas.
+53. April 1997, Department of Mechanical and Industrial Engineering, University of Illinois,
+Urbana-Champaign.
+54. November 1996, Econometrics Department, Erasmus University, Rotterdam, The Netherlands.
+55. November 1996, Econometrics Department, University of Maastricht, Maastricht, The
+Netherlands.
+56. February 1996, Department of Mathematics, University of Colorado, Denver.
+57. January 1996, Operations Research Center, Massachusetts Institute of Technology, Cambridge.
+58. October 1995, School of Business, University of Colorado, Boulder.
+59. March 1994, Department of Industrial Engineering and Operations Research, Columbia
+University, New York.
+60. February 1994, Department of Applied Mathematics, State University of New York,
+Stonybrook.
+61. September 1992, Operations Research Department, AT&T Laboratories, Holmdel, New Jersey.
+
+Conference/Workshop Presentations
+1) Improved LISA Analysis for Zero-Heavy Crack Cocaine Seizure Data. INFORMS Annual
+Meeting, October 20-23, 2024, Seattle, WA. co-authors: Margrét Bjarnadóttir, Marcus Boyd,
+Eunseong Jang.
+2) New Formulations and Valid Inequalities for the Least Cost Influence Problem on Social
+Networks. INFORMS Annual Meeting, October 20-23, 2024, Seattle, WA. co-authors: Yunlong
+Wang, TaoTao He, Ying Rong, Rui Zhang.
+3) Analyzing Illicit Drug Supply Chains: A Cocaine Case Study. INFORMS Annual Meeting,
+October 20-23, 2024, Seattle, WA. co-authors: Galia Benitez, Margrét Bjarnadóttir, Marcus
+Boyd, Siddharth Chandra, Greg Midgette.
+
+ S. Raghavan
+ September 2025
+
+ Page 11 of 34
+4) Improved
+LISA
+Analysis
+for
+Zero-Heavy
+Crack
+Cocaine
+Seizure
+Data.
+2024
+INFORMS/ALIO/ASOCIO International Conference, June 16-19, 2024, Medellín, Colombia.
+co-authors: Margrét Bjarnadóttir, Marcus Boyd, Eunseong Jang.
+5) New Formulations and Valid Inequalities for the Least Cost Influence Problem on Social
+Networks. INFORMS Telecommunications & Network Analytics Conference, May 15-17,
+2024, (virtual conference). co-authors: Yunlong Wang, TaoTao He, Ying Rong, Rui Zhang.
+6) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. 54th DSI Annual
+Conference, Nov 18-20, 2023, Atlanta, GA. co-author: Rui Zhang.
+7) A Continuous Scoring Model for Fair Liver Transplant Allocation. 54th DSI Annual Conference,
+Nov 18-20, 2023, Atlanta, GA. co-author: Shubham Akshat.
+8) Rapid Influence Maximization on Social Networks: The Positive Influence Dominating Set
+Problem. INFORMS Annual Meeting, October 15-18, 2023, Phoenix, AZ. co-author: Rui
+Zhang.
+9) Improving Broader Sharing to Address Geographic Inequity in Liver Transplantation.
+INFORMS Annual Meeting, October 15-18, 2023, Phoenix, AZ. co-authors: Shubham Akshat,
+Liye Ma.
+10) Closing the Gap: Enhancing Geographic Equity under the Continuous Distribution Organ
+Allocation Policy. INFORMS Healthcare Conference, July 26-28, 2023, Toronto, Canada. coauthors: Shubham Akshat, Nicholas Wood.
+11) Improving Broader Sharing to Address Geographic Inequity in Liver Transplantation.
+Manufacturing and Service Operations Management Conference, June 24-26, 2023, Montreal,
+Canada. co-authors: Shubham Akshat, Liye Ma.
+12) A Continuous Scoring Model for Fair Liver Transplant Allocation. 33rd Annual POMS
+Conference, May 21-25, 2023, Orlando, FL. co-author: Shubham Akshat.
+13) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. CLAIO 2022 (XXI
+Latin Ibero-American Conference on Operations Research), Buenos Aires, Argentina,
+December 12-15, 2022. co-author: Rui Zhang.
+14) A Continuous Scoring Model for Fair Liver Transplant Allocation. CLAIO 2022 (XXI Latin
+Ibero-American Conference on Operations Research), Buenos Aires, Argentina, December 12-
+15, 2022. co-author: Shubham Akshat.
+15) Influence Maximization with Latency Requirements on Social Networks. INFORMS Annual
+Meeting, October 16-19, 2022, Indianapolis, IN. co-author: Rui Zhang.
+16) Does Broader Sharing Improve Patient Outcomes? INFORMS Annual Meeting, October 16-19,
+2022, Indianapolis, IN. co-authors: Shubham Akshat, Liye Ma.
+17) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. Manufacturing and
+Service Operations Management Conference, Munich, Germany, June 26-28, 2022. co-author:
+Rui Zhang.
+18) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. International Network
+Optimization Conference, Aachen, Germany, June 7-10, 2022. co-author: Rui Zhang.
+19) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. CORS/INFORMS
+International Conference, Vancouver, Canada, June 5-8, 2022. co-author: Rui Zhang.
+20) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. POMS Annual
+Conference, April 21-May 25, 2022. co-author: Rui Zhang.
+
+ S. Raghavan
+ September 2025
+
+ Page 12 of 34
+21) The Driver-Aide Problem: Coordinated Logistics for Last-Mile Delivery. INFORMS
+Computing Society Conference. 17th INFORMS Computing Society Conference, Tampa, FL,
+January 23-25, 2022. co-author: Rui Zhang.
+22) Rapid Influence Maximization on Social Networks: The Positive Influence Dominating Set
+Problem. INFORMS Annual Meeting, October 24-27, 2021, Anaheim, CA. co-author: Rui
+Zhang.
+23) A Continuous Scoring Model for Fair Liver Transplant Allocation. INFORMS Annual Meeting,
+October 24-27, 2021, Anaheim, CA. co-author: Shubham Akshat.
+24) Does Broader Sharing Improve Patient Outcomes? Analysis of Share 35 Liver Allocation
+Policy. INFORMS Annual Meeting, October 24-27, 2021, Anaheim, CA. co-authors: Shubham
+Akshat, Liye Ma.
+25) A Column Generation Approach for a Stochastic Vehicle Routing Problem. INFORMS Annual
+Meeting, October 24-27, 2021, Anaheim, CA. co-authors: Bruce Golden, Eric Oden.
+26) Solution Approaches for the Rendezvous Vehicle Routing Problem. INFORMS Annual
+Meeting, October 24-27, 2021, Anaheim, CA. co-authors: Bruce Golden, Eric Oden.
+27) Does Broader Sharing Improve Patient Outcomes? Analysis of Share 35 Liver Allocation
+Policy. INFORMS Healthcare Conference, July 21-23, 2021. co-authors: Shubham Akshat, Liye
+Ma.
+28) A Continuous Scoring Model for Fair Liver Transplant Allocation. INFORMS Healthcare
+Conference, July 21-23, 2021. co-authors: Shubham Akshat.
+29) The Rendezvous Vehicle Routing Problem. INFORMS Transportation Science and Logistics
+Workshop, July 19-20, 2021. co-authors: Bruce Golden, Eric Oden.
+30) Does Broader Sharing Improve Patient Outcomes? Analysis of Share 35 Liver Allocation
+Policy. Manufacturing and Service Operations Management Conference, June 5-10, 2021. coauthors: Shubham Akshat, Liye Ma.
+31) Does Broader Sharing Improve Patient Outcomes? Analysis of Share 35 Liver Allocation
+Policy. POMS Annual Conference, April 30-May 5, 2021. co-authors: Shubham Akshat, Liye
+Ma.
+32) Heterogeneous Donor Circles for Fair Liver Transplant Allocation. INFORMS Annual Meeting,
+November 8-13, 2020. co-authors: Shubham Akshat, Sommer Gentry.
+33) Does Broader Sharing Improve Patient Outcomes? A Structural Model Analysis of Share 35
+Liver Allocation Policy. INFORMS Annual Meeting, November 8-13, 2020. co-authors:
+Shubham Akshat, Liye Ma.
+34) The Rendezvous Vehicle Routing Problem. INFORMS Annual Meeting, November 8-13, 2020.
+co-authors: Bruce Golden, Eric Oden.
+35) Rapid Influence Maximization on Social Networks: The Positive Influence Dominating Set
+Problem. INFORMS Annual Meeting, November 8-13, 2020. co-author: Rui Zhang.
+36) A Pickup and Delivery Problem with Demand Regions. INFORMS Annual Meeting, November
+8-13, 2020. co-authors: Bruce Golden, Eric Oden.
+37) Rapid Influence Maximization on Social Networks: The Positive Influence Dominating Set
+Problem. 15th INFORMS Telecommunications & Network Analytics Conference, October 20-
+21, 2020, Berlin, Germany. co-author: Rui Zhang.
+38) Heterogeneous Donor Circles for Fair Liver Transplant Allocation. 4th Workshop on Mechanism
+Design for Social Good, August 17-19, 2020. co-authors: Shubham Akshat, Sommer Gentry.
+
+ S. Raghavan
+ September 2025
+
+ Page 13 of 34
+39) Fair Liver Transplant Allocation: A Scalable Optimization Model. INFORMS Seattle, October
+20-23, 2019. co-authors: Shubham Akshat, Sommer Gentry.
+40) An Inexact Sample Average Approximation Approach for the Stochastic Connected Facility
+Location Problem. INFORMS Seattle, October 20-23, 2019. co-author: Gisela Bardossy.
+41) Fair Liver Transplant Allocation: A Scalable Optimization Model. INFORMS Healthcare
+Conference, July 26-29, 2019, Boston, MA. co-authors: Shubham Akshat, Sommer Gentry.
+42) Fair Liver Transplant Allocation: A Scalable Optimization Model. 30th EURO Conference, June
+23-26, 2019, Dublin, Ireland. co-authors: Shubham Akshat, Sommer Gentry
+43) Methods for Solving Problems in Urban Air Mobility. 7th VEROLOG Conference, June 3-5,
+2019, Seville, Spain. co-authors: Bruce Golden, Eric Oden.
+44) Flying Taxis: The Future of Urban Mobility. 30th Annual POMS Conference, May 2-6, 2019,
+Washington, D.C. co-authors: Bruce Golden, Eric Oden.
+45) Fair Liver Transplant Allocation: A Scalable Optimization Model. 30th Annual POMS
+Conference, May 2-6, 2019, Washington, D.C. co-authors: Shubham Akshat, Sommer Gentry.
+46) Rapid Influence Maximization on Social Networks: The Positive Influence Dominating Set
+Problem. 16th INFORMS Computing Society Conference, January 6-8, 2019, Knoxville, TN.
+co-author: Rui Zhang.
+47) Targeted Online Advertising with Multi-dimensional Bids. Workshop in Management Science,
+January 3-5, 2019, Santa Cruz, Chile. co-authors: Abhishek Pani, Mustafa Sahin.
+48) Generalizations of the Dominating Set Problem on Social Networks. INFORMS Phoenix,
+November 4-7, 2018. co-author: Rui Zhang.
+49) The Weighted Target Set Selection Problem on Cycles. INFORMS Phoenix, November 4-7,
+2018. co-author: Rui Zhang.
+50) Estimated Impact of the Number of Simultaneous Offers on Kidney Delay and Discard. 2018
+American Transplant Congress, June 2-6, 2018. co-authors: Sommer Gentry, Courtenay
+Holscher, Martin Kosztowski, Michal Mankowski, Dorry Segev.
+51) Weighted Target Set Selection Problem on Cycles. INFORMS Optimization Society
+Conference, Denver, CO, March 23-25, 2018. co-author: Rui Zhang.
+52) Generalizations of the Dominating Set Problem on Social Networks. INFORMS Optimization
+Society Conference, Denver, CO, March 23-25, 2018. co-author: Rui Zhang.
+53) Impact of the Number of Simultaneous Offers on Kidney Delay and Discard. Poster Session at
+18th Annual State of the Art Symposium, American Society of Transplant Surgeons. co-authors:
+Sommer Gentry, Courtenay Holscher, Martin Kosztowski, Michal Mankowski, Dorry Segev.
+54) The Joys and Challenges of Teaching. INFORMS Doctoral Colloquium. INFORMS Houston,
+October 22-25, 2017.
+55) The One-Time Period Least Cost Influence Maximization Problem on Social Networks.
+INFORMS Houston, October 22-25, 2017. co-author: Rui Zhang.
+56) Generalizations of the Dominating Set Problem on Social Networks. 21st Conference of the
+International Federation of Operational Research Societies, Quebec City, Canada, July 17-21,
+2017. co-author: Rui Zhang.
+57) The Bid Adjustment Problem in Search Advertising. POMS Seattle, May 5-8, 2017. co-authors:
+Abhishek Pani, Mustafa Sahin.
+
+ S. Raghavan
+ September 2025
+
+ Page 14 of 34
+58) The One-Time Period Least Cost Influence Maximization Problem on Social Networks. 8th
+International Network Optimization Conference, Lisbon, Portugal, February 26-28, 2017. coauthor: Rui Zhang.
+59) The Bid Adjustment Problem in Search Advertising. INFORMS Nashville, November 14-17,
+2016. co-author: Abhishek Pani, Mustafa Sahin.
+60) Mathematical Programming Approaches to Influence Maximization Problems on Social
+Networks. INFORMS Nashville, November 14-17, 2016. co-author: Rui Zhang.
+61) Weighted Target Set Selection on Social Networks. INFORMS Nashville, November 14-17,
+2016. co-author: Rui Zhang.
+62) Large-Scale Bid Optimization in Online Advertising Auctions. POMS Orlando, May 6-9, 2016.
+co-author: Abhishek Pani, Mustafa Sahin.
+63) Mathematical Programming Approaches to Influence Maximization Problems on Social
+Networks. Plenary talk at 13th INFORMS Telecommunications Section Conference, Boca
+Raton, FL, March 20-22, 2016.
+64) The Generalized Regenerator Location Problem. 13th INFORMS Telecommunications Section
+Conference, Boca Raton, FL, March 20-22, 2016. co-authors: Si Chen, Ivana Ljubic.
+65) Weighted Target Set Selection on Social Networks. INFORMS Optimization Conference,
+Princeton, NJ, March 17-19, 2016. co-author: Rui Zhang.
+66) Large-Scale Bid Optimization in Online Advertising Auctions. INFORMS Philadelphia,
+November 1-4, 2015. co-author: Abhishek Pani, Mustafa Sahin.
+67) Tailored Incentives and Least Cost Influence Maximization on Social Networks. INFORMS
+Philadelphia, November 1-4, 2015. co-author: Dilek Gunnec, Rui Zhang.
+68) Generalizations of the Dominating Set Problem on Social Networks. INFORMS Philadelphia,
+November 1-4, 2015. co-author: Rui Zhang.
+69) Branch-and-Price for the Capacitated Mobile Facility Location. INFORMS Philadelphia,
+November 1-4, 2015. co-author: Mustafa Sahin, Sibel Salman
+70) Weighted Target Set Selection. 22nd International Symposium on Mathematical Programming,
+Pittsburgh, July 12-17, 2015. co-author: Rui Zhang.
+71) The Positive Influence Dominating Set Polytope. 22nd International Symposium on
+Mathematical Programming, Pittsburgh, July 12-17, 2015. co-author: Rui Zhang
+72) Capacitated Mobile Facility Location. 22nd EURO Working Group on Locational Analysis
+Meeting, Hungary, Budapest, May 20-22, 2015. co-author: Mustafa Sahin, Sibel Salman.
+73) The Positive Influence Dominating Set Polytope. 7th International Network Optimization
+Conference, Warsaw, Poland, May 18-20, 2015. co-author: Rui Zhang.
+74) Capacitated Mobile Facility Location. 7th International Network Optimization Conference,
+Warsaw, Poland, May 18-20, 2015. co-author: Mustafa Sahin, Sibel Salman.
+75) Weighted Target Set Selection. 14th INFORMS Computing Society Conference, Richmond, VA,
+January 11-13, 2015. co-author: Rui Zhang.
+76) A Branch-and-Price Algorithm for the Capacitated Mobile Facility Location Problem. 14th
+INFORMS Computing Society Conference, Richmond, VA, January 11-13, 2015. co-author:
+Mustafa Sahin, Sibel Salman.
+77) Weighted Target Set Selection. INFORMS San Francisco, November 9-12, 2014. co-author: Rui
+Zhang.
+
+ S. Raghavan
+ September 2025
+
+ Page 15 of 34
+78) The Least Cost Influence Problem (LCIP) in Dynamic Social Networks. INFORMS San
+Francisco, November 9-12, 2014. co-author: Dilek Gunnec.
+79) Panelist: External Letters of Recommendation for Tenure: Hear from those who Write and Read
+Them. INFORMS San Francisco, November 9-12, 2014.
+80) The Least Cost Influence Problem. 20th IFORS Conference, Barcelona, Spain, July 13-18, 2014.
+co-author: Dilek Gunnec, Rui Zhang.
+81) A Tight Extended Formulation for the Target Set Selection Problem on Trees. 3rd International
+Symposium on Combinatorial Optimization, Lisbon, Portugal, March 5-7, 2014. co-author: Rui
+Zhang.
+82) Engineering Diffusion on a Social Network at Minimum Cost. 3rd International Symposium on
+Combinatorial Optimization, Lisbon, Portugal, March 5-7, 2014. co-author: Dilek Gunnec, Rui
+Zhang.
+83) Robust Optimization for the Connected Facility Location Problem. 12th INFORMS
+Telecommunications Conference, Lisbon Portugal, March 2-4, 2014. co-author: Gisela
+Bardossy.
+84) Local Search for the Reload Cost Spanning Tree Problem. 12th INFORMS Telecommunications
+Conference, Lisbon Portugal, March 2-4, 2014. co-author: Mustafa Sahin.
+85) An Inexact Sample Average Approximation Approach for the Stochastic Connected Facility
+Location Problem. 12th INFORMS Telecommunications Conference, Lisbon Portugal, March 2-
+4, 2014. co-author: Gisela Bardossy.
+86) Local Search for the Reload Cost Spanning Tree Problem. EURO/INFORMS Joint International
+Meeting, Rome, Italy, July 1-4, 2013. co-author: Mustafa Sahin.
+87) The Least Cost Influence Problem. EURO/INFORMS Joint International Meeting, Rome, Italy,
+July 1-4, 2013. co-author: Dilek Gunnec, Rui Zhang.
+88) The Least Cost Influence Problem. International Network Optimization Conference, Tenerife,
+Spain, May 20-22, 2013. co-author: Dilek Gunnec, Rui Zhang.
+89) Local Search for the Reload Cost Spanning Tree Problem. International Network Optimization
+Conference, Tenerife, Spain, May 20-22, 2013. co-author: Mustafa Sahin.
+90) The Least Cost Influence Problem. 13th INFORMS Computing Society Conference, Santa Fe,
+New Mexico, January 6-8, 2013. Co-author: Dilek Gunnec, Rui Zhang.
+91) Tutorial on Combinatorial Auctions. INFORMS Phoenix, October 14-17, 2012
+92) Social Network Effects on Product Line Design. INFORMS Phoenix, October 14-17, 2012. Coauthor: Dilek Gunnec.
+93) Recoverable Robust Two-Level Network Design. 21st International Symposium on
+Mathematical Programming, Berlin, Germany, August 19-24, 2012. Co-author: Eduardo
+Alvarez-Miranda, Ivana Ljubic, Paolo Toth.
+94) The Recoverable Robust Two-Level Network Design Problem. INFORMS Telecommunications
+Conference, Boca Raton, FL, March 14-16, 2012. Co-author: Eduardo Alvarez-Miranda, Ivana
+Ljubic, Paolo Toth.
+95) The Least Cost Influence Problem (LCIP) on a Social Network. INFORMS Optimization
+Conference, Miami, FL, February 24-26, 2012. Co-author: Dilek Gunnec.
+96) Social Network Effects on Product Design and Diffusion. INFORMS Charlotte, November 13-
+16, 2011. Co-author: Dilek Gunnec.
+
+ S. Raghavan
+ September 2025
+
+ Page 16 of 34
+97) The Least Cost Influence Problem (LCIP) on a Social Network. INFORMS Charlotte,
+November 13-16, 2011. Co-author: Dilek Gunnec.
+98) The SAA Method with Heuristics and Lower Bounds with an Application to the SConFL
+Problem. INFORMS Charlotte, November 13-16, 2011. Co-author: Gisela Bardossy.
+99) The Generalized Regenerator Location Problem. 12th INFORMS Computing Society
+Conference, Monterey, CA, January 9-11, 2011. co-authors: Si Chen, Ivana Ljubic.
+100)
+Assignment Preferences and Combinatorial Auctions. 12th INFORMS Computing
+Society Conference, Monterey, CA, January 9-11, 2011. co-author: Robert W. Day.
+101)
+Integrating Social Network Effects in Product Design. INFORMS Austin, November 7-
+10, 2010. Co-author: Dilek Gunnec.
+102)
+The Stochastic Connected Facility Location Problem. INFORMS Austin, November 7-
+10, 2010. co-author: Maria Gisela Bardossy.
+103)
+Multi-Period Traffic Routing in Satellite Networks. (2010 MSSIP award winning
+plenary talk at EURO conference). 24th European Conference on Operational Research (EURO),
+Lisbon, July 11-14, 2010. co-author: Ioannis Gamvros.
+104)
+The Generalized Regenerator Location Problem. 24th European Conference on
+Operational Research (EURO), Lisbon, July 11-14, 2010. co-authors: Si Chen, Ivana Ljubic.
+105)
+The Generalized Regenerator Location Problem. Optimization Days, Montreal, May 10-
+12, 2010. co-authors: Si Chen, Ivana Ljubic.
+106)
+The Mobile Facility Location Problem. 10th INFORMS Telecommunications
+Conference, Montreal, May 5-7, 2010. co-author: Russell Halper.
+107)
+The
+Stochastic
+Connected
+Facility
+Location
+Problem.
+10th
+INFORMS
+Telecommunications Conference, Montreal, May 5-7, 2010. co-author: Maria Gisela Bardossy.
+108)
+Efficient Utilization of Mobile Facilities in Humanitarian Logistics. INFORMS San
+Diego, October 11-14, 2009. co-author: Russell Halper.
+109)
+The Generalized Regenerator Location Problem. INFORMS San Diego, October 11-14,
+2009. co-authors: Si Chen, Ivana Ljubic.
+110)
+Dual-based Local Search for the Connected Facility Location and Related Problems. 20th
+International Symposium on Mathematical Programming, Chicago, August 23-28, 2009. coauthor: Maria Gisela Bardossy.
+111)
+The Generalized Regenerator Location Problem. 20th International Symposium on
+Mathematical Programming, Chicago, August 23-28, 2009. co-authors: Si Chen, Ivana Ljubic.
+112)
+Fair Payments for Efficient Allocations in Public Sector Combinatorial Auctions.
+European Excellence in Practice Award talk given at Euro Bonn, July 5-8, 2009. co-author:
+Robert W. Day.
+113)
+Dual-Based Heuristics for the Connected Facility Location Problem. International
+Network Optimization Conference, Pisa, Italy, April 26-29, 2009. co-author: Maria Gisela
+Bardossy.
+114)
+The Generalized Regenerator Location Problem. International Network Optimization
+Conference, Pisa, Italy, April 26-29, 2009. co-authors: Si Chen, Ivana Ljubic.
+115)
+Dual-Based Heuristics for the Connected Facility Location Problem. 11th INFORMS
+Computing Society Conference, Charleston, SC, January 10-13, 2009. co-author: Maria Gisela
+Bardossy.
+
+ S. Raghavan
+ September 2025
+
+ Page 17 of 34
+116)
+Dual-Based Heuristics for the Connected Facility Location Problem. 6th ALIO/EURO
+Workshop on Applied Combinatorial Optimization, Buenos Aires, Argentina, December 15-17,
+2008. co-author: Maria Gisela Bardossy.
+117)
+Fair Payments for Efficient Allocations in Public Sector Combinatorial Auctions. ICS
+Prize talk given at INFORMS Washington, October 12-15, 2008. co-author: Robert W. Day.
+118)
+The Mobile Facility Routing Problem. INFORMS Washington, October 12-15, 2008.
+co-author: Russell Halper.
+119)
+The Single Mobile Facility Routing Problem. INFORMS Washington, October 12-15,
+2008. co-author: Russell Halper.
+120)
+Dual-ascent for the Connected Facility Location Problem. INFORMS Washington,
+October 12-15, 2008. co-author: Maria Gisela Bardossy.
+121)
+The Generalized Regenerator Location Problem. INFORMS Washington, October 12-
+15, 2008. co-authors: Si Chen, Ivana Ljubic.
+122)
+Multi-Period Traffic Routing in Satellite Networks. SIAM Optimization Conference,
+Boston, MA, May 10-13, 2008. co-author: I. Gamvros.
+123)
+The Mobile Facility Routing Problem. INFORMS Telecommunications Conference,
+College Park, MD, March 27-29, 2008. co-author: Russell Halper.
+124)
+Dual-ascent
+for
+the
+Connected
+Facility
+Location
+Problem.
+INFORMS
+Telecommunications Conference, College Park, MD, March 27-29, 2008. co-author: Maria
+Gisela Bardossy.
+125)
+The Generalized Regenerator Location Problem. INFORMS Telecommunications
+Conference, College Park, MD, March 27-29, 2008. co-authors: Si Chen, Ivana Ljubic.
+126)
+Ex-Post Internet Charging. INFORMS Telecommunications Conference, College Park,
+MD, March 27-29, 2008. co-authors: Joseph Bailey, Jose Nagel.
+127)
+The Generalized Regenerator Location Problem. INFORMS Seattle, Nov 4-7, 2007. coauthors: Si Chen, Ivana Ljubic.
+128)
+Dual-ascent for the Connected Facility Location Problem. INFORMS Seattle, Nov 4-7,
+2007. co-author: Maria Gisela Bardossy.
+129)
+Bid-Optimization in Sponsored Search Auctions. INFORMS International Conference,
+Puerto Rico, July 8-11, 2007. co-author: A. Pani.
+130)
+Invited Tutorial on Combinatorial Auctions. INFORMS International Conference,
+Puerto Rico, July 8-11, 2007.
+131)
+Reload Cost Trees and Network Design. International Network Optimization
+Conference, Spa, Belgium, April 22-25, 2007. co-author: I. Gamvros, L. Gouveia.
+132) The Regenerator Location Problem. International Network Optimization Conference, Spa,
+Belgium, April 22-25, 2007. co-author: S. Chen.
+133) Bid-Optimization in Sponsored Search Auctions. 10th INFORMS Computing Society
+Conference, Miami, January 3-5, 2007. co-author: A. Pani.
+134) An Exact Algorithm for Multistage Integer Multi-Commodity Flow Problems with Demand
+Uncertainty. 10th INFORMS Computing Society Conference, Miami, January 3-5, 2007. coauthor: I. Gamvros.
+135) Ex-Post Internet Charging: An Effective Bandwidth Model. 10th INFORMS Computing
+Society Conference, Miami, January 3-5, 2007. co-author: J. Bailey.
+
+ S. Raghavan
+ September 2025
+
+ Page 18 of 34
+136) An Exact Algorithm for Multistage Integer Multi-Commodity Flow Problems with Demand
+Uncertainty. INFORMS Pittsburgh, November 5-8, 2006. co-author: I. Gamvros.
+137) Branch-and-Price-and-Cut for Network Design with Reload Costs. INFORMS Pittsburgh,
+November 5-8, 2006. co-authors: L. Gouveia, I Gamvros.
+138) Core Payment Mechanisms for Combinatorial Auctions. INFORMS Pittsburgh, November 5-
+8, 2006. co-author: R. Day.
+139) Formulations and Reformulations for Network Design Problems with Reload Costs.
+INFORMS Pittsburgh, November 5-8, 2006. co-authors: L. Gouveia, I. Gamvros.
+140) Mining Data with Classification Trees, Discrete Optimization Models, and Sammon Maps.
+ICS Prize Session, INFORMS Pittsburgh, November 5-8, 2006. co-authors: B. Golden, E.
+Wasil.
+141) Regenerator Location Problem. INFORMS Pittsburgh, November 5-8, 2006. co-author: Si
+Chen.
+142) Invited Tutorial on Combinatorial Auctions. Annual Meeting of the Canadian Operations
+Research Society, Montreal, May 8-10, 2006.
+143) The Regenerator Location Problem. 8th INFORMS Telecommunications Conference, Dallas,
+March 30-April 1 2006. co-author: Si Chen.
+144) Multi-Period Traffic Routing on Satellite Networks with On-board Switching Constraints. 8th
+INFORMS Telecommunications Conference, Dallas, March 30-April 1 2006. co-author: I.
+Gamvros.
+145) Opportunities for Network Design and Revenue Management in Satellite Communication
+Networks. 8th INFORMS Telecommunications Conference, Dallas, March 30-April 1 2006. coauthors: B. Fromont, I. Gamvros, B. Srikar.
+146) A Branch-and-Price Algorithm for WDM Optical Network Design. INFORMS New Orleans
+(relocated to San Francisco), November 13-16 2005, San Francisco. co-author: D. Stanojevic.
+147) Branch-and-Price-and-Cut for the Multi-Period Routing Problem in Satellite Networks.
+INFORMS New Orleans (relocated to San Francisco), November 13-16 2005, San Francisco.
+co-author: I. Gamvros.
+148) Integrated Traffic Grooming and Lightpath Routing in WDM Networks. INFORMS New
+Orleans (relocated to San Francisco), November 13-16 2005, San Francisco. co-author: D.
+Stanojevic.
+149) Investment Analysis and Budget Allocation at Catholic Relief Services. INFORMS New
+Orleans (relocated to San Francisco), November 13-16 2005, San Francisco. co-authors: I.
+Gamvros and R. Nidel.
+150) Multi-Period Traffic Routing in Satellite Networks. IFORS Triennial Conference, Honolulu,
+Hawaii, July 11-15, 2005. co-author: I. Gamvros.
+151) Fair Payments for Efficient Allocations in Public Sector Combinatorial Auctions. IFORS
+Triennial Conference, Honolulu, Hawaii, July 11-15, 2005. co-author: R. Day.
+152) Branch-and-Price for WDM Optical Network Design. 2nd Workshop on Optimization of
+Optical Networks (OON 2005), April 14-15, 2005, Montréal. co-author: D. Stanojevic.
+153) Directed Connectivity Splitting and Directed Flow Models for Survivable Network Design,
+International Network Optimization Conference, March 20-23, 2005, Lisbon.
+154) Multi-Period Traffic Routing in Satellite Networks. International Network Optimization
+Conference, March 20-23, 2005, Lisbon. co-author: I. Gamvros.
+
+ S. Raghavan
+ September 2025
+
+ Page 19 of 34
+155) A Note on Eswaran and Tarjan's Strong Connectivity Augmentation Algorithm. INFORMS
+Computing Society Conference, January 5-7 2005, Annapolis.
+156) Multi-Period Traffic Routing in Satellite Networks. INFORMS Computing Society
+Conference, January 5-7 2005, Annapolis. co-author: I. Gamvros.
+157) Column Generation for WDM Optical Network Design. INFORMS Computing Society
+Conference, January 5-7 2005, Annapolis. co-author: D. Stanojevic.
+158) Heuristic Search for Network Design. Invited Tutorial at INFORMS Denver, October 24-27
+2004. co-author: B. Golden.
+159) Multi-Period Traffic Routing in Satellite Networks. INFORMS Denver, October 24-27 2004.
+co-author: I. Gamvros.
+160) Generation and Selection of Core Outcomes in Sealed Bid Combinatorial Auctions. DIMACS
+Workshop on Computational Issues in Auction Design, October 7-8, 2004. Rutgers University.
+co-author: R. Day.
+161) Directed Connectivity Splitting for Survivable Network Design. Optimization 2004, July 26-
+28 2004, Lisbon, Portugal.
+162) A Multi-Phase Iterative Combinatorial Auction for Airport Landing Slots. NEXTOR
+Workshop. Government, the Airline Industry and the Flying Public: A New Way of Doing
+Business, June 21-23 2004, Wye Woods, Maryland. Co-author: R. Day.
+163) Directed Connectivity Splitting for Survivable Network Design. CORS/INFORMS Joint
+International Meeting, May 16-19 2004, Banff, Canada.
+164) Schedule Auctions: Using Assignment Network Structure for Landing-Slot. CORS/INFORMS
+Joint International Meeting, May 16-19 2004, Banff, Canada. co-author: R. Day.
+165) A Note on Search by Objective Relaxation. 7th INFORMS Telecommunications Conference,
+March 7-10 2004, Boca Raton. co-author: D. Stanojevic.
+166) The Prize-Collecting Generalized Minimum Spanning Tree Problem. 7th INFORMS
+Telecommunications Conference, March 7-10 2004, Boca Raton. co-authors: B. Golden, D.
+Stanojevic.
+167) Heuristic Search for the Generalized Minimum Spanning Tree Problem. INFORMS Atlanta,
+October 19-22 2003. co-authors: B. Golden, D. Stanojevic.
+168) Improved Heuristics for the Multi-level Capacitated Minimum Spanning Tree Problem.
+INFORMS Atlanta, October 19-22 2003. co-authors: I. Gamvros, B. Golden.
+169) Combinatorial Auctions using Matrix Bids. INFORMS Atlanta, October 19-22 2003. coauthor: R. Day.
+170) A Note on Eswaran and Tarjan's Strong Connectivity Augmentation Algorithm. INFORMS
+Atlanta, October 19-22 2003.
+171) CAMBO: Combinatorial Auctions using Matrix Bids with Order, International Symposium on
+Mathematical Programming, August 16-20 2003, Denmark. co-author: R. Day.
+172) Restricted Preference Combinational Auctions: An Ordered Bidding Scheme, INFORMS San
+Jose, November 17-20 2002. co-author: R. Day.
+173) Heuristics for the Multi-level Capacitated Minimum Spanning Tree Problem, INFORMS San
+Jose, November 17-20 2002. co-authors: I. Gamvros, B. Golden.
+174) Two Formulations for the Capacitated Vehicle Routing Problem on Trees, INFORMS San
+Jose, November 17-20 2002. co-author: B. Chandran.
+
+ S. Raghavan
+ September 2025
+
+ Page 20 of 34
+175) Two Formulations for the Capacitated Vehicle Routing Problem on Trees, Optimization Days,
+May 5-8, 2002, Montreal. co-author: B. Chandran.
+176) An Evolutionary Approach to the Multi-Level Capacitated Minimum Spanning Tree Problem,
+International Symposium on Combinatorial Optimization, April 8-10, 2002, Paris. co-authors: I.
+Gamvros, B. Golden.
+177) Two Formulations for the Capacitated Vehicle Routing Problem, International Symposium on
+Combinatorial Optimization, April 8-10, 2002, Paris. co-author: B. Chandran.
+178) An Evolutionary Approach to the Multi-Level Capacitated Minimum Spanning Tree Problem,
+Sixth INFORMS Telecommunications Conference, March 10-13, 2002, Boca Raton, Florida.
+co-authors: I. Gamvros, B. Golden.
+179) A Discrete Optimization Approach to Data Visualization, INFORMS Miami November 4-7
+2001. co-authors: R. Abbiw-Jackson, B. Golden, S. Lele, E. Wasil.
+180) A Visualization Model based on Adjacency Data, INFORMS Miami November 4-7 2001. coauthors: E. Condon, B. Golden, S. Lele, E. Wasil.
+181) Ex-Post Internet Charging Models, INFORMS Miami November 4-7 2001. co-author: J.
+Bailey.
+182) Bicriteria Product Design Optimization: An Efficient Solution Procedure Using AND/OR
+Trees, EURO 2001, Rotterdam, The Netherlands, July 9-11, 2001. Co: authors: M. Ball, V.
+Trichur.
+183) A Visualization Model based on Adjacency Data, EURO 2001, Rotterdam, The Netherlands,
+July 9-11, 2001. Co: authors: E. Condon, B. Golden, S. Lele, E. Wasil.
+184) Visualizing data with Adjacency Measures, INFORMS San Antonio November 5-8, 2000. coauthors: E. Condon, B. Golden, S. Lele, E. Wasil.
+185) The Degree Constrained Steiner Tree problem, International Symposium on Mathematical
+Programming, August 6-10, 2000, Atlanta.
+186) Dynamic Multidimensional Fitness Functions for Genetic Algorithms for Classification Trees,
+INFORMS Salt Lake City, May 7-10, 2000. co-authors: Z. Fu, B. Golden, S. Lele, E. Wasil.
+187) Ex-Post Internet Pricing. INFORMS Telecom, March 5-8, 2000, Boca Raton. Co-author: J.
+Bailey.
+188) Bicriteria Product Design Optimization. Production and Operations Management Society
+Conference, Dec 21-24th, 1999, New Delhi, India. co-authors: M. Ball and V. Trichur.
+189) Ex-post Internet Pricing. 2nd MIT Workshop on Internet Economics, Cambridge, MA,
+December 2-3, 1999. co-authors: J. Bailey and J. Nagel.
+190)
+Using Genetic Algorithms to Design Intelligent Decision Trees, INFORMS Philadelphia,
+November 7-10, 1999. co-authors: Z.Fu, B.Golden, S.Lele and E.Wasil.
+191) Genetic Algorithms for Intelligent Trees, ANNIE conference. November 1999, St. Louis
+Missouri. co-authors: Z.Fu, B.Golden, S.Lele and E.Wasil.
+192) Tabu Search for a Network Loading Problem with Multiple Facilities, INFORMS Cincinnati
+May 2-5, 1999. co-authors: D. Berger, B. Gendron, J-Y Potvin, P. Soriano.
+193) Designing Long Distance Access Networks, INFORMS Cincinnati May 2-5, 1999. co-author:
+R. Berger.
+194) Optimization Problems in the Design of Access Networks for Long Distance Communication,
+INFORMS Cincinnati May 2-5, 1999. co-authors: R. Berger, R. Seguin.
+
+ S. Raghavan
+ September 2025
+
+ Page 21 of 34
+195) Tabu Search for a Network Loading Problem with Multiple Facilities, INFORMS Cincinnati
+April 26-29, 1998. co-authors: D. Berger, B. Gendron, J-Y Potvin, P. Soriano.
+196) Designing Local Access Networks for Long Distance Communications, INFORMS Montreal
+April 26-29, 1998. co-author: R. Berger.
+197) Designing Local Access Telecommunications Networks, International Symposium on
+Combinatorial Optimization, April 15-17, 1998, Brussels, Belgium. co-author: R. Berger
+198) Tabu Search for Broadband Network Design Problems, INFORMS Dallas, October 26-29,
+1997. co-authors: B. Gendron, C. Fleurent, J.-Y. Potvin, P. Soriano.
+199) A Dual-Based Algorithm for Designing Digital Data Service Networks, INFORMS Atlanta,
+November 3-6, 1996.
+200) Building Large Personal Communication Service Networks: How Can OR Help? INFORMS
+Washington, May 5-8, 1996. co-authors: S. Chiu, V. Corlew, J. Ryan.
+201) Frame Relay Network Optimization, INFORMS Washington, May 5-8, 1996. co-author: S.
+Chiu.
+202) A Dual-Based Algorithm for the Steiner k-Branching Problem, INFORMS Washington, May
+5-8, 1996.
+203) A Frame Relay Network Planning Tool, INFORMS Washington, May 5-8, 1996. co-author: S.
+Chiu
+204) Strong Formulations for Network Design Problems with Connectivity Requirements.
+INFORMS New Orleans, October 29-November 1, 1995. co-author: T. Magnanti
+205) Designing Digital Data Service Networks. INFORMS New Orleans, October 29-November 1,
+1995.
+206) Panelist: Students' Perceptions of Future Directions in OR/MS. ORSA/TIMS Joint National
+Meeting, Boston, April 24-27, 1994.
+207) A Flow-Based Approach to Network Design with Connectivity Constraints, ORSA/TIMS
+Joint National Meeting, Phoenix, October 31-November 3, 1993. co-author: T. Magnanti.
+208) A Dual-Ascent Procedure for Network Design with Connectivity Requirements. ORSA/TIMS
+Joint National Meeting, San Francisco, November 1-4, 1992. co-author: T. Magnanti.
+209) Polyhedral Approaches to Capacitated Spanning Trees. ORSA/TIMS Joint National Meeting,
+Anaheim, November 3-6, 1991. co-authors: L. Hall, T. Magnanti.
+
+Research Grants Received
+i) Smith School Internal Research Grant Program. "AI for Efficient and Equitable Organ Allocation
+Policies", Amount: $18,000, July 2023-June 2024.
+ii) Co-Principal Investigator, National Science Foundation, Grant Number: 2039862, Project Title:
+"Discovery, Analysis, and Disruption of Illicit Narcotic Supply Networks", Amount: $743,806,
+October 2020-September 2026. Other-PIs: M. Bjarnadottir, M. Boyd, J. Dickerson, G.
+Midgette.
+iii) University of Maryland Faculty-Student Research Award. "Logistics Design of an eVTOL
+Network for Rapid Organ Delivery", Amount $10,000, July 2021-June 2022.
+iv) Smith School/CS Department Seed Grant Program. "Analyzing Data Streams with AI and
+Machine Learning", Amount: $20,000, January-December 2018. Other-PIs: M. Hajiaghayi, P.K.
+Kannan, M. Trusov.
+
+ S. Raghavan
+ September 2025
+
+ Page 22 of 34
+v) INTELSAT Global Service Corporation. Project Title: "Routing Models for Satellite
+Networks", Amount: $32,000, February-December 2005.
+vi) Co-Principal Investigator, National Science Foundation, Grant Number: DMI-0205489, Project
+Title: "Rapid Response Electronic Markets for Time Sensitive Goods", Amount: $2,000,000,
+September 2002-August 2005. Other-PIs: G. Anandalingam, L. Ausubel, M. Ball, P. Cramton,
+H. Lucas, S. Raghavan, L. Raschid, V.S. Subrahmanian.
+vii) Co-Principal Investigator, National Security Agency, Project Title: "Internet Pricing and the
+Economics of Communications/Networking Technology", Amount $90,000, January-December
+2005. Other-PI: Joseph Bailey.
+viii) Co-Principal Investigator, National Security Agency, Project Title: "Internet Pricing and the
+Economics of Communications/Networking Technology", Amount $96,000, January-December
+2004. Other-PI: Joseph Bailey.
+ix) Co-Principal Investigator, National Security Agency, Project Title: "Internet Pricing and the
+Economics of Communications/Networking Technology", Amount $120,000, JanuaryDecember 2003. Other-PI: Joseph Bailey.
+x) Co-Principal Investigator, National Security Agency, Project Title: "Internet Pricing and the
+Economics of Communications/Networking Technology", Amount $104,000, June-December
+2002. Other-PI: Joseph Bailey.
+xi) Co-Principal Investigator, National Security Agency, Project Title: "Pricing Mechanisms for
+Managing Differentiated Services", Amount $260,000, April 2000-December 2001. Other-PI:
+Joseph Bailey.
+
+Patents
+- Frame Relay Network Planning Tool (U. S. Patent number: 5,940,373).
+- Method and System to Optimize Capacity of a CDMA Cellular Communication System
+(U.S. Patent number: 6,128,500).
+
+III. TEACHING & ADVISING
+Doctoral Supervision
+Thesis Advisor:
+- Eunseong Jang (co-advised with Margret Bjarnadottir), Ph.D. in Operations Management.
+Expected July 2026.
+- Shubham Akshat, Ph.D. in Operations Management. July 2022.
+Thesis Title: An Operations Management Framework to Improve Geographic Equity in Liver
+Transplantation.
+Placement: Visiting Assistant Professor, Tepper School of Business, Carnegie Mellon
+University.
+Honorable Mention: POMS College of Healthcare Operations Management Best Paper
+Award.
+Finalist: 2020 INFORMS Public Sector Operations Research Best Paper Award.
+- Eric Oden, Ph.D. in Applied Mathematics. July 2022.
+
+ S. Raghavan
+ September 2025
+
+ Page 23 of 34
+Thesis Title: Exact and Heuristic Methods for Emerging Vehicle Routing Problems.
+Placement: Research Scientist, Upstart.
+- Mustafa Sahin, Ph.D. in Management Science. August 2017.
+Thesis Title: Algorithms for Online Advertising Portfolio Optimization and Capacitated
+Mobile Facility Location.
+Placement: Data Scientist, Uber.
+- Rui Zhang, Ph.D. in Management Science. August 2016.
+Thesis Title: Mathematical Programming Models for Influence Maximization on Social
+Networks.
+Placement: Assistant Professor, Leeds School of Business, University of Colorado, Boulder.
+Finalist: 2016 INFORMS Social Media Analytics Best Paper Award.
+- Dilek Gunnec, Ph.D. in Management Science. August 2012.
+Thesis Title: Integrating Social Network Effects in Product Design and Diffusion.
+Placement: Assistant Professor, Industrial Engineering Department, Oyzegin University,
+Istanbul, Turkey.
+- Gisela Bardossy. Ph.D. in Management Science. August 2011.
+Thesis Title: Dual-Based Local Search for Deterministic, Stochastic, and Robust Variants of
+the Connected Facility Location Problem.
+Placement: Assistant Professor, Merrick School of Business, University of Baltimore.
+Winner: 2012 INFORMS SOLA Dissertation Award. Given every two years to the best
+dissertation in the area of location analysis.
+Finalist: 2012 INFORMS Telecommunications Dissertation Award. INFORMS
+Telecommunications Section award for the best doctoral dissertation applying operations
+research techniques to telecommunications problems.
+- Abhishek Pani. Ph.D. in Management Science. November 2010.
+Thesis Title: Models for Budget Constrained Auctions: An Application to Sponsored Search
+& Other Auctions.
+Placement: Research Scientist, Efficient Frontier.
+- Russell Halper. Ph.D. in Applied Math. February 2010.
+Thesis Title: On the Routing and Location of Mobile Facilities.
+Placement: Research Scientist, Nestle Inc.
+- Si Chen. Ph.D. in Management Science. August 2007.
+Thesis Title: A Study of Four Network Problems in Transportation, Telecommunications,
+and Supply Chain Management.
+Placement: Assistant Professor, College of Management, Murray State University.
+- Ioannis Gamvros. Ph.D. in Management Science. August 2006.
+Thesis Title: Satellite Network Design, Optimization and Management.
+Placement: Consultant, ILOG.
+Finalist: 2007 George B. Dantzig Dissertation Award. INFORMS award for the best doctoral
+dissertation in operations research/management science.
+- Daliborka Stanojevic. Ph.D. in Management Science, December 2005.
+Thesis Title: Optimization of Contemporary Telecommunications Networks: Generalized
+Spanning Trees and WDM Optical Networks.
+Placement: Consultant, Decisive Analytics.
+- Robert W. Day. Ph.D. in Applied Mathematics, August 2004.
+Thesis Title: Expressing Preferences with Price-Vector Agents in Combinatorial Auctions.
+Placement: Assistant Professor, Operations and Information Technologies, School of
+Business, University of Connecticut, Storrs.
+
+ S. Raghavan
+ September 2025
+
+ Page 24 of 34
+Winner: 2005 George B. Dantzig Dissertation Award. INFORMS award for the best doctoral
+dissertation in operations research/management science.
+
+Thesis Committee Member:
+- Ryan Sullivan, Ph.D. in Computer Science, April 2025.
+Thesis Title: Applying Policy Gradient Methods to Open-Ended Domains.
+- Max Springer, Ph.D. in Applied Mathematics, April 2025.
+Thesis Title: The Price of Fairness in Algorithmic Decision-Making.
+- Mashid Noorani, Ph.D. in Electrical Engineering, April 2025.
+Thesis Title: Interpretable and Explainable Data-Driven Anomaly Detection for Securing
+Cyber Physical Systems: Theory & Experiment.
+- Panagiotis Nikolaidis, Ph.D. in Electrical Engineering, October 2024.
+Thesis Title: Automated Management of Network Slices with Service Guarantees.
+- Seyed Esmaeili, Ph.D. in Computer Science, June 2023.
+Thesis Title: On Algorithms, Fairness, And Incentives.
+- Stephanie Allen, Ph.D. in Applied Mathematics, October 2022.
+Thesis Title: Working in Reverse: Advancing Inverse Optimization in the Fields of
+Equilibrium and Infrastructure Modeling.
+- Duncan McElfresh, Ph.D. in Applied Mathematics, August 2021.
+Thesis Title: Practical Algorithms for Resource Allocation and Decision Making.
+- Michael Kahr, Ph.D. in Statistics and Operations Research, University of Vienna, June 2021.
+Thesis Title: Mathematical Optimization for Social Network Analysis: Influence
+Maximization and Community Detection.
+- Naveed Haghani, Ph.D. in Applied Mathematics, November 2020.
+Thesis Title: Stabilizing Column Generation via Dual Optimal Inequalities with Applications
+in Logistics and Robotics.
+- Stefan Poikonen, Ph.D. in Applied Mathematics, July 2018.
+Thesis Title: Hybrid Routing Models Utilizing Trucks or Ships to Launch Drones.
+- Ladan Rabieekenari, Ph.D. in Electrical Engineering, October 2016.
+Thesis Title: Coverage and Routing in Dynamic Networks.
+- Melika Abolhassani, Ph.D. in Computer Science, May 2016.
+Thesis Title: Allocation in Networks with Economic Applications.
+- Keith A. Burghardt, Ph.D. in Physics, April 2016.
+Thesis Title: The Physics of Ideas: Inferring the Mechanics of Opinion Formation from
+Macroscopic Statistical Patterns.
+- Hyoshin Park, Ph.D. in Civil and Environmental Engineering, December 2015.
+Thesis Title: Dispatching and Relocation of Emergency Vehicles on Freeways.
+- Anshul Sawant, Ph.D. in Computer Science, November 2015.
+Thesis Title: Computational Analysis of Intelligent Agents: Social and Strategic Settings.
+- Kaustubh Jain, Ph.D. in Electrical Engineering, November 2015.
+Thesis Title: Performance Evaluation of Wireless Ad-hoc Networks and the Presence of
+Heavy-Tails and LRD.
+- Vahid Liaghat, Ph.D. in Computer Science, March 2015.
+Thesis Title: Primal-Dual Techniques for Online Algorithms and Mechanisms.
+- Tuan Ta, Ph.D. in Electrical Engineering, October 2014.
+Thesis Title: Energy Efficiency and Privacy protection in Cellular Networks.
+- Doohyun Sung, Ph.D. in Electrical Engineering, August 2014.
+
+ S. Raghavan
+ September 2025
+
+ Page 25 of 34
+Thesis Title: Radio Resource Management in Heterogeneous Cellular Networks.
+- Chen Dong, Ph.D. in Applied Mathematics and Statistics and Scientific Computation, August
+2014.
+Thesis Title: Hierarchical Bayesian ANOVA.
+- Rajesh Chitnis, Ph.D. in Computer Science, August 2014.
+Thesis Title: Directed Graphs: Fixed-Parameter Tractability and Beyond.
+- Anup Menon, Ph.D. in Electrical Engineering, June 2014.
+Thesis Title: Learning in Engineered Multi-Agent Systems.
+- Prem Swaroop, Ph.D. in Management Science, August 2013.
+Thesis Title: Problems and Models in Strategic Air Traffic Flow Management
+- David Coleman, Ph.D. in Electrical Engineering, May 2013.
+Thesis Title: Predictive Analytics Lead to Smarter Self-organizing Directional Wireless
+Backbone Networks.
+- Hua Chen, Ph.D. in Electrical Engineering, December 2012.
+Thesis Title: Efficient Media Access Control and Distributed Channel-Aware Scheduling for
+Wireless Ad-hoc Networks.
+- Zhichao Wang, Ph.D. in Mechanical Engineering, August 2012.
+Thesis Title: Strategic Product Design Decisions for Uncertain, Converging and Service
+Oriented Markets.
+- Xiaorong Lai, Ph.D. in Civil Engineering, May 2012.
+Thesis Title: Optimization of Station Locations and Track Alignments for Rail Transit Lines.
+- Senni Perumal, Ph.D. in Electrical Engineering, May 2012.
+Thesis Title: Performance Analysis and Design of Mobile Ad-Hoc Networks.
+- Shanshan Zheng, Ph.D. in Electrical Engineering, December 2011.
+Thesis Title: Security, Trust and Cooperation in Wireless Sensor Networks.
+- Oleg Baranov, Ph.D. in Economics, August 2011.
+Thesis Title: Essays on Package Auctions.
+- Terence Johnson, Ph.D. in Economics, August 2011.
+Thesis Title: Essays on Auction and Matching Theory.
+- Kiran Somasundaram, Ph.D. in Electrical Engineering, November 2010.
+Thesis Title: Topology Control Algorithms for Rule Based Routing.
+- He Huang, Ph.D. in Electrical Engineering, November 2010.
+Thesis Title: A Component Based Routing Protocol Design Methodology for MANETs.
+- Leo Jones, Ph.D. in Civil and Environmental Engineering, November 2010.
+Thesis Title: Efficient Spectrum Management for Mobile Ad Hoc Networks.
+- Pacharasut Sujarittanonta, Ph.D. in Economics, August 2010.
+Thesis Title: Analysis of Discrete Clock Auctions.
+- Sunghyun Chun, Ph.D. in Electrical Engineering, December 2009.
+Thesis Title: Auction Based Mechanisms for Dynamic Spectrum Sharing.
+- Matias Herrera Dappe, Ph.D. in Economics, May 2009.
+Thesis Title: Essays on Uniform Price Auctions
+- Enlu Zhou, Ph.D. in Electrical and Computer Engineering, May 2009.
+Thesis Title: Particle Filtering for Stochastic Control and Global Optimization.
+- Punyaslok Purkayastha. Ph.D. in Electrical and Computer Engineering, May 2009.
+Thesis Title: Multipath Routing Algorithms for Communication Networks: Ant Routing and
+Optimization based Approaches.
+- Austin Parker. Ph.D. in Computer Science, August 2008.
+
+ S. Raghavan
+ September 2025
+
+ Page 26 of 34
+Thesis Title: Spatial Probabilistic Temporal Databases.
+- Thayer Morrill, Ph.D. in Economics, May 2008.
+Thesis Title: Three Essays in Market Design.
+- April Kuo, Ph.D. in Civil and Environmental Engineering, March 2008.
+Thesis Title: Multi-carrier track capacity allocation in forward and spot markets of freight
+transport.
+- Dipan Ghosh, Ph.D. in Economics, February 2008.
+Thesis Topic: Open Bid Auctions: A Theoretical and an Experimental Study.
+- Yohan Shim, Ph.D. in Civil and Environmental Engineering, December 2007.
+Thesis Title: Topology Control and Pointing in Free Space Optical Networks.
+- Pedram Fard, Ph.D. in Electrical and Computer Engineering, September 2007.
+Thesis Title: Dynamic Reconfiguration of Network Topology in Optical Networks.
+- Julian Mestre, Ph.D. in Computer Science, July 2007.
+Thesis Title: Primal-Dual Algorithms for Combinatorial Optimization Problems.
+- Roselyn Abbiw-Jackson, Ph.D. in Applied Mathematics. December 2004.
+Thesis Title: Discrete Optimization Models in Data Visualization.
+- Anubhav Arora, Ph.D. in Electrical and Computer Engineering, March 2002.
+Thesis Title: Performance Management in ATM Networks.
+- Paul McAree, Ph.D. in Decision and Information Technologies, June 2001.
+Thesis Title: Models for the Design and Analysis of a Large Package Sort Facility.
+- Zhiwei Fu, Ph.D. in Decision and Information Technologies, June 2000.
+Thesis Title: Using Genetic Algorithms to Develop Intelligent Decision Trees.
+- Vinai Trichur, Ph.D. in Decision and Information Technologies, December 1999.
+Thesis Title: Integer Programming Models for Product Design.
+- Yoram Sussman, Ph.D. in Computer Science, February 1999.
+Thesis Title: Approximation Algorithms for Facility Location Problems.
+
+Masters Supervision
+
+Thesis Advisor:
+- Ioannis Gamvros. M.S. in Management Science, December 2002.
+Thesis Title: The Multi-Level Capacitated Minimum Spanning Tree Problem.
+
+Thesis Committee:
+- Yufei Huang. M.S. in Systems Engineering, May 2018.
+Thesis Title: Route Planning with Statistical Models
+- Saurabh Kumar. M.S. in Computer Science, November 2016.
+Thesis Title: Combinatorial Algorithms for the Active Time and Bust Time Problems.
+- Asa Palley. M.S. in Applied Mathematics, December 2009.
+Thesis Title: Sequential Search with Ordinal Ranks and Cardinal Values: An Infinite
+Discounted Secretary Problem.
+- Ali Pilehvar. M.S. in Systems Engineering, May 2007.
+Thesis Title: Queueing network approximations for mass dispensing and vaccination clinics.
+- Youyu Feng. M.S. in Electrical and Computer Engineering, August 2001.
+Thesis Title: Resource Allocation in Ka-band Satellite Systems.
+- Vineet Birmani. M.S. in Electrical and Computer Engineering, December 1999.
+Thesis Title: Resource Allocation for Ka-Band Broadband Satellite Systems.
+
+ S. Raghavan
+ September 2025
+
+ Page 27 of 34
+
+Project Advisor (M.S. in Telecommunications Program):
+- Fall 2005: Cyrus Havewala, Tejas Vora.
+- Spring 2005: Tushar Gala.
+- Fall 2004: Vasily Gerasimov, Ajay Joshi
+- Fall 2003: Nalini Bharatula, Airin Cherian.
+- Fall 2002: Ali El-Yaacoubi, Chi-Hao Yu.
+- Fall 2001: Nathalie Barboza, Prajna Tuladhar.
+- Summer 2001: Ioannis Gamvros, Noe Guitirrez, Vikas Shah.
+- Spring 2001: Suthee Limpitigranon.
+- Fall 2000: Angela Bayona, Sergio Correal, Tantana Thitiporn.
+- Spring 2000: Clay Gump, Carlos Hernandez.
+- Fall 1999: Natha Chantra, Kevin Hetrick, Samuel Yagui.
+- Summer 1999: Jose Nagel, Sangboon Sangmanee.
+- Spring 1999: Tanya Fulgham.
+
+Courses Taught & Evaluations
+
+Semester
+Program Course Title
+No. Of
+students
+(approx.)
+Student
+evaluations
+(0-4 scale)
+Fall 2025
+Undergrad Quantitative Methods for Management Decisions
+(BMGT332) 2 Sections
+65
+TBD
+Fall 2024
+Ph.D.
+Linear Programming (BMGT 830)
+
+2
+N/A
+Summer
+2024
+OMBA2
+Decision Modeling (BUSO716) 2 Sections
+50
+3.40
+Fall 2023
+Ph.D.
+Linear Programming (BMGT 830)
+
+10
+3.49
+Summer
+2023
+OMBA
+Decision Modeling (BUSO716) 1 Section
+27
+3.53
+Fall 2022
+Ph.D.
+Linear Programming (BMGT 830)
+
+7
+3.84
+Summer
+2022
+OMBA
+Decision Modeling (BUSO716) 1 Section
+25
+3.89
+Fall 2021
+Ph.D.
+Linear Programming (BMGT 830)
+
+11
+3.50
+Summer
+2021
+OMBA
+Decision Modeling (BUSO716) 1 Section
+22
+3.40
+Summer
+2020
+OMBA
+Decision Modeling (BUSO716) 2 Sections
+42
+3.60
+Fall 2019
+M.S.
+Decision Analytics (BUDT758P) 2 Sections
+96
+3.55
+Fall 2019
+Ph.D.
+Linear Programming (BMGT 830)
+
+4
+N/A
+Summer
+2019
+EMBA3
+Data Models and Decisions (EMBA630)
+28
+3.49
+Summer
+2019
+OMBA
+Decision Modeling (BUSO758M) 1 Section
+24
+3.64
+Fall 2018
+M.S.
+Decision Analytics (BUDT758P) 2 Sections
+90
+3.47
+Summer
+2018
+EMBA
+Data Models and Decisions (EMBA630)
+31
+3.66
+
+2 OMBA: Online MBA program.
+3 EMBA: Executive MBA program.
+
+ S. Raghavan
+ September 2025
+
+ Page 28 of 34
+Semester
+Program Course Title
+No. Of
+students
+(approx.)
+Student
+evaluations
+(0-4 scale)
+Summer
+2018
+OMBA
+Decision Modeling (EMBA758M) 2 Sections
+36
+3.56
+Fall 2017
+Ph.D.
+Linear Programming (BMGT 830)
+
+10
+3.80
+Fall 2017
+M.S.
+Decision Analytics (BUDT758P)
+75
+3.22
+Summer
+2017
+EMBA
+Data Models and Decisions (EMBA630)
+30
+3.85
+Spring 2017
+MBA
+Decision Analytics (BUSM762)
+23
+3.51
+Fall 2016
+Ph.D.
+Linear Programming (BMGT 830)
+
+16
+3.36
+Summer
+2016
+EMBA
+Data Models and Decisions (EMBA630)
+30
+3.61
+Fall 2015
+Ph.D.
+Linear Programming (BMGT 830)
+17
+3.38
+Summer
+2015
+EMBA
+Data Models and Decisions (EMBA630)
+22
+3.65
+Spring 2015
+MBA
+Decision Analytics (BUDT732) 3 Sections
+98
+2.93
+Fall 2014
+Ph.D.
+Linear Programming (BMGT 830)
+12
+3.45
+Summer
+2014
+EMBA
+Data Models and Decisions (EMBA630)
+21
+3.67
+Summer
+2013
+EMBA
+Data Models and Decisions (EMBA630)
+21
+3.91
+Spring 2013
+MBA &
+MS
+Decision Analytics (BUDT732) 2 Sections
+80
+3.57
+Fall 2012
+M.S.
+Data Models and Decisions (BUSI630)
+49
+3.87
+Ph.D.
+Linear Programming (BMGT 830)
+15
+3.44
+Summer
+2012
+EMBA
+Data Models and Decisions (EMBA630)
+2 sections
+58
+3.08
+Spring 2012
+MBA
+Decision Analytics (BUDT732)
+43
+3.26
+Fall 2011
+Ph.D.
+Linear Programming (BMGT 830)
+20
+3.19
+Summer
+2011
+EMBA
+Data Models and Decisions (EMBA630)
+38
+2.19
+Fall 2010
+Ph.D.
+Linear Programming (BMGT 830)
+22
+3.34
+MBA
+Data Models and Decisions (BUSI630)
+25
+3.22
+Summer
+2010
+EMBA
+Data Models and Decisions (EMBA630)
+35
+3.39
+Fall 2009
+Ph.D.
+Linear Programming (BMGT 830)
+12
+2.92
+ENTS4
+Decision Support Methods for
+Telecommunications Managers (ENTS635)
+20
+3.49
+Summer
+2009
+EMBA
+Data Models and Decisions (EMBA630)
+28
+3.50
+Fall 2008
+Ph.D.
+Linear Programming (BMGT 830)
+27
+3.03
+ENTS
+Decision Support Methods for
+Telecommunications Managers (ENTS635)
+23
+3.53
+Summer
+2008
+EMBA
+Data Models and Decisions (EMBA630)
+33
+3.48
+Spring 2008
+EMBA
+Data Models and Decisions (EMBA630)
+39
+3.11
+Ph.D.
+Seminar in Applications of Operations Research
+(BMGT828)
+10
+2.97
+
+4 ENTS: Masters of Science in Telecommunications Program. This is a joint program between the Robert H. Smith
+School of Business and the School of Engineering.
+
+ S. Raghavan
+ September 2025
+
+ Page 29 of 34
+Semester
+Program Course Title
+No. Of
+students
+(approx.)
+Student
+evaluations
+(0-4 scale)
+Fall 2007
+Ph.D.
+Linear Programming (BMGT 830)
+14
+2.98
+EMBA
+Data Analysis & Decision Modeling (EMBA627)
+39
+2.86
+Summer
+2007
+EMBA
+Data Models and Decisions (EMBA630)
+39
+3.51
+Fall 2006
+Ph.D.
+Linear Programming (BMGT 830)
+13
+3.10
+Summer
+2006
+EMBA
+Decision Modeling (EMBA624)
+22
+3.60
+Spring 2006
+ENTS
+Network Planning and Design (ENTS 675)
+15
+3.59
+EMBA
+Data Models and Decisions (EMBA630)
+25
+3.47
+Fall 2005
+Ph.D.
+Linear Programming (BMGT 830)
+18
+3.40
+ENTS
+Decision Support Methods for
+Telecommunications Managers (ENTS635)
+40
+3.57
+Spring 2005
+ENTS
+Network Planning and Design (ENTS 675)
+13
+3.20
+Fall 2004
+MBA
+Decision Modeling with Spreadsheets (BUDT 732)
+18
+2.89
+ENTS
+Decision Support Methods for
+Telecommunications Managers (ENTS635)
+40
+3.52
+Spring 2004
+MBA
+Decision Modeling with Spreadsheets (BUDT 732)
+23
+3.16
+ENTS
+Network Planning and Design (ENTS 675)
+19
+3.61
+EMBA
+Data Analysis and Decision Modeling (BMGT630)
+35
+3.40
+Fall 2003
+Ph.D.
+Computational Aspects of Integer Programming
+(BMGT808K)
+7
+3.73
+ENTS
+Decision Support Methods for
+Telecommunications Managers (ENTS635)
+39
+3.17
+Spring 2003
+MBA
+Decision Modeling with Spreadsheets (BUDT 732)
+25
+2.89
+Ph.D.
+Integer Programming (BMGT 833)
+13
+3.37
+ENTS
+Network Planning and Design (ENTS 675)
+22
+3.29
+Spring 2002
+ENTS
+Network Planning and Design (ENTS 675)
+14
+3.61
+Fall 2001
+MBA
+Decision Making for Digital Technology Managers
+(BMGT798D)
+12
+3.46
+ENTS
+Decision Support Methods for
+Telecommunications Managers (ENTS635)
+35
+3.07
+Spring 2001
+MBA
+Decision Making for Digital Technology Managers
+(BMGT798Z)
+26
+3.19
+ENTS
+Network Planning and Design (ENTS 675)
+9
+3.87
+Fall 2000
+ENTS
+Decision Support Methods for
+Telecommunications Managers (ENTS689C)
+32
+3.42
+Spring 2000
+ENTS
+Network Planning and Design (ENTS 689D)
+13
+3.21
+Ph.D.
+Integer Programming (BMGT 833)
+17
+1.625
+Fall 1999
+MBA
+Management of Telecommunications Networks
+(BMGT798D)
+15
+3.09
+ENTS
+Telecommunications Operations Management
+(ENTS689)
+10
+2.85
+Spring 1999
+MBA
+Design of Telecommunications Solutions to
+Business Problems (BMGT 798G)
+19
+3.28
+ENTS
+Network Design and Management (ENTS660)
+25
+2.34
+
+5 This appears to be an erroneous evaluation. The engineering students in the course were not familiar with the business
+school rating system.
+
+ S. Raghavan
+ September 2025
+
+ Page 30 of 34
+Semester
+Program Course Title
+No. Of
+students
+(approx.)
+Student
+evaluations
+(0-4 scale)
+Fall 1998
+ENTS
+Design of Telecommunications Solutions to
+Business Problems (ENTS689)
+3
+N/A
+
+Other Teaching: Telecommunications Seminar (ENTS 608) in Fall 2006, Fall 2003, Spring 2002,
+Fall 2001, Spring 2001, Spring 2000, Spring 1999. MBA Group Field Project (BMGT698) in
+Fall 2001, Fall 1998. Regularly supervise independent study course for Ph.D. students.
+
+Teaching Honors:
+- INFORMS Prize for Teaching OR/MS Practice (2016). This is an annual INFORMS
+award (and the only INFORMS teaching prize) given to one faculty member worldwide for
+excellence in teaching the practice of operations research and management science and
+success in helping students acquire the knowledge and skills necessary to be effective
+practitioners of operations research or the management sciences.
+- Legg-Mason Award for Teaching Innovation (2007).
+- Distinguished Teaching Awards (based on teaching evaluations) for academic years 2012-
+2013, 2005-2006 and in Spring 2001.
+
+Curriculum Development: Instrumental in developing online MBA course Decision Modeling
+(EMBA758M). Shared all developed course materials with other faculty and successfully
+coordinated rollout of this course across 11 Sections. Instrumental in developing successful
+MBA (analytics) elective course Decision Analytics (BUDT 732). Shared all developed course
+materials with other faculty (tenure track and clinical) so that course could be rolled out across
+all of our campuses. Also instrumental in developing this class as a core course in the MS in
+Information Systems as well as the MS in Business Analytics programs. Also instrumental in
+developing new curriculum and courses for Masters in Telecommunications Program.
+Specifically developed core class Decision Support Methods for Telecommunications Managers
+(ENTS 635) and elective course Network Planning and Design (ENTS 675) for Masters in
+Telecommunications Program (have now handed this course over to other faculty).
+
+Teaching Grants:
+- Smith School Teaching Innovation Grant. Amount $8,000. June 2023 - May 2024.
+- University of Maryland Provost Teaching Innovation Grant. Amount $8,000. June - August
+2021.
+
+IV. SERVICE
+Administrative Service
+-
+Member, Ph.D. Oversight Committee, Smith School of Business, September 2025-present.
+Co-chair of Committee September 2025-present.
+-
+MSOM Ph.D. program faculty coordinator, September 2025-present.
+-
+University of Maryland Graduate School Council, August 2025-present.
+-
+M.S. Oversight Committee, Smith School of Business, July 2020-December 2022. Chair of
+Committee October 2022-December 2022.
+
+ S. Raghavan
+ September 2025
+
+ Page 31 of 34
+-
+Member, Business Analytics Faculty Search Committee, Robert H. Smith School of
+Business, August 2023-February 2024.
+-
+Member, Institute for Systems Research, Executive Committee. August 2023-July 2025,
+August 2022-December 2022, August 2019-July 2021, August 2012-July 2016. Chair of
+Committee 2023-2025, 2019-2021, 2015-2016 and 2012-2013.
+-
+Member, Institute for Systems Research, Salary Committee. August 2023-July 2025, August
+2016-July 2020. Chair of Committee 2023-2024, 2019-2020.
+-
+Member, M.S. Oversight Committee, Smith School of Business, July 2020-December 2022.
+Chair of Committee October 2022-December 2022.
+-
+Chair, Operations Management Faculty Search Committee, Robert H. Smith School of
+Business, July 2021-March 2022.
+-
+Applied Mathematics and Scientific Computation Program Graduate Advisory Committee,
+2022-2024, 2011-2013, 2007-2009, 2004-2006.
+-
+Member, University Appointments, Promotion, and Tenure Appeals Committee. August
+2019-2022
+-
+Institute for Systems Research, Educational Programs Committee, 2020-2022, 2007-2009.
+-
+Research Integrity Officer, Smith School of Business and Provost's Office of Faculty
+Affairs, March 2017-July 2022.
+-
+Chair, Operations Management & Analytics Faculty Search Committee, Robert H. Smith
+School of Business, August 2019-April 2020.
+-
+Area Review Committee (ARC) and College Review Committee (CRC) promotion
+committees, 2006-present. Over the years I have served as ARC chair for several DOIT
+promotion cases and have also served on several CRC committees for both DOIT and other
+departmental candidates.
+-
+Faculty Advisory Board, Provost's Office of Faculty Affairs, August 2012-May 2018.
+-
+Member, Senate Nominations Committee 2017-2018.
+-
+Faculty Senator, University Senate. May 2016-April 2018.
+-
+Member, University Appointments, Promotion, and Tenure Committee. August 2011-
+August 2014. Chair of Committee 2013-2014.
+-
+Chair, Smith School Operating Plan Committee. November 2013-May 2016.
+-
+MS Business Analytics Program Oversight Committee, 2018-2019. One of four members of
+a committee that provides oversight to the MS in Business Analytics program.
+-
+MS Business Analytics Program Development Committee, 2014-2017. One of four
+members of a committee that put together the MS in Business Analytics program for the
+Smith School.
+-
+Business Analytics Executive Certificate Program Committee, 2013-2017. One of three
+members of a committee that worked to put together a certificate program in business
+analytics for executives.
+-
+Business Analytics MBA Electives Committee, 2011-2016.
+-
+Course Coordinator BUDT732: Decision Analytics. 2012-present.
+-
+MSIS curriculum redesign committee, 2012-2013.
+-
+Ph.D. admissions and comprehensive exam committee. 2000 - present
+-
+Chair, Business Analytics Faculty Search Committee, Robert H. Smith School of Business,
+August 2012-March 2013.
+
+ S. Raghavan
+ September 2025
+
+ Page 32 of 34
+-
+Chair, Operations Management/Analytics Faculty Search Committee, Robert H. Smith
+School of Business, August 2011-March 2012.
+-
+Member, Operations Management Faculty Search Committee, Robert H. Smith School of
+Business, August 2010-April 2011.
+-
+Co-director e-markets research lab. June 2007 - July 2011.
+-
+University Communications Service Fee Committee. November 2009 - May 2011.
+-
+Provost Mobility Initiative Committee. May 2008 - May 2011.
+-
+Seminar Coordinator, Decision & Information Technologies Group, Smith School of
+Business, May 2005 - February 2006.
+-
+Chair Statistics Faculty Search Committee, Robert H. Smith School of Business, September
+2005 - April 2006.
+-
+Smith School of Business, Salary Review Committee, February-May 2004.
+-
+Business School Faculty Director for M.S. in Telecommunications (ENTS) Program, 1998-
+2006. I played a lead role in facilitating interaction between the engineering school and the
+business school to effectively administer the ENTS program.
+-
+M.S. in Telecommunications Program Curriculum Review Committee, member, 1999-2012.
+-
+Faculty Advisor: Telecommunications Students and Alumni Network. Student club of M.S.
+in Telecommunications Program.
+-
+Operations Research Faculty Search Committee, member, Robert H. Smith School of
+Business, September 2000-March 2001.
+-
+Entrepreneurship Faculty Search Committee, member, Robert H. Smith School of Business,
+September 1999 - April 2000.
+-
+Joint Institute for Systems Research/Robert H. Smith School Telecommunications Faculty
+Search Committee, member, October 1998 - April 1999.
+-
+Telecommunications Concentration Committee, member, Robert H. Smith School of
+Business. Fall 1999 - Spring 2001.
+
+Professional Service
+
+Editorial
+- Guest Co-editor: Networks. Special issue (2021) to celebrate 50th anniversary of the journal
+Networks.
+- Area Editor for Network Optimization and Applications. INFORMS Journal on Computing.
+Jan 2007-December 2018.
+- Area Editor for Telecommunications, Networks and Spatial Economics, March 2006-
+December 2014.
+- Associate Editor, Networks, August 1999-present.
+- Associate Editor, Operations Research, June 2008-December 2011.
+- Associate Editor, INFORMS Journal on Computing. June 2004-Dec 2006.
+- Editorial Advisory Board, Algorithmic Operations Research, 2006-2012.
+- Guest Co-editor: Management Science. Special issue on electronic markets (2005).
+
+ S. Raghavan
+ September 2025
+
+ Page 33 of 34
+- Guest Co-editor: Networks and Spatial Economics. Special Issue on Telecommunications
+(2008).
+- Newsletter editor, INFORMS Computing Society, 1998-2001.
+- Referee for most academic journals in Operations Research/Management Science, including
+- Algorithmica, Annals of Operations Research, Computers and Operations Research,
+Decision Support Systems, Discrete Optimization, European Journal of Operational
+Research, IIE Transactions, INFOR, INFORMS Journal on Computing, INFORMS
+Transactions on Education, International Journal of Game Theory, Journal of Applied
+Mathematics and Decision Sciences, Journal of Combinatorial Theory Series B, Journal of
+Heuristics, Management Science, Mathematical Programming, Mathematics of Operations
+Research, Networks, Operations Research, Operations Research Letters,
+Telecommunications Systems, Transportation Science.
+
+Leadership
+- Vice President, Technology Strategy, Institute for Operations Research and Management
+Science. 2019-2022.
+- Chair, INFORMS Computing Society Prize Committee (2009).
+- Chair, INFORMS JFIG Paper Competition (2008).
+- Chair, INFORMS Telecommunications Section Doctoral Dissertation Award Committee
+(2006).
+- Member, INFORMS Nicholson Prize Committee 2015, 2014, 2007, 2006.
+- Past Chair, INFORMS Telecommunications Section, 2008-2010.
+- Chair, INFORMS Telecommunications Section, 2006-2008.
+- Vice-Chair (Chair 2006-2008), INFORMS Telecommunications Section, 2004-2006.
+- Treasurer, INFORMS Telecommunications Section, 2002-2004.
+- Secretary, INFORMS Telecommunications Section, 2000-2002.
+- Member-of-Council, INFORMS Telecommunications Section, 1998-2000.
+
+Conferences
+- Program Committee, International Network Optimization Conference: 2022, 2019, 2017,
+2015, 2013, 2011, 2009, 2007, 2005.
+- Program Committee, INFORMS Telecommunications Conference: 2016, 2014, 2012, 2010,
+2006, 2004, 2002, 2000.
+- Program Committee, INFORMS Computing Society Conference, 2013, 2011, 2009, 2007.
+- Program Committee, INFORMS Optimization Society Conference, February 2012, Miami,
+Florida.
+- Program Committee, 11th ACM Conference on Electronic Commerce, June 7-10, 2010,
+Harvard University, Cambridge, Massachusetts.
+- Program Committee, Design of Reliable Communication Networks, 2009, 2007.
+- Tutorials Co-chair. INFORMS Washington 2008.
+- Co-chair, INFORMS Telecommunications Section Conference, March 27-29, 2008, College
+Park, MD.
+
+ S. Raghavan
+ September 2025
+
+ Page 34 of 34
+- Cluster Chair, Auctions and Electronic Markets, INFORMS International, July 2007, Puerto
+Rico.
+- Cluster Chair, Auctions and Electronic Markets, IFORS 2005, July 2005, Hawaii.
+- Co-chair, INFORMS Computing Society Conference, January 5-7, 2005, Annapolis, MD.
+- Program Committee, Workshop on Information Technologies and Systems (WITS), 2003,
+Seattle.
+- Telecommunications Cluster Chair, INFORMS Cincinnati 1999, and INFORMS Miami
+2001.
+
+Other
+- National Science Foundation Panel Reviewer, Operations Research Division, and Service
+Enterprise Engineering Division.
+- External Reviewer, Department of Business Analytics, University of Iowa (Summer 2021).

@@ -1,0 +1,85 @@
+{
+  "personal_information": {
+    "full_name": "JOSEF SIVIC",
+    "current_designation": "Research Scientist (Chargé de recherche), CR1",
+    "total_experience": "",
+    "email": "Josef.Sivic@ens.fr",
+    "phone": "+33 1 39 63 55 48",
+    "date_of_birth": "",
+    "gender": "",
+    "address": "INRIA – Willow project, Departement d'Informatique, Ecole Normale Supérieure, 23, avenue d’Italie, CS 81321, 75214 Paris Cedex 13, France",
+    "linkedin": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+  "education": [
+    {
+      "degree": "Ph.D. in Engineering Science",
+      "specialization": "Engineering Science",
+      "institution": "University of Oxford, UK",
+      "board_university": "",
+      "year": "2002-2006",
+      "cgpa_percentage": "",
+      "normalized_degree": "Ph.D."
+    },
+    {
+      "degree": "M.Sc. in Electrical Engineering",
+      "specialization": "Electrical Engineering",
+      "institution": "Czech Technical University, Prague",
+      "board_university": "",
+      "year": "",
+      "cgpa_percentage": "",
+      "normalized_degree": "M.Sc."
+    }
+  ],
+  "experience": [
+    {
+      "designation": "Research Scientist (Chargé de recherche), CR1",
+      "organization": "Institut National de Recherche en Informatique et en Automatique (INRIA), WILLOW project, Laboratoire d'Informatique, Ecole Normale Supérieure",
+      "start_date": "March 2008",
+      "end_date": "Present",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Postdoctoral Research Associate",
+      "organization": "CSAIL, Massachusetts Institute of Technology, Cambridge, USA",
+      "start_date": "2007",
+      "end_date": "2008",
+      "duration": "6 months",
+      "description": ""
+    },
+    {
+      "designation": "Research Fellow",
+      "organization": "University of Oxford, UK",
+      "start_date": "Jul. 2006",
+      "end_date": "Sep. 2007",
+      "duration": "",
+      "description": ""
+    },
+    {
+      "designation": "Internship",
+      "organization": "Microsoft Research, Redmond, USA",
+      "start_date": "2005",
+      "end_date": "2005",
+      "duration": "3 months",
+      "description": ""
+    },
+    {
+      "designation": "Student Research Assistant (during MSc)",
+      "organization": "Center for Machine Perception, Czech Technical University, Prague",
+      "start_date": "1997",
+      "end_date": "2002",
+      "duration": "",
+      "description": ""
+    }
+  ],
+  "publication_summary": {
+    "journal_publications": 11,
+    "conference_publications": 35,
+    "book_publications": 0,
+    "book_chapters": 3,
+    "patents": 0
+  },
+  "normalized_highest_degree": "Ph.D."
+}

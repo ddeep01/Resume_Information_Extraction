@@ -1,14 +1,14 @@
 {
-    "documents": 40,
-    "successful": 40,
+    "documents": 20,
+    "successful": 20,
     "failed": 0,
-    "original_characters": 616340,
-    "cleaned_characters": 594717,
-    "compression_ratio": 0.9649,
-    "unicode_replacements": 2858,
-    "hyphen_fixes": 246,
+    "original_characters": 675739,
+    "cleaned_characters": 666734,
+    "compression_ratio": 0.9867,
+    "unicode_replacements": 3243,
+    "hyphen_fixes": 412,
     "control_characters_removed": 0,
     "bullet_normalized": 0,
-    "spaces_removed": 10371,
-    "blank_lines_removed": 358
+    "spaces_removed": 2929,
+    "blank_lines_removed": 208
 }

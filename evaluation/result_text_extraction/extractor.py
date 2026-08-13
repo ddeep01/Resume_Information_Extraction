@@ -9,15 +9,12 @@ from pdfminer.high_level import extract_text
 # PROJECT PATHS
 # ==================================================
 
-ROOT = Path.cwd()
+ROOT = Path(__file__).resolve().parents[2]
 
 RAW_RESUME_DIR = ROOT / "data" / "raw_resumes"
 
 OUTPUT_DIR = (
-    ROOT
-    / "evaluation"
-    / "result_text_extraction"
-    / "data"
+    Path(__file__).parent / "data"
 )
 
 PYMUPDF_DIR = OUTPUT_DIR / "pymupdf"
@@ -91,77 +88,48 @@ def save_text(text, output_file):
 
 def main():
 
+    # Target 10 test resumes: Resume-01.pdf through Resume-10.pdf
     pdf_files = [
-    RAW_RESUME_DIR / f"R-{i:03d}.pdf"
-    for i in range(1, 11)
-]
+        RAW_RESUME_DIR / f"Resume-{i:02d}.pdf"
+        for i in range(1, 11)
+    ]
 
-    print(f"\nFound {len(pdf_files)} PDFs")
+    # Fallback if Resume-X pattern isn't found
+    pdf_files = [f for f in pdf_files if f.exists()]
+    if not pdf_files:
+        pdf_files = sorted(RAW_RESUME_DIR.glob("*.pdf"))[:10]
+
+    print(f"\nFound {len(pdf_files)} Test PDFs for extraction benchmark\n")
 
     for pdf_file in pdf_files:
 
         resume_name = pdf_file.stem
 
-        print(f"\nProcessing {resume_name}")
+        print(f"Processing {resume_name}...")
 
         try:
 
-            # --------------------------
-            # PyMuPDF
-            # --------------------------
+            # 1. PyMuPDF
+            text = pymupdf_extract(pdf_file)
+            save_text(text, PYMUPDF_DIR / f"{resume_name}.txt")
 
-            text = pymupdf_extract(
-                pdf_file
-            )
+            # 2. pdfplumber
+            text = pdfplumber_extract(pdf_file)
+            save_text(text, PDFPLUMBER_DIR / f"{resume_name}.txt")
 
-            save_text(
-                text,
-                PYMUPDF_DIR /
-                f"{resume_name}.txt"
-            )
+            # 3. pdfminer
+            text = pdfminer_extract(pdf_file)
+            save_text(text, PDFMINER_DIR / f"{resume_name}.txt")
 
-            # --------------------------
-            # pdfplumber
-            # --------------------------
-
-            text = pdfplumber_extract(
-                pdf_file
-            )
-
-            save_text(
-                text,
-                PDFPLUMBER_DIR /
-                f"{resume_name}.txt"
-            )
-
-            # --------------------------
-            # pdfminer
-            # --------------------------
-
-            text = pdfminer_extract(
-                pdf_file
-            )
-
-            save_text(
-                text,
-                PDFMINER_DIR /
-                f"{resume_name}.txt"
-            )
-
-            print(
-                f"SUCCESS: {resume_name}"
-            )
+            print(f"  [SUCCESS] {resume_name}")
 
         except Exception as e:
 
-            print(
-                f"FAILED: {resume_name}"
-            )
+            print(f"  [FAILED] {resume_name}: {e}")
 
-            print(e)
-
-    print("\nDone")
+    print("\nExtraction finished for all 3 libraries.")
 
 
 if __name__ == "__main__":
     main()
+
