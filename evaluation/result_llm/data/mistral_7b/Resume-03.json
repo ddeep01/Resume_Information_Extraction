@@ -1,0 +1,94 @@
+{
+    "personal_information": {
+        "full_name": "HAMED PIRSIAVASH",
+        "current_designation": "Associate Professor",
+        "total_experience": "",
+        "email": "hpirsiav@ucdavis.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "One Shields Ave, Kemper Hall 3061\nDavis, CA 95616",
+        "linkedin": "https://web.cs.ucdavis.edu/~hpirsiav/",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science",
+            "institution": "University of California Irvine",
+            "board_university": "",
+            "year": "09/2007 - 09/2012",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Electrical Engineering",
+            "institution": "Sharif University of Technology",
+            "board_university": "",
+            "year": "09/2003 - 01/2006",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Sc."
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "Electrical Engineering",
+            "institution": "Iran University of Science and Technology",
+            "board_university": "",
+            "year": "09/1999 - 09/2003",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Sc."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor (with tenure)",
+            "organization": "University of California, Davis",
+            "start_date": "09/2021",
+            "end_date": "present",
+            "duration": "",
+            "description": "Teaching and research"
+        },
+        {
+            "designation": "Assistant Professor and Associate Professor (with tenure)",
+            "organization": "University of Maryland, Baltimore County (UMBC)",
+            "start_date": "08/2015",
+            "end_date": "09/2021",
+            "duration": "",
+            "description": "Teaching and research"
+        },
+        {
+            "designation": "Assistant Professor (Secondary)",
+            "organization": "University of Maryland School of Medicine",
+            "start_date": "12/2019",
+            "end_date": "09/2021",
+            "duration": "",
+            "description": "Teaching and research"
+        },
+        {
+            "designation": "Postdoctoral Research Associate",
+            "organization": "University of California Irvine (UCI)",
+            "start_date": "10/2012",
+            "end_date": "06/2015",
+            "duration": "",
+            "description": "Research"
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "University of California Irvine (UCI)",
+            "start_date": "09/2007",
+            "end_date": "09/2012",
+            "duration": "",
+            "description": "Research"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 2
+    },
+    "normalized_highest_degree": "Ph.D."
+}

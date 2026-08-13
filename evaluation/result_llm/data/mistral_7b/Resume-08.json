@@ -1,0 +1,110 @@
+{
+    "personal_information": {
+        "full_name": "Manuel Blum",
+        "current_designation": "Bruce Nelson Professor of Computer Science",
+        "total_experience": "",
+        "email": "mblum@cs.cmu.edu",
+        "phone": "Office: (412) 268-3742, Fax: (412) 268-5576\nHome: (412) 687-8730, Mobile: (412) 596-4063",
+        "date_of_birth": "26 April1938",
+        "gender": "",
+        "address": "5000 Forbes Avenue\nPittsburgh, PA 15213",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Mathematics",
+            "institution": "MIT",
+            "board_university": "",
+            "year": "1964",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Electrical Engineering",
+            "institution": "MIT",
+            "board_university": "",
+            "year": "1961",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.S.",
+            "specialization": "Electrical Engineering",
+            "institution": "MIT",
+            "board_university": "",
+            "year": "1959",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Bruce Nelson Professor of Computer Science",
+            "organization": "Carnegie Mellon University",
+            "start_date": "2001",
+            "end_date": "",
+            "duration": "",
+            "description": "Present"
+        },
+        {
+            "designation": "Visiting Professor of Computer Science",
+            "organization": "City University of Hong Kong",
+            "start_date": "1997",
+            "end_date": "1999",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Arthur J. Chick Professor of Computer Science",
+            "organization": "U.C. Berkeley",
+            "start_date": "1995",
+            "end_date": "2001",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Chair for Computer Science",
+            "organization": "U.C. Berkeley",
+            "start_date": "1977",
+            "end_date": "1980",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Professor",
+            "organization": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley",
+            "start_date": "1968",
+            "end_date": "2001",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Mathematics, MIT",
+            "start_date": "1966",
+            "end_date": "1968",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Associate for Dr. Warren S. McCulloch",
+            "organization": "Research Laboratory of Electronics, MIT",
+            "start_date": "1960",
+            "end_date": "1965",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 23,
+        "conference_publications": 10,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

@@ -1,0 +1,110 @@
+{
+    "personal_information": {
+        "full_name": "Percy Liang",
+        "current_designation": "Associate Professor at Stanford University",
+        "total_experience": "20 years",
+        "email": "pliang@cs.stanford.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "https://www.linkedin.com/in/percy-liang-36054712/",
+        "google_scholar": "https://scholar.google.com/citations?user=QqJ8ZKkAAAAJ&hl=en",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science",
+            "institution": "University of California at Berkeley",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.Eng",
+            "specialization": "Computer Science",
+            "institution": "Massachusetts Institute of Technology",
+            "board_university": "",
+            "year": "2005",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.E."
+        },
+        {
+            "degree": "B.S.",
+            "specialization": "Computer Science",
+            "institution": "Massachusetts Institute of Technology",
+            "board_university": "",
+            "year": "2004",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "Stanford University",
+            "start_date": "2019-",
+            "end_date": "",
+            "duration": "4 years",
+            "description": "Teaching Artificial Intelligence: Principles and Techniques (Stanford CS221)"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Stanford University",
+            "start_date": "2012-",
+            "end_date": "2019-",
+            "duration": "7 years",
+            "description": "Teaching Statistical Learning Theory (Stanford CS229T) and other courses"
+        },
+        {
+            "designation": "Post-doc",
+            "organization": "Google, New York, NY",
+            "start_date": "2011-2012",
+            "end_date": "2011-2012",
+            "duration": "1 year",
+            "description": ""
+        },
+        {
+            "designation": "Intern",
+            "organization": "Intel Labs, Berkeley, CA",
+            "start_date": "2010",
+            "end_date": "2010",
+            "duration": "1 year",
+            "description": ""
+        },
+        {
+            "designation": "Intern",
+            "organization": "Microsoft Research, Cambridge, UK",
+            "start_date": "2005",
+            "end_date": "2005",
+            "duration": "1 year",
+            "description": ""
+        },
+        {
+            "designation": "Intern",
+            "organization": "Microsoft Research, Redmond, WA",
+            "start_date": "2004",
+            "end_date": "2004",
+            "duration": "1 year",
+            "description": ""
+        },
+        {
+            "designation": "Intern",
+            "organization": "Google, Mountain View, CA",
+            "start_date": "2002",
+            "end_date": "2002",
+            "duration": "1 year",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 6,
+        "conference_publications": 53,
+        "book_publications": 0,
+        "book_chapters": 2,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

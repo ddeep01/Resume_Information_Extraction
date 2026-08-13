@@ -1,0 +1,112 @@
+{
+    "personal_information": {
+        "full_name": "Iran R. Roman",
+        "current_designation": "Assistant Professor and Lecturer of Artificial Intelligence",
+        "total_experience": "10+ years",
+        "email": "i.roman@qmul.ac.uk",
+        "phone": "+1 (650) 441-4323",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer-based music theory and acoustics",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2014-2021",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "Postgraduate certificate",
+            "specialization": "academic practice",
+            "institution": "Queen Mary University of London",
+            "board_university": "",
+            "year": "2025-2026",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "Biology, minor in chemistry",
+            "institution": "University of North Texas",
+            "board_university": "",
+            "year": "2009-2014",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        },
+        {
+            "degree": "B.M.",
+            "specialization": "Music theory",
+            "institution": "University of North Texas",
+            "board_university": "",
+            "year": "2009-2014",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "German language",
+            "institution": "University of North Texas",
+            "board_university": "",
+            "year": "2009-2014",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor and Lecturer of Artificial Intelligence",
+            "organization": "Queen Mary University of London, School of Electronic Engineering and Computer Science",
+            "start_date": "2024-01-01",
+            "end_date": "",
+            "duration": "3+ years",
+            "description": "Designed and delivered the graduate-level course ECS759P: Artificial Intelligence. Supervised student research on multimodal artificial intelligence. Initiated and led an industry research partnership with Meta Inc. on multimodal AI for Project Aria. Led the Computational Auditory Perception Laboratory."
+        },
+        {
+            "designation": "Human-centered AI researcher, postdoctoral scholar",
+            "organization": "New York University, New York, NY",
+            "start_date": "2021-01-01",
+            "end_date": "2024-01-01",
+            "duration": "3 years",
+            "description": "Optimized large multimodal models (LMMs) to understand 3D scenes and guide human behavior in AR. Developed algorithms that use spatial cues to detect, localize and track objects in the real world. Contributed to open-source python projects."
+        },
+        {
+            "designation": "Signal processing engineer",
+            "organization": "Tesla Inc, Palo Alto, CA",
+            "start_date": "2020-01-01",
+            "end_date": "2021-01-01",
+            "duration": "1 year",
+            "description": "Designed signal processing algorithms for the embedded audio system of the Model S and Model X. Wrote testing pipelines to identify signal distortion in A2DP and PCM streaming. Designed signal processing layouts with AudioWeaver software."
+        },
+        {
+            "designation": "Deep learning researcher",
+            "organization": "Apple Inc, Cupertino, CA",
+            "start_date": "2018-01-01",
+            "end_date": "2019-01-01",
+            "duration": "1 year",
+            "description": "Optimized the transformer neural architecture to carry out automatic speech recognition (ASR). Collected human data with novel sensors designed for natural voice interaction with Siri. Designed deep neural network architectures that integrate speech with multimodal signals."
+        },
+        {
+            "designation": "Machine learning engineer",
+            "organization": "Poly, Santa Cruz, CA",
+            "start_date": "2017-01-01",
+            "end_date": "2018-01-01",
+            "duration": "1 year",
+            "description": "Developed neural networks and curated datasets for biometric authentication of users with audio headsets. Optimized the size of the neural network to be small enough to run in an embedded system."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 9,
+        "conference_publications": 25,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

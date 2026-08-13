@@ -1,0 +1,69 @@
+{
+    "personal_information": {
+        "full_name": "JOSEF SIVIC",
+        "current_designation": "Research Scientist (Chargé de recherche), CR1",
+        "total_experience": "March 2008-present",
+        "email": "Josef.Sivic@ens.fr",
+        "phone": "+33 1 39 63 55 48",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "INRIA - Willow project\nDepartement d'Informatique, Ecole Normale Supérieure\n23, avenue d'Italie, CS 81321, 75214 Paris Cedex 13, France",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Engineering Science",
+            "institution": "University of Oxford, UK",
+            "board_university": "",
+            "year": "2002-2006",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Electrical Engineering",
+            "institution": "Czech Technical University, Prague",
+            "board_university": "",
+            "year": "",
+            "cgpa_percentage": "graduated first in a class of 89",
+            "normalized_degree": "M.Sc."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Research Scientist (Chargé de recherche), CR1",
+            "organization": "Institut National de Recherche en Informatique et en Automatique (INRIA)",
+            "start_date": "March 2008",
+            "end_date": "present",
+            "duration": "",
+            "description": "Research Scientist at INRIA"
+        },
+        {
+            "designation": "Postdoctoral Research Associate",
+            "organization": "CSAIL, Massachusetts Institute of Technology, Cambridge, USA",
+            "start_date": "2007-07",
+            "end_date": "2007-09",
+            "duration": "6 months",
+            "description": "Postdoctoral Research Associate at MIT"
+        },
+        {
+            "designation": "Research Fellow",
+            "organization": "University of Oxford, UK",
+            "start_date": "2006-07",
+            "end_date": "2007-09",
+            "duration": "",
+            "description": "Research Fellow at University of Oxford"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 11,
+        "conference_publications": 35,
+        "book_publications": 3,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

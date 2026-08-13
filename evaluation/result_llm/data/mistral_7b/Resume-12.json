@@ -1,0 +1,96 @@
+{
+    "personal_information": {
+        "full_name": "Praveen Sama",
+        "current_designation": "Associate Professor",
+        "total_experience": "10 Years",
+        "email": "praveensama86@gmail.com",
+        "phone": "9848250750",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "D.No : 11-10-6, Ammisettyvari Street, Jenda Chettu 4th Lane, Vijayayawada - 520001",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D",
+            "specialization": "",
+            "institution": "Bharathidasan University",
+            "board_university": "",
+            "year": "Pursuing",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "MBA",
+            "specialization": "",
+            "institution": "JNTU K",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "72",
+            "normalized_degree": "MBA"
+        },
+        {
+            "degree": "B.Com",
+            "specialization": "",
+            "institution": "ANU",
+            "board_university": "",
+            "year": "2007",
+            "cgpa_percentage": "75",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "MEC",
+            "specialization": "",
+            "institution": "State Board",
+            "board_university": "",
+            "year": "2004",
+            "cgpa_percentage": "82",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "SSC",
+            "specialization": "",
+            "institution": "State Board",
+            "board_university": "",
+            "year": "2002",
+            "cgpa_percentage": "70",
+            "normalized_degree": "Secondary (10th)"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Lingayas Institute of Management and Technology",
+            "start_date": "2011-2012",
+            "end_date": "",
+            "duration": "1 year",
+            "description": "Teaching at the institute."
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "P.B.Siddhartha College of Arts and Science",
+            "start_date": "2012-2015",
+            "end_date": "",
+            "duration": "3 years",
+            "description": "Teaching at the college."
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "PSCMR College of Engineering & Technology",
+            "start_date": "2015- Till Date",
+            "end_date": "",
+            "duration": "5 years",
+            "description": "Teaching at the college."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 2,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

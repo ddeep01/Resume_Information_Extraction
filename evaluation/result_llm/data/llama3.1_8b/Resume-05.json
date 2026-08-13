@@ -1,0 +1,112 @@
+{
+    "personal_information": {
+        "full_name": "Iran R. Roman",
+        "current_designation": "Assistant Professor and Lecturer of Artificial Intelligence",
+        "total_experience": "",
+        "email": "i.roman@qmul.ac.uk",
+        "phone": "+1 (650) 441-4323",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "London, UK",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer-based music theory and acoustics",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2014-21",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "Postgraduate certificate in academic practice",
+            "specialization": "",
+            "institution": "Queen Mary University of London",
+            "board_university": "",
+            "year": "2025-26",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "Biology, minor in chemistry",
+            "institution": "University of North Texas",
+            "board_university": "",
+            "year": "2009-14",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        },
+        {
+            "degree": "B.M.",
+            "specialization": "Music theory",
+            "institution": "University of North Texas",
+            "board_university": "",
+            "year": "2009-14",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "German language",
+            "institution": "University of North Texas",
+            "board_university": "",
+            "year": "2009-14",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor and Lecturer of Artificial Intelligence",
+            "organization": "Queen Mary University of London",
+            "start_date": "2024-now",
+            "end_date": "",
+            "duration": "",
+            "description": "Designed and delivered the graduate-level course ECS759P: Artificial Intelligence. Supervised student research on multimodal artificial intelligence."
+        },
+        {
+            "designation": "Human-centered AI researcher, postdoctoral scholar",
+            "organization": "New York University",
+            "start_date": "2021-24",
+            "end_date": "",
+            "duration": "",
+            "description": "Optimized large multimodal models (LMMs) to understand 3D scenes and guide human behavior in AR."
+        },
+        {
+            "designation": "Signal processing engineer, internship",
+            "organization": "Tesla Inc",
+            "start_date": "2020-21",
+            "end_date": "",
+            "duration": "",
+            "description": "Designed signal processing algorithms for the embedded audio system of the Model S and Model X."
+        },
+        {
+            "designation": "Deep learning researcher, internship",
+            "organization": "Apple Inc",
+            "start_date": "2018-19",
+            "end_date": "",
+            "duration": "",
+            "description": "Optimized the transformer neural architecture to carry out automatic speech recognition (ASR)."
+        },
+        {
+            "designation": "Machine learning engineer, internship",
+            "organization": "Poly",
+            "start_date": "2017-18",
+            "end_date": "",
+            "duration": "",
+            "description": "Developed neural networks and curated datasets for biometric authentication of users with audio headsets."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 12,
+        "conference_publications": 23,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

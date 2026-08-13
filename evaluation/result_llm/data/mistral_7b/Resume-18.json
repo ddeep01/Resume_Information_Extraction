@@ -1,0 +1,102 @@
+{
+    "personal_information": {
+        "full_name": "Matta. Swathi",
+        "current_designation": "Sr.Assistant Professor",
+        "total_experience": "8+ Years",
+        "email": "lbrceswathi05@gmail.com",
+        "phone": "+91 9502810966",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?user=ReqKxTIAAAAJ&hl=en",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D (In Progress)",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Puducherry Technological University, Puducherry, India",
+            "board_university": "",
+            "year": "2024-25",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Computer Science and Engineering",
+            "institution": "Affliated to Jawaharlal Nehru Technological University, Kakinada",
+            "board_university": "",
+            "year": "2017",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Tech"
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "Information Technology",
+            "institution": "Affliated to Acharya Nagarjuna University Guntur",
+            "board_university": "",
+            "year": "2012",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Tech"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Sr.Assistant Professor",
+            "organization": "Lakireddy Bali Reddy College of Engineering (A), Mylavaram",
+            "start_date": "Dec,2025",
+            "end_date": "Till Date",
+            "duration": "",
+            "description": "Current Position"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Lakireddy Bali Reddy College of Engineering (A), Mylavaram",
+            "start_date": "Aug, 2021",
+            "end_date": "Nov, 2025",
+            "duration": "",
+            "description": "Taught various subjects and conducted labs"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Sri Sarathi Institute of Engineering and Technology, Nuzvid",
+            "start_date": "June, 2017",
+            "end_date": "December, 2020",
+            "duration": "",
+            "description": "Taught various subjects and conducted labs"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Paladugu Parvathi Devi College of Engineering & Technology, Surampalli",
+            "start_date": "Jan, 2021",
+            "end_date": "July, 2021",
+            "duration": "",
+            "description": "Taught various subjects and conducted labs"
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "S.R.S.V.R.G.N.R Arts and Science Degree college Mylavaram",
+            "start_date": "July, 2013",
+            "end_date": "March,2014",
+            "duration": "",
+            "description": "Taught various subjects"
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "St.Mary's Vocational junior College, Mylavaram",
+            "start_date": "July, 2016",
+            "end_date": "March, 2017",
+            "duration": "",
+            "description": "Taught various subjects"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 2
+    },
+    "normalized_highest_degree": "Ph.D."
+}

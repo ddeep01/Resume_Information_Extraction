@@ -1,0 +1,34 @@
+{
+    "personal_information": {
+        "full_name": "",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [],
+    "experience": [
+        {
+            "designation": "",
+            "organization": "",
+            "start_date": "",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Other"
+}

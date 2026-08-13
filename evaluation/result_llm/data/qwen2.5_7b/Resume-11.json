@@ -1,0 +1,102 @@
+{
+    "personal_information": {
+        "full_name": "Olivia Hsu",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "owhsu@stanford.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "[ȧ]",
+        "google_scholar": "a weiya711",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Computer Science (CS)",
+            "specialization": "",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "Jan 2026",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S. in Computer Science (CS)",
+            "specialization": "",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "Sep 2025",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.S. in Electrical Engineering and Computer Science (EECS)",
+            "specialization": "",
+            "institution": "University of California, Berkeley",
+            "board_university": "",
+            "year": "May 2019",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Carnegie Mellon University [ȧ]",
+            "start_date": "May 2026 - Present",
+            "end_date": "",
+            "duration": "",
+            "description": "Assistant professor in Electrical and Computer Engineering and, by courtesy, Computer Science. Member of the CMU Parallel Data Lab (PDL) ȧ and Catalyst Lab ȧ."
+        },
+        {
+            "designation": "Courtesy Adjunct Assistant Professor",
+            "organization": "Carnegie Mellon University [ȧ]",
+            "start_date": "June 2025 - Apr 2026",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoc and PhD Student Researcher",
+            "organization": "Stanford Pervasive Parallelism Lab [ȧ]",
+            "start_date": "Jan 2020 - Apr 2026",
+            "end_date": "",
+            "duration": "",
+            "description": "Researching the automatic compilation and mapping of sparse applications to domain-specific architectures, reconfigurable dataflow architectures, and hardware accelerators under professors Kunle Olukotun and Fredrik Kjolstad. During my postdoc, I advised research projects [1, 2]. During my PhD, I led research projects [7, 13, 16, 26, 10, 8], mentored research projects [12, 9, 25, 5], and have helped on research projects [11, 0, 3]."
+        },
+        {
+            "designation": "Student Collaborator",
+            "organization": "UC Berkeley Group Matching Project",
+            "start_date": "Aug 2020 - Aug 2021",
+            "end_date": "",
+            "duration": "",
+            "description": "Helped develop a scalable and inclusive study group matching process for student collaboration under Professor Gireeja Ranade, which led to [14]."
+        },
+        {
+            "designation": "PhD Student Researcher",
+            "organization": "Stanford VLSI Group",
+            "start_date": "Sep 2019 - Jan 2020",
+            "end_date": "",
+            "duration": "",
+            "description": "Researching fully digital ADC-based high-speed link equalization techniques under Professor Mark Horowitz."
+        },
+        {
+            "designation": "Undergraduate Researcher",
+            "organization": "Berkeley Wireless Research Center",
+            "start_date": "June 2017 - Aug 2019",
+            "end_date": "",
+            "duration": "",
+            "description": "Designed photonic devices using the Berkeley Photonics Generator (BPG) and digital circuits for high-speed communication in Python and Verliog for an ultrasound receive-array system fabricated in the Global Foundries 45nm RFSOI process. Built the lab setup and tested the sensitivity of silicon photonic ring modulators when disturbed with ultrasonic waves."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 6,
+        "conference_publications": 17,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

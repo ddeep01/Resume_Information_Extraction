@@ -1,0 +1,78 @@
+{
+    "personal_information": {
+        "full_name": "Olivia Hsu",
+        "current_designation": "Assistant Professor",
+        "total_experience": "",
+        "email": "owhsu@stanford.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "a weiya711",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science (CS)",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "Jan 2026",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Computer Science (CS)",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "Sep 2025",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.S.",
+            "specialization": "Electrical Engineering and Computer Science (EECS)",
+            "institution": "University of California, Berkeley",
+            "board_university": "",
+            "year": "May 2019",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Carnegie Mellon University",
+            "start_date": "May 2026",
+            "end_date": "Present",
+            "duration": "",
+            "description": "Assistant professor in Electrical and Computer Engineering and, by courtesy, Computer Science."
+        },
+        {
+            "designation": "Courtesy Adjunct Assistant Professor",
+            "organization": "Carnegie Mellon University",
+            "start_date": "June 2025",
+            "end_date": "Apr 2026",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoc and PhD Student Researcher",
+            "organization": "Stanford Pervasive Parallelism Lab",
+            "start_date": "Jan 2020",
+            "end_date": "Apr 2026",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 13,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

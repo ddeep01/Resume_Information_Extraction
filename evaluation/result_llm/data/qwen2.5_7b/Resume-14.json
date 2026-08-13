@@ -1,0 +1,125 @@
+{
+    "personal_information": {
+        "full_name": "Philipp Kr ̈ahenb ̈uhl",
+        "current_designation": "Associate Professor",
+        "total_experience": "10+ years",
+        "email": "philkr@cs.utexas.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "GDC 4.824, 2317 Speedway - Austin, TX 78712 - USA",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?user=example_user_id&hl=en",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Computer Science",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "BSc",
+            "specialization": "Computer Science",
+            "institution": "ETH Zurich",
+            "board_university": "",
+            "year": "2009",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Sc."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "UT Austin, Department of Computer Science",
+            "start_date": "2022-",
+            "end_date": "",
+            "duration": "",
+            "description": "Researcher"
+        },
+        {
+            "designation": "Researcher",
+            "organization": "Apple, AIML",
+            "start_date": "2022-",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "UT Austin, Department of Computer Science",
+            "start_date": "2016-2022",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral Researcher",
+            "organization": "UC Berkeley, with Alexei Efros, Jitendra Malik, and Trevor Darrell",
+            "start_date": "2014-2016",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Researcher (part-time)",
+            "organization": "Intel",
+            "start_date": "2016-2021",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "Stanford University, with Vladlen Koltun",
+            "start_date": "2009-2014",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Internship",
+            "organization": "Adobe Creative Technologies Lab",
+            "start_date": "2012, 2013",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Internship",
+            "organization": "Disney Research Zurich",
+            "start_date": "2011",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "University of Washington, with Zoran Popovic",
+            "start_date": "2008",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "ETH Zurich, with Markus Gross, Gaston Gonnet and Bertrand Meyer",
+            "start_date": "2006-2009",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 14,
+        "conference_publications": 38,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

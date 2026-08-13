@@ -1,0 +1,85 @@
+{
+    "personal_information": {
+        "full_name": "Philipp Kr ̈ahenb ̈uhl",
+        "current_designation": "Associate Professor, UT Austin, Department of Computer Science",
+        "total_experience": "",
+        "email": "philkr@cs.utexas.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "GDC 4.824, 2317 Speedway - Austin, TX 78712 - USA",
+        "linkedin": "",
+        "google_scholar": "www.philkr.net",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "Computer Science",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2009-2014",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "BSc",
+            "specialization": "Computer Science",
+            "institution": "ETH Zurich",
+            "board_university": "",
+            "year": "2005-2009",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Sc."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "UT Austin, Department of Computer Science",
+            "start_date": "2022-",
+            "end_date": "",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Researcher",
+            "organization": "Apple, AIML",
+            "start_date": "2022-",
+            "end_date": "",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "UT Austin, Department of Computer Science",
+            "start_date": "2016-",
+            "end_date": "2022",
+            "duration": "",
+            "description": "Teaching and research in computer science"
+        },
+        {
+            "designation": "Postdoctoral Researcher",
+            "organization": "UC Berkeley, with Alexei Efros, Jitendra Malik, and Trevor Darrell",
+            "start_date": "2014-2016",
+            "end_date": "",
+            "duration": "",
+            "description": "Postdoctoral research in computer science"
+        },
+        {
+            "designation": "Research Assistant",
+            "organization": "Stanford University, with Vladlen Koltun",
+            "start_date": "2009-2014",
+            "end_date": "",
+            "duration": "",
+            "description": "Research assistant in computer science"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 32,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

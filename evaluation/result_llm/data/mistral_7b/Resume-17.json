@@ -1,0 +1,61 @@
+{
+    "personal_information": {
+        "full_name": "Serina Chang",
+        "current_designation": "Assistant Professor",
+        "total_experience": "7 years",
+        "email": "serinac@berkeley.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "https://serinachang5.github.io",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2019-2024",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "Computer Science (major), Sociology (concentration)",
+            "institution": "Columbia University",
+            "board_university": "",
+            "year": "2015-2019",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "University of California, Berkeley",
+            "start_date": "2025",
+            "end_date": "present",
+            "duration": "7 years",
+            "description": "Assistant Professor in Electrical Engineering and Computer Science (50%), UCSF UC Berkeley. Joint Program in Computational Precision Health (50%)"
+        },
+        {
+            "designation": "Postdoctoral Researcher",
+            "organization": "Microsoft Research, New York, NY",
+            "start_date": "2024",
+            "end_date": "2025",
+            "duration": "1 year",
+            "description": "Postdoctoral Researcher in Computational Social Science group"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 23,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

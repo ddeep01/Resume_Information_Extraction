@@ -1,0 +1,126 @@
+{
+    "personal_information": {
+        "full_name": "Eric Nalisnick",
+        "current_designation": "Assistant Professor, Tenure Track",
+        "total_experience": "15 years",
+        "email": "nalisnick@jhu.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "enalisnick.github.io",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science",
+            "institution": "University of California, Irvine",
+            "board_university": "",
+            "year": "2013 - 2018",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Computer Science",
+            "institution": "Lehigh University",
+            "board_university": "",
+            "year": "2012 - 2013",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.S.",
+            "specialization": "Computer Science & English Literature",
+            "institution": "Lehigh University",
+            "board_university": "",
+            "year": "2008 - 2012",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor, Tenure Track",
+            "organization": "Johns Hopkins University",
+            "start_date": "March 2024 - present",
+            "end_date": "",
+            "duration": "",
+            "description": "Department of Computer Science"
+        },
+        {
+            "designation": "Assistant Professor, Tenure Track",
+            "organization": "University of Amsterdam",
+            "start_date": "September 2020 - February 2024",
+            "end_date": "",
+            "duration": "",
+            "description": "Amsterdam Machine Learning Lab"
+        },
+        {
+            "designation": "Postdoctoral Research Associate",
+            "organization": "University of Cambridge",
+            "start_date": "September 2018 to September 2020",
+            "end_date": "",
+            "duration": "",
+            "description": "Computational and Biological Learning Laboratory"
+        },
+        {
+            "designation": "Research Scientist",
+            "organization": "Google DeepMind",
+            "start_date": "February 2019 - January 2020",
+            "end_date": "",
+            "duration": "",
+            "description": "Part time, one day per week (20% FTE)"
+        },
+        {
+            "designation": "Research Scientist Intern",
+            "organization": "Google DeepMind",
+            "start_date": "Summer 2018",
+            "end_date": "",
+            "duration": "",
+            "description": "Supervisor: Balaji Lakshminarayanan"
+        },
+        {
+            "designation": "Applied Scientist Intern",
+            "organization": "Amazon",
+            "start_date": "Fall 2016",
+            "end_date": "",
+            "duration": "",
+            "description": "Supervisors: Vijai Mohan, Eiman Elnahrawy"
+        },
+        {
+            "designation": "Research Intern",
+            "organization": "Twitter",
+            "start_date": "Summer 2016",
+            "end_date": "",
+            "duration": "",
+            "description": "Supervisor: Hugo Larochelle"
+        },
+        {
+            "designation": "Research Intern",
+            "organization": "Microsoft",
+            "start_date": "Summer 2015",
+            "end_date": "",
+            "duration": "",
+            "description": "Supervisors: Rich Caruana, Nick Craswell"
+        },
+        {
+            "designation": "Research Scientist Intern",
+            "organization": "Amazon",
+            "start_date": "Summer 2014",
+            "end_date": "",
+            "duration": "",
+            "description": "Supervisors: Vijai Mohan, Rahul Bhagat"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 7,
+        "conference_publications": 65,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 1
+    },
+    "normalized_highest_degree": "Ph.D."
+}

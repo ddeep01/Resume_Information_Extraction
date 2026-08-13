@@ -1,0 +1,152 @@
+{
+    "personal_information": {
+        "full_name": "Jean Ponce",
+        "current_designation": "Chair, Département d'Informatique, Ecole Normale Supérieure [ENS], Paris",
+        "total_experience": "",
+        "email": "jean.ponce@ens.fr",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "https://www.linkedin.com/in/jean-ponce-46058a12/",
+        "google_scholar": "https://scholar.google.com/citations?user=JvQ3lzMAAAAJ&hl=en",
+        "researchgate": "https://www.researchgate.net/profile/Jean-Ponce"
+    },
+    "education": [
+        {
+            "degree": "Doctorat d'Etat",
+            "specialization": "Computer Science",
+            "institution": "University of Paris Orsay",
+            "board_university": "",
+            "year": "1988",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "Doctorat de Troisi`eme Cycle",
+            "specialization": "Computer Science",
+            "institution": "University of Paris Orsay",
+            "board_university": "",
+            "year": "1983",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "Ecole Normale Supérieure de l'Enseignement Technique",
+            "specialization": "Mathematics",
+            "institution": "",
+            "board_university": "",
+            "year": "1978-1982",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "Diplôme d'Etudes Approfondies",
+            "specialization": "Computer Science",
+            "institution": "University of Paris Orsay",
+            "board_university": "",
+            "year": "1981",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "Maître de Sciences",
+            "specialization": "Mathematics",
+            "institution": "University of Paris Orsay",
+            "board_university": "",
+            "year": "1980",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Chair, Département d'Informatique, Ecole Normale Supérieure [ENS], Paris",
+            "organization": "",
+            "start_date": "2011-",
+            "end_date": "",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Professor, exceptional class (permanent position, 'titulaire'), Département d'Informatique, ENS, Paris",
+            "organization": "",
+            "start_date": "2007-",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Professor, first class (non-permanent position, 'professeur associé'), Département d'Informatique, ENS, Paris",
+            "organization": "",
+            "start_date": "2006",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Professor, Dept. of Computer Science and Beckman Institute, University of Illinois at Urbana-Champaign [UIUC]",
+            "organization": "",
+            "start_date": "1998-2006",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor, Dept. of Computer Science and Beckman Institute, UIUC",
+            "organization": "",
+            "start_date": "1993-1998",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor, Dept. of Computer Science and Beckman Institute, UIUC",
+            "organization": "",
+            "start_date": "1990-1993",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Sr. Research Associate, Robotics Laboratory, Dept. of Computer Science, Stanford University",
+            "organization": "",
+            "start_date": "1988-1989",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Associate, Robotics Laboratory, Dept. of Computer Science, Stanford University",
+            "organization": "",
+            "start_date": "1985-1988",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Scientist, MIT Artificial Intelligence Laboratory",
+            "organization": "",
+            "start_date": "1984-1985",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Scientist, Institut National de Recherche en Informatique et Automatique (INRIA)",
+            "organization": "",
+            "start_date": "1982-1985",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 48,
+        "conference_publications": 100,
+        "book_publications": 1,
+        "book_chapters": 9,
+        "patents": 2
+    },
+    "normalized_highest_degree": "Other"
+}

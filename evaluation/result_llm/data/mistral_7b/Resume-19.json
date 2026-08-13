@@ -1,0 +1,143 @@
+{
+    "personal_information": {
+        "full_name": "Yoon Kim",
+        "current_designation": "Associate Professor",
+        "total_experience": "10 years",
+        "email": "yoonkim@mit.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "http://people.csail.mit.edu/yoonkim",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science",
+            "institution": "Harvard University",
+            "board_university": "",
+            "year": "2020",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Data Science",
+            "institution": "New York University",
+            "board_university": "",
+            "year": "2015",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "M.A.",
+            "specialization": "Statistics",
+            "institution": "Columbia University",
+            "board_university": "",
+            "year": "2012",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.A."
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "Mathematics, Economics",
+            "institution": "Cornell University",
+            "board_university": "",
+            "year": "2009",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate Professor",
+            "organization": "Massachusetts Institute of Technology",
+            "start_date": "Jul 2025",
+            "end_date": "Present",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Massachusetts Institute of Technology",
+            "start_date": "Jul 2021",
+            "end_date": "Jun 2025",
+            "duration": "",
+            "description": "Teaching and research in computer science"
+        },
+        {
+            "designation": "Postdoctoral Researcher",
+            "organization": "MIT-IBM Watson AI Lab",
+            "start_date": "Jun 2019",
+            "end_date": "Jul 2021",
+            "duration": "",
+            "description": "Research in artificial intelligence"
+        },
+        {
+            "designation": "Research Intern",
+            "organization": "Google",
+            "start_date": "May 2019",
+            "end_date": "Aug 2019",
+            "duration": "",
+            "description": "Worked on machine learning projects"
+        },
+        {
+            "designation": "Research Intern",
+            "organization": "DeepMind",
+            "start_date": "May 2018",
+            "end_date": "Aug 2018",
+            "duration": "",
+            "description": "Worked on artificial intelligence research"
+        },
+        {
+            "designation": "Research Intern",
+            "organization": "Facebook",
+            "start_date": "May 2017",
+            "end_date": "Aug 2017",
+            "duration": "",
+            "description": "Worked on natural language processing projects"
+        },
+        {
+            "designation": "Data Scientist",
+            "organization": "American International Group",
+            "start_date": "Jul 2012",
+            "end_date": "Aug 2016",
+            "duration": "",
+            "description": "Analyzed data and developed models"
+        },
+        {
+            "designation": "Analyst",
+            "organization": "Barclays Capital",
+            "start_date": "Oct 2011",
+            "end_date": "Jul 2012",
+            "duration": "",
+            "description": "Worked in investment banking"
+        },
+        {
+            "designation": "Analyst",
+            "organization": "Morgan Stanley",
+            "start_date": "Jul 2009",
+            "end_date": "Oct 2011",
+            "duration": "",
+            "description": "Worked in investment banking"
+        },
+        {
+            "designation": "Analyst Intern",
+            "organization": "Merrill Lynch",
+            "start_date": "May 2008",
+            "end_date": "Aug 2008",
+            "duration": "",
+            "description": "Worked in investment banking"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 34,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

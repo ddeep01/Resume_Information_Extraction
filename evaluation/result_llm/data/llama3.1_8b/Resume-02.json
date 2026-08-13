@@ -1,0 +1,62 @@
+{
+    "personal_information": {
+        "full_name": "CHARU JAIN",
+        "current_designation": "ASSISTANT PROFESSOR",
+        "total_experience": "11 years and 4 months",
+        "email": "jain.charu1988@gmail.com",
+        "phone": "9953993958",
+        "date_of_birth": "02/01/1988",
+        "gender": "FEMALE",
+        "address": "D-1/1 SECOND FLOOR JANAKPURI D-BLOCK NEW DELHI",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "B.Com(Hons.)",
+            "specialization": "",
+            "institution": "Bharati College, University of Delhi",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "MBA",
+            "specialization": "",
+            "institution": "Bharati Vidyapeeth Institute of Management and Research, BVDU.",
+            "board_university": "",
+            "year": "2010",
+            "cgpa_percentage": "",
+            "normalized_degree": "MBA"
+        },
+        {
+            "degree": "Ph.D",
+            "specialization": "",
+            "institution": "Bharati Vidyapeeth Institute of Management and Research, BVDU.",
+            "board_university": "",
+            "year": "Pursuing",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Ramanujan College",
+            "start_date": "",
+            "end_date": "",
+            "duration": "11 years and 4 months",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

@@ -1,0 +1,78 @@
+{
+    "personal_information": {
+        "full_name": "Ioannis Mitliagkas",
+        "current_designation": "associate professor",
+        "total_experience": "",
+        "email": "ioannis@iro.umontreal.ca",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "6666 St. Urbain, Montréal",
+        "linkedin": "https://www.linkedin.com/",
+        "google_scholar": "https://scholar.google.com/",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "",
+            "institution": "University of Montréal",
+            "board_university": "",
+            "year": "August 2015",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "MSc.",
+            "specialization": "",
+            "institution": "Technical University of Crete",
+            "board_university": "",
+            "year": "2010",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Sc."
+        },
+        {
+            "degree": "Diploma",
+            "specialization": "Electronic and Computer Engineering",
+            "institution": "Technical University of Crete",
+            "board_university": "",
+            "year": "2008",
+            "cgpa_percentage": "",
+            "normalized_degree": "Diploma"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate professor",
+            "organization": "University of Montréal, Department of Computer Science and Operations Research",
+            "start_date": "June 2022",
+            "end_date": "",
+            "duration": "",
+            "description": "Current position"
+        },
+        {
+            "designation": "Assistant professor",
+            "organization": "University of Montréal, Department of Computer Science and Operations Research",
+            "start_date": "Sept. 2017",
+            "end_date": "May 2022",
+            "duration": "",
+            "description": "Teaching and research in computer science"
+        },
+        {
+            "designation": "Core member, Canada CIFAR AI chair",
+            "organization": "Mila, Quebec AI Institute",
+            "start_date": "September 2017",
+            "end_date": "",
+            "duration": "",
+            "description": "Participation in AI research"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 12,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

@@ -1,0 +1,93 @@
+{
+    "personal_information": {
+        "full_name": "Mor Harchol-Balter",
+        "current_designation": "Bruce J. Nelson Professor in Computer Science",
+        "total_experience": "",
+        "email": "harchol@cs.cmu.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Pittsburgh, PA 15213",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science",
+            "institution": "University of California, Berkeley",
+            "board_university": "",
+            "year": "1996",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "B.A.",
+            "specialization": "Computer Science and Mathematics",
+            "institution": "Brandeis University",
+            "board_university": "",
+            "year": "1988",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.A."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Bruce J. Nelson Professor in Computer Science",
+            "organization": "Carnegie Mellon University",
+            "start_date": "2020",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Full Professor",
+            "organization": "Carnegie Mellon University",
+            "start_date": "2014",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor and Associate Department Head",
+            "organization": "Carnegie Mellon University",
+            "start_date": "2008",
+            "end_date": "2011",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor without tenure",
+            "organization": "Carnegie Mellon University",
+            "start_date": "2005",
+            "end_date": "2008",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "McCandless Assistant Professor",
+            "organization": "Carnegie Mellon University",
+            "start_date": "1999-2005",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "NSF Postdoctoral Fellow",
+            "organization": "Massachusetts Institute of Technology",
+            "start_date": "1996-1999",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

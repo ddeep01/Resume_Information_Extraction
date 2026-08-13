@@ -1,0 +1,118 @@
+{
+    "personal_information": {
+        "full_name": "Manuel Blum",
+        "current_designation": "Bruce Nelson Professor of Computer Science",
+        "total_experience": "",
+        "email": "mblum@cs.cmu.edu",
+        "phone": "(412) 268-3742",
+        "date_of_birth": "26 April 1938",
+        "gender": "",
+        "address": "5000 Forbes Avenue, Pittsburgh, PA 15213",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "B.S.",
+            "specialization": "Electrical Engineering",
+            "institution": "MIT",
+            "board_university": "",
+            "year": "1959",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Electrical Engineering",
+            "institution": "MIT",
+            "board_university": "",
+            "year": "1961",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Mathematics",
+            "institution": "MIT",
+            "board_university": "",
+            "year": "1964",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Research Assistant and Research Associate",
+            "organization": "Research Laboratory of Electronics, MIT",
+            "start_date": "1960-1965",
+            "end_date": "",
+            "duration": "5 years",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Mathematics, MIT",
+            "start_date": "1966-68",
+            "end_date": "",
+            "duration": "2 years",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Assistant Professor, Associate Professor, Professor",
+            "organization": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley",
+            "start_date": "1968-2001",
+            "end_date": "",
+            "duration": "33 years",
+            "description": ""
+        },
+        {
+            "designation": "Associate Chair for Computer Science",
+            "organization": "U.C. Berkeley",
+            "start_date": "1977-1980",
+            "end_date": "",
+            "duration": "3 years",
+            "description": ""
+        },
+        {
+            "designation": "Arthur J. Chick Professor of Computer Science",
+            "organization": "U.C. Berkeley",
+            "start_date": "1995-2001",
+            "end_date": "",
+            "duration": "6 years",
+            "description": ""
+        },
+        {
+            "designation": "Group in Logic and Methodology of Science",
+            "organization": "U.C. Berkeley",
+            "start_date": "1974-present",
+            "end_date": "",
+            "duration": "48 years",
+            "description": ""
+        },
+        {
+            "designation": "Visiting Professor of Computer Science",
+            "organization": "City University of Hong Kong",
+            "start_date": "1997-1999",
+            "end_date": "",
+            "duration": "2 years",
+            "description": ""
+        },
+        {
+            "designation": "Bruce Nelson Professor of Computer Science",
+            "organization": "Carnegie Mellon University",
+            "start_date": "2001-present",
+            "end_date": "",
+            "duration": "21 years",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 58,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

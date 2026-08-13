@@ -1,0 +1,102 @@
+{
+    "personal_information": {
+        "full_name": "Ioannis Mitliagkas",
+        "current_designation": "Associate professor",
+        "total_experience": "",
+        "email": "ioannis@iro.umontreal.ca",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "6666 St. Urbain, Montr ́eal",
+        "linkedin": "mitliagkas.github.io",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "ECE department",
+            "institution": "University of Montr ́eal, Department of Computer Science and Operations Research",
+            "board_university": "",
+            "year": "Awarded in August 2015",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "MSc.",
+            "specialization": "ECE department",
+            "institution": "Technical University of Crete, Chania, Greece",
+            "board_university": "",
+            "year": "2008 - 2010",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Sc."
+        },
+        {
+            "degree": "Diploma",
+            "specialization": "Electronic and Computer Engineering (5 year degree)",
+            "institution": "Technical University of Crete, Chania, Greece",
+            "board_university": "",
+            "year": "2002 - 2008",
+            "cgpa_percentage": "",
+            "normalized_degree": "Diploma"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Associate professor",
+            "organization": "University of Montr ́eal, Department of Computer Science and Operations Research",
+            "start_date": "June 2022 -",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant professor",
+            "organization": "University of Montr ́eal, Department of Computer Science and Operations Research",
+            "start_date": "Sept. 2017 - May 2022",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Staff Research Scientist (part time)",
+            "organization": "Google DeepMind, Montr ́eal",
+            "start_date": "September 2022 -",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Affiliate researcher",
+            "organization": "Archimedes, AI Institute",
+            "start_date": "January 2024 -",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Faculty Fellow (part time)",
+            "organization": "ElementAI, Montr ́eal",
+            "start_date": "2018-2020",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoc",
+            "organization": "Stanford University, Departments of CS and Statistics",
+            "start_date": "2015-2017",
+            "end_date": "",
+            "duration": "",
+            "description": "Supervised by: Associate prof. Christopher R ́e, Adjunct prof. Lester Mackey"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 8,
+        "conference_publications": 47,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

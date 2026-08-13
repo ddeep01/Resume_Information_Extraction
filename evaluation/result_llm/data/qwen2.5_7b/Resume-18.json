@@ -1,0 +1,102 @@
+{
+    "personal_information": {
+        "full_name": "Matta. Swathi",
+        "current_designation": "Sr.Assistant Professor",
+        "total_experience": "8+ Years",
+        "email": "lbrceswathi05@gmail.com",
+        "phone": "+91 9502810966",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?user=ReqKxTIAAAAJ&hl=en",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D in Computer Science and Engineering",
+            "specialization": "",
+            "institution": "Puducherry Technological University, Puducherry, India",
+            "board_university": "Puducherry Technological University",
+            "year": "A.Y 2024-25",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.Tech in Computer Science and Engineering",
+            "specialization": "",
+            "institution": "Jawaharlal Nehru Technological University, Kakinada",
+            "board_university": "Jawaharlal Nehru Technological University",
+            "year": "2017",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Tech"
+        },
+        {
+            "degree": "B.Tech in Information Technology",
+            "specialization": "",
+            "institution": "Acharya Nagarjuna University Guntur",
+            "board_university": "Acharya Nagarjuna University",
+            "year": "2012",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Tech"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Sr.Assistant Professor",
+            "organization": "Lakireddy Bali Reddy College of Engineering (A), Mylavaram",
+            "start_date": "Dec,2025",
+            "end_date": "Till Date",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Lakireddy Bali Reddy College of Engineering (A), Mylavaram",
+            "start_date": "Aug, 2021",
+            "end_date": "Nov, 2025",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Sri Sarathi Institute of Engineering and Technology, Nuzvid",
+            "start_date": "Jan, 2021",
+            "end_date": "July, 2021",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Paladugu Parvathi Devi College of Engineering & Technology, Surampalli",
+            "start_date": "June, 2017",
+            "end_date": "December, 2020",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "S.R.S.V.R.G.N.R Arts and Science Degree college Mylavaram",
+            "start_date": "July, 2016",
+            "end_date": "March, 2017",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Lecturer",
+            "organization": "St.Mary's Vocational junior College, Mylavaram",
+            "start_date": "July, 2013",
+            "end_date": "March, 2014",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 2
+    },
+    "normalized_highest_degree": "Ph.D."
+}

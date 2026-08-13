@@ -1,0 +1,110 @@
+{
+    "personal_information": {
+        "full_name": "S. Raghavan",
+        "current_designation": "Dean's Professor of Management Science & Operations Management",
+        "total_experience": "38 years",
+        "email": "raghavan@umd.edu",
+        "phone": "301-405-6139, Fax: (301)-405-8655",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Robert H. Smith School of Business & Institute for Systems Research, University of Maryland, College Park, MD 20742-1815",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Operations Research",
+            "institution": "Massachusetts Institute of Technology",
+            "board_university": "Department of Electrical Engineering & Computer Science & Sloan School of Management",
+            "year": "1995",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Operations Research and Statistics",
+            "institution": "Rensselaer Polytechnic Institute",
+            "board_university": "Department of Decision Sciences & Engineering Systems",
+            "year": "1988",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.Tech.",
+            "specialization": "Aeronautical Engineering",
+            "institution": "Indian Institute of Technology, Chennai (India)",
+            "board_university": "",
+            "year": "1987",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Tech"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Dean's Professor of Management Science & Operations Management",
+            "organization": "Robert H. Smith School of Business & Institute for Systems Research, University of Maryland, College Park, MD 20742-1815",
+            "start_date": "January 2019",
+            "end_date": "",
+            "duration": "Present",
+            "description": ""
+        },
+        {
+            "designation": "Professor of Management Science & Operations Management (joint appointment with Institute for Systems Research)",
+            "organization": "Robert H. Smith School of Business, University of Maryland, College Park, MD 20742-1815",
+            "start_date": "August 2010",
+            "end_date": "",
+            "duration": "Present",
+            "description": ""
+        },
+        {
+            "designation": "Affiliate Professor, Department of Computer Science (September 2016 - August 2019)",
+            "organization": "Robert H. Smith School of Business, University of Maryland, College Park, MD 20742-1815",
+            "start_date": "September 2016",
+            "end_date": "August 2019",
+            "duration": "3 years",
+            "description": ""
+        },
+        {
+            "designation": "Faculty, Applied Mathematics & Statistics, and Scientific Computation Program (since 1998)",
+            "organization": "Robert H. Smith School of Business, University of Maryland, College Park, MD 20742-1815",
+            "start_date": "1998",
+            "end_date": "",
+            "duration": "Present",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor of Management Science (joint appointment with Institute for Systems Research effective August 2006)",
+            "organization": "Robert H. Smith School of Business, University of Maryland, College Park, MD 20742-1815",
+            "start_date": "August 2005",
+            "end_date": "",
+            "duration": "Present",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor of Management Science",
+            "organization": "Robert H. Smith School of Business, University of Maryland, College Park, MD 20742-1815",
+            "start_date": "August 1998",
+            "end_date": "",
+            "duration": "Present",
+            "description": ""
+        },
+        {
+            "designation": "Member of Technical Staff (Acting Director: January - June 1998)",
+            "organization": "Optimization and Logistics Group, USWEST Advanced Technologies, Boulder, CO 80303",
+            "start_date": "January 1995",
+            "end_date": "July 1998",
+            "duration": "3.5 years",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 72,
+        "conference_publications": 64,
+        "book_publications": 0,
+        "book_chapters": 19,
+        "patents": 2
+    },
+    "normalized_highest_degree": "Ph.D."
+}
