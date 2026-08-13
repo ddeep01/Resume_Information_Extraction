@@ -19,7 +19,8 @@
             "institution": "Galgotias University",
             "board_university": "Galgotias University",
             "year": "2024",
-            "cgpa_percentage": "76 %"
+            "cgpa_percentage": "76 %",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B.Tech",
@@ -27,7 +28,8 @@
             "institution": "Bhagwati Institute of Technology & Science A.K.T.U",
             "board_university": "A.K.T.U",
             "year": "2022",
-            "cgpa_percentage": "67 %"
+            "cgpa_percentage": "67 %",
+            "normalized_degree": "B.Tech"
         },
         {
             "degree": "Diploma",
@@ -35,7 +37,8 @@
             "institution": "Guru Tegh Bahadur Polytechnic of Institute B.T.E",
             "board_university": "B.T.E",
             "year": "2018",
-            "cgpa_percentage": "68 %"
+            "cgpa_percentage": "68 %",
+            "normalized_degree": "Diploma"
         },
         {
             "degree": "12th",
@@ -43,7 +46,8 @@
             "institution": "RamJas Sr Sec School",
             "board_university": "C.B.S.E",
             "year": "2015",
-            "cgpa_percentage": "62 %"
+            "cgpa_percentage": "62 %",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "10th",
@@ -51,7 +55,8 @@
             "institution": "Babu Ram Sr Sec School",
             "board_university": "C.B.S.E",
             "year": "2013",
-            "cgpa_percentage": "64 %"
+            "cgpa_percentage": "64 %",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [],
@@ -61,5 +66,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "M.Tech"
 }

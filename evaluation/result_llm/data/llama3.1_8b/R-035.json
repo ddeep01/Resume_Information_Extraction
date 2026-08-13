@@ -19,7 +19,8 @@
             "institution": "Indian Institute of Technology (Indian School of Mines)",
             "board_university": "Dhanbad",
             "year": "2015 - 2023",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Sc.",
@@ -27,7 +28,8 @@
             "institution": "Indian Institute of Technology (Indian School of Mines)",
             "board_university": "Dhanbad",
             "year": "2013 - 2015",
-            "cgpa_percentage": "88.84 (O.G.P.A- 8.89 out of 10)"
+            "cgpa_percentage": "88.84 (O.G.P.A- 8.89 out of 10)",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "B.Sc.",
@@ -35,7 +37,8 @@
             "institution": "West Bengal State University",
             "board_university": "",
             "year": "2010 - 2013",
-            "cgpa_percentage": "57.57 (467 out of 800)"
+            "cgpa_percentage": "57.57 (467 out of 800)",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "HSC (10+2).",
@@ -43,7 +46,8 @@
             "institution": "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E)",
             "board_university": "",
             "year": "2008 - 2010",
-            "cgpa_percentage": "77.60 (388 out of 500)"
+            "cgpa_percentage": "77.60 (388 out of 500)",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "SSC (10).",
@@ -51,7 +55,8 @@
             "institution": "West Bengal Board of Secondary Education (W.B.B.S.E)",
             "board_university": "",
             "year": "2008-",
-            "cgpa_percentage": "78.87 (631 out of 800)"
+            "cgpa_percentage": "78.87 (631 out of 800)",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -78,5 +83,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

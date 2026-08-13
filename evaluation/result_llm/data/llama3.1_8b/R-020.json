@@ -19,7 +19,8 @@
             "institution": "Institute of Infrastructure Technology Research and Management (IITRAM)",
             "board_university": "Established by Gov.of Gujarat, Mentored by IITGandhinagar",
             "year": "2016-2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Tech",
@@ -27,7 +28,8 @@
             "institution": "Institute of Technology, Nirma University",
             "board_university": "",
             "year": "2012-2014",
-            "cgpa_percentage": "7.9/10"
+            "cgpa_percentage": "7.9/10",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B.E.",
@@ -35,7 +37,8 @@
             "institution": "BVM Govt. Engineering College",
             "board_university": "",
             "year": "2005-2009",
-            "cgpa_percentage": "64.32%"
+            "cgpa_percentage": "64.32%",
+            "normalized_degree": "B.E."
         },
         {
             "degree": "Higher Secondary",
@@ -43,7 +46,8 @@
             "institution": "Kisan Madhaymik Vidhyalaya, Lunawada",
             "board_university": "",
             "year": "2004-2005",
-            "cgpa_percentage": "83.11%"
+            "cgpa_percentage": "83.11%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Secondary School",
@@ -51,7 +55,8 @@
             "institution": "Omkar Maulik Vidhayalaya, Lunawada",
             "board_university": "",
             "year": "2003-2004",
-            "cgpa_percentage": "82.71%"
+            "cgpa_percentage": "82.71%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -102,5 +107,6 @@
         "book_publications": 1,
         "book_chapters": 3,
         "patents": 5
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

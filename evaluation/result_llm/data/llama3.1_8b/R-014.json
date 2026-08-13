@@ -19,7 +19,8 @@
             "institution": "VNIT,NAGPUR",
             "board_university": "VNIT,NAGPUR",
             "year": "2023",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.E (Software Engineering)",
@@ -27,7 +28,8 @@
             "institution": "IET,DAVV,INDORE",
             "board_university": "DAVV, INDORE",
             "year": "2018",
-            "cgpa_percentage": "94%"
+            "cgpa_percentage": "94%",
+            "normalized_degree": "M.E."
         },
         {
             "degree": "Bachelor of Engineering(CSE)",
@@ -35,7 +37,8 @@
             "institution": "Shree Institute of science & technology,Bhopal",
             "board_university": "RGTU, Bhopal",
             "year": "2010",
-            "cgpa_percentage": "76.12%"
+            "cgpa_percentage": "76.12%",
+            "normalized_degree": "B.E."
         },
         {
             "degree": "Higher Secondary",
@@ -43,7 +46,8 @@
             "institution": "School for excellence Seoni(M.P)",
             "board_university": "M.P. Educational Board, Bhopal",
             "year": "2006",
-            "cgpa_percentage": "73.3%"
+            "cgpa_percentage": "73.3%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "High School",
@@ -51,7 +55,8 @@
             "institution": "School for excellence Seoni(M.P)",
             "board_university": "M.P. Educational Board, Bhopal",
             "year": "2004",
-            "cgpa_percentage": "77.1%"
+            "cgpa_percentage": "77.1%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -78,5 +83,6 @@
         "book_publications": 0,
         "book_chapters": 1,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

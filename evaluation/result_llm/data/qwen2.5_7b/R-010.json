@@ -19,7 +19,8 @@
             "institution": "Indian Institute of Engineering Science and Technology, Shibpur, West Bengal, India",
             "board_university": "",
             "year": "2016-2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "Master of Science in Applied Mathematics",
@@ -27,7 +28,8 @@
             "institution": "South Asian University, New Delhi, India",
             "board_university": "",
             "year": "2013-2015",
-            "cgpa_percentage": "8.05 out of 9"
+            "cgpa_percentage": "8.05 out of 9",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "Bachelor of Science with Honours in Mathematics",
@@ -35,7 +37,8 @@
             "institution": "University of Calcutta, West Bengal, India",
             "board_university": "",
             "year": "2009-2013",
-            "cgpa_percentage": "56.5 (53.25% in Mathematics Honours only)"
+            "cgpa_percentage": "56.5 (53.25% in Mathematics Honours only)",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "Higher Secondary (12th) in Science",
@@ -43,7 +46,8 @@
             "institution": "West Bengal Council of Higher Secondary Education, West Bengal, India",
             "board_university": "",
             "year": "2008-2009",
-            "cgpa_percentage": "74.17"
+            "cgpa_percentage": "74.17",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Secondary (10th)",
@@ -51,7 +55,8 @@
             "institution": "West Bengal Board of Secondary Education, West Bengal, India",
             "board_university": "",
             "year": "2006-2007",
-            "cgpa_percentage": "76"
+            "cgpa_percentage": "76",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -86,5 +91,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

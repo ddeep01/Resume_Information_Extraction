@@ -19,7 +19,8 @@
             "institution": "School of Emerging Science and Technology, Gujarat University",
             "board_university": "",
             "year": "May 2024",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Sc. (Mathematics)",
@@ -27,7 +28,8 @@
             "institution": "STRENGTHS\nNationality: Indian\nDate of Birth: 06th Oct, 1998",
             "board_university": "Gujarat University",
             "year": "2020-2024",
-            "cgpa_percentage": "8.23 CGPA"
+            "cgpa_percentage": "8.23 CGPA",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "B.Sc. (Mathematics)",
@@ -35,7 +37,8 @@
             "institution": "Bhavan's Sheth R. A. College of Science, Gujarat University",
             "board_university": "Gujarat University",
             "year": "2015-2018",
-            "cgpa_percentage": "8.27 CGPA"
+            "cgpa_percentage": "8.27 CGPA",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "HSC",
@@ -43,7 +46,8 @@
             "institution": "Prakash High School, Gujarat",
             "board_university": "Gujrat Secondary and Higher Secondary Education Board",
             "year": "2015",
-            "cgpa_percentage": "61%"
+            "cgpa_percentage": "61%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "SSC",
@@ -51,7 +55,8 @@
             "institution": "Prakash High School, Gujarat",
             "board_university": "Gujrat Secondary Education Board",
             "year": "2013",
-            "cgpa_percentage": "68%"
+            "cgpa_percentage": "68%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -78,5 +83,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

@@ -19,7 +19,8 @@
             "institution": "K.N. Shah Modasa High School",
             "board_university": "",
             "year": "2011",
-            "cgpa_percentage": "78%"
+            "cgpa_percentage": "78%",
+            "normalized_degree": "Secondary (10th)"
         },
         {
             "degree": "Senior Secondary Certificate Examination",
@@ -27,7 +28,8 @@
             "institution": "K.N. Shah Modasa High School",
             "board_university": "",
             "year": "2013",
-            "cgpa_percentage": "60%"
+            "cgpa_percentage": "60%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Bachelor of Science in Physics",
@@ -35,7 +37,8 @@
             "institution": "Sir P.T Science College",
             "board_university": "",
             "year": "2016",
-            "cgpa_percentage": "9.0 CGPA"
+            "cgpa_percentage": "9.0 CGPA",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "Master of Science in Physics",
@@ -43,7 +46,8 @@
             "institution": "Sardar Patel University",
             "board_university": "",
             "year": "2018",
-            "cgpa_percentage": "6.51 CGPA"
+            "cgpa_percentage": "6.51 CGPA",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "Ph.D. in Physics",
@@ -51,7 +55,8 @@
             "institution": "Sardar Vallabhbhai National Institute of Technology",
             "board_university": "",
             "year": "2019-2023",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         }
     ],
     "experience": [
@@ -70,5 +75,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

@@ -19,7 +19,8 @@
             "institution": "Gujarat University",
             "board_university": "",
             "year": "May, 1992",
-            "cgpa_percentage": "78"
+            "cgpa_percentage": "78",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "M.Sc. (Mathematics)",
@@ -27,7 +28,8 @@
             "institution": "Gujarat University",
             "board_university": "",
             "year": "May, 1994",
-            "cgpa_percentage": "68"
+            "cgpa_percentage": "68",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "M.Phil. (Mathematics)",
@@ -35,7 +37,8 @@
             "institution": "Gujarat University",
             "board_university": "",
             "year": "July, 1998",
-            "cgpa_percentage": "77"
+            "cgpa_percentage": "77",
+            "normalized_degree": "M.Phil."
         },
         {
             "degree": "Ph.D.",
@@ -43,7 +46,8 @@
             "institution": "SVNIT, Surat",
             "board_university": "",
             "year": "April, 2014",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         }
     ],
     "experience": [
@@ -102,5 +106,6 @@
         "book_publications": 2,
         "book_chapters": 5,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

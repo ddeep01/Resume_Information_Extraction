@@ -19,7 +19,8 @@
             "institution": "",
             "board_university": "",
             "year": "2009",
-            "cgpa_percentage": "76.87%"
+            "cgpa_percentage": "76.87%",
+            "normalized_degree": "Secondary (10th)"
         },
         {
             "degree": "W.B.C.H.S.E",
@@ -27,7 +28,8 @@
             "institution": "",
             "board_university": "",
             "year": "2011",
-            "cgpa_percentage": "78.6 %"
+            "cgpa_percentage": "78.6 %",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "B.A. (English)",
@@ -35,7 +37,8 @@
             "institution": "The University of Burdwan",
             "board_university": "",
             "year": "2014",
-            "cgpa_percentage": "62.5%"
+            "cgpa_percentage": "62.5%",
+            "normalized_degree": "B.A."
         },
         {
             "degree": "M.A. (English)",
@@ -43,7 +46,8 @@
             "institution": "The University of Burdwan",
             "board_university": "",
             "year": "2016",
-            "cgpa_percentage": "7.18"
+            "cgpa_percentage": "7.18",
+            "normalized_degree": "M.A."
         },
         {
             "degree": "M.Phil.",
@@ -51,7 +55,8 @@
             "institution": "The University of Burdwan",
             "board_university": "",
             "year": "2019",
-            "cgpa_percentage": "79%"
+            "cgpa_percentage": "79%",
+            "normalized_degree": "M.Phil."
         },
         {
             "degree": "Ph.D",
@@ -59,7 +64,8 @@
             "institution": "IIT Kharagpur",
             "board_university": "",
             "year": "2022 (Awarded)",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "UGC CBSE National Eligibility Test (NET) (English)",
@@ -67,7 +73,8 @@
             "institution": "",
             "board_university": "",
             "year": "2017",
-            "cgpa_percentage": "N/A"
+            "cgpa_percentage": "N/A",
+            "normalized_degree": "Other"
         },
         {
             "degree": "West Bengal State Eligibility Test (WBSET) (English)",
@@ -75,7 +82,8 @@
             "institution": "",
             "board_university": "",
             "year": "2018",
-            "cgpa_percentage": "N/A"
+            "cgpa_percentage": "N/A",
+            "normalized_degree": "Other"
         }
     ],
     "experience": [
@@ -110,5 +118,6 @@
         "book_publications": 1,
         "book_chapters": 7,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

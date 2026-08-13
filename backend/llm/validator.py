@@ -36,6 +36,17 @@ from typing import Any, Dict
 
 from prompt import PromptBuilder
 
+import sys
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT / "backend") not in sys.path:
+    sys.path.append(str(ROOT / "backend"))
+
+try:
+    from degree_normalizer import normalize_candidate_json
+except ImportError:
+    from backend.degree_normalizer import normalize_candidate_json
+
 
 ##############################################################################
 # PROJECT PATHS
@@ -497,6 +508,8 @@ class JSONValidator:
             validated = self.validate_schema(
                 cleaned
             )
+
+            validated = normalize_candidate_json(validated)
 
             logger.info(
                 "JSON validation successful."

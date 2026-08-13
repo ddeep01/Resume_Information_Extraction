@@ -19,7 +19,8 @@
             "institution": "Pandit Deendayal Energy University Gandhinagar, INDIA",
             "board_university": "",
             "year": "2013-2021",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "Master of Science (M. Sc.)",
@@ -27,7 +28,8 @@
             "institution": "Saurashtra University Rajkot, INDIA",
             "board_university": "",
             "year": "2010-2012",
-            "cgpa_percentage": "62.00 %"
+            "cgpa_percentage": "62.00 %",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "Bachelor of Science (B. Sc.)",
@@ -35,7 +37,8 @@
             "institution": "Saurashtra University Rajkot, INDIA",
             "board_university": "",
             "year": "2003-2006",
-            "cgpa_percentage": "60.85 %"
+            "cgpa_percentage": "60.85 %",
+            "normalized_degree": "B.Sc."
         }
     ],
     "experience": [
@@ -102,5 +105,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

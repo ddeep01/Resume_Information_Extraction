@@ -76,12 +76,34 @@
       const publicationSummary = data.publication_summary || {};
       const id = fileName.replace(/\.json$/i, "");
       const resumeName = this.findResume(id);
+
+      const normEdu = education.map((item) => ({
+        ...item,
+        normalized_degree:
+          item.normalized_degree ||
+          (window.DegreeNormalizer ? window.DegreeNormalizer.normalizeDegree(item.degree) : item.degree || ""),
+      }));
+
+      const highestDegree =
+        data.normalized_highest_degree ||
+        (window.DegreeNormalizer ? window.DegreeNormalizer.getHighestDegree(normEdu) : normEdu[0]?.degree || "");
+
+      const allCanonicalDegrees = [
+        ...new Set(
+          normEdu
+            .map((e) => e.normalized_degree || (window.DegreeNormalizer ? window.DegreeNormalizer.normalizeDegree(e.degree) : e.degree || ""))
+            .filter((d) => d && d !== "Other")
+        ),
+      ];
+
       return {
         id,
         fileName,
         fullName: personal.full_name || id,
         designation: personal.current_designation || experience[0]?.designation || "Faculty Member",
-        highestDegree: education[0]?.degree || "",
+        highestDegree,
+        rawHighestDegree: education[0]?.degree || "",
+        allDegrees: allCanonicalDegrees,
         institution: education[0]?.institution || education[0]?.board_university || "",
         university: education[0]?.institution || "",
         experienceText: personal.total_experience || this.getExperienceText(experience),
@@ -94,7 +116,7 @@
         linkedin: personal.linkedin || "",
         googleScholar: personal.google_scholar || "",
         researchGate: personal.researchgate || "",
-        education,
+        education: normEdu,
         experience,
         publicationSummary,
         resumePath: resumeName,
@@ -127,7 +149,7 @@
 
     computeStats(candidates) {
       const total = candidates.length;
-      const phd = candidates.filter((item) => /phd|ph\.d/i.test(item.highestDegree || "")).length;
+      const phd = candidates.filter((item) => item.highestDegree === "Ph.D." || (item.allDegrees && item.allDegrees.includes("Ph.D."))).length;
       const assistant = candidates.filter((item) => /assistant/i.test(item.designation || "")).length;
       const associate = candidates.filter((item) => /associate/i.test(item.designation || "")).length;
       const professor = candidates.filter((item) => /professor/i.test(item.designation || "")).length;

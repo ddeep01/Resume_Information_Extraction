@@ -19,7 +19,8 @@
             "institution": "Hemchandracharya North Gujarat University",
             "board_university": "",
             "year": "2017",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "Post Graduation",
@@ -27,7 +28,8 @@
             "institution": "Rajasthan Vidyapeeth University",
             "board_university": "",
             "year": "2006",
-            "cgpa_percentage": "First Class"
+            "cgpa_percentage": "First Class",
+            "normalized_degree": "Other"
         },
         {
             "degree": "Post Graduation",
@@ -35,7 +37,8 @@
             "institution": "Gujarat University",
             "board_university": "",
             "year": "2002",
-            "cgpa_percentage": "First Class"
+            "cgpa_percentage": "First Class",
+            "normalized_degree": "Other"
         },
         {
             "degree": "Graduation",
@@ -43,7 +46,8 @@
             "institution": "Gujarat University",
             "board_university": "",
             "year": "1999",
-            "cgpa_percentage": "Gold Medalist, First Class"
+            "cgpa_percentage": "Gold Medalist, First Class",
+            "normalized_degree": "Other"
         }
     ],
     "experience": [
@@ -110,5 +114,6 @@
         "book_publications": 2,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

@@ -19,7 +19,8 @@
             "institution": "Indian Institute of Information Technology Allahabad, India",
             "board_university": "",
             "year": "2018 - Present",
-            "cgpa_percentage": "9.2"
+            "cgpa_percentage": "9.2",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M. Tech.",
@@ -27,7 +28,8 @@
             "institution": "National Institute of Technology Rourkela, India",
             "board_university": "",
             "year": "2014 - 2016",
-            "cgpa_percentage": "8.05"
+            "cgpa_percentage": "8.05",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B. Tech.",
@@ -35,7 +37,8 @@
             "institution": "Biju Patnaik University of Technology Rourkela, India",
             "board_university": "",
             "year": "2008 - 2012",
-            "cgpa_percentage": "7.05"
+            "cgpa_percentage": "7.05",
+            "normalized_degree": "B.Tech"
         },
         {
             "degree": "12th",
@@ -43,7 +46,8 @@
             "institution": "Council of Higher Secondary Education Odisha, India",
             "board_university": "",
             "year": "2006 - 2008",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "10th",
@@ -51,7 +55,8 @@
             "institution": "Board of Secondary Education Odisha, India",
             "board_university": "",
             "year": "2006",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -86,5 +91,6 @@
         "book_publications": 2,
         "book_chapters": 2,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

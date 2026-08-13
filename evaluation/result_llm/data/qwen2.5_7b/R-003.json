@@ -19,7 +19,8 @@
             "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
             "board_university": "",
             "year": "January 2021 - August 2025",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Tech",
@@ -27,7 +28,8 @@
             "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
             "board_university": "",
             "year": "2016 (84.30%)",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B.Tech",
@@ -35,7 +37,8 @@
             "institution": "Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata",
             "board_university": "",
             "year": "2014 (70.00%)",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Tech"
         },
         {
             "degree": "10+2 th",
@@ -43,7 +46,8 @@
             "institution": "Krishnath College School, Berhampore",
             "board_university": "WBCHSE Board",
             "year": "2010 (70.00%)",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "10th",
@@ -51,7 +55,8 @@
             "institution": "Krishnath College School, Berhampore",
             "board_university": "WBBSE Board",
             "year": "2008 (78.00%)",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -110,5 +115,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

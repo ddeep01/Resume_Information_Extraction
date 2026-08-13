@@ -19,7 +19,8 @@
             "institution": "The Maharaja Sayajirao University of Baroda",
             "board_university": "",
             "year": "",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M. Sc.",
@@ -27,7 +28,8 @@
             "institution": "The Maharaja Sayajirao University of Baroda",
             "board_university": "",
             "year": "",
-            "cgpa_percentage": "64.75"
+            "cgpa_percentage": "64.75",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "B. Sc.",
@@ -35,7 +37,8 @@
             "institution": "The Maharaja Sayajirao University of Baroda",
             "board_university": "",
             "year": "",
-            "cgpa_percentage": "56.75%"
+            "cgpa_percentage": "56.75%",
+            "normalized_degree": "B.Sc."
         }
     ],
     "experience": [
@@ -70,5 +73,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

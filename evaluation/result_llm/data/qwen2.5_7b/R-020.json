@@ -19,7 +19,8 @@
             "institution": "Institute of Infrastructure Technology Research and Management (IITRAM) Established by Gov.of Gujarat, Mentored by IIT Gandhinagar, Ahmedabad",
             "board_university": "",
             "year": "2016 - 2020",
-            "cgpa_percentage": "8.83"
+            "cgpa_percentage": "8.83",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Tech",
@@ -27,7 +28,8 @@
             "institution": "Department of Electronics Engg, Institute of Technology, Nirma University, Ahmedabad",
             "board_university": "",
             "year": "2012 - 2014",
-            "cgpa_percentage": "7.9/10"
+            "cgpa_percentage": "7.9/10",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B.E.",
@@ -35,7 +37,8 @@
             "institution": "BVM Gov. Engineering College, Vallabh Vidhyanagar, Gujarat",
             "board_university": "",
             "year": "2005 - 2009",
-            "cgpa_percentage": "64.32%"
+            "cgpa_percentage": "64.32%",
+            "normalized_degree": "B.E."
         },
         {
             "degree": "H.S.C.",
@@ -43,7 +46,8 @@
             "institution": "Kisan Madhyamik Vidhyalaya, Lunawada, Gujarat",
             "board_university": "",
             "year": "2003 - 2004",
-            "cgpa_percentage": "83.11%"
+            "cgpa_percentage": "83.11%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "S.S.C.",
@@ -51,7 +55,8 @@
             "institution": "Omkar Maulik Vidhayalaya, Lunawada, Gujarat",
             "board_university": "",
             "year": "2002 - 2003",
-            "cgpa_percentage": "82.71%"
+            "cgpa_percentage": "82.71%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -110,5 +115,6 @@
         "book_publications": 2,
         "book_chapters": 3,
         "patents": 6
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

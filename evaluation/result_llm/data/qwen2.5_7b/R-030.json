@@ -19,7 +19,8 @@
             "institution": "Kurukshetra University",
             "board_university": "",
             "year": "2008",
-            "cgpa_percentage": "63.3%"
+            "cgpa_percentage": "63.3%",
+            "normalized_degree": "M.A."
         },
         {
             "degree": "Master of Science",
@@ -27,7 +28,8 @@
             "institution": "IIT KGP",
             "board_university": "",
             "year": "2018",
-            "cgpa_percentage": "92.3%"
+            "cgpa_percentage": "92.3%",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "Doctor of Philosophy",
@@ -35,7 +37,8 @@
             "institution": "IIT KGP",
             "board_university": "",
             "year": "2023",
-            "cgpa_percentage": "80.0%"
+            "cgpa_percentage": "80.0%",
+            "normalized_degree": "Ph.D."
         }
     ],
     "experience": [
@@ -110,5 +113,6 @@
         "book_publications": 1,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

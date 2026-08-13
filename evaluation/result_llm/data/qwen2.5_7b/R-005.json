@@ -19,7 +19,8 @@
             "institution": "Gujarat University, Department of Computer Science",
             "board_university": "Gujarat University",
             "year": "2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "MCA",
@@ -27,7 +28,8 @@
             "institution": "IGNOU (Indira Gandhi National Open University), Computer Science",
             "board_university": "IGNOU",
             "year": "2007",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "MCA"
         }
     ],
     "experience": [
@@ -54,5 +56,6 @@
         "book_publications": 1,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

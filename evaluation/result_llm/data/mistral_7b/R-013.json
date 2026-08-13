@@ -19,7 +19,8 @@
             "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
             "board_university": "",
             "year": "2023",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.S.",
@@ -27,7 +28,8 @@
             "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
             "board_university": "",
             "year": "2019",
-            "cgpa_percentage": "8.61"
+            "cgpa_percentage": "8.61",
+            "normalized_degree": "M.S."
         },
         {
             "degree": "B.Sc.",
@@ -35,7 +37,8 @@
             "institution": "Vidyasagar University (Midnapore College)",
             "board_university": "West Bengal Council of Higher Secondary Education",
             "year": "2016",
-            "cgpa_percentage": "70.60"
+            "cgpa_percentage": "70.60",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "Higher Secondary",
@@ -43,7 +46,8 @@
             "institution": "West Bengal Council of Higher Secondary Education",
             "board_university": "",
             "year": "2013",
-            "cgpa_percentage": "82.00"
+            "cgpa_percentage": "82.00",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Secondary",
@@ -51,7 +55,8 @@
             "institution": "West Bengal Council of Secondary Education",
             "board_university": "",
             "year": "2011",
-            "cgpa_percentage": "81.70"
+            "cgpa_percentage": "81.70",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -102,5 +107,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

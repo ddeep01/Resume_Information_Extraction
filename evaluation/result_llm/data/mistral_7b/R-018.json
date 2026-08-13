@@ -19,7 +19,8 @@
             "institution": "Technical University of Darmstadt",
             "board_university": "",
             "year": "2003 - 2008",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M. Tech (Solid state technology)",
@@ -27,7 +28,8 @@
             "institution": "Indian Institute of Technology, Madras",
             "board_university": "",
             "year": "2001-2003",
-            "cgpa_percentage": "8.74/10"
+            "cgpa_percentage": "8.74/10",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "MSc (Physics, specialization in solid state physics)",
@@ -35,7 +37,8 @@
             "institution": "Rani Durgavati Vishwavidyalaya, Jabalpur, India",
             "board_university": "",
             "year": "1998-2000",
-            "cgpa_percentage": "75.75%"
+            "cgpa_percentage": "75.75%",
+            "normalized_degree": "M.Sc."
         }
     ],
     "experience": [
@@ -102,5 +105,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 4
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

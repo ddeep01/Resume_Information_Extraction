@@ -19,7 +19,8 @@
             "institution": "Visvesvaraya National Institute of Technology, Nagpur",
             "board_university": "",
             "year": "2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "Master of Engineering",
@@ -27,7 +28,8 @@
             "institution": "Institute of Engineering, DAVV, Indore",
             "board_university": "",
             "year": "2015",
-            "cgpa_percentage": "76%"
+            "cgpa_percentage": "76%",
+            "normalized_degree": "M.E."
         },
         {
             "degree": "Bachelor of Engineering",
@@ -35,7 +37,8 @@
             "institution": "Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore",
             "board_university": "",
             "year": "2008",
-            "cgpa_percentage": "68.09%"
+            "cgpa_percentage": "68.09%",
+            "normalized_degree": "B.E."
         },
         {
             "degree": "Higher Secondary",
@@ -43,7 +46,8 @@
             "institution": "Govt Higher Secondary School, MP Board, Satwas, Dewas",
             "board_university": "",
             "year": "2003",
-            "cgpa_percentage": "73.4%"
+            "cgpa_percentage": "73.4%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "10th",
@@ -51,7 +55,8 @@
             "institution": "New Diamond Higher Secondary School, MP Board, Satwas, Dewas",
             "board_university": "",
             "year": "2001",
-            "cgpa_percentage": "71.2%"
+            "cgpa_percentage": "71.2%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -110,5 +115,6 @@
         "book_publications": 0,
         "book_chapters": 1,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

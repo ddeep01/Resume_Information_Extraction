@@ -19,7 +19,8 @@
             "institution": "Sarveapalli RadhaKrishnan University Bhopal (M.P.)",
             "board_university": "",
             "year": "2024",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "Master of Computer Science",
@@ -27,7 +28,8 @@
             "institution": "MakhanLal Chaturvedi Rastriya Patrakarita Avam Sanchar Vishwavidhyalay (MCURPV) Bhopal",
             "board_university": "",
             "year": "2014",
-            "cgpa_percentage": "70%"
+            "cgpa_percentage": "70%",
+            "normalized_degree": "MCA"
         },
         {
             "degree": "Master of Social Work",
@@ -35,7 +37,8 @@
             "institution": "Maharishi Mahesh Yogi Vedic Vishwavidhyalay Jabalpur",
             "board_university": "",
             "year": "2020",
-            "cgpa_percentage": "70%"
+            "cgpa_percentage": "70%",
+            "normalized_degree": "M.A."
         },
         {
             "degree": "Bachelor of Computer Application",
@@ -43,7 +46,8 @@
             "institution": "Awadhesh Pratap Singh University (APSU), Rewa (M.P.)",
             "board_university": "",
             "year": "2010",
-            "cgpa_percentage": "58%"
+            "cgpa_percentage": "58%",
+            "normalized_degree": "BCA"
         },
         {
             "degree": "12th",
@@ -51,7 +55,8 @@
             "institution": "BSEMP Bhopal (MP Board)",
             "board_university": "",
             "year": "2007",
-            "cgpa_percentage": "74%"
+            "cgpa_percentage": "74%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Metric",
@@ -59,7 +64,8 @@
             "institution": "BSEMP Bhopal (MP Board)",
             "board_university": "",
             "year": "2005",
-            "cgpa_percentage": "72%"
+            "cgpa_percentage": "72%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -102,5 +108,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

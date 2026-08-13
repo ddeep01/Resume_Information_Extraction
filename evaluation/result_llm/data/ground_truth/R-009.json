@@ -19,7 +19,8 @@
             "institution": "Indian Institute of Technology Delhi",
             "board_university": "",
             "year": "2024",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "Master of Engineering",
@@ -27,7 +28,8 @@
             "institution": "NITTTR Chandigarh",
             "board_university": "",
             "year": "2018",
-            "cgpa_percentage": "7.4"
+            "cgpa_percentage": "7.4",
+            "normalized_degree": "M.E."
         },
         {
             "degree": "Bachelor of Technology",
@@ -35,7 +37,8 @@
             "institution": "Uttarakhand Technical University",
             "board_university": "",
             "year": "2015",
-            "cgpa_percentage": "66.67%"
+            "cgpa_percentage": "66.67%",
+            "normalized_degree": "B.Tech"
         }
     ],
     "experience": [
@@ -78,5 +81,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 2
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

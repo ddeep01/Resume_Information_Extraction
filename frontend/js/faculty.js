@@ -212,27 +212,11 @@ function publications() {
 ========================================================== */
 
 function normalizeDegree(degree) {
-
     if (!degree) return "";
-
-    const d = degree.toLowerCase();
-
-    if (d.includes("doctor")) return "Ph.D.";
-
-    if (d.includes("ph.d")) return "Ph.D.";
-
-    if (d === "phd") return "Ph.D.";
-
-    if (d.includes("m.tech")) return "M.Tech";
-
-    if (d.includes("b.tech")) return "B.Tech";
-
-    if (d.includes("master")) return "Master";
-
-    if (d.includes("bachelor")) return "Bachelor";
-
+    if (window.DegreeNormalizer) {
+        return window.DegreeNormalizer.normalizeDegree(degree);
+    }
     return degree;
-
 }
 
 
@@ -269,9 +253,10 @@ function renderHero() {
     const edu = education();
 
     const highestDegree =
-        edu.length > 0
-            ? normalizeDegree(edu[0].degree)
-            : "-";
+        facultyData.normalized_highest_degree ||
+        (window.DegreeNormalizer
+            ? window.DegreeNormalizer.getHighestDegree(edu)
+            : (edu.length > 0 ? normalizeDegree(edu[0].degree) : "-"));
 
     const institute =
         edu.length > 0
@@ -378,9 +363,10 @@ function renderOverview() {
         );
 
     const highestDegree =
-        edu.length
-            ? normalizeDegree(edu[0].degree)
-            : "-";
+        facultyData.normalized_highest_degree ||
+        (window.DegreeNormalizer
+            ? window.DegreeNormalizer.getHighestDegree(edu)
+            : (edu.length ? normalizeDegree(edu[0].degree) : "-"));
 
     const institute =
         edu.length
@@ -427,11 +413,10 @@ function createSummary() {
         );
 
     const highestDegree =
-        education().length
-            ? normalizeDegree(
-                education()[0].degree
-            )
-            : "-";
+        facultyData.normalized_highest_degree ||
+        (window.DegreeNormalizer
+            ? window.DegreeNormalizer.getHighestDegree(education())
+            : (education().length ? normalizeDegree(education()[0].degree) : "-"));
 
     return `
         <p>
@@ -514,6 +499,8 @@ function renderEducation() {
     }
 
     list.forEach(item => {
+        const canonical = item.normalized_degree || normalizeDegree(item.degree);
+        const rawDegree = item.degree && item.degree.trim() !== canonical ? item.degree.trim() : "";
 
         container.innerHTML += `
 
@@ -521,7 +508,8 @@ function renderEducation() {
 
                 <div class="timeline-title">
 
-                    ${normalizeDegree(item.degree)}
+                    ${canonical}
+                    ${rawDegree ? `<span style="font-size:13px; font-weight:normal; opacity:0.85; margin-left:8px;">(${rawDegree})</span>` : ""}
 
                 </div>
 

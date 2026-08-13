@@ -13,14 +13,14 @@
         "researchgate": ""
     },
     "education": [
-    
         {
             "degree": "Master of Science (M.Sc.)",
             "specialization": "Mathematics and Computing",
             "institution": "Indian Institute of Technology (IIT) Guwahati",
             "board_university": "",
             "year": "2018",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "Bachelor of Science (Honours)",
@@ -28,7 +28,8 @@
             "institution": "Deshbandhu College",
             "board_university": "University of Delhi",
             "year": "2016",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "Senior Secondary",
@@ -36,7 +37,8 @@
             "institution": "S.B.N Public School",
             "board_university": "CBSE",
             "year": "2013",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Secondary School Examination",
@@ -44,7 +46,8 @@
             "institution": "Aum Sun Public School",
             "board_university": "CBSE",
             "year": "2011",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -79,5 +82,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "M.Sc."
 }

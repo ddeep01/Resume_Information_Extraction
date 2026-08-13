@@ -19,7 +19,8 @@
             "institution": "School of Humanities and Social Sciences (SHSS), Indian Institute of Technology Mandi",
             "board_university": "",
             "year": "2019 - Present",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.A.",
@@ -27,7 +28,8 @@
             "institution": "Jadavpur University, West Bengal",
             "board_university": "",
             "year": "2008-10",
-            "cgpa_percentage": "63%"
+            "cgpa_percentage": "63%",
+            "normalized_degree": "M.A."
         },
         {
             "degree": "B.Sc.",
@@ -35,7 +37,8 @@
             "institution": "University of Calcutta, West Bengal",
             "board_university": "",
             "year": "2005-08",
-            "cgpa_percentage": "55.625%"
+            "cgpa_percentage": "55.625%",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "Higher Secondary Examination",
@@ -43,7 +46,8 @@
             "institution": "West Bengal Council of Higher Secondary Education (WBCHSE)",
             "board_university": "",
             "year": "2003-2005",
-            "cgpa_percentage": "72.3%"
+            "cgpa_percentage": "72.3%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "Madhyamik Examination",
@@ -51,7 +55,8 @@
             "institution": "West Bengal Board of Secondary Education (WBBSE)",
             "board_university": "",
             "year": "2003",
-            "cgpa_percentage": "80.75%"
+            "cgpa_percentage": "80.75%",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -94,5 +99,6 @@
         "book_publications": 1,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

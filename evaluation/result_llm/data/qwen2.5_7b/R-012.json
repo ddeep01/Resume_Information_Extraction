@@ -19,7 +19,8 @@
             "institution": "Harish-Chandra Research Institute (HRI), QIC Group",
             "board_university": "",
             "year": "2021-至今",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Post Doctoral"
         },
         {
             "degree": "Ph.D.",
@@ -27,7 +28,8 @@
             "institution": "BITS-Pilani",
             "board_university": "",
             "year": "2014-2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Sc.",
@@ -35,7 +37,8 @@
             "institution": "Sambalpur University",
             "board_university": "",
             "year": "2013",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "B.Sc. (Hons.)",
@@ -43,7 +46,8 @@
             "institution": "Vidyasagar University",
             "board_university": "",
             "year": "2010",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "10th",
@@ -51,7 +55,8 @@
             "institution": "W.B.B.S.E.",
             "board_university": "",
             "year": "2004",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -118,5 +123,6 @@
         "book_publications": 1,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Post Doctoral"
 }

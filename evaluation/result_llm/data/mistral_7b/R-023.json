@@ -19,7 +19,8 @@
             "institution": "Amity School of Engineering & Technology, Raipur",
             "board_university": "Amity University Chhattisgarh",
             "year": "2024",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Tech.",
@@ -27,7 +28,8 @@
             "institution": "School of Computer Science and I.T. (SCSIT), Indore",
             "board_university": "Devi Ahilya University (D.A.V.V.), Indore, M.P.",
             "year": "2012",
-            "cgpa_percentage": "9.45 CGPA (DAVV TOPPER)"
+            "cgpa_percentage": "9.45 CGPA (DAVV TOPPER)",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B.E.",
@@ -35,7 +37,8 @@
             "institution": "Swami Vivekananda College of Engineering, Indore",
             "board_university": "Rajiv Gandhi Technical University (R.G.T.U.), Bhopal, M.P.",
             "year": "2009",
-            "cgpa_percentage": "76.38% (Hons.)"
+            "cgpa_percentage": "76.38% (Hons.)",
+            "normalized_degree": "B.E."
         }
     ],
     "experience": [
@@ -62,5 +65,6 @@
         "book_publications": 0,
         "book_chapters": 1,
         "patents": 3
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

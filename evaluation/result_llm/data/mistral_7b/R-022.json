@@ -19,7 +19,8 @@
             "institution": "VIT",
             "board_university": "",
             "year": "Year not provided",
-            "cgpa_percentage": "71%"
+            "cgpa_percentage": "71%",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Tech",
@@ -27,7 +28,8 @@
             "institution": "JNTU, Ananthapur",
             "board_university": "",
             "year": "Year not provided",
-            "cgpa_percentage": "71%"
+            "cgpa_percentage": "71%",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "B.Tech",
@@ -35,7 +37,8 @@
             "institution": "Anna University",
             "board_university": "",
             "year": "Year not provided",
-            "cgpa_percentage": "67%"
+            "cgpa_percentage": "67%",
+            "normalized_degree": "B.Tech"
         },
         {
             "degree": "Intermediate",
@@ -43,7 +46,8 @@
             "institution": "B.I.E",
             "board_university": "",
             "year": "Year not provided",
-            "cgpa_percentage": "83%"
+            "cgpa_percentage": "83%",
+            "normalized_degree": "Higher Secondary (12th)"
         },
         {
             "degree": "SSC",
@@ -51,7 +55,8 @@
             "institution": "SSC",
             "board_university": "",
             "year": "Year not provided",
-            "cgpa_percentage": "59"
+            "cgpa_percentage": "59",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -86,5 +91,6 @@
         "book_publications": 0,
         "book_chapters": 0,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

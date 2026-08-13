@@ -19,7 +19,8 @@
             "institution": "The University of Burdwan",
             "board_university": "",
             "year": "2014",
-            "cgpa_percentage": "62.5%"
+            "cgpa_percentage": "62.5%",
+            "normalized_degree": "B.A."
         },
         {
             "degree": "M.A. (English)",
@@ -27,7 +28,8 @@
             "institution": "The University of Burdwan",
             "board_university": "",
             "year": "2016",
-            "cgpa_percentage": "7.18"
+            "cgpa_percentage": "7.18",
+            "normalized_degree": "M.A."
         },
         {
             "degree": "M.Phil. (English)",
@@ -35,7 +37,8 @@
             "institution": "The University of Burdwan",
             "board_university": "",
             "year": "2019",
-            "cgpa_percentage": "79%"
+            "cgpa_percentage": "79%",
+            "normalized_degree": "M.Phil."
         },
         {
             "degree": "Ph.D.",
@@ -43,7 +46,8 @@
             "institution": "IIT Kharagpur",
             "board_university": "",
             "year": "2022",
-            "cgpa_percentage": "7.18"
+            "cgpa_percentage": "7.18",
+            "normalized_degree": "Ph.D."
         }
     ],
     "experience": [
@@ -78,5 +82,6 @@
         "book_publications": 3,
         "book_chapters": 10,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

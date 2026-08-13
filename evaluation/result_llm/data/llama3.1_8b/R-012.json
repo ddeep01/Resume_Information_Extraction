@@ -19,7 +19,8 @@
             "institution": "Vidyasagar University",
             "board_university": "W.B.C.H.S.E.",
             "year": "2010",
-            "cgpa_percentage": "52 % (2nd class)"
+            "cgpa_percentage": "52 % (2nd class)",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "M.Sc.",
@@ -27,7 +28,8 @@
             "institution": "Sambalpur University",
             "board_university": "",
             "year": "2013",
-            "cgpa_percentage": "7.56(OGPA)≡71% (1st class)"
+            "cgpa_percentage": "7.56(OGPA)≡71% (1st class)",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "Ph.D.",
@@ -35,7 +37,8 @@
             "institution": "BITS-Pilani",
             "board_university": "Department of Physics, BITS-Pilani",
             "year": "2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         }
     ],
     "experience": [
@@ -110,5 +113,6 @@
         "book_publications": 1,
         "book_chapters": 1,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

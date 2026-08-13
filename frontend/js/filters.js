@@ -48,8 +48,23 @@
         const designation = state.filters.designation;
         const experience = state.filters.experience;
         const search = state.search.toLowerCase();
-        const matchesSearch = !search || [candidate.fullName, candidate.designation, candidate.university, candidate.highestDegree].join(" ").toLowerCase().includes(search);
-        const matchesDegree = !degree || (candidate.highestDegree || "").toLowerCase().includes(degree.toLowerCase());
+        const searchString = [
+          candidate.fullName,
+          candidate.designation,
+          candidate.university,
+          candidate.highestDegree,
+          candidate.rawHighestDegree,
+          ...(candidate.allDegrees || []),
+          ...(candidate.education || []).map((e) => e.degree || ""),
+        ]
+          .join(" ")
+          .toLowerCase();
+        const matchesSearch = !search || searchString.includes(search);
+        const matchesDegree =
+          !degree ||
+          candidate.highestDegree === degree ||
+          (Array.isArray(candidate.allDegrees) && candidate.allDegrees.includes(degree)) ||
+          (window.DegreeNormalizer && window.DegreeNormalizer.normalizeDegree(candidate.highestDegree) === degree);
         const matchesInstitute = !institute || (candidate.institution || "").toLowerCase().includes(institute.toLowerCase());
         const matchesDesignation = !designation || (candidate.designation || "").toLowerCase().includes(designation.toLowerCase());
         const matchesExperience = !experience || this.matchesExperience(candidate.experienceYears, experience);

@@ -19,7 +19,8 @@
             "institution": "Institute of Infrastructure Technology Research and Management (IITRAM)",
             "board_university": "Gov.of Gujarat",
             "year": "2016 - 2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Tech",
@@ -27,7 +28,8 @@
             "institution": "Department of Electronics Engg, Institute of Technology, Nirma University",
             "board_university": "",
             "year": "2012 - 2014",
-            "cgpa_percentage": "7.9/10 (First class with distinction)"
+            "cgpa_percentage": "7.9/10 (First class with distinction)",
+            "normalized_degree": "M.Tech"
         },
         {
             "degree": "Bachelor of Engineering",
@@ -35,7 +37,8 @@
             "institution": "BVM gov. engineering college",
             "board_university": "",
             "year": "2005 - 2009",
-            "cgpa_percentage": "64.32%(First class)"
+            "cgpa_percentage": "64.32%(First class)",
+            "normalized_degree": "B.E."
         }
     ],
     "experience": [
@@ -70,5 +73,6 @@
         "book_publications": 1,
         "book_chapters": 1,
         "patents": 6
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }

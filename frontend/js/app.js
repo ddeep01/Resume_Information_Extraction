@@ -259,59 +259,52 @@
 
 },
 
-    normalizeDegree(degree){
+    normalizeDegree(degree) {
+      if (!degree) return "";
+      if (window.DegreeNormalizer) {
+        return window.DegreeNormalizer.normalizeDegree(degree);
+      }
+      return degree;
+    },
 
-    if(!degree) return "";
-
-    const d = degree.toLowerCase().trim();
-
-    if(
-        d.includes("doctor") ||
-        d.includes("ph.d") ||
-        d==="phd"
-    )
-        return "Ph.D.";
-
-    if(d.includes("master"))
-        return "Master";
-
-    if(d.includes("m.tech"))
-        return "M.Tech";
-
-    if(d.includes("b.tech"))
-        return "B.Tech";
-
-    if(d.includes("mba"))
-        return "MBA";
-
-    return degree;
-
-},
-
-getDegreeBadge(degree){
-
-    const normalized = this.normalizeDegree(degree);
-
-    if(normalized==="Ph.D."){
-
-        return `
-        <span class="degree-badge">
-            Ph.D.
-        </span>
-        `;
-
-    }
-
-    return "";
-
-},
+    getDegreeBadge(degree) {
+      const normalized = this.normalizeDegree(degree);
+      if (normalized === "Ph.D.") {
+        return `<span class="degree-badge">Ph.D.</span>`;
+      }
+      if (normalized === "Post Doctoral") {
+        return `<span class="degree-badge" style="background:#4f46e5;">Postdoc</span>`;
+      }
+      return "";
+    },
 
     getInitials(fullName) {
       return fullName.split(/\s+/).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
     },
 
     populateFilters(candidates) {
-      const degrees = ["", ...new Set(candidates.map((item) => item.highestDegree).filter(Boolean))].sort();
+      const canonicalDegreeSet = new Set();
+      candidates.forEach((c) => {
+        if (c.highestDegree && c.highestDegree !== "Other") {
+          canonicalDegreeSet.add(c.highestDegree);
+        }
+        if (Array.isArray(c.allDegrees)) {
+          c.allDegrees.forEach((d) => {
+            if (d && d !== "Other") canonicalDegreeSet.add(d);
+          });
+        }
+      });
+
+      const degrees = [
+        "",
+        ...Array.from(canonicalDegreeSet).sort((a, b) => {
+          const rankA = window.DegreeNormalizer ? window.DegreeNormalizer.getDegreeRank(a) : 0;
+          const rankB = window.DegreeNormalizer ? window.DegreeNormalizer.getDegreeRank(b) : 0;
+          if (rankB !== rankA) return rankB - rankA;
+          return a.localeCompare(b);
+        }),
+      ];
+
       const institutes = ["", ...new Set(candidates.map((item) => item.institution).filter(Boolean))].sort();
       const designations = ["", ...new Set(candidates.map((item) => item.designation).filter(Boolean))].sort();
       const experiences = ["", "0-2", "2-5", "5-10", "10+"];

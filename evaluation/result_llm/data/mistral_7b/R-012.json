@@ -19,7 +19,8 @@
             "institution": "Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group",
             "board_university": "",
             "year": "8th May,2021",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Post Doctoral"
         },
         {
             "degree": "Postdoc",
@@ -27,7 +28,8 @@
             "institution": "IIT-Bombay",
             "board_university": "",
             "year": "6th Nov,2020",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Post Doctoral"
         },
         {
             "degree": "Ph.D.",
@@ -35,7 +37,8 @@
             "institution": "BITS-Pilani",
             "board_university": "",
             "year": "2014",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Sc.",
@@ -43,7 +46,8 @@
             "institution": "Sambalpur University",
             "board_university": "",
             "year": "2013",
-            "cgpa_percentage": "7.56(OGPA)≡71%"
+            "cgpa_percentage": "7.56(OGPA)≡71%",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "B.Sc.",
@@ -51,7 +55,8 @@
             "institution": "Vidyasagar University",
             "board_university": "",
             "year": "2010",
-            "cgpa_percentage": "52 % (2nd class)"
+            "cgpa_percentage": "52 % (2nd class)",
+            "normalized_degree": "B.Sc."
         },
         {
             "degree": "H.S.",
@@ -59,7 +64,8 @@
             "institution": "W.B.C.H.S.E.",
             "board_university": "",
             "year": "2006",
-            "cgpa_percentage": "60 % (1st class)"
+            "cgpa_percentage": "60 % (1st class)",
+            "normalized_degree": "Other"
         },
         {
             "degree": "10th",
@@ -67,7 +73,8 @@
             "institution": "W.B.B.S.E.",
             "board_university": "",
             "year": "2004",
-            "cgpa_percentage": "71 % (1st class)"
+            "cgpa_percentage": "71 % (1st class)",
+            "normalized_degree": "Secondary (10th)"
         }
     ],
     "experience": [
@@ -142,5 +149,6 @@
         "book_publications": 0,
         "book_chapters": 1,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Post Doctoral"
 }

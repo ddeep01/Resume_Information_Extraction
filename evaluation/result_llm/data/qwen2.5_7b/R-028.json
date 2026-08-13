@@ -19,7 +19,8 @@
             "institution": "University of Delhi",
             "board_university": "University of Delhi",
             "year": "Nov. 2018",
-            "cgpa_percentage": ""
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
         },
         {
             "degree": "M.Sc.",
@@ -27,7 +28,8 @@
             "institution": "University of Delhi",
             "board_university": "University of Delhi",
             "year": "May. 2013",
-            "cgpa_percentage": "1st Class"
+            "cgpa_percentage": "1st Class",
+            "normalized_degree": "M.Sc."
         },
         {
             "degree": "B.Sc.",
@@ -35,7 +37,8 @@
             "institution": "Utkal University Bhubaneswar",
             "board_university": "",
             "year": "May. 2011",
-            "cgpa_percentage": "1st Class"
+            "cgpa_percentage": "1st Class",
+            "normalized_degree": "B.Sc."
         }
     ],
     "experience": [
@@ -86,5 +89,6 @@
         "book_publications": 5,
         "book_chapters": 4,
         "patents": 0
-    }
+    },
+    "normalized_highest_degree": "Ph.D."
 }
