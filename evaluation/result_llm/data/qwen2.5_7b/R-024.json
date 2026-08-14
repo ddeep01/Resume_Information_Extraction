@@ -1,0 +1,74 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Kaushal Purohit",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "kaushalsep1996@gmail.com",
+        "phone": "(+91) 9427712691, (+91) 9316234342",
+        "date_of_birth": "06/08/1996",
+        "gender": "Female",
+        "address": "Ratnam Garnet, Bhat Motera link road, behind Akshar Kutir, GIDC Bhat, Bhat, 382424, Ahmedabad, Gujarat, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Secondary School Examination",
+            "specialization": "",
+            "institution": "K.N. Shah Modasa High School",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "78%"
+        },
+        {
+            "degree": "Senior Secondary Certificate Examination",
+            "specialization": "",
+            "institution": "K.N. Shah Modasa High School",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": "60%"
+        },
+        {
+            "degree": "Bachelor of Science in Physics",
+            "specialization": "",
+            "institution": "Sir P.T Science College",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "9.0 CGPA"
+        },
+        {
+            "degree": "Master of Science in Physics",
+            "specialization": "",
+            "institution": "Sardar Patel University",
+            "board_university": "",
+            "year": "2018",
+            "cgpa_percentage": "6.51 CGPA"
+        },
+        {
+            "degree": "Ph.D. in Physics",
+            "specialization": "",
+            "institution": "Sardar Vallabhbhai National Institute of Technology",
+            "board_university": "",
+            "year": "2019-2023",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant lecturer",
+            "organization": "Sir P.T Science College",
+            "start_date": "2018",
+            "end_date": "2019",
+            "duration": "1 year",
+            "description": "Physics Faculty"
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 7,
+        "conference_publications": 6,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

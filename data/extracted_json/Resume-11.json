@@ -1,0 +1,102 @@
+{
+    "personal_information": {
+        "full_name": "Olivia Hsu",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "owhsu@stanford.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "[a weiya711]",
+        "google_scholar": "[Google Scholar]",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Computer Science (CS)",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2026",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Computer Science (CS)",
+            "institution": "Stanford University",
+            "board_university": "",
+            "year": "2025",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.S.",
+            "specialization": "Electrical Engineering and Computer Science (EECS)",
+            "institution": "University of California, Berkeley",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Carnegie Mellon University",
+            "start_date": "May 2026",
+            "end_date": "",
+            "duration": "",
+            "description": "Assistant professor in Electrical and Computer Engineering and, by courtesy, Computer Science. Member of the CMU Parallel Data Lab (PDL) and Catalyst Lab."
+        },
+        {
+            "designation": "Courtesy Adjunct Assistant Professor",
+            "organization": "Carnegie Mellon University",
+            "start_date": "June 2025",
+            "end_date": "Apr 2026",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoc and PhD Student Researcher",
+            "organization": "Stanford Pervasive Parallelism Lab",
+            "start_date": "Jan 2020",
+            "end_date": "Apr 2026",
+            "duration": "",
+            "description": "Researching the automatic compilation and mapping of sparse applications to domain-specific architectures, reconfigurable dataflow architectures, and hardware accelerators under professors Kunle Olukotun and Fredrik Kjolstad."
+        },
+        {
+            "designation": "Student Collaborator",
+            "organization": "UC Berkeley Group Matching Project",
+            "start_date": "Aug 2020",
+            "end_date": "Aug 2021",
+            "duration": "",
+            "description": "Helped develop a scalable and inclusive study group matching process for student collaboration under Professor Gireeja Ranade, which led to [14]."
+        },
+        {
+            "designation": "PhD Student Researcher",
+            "organization": "Stanford VLSI Group",
+            "start_date": "Sep 2019",
+            "end_date": "Jan 2020",
+            "duration": "",
+            "description": "Researching fully digital ADC-based high-speed link equalization techniques under Professor Mark Horowitz."
+        },
+        {
+            "designation": "Undergraduate Researcher",
+            "organization": "Berkeley Wireless Research Center",
+            "start_date": "June 2017",
+            "end_date": "Aug 2019",
+            "duration": "",
+            "description": "Designed photonic devices using the Berkeley Photonics Generator (BPG) and digital circuits for high-speed communication in Python and Verliog for an ultrasound receive-array system fabricated in the Global Foundries 45nm RFSOI process. Built the lab setup and tested the sensitivity of silicon photonic ring modulators when disturbed with ultrasonic waves."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 13,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

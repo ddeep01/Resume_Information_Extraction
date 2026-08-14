@@ -1,0 +1,78 @@
+{
+    "personal_information": {
+        "full_name": "S. Raghavan",
+        "current_designation": "Dean's Professor of Management Science & Operations Management",
+        "total_experience": "",
+        "email": "raghavan@umd.edu",
+        "phone": "301-405-6139",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "University of Maryland, College Park, MD 20742-1815",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Operations Research",
+            "institution": "Massachusetts Institute of Technology",
+            "board_university": "",
+            "year": "1995",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "Operations Research and Statistics",
+            "institution": "Rensselaer Polytechnic Institute",
+            "board_university": "",
+            "year": "1988",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.Tech.",
+            "specialization": "Aeronautical Engineering",
+            "institution": "Indian Institute of Technology, Chennai (India)",
+            "board_university": "",
+            "year": "1987",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Tech"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Dean's Professor of Management Science & Operations Management",
+            "organization": "Robert H. Smith School of Business & Institute for Systems Research, University of Maryland",
+            "start_date": "January 2019 - Present",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Professor of Management Science & Operations Management (joint appointment with Institute for Systems Research)",
+            "organization": "A. James Clark School of Engineering, University of Maryland",
+            "start_date": "August 2010 - Present",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Affiliate Professor, Department of Computer Science",
+            "organization": "University of Maryland",
+            "start_date": "September 2016 - August 2019",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 2
+    },
+    "normalized_highest_degree": "Ph.D."
+}

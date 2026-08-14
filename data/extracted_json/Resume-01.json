@@ -1,0 +1,94 @@
+{
+    "personal_information": {
+        "full_name": "Eric Nalisnick",
+        "current_designation": "Assistant Professor, Tenure Track",
+        "total_experience": "",
+        "email": "nalisnick@jhu.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. Computer Science",
+            "specialization": "",
+            "institution": "University of California, Irvine",
+            "board_university": "",
+            "year": "2013 - 2018",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "M.S. Computer Science",
+            "specialization": "",
+            "institution": "Lehigh University",
+            "board_university": "",
+            "year": "2012 - 2013",
+            "cgpa_percentage": "",
+            "normalized_degree": "M.S."
+        },
+        {
+            "degree": "B.S. Computer Science & English Literature",
+            "specialization": "",
+            "institution": "Lehigh University",
+            "board_university": "",
+            "year": "2008 - 2012",
+            "cgpa_percentage": "",
+            "normalized_degree": "Other"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor, Tenure Track",
+            "organization": "Johns Hopkins University",
+            "start_date": "March 2024",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor, Tenure Track",
+            "organization": "University of Amsterdam",
+            "start_date": "September 2020",
+            "end_date": "February 2024",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Postdoctoral Research Associate",
+            "organization": "University of Cambridge",
+            "start_date": "September 2018",
+            "end_date": "September 2020",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Research Scientist",
+            "organization": "Google DeepMind",
+            "start_date": "February 2019",
+            "end_date": "January 2020",
+            "duration": "20% FTE",
+            "description": ""
+        },
+        {
+            "designation": "Research Scientist Intern",
+            "organization": "Google DeepMind",
+            "start_date": "Summer 2018",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 14,
+        "conference_publications": 41,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 1
+    },
+    "normalized_highest_degree": "Ph.D."
+}

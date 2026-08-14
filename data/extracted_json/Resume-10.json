@@ -1,0 +1,85 @@
+{
+    "personal_information": {
+        "full_name": "Nisheeth K. Vishnoi",
+        "current_designation": "A. Bartlett Giamatti Professor of Computer Science",
+        "total_experience": "",
+        "email": "nisheeth.vishnoi@yale.edu",
+        "phone": "",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Algorithms, Combinatorics and Optimization",
+            "institution": "Georgia Institute of Technology",
+            "board_university": "",
+            "year": "1999-2004",
+            "cgpa_percentage": "",
+            "normalized_degree": "Ph.D."
+        },
+        {
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "specialization": "",
+            "institution": "Indian Institute of Technology Bombay",
+            "board_university": "",
+            "year": "1995-1999",
+            "cgpa_percentage": "",
+            "normalized_degree": "B.Tech"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "A. Bartlett Giamatti Professor of Computer Science",
+            "organization": "Yale University",
+            "start_date": "January 2021",
+            "end_date": "",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Professor of Computer Science",
+            "organization": "Yale University",
+            "start_date": "January 2019",
+            "end_date": "2020",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Associate Professor",
+            "organization": "́Ecole Polytechnique F ́ed ́erale de Lausanne (EPFL)",
+            "start_date": "June 2014",
+            "end_date": "December 2018",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Researcher",
+            "organization": "Microsoft Research",
+            "start_date": "March 2009",
+            "end_date": "May 2014",
+            "duration": "",
+            "description": ""
+        },
+        {
+            "designation": "Charg ́e de Recherche, 1st Class",
+            "organization": "CNRS",
+            "start_date": "September 2008",
+            "end_date": "March 2009",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 0,
+        "conference_publications": 0,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    },
+    "normalized_highest_degree": "Ph.D."
+}

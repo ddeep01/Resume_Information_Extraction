@@ -1,0 +1,58 @@
+{
+    "personal_information": {
+        "full_name": "Bhumika Shah",
+        "current_designation": "",
+        "total_experience": "20+ years",
+        "email": "drbhumikashah@gmail.com",
+        "phone": "+91 9727797105",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "linkedin.com/in/dr-bhumika-bhatt-shah-b8008419",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD",
+            "specialization": "An Innovative Framework for Remote Database Experimentation",
+            "institution": "Gujarat University, Department of Computer Science",
+            "board_university": "Gujarat University",
+            "year": "2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "MCA",
+            "specialization": "",
+            "institution": "IGNOU (Indira Gandhi National Open University), Computer Science",
+            "board_university": "IGNOU",
+            "year": "2007",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Head of the Department of Computer Science, Mentor, Core Committee Member",
+            "organization": "Gujarat University, Ahmedabad, Gujarat",
+            "start_date": "August 2011",
+            "end_date": "Present",
+            "duration": "13 years",
+            "description": "Provided comprehensive academic support, taught MCA and M.Sc courses, developed syllabi, organized workshops, represented the department at conferences."
+        },
+        {
+            "designation": "Lecturer, Mentor",
+            "organization": "IBMR College, Pune, Maharashtra",
+            "start_date": "January 2006",
+            "end_date": "March 2011",
+            "duration": "5 years",
+            "description": "Conducted lectures and tutorials for undergraduate and graduate students, represented the department at conferences."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 2,
+        "conference_publications": 4,
+        "book_publications": 1,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "personal_information": {
+        "full_name": "Anibrata Pal",
+        "current_designation": "",
+        "total_experience": "9 years",
+        "email": "palanibrata@gmail.com/2081041@kiit.ac.in",
+        "phone": "(+91) 8617042611",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "Ambient Height 7, Subodh Park. Bansdroni Kolkata-700070",
+        "linkedin": "",
+        "google_scholar": "https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=ANIBRATA+PAL",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "PhD (Pursuing)",
+            "specialization": "Functionally Graded Concrete",
+            "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
+            "board_university": "",
+            "year": "January 2021 - August 2025",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Tech",
+            "specialization": "Structural Engineering",
+            "institution": "Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar",
+            "board_university": "",
+            "year": "2016 (84.30%)",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "B.Tech",
+            "specialization": "",
+            "institution": "Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata",
+            "board_university": "",
+            "year": "2014 (70.00%)",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "10+2 th",
+            "specialization": "",
+            "institution": "Krishnath College School, Berhampore",
+            "board_university": "WBCHSE Board",
+            "year": "2010 (70.00%)",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "10th",
+            "specialization": "",
+            "institution": "Krishnath College School, Berhampore",
+            "board_university": "WBBSE Board",
+            "year": "2008 (78.00%)",
+            "cgpa_percentage": ""
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, Siliguri Institute of Technology, Techno India Group",
+            "start_date": "17th August 2023",
+            "end_date": "",
+            "duration": "Present",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University, Kolkata-700121",
+            "start_date": "9th February 2022",
+            "end_date": "16th August 2023",
+            "duration": "1 year 7 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Department of Civil Engineering, College of Engineering Bhubaneswar, BPUT University, Bhubaneswar-751024",
+            "start_date": "March 2021",
+            "end_date": "January 2022",
+            "duration": "10 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bengal College of Engineering & Technology Durgapur, MAKAUT University, W.B.",
+            "start_date": "April 2017",
+            "end_date": "March 2021",
+            "duration": "4 years",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "Bharti College of Engineering & Technology Durg, CSVT University, Chattishgarh",
+            "start_date": "January 2017",
+            "end_date": "April 2017",
+            "duration": "4 months",
+            "description": ""
+        },
+        {
+            "designation": "Assistant Professor",
+            "organization": "GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh",
+            "start_date": "June 2016",
+            "end_date": "January 2017",
+            "duration": "8 months",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 5,
+        "conference_publications": 3,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

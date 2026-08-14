@@ -1,0 +1,106 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Swapnil Shukla",
+        "current_designation": "",
+        "total_experience": "10+ years",
+        "email": "swapnilshukla025@gmail.com",
+        "phone": "9999044865",
+        "date_of_birth": "25th May 1988",
+        "gender": "Female",
+        "address": "A-301, Shanti Botonica BAPS Road, Raysan, Gandhinagar Gujarat- 382421, India",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D.",
+            "specialization": "Chemistry",
+            "institution": "Shiv Nadar University",
+            "board_university": "Uttar Pradesh, India",
+            "year": "2012-2016",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Sc.",
+            "specialization": "Chemistry",
+            "institution": "Hindu College, University of Delhi",
+            "board_university": "Delhi, India",
+            "year": "2009-2011",
+            "cgpa_percentage": "68.9%"
+        },
+        {
+            "degree": "B.Sc. (Hons.)",
+            "specialization": "Chemistry",
+            "institution": "Sri Venkateswara College, University of Delhi",
+            "board_university": "Delhi, India",
+            "year": "2009-2014",
+            "cgpa_percentage": "81.2%"
+        },
+        {
+            "degree": "12th Class (Equivalent to A levels)",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education, Delhi",
+            "board_university": "Delhi, India",
+            "year": "2005-2006",
+            "cgpa_percentage": "82%"
+        },
+        {
+            "degree": "10th Class",
+            "specialization": "",
+            "institution": "Central Board of Senior Secondary Education, Delhi",
+            "board_university": "Delhi, India",
+            "year": "2003-2004",
+            "cgpa_percentage": "88.6%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Project Scientist II",
+            "organization": "Central University of Gujarat, Gandhinagar",
+            "start_date": "2023-09-11",
+            "end_date": "",
+            "duration": "Provisional engagement for 6 months extendable depending on performance",
+            "description": "Under the sponsored Project Centre for Policy Research - Dept. of Science and Technology (CPR-DST) New Delhi funded project"
+        },
+        {
+            "designation": "Project Scientist II",
+            "organization": "Central University of Gujarat, Gandhinagar",
+            "start_date": "2017-09-05",
+            "end_date": "",
+            "duration": "Till now",
+            "description": ""
+        },
+        {
+            "designation": "Research Scientist",
+            "organization": "Reliance Industries Ltd., Elastomer division",
+            "start_date": "2018-05-09",
+            "end_date": "2018-10-31",
+            "duration": "6 months",
+            "description": "Involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques"
+        },
+        {
+            "designation": "Research Associate",
+            "organization": "Shiv Nadar University, Department of Chemistry",
+            "start_date": "2017-10-06",
+            "end_date": "2018-03-31",
+            "duration": "6 months",
+            "description": "Biobased Polybenzoxazine synthesis, characterization and applications"
+        },
+        {
+            "designation": "Teaching Assistant",
+            "organization": "Shiv Nadar University, Department of Chemistry",
+            "start_date": "2012-08-01",
+            "end_date": "2014-06-30",
+            "duration": "2 years",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 9,
+        "conference_publications": 0,
+        "book_publications": 2,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

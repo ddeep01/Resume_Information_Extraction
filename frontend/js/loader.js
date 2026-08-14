@@ -53,6 +53,10 @@
         const id = String(i).padStart(3, "0");
         files.push(`R-${id}.json`);
       }
+      for (let i = 1; i <= 40; i += 1) {
+        const id = String(i).padStart(2, "0");
+        files.push(`Resume-${id}.json`);
+      }
       for (const file of files) {
         try {
           const url = new URL(file, this.getJsonBaseUrl());

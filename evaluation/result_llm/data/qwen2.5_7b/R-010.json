@@ -1,0 +1,90 @@
+{
+    "personal_information": {
+        "full_name": "Sampurna Sengupta",
+        "current_designation": "Assistant Professor, Full Time",
+        "total_experience": "",
+        "email": "sampurna2492@gmail.com",
+        "phone": "+91 9540734746",
+        "date_of_birth": "02/04/1992",
+        "gender": "Female",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "0000-0002-5618-5724",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Ph.D. in Mathematics",
+            "specialization": "Mathematical Modeling",
+            "institution": "Indian Institute of Engineering Science and Technology, Shibpur, West Bengal, India",
+            "board_university": "",
+            "year": "2016-2020",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Master of Science in Applied Mathematics",
+            "specialization": "",
+            "institution": "South Asian University, New Delhi, India",
+            "board_university": "",
+            "year": "2013-2015",
+            "cgpa_percentage": "8.05 out of 9"
+        },
+        {
+            "degree": "Bachelor of Science with Honours in Mathematics",
+            "specialization": "",
+            "institution": "University of Calcutta, West Bengal, India",
+            "board_university": "",
+            "year": "2009-2013",
+            "cgpa_percentage": "56.5 (53.25% in Mathematics Honours only)"
+        },
+        {
+            "degree": "Higher Secondary (12th) in Science",
+            "specialization": "",
+            "institution": "West Bengal Council of Higher Secondary Education, West Bengal, India",
+            "board_university": "",
+            "year": "2008-2009",
+            "cgpa_percentage": "74.17"
+        },
+        {
+            "degree": "Secondary (10th)",
+            "specialization": "",
+            "institution": "West Bengal Board of Secondary Education, West Bengal, India",
+            "board_university": "",
+            "year": "2006-2007",
+            "cgpa_percentage": "76"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Assistant Professor, Full Time",
+            "organization": "Department of Mathematics, Bharati Vidyapeeth Deemed University",
+            "start_date": "January 2023",
+            "end_date": "Present",
+            "duration": "",
+            "description": "Teaching Probability and Statistics, Linear Algebra"
+        },
+        {
+            "designation": "Assistant Professor, Full Time",
+            "organization": "Department of Mathematics, Kalasalingam Academy of Research and Education",
+            "start_date": "July 2021",
+            "end_date": "December 2021",
+            "duration": "",
+            "description": "Teaching Numerical Methods, Differential Equations"
+        },
+        {
+            "designation": "IBM DATA SCIENCE PROFESSIONAL CERTIFICATE",
+            "organization": "IBM, Coursera",
+            "start_date": "May 2023",
+            "end_date": "November 2023",
+            "duration": "",
+            "description": ""
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 4,
+        "conference_publications": 1,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

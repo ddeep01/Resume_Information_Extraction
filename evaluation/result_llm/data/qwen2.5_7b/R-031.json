@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Sanam Preet Kour",
+        "current_designation": "Ph. D. Research Scholar",
+        "total_experience": "4 years of research experience",
+        "email": "sanamkour903@gmail.com",
+        "phone": "9797021657",
+        "date_of_birth": "13th February, 1997",
+        "gender": "",
+        "address": "Jammu, J&K, INDIA",
+        "linkedin": "linkedin.com/in/sanam-kour-624a8822a",
+        "google_scholar": "",
+        "researchgate": "researchgate.net/profile/ Sanam-Kour"
+    },
+    "education": [
+        {
+            "degree": "Ph.D., Statistics (Pursuing)",
+            "specialization": "",
+            "institution": "University of Jammu",
+            "board_university": "",
+            "year": "2021 - Present",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.Phil. Statistics",
+            "specialization": "",
+            "institution": "University of Jammu",
+            "board_university": "",
+            "year": "2019 - 2021",
+            "cgpa_percentage": "A-Grade"
+        },
+        {
+            "degree": "M.Sc. Statistics",
+            "specialization": "",
+            "institution": "University of Jammu",
+            "board_university": "",
+            "year": "2017 - 2019",
+            "cgpa_percentage": "8.58 CGPA"
+        },
+        {
+            "degree": "B.Sc. with Statistics",
+            "specialization": "",
+            "institution": "GCW Gandhi Nagar, Jammu",
+            "board_university": "",
+            "year": "2014 - 2017",
+            "cgpa_percentage": "67.56%"
+        },
+        {
+            "degree": "Senior Secondary",
+            "specialization": "",
+            "institution": "JK Board",
+            "board_university": "",
+            "year": "2014",
+            "cgpa_percentage": "71.4%"
+        },
+        {
+            "degree": "Secondary",
+            "specialization": "",
+            "institution": "JK Board",
+            "board_university": "",
+            "year": "2012",
+            "cgpa_percentage": "80%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Research Experience",
+            "organization": "University of Jammu, Jammu, J&K",
+            "start_date": "Present",
+            "end_date": "",
+            "duration": "4 years",
+            "description": "Worked on one Research and Seed grant on the topic 'Forced Scrambled Optional Randomized Response Model for Concurrent Estimation of Means of Sensitive Variable' under the Head 'Quality Assurance Fund (DIQA)', Dean Research Studies."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 10,
+        "conference_publications": 2,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}

@@ -50,10 +50,6 @@ from validator import JSONValidator
 from prompt import PromptBuilder
 
 
-##############################################################################
-# PROJECT PATHS
-##############################################################################
-
 ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_DIR = ROOT / "data" / "cleaned_text"
@@ -75,9 +71,9 @@ LOG_DIR.mkdir(
 ##############################################################################
 # CONFIGURATION
 ##############################################################################
-# MODEL_NAME = "qwen2.5:7b"
+MODEL_NAME = "qwen2.5:7b"
 # MODEL_NAME = "mistral:7b"
-MODEL_NAME = "llama3.1:8b"
+# MODEL_NAME = "llama3.1:8b"
 
 
 REQUEST_TIMEOUT = 180

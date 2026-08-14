@@ -1,0 +1,82 @@
+{
+    "personal_information": {
+        "full_name": "Dr. Chandan Patra",
+        "current_designation": "",
+        "total_experience": "",
+        "email": "chandanpatra9696@gmail.com, chandanpatra1396@gmail.com",
+        "phone": "(+91)9609513143",
+        "date_of_birth": "",
+        "gender": "",
+        "address": "",
+        "linkedin": "",
+        "google_scholar": "",
+        "researchgate": ""
+    },
+    "education": [
+        {
+            "degree": "Post Doctoral Research Associate",
+            "specialization": "",
+            "institution": "S. N. Bose National Centre for Basic Sciences, Kolkata",
+            "board_university": "",
+            "year": "2024",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "Ph.D.",
+            "specialization": "Unconventional Superconducting Properties of Layered Chalcogenides",
+            "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+            "board_university": "",
+            "year": "2023",
+            "cgpa_percentage": ""
+        },
+        {
+            "degree": "M.S.",
+            "specialization": "",
+            "institution": "Indian Institution of Science Education and Research Bhopal (IISER Bhopal)",
+            "board_university": "",
+            "year": "2019",
+            "cgpa_percentage": "8.61"
+        },
+        {
+            "degree": "B.Sc.",
+            "specialization": "",
+            "institution": "Vidyasagar University (Midnapore College)",
+            "board_university": "",
+            "year": "2016",
+            "cgpa_percentage": "70.60%"
+        },
+        {
+            "degree": "Higher Secondary(10+2)",
+            "specialization": "",
+            "institution": "West Bengal Council of Higher Secondary Education",
+            "board_university": "",
+            "year": "2013",
+            "cgpa_percentage": "82.00%"
+        },
+        {
+            "degree": "Secondary (10)",
+            "specialization": "",
+            "institution": "West Bengal Council of Secondary Education",
+            "board_university": "",
+            "year": "2011",
+            "cgpa_percentage": "81.70%"
+        }
+    ],
+    "experience": [
+        {
+            "designation": "Teaching Assistant",
+            "organization": "IISER Bhopal, India",
+            "start_date": "2019-2020",
+            "end_date": "2021-2022",
+            "duration": "3 years",
+            "description": "Taught PHY-103: General Physics Laboratory I, PHY-101: Mechanics, PHY-406: Nuclear Physics Laboratory, and PHY-402: Atomic and Molecular Physics."
+        }
+    ],
+    "publication_summary": {
+        "journal_publications": 7,
+        "conference_publications": 0,
+        "book_publications": 0,
+        "book_chapters": 0,
+        "patents": 0
+    }
+}
