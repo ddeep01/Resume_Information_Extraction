@@ -1,4 +1,6 @@
 PyMuPDF
+pdfplumber
+pdfminer.six
 python-docx
 pandas
 tqdm

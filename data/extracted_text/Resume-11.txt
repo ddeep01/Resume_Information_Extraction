@@ -1,0 +1,502 @@
+Olivia Hsu
+owhsu@stanford.edu | Personal Website
+] LinkedIn | a weiya711 | Google Scholar
+EDUCATION
+Stanford University
+Jan 2026
+Ph.D. in Computer Science (CS)
+Stanford, USA
+• Advisors: Kunle Olukotun and Fredrik Kjolstad
+• Thesis: Programming Systems for Sparse Accelerators
+Stanford University
+Sep 2025
+M.S. in Computer Science (CS)
+Stanford, USA
+University of California, Berkeley
+May 2019
+B.S. in Electrical Engineering and Computer Science (EECS)
+Berkeley, USA
+ACADEMIC AND RESEARCH EXPERIENCE
+• Carnegie Mellon University [ȧ]
+May 2026 – Present
+Assistant Professor
+Pittsburgh, USA
+◦Assistant professor in Electrical and Computer Engineering and, by courtesy, Computer Science.
+◦Member of the CMU Parallel Data Lab (PDL) ȧ and Catalyst Lab ȧ.
+• Carnegie Mellon University [ȧ]
+June 2025 – Apr 2026
+Courtesy Adjunct Assistant Professor
+Pittsburgh, USA
+• Stanford Pervasive Parallelism Lab [ȧ]
+Jan 2020 – Apr 2026
+Postdoc and PhD Student Researcher
+Stanford, USA
+◦Researching the automatic compilation and mapping of sparse applications to domain-speciﬁc
+architectures, reconﬁgurable dataﬂow architectures, and hardware accelerators under professors Kunle
+Olukotun and Fredrik Kjolstad.
+◦During my postdoc, I advised research projects [1, 2]
+◦During my PhD, I led research projects [7, 13, 16, 26, 10, 8], mentored research projects [12, 9, 25, 5], and
+have helped on research projects [11, 0, 3].
+• UC Berkeley Group Matching Project
+Aug 2020 – Aug 2021
+Student Collaborator
+Remote
+◦Helped develop a scalable and inclusive study group matching process for student collaboration under
+Professor Gireeja Ranade, which led to [14].
+• Stanford VLSI Group
+Sep 2019 – Jan 2020
+PhD Student Researcher
+Stanford, USA
+◦Researching fully digital ADC-based high-speed link equalization techniques under Professor Mark
+Horowitz.
+• Berkeley Wireless Research Center
+June 2017 – Aug 2019
+Undergraduate Researcher
+Berkeley, USA
+◦Designed photonic devices using the Berkeley Photonics Generator (BPG) and digital circuits for
+high-speed communication in Python and Verliog for an ultrasound receive-array system fabricated in
+the Global Foundries 45nm RFSOI process.
+◦Built the lab setup and tested the sensitivity of silicon photonic ring modulators when disturbed with
+ultrasonic waves.
+
+PUBLICATIONS
+Refereed Conference and Journal Papers
+[1]
+Rubens Lacouture, Nathan Zhang, Ritvik Sharma, Marco Siracusa, Fredrik Kjolstad, Kunle Olukotun,
+and Olivia Hsu. “FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on
+Streaming Dataﬂow”. In: Proceedings of the 31st ACM International Conference on Architectural
+Support for Programming Languages and Operating Systems. 2026. url: ȧ
+[2]
+Gina Sohn, Genghan Zhang, Konstantin Hossfeld, Jungwoo Kim, Nathan Sobotka, Nathan Zhang,
+Olivia Hsu, and Kunle Olukotun. “Streaming Tensor Programs: A Streaming Abstraction for
+Dynamic Parallelism”. In: Proceedings of the 31st ACM International Conference on Architectural
+Support for Programming Languages and Operating Systems. 2026. url: ȧ
+[3]
+Marco Siracusa, Olivia Hsu, Victor Soria-Pardos, Joshua Randall, Arnaud Grasset, Eric Biscondi,
+Doug Joseph, Randy Allen, Fredrik Kjolstad, Miquel Moretó Planas, and Adrià Armejach. “Ember: A
+Compiler for Eﬃcient Embedding Operations on Decoupled Access-Execute Architectures”. In:
+Proceedings of the 2026 IEEE/ACM International Symposium on Code Generation and Optimization
+(CGO). Sydney, Australia, 2026.
+[4]
+Kalhan Koul∗, Olivia Hsu∗, Yuchen Mei, Sai Gautham Ravipati, Maxwell Strange, Jackson Melchert,
+Alex Carsello, Taeyoung Kong, Po-Han Chen, Huifeng Ke, Keyi Zhang, Qiaoyi Liu, Gedeon Nyengele,
+Zhouhua Xie, Akhilesh Balasingam, Jayashree Adivarahan, Ritvik Sharma, Christopher Torng,
+Joel S. Emer, Fredrik Kjolstad, Mark Horowitz, and Priyanka Raina. “Onyx: A 12-nm Programmable
+Accelerator for Dense and Sparse Applications”. In: IEEE Journal of Solid-State Circuits (2025).
+Note: ∗signiﬁes equal contribution.
+[5]
+Genghan Zhang, Weixin Liang, Olivia Hsu, and Kunle Olukotun. “Adaptive Self-Improvement LLM
+Agentic System for ML Library Development”. In: International Conference on Machine Learning
+(ICML). 2025.
+[6]
+Kalhan Koul∗, Zhouhua Xie∗, Maxwell Strange, Sai Gautham Ravipati, Bo Wun Cheng, Olivia Hsu,
+Po-Han Chen, Mark Horowitz, Fredrik Kjolstad, and Priyanka Raina. “Designing Programmable
+Accelerators for Sparse Tensor Algebra 2025”. In: IEEE Micro. Hot Chips Special Issue. 2025. Note: ∗
+signiﬁes equal contribution.
+[7]
+Olivia Hsu, Alexander Rucker, Tian Zhao, Varun Desai, Kunle Olukotun, and Fredrik Kjolstad.
+“Stardust: Compiling Sparse Tensor Algebra to a Reconﬁgurable Dataﬂow Architecture”. In:
+Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization.
+CGO ’25. Las Vegas, NV, USA: Association for Computing Machinery, 2025. url: ȧ
+[8]
+Kalhan Koul, Maxwell Strange, Jackson Melchert, Alex Carsello, Yuchen Mei, Olivia Hsu,
+Taeyoung Kong, Po-Han Chen, Huifeng Ke, Keyi Zhang, Qiaoyi Liu, Gedeon Nyengele,
+Akhilesh Balasingam, Jayashree Adivarahan, Ritvik Sharma, Zhouhua Xie, Christopher Torng,
+Joel Emer, Fredrik Kjolstad, Mark Horowitz, and Priyanka Raina. “Onyx: A Programmable
+Accelerator for Sparse Tensor Algebra”. In: 2024 IEEE Hot Chips 36 Symposium (HCS). Los
+Alamitos, CA, USA: IEEE Computer Society, Aug. 2024. url: ȧ
+[9]
+Genghan Zhang, Olivia Hsu, and Fredrik Kjolstad. “Compilation of Modular and General Sparse
+Workspaces”. In: Proc. ACM Program. Lang. 8.PLDI (June 2024). url: ȧ
+[10]
+Kalhan Koul, Maxwell Strange, Jackson Melchert, Alex Carsello, Yuchen Mei, Olivia Hsu,
+Taeyoung Kong, Po-Han Chen, Huifeng Ke, Keyi Zhang, Qiaoyi Liu, Gedeon Nyengele,
+Akhilesh Balasingam, Jayashree Adivarahan, Ritvik Sharma, Zhouhua Xie, Christopher Torng,
+Joel Emer, Fredrik Kjolstad, Mark Horowitz, and Priyanka Raina. “Onyx: A 12nm 756 GOPS/W
+Coarse-Grained Reconﬁgurable Array for Accelerating Dense and Sparse Applications”. In: 2024 IEEE
+Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits). 2024. url: ȧ
+[11]
+Erik Orm Hellsten, Artur Souza, Johannes Lenfers, Rubens Lacouture, Olivia Hsu, Adel Ejjeh,
+Fredrik Kjolstad, Michel Steuwer, Kunle Olukotun, and Luigi Nardi. “BaCO: A Fast and Portable
+Bayesian Compiler Optimization Framework”. In: Proceedings of the 28th ACM International
+Conference on Architectural Support for Programming Languages and Operating Systems, Volume 4.
+ASPLOS ’23. Vancouver, BC, Canada: Association for Computing Machinery, 2024. url: ȧ
+[12]
+Manya Bansal, Olivia Hsu, Kunle Olukotun, and Fredrik Kjolstad. “Mosaic: An Interoperable
+Compiler for Tensor Algebra”. In: Symposium on Programming Languages Design and Implementation
+(PLDI). Distinguished Paper. 2023. url: ȧ
+
+[13]
+Olivia Hsu, Maxwell Strange, Ritvik Sharma, Jaeyeon Won, Kunle Olukotun, Joel S. Emer,
+Mark A. Horowitz, and Fredrik Kjølstad. “The Sparse Abstract Machine”. In: International Conference
+on Architectural Support for Programming Languages and Operating Systems (ASPLOS). ASPLOS
+2023. Vancouver, BC, Canada: Association for Computing Machinery, 2023. url: ȧ
+[14]
+Sumer Kohli, Neelesh Ramachandran, Ana Tudor, Gloria Tumushabe, Olivia Hsu, and
+Gireeja Ranade. “Inclusive Study Group Formation at Scale”. In: Proceedings of the 54th ACM
+Technical Symposium on Computer Science Education V. 1. SIGCSE 2023. Toronto ON, Canada:
+Association for Computing Machinery, 2023. url: ȧ
+[15]
+Panagiotis Zarkos, Sidney Buchbinder, Christos Adamopoulos, Sarika Madhvapathy, Olivia Hsu,
+Jake Whinnery, Pavan Bhargava, and Vladimir Stojanovic. “Fully Integrated Electronic-Photonic
+Ultrasound Receiver Array for Endoscopic Applications in a Zero-Change 45-nm CMOS-SOI Process”.
+In: IEEE Journal of Solid-State Circuits 58.6 (2023). url: ȧ
+[16]
+Rawn Henry∗, Olivia Hsu∗, Rohan Yadav, Stephen Chou, Kunle Olukotun, Saman Amarasinghe, and
+Fredrik Kjolstad. “Compilation of sparse array programming models”. In: Proceedings of the ACM on
+Programming Languages (OOPSLA). 2021. url: ȧ Note: ∗signiﬁes equal contribution.
+[17]
+Panagiotis Zarkos, Sidney Buchbinder, Christos Adamopoulos, Sarika Madhvapathy, Olivia Hsu,
+Jake Whinnery, Pavan Bhargava, and Vladimir Stojanovic. “Fully Integrated Electronic-Photonic
+Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI
+Process”. In: 2021 Symposium on VLSI Circuits. 2021. url: ȧ
+[18]
+Panagiotis Zarkos, Sidney Buchbinder, Christos Adamopoulos, Olivia Hsu, Sarika Madhvapathy,
+Jake Whinnery, Pavan Bhargava, and Vladimir Stojanovic. “Monolithically Integrated
+Electronic-Photonic Ultrasound Receiver Using Microring Resonator”. In: 2021 Conference on Lasers
+and Electro-Optics (CLEO). 2021.
+[19]
+Panagiotis Zarkos, Olivia Hsu, and Vladimir Stojanovic. “Ring Resonator Based Ultrasound
+Detection in a Zero-Change Advanced CMOS-SOI Process”. In: 2019 Conference on Lasers and
+Electro-Optics (CLEO). 2019. url: ȧ
+Refereed Workshop Papers
+[20]
+Genghan Zhang, Weixin Liang, Olivia Hsu, and Kunle Olukotun. Adaptive Self-improvement LLM
+Agentic Aystem for ML Library Development. Workshop on Eﬃcient Systems for Foundation Models
+(ES-FoMo) at ICML 2025. 2025.
+[21]
+Genghan Zhang, Weixin Liang, Olivia Hsu, and Kunle Olukotun. Adaptive Self-improvement LLM
+Agentic Aystem for ML Library Development. MLSys Young Professionals Workshop co-located with
+MLSys 2025. 2025.
+[22]
+Genghan Zhang, Weixin Liang, Olivia Hsu, and Kunle Olukotun. Adaptive Self-improvement LLM
+Agentic Aystem for ML Library Development. Workshop on Deep Learning for Code (DL4C) @ ICLR
+2025. Best Paper. 2025.
+[23]
+Genghan Zhang, Weixin Liang, Olivia Hsu, and Kunle Olukotun. Adaptive Self-improvement LLM
+Agentic Aystem for ML Library Development. Workshop on Reasoning and Planning for LLMs @
+ICLR 2025. 2025.
+[24]
+Marco Siracusa, Olivia Hsu, Victor Soria-Pardos, Joshua Randall, Arnaud Grasset, Eric Biscondi,
+Doug Joseph, Randy Allen, Fredrik Kjolstad, Miquel Moretó Planas, and Adrià Armejach. An
+Architecture and a Compiler to Accelerate Embedding Operations in Machine Learning Models.
+Compilers for Machine Learning (C4ML) Workshop co-located with CGO 2025. 2025.
+[25]
+Rubens Lacouture, Olivia Hsu, Kunle Olukotun, and Fredrik Kjolstad. Challenges with
+Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataﬂow. Workshop on
+Programming Languages and Architecture (PLARCH) co-located with FCRC/ISCA/PLDI. 2023.
+[26]
+Olivia Hsu, Maxwell Strange, Kunle Olukotun, Mark Horowitz, and Fredrik Kjolstad. Designing a
+Dataﬂow Hardware Accelerator with an Abstract Machine. Workshop on Languages, Tools, and
+Techniques for Accelerator Design (LATTE) co-located with ASPLOS. 2023.
+TEACHING EXPERIENCE
+• Stanford Agile Hardware Design (AHA) Tutorial at MICRO 2024
+Nov 2024
+Presenter
+Austin, USA
+
+◦Teaching the sparse application ﬂow for the Stanford AHA project, which includes the front-end sparse Custard
+compiler [13, 4], the sparse abstract machine (SAM) dataﬂow intermediate representation [13], and sparse
+optimizations for the Onyx coarse-grained reconﬁgurable array (CGRA) [8, 10, 4].
+• Stanford University CS 143: Compilers
+Spring 2023, Spring 2024
+Course Assistant
+Stanford, USA
+◦Taught under professor Fredrik Kjolstad.
+◦Duties include running ofﬁce hours, managing course logistics, developing written assignments, debugging exams,
+writing exam problems, and homework and exam grading.
+• Stanford University CS149: Parallel Programming
+Fall 2021
+Course Assistant
+Stanford, USA
+◦Taught under professors Kayvon Fatahalian and Kunle Olukotun.
+◦Duties included running ofﬁce hours, debugging exams, and exam and homework grading.
+• UC Berkeley Decal EE 198: Hands-on PCB Engineering (HOPE)
+Fall 2018
+Student Instructor
+Berkeley, USA
+◦Co-created and developed the curriculum for the ﬁrst-ever offering of this course, an undergraduate-led class on
+printed circuit board design afﬁliated with the UC Berkeley IEEE student chapter.
+◦Taught the course to approximately 30 students, teaching these students how to read design documentation, design
+circuits, use PCB design tools, package design ﬁles for PCB fabrication, and populate and test their own PCB
+designs.
+• UC Berkeley EECS 16A: Designing Information Devices and Systems I
+Fall 2016 – Fall 2017
+Undergraduate Student Instructor (UGSI)
+Berkeley, USA
+◦Administrative and Lab UGSI (Fall 2016) and Head and Lab UGSI (Spring – Fall 2017) for the introductory electrical
+engineering course. The largest offering I taught had 850+ students, and I was in charge of 30+ teaching assistants.
+◦Duties included managing course administration and policies, responding to all student emails related to the
+course, teaching and debugging labs, creating exam problems, running ofﬁce hours, grading exams, and hiring
+course readers and other teaching assistants.
+ADVISING AND MENTORING
+• Anderson Truong
+Sep 2025 – Present
+Stanford University M.S. expected 2027
+◦Anderson is investigating next-generation performance modeling of distributed, heterogeneous hardware.
+• Junwha Hong
+May 2025 – Present
+Agency for Defense Development South Korea
+◦Junwha is researching ideas in scheduling agentic AI workloads on disaggregated hardware in collaboration with
+Professor Jongse Park.
+• Sai Gautham Ravipati
+Jan 2024 – Present
+Stanford University M.S. 2025, now Stanford Ph.D. expected 2030
+◦Gautham is looking into compilation techniques for automatically generating tilings across memory hierarchies
+that target host–accelerator systems. We have already deployed this compilation ﬂow to automatically generate
+tilings for testing the Onyx CGRA in [4].
+• Gina Sohn
+Sep 2024 – Present
+Stanford University Ph.D. expected 2027
+◦Gina is developing dataﬂow abstractions and their compilers for dynamic tensor workloads, which are tensor
+computations where the tensor dimensions may be unknown or data-dependent. Example real-world applications
+include mixture-of-experts and dynamic runtime scheduling in deep learning models.
+• Genghan Zhang
+Feb 2022 – Present
+Tsinghua University B.S. 2023, now Stanford Ph.D. expected 2029
+◦Genghan designed a compiler for optimized sparse tensor operations that detects the need for and inserts sparse
+temporary tensors (intermediate workspaces). This work achieved up to a 27x speedup and improved memory
+efﬁciency over dense temporary tensors while maintaining adaptability across various tensor expressions and
+user-deﬁned implementations. This undergraduate research led to a publication at PLDI 2024 [9].
+• Rubens Lacouture
+Sep 2021 – Present
+Stanford University Ph.D. expected 2026
+◦Rubens is currently looking into the compilation of sparse machine learning applications to dataﬂow backends,
+particularly focusing on extending ideas from the sparse abstract machine [13] to encompass machine learning
+operations [25] and the automatic fusion of distinct expressions to generated fused dataﬂow graphs [1].
+• Varun Desai
+Jan 2024 – June 2025
+Stanford University M.S. 2025
+
+◦Varun is currently looking into strategies for estimating the number of operations of a sparse workload given
+unknown input data.
+◦Varun also helped on the GPU evaluation of the Stardust compiler [7].
+• Manya Bansal
+Feb 2022 – July 2023
+Stanford University B.S. 2023, now MIT Ph.D. expected 2029 University
+◦Manya developed Mosaic, an extensible compiler enabling ﬂexible integration of external, high-performance
+libraries for tensor algebra, achieving up to a 206× speedup by combining custom calls with efﬁcient fused code
+generation. This undergraduate research led to a publication at PLDI 2023 and a distinguished paper award [12].
+• Zhouhua Xie
+Jun 2023 – Present
+Stanford University B.S. and M.S. expected 2025
+◦Zhouhua is now looking into an FPGA emulation platform for the Onyx CGRA [10, 8].
+◦Zhouhua investigated the performance bottlenecks and bugs in the sparse applications running on the Onyx
+CGRA [8, 10] and updated RTL implementations of the sparse primitives to ﬁx those performance bottlenecks.
+• Parthiv Krishna
+Sep 2022 – May 2024
+Stanford University B.S. 2023, Stanford University M.S. expected 2024
+◦Parthiv looked into implementing the sparse abstract machine primitives from [10, 8] on an FPGA.
+• Jayashree Adivarahan
+Jun 2023 – Sep 2024
+Arizona State University B.S. expected 2025
+◦Jayashree helped with the evaluation of the Onyx CGRA [10, 8], speciﬁcally developing scripts that process and tile
+input tensor data before sending that data to the CGRA chip.
+◦Jayashree looked into implementing the sparse abstract machine primitives from [10, 8] on an FPGA.
+• Akhilesh Balasingam
+Jun 2023 – Feb 2024
+Stanford University B.S. expected 2025
+◦Akhilesh helped with the evaluation of the Onyx CGRA [10, 8], speciﬁcally running timing measurements on the
+physical CGRA and developing scripts that process and tile input tensor data.
+• Gloria Tumushabe
+Sep 2016 – Mar 2023
+UC Berkeley B.S. 2020, UC Berkeley M.S. 2021, Now Salesforce Senior Software Engineer
+◦Gloria implemented techniques that help students form optional study groups in large-scale EECS courses at UC
+Berkeley that take into account inclusivity, which led to the Master’s thesis “Inclusive and Scalable Study Group
+Formation” and a publication at SIGCSE TS 2023 [14].
+HONORS AND AWARDS
+• Rising Stars in EECS Awardee
+2024
+MIT
+[ȧ]
+• NextProf Nexus Future Faculty Awardee
+2024
+University of Michigan, University of California Berkeley, and Georgia Tech
+• Distinguished Paper Award for Mosaic [12]
+2023
+PLDI
+[ȧ]
+• Alton B. Zerby and Carol T. Koerner Outstanding Student Award
+2019
+IEEE–Eta Kappa Nu (HKN)
+[l ȧ ȧ]
+• Graduate Research Fellowship (GRFP)
+2019
+National Science Foundation (NSF)
+• Arthur M. Hopkin Award
+2018–2019
+University of California, Berkeley EECS Department
+[ȧ]
+• Outstanding Graduate Student Instructor (OGSI) Award
+2017–2018
+University of California, Berkeley
+[ȧ]
+• National Electrical Engineering Honor Society Member and Ofﬁcer
+2016
+IEEE–Eta Kappa Nu (HKN)
+• National Engineering Honor Society Member and Ofﬁcer
+2016
+Tau Beta Pi (TBP)
+• Leadership Award
+2015–2016
+Cal Alumni Association
+[ȧ]
+
+WORK EXPERIENCE
+• Numenta
+Jan 2025 – Mar 2026
+Hardware Architecture Consultant
+Menlo Park, USA
+• Samsung Semiconductor
+Jun 2023 – Sep 2023
+Hardware Architecture Intern
+San Jose, USA
+◦Researching the programmability and characterization of sparse workloads on next-generation supercomputing
+systems.
+• Ayar Labs
+Jun 2020 – Sep 2020
+Hardware VLSI Intern
+Santa Clara, USA
+◦In charge of updating the design of multiple digital circuit blocks in System Verilog to match provided
+speciﬁcations, digital veriﬁcation of those blocks, and pushing those blocks through the physical design process
+until they were met timing and were DRC and LVS clean.
+• Apple
+Jun 2019 – Sep 2019, May 2018 – Aug 2018
+CPU Design Veriﬁcation Intern
+Cupertino, USA
+◦Created instruction set architecture pseudocode for the Apple CPU in 2019.
+◦Developed a runtime co-simulation checker using and added debug features into a C++ functional model of the
+Apple CPU in 2018.
+• NASA Jet Propulsion Laboratory (JPL)
+Jun 2016 – Aug 2016
+Hardware Research Intern
+Pasadena, USA
+◦Developed a sensor testbed that veriﬁed the communication systems on a radiation-hardened, deep-space CubeSat
+avionics board.
+TALKS
+• From Language to Silicon: Programming Systems for Sparse Accelerators
+Apple Inc
+Dec 2025
+• From Language to Silicon: Programming Systems for Sparse Accelerators
+Apple Inc
+Dec 2025
+PRISM SRC Afﬁliates Meeting
+Nov 2025
+• Portable Compilation of the Collection IR
+Stanford Portal Center Research Retreat
+Aug 2025
+• From Language to Silicon: Programming Systems for Sparse Accelerators
+Columbia University
+Feb – Apr 2025
+University of Texas, Austin (UT Austin)
+University of Michigan, Ann Arbor
+Princeton University
+Cornell University and Cornell Tech
+University of Washington
+University of California, Berkeley (UCB)
+Massachusetts Institute of Technology (MIT)
+University of Wisconsin, Madison (UW–Madison)
+Carnegie Mellon University (CMU)
+University of Maryland, College Park (UMD)
+University of California, Santa Barbara (UCSB)
+• Mapping Sparse Applications to Accelerated Computing Systems
+[l]
+PLDI 2024: Sparse Workshop
+Jun 2024
+Carnegie Mellon University (CMU) Systems Design and Implementation (SDI) Seminar
+Apr 2024
+• The Sparse Abstract Machine
+Stanford and U-Tokyo Workshop: Agile and low-cost HW design workshop for domain-speciﬁc computing era
+Apr 2024
+• Architectural and compiler support for accelerating embedding operations on general pur-
+pose processors
+MIT Computer Science and Artiﬁcial Intelligence Laboratory (CSAIL)
+Feb 2024
+• Beyond the Sparse Abstract Machine: Mapping sparse applications to accelerated computing
+systems
+UC Santa Barbara Computer Science Department Colloquium
+Dec 2023
+• The Sparse Abstract Machine
+PLDI 2023: Compilation Techniques for Sparse Tensor Algebra (CTSTA)
+Jun 2023
+• Sparse Abstract Machine and Dataﬂow Hardware
+NVIDIA Tutorial on Sparse Tensor Algebra Compilation
+Nov 2022
+• The Sparse Abstract Machine: Sparse Tensor Algebra as Dataﬂow Graphs
+University of Washington: SAMPL Lunch Talk
+Oct 2022
+Samsung Semiconductor System Architecture Lab (SAL)
+Sep 2022
+AHA Agile Hardware Project Retreat
+Aug 2022
+• Compilation of Sparse Array Programming Models
+Google Brain: ML compilation seminar
+Apr 2022
+University of California, Santa Cruz: LSD Seminar
+Apr 2022
+
+PROFESSIONAL ACTIVITIES
+• ASPLOS 2027
+2026
+ERC Member
+• TACO 2026
+2026
+Reviewer
+• YArch Workshop at ISCA 2026
+2026
+Co-Organizer and TPC Member
+• DAC 2026
+2025 – 2026
+TPC Member
+• ASPLOS 2026
+2025
+TPC Member (Summer)
+• CGO 2026
+2025
+Artifact Evaluation Co-Chair and TPC Member
+• SPICE Workshop at MICRO 2025
+2025
+Co-Organizer and TPC Member
+• LATTE Workshop at ASPLOS 2024
+2024
+TPC Member
+• SIGGRAPH 2024
+2024
+External Reviewer
+• Engineering Students for Diversity, Equity, and Inclusion (ES4DEI)
+2023 – 2024
+College Track Co-Lead
+• Stanford University CS Department
+2023
+PhD Admissions Committee
+• Stanford CS Department Student-Applicant Support Program
+2020 – 2021
+Volunteer Reviewer
+• AfroFemCoders
+2020 – 2021
+Advisor, Co-founder, and Instructor
+• UC Berkeley EECS Department Inaugural Women’s History Month
+2019
+Originator and Organizer
+REFERENCES
+Kunle Olukotun
+Professor in Electrical Engineering and Computer Science
+Stanford University
+kunle@stanford.edu
+Relationship: Primary Thesis Advisor
+Fredrik Kjolstad
+Assistant Professor in Computer Science
+Stanford University
+kjolstad@stanford.edu
+Relationship: Thesis Co-advisor
+Joel Emer
+Professor of the Practice in Electrical Engineering
+and Computer Science, Researcher
+MIT, NVIDIA
+emer@csail.mit.edu
+Relationship: Thesis Committee Member and Research Mentor
+Mark Horowitz
+Professor in Electrical Engineering and Computer Science
+Stanford University
+horowitz@ee.stanford.edu
+Relationship: Research Mentor

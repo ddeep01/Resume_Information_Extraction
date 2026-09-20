@@ -1,0 +1,454 @@
+Yoon Kim
+yoonkim@mit.edu
+http://people.csail.mit.edu/yoonkim
+Employment
+Massachusetts Institute of Technology
+Jul 2025 – Present
+Associate Professor
+Jul 2021 – Jun 2025
+Assistant Professor
+Education
+2020
+Ph.D., Computer Science
+Harvard University
+Advisor: Alexander Rush
+Thesis: “Deep Latent Variable Models of Natural Language”
+2015
+M.S., Data Science
+New York University
+Advisor: David Sontag
+2012
+M.A., Statistics
+Columbia University
+2009
+B.A., Mathematics
+B.A., Economics
+Cornell University
+Honors and Awards
+2025
+NSF CAREER Award
+2025
+Google ML and Systems Junior Faculty Award
+2024
+Schmidt Sciences AI2050 Early Career Fellowship
+2020
+Harvard University Award for Outstanding Doctoral Dissertation in CS
+2018
+Google Ph.D. Fellowship
+2017
+ACL Best Demo Paper Award Runner-Up
+2014
+KDD Cup 1st place
+2013
+NYU Full Merit Scholarship
+2009
+Cornell University Phi Beta Kappa
+Past Employment
+Jun 2019 – Jul 2021
+MIT-IBM Watson AI Lab, Postdoctoral Researcher
+May 2019 – Aug 2019
+Google, Research Intern
+May 2018 – Aug 2018
+DeepMind, Research Intern
+May 2017 – Aug 2017
+Facebook, Research Intern
+Jul 2012 – Aug 2016
+American International Group, Data Scientist
+Oct 2011 – Jul 2012
+Barclays Capital, Analyst
+Jul 2009 – Oct 2011
+Morgan Stanley, Analyst
+May 2008 – Aug 2008
+Merill Lynch, Analyst Intern
+1
+
+Conference Publications
+NeurIPS ’24
+Songlin Yang, Bailin Wang, Yu Zhang, Yikang Shen, Yoon Kim. “Parallelizing Linear Trans-
+formers with the Delta Rule over Sequence Length.” In Proceedings of the 2024 Conference on
+Empirical Methods in Natural Language Processing.
+EMNLP ’24
+Zhaofeng Wu, Ananth Balashankar, Yoon Kim, Jacob Eisenstein, Ahmad Beirami. “Reuse
+Your Rewards: Reward Model Transfer for Zero-Shot Cross-Lingual Alignment.” In Proceed-
+ings of the 2024 Conference on Empirical Methods in Natural Language Processing.
+EMNLP ’24
+Yung-Sung Chuang, Linlu Qiu, Cheng-Yu Hsieh, Ranjay Krishna, Yoon Kim, James Glass.
+“Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language
+Models Using Only Attention Maps.” In Proceedings of the 2024 Conference on Empirical Meth-
+ods in Natural Language Processing.
+EMNLP ’24
+Dong Won Lee, Hae Won Park, Yoon Kim, Cynthia Breazeal, Louis-Philippe Morency. “Im-
+proving Dialogue Agents by Decomposing One Global Explicit Annotation with Local Im-
+plicit Multimodal Feedback.” In Proceedings of the 2024 Conference on Empirical Methods in
+Natural Language Processing.
+EMNLP ’24
+Han Guo, William Brandon, Radostin Cholakov, Jonathan Ragan-Kelley, Eric P. Xing, Yoon
+Kim. “Fast Matrix Multiplications for Lookup Table-Quantized LLMs.” In Proceedings of the
+2024 Conference on Empirical Methods in Natural Language Processing (Findings).
+EMNLP ’24
+Peter Baile Chen, Yi Zhang, Chunwei Liu, Sejal Gupta, Yoon Kim, Michael Cafarella. “MDCR:
+A Dataset for Multi-Document Conditional Reasoning.” In Proceedings of the 2024 Conference
+on Empirical Methods in Natural Language Processing (Findings).
+UIST ’24
+Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim. “VizAbility: Enhancing Chart
+Accessibility with LLM-based Conversational Interaction.” In Proceedings of the 37th Annual
+ACM Symposium on User Interface Software and Technology.
+COLM ’24
+Lucas Torroba Hennigen, Shannon Shen, Aniruddha Nrusimha, Bernhard Gapp, David Son-
+tag, Yoon Kim. “Towards Verifiable Text Generation with Symbolic References.” In Proceed-
+ings of the 1st Conference on Language Modeling.
+COLM ’24
+Lucas Torroba Hennigen, Shannon Shen, Aniruddha Nrusimha, Bernhard Gapp, David Son-
+tag, Yoon Kim. “Towards Verifiable Text Generation with Symbolic References.” In Proceed-
+ings of the 1st Conference on Language Modeling.
+COLM ’24
+Jillian Ross, Yoon Kim, Andrew W. Lo. “LLM economicus? Mapping the Behavioral Biases
+of LLMs via Utility Theory.” In Proceedings of the 1st Conference on Language Modeling.
+ICML ’24
+Songlin Yang, Bailin Wang, Yikang Shen, Rameswar Panda, Yoon Kim. “Gated Linear Atten-
+tion Transformers with Hardware-Efficient Training.” In Proceedings of the 41st International
+Conference on Machine Learning.
+ICML ’24
+Ekin Akyürek, Bailin Wang, Yoon Kim, Jacob Andreas. “ In-Context Language Learning: Ar-
+chitectures and Algorithms.” In Proceedings of the 41st International Conference on Machine
+Learning.
+ICML ’24
+Yao Fu, Rameswar Panda, Xinyao Niu, Xiang Yue, Hannaneh Hajishirzi, Yoon Kim, Hao Peng.
+“Data Engineering for Scaling Language Models to 128K Context.” In Proceedings of the 41st
+International Conference on Machine Learning.
+ACL ’24
+Shannon Zejiang Shen, Hunter Lang, Bailin Wang, Yoon Kim, David Sontag. “Learning to
+Decode Collaboratively with Multiple Language Models.” In Proceedings of the 62nd Annual
+Meeting of the Association for Computational Linguistics.
+2
+
+ACL ’24
+Jerry Ngo, Yoon Kim. “What Do Language Models Hear? Probing for Auditory Representa-
+tions in Language Models.” In Proceedings of the 62nd Annual Meeting of the Association for
+Computational Linguistics.
+ACL ’24
+William Merrill, Zhaofeng Wu, Norihito Naka, Yoon Kim, Tal Linzen. “Can You Learn Se-
+mantics Through Next-Word Prediction? The Case of Entailment.” In Proceedings of the 62nd
+Annual Meeting of the Association for Computational Linguistics (Findings).
+ACL ’24
+Yujun Mao, Yoon Kim, Yilun Zhou. “CHAMP: A Competition-level Dataset for Fine-Grained
+Analyses of LLMs’ Mathematical Reasoning Capabilities.” In Proceedings of the 62nd Annual
+Meeting of the Association for Computational Linguistics (Findings).
+ACL ’24
+Hang Jiang, Xiajie Zhang, Robert Mahari, Daniel Kessler, Eric Ma, Tal August, Irene Li, Alex
+’Sandy’ Pentland, Yoon Kim, Jad Kabbara, Deb Roy. “Leveraging Large Language Models for
+Learning Complex Legal Concepts through Storytelling.” In Proceedings of the 62nd Annual
+Meeting of the Association for Computational Linguistics.
+NAACL ’24
+Zhaofeng Wu, Linlu Qiu, Alexis Ross, Ekin Akyürek, Boyuan Chen, Bailin Wang, Najoung
+Kim, Jacob Andreas, Yoon Kim. “Reasoning or Reciting? Exploring the Capabilities and
+Limitations of Language Models Through Counterfactual Tasks.” In Proceedings of the 2024
+Conference of the North American Chapter of the Association for Computational Linguistics .
+NAACL ’24
+Bowen Pan, Rameswar Panda, SouYoung Jin, Rogerio Feris, Aude Oliva, Phillip Isola, Yoon
+Kim. “LangNav: Language as a Perceptual Representation for Navigation.” In Proceedings of
+the 2024 Conference of the North American Chapter of the Association for Computational Lin-
+guistics (Findings).
+NAACL ’24
+Tianhua Zhang, Jiaxin Ge, Hongyin Luo, Yung-Sung Chuang, Mingye Gao, Yuan Gong, Xixin
+Wu, Yoon Kim, Helen Meng, James Glass. “Natural Language Embedded Programs for Hybrid
+Language Symbolic Reasoning.” In Proceedings of the 2024 Conference of the North American
+Chapter of the Association for Computational Linguistics (Findings).
+NAACL ’24
+Yue Zhou, Yada Zhu, Diego Antognini, Yoon Kim, Yang Zhang. “Paraphrase and Solve: Ex-
+ploring and Exploiting the Impact of Surface Form on Mathematical Reasoning in Large Lan-
+guage Models.” In Proceedings of the 2024 Conference of the North American Chapter of the
+Association for Computational Linguistics .
+ICLR ’24
+Han Guo, Philip Greengard, Eric P. Xing, Yoon Kim. “ LQ-LoRA: Low-rank Plus Quan-
+tized Matrix Decomposition for Efficient Language Model Finetuning.” In Proceedings of the
+Twelfth International Conference on Learning Representations.
+ICLR ’24
+Linlu Qiu, Liwei Jiang, Ximing Lu, Melanie Sclar, Valentina Pyatkin, Chandra Bhagavatula,
+Bailin Wang, Yoon Kim, Yejin Choi, Nouha Dziri, Xiang Ren. “Phenomenal Yet Puzzling:
+Testing Inductive Reasoning Capabilities of Language Models with Hypothesis Refinement.”
+In Proceedings of the Twelfth International Conference on Learning Representations.
+ICLR ’24
+Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He. “DoLa:
+Decoding by Contrasting Layers Improves Factuality in Large Language Models.” In Proceed-
+ings of the Twelfth International Conference on Learning Representations.
+CoNLL ’23
+Shinjini Ghosh, Yoon Kim, Ramon Fernandez Astudillo, Tahira Naseem, Jacob Andreas. “
+Alignment via Mutual Information.” In Proceedings of the 2023 The SIGNLL Conference on
+Computational Natural Language Learning.
+EMNLP ’23
+Zilu Tang, Mayank Agarwal, Alex Shypula, Bailin Wang, Derry Wijaya, Jie Chen, Yoon
+Kim. “Explain-then-Translate: An Analysis on Improving Program Translation with Self-
+generated Explanations.” In Proceedings of the 2023 Conference on Empirical Methods in Nat-
+3
+
+ural Language Processing (Findings.
+EMNLP ’23
+Wei Liu, Songlin Yang, Yoon Kim, Kewei Tu. “ Simple Hardware-Efficient PCFGs with In-
+dependent Left and Right Productions.” In Proceedings of the 2023 Conference on Empirical
+Methods in Natural Language Processing (Findings).
+EMNLP ’23
+Hongyin Luo, Yung-Sung Chuang, Yuan Gong, Tianhua Zhang, Yoon Kim, Xixin Wu, Danny
+Fox, Helen Meng, James Glass. “SAIL: Search-Augmented Instruction Learning.” In Proceed-
+ings of the 2023 Conference on Empirical Methods in Natural Language Processing (Findings) .
+NeurIPS ’23
+Bailin Wang, Zi Wang, Xuezhi Wang, Yuan Cao, Rif A. Saurous, Yoon Kim. “Grammar
+Prompting for Domain-Specific Language Generation with Large Language Models.” In Pro-
+ceedings of the 35th Conference on Neural Information Processing Systems.
+NeurIPS ’23
+Thomas Hartvigsen, Swami Sankaranarayanan, Hamid Palangi, Yoon Kim, Marzyeh Ghas-
+semi. “Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors.” In
+Proceedings of the 35th Conference on Neural Information Processing Systems.
+ASRU ’23
+Cheng-I Jeff Lai, Freda Shi, Puyuan Peng, Yoon Kim, Kevin Gimpel, Shiyu Chang, Yung-Sung
+Chuang, Saurabhchand Bhati, David Cox, David Harwath, Yang Zhang, Karen Livescu, James
+Glass. “Audio-Visual Neural Syntax Acquisition.” In 2023 IEEE Automatic Speech Recognition
+and Understanding Workshop.
+ACL ’23
+Songlin Yang, Roger Levy, Yoon Kim. “Unsupervised Discontinuous Constituency Parsing
+with Mildly Context-Sensitive Grammars.” In Proceedings of the 2023 Annual Conference of
+the Association for Computational Linguistics.
+ACL ’23
+Lucas Torroba Hennigen, Yoon Kim. “Deriving Language Models from Masked Language
+Models.” In Proceedings of the 2023 Annual Conference of the Association for Computational
+Linguistics.
+ACL ’23
+Jiaxin Ge, Hongyin Luo, Yoon Kim, James Glass. “Entailment as Robust Self-Learner.” In
+Proceedings of the 2023 Annual Conference of the Association for Computational Linguistics.
+ICLR ’23
+Peihao Wang, Rameswar Panda, Lucas Torroba Hennigen, Philip Greengard, Leonid Karlin-
+sky, Rogerio Feris, David Cox, Zhangyang Wang, Yoon Kim. “Learning to Grow Pretrained
+Models for Efficient Transformer Training.” In Proceedings of the Eleventh International Con-
+ference on Learning Representations.
+ICLR ’23
+Zhen Wang, Rameswar Panda, Leonid Karlinsky, Rogerio Feris, Huan Sun, Yoon Kim. “Mul-
+titask Prompt Tuning Enables Parameter-efficient Transfer Learning.” In Proceedings of the
+Eleventh International Conference on Learning Representations.
+ICLR ’23
+Han Guo, Philip Greengard, Hongyi Wang, Andrew Gelman, Yoon Kim, Eric Xing. “Feder-
+ated Learning as Variational Inference: A Scalable Expectation Propagation Approach.” In
+Proceedings of the Eleventh International Conference on Learning Representations.
+EMNLP ’22
+Bailin Wang, Ivan Titov, Jacob Andreas, Yoon Kim. “Hierarchical Phrase-based Sequence-to-
+Sequence Learning.” In Proceedings of the 2022 Conference on Empirical Methods in Natural
+Language Processing.
+EMNLP ’22
+Monica Agrawal, Stefan Hegselmann, Hunter Lang, Yoon Kim, David Sontag. “Large Lan-
+guage Models are Zero-Shot Clinical Information Extractors.” In Proceedings of the 2022 Con-
+ference on Empirical Methods in Natural Language Processing.
+ICML ’22
+Hunter Lang, Monica Agrawal, Yoon Kim, David Sontag. “Co-training Improves Prompt-
+based Learning with Large Language Models” In Proceedings of the 39th International Confer-
+ence on Machine Learning.
+4
+
+NAACL ’22
+Yung-Sung Chuang, Rumen Dangovski, Hongyin Luo, Yang Zhang, Shiyu Chang, Marin Sol-
+jacic, Shang-Wen Li, Wen-tau Yih, Yoon Kim, James Glass. “DiffCSE: Difference-based Con-
+trastive Learning for Sentence Embeddings.” In Proceedings of the 2022 Conference of the North
+American Chapter of the Association for Computational Linguistics .
+NAACL ’22
+Andrew Drozdov, Jiawei Zhou, Radu Florian, Andrew McCallum, Tahira Naseem, Yoon Kim,
+Ramon Fernandez Astudillo. “Inducing and Using Alignments for Transition-based AMR
+Parsing.” In Proceedings of the 2022 Conference of the North American Chapter of the Associa-
+tion for Computational Linguistics .
+CVPR ’22
+Yi Li, Rameswar Panda, Yoon Kim, Chun-Fu Chen, Rogerio Feris, David Cox, Nuno Vascon-
+celos. “VALHALLA: Visual Hallucination for Machine Translation.” In Proceedings of the IEEE
+Conference on Computer Vision and Pattern Recognition.
+ACL ’22
+Jiabao Ji, Yoon Kim, James Glass, Tianxing He. “Controlling the Focus of Pretrained Lan-
+guage Generation Models.” In Proceedings of the 60th Annual Meeting of the Association for
+Computational Linguistics (Findings).
+NeurIPS ’21
+Yoon Kim. “Sequence-to-Sequence Learning with Latent Neural Grammars.” In Proceedings
+of the 35th Conference on Neural Information Processing Systems.
+ACL ’21
+Demi Guo, Alexander M. Rush, Yoon Kim. “Parameter-Efficient Transfer Learning with Diff
+Pruning.” In Proceedings of the 59th Annual Meeting of the Association for Computational Lin-
+guistics.
+VIS ’21
+Shahid Latif, Zheng Zhou, Yoon Kim, Fabian Beck, Nam Wook Kim. “Kori: Interactive Syn-
+thesis of Text and Charts in Data Documents.” In Proceedings of the 2021 IEEE Visualization
+conference.
+MICCAI ’21
+Stanislav Lukyanenko, Won-Dong Jang, Donglai Wei, Robbert Struyven, Yoon Kim, Brian
+Leahy, Helen Yang, Alexander Rush, Dalit Ben-Yosef, Daniel Needleman, Hanspeter Pfister.
+“Developmental Stage Classification of Embryos Using Two-Stream Neural Network with
+Linear-Chain Conditional Random Field”. In Proceedings of the 24th International Conference
+on Medical Image Computing and Computer Assisted Intervention.
+EMNLP ’20
+Demi Guo, Yoon Kim, Alexander M. Rush. “Sequence-Level Mixed Sample Data Augmen-
+tation.” In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Pro-
+cessing.
+ICML ’20
+Rares-Darius Buhai, Yoni Halpern, Yoon Kim, Andrej Risteski, David Sontag. “Empirical
+Study of the Benefits of Overparameterization in Learning Latent Variable Models.” In Pro-
+ceedings of the 37th International Conference on Machine Learning.
+ICML ’20
+Jonathan Mamou, Hang Le, Miguel Del Rio, Cory Stephenson, Hanlin Tang, Yoon Kim,
+SueYeon Chung. “Emergence of Separable Manifolds in Deep Language Representations.”
+In Proceedings of the 37th International Conference on Machine Learning.
+NeurIPS ’19
+Sam Wiseman, Yoon Kim. “Amortized Bethe Free Energy Minimization for Learning MRFs.”
+In Proceedings of the 33rd Conference on Neural Information Processing Systems.
+ACL ’19
+Yoon Kim, Chris Dyer, Alexander M. Rush. “Compound Probabilistic Context-Free Gram-
+mars for Grammar Induction.” In Proceedings of the 57th Annual Meeting of the Association for
+Computational Linguistics.
+NAACL ’19
+Yoon Kim, Alexander M. Rush, Lei Yu, Adhiguna Kuncoro, Chris Dyer, Gábor Melis. “Unsu-
+pervised Recurrent Neural Network Grammars.” In Proceedings of the 17th Annual Conference
+of the North American Chapter of the Association for Computational Linguistics .
+5
+
+AISTATS ’19
+Adji B. Dieng, Yoon Kim, Alexander M. Rush, David M. Blei. “Avoiding Latent Variable Col-
+lapse with Generative Skip Models.” In Proceedings of the 22nd International Conference on
+Artificial Intelligence and Statistics.
+NeurIPS ’18
+Yuntian Deng, Yoon Kim, Justin Chiu, Demi Guo, Alexander M. Rush. “Latent Alignment and
+Variational Attention.” In Proceedings of the 32nd Conference on Neural Information Processing
+Systems.
+ICML ’18
+Yoon Kim, Sam Wiseman, Andrew C. Miller, David Sontag, Alexander M. Rush. “Semi-
+Amortized Variational Autoencoders.” In Proceedings of the 35th International Conference on
+Machine Learning.
+ICML ’18
+Jake Zhao, Yoon Kim, Kelly Zhang, Alexander M. Rush, Yann LeCun. “Adversarially Regular-
+ized Autoencoders.” In Proceedings of the 35th International Conference on Machine Learning.
+EMNLP ’17
+Allen Schmaltz, Yoon Kim, Alexander M. Rush, Stuart M. Shieber. “Adapting Sequence Mod-
+els for Sentence Correction.” In Proceedings of the 2017 Conference on Empirical Methods in
+Natural Language Processing.
+ACL ’17
+Guillaume Klein, Yoon Kim, Yuntian Deng, Jean Senellart, Alexander M. Rush. “OpenNMT:
+Open-Source Toolkit for Neural Machine Translation.” In Proceedings of the 55th Annual Meet-
+ing of the Association for Computational Linguistics (System Demonstrations).
+ICLR ’17
+Yoon Kim, Carl Denton, Luong Hoang, Alexander M. Rush. “Structured Attention Networks.”
+In Proceedings of the 5th International Conference on Learning Representations.
+EMNLP ’16
+Yoon Kim, Alexander M. Rush. “Sequence-Level Knowledge Distillation.” In Proceedings of
+the 2016 Conference on Empirical Methods in Natural Language Processing.
+AAAI ’16
+Yoon Kim, Yacine Jernite, David Sontag, Alexander M. Rush. “Character-Aware Neural Lan-
+guage Models.” In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence.
+EMNLP ’14
+Yoon Kim. “Convolutional Neural Networks for Sentence Classification.” In Proceedings of
+the 2014 Conference on Empirical Methods in Natural Language Processing.
+Workshop & Other Publications
+2021
+Matteo Alleman, Jonathan Mamou, Miguel A Del Rio, Hanlin Tang, Yoon Kim, SueYeon
+Chung. “Syntactic Perturbations Reveal Representational Correlates of Hierarchical Phrase
+Structure in Pretrained Language Models.” In Proceedings of the 6th Workshop on Representa-
+tion Learning for NLP.
+2018
+Yoon Kim, Sam Wiseman, Alexander M. Rush. “A Tutorial on Deep Latent Variable Models
+of Natural Language.” Tutorial at EMNLP.
+2018
+Gabriel Grand, Aron Szanto, Yoon Kim, Alexander M. Rush. “On the Flip Side: Identifying
+Counterexamples in Visual Question Answering.” In Proceedings of the 24th ACM SIGKDD
+International Conference on Knowledge Discovery and Data Mining (Deep Learning Day).
+2016
+Allen Schmaltz, Yoon Kim, Alexander M. Rush, Stuart M. Shieber. “Sentence-Level Gram-
+matical Error Identification as Sequence-to-Sequence Correction.” In Proceedings of the 11th
+Workshop on Innovative Use of NLP for Building Educational Applications.
+2014
+Yoon Kim, Yi-I Chiu, Kentaro Hanaki, Darshan Hegde, Slav Petrov. “Temporal Analysis of
+Language through Neural Language Models.” In Proceedings of the ACL 2014 Workshop on
+Language Technologies and Computational Social Science.
+6
+
+2014
+Yoon Kim, Owen Zhang. “Credibility Adjusted Term Frequency: A Supervised Term Weight-
+ing Scheme for Sentiment Analysis and Text Classification.” In Proceedings of the 5th Work-
+shop on Computational Approaches to Subjectivity, Sentiment and Social Media.
+Professional Activities
+2024
+Simons Institute for the Theory of Computing Workshop Co-organizer Emerging General-
+ization Settings
+2022
+EMNLP Workshop Co-organizer: Unimodal and Multimodal Induction of Linguistic Struc-
+tures
+2019
+ICLR Workshop Co-organizer: Deep Generative Models for Highly Structured Data.
+2018
+EMNLP Tutorial: Deep Latent Variable Models of Natural Language.
+Area Chair: NeurIPS (2024), ICLR (2023, 2024, 2025), EMNLP (2021,2022, 2023), COLING
+(2022), NAACL (2021, 2024), EMNLP (2021)
+Reviewing: AAAI (2020), ACL (2017, 2018, 2019, 2020), CoNLL (2018, 2019), EMNLP (2018,
+2019, 2020), ICLR (2019, 2020, 2021, 2022), ICML (2019), NAACL (2019), NeurIPS (2018, 2019,
+2020), UAI (2018, 2019)
+Talks
+Oct 2024
+Aspen Meeting on Foundations Models
+Oct 2024
+University of Washington, NLP Seminar
+Aug 2024
+KAIST, NLP Workshop
+Aug 2024
+Seoul National University, Data Science Colloquium
+Mar 2024
+University of Oregon, AI Seminar
+Mar 2024
+KAIST, Graduate School of AI Colloquium
+Nov 2023
+Cornell Tech, Learning Machines Seminar
+Nov 2023
+New York University, Text as Data Seminar
+Oct 2023
+University of Pennsylvania, NLP Seminar
+Jul 2022
+KAIST, ERC AI Seminar
+May 2022
+University of Minnesota, NLP Seminar
+Apr 2022
+University of Edinburgh, ILCC Seminar
+Apr 2022
+Georgia Tech, NLP Seminar
+Apr 2022
+Harvard Linguistics Department, Universals Workshop
+Oct 2020
+Stanford, NLP Seminar
+Oct 2020
+Seoul National University, Data Science Seminar
+Sep 2020
+KAIST, CS Colloquium
+Aug 2020
+Seoul National University, AI Summer School
+Apr 2020
+University of Toronto, CS Colloquium
+Apr 2020
+University of Chicago, CS Colloquium
+Mar 2020
+MIT, EECS Colloquium
+Feb 2020
+Carnegie Mellon University, CS Colloquium
+Feb 2020
+Harvard University, CS Colloquium
+Feb 2020
+New York University, CS Colloquium
+Feb 2020
+Columbia University, CS Colloquium
+Jan 2020
+Toyota Technological Institute at Chicago, Colloquium
+Sep 2019
+MIT, Computational Psycholinguistics Lab
+Sep 2019
+UMass Amherst, Machine Learning and Friends Lunch
+Jan 2018
+KAIST, Computational NeuroSystems Lab
+Jan 2018
+Seoul National University, Vision and Learning Lab
+May 2017
+OpenAI
+Apr 2017
+Boston Machine Learning Meetup
+Apr 2016
+MIT, Spoken Language Systems Group
+Dec 2015
+MIT, NLP Group
+Oct 2014
+City University of New York, NLP Seminar
+7

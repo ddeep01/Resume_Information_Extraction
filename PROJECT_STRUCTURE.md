@@ -28,8 +28,7 @@
 11. [LLM Extraction System](#11-llm-extraction-system)
 12. [Extraction Schema](#12-extraction-schema)
 13. [Validation System](#13-validation-system)
-14. [Deduplication](#14-deduplication)
-15. [State Management](#15-state-management)
+14. [State Management](#15-state-management)
 16. [Error Handling & Retry Strategy](#16-error-handling--retry-strategy)
 17. [Logging & Monitoring](#17-logging--monitoring)
 18. [Configuration Management](#18-configuration-management)
@@ -125,12 +124,12 @@ Python 3.9+, PyMuPDF (`fitz`), pdfplumber, Ollama (local LLM inference), LLaMA 3
 │                     BACKEND PIPELINE (Python)                   │
 │                        (Run manually)                           │
 │                                                                 │
-│  ┌──────────────┐    ┌──────────────┐    ┌───────────────────┐  │
-│  │ Raw Resume   │    │ SHA-256      │    │  PDF Text         │  │
-│  │ PDFs         │───►│ Deduplication│───►│  Extraction       │  │
-│  │ data/raw_    │    │ hash_checker │    │  pdf_extractor.py │  │
-│  │ resumes/     │    │ .py          │    │                   │  │
-│  └──────────────┘    └──────────────┘    └────────┬──────────┘  │
+│  ┌──────────────┐                        ┌───────────────────┐  │
+│  │ Raw Resume   │                        │  PDF Text         │  │
+│  │ PDFs         │───────────────────────►│  Extraction       │  │
+│  │ data/raw_    │                        │  pdf_extractor.py │  │
+│  │ resumes/     │                        │                   │  │
+│  └──────────────┘                        └────────┬──────────┘  │
 │                                                   │             │
 │                                                   ▼             │
 │                                          ┌─────────────────┐    │
@@ -224,8 +223,6 @@ Python 3.9+, PyMuPDF (`fitz`), pdfplumber, Ollama (local LLM inference), LLaMA 3
 LLM_Based_Extraction/
 │
 ├── backend/                          # Python processing pipeline
-│   ├── deduplication/
-│   │   └── hash_checker.py           # SHA-256 file hash utilities
 │   ├── extraction/
 │   │   └── pdf_extractor.py          # PDF → plain text (PyMuPDF + pdfplumber)
 │   ├── text_cleaning/
@@ -311,7 +308,6 @@ LLM_Based_Extraction/
 | `backend/text_cleaning/cleaner.py` | Stage 3: Text normalization |
 | `backend/llm/prompt.py` | Prompt template + extraction schema definition |
 | `backend/llm/validator.py` | JSON parsing and schema enforcement |
-| `backend/deduplication/hash_checker.py` | SHA-256 duplicate detection utility |
 | `evaluation/result_llm/evaluate_json.py` | LLM accuracy benchmark runner |
 | `evaluation/result_text_extraction/evaluate.py` | Text extraction benchmark runner |
 | `frontend/js/loader.js` | Frontend: loads all JSON files, manages global state |
@@ -341,7 +337,6 @@ LLM_Based_Extraction/
 | python-docx | Listed in requirements | Word document support (not actively used in pipeline) | Listed only |
 | tqdm | Listed in requirements | Progress bars (not used in current code) | Listed only |
 | python-dotenv | Listed in requirements | `.env` file loading (no `.env` file exists) | Listed only |
-| hashlib | Python stdlib | SHA-256 file hashing | `hash_checker.py` |
 | unicodedata | Python stdlib | Unicode NFKC normalization | `cleaner.py` |
 | pathlib | Python stdlib | Cross-platform path handling | All `.py` files |
 | logging | Python stdlib | Log file and console output | `extractor.py`, `cleaner.py` |
@@ -364,14 +359,6 @@ LLM_Based_Extraction/
 - **Location:** `data/raw_resumes/`
 - **Processing:** None at this step
 - **Error condition:** Missing files are silently skipped by the extractor
-
-### Step 2 — (Optional) Duplicate Detection
-- **Input:** PDF file path, hash CSV path
-- **Function:** `is_duplicate_file()` in `backend/deduplication/hash_checker.py`
-- **Processing:** SHA-256 hash computed in 8KB chunks; compared against `data/file_hashes.csv`
-- **Output:** Boolean `(is_duplicate, hash_hex)`
-- **Important:** This module exists as a utility but is **not called** by the main pipeline scripts. Integration is a manual step.
-- **Error condition:** If the CSV does not exist, the function returns `False` (treats as new file)
 
 ### Step 3 — PDF Text Extraction
 - **Input:** `data/raw_resumes/*.pdf`
@@ -447,18 +434,15 @@ Raw PDF resumes placed in `data/raw_resumes/`. Files must be named with the patt
 
 **Not validated:** file type (MIME check), file size limits, password protection, corruption.
 
-### 7.3 Deduplication
-
-Implemented as a standalone utility in `backend/deduplication/hash_checker.py`. **Not integrated** into the main pipeline scripts. Must be called manually. See Section 14 for full details.
-
 ### 7.4 Text Extraction
 
-Two-stage extraction implemented in `backend/extraction/pdf_extractor.py`:
+Three-stage extraction implemented in `backend/extraction/pdf_extractor.py`:
 
 1. **Primary:** `PDFExtractor.extract_pymupdf()` — uses `fitz.open()` and `page.get_text()` for each page
-2. **Fallback:** `PDFExtractor.extract_pdfplumber()` — uses `pdfplumber.open()` and `page.extract_text()`
-3. **Threshold:** Falls back if primary result is < 100 characters (`MIN_TEXT_LENGTH`)
-4. **Failure result:** Returns `("", "failed")` — file is skipped, not retried
+2. **Fallback 1:** `PDFExtractor.extract_pdfplumber()` — uses `pdfplumber.open()` and `page.extract_text()`
+3. **Fallback 2:** `PDFExtractor.extract_pdfminer()` — uses `pdfminer.high_level.extract_text()`
+4. **Threshold:** Falls back if previous result is < 100 characters (`MIN_TEXT_LENGTH`)
+5. **Failure result:** Returns `("", "failed")` — file is skipped, not retried
 
 Note: This script uses **relative paths** (`Path("data/raw_resumes")`), unlike all other backend modules that compute absolute paths from `__file__`. It must be run from the project root directory.
 
@@ -619,26 +603,6 @@ There is no persistent pipeline state. No database, no status file, no resume tr
 
 ---
 
-### File: `backend/deduplication/hash_checker.py`
-
-**Purpose:** SHA-256 file hashing for duplicate detection.
-
-**Main Functions:**
-- `calculate_file_hash(file_path)` — reads file in 8KB chunks, returns SHA-256 hex digest
-- `is_duplicate_file(file_path, hash_csv)` — checks if file hash exists in CSV; returns `(bool, hash_hex)`
-- `save_file_hash(filename, file_hash, hash_csv)` — appends filename+hash row to CSV (creates if missing)
-
-**Input:** Any file path; hash registry CSV path
-
-**Output:** Boolean + hash string; CSV row appended on save
-
-**Dependencies:** `hashlib`, `pandas`, `pathlib`
-
-**Used By:** Standalone utility — **not called by any other pipeline module**; must be integrated manually
-
-**Known Issue:** `__main__` block uses `"data/file_hashes.csv"` (relative), while `utils.py` defines the correct path as `BASE_DIR / "data" / "metadata" / "file_hashes.csv"`. These are inconsistent.
-
----
 
 ### File: `backend/utils.py`
 
@@ -649,8 +613,6 @@ There is no persistent pipeline state. No database, no status file, no resume tr
 - `RAW_RESUME_DIR` — `BASE_DIR / "data" / "raw_resumes"`
 - `EXTRACTED_DIR` — `BASE_DIR / "data" / "extracted_text"`
 - `CLEANED_DIR` — `BASE_DIR / "data" / "cleaned_text"`
-- `FILE_HASH_CSV` — `BASE_DIR / "data" / "metadata" / "file_hashes.csv"`
-- `TEXT_HASH_CSV` — `BASE_DIR / "data" / "metadata" / "text_hashes.csv"`
 
 **Main Functions:**
 - `ensure_directories()` — creates `EXTRACTED_DIR` and `CLEANED_DIR` only (does not create `metadata/`)
@@ -1081,35 +1043,6 @@ No business-rule validation (e.g., "end date must be after start date", "experie
 
 ---
 
-## 14. Deduplication
-
-**File:** `backend/deduplication/hash_checker.py`
-
-### Algorithm
-
-SHA-256 hash of the entire file contents, read in 8192-byte chunks using `hashlib.sha256()`.
-
-### Comparison
-
-Hash is compared against all values in the `file_hash` column of a CSV file at a configurable path.
-
-### State Storage
-
-A CSV file with columns `filename` and `file_hash`. Default path in `__main__` block: `"data/file_hashes.csv"` (relative). Correct path per `utils.py`: `data/metadata/file_hashes.csv`.
-
-### What Happens on Duplicate
-
-`is_duplicate_file()` returns `(True, hash_hex)`. The **caller** is responsible for deciding what to do (skip processing). The deduplication module itself takes no action beyond returning the boolean.
-
-### What Happens on New File
-
-`is_duplicate_file()` returns `(False, hash_hex)`. `save_file_hash()` must then be called manually to register the new hash.
-
-### Integration Status
-
-**Not integrated** into the main extraction pipeline. `pdf_extractor.py`, `cleaner.py`, and `extractor.py` do not call any deduplication functions. Must be added manually before processing begins.
-
----
 
 ## 15. State Management
 
@@ -1549,7 +1482,6 @@ All data is stored as flat files:
 | Cleaned text | `data/cleaned_text/` | UTF-8 `.txt` |
 | Extracted profiles | `data/extracted_json/` | JSON |
 | Failed LLM responses | `data/invalid_json/` | Plain text |
-| File hash registry | `data/file_hashes.csv` (per `__main__`) | CSV |
 | Cleaning statistics | `backend/text_cleaning/report/` | JSON |
 | Pipeline logs | `logs/llm_extraction.log` | Plain text (log format) |
 | Evaluation results | `evaluation/*/results/*.csv` | CSV |
@@ -1587,7 +1519,7 @@ python-dotenv
 
 ### Python Version
 
-Python 3.9+ required (walrus operator `:=` used in `hash_checker.py` line 10).
+Python 3.9+ required.
 
 ### External Services
 
@@ -1751,7 +1683,6 @@ python evaluate_json.py
 - Running pipeline stages in the correct order (no orchestration)
 - Changing active model (edit source constant)
 - Copying extracted JSONs from `data/extracted_json/` to `evaluation/result_llm/data/<model>/` for the frontend and benchmarks to use
-- Running deduplication checks before processing (module exists but is not wired in)
 - Running `cd backend/llm` before `extractor.py` (bare import workaround)
 
 ---
@@ -1765,7 +1696,6 @@ python evaluate_json.py
 | Text cleaning | Good | ⚠️ Partial | Bullet stage is no-op (double-processed); no log file |
 | LLM extraction | Functional | ⚠️ Partial | Retry implemented; validator has indentation bug; bare imports; PII in logs |
 | JSON Validation | Broken | ❌ No | `_validate_value` is unreachable due to indentation error |
-| Deduplication | Utility only | ❌ No | Not integrated into pipeline |
 | Error handling | Partial | ⚠️ Partial | Batch continues on failure; no structured error report |
 | Retry | Implemented | ⚠️ Partial | Retry at LLM + validation level; no retry at PDF extraction level |
 | Logging | Partial | ⚠️ Partial | LLM stage has file logger; other stages use console only; PII logged |
@@ -1796,7 +1726,6 @@ python evaluate_json.py
 8. **Hardcoded 40-file limit:** `loader.js` loops `for i in range(1, 41)` — adding resume #41 requires source code change
 9. **Hardcoded model-specific path in two JS files:** `"../evaluation/result_llm/data/qwen2.5_7b/"` — changing models requires editing both files
 10. **Pipeline stages are disconnected scripts:** Must be run in sequence manually; no orchestrator
-11. **Deduplication not integrated:** SHA-256 hash checker exists but is never called from the pipeline
 12. **No OCR:** Scanned/image PDFs produce empty text and are silently skipped
 
 ### Data / Logic
@@ -1848,7 +1777,6 @@ python evaluate_json.py
 16. **Implement `REQUEST_TIMEOUT`:** Pass timeout to `ollama.chat()` or implement via `threading.Timer`
 17. **Add `data-theme="dark"` to `faculty.html`** and include theme initialization
 18. **Populate `researchSummary` div** in `renderResearch()`
-19. **Integrate deduplication** into the main pipeline before `pdf_extractor.py` runs
 
 ### P2 — Nice to Have (Future Enhancements)
 
@@ -2193,7 +2121,6 @@ faculty.js  →  Faculty Profile Page
 - **No state management, no database, no API**
 - **No tests**
 - **Hardcoded 40-resume limit** and model-specific paths
-- **Deduplication not wired into pipeline**
 
 ### Recommended Next Development Phases
 
@@ -2201,7 +2128,7 @@ faculty.js  →  Faculty Profile Page
 Fix the five critical bugs identified in Sections 27 and BUG-01 through BUG-05 of the audit. The system should be fully end-to-end functional after this phase.
 
 **Phase 2 — Stabilize (1 week)**  
-Fix bare imports, add missing dependencies, add `data/` to `.gitignore`, fix XSS by sanitizing all `innerHTML`, validate URL parameters, remove PII from logs, integrate deduplication into the pipeline.
+Fix bare imports, add missing dependencies, add `data/` to `.gitignore`, fix XSS by sanitizing all `innerHTML`, validate URL parameters, remove PII from logs.
 
 **Phase 3 — Scale (2–4 weeks)**  
 Add a manifest JSON for dynamic file discovery, replace sequential `fetch()` with `Promise.all()`, add parallel LLM processing with a thread pool, add pagination to the frontend grid.

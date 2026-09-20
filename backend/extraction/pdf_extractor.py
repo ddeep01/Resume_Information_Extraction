@@ -2,6 +2,7 @@ from pathlib import Path
 
 import fitz
 import pdfplumber
+from pdfminer.high_level import extract_text as pdfminer_extract_text
 from docx import Document
 
 
@@ -47,6 +48,17 @@ class PDFExtractor:
             print(f"pdfplumber Error: {pdf_path} -> {e}")
             return ""
 
+    @staticmethod
+    def extract_pdfminer(pdf_path):
+
+        try:
+            text = pdfminer_extract_text(str(pdf_path))
+            return text.strip() if text else ""
+
+        except Exception as e:
+            print(f"pdfminer Error: {pdf_path} -> {e}")
+            return ""
+
     @classmethod
     def extract(cls, pdf_path):
 
@@ -60,7 +72,13 @@ class PDFExtractor:
         if len(text) >= cls.MIN_TEXT_LENGTH:
             return text, "pdfplumber"
 
+        text = cls.extract_pdfminer(pdf_path)
+
+        if len(text) >= cls.MIN_TEXT_LENGTH:
+            return text, "pdfminer"
+
         return "", "failed"
+
 
 
 class DOCXExtractor:

@@ -9,12 +9,11 @@ An end-to-end, automated AI pipeline designed to extract, clean, validate, and v
 - [Key Features](#-key-features)
 - [Project Directory Structure](#-project-directory-structure)
 - [Pipeline Component Breakdown](#-pipeline-component-breakdown)
-  - [1. File & Text Deduplication](#1-file--text-deduplication)
-  - [2. Multi-Engine PDF Extraction](#2-multi-engine-pdf-extraction)
-  - [3. Deterministic Text Cleaning](#3-deterministic-text-cleaning)
-  - [4. LLM-Based Extraction & Validation](#4-llm-based-extraction--validation)
-  - [5. Evaluation & Benchmarking](#5-evaluation--benchmarking)
-  - [6. Web Visualization Dashboard](#6-web-visualization-dashboard)
+  - [1. Multi-Engine PDF Extraction](#1-multi-engine-pdf-extraction)
+  - [2. Deterministic Text Cleaning](#2-deterministic-text-cleaning)
+  - [3. LLM-Based Extraction & Validation](#3-llm-based-extraction--validation)
+  - [4. Evaluation & Benchmarking](#4-evaluation--benchmarking)
+  - [5. Web Visualization Dashboard](#5-web-visualization-dashboard)
 - [Extraction JSON Schema](#-extraction-json-schema)
 - [Tech Stack & Dependencies](#-tech-stack--dependencies)
 - [Getting Started & Usage Guide](#-getting-started--usage-guide)
@@ -23,36 +22,32 @@ An end-to-end, automated AI pipeline designed to extract, clean, validate, and v
 
 ## 🏗️ System Architecture & Workflow
 
-The project follows a modular, 6-stage architecture that transforms raw PDF resumes into structured, searchable faculty profiles:
+The project follows a modular, 5-stage architecture that transforms raw PDF resumes into structured, searchable faculty profiles:
 
 ```
 [ Raw Resumes (PDF) ]
          │
          ▼
- 1. SHA-256 Deduplication  ──────────► Check against file_hashes.csv
+ 1. PDF Extraction Engine  ──────────► PyMuPDF (Primary) / pdfplumber (Fallback 1) / pdfminer (Fallback 2)
          │
          ▼
- 2. PDF Extraction Engine  ──────────► PyMuPDF (Primary) / pdfplumber (Fallback)
+ 2. Text Cleaning Pipeline ──────────► Unicode NFKC, Line Endings, De-hyphenation, Bullet Normalization
          │
          ▼
- 3. Text Cleaning Pipeline ──────────► Unicode NFKC, Line Endings, De-hyphenation, Bullet Normalization
+ 3. LLM Extraction & Validation ─────► Ollama (LLaMA 3.1 8B / Qwen 2.5) + Recursive Schema Enforcement
          │
          ▼
- 4. LLM Extraction & Validation ─────► Ollama (LLaMA 3.1 8B / Qwen 2.5) + Recursive Schema Enforcement
+ 4. Data Export & Storage  ──────────► JSON Outputs / Evaluation Benchmarks
          │
          ▼
- 5. Data Export & Storage  ──────────► JSON Outputs / Evaluation Benchmarks
-         │
-         ▼
- 6. Interactive Frontend   ──────────► Glassmorphism Dashboard, Search, Filters, & Faculty Profiles
+ 5. Interactive Frontend   ──────────► Glassmorphism Dashboard, Search, Filters, & Faculty Profiles
 ```
 
 ---
 
 ## ✨ Key Features
 
-- **Duplicate Prevention**: SHA-256 hash calculation prevents re-processing identical files and text content.
-- **Hybrid Extraction**: High-performance extraction using PyMuPDF (`fitz`) with automatic fallback to `pdfplumber` for lower-level fallback scanning.
+- **Multi-Engine Fallback Extraction**: High-performance extraction using PyMuPDF (`fitz`) with automatic fallbacks to `pdfplumber` and `pdfminer.six` for resilient layout scanning.
 - **Deterministic Cleaning**: 9-stage text normalization pipeline that cleans Unicode symbols, fixes word wrapping across hyphenated line breaks, removes non-printable control characters, and standardizes bullet structures.
 - **Strict LLM Schema Enforcement**: Uses local LLM inference via [Ollama](https://ollama.ai) coupled with a recursive JSON validator that handles missing fields, strips out unknown keys, cleans markdown noise, and handles retries automatically.
 - **Evaluation Framework**: Built-in benchmarking suite measuring extraction accuracy (Levenshtein distance, character error rates) and field-level precision/recall against ground-truth JSON files.
@@ -65,10 +60,8 @@ The project follows a modular, 6-stage architecture that transforms raw PDF resu
 ```
 LLM_Based_Extraction/
 ├── backend/                        # Backend Python pipeline
-│   ├── deduplication/              # File and text hashing modules
-│   │   └── hash_checker.py         # SHA-256 hash calculation and CSV tracking
 │   ├── extraction/                 # PDF text extraction engine
-│   │   └── pdf_extractor.py        # PyMuPDF and pdfplumber extraction logic
+│   │   └── pdf_extractor.py        # PyMuPDF, pdfplumber, and pdfminer extraction logic
 │   ├── text_cleaning/              # Text normalization & cleaning engine
 │   │   ├── cleaner.py              # TextCleaner class & 9-stage pipeline
 │   │   ├── cleaning_report.py      # Statistical reporting generator
@@ -95,8 +88,7 @@ LLM_Based_Extraction/
 │   ├── cleaned_text/               # Preprocessed & cleaned text (.txt)
 │   ├── extracted_json/             # Final validated LLM JSON output files
 │   ├── invalid_json/               # Logged raw responses that failed parsing
-│   ├── ground_truth/               # Reference benchmark data
-│   └── metadata/                   # Hash tracking files (file_hashes.csv)
+│   └── ground_truth/               # Reference benchmark data
 ├── evaluation/                     # Accuracy & precision metrics framework
 │   ├── result_text_extraction/     # Levenshtein & OCR extraction metrics & plots
 │   └── result_llm/                 # Field-level accuracy, precision & recall metrics
@@ -109,19 +101,16 @@ LLM_Based_Extraction/
 
 ## ⚙️ Pipeline Component Breakdown
 
-### 1. File & Text Deduplication
-- **File**: [`backend/deduplication/hash_checker.py`](file:///e:/LLM_Based_Extraction/backend/deduplication/hash_checker.py)
-- **Function**: Computes SHA-256 hex digests of incoming PDF resumes in 8KB chunks. Compares computed hashes with `data/metadata/file_hashes.csv` to flag duplicates before running costly extraction pipelines.
-
-### 2. Multi-Engine PDF Extraction
+### 1. Multi-Engine PDF Extraction
 - **File**: [`backend/extraction/pdf_extractor.py`](file:///e:/LLM_Based_Extraction/backend/extraction/pdf_extractor.py)
 - **Function**: Extracts text from raw PDF resumes using a tiered strategy:
   1. Attempts primary fast extraction using **PyMuPDF** (`fitz`).
   2. Evaluates extracted text length against `MIN_TEXT_LENGTH = 100`.
   3. If text length is insufficient, falls back to **pdfplumber** layout extraction.
-  4. Saves extracted text into `data/extracted_text/`.
+  4. If text length is still insufficient, falls back to **pdfminer.six** layout parsing.
+  5. Saves extracted text into `data/extracted_text/`.
 
-### 3. Deterministic Text Cleaning
+### 2. Deterministic Text Cleaning
 - **File**: [`backend/text_cleaning/cleaner.py`](file:///e:/LLM_Based_Extraction/backend/text_cleaning/cleaner.py)
 - **Function**: Applies a non-destructive 9-stage cleaning pipeline:
   - **Unicode Normalization**: NFKC normalization + explicit replacement map (ligatures like `ﬁ` $\rightarrow$ `fi`, quotes, en/em dashes).
@@ -132,7 +121,7 @@ LLM_Based_Extraction/
   - **Blank Line Collapsing**: Restricts consecutive blank lines to a maximum of two (`\n\n`).
   - Generates full summary analytics exported to `backend/text_cleaning/report/cleaning_statistics.json`.
 
-### 4. LLM-Based Extraction & Validation
+### 3. LLM-Based Extraction & Validation
 - **Prompt Builder**: [`backend/llm/prompt.py`](file:///e:/LLM_Based_Extraction/backend/llm/prompt.py) defines the structured schema and strict system instructions (e.g., zero markdown wrapping, no hallucinated fields, publication count aggregations).
 - **LLM Extractor**: [`backend/llm/extractor.py`](file:///e:/LLM_Based_Extraction/backend/llm/extractor.py) communicates with a local **Ollama** server running models such as `llama3.1:8b`, `qwen2.5:7b`, or `mistral:7b`. Features zero-temperature inference, configurable retry counts (`MAX_RETRIES = 3`), and response timing logs.
 - **JSON Validator**: [`backend/llm/validator.py`](file:///e:/LLM_Based_Extraction/backend/llm/validator.py) receives raw LLM string responses and executes:
@@ -140,11 +129,11 @@ LLM_Based_Extraction/
   - Extraction of the outermost JSON object bounds (`{ ... }`).
   - Recursive schema enforcement: populates missing fields with default type values (`""` for strings, `[]` for arrays, `0` for numbers), strips unknown keys not present in the master schema, and dumps unparseable responses to `data/invalid_json/` for auditing.
 
-### 5. Evaluation & Benchmarking
+### 4. Evaluation & Benchmarking
 - **Text Extraction Benchmark**: Located in [`evaluation/result_text_extraction/`](file:///e:/LLM_Based_Extraction/evaluation/result_text_extraction/). Evaluates PDF extraction fidelity against ground truth text using string distance metrics and outputs visualization plots.
 - **LLM Accuracy Benchmark**: Located in [`evaluation/result_llm/`](file:///e:/LLM_Based_Extraction/evaluation/result_llm/). Compares extracted JSON against ground truth JSON structures across field-level precision, recall, F1 scores, and JSON syntax validity.
 
-### 6. Web Visualization Dashboard
+### 5. Web Visualization Dashboard
 - **Main View**: [`frontend/index.html`](file:///e:/LLM_Based_Extraction/frontend/index.html) presents an interactive dashboard featuring:
   - Overview cards: Total Faculty, PhD count, Assistant/Associate/Full Professor distribution, Average Experience, total publications, patents, and top universities.
   - Multi-criteria Filter Panel: Filter by highest degree, institution type, designation, experience range (0-2, 2-5, 5-10, 10+ years), and presence of journal publications, conference papers, or patents.
