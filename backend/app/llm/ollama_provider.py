@@ -24,7 +24,7 @@ class OllamaProvider(LLMProvider):
             }
         }
         try:
-            response = requests.post(url, json=payload, timeout=120)
+            response = requests.post(url, json=payload, timeout=300)
             response.raise_for_status()
             data = response.json()
             return data.get("response", "").strip()
