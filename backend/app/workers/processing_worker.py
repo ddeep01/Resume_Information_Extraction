@@ -109,7 +109,7 @@ def run_session_processing(session_id: str):
                 # Stage 3: LLM STRUCTURED EXTRACTION
                 session_service.update_session_status(session_id, "PROCESSING", "LLM_EXTRACTION", processed=processed_count, failed=failed_count)
                 log_step(f"    [Step 2/6] LLM / Heuristic Structured JSON Extraction...")
-                raw_extracted = llm_extractor.extract_candidate_data(cleaned_text)
+                raw_extracted = llm_extractor.extract_candidate_data(cleaned_text, candidate_id=cand_id)
 
                 p_info = raw_extracted.get("personal_information", {})
                 cand_name = p_info.get("full_name") or "Unknown Candidate"
@@ -120,23 +120,29 @@ def run_session_processing(session_id: str):
                 # Stage 4: INSTITUTION CLASSIFICATION
                 session_service.update_session_status(session_id, "PROCESSING", "INSTITUTION_CLASSIFIER", processed=processed_count, failed=failed_count)
                 education_raw = raw_extracted.get("education", [])
+                exp_raw = raw_extracted.get("experience", {})
+                acad_exp_raw = exp_raw.get("academic", []) if isinstance(exp_raw, dict) else []
+                ind_exp_raw = exp_raw.get("industry", []) if isinstance(exp_raw, dict) else []
+
+                inst_names = [edu.get("university") or edu.get("institution") or "" for edu in education_raw]
+                inst_names += [a_exp.get("institution") or "" for a_exp in acad_exp_raw]
+                inst_names = [i for i in inst_names if i and i.strip()]
+                
+                batch_classified_insts = inst_classifier.classify_batch(inst_names) if inst_names else {}
+
                 education_classified = []
                 for edu in education_raw:
-                    inst_name = edu.get("university") or edu.get("institution") or ""
-                    class_res = inst_classifier.classify(inst_name)
+                    inst_name = (edu.get("university") or edu.get("institution") or "").strip()
+                    class_res = batch_classified_insts.get(inst_name) or inst_classifier.classify(inst_name)
                     edu["institution_tier"] = class_res["tier"]
                     edu["institution_score"] = class_res["score"]
                     education_classified.append(edu)
                     log_step(f"        Education Tier: {edu.get('degree')} at '{inst_name}' -> {class_res['tier']} (Score: {class_res['score']})")
 
-                exp_raw = raw_extracted.get("experience", {})
-                acad_exp_raw = exp_raw.get("academic", []) if isinstance(exp_raw, dict) else []
-                ind_exp_raw = exp_raw.get("industry", []) if isinstance(exp_raw, dict) else []
-
                 acad_classified = []
                 for a_exp in acad_exp_raw:
-                    inst_name = a_exp.get("institution") or ""
-                    class_res = inst_classifier.classify(inst_name)
+                    inst_name = (a_exp.get("institution") or "").strip()
+                    class_res = batch_classified_insts.get(inst_name) or inst_classifier.classify(inst_name)
                     a_exp["institution_tier"] = class_res["tier"]
                     a_exp["institution_score"] = class_res["score"]
                     acad_classified.append(a_exp)
@@ -145,10 +151,15 @@ def run_session_processing(session_id: str):
                 # Stage 5: PUBLICATION CLASSIFICATION
                 session_service.update_session_status(session_id, "PROCESSING", "PUBLICATION_CLASSIFIER", processed=processed_count, failed=failed_count)
                 pubs_raw = raw_extracted.get("publications", [])
+                venue_names = [(pub.get("venue_name") or pub.get("publisher") or "").strip() for pub in pubs_raw]
+                venue_names = [v for v in venue_names if v]
+
+                batch_classified_pubs = pub_classifier.classify_batch(venue_names) if venue_names else {}
+
                 pubs_classified = []
                 for pub in pubs_raw:
-                    venue = pub.get("venue_name") or pub.get("publisher") or ""
-                    v_res = pub_classifier.classify(venue)
+                    venue = (pub.get("venue_name") or pub.get("publisher") or "").strip()
+                    v_res = batch_classified_pubs.get(venue) or pub_classifier.classify(venue)
                     pub["venue_tier"] = v_res["tier"]
                     pub["venue_score"] = v_res["score"]
                     pubs_classified.append(pub)

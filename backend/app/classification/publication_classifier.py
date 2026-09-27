@@ -2,13 +2,15 @@ import json
 import re
 import logging
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from datetime import datetime
 
 from backend.app.config import settings
 from backend.app.models.database import get_db_connection
 from backend.app.llm.extraction import get_llm_provider
-from backend.app.llm.prompts import PUBLICATION_CLASSIFIER_PROMPT
+from backend.app.llm.json_validator import JSONValidator
+from backend.app.llm.retry_handler import RetryHandler
+from backend.app.llm.prompts import PUBLICATION_CLASSIFIER_PROMPT, BATCH_PUBLICATION_CLASSIFIER_PROMPT
 
 logger = logging.getLogger("PublicationClassifier")
 
@@ -17,6 +19,8 @@ class PublicationClassifier:
         self.cache_file = cache_file or (settings.CACHE_DIR / "publication_venues.json")
         self.cache = self._load_file_cache()
         self.provider = get_llm_provider()
+        self.json_validator = JSONValidator()
+        self.retry_handler = RetryHandler()
 
     def _load_file_cache(self) -> Dict[str, Any]:
         if self.cache_file.exists():
@@ -88,31 +92,34 @@ class PublicationClassifier:
             self.cache[key] = db_res
             return db_res
 
-        # 3. Perform LLM classification
+        # 3. Perform LLM classification with JSON validation & retries
         prompt = PUBLICATION_CLASSIFIER_PROMPT.format(venue_name=name_clean)
-        raw = self.provider.generate(prompt)
-        clean_raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
-        clean_raw = re.sub(r"```\s*$", "", clean_raw, flags=re.MULTILINE).strip()
 
-        tier = "Tier 3"
-        reason = "LLM Venue Tiering"
+        def _call_classifier() -> Dict[str, Any]:
+            raw = self.provider.generate(prompt)
+            data = self.json_validator.parse_json(raw)
+            if isinstance(data, dict):
+                tier = data.get("tier", "Tier 3")
+                reason = data.get("reason", "LLM Venue Tiering")
+                score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
+                return {
+                    "venue_name": name_clean,
+                    "tier": tier,
+                    "score": score,
+                    "reason": reason
+                }
+            raise ValueError("LLM response is not a valid JSON object.")
+
         try:
-            json_match = re.search(r"\{.*\}", clean_raw, re.DOTALL)
-            json_str = json_match.group(0) if json_match else clean_raw
-            json_str = re.sub(r",\s*([\}\]])", r"\1", json_str)
-            data = json.loads(json_str)
-            tier = data.get("tier", "Tier 3")
-            reason = data.get("reason", reason)
+            res = self.retry_handler.execute_with_retry(_call_classifier)
         except Exception as e:
-            logger.warning(f"Failed to parse LLM JSON for publication venue '{name_clean}': {e}. Raw LLM output: {raw!r}")
-
-        score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
-        res = {
-            "venue_name": name_clean,
-            "tier": tier,
-            "score": score,
-            "reason": reason
-        }
+            logger.warning(f"Publication classifier failed for '{name_clean}': {e}. Defaulting safely to Tier 3.")
+            res = {
+                "venue_name": name_clean,
+                "tier": "Tier 3",
+                "score": settings.TIER_3_SCORE,
+                "reason": "Defaulted due to classification parsing error"
+            }
 
         # Save to caches
         self.cache[key] = res
@@ -120,3 +127,79 @@ class PublicationClassifier:
         self._save_db_cache(name_clean, res["tier"], res["score"], res["reason"])
 
         return res
+
+    def classify_batch(self, venue_names: List[str]) -> Dict[str, Dict[str, Any]]:
+        """
+        Classify multiple publication venues in a single request where possible.
+        """
+        results = {}
+        uncached = []
+
+        # Check caches first
+        for venue in venue_names:
+            if not venue or not isinstance(venue, str) or not venue.strip():
+                results[venue] = {
+                    "venue_name": "Unknown",
+                    "tier": "Tier 3",
+                    "score": settings.TIER_3_SCORE,
+                    "reason": "Missing venue name"
+                }
+                continue
+
+            v_clean = venue.strip()
+            key = v_clean.lower()
+            if key in self.cache:
+                results[v_clean] = self.cache[key]
+            else:
+                db_res = self._get_db_cache(v_clean)
+                if db_res:
+                    self.cache[key] = db_res
+                    results[v_clean] = db_res
+                else:
+                    uncached.append(v_clean)
+
+        if not uncached:
+            return results
+
+        # Process uncached venues in batch
+        logger.info(f"Classifying {len(uncached)} publication venues in batch...")
+        prompt = BATCH_PUBLICATION_CLASSIFIER_PROMPT.format(venues_json=json.dumps(uncached))
+
+        def _call_batch() -> List[Dict[str, Any]]:
+            raw = self.provider.generate(prompt)
+            data = self.json_validator.parse_json(raw)
+            if isinstance(data, dict) and "classifications" in data:
+                return data["classifications"]
+            elif isinstance(data, list):
+                return data
+            raise ValueError("Batch classification format mismatch.")
+
+        try:
+            batch_res = self.retry_handler.execute_with_retry(_call_batch)
+            for item in batch_res:
+                v_name = item.get("venue_name")
+                tier = item.get("tier", "Tier 3")
+                score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
+                reason = item.get("reason", "Batch LLM classification")
+                
+                res_obj = {
+                    "venue_name": v_name,
+                    "tier": tier,
+                    "score": score,
+                    "reason": reason
+                }
+                if v_name:
+                    key = v_name.lower()
+                    self.cache[key] = res_obj
+                    self._save_db_cache(v_name, tier, score, reason)
+                    results[v_name] = res_obj
+            self._save_file_cache()
+        except Exception as e:
+            logger.warning(f"Batch venue classification failed ({e}). Falling back to individual venue processing.")
+
+        # Fallback for any uncached venues not resolved by batch
+        for v_clean in uncached:
+            if v_clean not in results:
+                results[v_clean] = self.classify(v_clean)
+
+        return results

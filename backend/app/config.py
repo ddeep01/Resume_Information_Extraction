@@ -25,6 +25,15 @@ class Settings:
     LLM_API_KEY: str = os.getenv("LLM_API_KEY", "")
     LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.0"))
     
+    # Token & Chunking Controls
+    SAFE_INPUT_TOKENS: int = int(os.getenv("SAFE_INPUT_TOKENS", "12000"))
+    MAX_INPUT_TOKENS: int = int(os.getenv("MAX_INPUT_TOKENS", "16000"))
+    OVERLAP_TOKENS: int = int(os.getenv("OVERLAP_TOKENS", "1500"))
+    OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "300"))
+    LLM_MAX_RETRIES: int = int(os.getenv("LLM_MAX_RETRIES", "3"))
+    LLM_RETRY_DELAY: float = float(os.getenv("LLM_RETRY_DELAY", "1.0"))
+    CHUNK_CACHE_ENABLED: bool = os.getenv("CHUNK_CACHE_ENABLED", "true").lower() == "true"
+    
     # Tier Weights
     TIER_1_SCORE: float = 1.00
     TIER_2_SCORE: float = 0.66

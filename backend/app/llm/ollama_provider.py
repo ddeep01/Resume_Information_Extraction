@@ -7,10 +7,11 @@ from backend.app.config import settings
 logger = logging.getLogger("OllamaProvider")
 
 class OllamaProvider(LLMProvider):
-    def __init__(self, base_url: str = None, model: str = None, temperature: float = 0.0):
+    def __init__(self, base_url: str = None, model: str = None, temperature: float = 0.0, timeout: Optional[int] = None):
         self.base_url = (base_url or settings.LLM_BASE_URL).rstrip("/")
         self.model = model or settings.LLM_MODEL
         self.temperature = temperature
+        self.timeout = timeout or settings.OLLAMA_TIMEOUT
 
     def generate(self, prompt: str, system: Optional[str] = None) -> str:
         url = f"{self.base_url}/api/generate"
@@ -24,7 +25,7 @@ class OllamaProvider(LLMProvider):
             }
         }
         try:
-            response = requests.post(url, json=payload, timeout=300)
+            response = requests.post(url, json=payload, timeout=self.timeout)
             response.raise_for_status()
             data = response.json()
             return data.get("response", "").strip()
