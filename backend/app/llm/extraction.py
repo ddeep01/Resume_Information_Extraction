@@ -39,7 +39,13 @@ class LLMExtractor:
         text = text.strip()
         # Remove ```json ... ``` codeblocks
         text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.MULTILINE)
-        text = re.sub(r"```\s*$", "", text, flags=re.MULTILINE)
+        text = re.sub(r"```\s*$", "", text, flags=re.MULTILINE).strip()
+        # Extract JSON object between { and } if LLM included conversational text
+        match = re.search(r"\{.*\}", text, re.DOTALL)
+        if match:
+            text = match.group(0)
+        # Fix trailing commas before closing braces/brackets
+        text = re.sub(r",\s*([\}\]])", r"\1", text)
         return text.strip()
 
     def extract_candidate_data(self, cleaned_resume_text: str) -> Dict[str, Any]:
@@ -49,7 +55,12 @@ class LLMExtractor:
         # Always execute via LLM
         raw_response = self.provider.generate(prompt, system=system)
         cleaned_response = self.clean_json_response(raw_response)
-        parsed_json = json.loads(cleaned_response)
+        
+        try:
+            parsed_json = json.loads(cleaned_response)
+        except Exception as e:
+            logger.error(f"JSON parsing failed for candidate extraction: {e}. Raw response snippet: {raw_response[:300]!r}")
+            raise ValueError(f"LLM output could not be parsed as JSON: {e}")
         
         if not isinstance(parsed_json, dict):
             raise ValueError(f"LLM output is not a valid JSON dictionary: {cleaned_response[:100]}")

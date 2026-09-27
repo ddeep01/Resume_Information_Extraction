@@ -1,5 +1,5 @@
 from typing import Optional, List, Dict, Any
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 # ---------------------------------------------------------
 # Personal Information Schema
@@ -47,6 +47,16 @@ class AcademicExperienceItem(BaseModel):
     institution_tier: Optional[str] = Field(default="Tier 3")
     institution_score: float = Field(default=0.33)
 
+    @field_validator('duration_years', mode='before')
+    @classmethod
+    def sanitize_duration(cls, v):
+        if v is None:
+            return 0.0
+        try:
+            return float(v)
+        except (ValueError, TypeError):
+            return 0.0
+
 # ---------------------------------------------------------
 # Industry Experience Item Schema
 # ---------------------------------------------------------
@@ -56,6 +66,16 @@ class IndustryExperienceItem(BaseModel):
     role: Optional[str] = None
     duration_years: float = Field(default=0.0, ge=0.0)
     location: Optional[str] = None
+
+    @field_validator('duration_years', mode='before')
+    @classmethod
+    def sanitize_duration(cls, v):
+        if v is None:
+            return 0.0
+        try:
+            return float(v)
+        except (ValueError, TypeError):
+            return 0.0
 
 # ---------------------------------------------------------
 # Experience Container Schema

@@ -93,14 +93,25 @@ class InstitutionClassifier:
         raw = self.provider.generate(prompt)
         clean_raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
         clean_raw = re.sub(r"```\s*$", "", clean_raw, flags=re.MULTILINE).strip()
-        data = json.loads(clean_raw)
-        tier = data.get("tier", "Tier 3")
+
+        tier = "Tier 3"
+        reason = "LLM Tier Classification"
+        try:
+            json_match = re.search(r"\{.*\}", clean_raw, re.DOTALL)
+            json_str = json_match.group(0) if json_match else clean_raw
+            json_str = re.sub(r",\s*([\}\]])", r"\1", json_str)
+            data = json.loads(json_str)
+            tier = data.get("tier", "Tier 3")
+            reason = data.get("reason", reason)
+        except Exception as e:
+            logger.warning(f"Failed to parse LLM JSON for institution '{name_clean}': {e}. Raw LLM output: {raw!r}")
+
         score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
         res = {
             "institution": name_clean,
             "tier": tier,
             "score": score,
-            "reason": data.get("reason", "LLM Tier Classification")
+            "reason": reason
         }
 
         # Save to caches
