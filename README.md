@@ -1,254 +1,301 @@
-# Project Info: LLM-Based Faculty Resume Information Extraction System
+# Recruiter-Based Resume Shortlisting & Ranking System
 
-An end-to-end, automated AI pipeline designed to extract, clean, validate, and visualize structured information from unstructured faculty resumes (PDF format). The system combines robust PDF text extraction, deterministic text cleaning, local Large Language Model (LLM) extraction with strict JSON schema enforcement, comprehensive evaluation tools, and an interactive web-based visualization dashboard.
-
----
-
-## 📋 Table of Contents
-- [System Architecture & Workflow](#-system-architecture--workflow)
-- [Key Features](#-key-features)
-- [Project Directory Structure](#-project-directory-structure)
-- [Pipeline Component Breakdown](#-pipeline-component-breakdown)
-  - [1. Multi-Engine PDF Extraction](#1-multi-engine-pdf-extraction)
-  - [2. Deterministic Text Cleaning](#2-deterministic-text-cleaning)
-  - [3. LLM-Based Extraction & Validation](#3-llm-based-extraction--validation)
-  - [4. Evaluation & Benchmarking](#4-evaluation--benchmarking)
-  - [5. Web Visualization Dashboard](#5-web-visualization-dashboard)
-- [Extraction JSON Schema](#-extraction-json-schema)
-- [Tech Stack & Dependencies](#-tech-stack--dependencies)
-- [Getting Started & Usage Guide](#-getting-started--usage-guide)
+An end-to-end production-oriented system for recruiters to create recruitment sessions, set candidate criteria, upload batch ZIP resume archives, automatically extract structured candidate data using LLMs, classify institution and publication venue tiers, evaluate eligibility, calculate component scores, rank candidates, and review shortlisted profiles via a modern Web UI.
 
 ---
 
-## 🏗️ System Architecture & Workflow
+## 1. System Architecture
 
-The project follows a modular, 5-stage architecture that transforms raw PDF resumes into structured, searchable faculty profiles:
-
-```
-[ Raw Resumes (PDF) ]
-         │
-         ▼
- 1. PDF Extraction Engine  ──────────► PyMuPDF (Primary) / pdfplumber (Fallback 1) / pdfminer (Fallback 2)
-         │
-         ▼
- 2. Text Cleaning Pipeline ──────────► Unicode NFKC, Line Endings, De-hyphenation, Bullet Normalization
-         │
-         ▼
- 3. LLM Extraction & Validation ─────► Ollama (LLaMA 3.1 8B / Qwen 2.5) + Recursive Schema Enforcement
-         │
-         ▼
- 4. Data Export & Storage  ──────────► JSON Outputs / Evaluation Benchmarks
-         │
-         ▼
- 5. Interactive Frontend   ──────────► Glassmorphism Dashboard, Search, Filters, & Faculty Profiles
+```text
+Recruiter Web UI
+       │
+       ▼
+FastAPI REST API (/api/sessions)
+       │
+       ▼
+Recruitment Session Manager & Storage (data/sessions/SES-2026-XXXX/)
+       │
+       ├─► Safe ZIP Extraction & File Discovery (PDF/DOCX)
+       ├─► Text Extraction (PyMuPDF -> PDFMiner -> OCR Fallback | python-docx)
+       ├─► Text Preprocessing (Unicode NFKC, Control Chars, Hyphen Wrapping, Bullets)
+       ├─► LLM Structured Extraction (Abstracted LLM Provider: Ollama / OpenAI / Fallback)
+       ├─► Institution Tier Classifier (LLM + Persistent Cache: Tier 1/2/3)
+       ├─► Publication Venue Tier Classifier (LLM + Persistent Cache: Tier 1/2/3)
+       ├─► Eligibility Filter (Degree, Specialization, Experience, Publication Window)
+       ├─► Candidate Scoring Engine (Education, Publication, Academic & Industry Exp)
+       ├─► Ranking Engine (Sort by Final Score, Top-N Shortlist Assignment)
+       └─► Audit Persistence (SQLite DB + Detailed JSON artifacts)
 ```
 
 ---
 
-## ✨ Key Features
+## 2. Directory Structure
 
-- **Multi-Engine Fallback Extraction**: High-performance extraction using PyMuPDF (`fitz`) with automatic fallbacks to `pdfplumber` and `pdfminer.six` for resilient layout scanning.
-- **Deterministic Cleaning**: 9-stage text normalization pipeline that cleans Unicode symbols, fixes word wrapping across hyphenated line breaks, removes non-printable control characters, and standardizes bullet structures.
-- **Strict LLM Schema Enforcement**: Uses local LLM inference via [Ollama](https://ollama.ai) coupled with a recursive JSON validator that handles missing fields, strips out unknown keys, cleans markdown noise, and handles retries automatically.
-- **Evaluation Framework**: Built-in benchmarking suite measuring extraction accuracy (Levenshtein distance, character error rates) and field-level precision/recall against ground-truth JSON files.
-- **Modern Web Dashboard**: Glassmorphism web UI with dark/light themes, live search, multi-faceted filtering (experience, designation, publications, patents, degrees), overview charts (Chart.js), and detailed faculty profile views.
-
----
-
-## 📁 Project Directory Structure
-
-```
-LLM_Based_Extraction/
-├── backend/                        # Backend Python pipeline
-│   ├── extraction/                 # PDF text extraction engine
-│   │   └── pdf_extractor.py        # PyMuPDF, pdfplumber, and pdfminer extraction logic
-│   ├── text_cleaning/              # Text normalization & cleaning engine
-│   │   ├── cleaner.py              # TextCleaner class & 9-stage pipeline
-│   │   ├── cleaning_report.py      # Statistical reporting generator
-│   │   └── report/                 # Cleaning statistics JSON reports
-│   ├── llm/                        # LLM prompt, execution, and validation
-│   │   ├── prompt.py               # Extraction prompt builder & target JSON schema
-│   │   ├── validator.py            # Recursive JSON parser & schema validator
-│   │   └── extractor.py            # Ollama client caller with retry loops
-│   └── utils.py                    # Project path helper utilities
-├── frontend/                       # Web visualization dashboard
-│   ├── index.html                  # Main dashboard overview page
-│   ├── faculty.html                # Detailed faculty profile viewer page
-│   ├── css/                        # Custom modular styling (glassmorphism UI)
-│   └── js/                         # Frontend logic (Chart.js, filters, loader, search)
-│       ├── app.js                  # Main dashboard app initializer & stats cards
-│       ├── dashboard.js            # Analytical summary & metrics calculation
-│       ├── faculty.js              # Faculty detail page rendering script
-│       ├── filters.js              # Multi-faceted filter panel handler
-│       ├── loader.js               # JSON dataset loader & state management
-│       └── search.js               # Real-time search query listener
-├── data/                           # Data storage pipeline
-│   ├── raw_resumes/                # Input PDF resume documents
-│   ├── extracted_text/             # Raw extracted text files (.txt)
-│   ├── cleaned_text/               # Preprocessed & cleaned text (.txt)
-│   ├── extracted_json/             # Final validated LLM JSON output files
-│   ├── invalid_json/               # Logged raw responses that failed parsing
-│   └── ground_truth/               # Reference benchmark data
-├── evaluation/                     # Accuracy & precision metrics framework
-│   ├── result_text_extraction/     # Levenshtein & OCR extraction metrics & plots
-│   └── result_llm/                 # Field-level accuracy, precision & recall metrics
-├── logs/                           # System execution logs (llm_extraction.log)
-├── requirements.txt                # Python package dependencies
-└── README.md                       # Project documentation
-```
-
----
-
-## ⚙️ Pipeline Component Breakdown
-
-### 1. Multi-Engine PDF Extraction
-- **File**: [`backend/extraction/pdf_extractor.py`](file:///e:/LLM_Based_Extraction/backend/extraction/pdf_extractor.py)
-- **Function**: Extracts text from raw PDF resumes using a tiered strategy:
-  1. Attempts primary fast extraction using **PyMuPDF** (`fitz`).
-  2. Evaluates extracted text length against `MIN_TEXT_LENGTH = 100`.
-  3. If text length is insufficient, falls back to **pdfplumber** layout extraction.
-  4. If text length is still insufficient, falls back to **pdfminer.six** layout parsing.
-  5. Saves extracted text into `data/extracted_text/`.
-
-### 2. Deterministic Text Cleaning
-- **File**: [`backend/text_cleaning/cleaner.py`](file:///e:/LLM_Based_Extraction/backend/text_cleaning/cleaner.py)
-- **Function**: Applies a non-destructive 9-stage cleaning pipeline:
-  - **Unicode Normalization**: NFKC normalization + explicit replacement map (ligatures like `ﬁ` $\rightarrow$ `fi`, quotes, en/em dashes).
-  - **Control Character Removal**: Strips non-printable control characters `\x00-\x08`, `\x0B-\x0C`, `\x0E-\x1F`.
-  - **Line Ending & Space Normalization**: Standardizes `\r\n` to `\n`, converts tabs to single spaces, and collapses double/multiple space sequences.
-  - **De-hyphenation**: Joins words split across line breaks with hyphens (`pattern: ([A-Za-z])-\n([A-Za-z])`).
-  - **Bullet Symbol Normalization**: Converts diverse bullet point symbols (`•`, `●`, `▪`, `►`, `✓`) into clean ASCII hyphens (`-`).
-  - **Blank Line Collapsing**: Restricts consecutive blank lines to a maximum of two (`\n\n`).
-  - Generates full summary analytics exported to `backend/text_cleaning/report/cleaning_statistics.json`.
-
-### 3. LLM-Based Extraction & Validation
-- **Prompt Builder**: [`backend/llm/prompt.py`](file:///e:/LLM_Based_Extraction/backend/llm/prompt.py) defines the structured schema and strict system instructions (e.g., zero markdown wrapping, no hallucinated fields, publication count aggregations).
-- **LLM Extractor**: [`backend/llm/extractor.py`](file:///e:/LLM_Based_Extraction/backend/llm/extractor.py) communicates with a local **Ollama** server running models such as `llama3.1:8b`, `qwen2.5:7b`, or `mistral:7b`. Features zero-temperature inference, configurable retry counts (`MAX_RETRIES = 3`), and response timing logs.
-- **JSON Validator**: [`backend/llm/validator.py`](file:///e:/LLM_Based_Extraction/backend/llm/validator.py) receives raw LLM string responses and executes:
-  - Stripping of markdown code fences (```json ... ```) and prefix phrases ("Here is the JSON:").
-  - Extraction of the outermost JSON object bounds (`{ ... }`).
-  - Recursive schema enforcement: populates missing fields with default type values (`""` for strings, `[]` for arrays, `0` for numbers), strips unknown keys not present in the master schema, and dumps unparseable responses to `data/invalid_json/` for auditing.
-
-### 4. Evaluation & Benchmarking
-- **Text Extraction Benchmark**: Located in [`evaluation/result_text_extraction/`](file:///e:/LLM_Based_Extraction/evaluation/result_text_extraction/). Evaluates PDF extraction fidelity against ground truth text using string distance metrics and outputs visualization plots.
-- **LLM Accuracy Benchmark**: Located in [`evaluation/result_llm/`](file:///e:/LLM_Based_Extraction/evaluation/result_llm/). Compares extracted JSON against ground truth JSON structures across field-level precision, recall, F1 scores, and JSON syntax validity.
-
-### 5. Web Visualization Dashboard
-- **Main View**: [`frontend/index.html`](file:///e:/LLM_Based_Extraction/frontend/index.html) presents an interactive dashboard featuring:
-  - Overview cards: Total Faculty, PhD count, Assistant/Associate/Full Professor distribution, Average Experience, total publications, patents, and top universities.
-  - Multi-criteria Filter Panel: Filter by highest degree, institution type, designation, experience range (0-2, 2-5, 5-10, 10+ years), and presence of journal publications, conference papers, or patents.
-  - Faculty Grid: Interactive cards presenting candidate initials, degree badges, current institution, experience, publication count, and profile navigation button.
-- **Faculty Profile View**: [`frontend/faculty.html`](file:///e:/LLM_Based_Extraction/frontend/faculty.html) renders complete faculty dossiers including personal/contact information, education timeline, work experience history, and publication breakdown charts.
-
----
-
-## 📊 Extraction JSON Schema
-
-The LLM extracts candidate information strictly conforming to the following target schema:
-
-```json
-{
-    "personal_information": {
-        "full_name": "Dr. Jane Doe",
-        "current_designation": "Associate Professor",
-        "total_experience": "12 Years",
-        "email": "jane.doe@university.edu",
-        "phone": "+1-555-0199",
-        "date_of_birth": "1982-05-14",
-        "gender": "Female",
-        "address": "Department of Computer Science, State University",
-        "linkedin": "https://linkedin.com/in/janedoe",
-        "google_scholar": "https://scholar.google.com/citations?user=example",
-        "researchgate": "https://researchgate.net/profile/Jane-Doe"
-    },
-    "education": [
-        {
-            "degree": "Ph.D.",
-            "specialization": "Computer Science & Engineering",
-            "institution": "Indian Institute of Technology",
-            "board_university": "IIT",
-            "year": "2012",
-            "cgpa_percentage": "9.5/10"
-        }
-    ],
-    "experience": [
-        {
-            "designation": "Associate Professor",
-            "organization": "State University",
-            "start_date": "2018",
-            "end_date": "Present",
-            "duration": "6 Years",
-            "description": "Leading research in artificial intelligence and teaching undergraduate courses."
-        }
-    ],
-    "publication_summary": {
-        "journal_publications": 14,
-        "conference_publications": 22,
-        "book_publications": 2,
-        "book_chapters": 5,
-        "patents": 3
-    }
-}
+```text
+e:/LLM_Based_Extraction/
+├── backend/
+│   └── app/
+│       ├── main.py                     # FastAPI main application
+│       ├── config.py                   # Global settings and env configuration
+│       ├── api/                        # API routes (sessions, candidates, shortlist)
+│       │   ├── router.py
+│       │   ├── sessions.py
+│       │   └── candidates.py
+│       ├── models/                     # SQLite database ORM & schemas
+│       │   ├── database.py
+│       │   ├── session.py
+│       │   └── candidate.py
+│       ├── schemas/                    # Pydantic data schemas
+│       │   ├── recruiter.py
+│       │   ├── candidate.py
+│       │   └── results.py
+│       ├── pipeline/                   # Extraction & Preprocessing pipeline
+│       │   ├── pdf_extractor.py
+│       │   ├── docx_extractor.py
+│       │   ├── preprocessor.py
+│       │   └── orchestrator.py
+│       ├── llm/                        # Provider Abstraction & Extraction
+│       │   ├── base.py
+│       │   ├── ollama_provider.py
+│       │   ├── remote_provider.py
+│       │   ├── extraction.py
+│       │   └── prompts.py
+│       ├── classification/             # Tier 1/2/3 Classifiers & Caches
+│       │   ├── institution_classifier.py
+│       │   └── publication_classifier.py
+│       ├── shortlisting/               # Matching, Scoring & Ranking logic
+│       │   ├── degree_matcher.py
+│       │   ├── specialization_matcher.py
+│       │   ├── eligibility.py
+│       │   ├── scoring.py
+│       │   └── ranking.py
+│       ├── services/                   # Business logic services
+│       │   ├── session_service.py
+│       │   ├── zip_service.py
+│       │   └── candidate_service.py
+│       └── workers/                    # Asynchronous background processing worker
+│           └── processing_worker.py
+│
+├── frontend/                           # Recruiter Web Dashboard
+│   ├── css/
+│   │   └── app.css                     # Dark mode modern design system
+│   ├── js/
+│   │   └── app.js                      # Application state & API integration
+│   └── index.html                      # Single page web interface
+│
+├── data/                               # Session-isolated data storage
+│   ├── sessions/                       # Session data (SES-2026-XXXX)
+│   ├── cache/                          # Persistent caches (institutions.json, publication_venues.json)
+│   └── test_resumes/                   # Sample ZIP archives for testing
+│
+├── tests/                              # Pytest automated test suite
+│   ├── test_pipeline.py
+│   ├── test_shortlisting.py
+│   └── test_api.py
+│
+├── .env.example
+├── pytest.ini
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## 3. Processing Stages
 
-- **Language**: Python 3.9+
-- **PDF Processing**: PyMuPDF (`fitz`), `pdfplumber`
-- **Data Manipulation**: `pandas`, `dataclasses`, `pathlib`, `json`, `re`
-- **LLM Integration**: `ollama` (Local inference using LLaMA 3.1 / Qwen 2.5 / Mistral)
-- **Frontend Stack**: HTML5, Vanilla CSS3 (Glassmorphic Design, Dark/Light Themes), JavaScript (ES6+), FontAwesome 6, Chart.js
+Each resume batch progresses through 10 stages:
+
+1. **ZIP Extraction**: Safely unpacks uploaded ZIP file with path-traversal protection.
+2. **Text Extraction**: Converts PDF (PyMuPDF -> PDFMiner -> OCR fallback) and DOCX files into raw text.
+3. **Text Cleaning**: Normalizes Unicode NFKC, removes control characters, fixes hyphenated word linebreaks, and normalizes space/bullet symbols.
+4. **LLM Structured Extraction**: Passes cleaned text to LLM to extract JSON matching Pydantic schema (Personal info, Education, Publications, Experience).
+5. **Institution Classification**: Classifies each university into Tier 1 (1.00), Tier 2 (0.66), or Tier 3 (0.33) with persistent caching.
+6. **Publication Venue Classification**: Classifies each publication venue into Tier 1 (1.00), Tier 2 (0.66), or Tier 3 (0.33) with persistent caching.
+7. **Experience Processing**: Separates Academic and Industry experience and calculates exact duration in years.
+8. **Eligibility Filtering**: Verifies mandatory recruiter criteria (Degree, Specialization, Min Experience, Min Publications in Window).
+9. **Candidate Scoring**: Computes normalized component scores (0.0 to 1.0) and computes weighted `final_score` (0 to 100).
+10. **Ranking & Shortlisting**: Ranks eligible candidates by final score descending, selects Top-N candidates as `SHORTLISTED`, and stores results.
 
 ---
 
-## 🚀 Getting Started & Usage Guide
+## 4. Scoring Formulas
+
+$$\text{Final Score} = \left( S_{\text{edu}} \cdot W_{\text{edu}} + S_{\text{pub}} \cdot W_{\text{pub}} + S_{\text{acad}} \cdot W_{\text{acad}} + S_{\text{ind}} \cdot W_{\text{ind}} \right) \times 100$$
+
+Where:
+- $S_{\text{edu}}$ = Weighted average of institution tier scores (Tier 1 = 1.0, Tier 2 = 0.66, Tier 3 = 0.33) across PhD (50%), PG (30%), and UG (20%).
+- $S_{\text{pub}}$ = Combination of publication quantity score (40%) and venue tier average (60%) within publication time window.
+- $S_{\text{acad}}$ = Academic experience duration score (50%) + academic institution tier score (50%).
+- $S_{\text{ind}}$ = Industry experience duration score capped at 8 years.
+- $W_{\text{edu}}, W_{\text{pub}}, W_{\text{acad}}, W_{\text{ind}}$ = Recruiter configured weights (must sum to 100%). Default: 35%, 30%, 20%, 15%.
+
+---
+
+## 5. Local Execution Guide
 
 ### Prerequisites
-1. Install Python 3.9 or higher.
-2. Install and launch [Ollama](https://ollama.ai/).
-3. Pull your target LLM model in Ollama:
-   ```bash
-   ollama pull llama3.1:8b
-   ```
+- Python 3.9+
+- Pip & Virtual Environment
 
-### Installation
-1. Clone the repository or navigate to the project directory:
-   ```bash
-   cd e:/LLM_Based_Extraction
-   ```
-2. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Execution Steps
-
-#### Step 1: Place Resumes
-Copy raw PDF resume files into `data/raw_resumes/`.
-
-#### Step 2: Extract Text from Resumes
-Run the PDF extractor:
+### Step 1: Clone & Setup Environment
 ```bash
-python backend/extraction/pdf_extractor.py
+git clone https://github.com/your-org/LLM_Based_Extraction.git
+cd LLM_Based_Extraction
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+.\venv\Scripts\activate
+# Linux/macOS:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
-#### Step 3: Clean Extracted Text
-Run the text cleaner:
+### Step 2: Configure Environment Variables
+Copy `.env.example` to `.env`:
 ```bash
-python backend/text_cleaning/cleaner.py
+cp .env.example .env
+```
+Default `.env` configuration:
+```ini
+LLM_PROVIDER="ollama"
+LLM_MODEL="llama3.2"
+LLM_BASE_URL="http://localhost:11434"
 ```
 
-#### Step 4: Run LLM Extraction & Schema Validation
-Run the LLM extraction pipeline:
+### Step 3: Start LLM Service (Ollama)
 ```bash
-python backend/llm/extractor.py
+ollama run llama3.2
 ```
 
-#### Step 5: Launch Visualization Dashboard
-Open [`frontend/index.html`](file:///e:/LLM_Based_Extraction/frontend/index.html) in your browser or run a simple local HTTP server:
+### Step 4: Launch FastAPI Backend Server
 ```bash
-python -m http.server 8000 --directory frontend
+python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
-Navigate to `http://localhost:8000` to view the interactive Faculty Intelligence Dashboard.
+
+### Step 5: Open Recruiter Web UI
+Open your browser and navigate to:
+```text
+http://localhost:8000/
+```
+
+---
+
+## 6. Lightning AI GPU Deployment Guide
+
+To deploy and run the system on **Lightning AI Studio** (GPU Cloud Environment):
+
+### Step 1: Create a Lightning AI Studio
+1. Log in to [Lightning AI Studio](https://lightning.ai/).
+2. Click **New Studio**.
+3. Select a GPU tier (e.g. **T4**, **A10G**, or **L4** GPU).
+
+### Step 2: Clone Repository in Studio Terminal
+```bash
+cd ~
+git clone <your-repo-url> LLM_Based_Extraction
+cd LLM_Based_Extraction
+```
+
+### Step 3: Set Up Python Virtual Environment & OCR Dependencies
+```bash
+# System dependencies for PDF & OCR support
+sudo apt-get update && sudo apt-get install -y tesseract-ocr libtesseract-dev poppler-utils
+
+# Create python venv
+python3 -m venv venv
+source venv/bin/activate
+
+# Install python dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### Step 4: Install & Start Ollama on GPU Studio
+```bash
+# Install Ollama CLI
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Start Ollama server in background
+ollama serve &
+
+# Pull LLM model
+ollama pull llama3.2
+```
+
+### Step 5: Configure `.env` for Cloud Execution
+```bash
+cp .env.example .env
+```
+
+### Step 6: Start FastAPI Server & Expose Port 8000
+```bash
+python3 -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
+```
+In Lightning AI Studio UI, open the **Ports** tab and expose port **8000**. Open the public URL provided by Lightning AI to access the Recruiter Dashboard.
+
+---
+
+## 7. Automated Testing Suite
+
+To run all automated unit and integration tests:
+
+```bash
+# Run pytest test suite
+python -m pytest -v
+```
+
+Expected output:
+```text
+tests/test_api.py::test_health_check PASSED                              [ 10%]
+tests/test_api.py::test_create_and_get_session PASSED                    [ 20%]
+tests/test_api.py::test_upload_and_status PASSED                         [ 30%]
+tests/test_pipeline.py::test_text_cleaner PASSED                         [ 40%]
+tests/test_pipeline.py::test_docx_extractor_non_existent PASSED          [ 50%]
+tests/test_pipeline.py::test_pdf_extractor_non_existent PASSED           [ 60%]
+tests/test_shortlisting.py::test_degree_normalization PASSED             [ 70%]
+tests/test_shortlisting.py::test_degree_matching PASSED                  [ 80%]
+tests/test_shortlisting.py::test_specialization_matching PASSED          [ 90%]
+tests/test_shortlisting.py::test_scoring_and_ranking PASSED              [100%]
+```
+
+---
+
+## 8. API Specification
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/sessions` | Create a new recruitment session |
+| `GET` | `/api/sessions` | List all recruitment sessions |
+| `GET` | `/api/sessions/{session_id}` | Get session details & configuration |
+| `POST` | `/api/sessions/{session_id}/upload` | Upload resumes ZIP archive |
+| `POST` | `/api/sessions/{session_id}/start` | Start asynchronous resume processing |
+| `GET` | `/api/sessions/{session_id}/status` | Get real-time processing stage & progress |
+| `GET` | `/api/sessions/{session_id}/candidates` | List candidates (with search, filter, sort) |
+| `GET` | `/api/sessions/{session_id}/shortlist` | Get shortlisted Top-N candidates |
+| `GET` | `/api/sessions/{session_id}/candidates/{candidate_id}` | Get complete candidate profile detail |
+
+---
+
+## 9. Troubleshooting & FAQ
+
+- **LLM Connection Error (`Ollama API request error`)**:
+  - Verify Ollama is running using `ollama list` or `curl http://localhost:11434`.
+  - If Ollama is offline, the system automatically uses the internal fallback parser so processing is never interrupted.
+- **Port 8000 already in use**:
+  - Launch uvicorn on another port: `python -m uvicorn backend.app.main:app --port 8080`.
+- **Missing OCR dependencies on Linux**:
+  - Run `sudo apt-get install -y tesseract-ocr poppler-utils`.
+
+---
+
+## 10. Future Scalability Roadmap
+
+1. **Database Migration**: Migrate SQLite database layer to **PostgreSQL** by updating connection string in `config.py`.
+2. **Task Queue Migration**: Migrate background threads in `processing_worker.py` to **Celery + Redis**.
+3. **Object Storage**: Move local file directories (`data/sessions/`) to **AWS S3** or **Google Cloud Storage**.
+4. **Remote LLM Endpoints**: Switch `LLM_PROVIDER=openai` or use vLLM / HuggingFace TGI endpoints.

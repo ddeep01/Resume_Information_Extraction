@@ -3,211 +3,577 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faculty Information & Analytics Portal | University Administration</title>
+    <title>Recruiter Resume Shortlisting & Ranking System</title>
     
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/dashboard.css">
-    <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/app.css">
 </head>
-<body>
+<body class="dark-theme">
 
-    <!-- ================= PORTAL HEADER ================= -->
-    <header class="portal-header">
-        <div class="portal-header__inner">
-            <a href="index.html" class="portal-brand">
-                <div class="portal-brand__logo">
-                    <i class="fa-solid fa-graduation-cap"></i>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand" id="btn-brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-briefcase"></i>
                 </div>
-                <div class="portal-brand__text">
-                    <h1>University Faculty Portal</h1>
-                    <p>Faculty Information & Analytics System</p>
+                <div class="brand-text">
+                    <h1>RecruiterAI</h1>
+                    <p>Resume Shortlisting & Ranking System</p>
                 </div>
-            </a>
+            </div>
 
-            <nav class="portal-nav">
-                <button class="portal-nav__item active" data-tab="tab-directory">
-                    <i class="fa-solid fa-address-book"></i> Faculty Directory
+            <nav class="nav-links">
+                <button class="nav-btn active" id="nav-dashboard">
+                    <i class="fa-solid fa-gauge-high"></i> Dashboard
                 </button>
-                <button class="portal-nav__item" data-tab="tab-analytics">
-                    <i class="fa-solid fa-chart-pie"></i> Academic Analytics
+                <button class="nav-btn primary" id="nav-create-session">
+                    <i class="fa-solid fa-plus"></i> New Recruitment Session
                 </button>
             </nav>
         </div>
     </header>
 
-    <!-- ================= MAIN APP WRAPPER ================= -->
-    <div class="app-wrapper">
+    <!-- ================= MAIN CONTAINER ================= -->
+    <main class="main-container">
 
-        <!-- LEFT SIDEBAR: FIND FACULTY FILTER PANEL -->
-        <aside class="sidebar">
-            <section class="filter-card" id="filter-card">
-                <div class="filter-card__header">
-                    <h3 class="filter-card__title">
-                        <i class="fa-solid fa-filter"></i> Find Faculty
-                    </h3>
-                    <p class="filter-card__subtitle">
-                        Filter faculty members by academic and professional attributes.
-                    </p>
+        <!-- Notification Toast Container -->
+        <div id="toast-container" class="toast-container"></div>
+
+        <!-- ================= PAGE 1: DASHBOARD ================= -->
+        <section id="page-dashboard" class="page-view active">
+            <div class="page-header">
+                <div>
+                    <h2>Recruiter Dashboard</h2>
+                    <p class="subtitle">Overview of active and past candidate shortlisting sessions</p>
                 </div>
-
-                <div class="filter-grid">
-                    <div class="form-group">
-                        <label for="filter-degree">Degree</label>
-                        <select id="filter-degree" class="form-control"></select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="filter-institute">Institution</label>
-                        <select id="filter-institute" class="form-control"></select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="filter-designation">Designation</label>
-                        <select id="filter-designation" class="form-control"></select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="filter-experience">Experience</label>
-                        <select id="filter-experience" class="form-control"></select>
-                    </div>
-                </div>
-
-                <div class="checkbox-group">
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="filter-journal">
-                        Journal Publications
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="filter-conference">
-                        Conference Papers
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="filter-patent">
-                        Patents
-                    </label>
-                </div>
-
-                <div class="filter-actions">
-                    <button class="btn btn-primary" id="apply-filters">
-                        <i class="fa-solid fa-sliders"></i> Apply Filters
-                    </button>
-                    <button class="btn btn-secondary" id="clear-filters">
-                        <i class="fa-solid fa-rotate-left"></i> Clear Filters
-                    </button>
-                </div>
-            </section>
-        </aside>
-
-        <!-- MAIN CONTENT AREA -->
-        <main class="main-content">
-
-            <!-- ================= TAB 1: FACULTY DIRECTORY & OVERVIEW ================= -->
-            <div id="tab-directory" class="tab-pane active">
-
-                <!-- DASHBOARD METRIC STATS -->
-                <section class="dashboard-overview">
-                    <div class="dashboard-section-header">
-                        <h3><i class="fa-solid fa-chart-line"></i> Institutional Overview</h3>
-                    </div>
-                    <div class="stats-grid" id="stats-grid">
-                        <!-- Dynamic Metric Cards Inserted by JS -->
-                    </div>
-                </section>
-
-                <!-- FACULTY DIRECTORY TOOLBAR & DIRECTORY VIEWS -->
-                <section class="directory-section">
-                    <div class="directory-toolbar">
-                        <div class="directory-toolbar__count">
-                            Faculty Directory Results: <strong id="results-count">0 Results</strong>
-                        </div>
-
-                        <div class="view-switcher">
-                            <button class="view-switcher__btn active" id="view-grid-btn">
-                                <i class="fa-solid fa-border-all"></i> Grid View
-                            </button>
-                            <button class="view-switcher__btn" id="view-table-btn">
-                                <i class="fa-solid fa-table-list"></i> Table View
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- DIRECTORY CONTENT CONTAINER (Table or Cards) -->
-                    <div id="faculty-directory-container">
-                        <!-- Rendered by JS -->
-                    </div>
-                </section>
+                <button class="btn btn-primary btn-lg" id="btn-create-session">
+                    <i class="fa-solid fa-circle-plus"></i> Create Recruitment Session
+                </button>
             </div>
 
-            <!-- ================= TAB 2: ACADEMIC ANALYTICS ================= -->
-            <div id="tab-analytics" class="tab-pane" style="display: none;">
-                <div class="dashboard-section-header">
-                    <h3><i class="fa-solid fa-chart-pie"></i> Institutional Academic Analytics</h3>
+            <!-- Quick Metrics -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon blue"><i class="fa-solid fa-folder-open"></i></div>
+                    <div class="metric-data">
+                        <span class="metric-value" id="stat-total-sessions">0</span>
+                        <span class="metric-label">Total Sessions</span>
+                    </div>
                 </div>
-
-                <div class="analytics-grid">
-                    <div class="analytics-card">
-                        <div class="analytics-card__header">
-                            <h4 class="analytics-card__title">
-                                <i class="fa-solid fa-graduation-cap"></i> Faculty by Canonical Degree
-                            </h4>
-                        </div>
-                        <div class="analytics-card__chart">
-                            <canvas id="chart-degree"></canvas>
-                        </div>
+                <div class="metric-card">
+                    <div class="metric-icon purple"><i class="fa-solid fa-file-user"></i></div>
+                    <div class="metric-data">
+                        <span class="metric-value" id="stat-total-resumes">0</span>
+                        <span class="metric-label">Processed Resumes</span>
                     </div>
-
-                    <div class="analytics-card">
-                        <div class="analytics-card__header">
-                            <h4 class="analytics-card__title">
-                                <i class="fa-solid fa-user-tie"></i> Faculty Designation Distribution
-                            </h4>
-                        </div>
-                        <div class="analytics-card__chart">
-                            <canvas id="chart-designation"></canvas>
-                        </div>
-                    </div>
-
-                    <div class="analytics-card">
-                        <div class="analytics-card__header">
-                            <h4 class="analytics-card__title">
-                                <i class="fa-solid fa-briefcase"></i> Experience Distribution (Years)
-                            </h4>
-                        </div>
-                        <div class="analytics-card__chart">
-                            <canvas id="chart-experience"></canvas>
-                        </div>
-                    </div>
-
-                    <div class="analytics-card">
-                        <div class="analytics-card__header">
-                            <h4 class="analytics-card__title">
-                                <i class="fa-solid fa-book"></i> Total Research Output Summary
-                            </h4>
-                        </div>
-                        <div class="analytics-card__chart">
-                            <canvas id="chart-research"></canvas>
-                        </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon green"><i class="fa-solid fa-award"></i></div>
+                    <div class="metric-data">
+                        <span class="metric-value" id="stat-total-shortlisted">0</span>
+                        <span class="metric-label">Total Shortlisted</span>
                     </div>
                 </div>
             </div>
 
-        </main>
+            <!-- Session List Table -->
+            <div class="card shadow-lg mt-6">
+                <div class="card-header">
+                    <h3><i class="fa-solid fa-list-check"></i> Recruitment Sessions</h3>
+                    <button class="btn btn-secondary btn-sm" id="btn-refresh-sessions">
+                        <i class="fa-solid fa-rotate"></i> Refresh
+                    </button>
+                </div>
+                <div class="table-wrapper">
+                    <table class="custom-table" id="table-sessions">
+                        <thead>
+                            <tr>
+                                <th>Session ID</th>
+                                <th>Job Title</th>
+                                <th>Req. Degree</th>
+                                <th>Min Exp</th>
+                                <th>Top N</th>
+                                <th>Resumes</th>
+                                <th>Shortlisted</th>
+                                <th>Status</th>
+                                <th>Created At</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody-sessions">
+                            <tr>
+                                <td colspan="10" class="text-center py-8 text-muted">
+                                    <i class="fa-solid fa-spinner fa-spin fa-2x"></i>
+                                    <p class="mt-2">Loading recruitment sessions...</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PAGE 2: CREATE SESSION ================= -->
+        <section id="page-create-session" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>Create Recruitment Session</h2>
+                    <p class="subtitle">Define candidate eligibility criteria, scoring weights, and upload resume batch</p>
+                </div>
+                <button class="btn btn-secondary" id="btn-cancel-create">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Dashboard
+                </button>
+            </div>
+
+            <form id="form-create-session" class="form-grid">
+                <!-- Left Column: Job Info & Requirements -->
+                <div class="form-column">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-briefcase"></i> Job Information</h3>
+                        </div>
+                        <div class="card-body space-y-4">
+                            <div class="form-group">
+                                <label for="job_title">Job Title <span class="required">*</span></label>
+                                <input type="text" id="job_title" class="form-input" placeholder="e.g. Assistant Professor - Computer Science" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="job_description">Job Description / Requirements</label>
+                                <textarea id="job_description" class="form-textarea" rows="3" placeholder="Describe the job position and essential details..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-sliders"></i> Candidate Criteria</h3>
+                        </div>
+                        <div class="card-body space-y-4">
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="required_degree">Required Degree <span class="required">*</span></label>
+                                    <select id="required_degree" class="form-select" required>
+                                        <option value="PhD" selected>PhD / Doctorate</option>
+                                        <option value="M.Tech">M.Tech / M.E. / M.S.</option>
+                                        <option value="B.Tech">B.Tech / B.E. / B.Sc.</option>
+                                        <option value="MCA">MCA</option>
+                                        <option value="MBA">MBA</option>
+                                        <option value="None">None (Any Degree)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="required_specialization">Required Specialization <span class="required">*</span></label>
+                                    <input type="text" id="required_specialization" class="form-input" placeholder="e.g. Computer Science" value="Computer Science" required>
+                                </div>
+                            </div>
+
+                            <div class="grid-3">
+                                <div class="form-group">
+                                    <label for="minimum_experience">Min Experience (Yrs)</label>
+                                    <input type="number" id="minimum_experience" class="form-input" min="0" step="0.5" value="3.0" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="minimum_publications">Min Publications</label>
+                                    <input type="number" id="minimum_publications" class="form-input" min="0" step="1" value="5" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="publication_window_years">Publication Window (Yrs)</label>
+                                    <input type="number" id="publication_window_years" class="form-input" min="1" max="20" value="5" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="top_n">Number of Candidates to Shortlist (Top N) <span class="required">*</span></label>
+                                <input type="number" id="top_n" class="form-input" min="1" max="100" value="10" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Scoring Weights & Resume Upload -->
+                <div class="form-column">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-weight-hanging"></i> Scoring Weights (%)</h3>
+                            <span class="weight-total-badge" id="weight-total-indicator">Total: 100%</span>
+                        </div>
+                        <div class="card-body space-y-4">
+                            <div class="weight-slider-group">
+                                <div class="weight-label">
+                                    <span>Education Weight</span>
+                                    <span id="weight-edu-val">35%</span>
+                                </div>
+                                <input type="range" id="weight_education" min="0" max="100" value="35" class="weight-slider">
+                            </div>
+
+                            <div class="weight-slider-group">
+                                <div class="weight-label">
+                                    <span>Publication Weight</span>
+                                    <span id="weight-pub-val">30%</span>
+                                </div>
+                                <input type="range" id="weight_publication" min="0" max="100" value="30" class="weight-slider">
+                            </div>
+
+                            <div class="weight-slider-group">
+                                <div class="weight-label">
+                                    <span>Academic Experience Weight</span>
+                                    <span id="weight-acad-val">20%</span>
+                                </div>
+                                <input type="range" id="weight_academic" min="0" max="100" value="20" class="weight-slider">
+                            </div>
+
+                            <div class="weight-slider-group">
+                                <div class="weight-label">
+                                    <span>Industry Experience Weight</span>
+                                    <span id="weight-ind-val">15%</span>
+                                </div>
+                                <input type="range" id="weight_industry" min="0" max="100" value="15" class="weight-slider">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-file-zipper"></i> Resume Upload (ZIP)</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="upload-dropzone" id="upload-dropzone">
+                                <i class="fa-solid fa-cloud-arrow-up fa-3x"></i>
+                                <h4>Drag & Drop ZIP File Here</h4>
+                                <p>Supports .zip archive containing PDF or DOCX resumes</p>
+                                <input type="file" id="zip_file_input" accept=".zip" class="hidden-file-input" required>
+                                <button type="button" class="btn btn-secondary mt-3" id="btn-browse-file">
+                                    <i class="fa-solid fa-folder-open"></i> Browse File
+                                </button>
+                                <div id="selected-file-name" class="mt-3 text-emerald font-semibold hidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-submit-session">
+                            <i class="fa-solid fa-play"></i> START SHORTLISTING & PROCESSING
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <!-- ================= PAGE 3: PROCESSING MONITOR ================= -->
+        <section id="page-processing" class="page-view">
+            <div class="page-header">
+                <div>
+                    <h2>Resume Processing Monitor</h2>
+                    <p class="subtitle" id="proc-session-title">Session: SES-2026-0001</p>
+                </div>
+            </div>
+
+            <div class="card shadow-xl p-8 max-w-3xl mx-auto text-center">
+                <div class="status-spinner-wrap mb-6">
+                    <div class="progress-circle" id="progress-circle-element">
+                        <span class="progress-value" id="proc-percentage-text">0%</span>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <span class="badge badge-lg badge-processing" id="proc-stage-badge">ZIP EXTRACTION</span>
+                </div>
+
+                <div class="progress-bar-container mb-6">
+                    <div class="progress-bar-fill" id="proc-bar-fill" style="width: 0%;"></div>
+                </div>
+
+                <div class="stats-mini-grid mb-6">
+                    <div class="mini-stat">
+                        <span class="mini-label">Total Resumes</span>
+                        <span class="mini-val" id="proc-stat-total">0</span>
+                    </div>
+                    <div class="mini-stat">
+                        <span class="mini-label">Processed</span>
+                        <span class="mini-val text-blue" id="proc-stat-processed">0</span>
+                    </div>
+                    <div class="mini-stat">
+                        <span class="mini-label">Failed</span>
+                        <span class="mini-val text-red" id="proc-stat-failed">0</span>
+                    </div>
+                </div>
+
+                <p class="text-muted" id="proc-detail-msg">Extracting resume files and building processing queue...</p>
+
+                <div class="mt-6 hidden" id="proc-action-bar">
+                    <button class="btn btn-primary btn-lg" id="btn-view-results">
+                        <i class="fa-solid fa-trophy"></i> VIEW CANDIDATE RESULTS
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PAGE 4: CANDIDATE RESULTS ================= -->
+        <section id="page-results" class="page-view">
+            <div class="page-header">
+                <div>
+                    <span class="badge badge-primary mb-2" id="res-session-id">SES-2026-0001</span>
+                    <h2 id="res-job-title">Assistant Professor - Computer Science</h2>
+                    <p class="subtitle" id="res-session-meta">Required PhD in Computer Science | Min 3 Yrs Exp | Min 5 Pubs</p>
+                </div>
+                <div class="flex gap-2">
+                    <button class="btn btn-secondary" id="btn-back-dashboard">
+                        <i class="fa-solid fa-arrow-left"></i> Dashboard
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results Summary Cards -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon blue"><i class="fa-solid fa-users"></i></div>
+                    <div class="metric-data">
+                        <span class="metric-value" id="res-stat-total">0</span>
+                        <span class="metric-label">Total Processed</span>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon green"><i class="fa-solid fa-circle-check"></i></div>
+                    <div class="metric-data">
+                        <span class="metric-value" id="res-stat-eligible">0</span>
+                        <span class="metric-label">Eligible Candidates</span>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon gold"><i class="fa-solid fa-trophy"></i></div>
+                    <div class="metric-data">
+                        <span class="metric-value" id="res-stat-shortlisted">0</span>
+                        <span class="metric-label">Shortlisted (Top N)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toolbar & Filter Controls -->
+            <div class="card mt-6">
+                <div class="card-body py-4">
+                    <div class="results-toolbar">
+                        <!-- Search Box -->
+                        <div class="search-input-wrap">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input type="text" id="search-candidate" class="form-input search-input" placeholder="Search candidate name, email, designation...">
+                        </div>
+
+                        <!-- Filters -->
+                        <div class="filter-group-row">
+                            <select id="filter-status" class="form-select sm">
+                                <option value="">All Statuses</option>
+                                <option value="shortlisted">Shortlisted Only</option>
+                                <option value="eligible">Eligible Only</option>
+                                <option value="ineligible">Ineligible Only</option>
+                            </select>
+
+                            <select id="sort-by" class="form-select sm">
+                                <option value="final_score">Sort by Final Score</option>
+                                <option value="rank">Sort by Rank</option>
+                                <option value="name">Sort by Candidate Name</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Candidate Results Table -->
+            <div class="card shadow-lg mt-4">
+                <div class="table-wrapper">
+                    <table class="custom-table" id="table-candidates">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Candidate</th>
+                                <th>Current Designation</th>
+                                <th>Highest Degree</th>
+                                <th>Specialization</th>
+                                <th>Exp</th>
+                                <th>Pubs</th>
+                                <th>Edu Score</th>
+                                <th>Pub Score</th>
+                                <th>Final Score</th>
+                                <th>Status</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody-candidates">
+                            <!-- Populated dynamically by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= CANDIDATE DETAIL MODAL ================= -->
+    <div id="modal-candidate" class="modal-backdrop hidden">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="flex items-center gap-3">
+                    <div class="avatar-circle" id="modal-cand-avatar">JD</div>
+                    <div>
+                        <h3 id="modal-cand-name" class="modal-title">John Doe</h3>
+                        <p id="modal-cand-desig" class="modal-subtitle">Assistant Professor</p>
+                    </div>
+                </div>
+                <button class="modal-close" id="btn-close-modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="modal-body space-y-6">
+                <!-- Status Banner & Score Gauge -->
+                <div class="score-banner-card" id="modal-status-banner">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="badge badge-lg" id="modal-cand-status-badge">SHORTLISTED</span>
+                            <div class="text-sm mt-2 opacity-90" id="modal-cand-rank-text">Ranked #1 out of 50 candidates</div>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-3xl font-extrabold" id="modal-cand-final-score">89.5</div>
+                            <div class="text-xs uppercase tracking-wider opacity-80">Final Candidate Score</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Info -->
+                <div class="card-inner">
+                    <h4><i class="fa-solid fa-address-card"></i> Contact & Personal Info</h4>
+                    <div class="grid-2 mt-2 text-sm">
+                        <div><strong>Email:</strong> <span id="modal-cand-email">john@example.com</span></div>
+                        <div><strong>Phone:</strong> <span id="modal-cand-phone">+91 9876543210</span></div>
+                        <div><strong>Source File:</strong> <span id="modal-cand-file">resume.pdf</span></div>
+                        <div><strong>Candidate ID:</strong> <span id="modal-cand-id">CAND-0001</span></div>
+                    </div>
+                </div>
+
+                <!-- Shortlisting & Eligibility Reasons -->
+                <div class="card-inner">
+                    <h4><i class="fa-solid fa-clipboard-check"></i> Eligibility & Shortlisting Evaluation</h4>
+                    <ul class="reasons-list mt-2" id="modal-cand-reasons">
+                        <!-- Reasons populated here -->
+                    </ul>
+                </div>
+
+                <!-- Component Scores Breakdown -->
+                <div class="card-inner">
+                    <h4><i class="fa-solid fa-chart-column"></i> Component Scores Breakdown</h4>
+                    <div class="grid-2 gap-4 mt-3">
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>Education Score</span>
+                                <strong id="modal-score-edu">85 / 100</strong>
+                            </div>
+                            <div class="progress-bar-container sm">
+                                <div class="progress-bar-fill green" id="modal-bar-edu" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>Publication Score</span>
+                                <strong id="modal-score-pub">80 / 100</strong>
+                            </div>
+                            <div class="progress-bar-container sm">
+                                <div class="progress-bar-fill blue" id="modal-bar-pub" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>Academic Experience</span>
+                                <strong id="modal-score-acad">75 / 100</strong>
+                            </div>
+                            <div class="progress-bar-container sm">
+                                <div class="progress-bar-fill purple" id="modal-bar-acad" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-sm mb-1">
+                                <span>Industry Experience</span>
+                                <strong id="modal-score-ind">60 / 100</strong>
+                            </div>
+                            <div class="progress-bar-container sm">
+                                <div class="progress-bar-fill gold" id="modal-bar-ind" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Qualifications -->
+                <div class="card-inner">
+                    <h4><i class="fa-solid fa-graduation-cap"></i> Education Qualifications</h4>
+                    <div class="table-wrapper mt-2">
+                        <table class="custom-table sm">
+                            <thead>
+                                <tr>
+                                    <th>Level</th>
+                                    <th>Degree</th>
+                                    <th>Specialization / Stream</th>
+                                    <th>University / Institute</th>
+                                    <th>Year</th>
+                                    <th>Institution Tier</th>
+                                </tr>
+                            </thead>
+                            <tbody id="modal-tbody-education">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Publications -->
+                <div class="card-inner">
+                    <h4><i class="fa-solid fa-book-bookmark"></i> Research Publications</h4>
+                    <div class="table-wrapper mt-2">
+                        <table class="custom-table sm">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Publication Name</th>
+                                    <th>Venue Name</th>
+                                    <th>Year</th>
+                                    <th>Venue Tier</th>
+                                </tr>
+                            </thead>
+                            <tbody id="modal-tbody-publications">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Academic & Industry Experience -->
+                <div class="grid-2 gap-4">
+                    <div class="card-inner">
+                        <h4><i class="fa-solid fa-building-columns"></i> Academic Experience</h4>
+                        <div id="modal-list-academic" class="space-y-2 mt-2 text-sm">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                    <div class="card-inner">
+                        <h4><i class="fa-solid fa-city"></i> Industry Experience</h4>
+                        <div id="modal-list-industry" class="space-y-2 mt-2 text-sm">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btn-close-modal-footer">Close</button>
+            </div>
+        </div>
     </div>
 
-    <!-- Chart.js and Frontend Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="js/degree_normalizer.js"></script>
-    <script src="js/loader.js"></script>
+    <!-- JavaScript Application -->
     <script src="js/app.js"></script>
-    <script src="js/filters.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/dashboard.js"></script>
-
 </body>
 </html>
