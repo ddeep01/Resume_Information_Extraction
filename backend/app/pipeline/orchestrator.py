@@ -21,6 +21,13 @@ class ExtractionOrchestrator:
             raw_text, method = self.pdf_extractor.extract(file_path)
         elif suffix == ".docx":
             raw_text, method = self.docx_extractor.extract_docx(file_path)
+        elif suffix in [".txt", ".md"]:
+            try:
+                raw_text = file_path.read_text(encoding="utf-8", errors="ignore")
+                method = "text"
+            except Exception as e:
+                raw_text = ""
+                method = f"failed: {e}"
         else:
             return "", "", "unsupported"
 

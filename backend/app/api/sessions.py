@@ -91,3 +91,16 @@ def get_processing_status(session_id: str):
         shortlisted=session.shortlisted_candidates,
         percentage=pct
     )
+
+@router.delete("/clear")
+def clear_all_data():
+    return session_service.clear_all_data()
+
+@router.delete("/{session_id}")
+def delete_session(session_id: str):
+    success = session_service.delete_session(session_id)
+    if not success:
+        raise HTTPException(status_code=404, detail=f"Session {session_id} not found")
+    return {"status": "success", "message": f"Session {session_id} deleted successfully"}
+
+

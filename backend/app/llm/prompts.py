@@ -14,52 +14,52 @@ Represent missing values as null.
 EXTRACTION_USER_PROMPT_TEMPLATE = """Extract structured candidate details from this resume according to the JSON schema below.
 
 JSON SCHEMA:
-{
-  "personal_information": {
+{{
+  "personal_information": {{
     "full_name": "John Doe or null",
     "current_designation": "Assistant Professor or null",
     "email": "email@example.com or null",
     "phone": "+91 9876543210 or null"
-  },
+  }},
   "education": [
-    {
+    {{
       "qualification_type": "UG | PG | PhD | PDF | JRF | Other",
       "degree": "PhD | M.Tech | B.Tech | M.Sc | B.Sc | MCA | MBA | etc",
       "stream": "Computer Science and Engineering",
       "university": "Name of College or University",
       "year": "Year of graduation or completion e.g. 2022",
       "cgpa": "CGPA or percentage string if available or null"
-    }
+    }}
   ],
   "publications": [
-    {
+    {{
       "publication_type": "journal | conference | book | book_chapter | patent | other",
       "publication_name": "Title of paper or patent",
       "venue_name": "Journal or Conference or Publisher name",
       "published_at": "YYYY-MM or YYYY if available or null",
       "publication_year": 2024
-    }
+    }}
   ],
-  "experience": {
+  "experience": {{
     "academic": [
-      {
+      {{
         "experience_type": "academic",
         "institution": "University / Institute Name",
         "role": "Designation / Role",
         "duration_years": 4.5
-      }
+      }}
     ],
     "industry": [
-      {
+      {{
         "experience_type": "industry",
         "organization": "Company / Organization Name",
         "role": "Role / Designation",
         "duration_years": 2.0,
         "location": "City/Country or null"
-      }
+      }}
     ]
-  }
-}
+  }}
+}}
 
 INSTRUCTIONS:
 1. Extract ALL education records available (UG, PG, PhD, etc.). Do not drop lower degrees.

@@ -61,3 +61,34 @@ def test_upload_and_status():
         status_res = client.get(f"/api/sessions/{session_id}/status")
         assert status_res.status_code == 200
         assert status_res.json()["session_id"] == session_id
+
+def test_delete_single_session():
+    payload = {
+        "job_title": "Delete Test Session",
+        "required_degree": "PhD",
+        "required_specialization": "Computer Science",
+        "minimum_experience": 1.0,
+        "minimum_publications": 1,
+        "publication_window_years": 5,
+        "top_n": 5
+    }
+    create_res = client.post("/api/sessions", json=payload)
+    session_id = create_res.json()["session_id"]
+
+    del_res = client.delete(f"/api/sessions/{session_id}")
+    assert del_res.status_code == 200
+    assert del_res.json()["status"] == "success"
+
+    get_res = client.get(f"/api/sessions/{session_id}")
+    assert get_res.status_code == 404
+
+def test_clear_all_data():
+    res = client.delete("/api/sessions/clear")
+    assert res.status_code == 200
+    assert res.json()["status"] == "success"
+
+    list_res = client.get("/api/sessions")
+    assert list_res.status_code == 200
+    assert len(list_res.json()) == 0
+
+

@@ -126,3 +126,53 @@ class SessionService:
         cursor.execute(sql, params)
         conn.commit()
         conn.close()
+
+    def clear_all_data(self) -> Dict[str, Any]:
+        import shutil
+        # Clear session directories
+        if settings.SESSIONS_DIR.exists():
+            for item in settings.SESSIONS_DIR.glob("*"):
+                if item.is_dir():
+                    shutil.rmtree(item, ignore_errors=True)
+                else:
+                    item.unlink(missing_ok=True)
+
+        # Clear cache directory
+        if settings.CACHE_DIR.exists():
+            for item in settings.CACHE_DIR.glob("*"):
+                if item.is_dir():
+                    shutil.rmtree(item, ignore_errors=True)
+                else:
+                    item.unlink(missing_ok=True)
+
+        # Reset DB tables
+        conn = get_db_connection(settings.DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM candidates")
+        cursor.execute("DELETE FROM sessions")
+        cursor.execute("DELETE FROM institution_cache")
+        cursor.execute("DELETE FROM publication_venue_cache")
+        conn.commit()
+        conn.close()
+
+        logger.info("Cleared all session data, cache, and database tables.")
+        return {"status": "success", "message": "All session data, cache, and database entries cleared successfully."}
+
+    def delete_session(self, session_id: str) -> bool:
+        import shutil
+        session_dir = settings.SESSIONS_DIR / session_id
+        if session_dir.exists():
+            shutil.rmtree(session_dir, ignore_errors=True)
+
+        conn = get_db_connection(settings.DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM candidates WHERE session_id=?", (session_id,))
+        cursor.execute("DELETE FROM sessions WHERE session_id=?", (session_id,))
+        deleted_count = cursor.rowcount
+        conn.commit()
+        conn.close()
+
+        logger.info(f"Deleted session {session_id} and associated candidate records.")
+        return deleted_count > 0
+
+

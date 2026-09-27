@@ -2,8 +2,18 @@ import sqlite3
 from pathlib import Path
 
 def get_db_connection(db_path: Path):
+    db_path = Path(db_path)
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    is_new = not db_path.exists()
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
+    
+    if is_new:
+        conn.close()
+        init_db(db_path)
+        conn = sqlite3.connect(str(db_path))
+        conn.row_factory = sqlite3.Row
+        
     return conn
 
 def init_db(db_path: Path):

@@ -8,7 +8,6 @@ from datetime import datetime
 from backend.app.config import settings
 from backend.app.models.database import get_db_connection
 from backend.app.llm.extraction import get_llm_provider
-from backend.app.llm.remote_provider import MockFallbackProvider
 from backend.app.llm.prompts import PUBLICATION_CLASSIFIER_PROMPT
 
 logger = logging.getLogger("PublicationClassifier")
@@ -18,7 +17,6 @@ class PublicationClassifier:
         self.cache_file = cache_file or (settings.CACHE_DIR / "publication_venues.json")
         self.cache = self._load_file_cache()
         self.provider = get_llm_provider()
-        self.fallback = MockFallbackProvider()
 
     def _load_file_cache(self) -> Dict[str, Any]:
         if self.cache_file.exists():
@@ -92,31 +90,18 @@ class PublicationClassifier:
 
         # 3. Perform LLM classification
         prompt = PUBLICATION_CLASSIFIER_PROMPT.format(venue_name=name_clean)
-        try:
-            raw = self.provider.generate(prompt)
-            clean_raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
-            clean_raw = re.sub(r"```\s*$", "", clean_raw, flags=re.MULTILINE).strip()
-            data = json.loads(clean_raw)
-            tier = data.get("tier", "Tier 3")
-            score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
-            res = {
-                "venue_name": name_clean,
-                "tier": tier,
-                "score": score,
-                "reason": data.get("reason", "LLM Venue Tiering")
-            }
-        except Exception as e:
-            logger.warning(f"LLM venue classification failed for '{name_clean}': {e}. Using fallback.")
-            raw = self.fallback.generate(prompt)
-            data = json.loads(re.sub(r"```(?:json)?", "", raw).strip())
-            tier = data.get("tier", "Tier 3")
-            score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
-            res = {
-                "venue_name": name_clean,
-                "tier": tier,
-                "score": score,
-                "reason": data.get("reason", "Heuristic Venue Classification")
-            }
+        raw = self.provider.generate(prompt)
+        clean_raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
+        clean_raw = re.sub(r"```\s*$", "", clean_raw, flags=re.MULTILINE).strip()
+        data = json.loads(clean_raw)
+        tier = data.get("tier", "Tier 3")
+        score = settings.TIER_1_SCORE if tier == "Tier 1" else (settings.TIER_2_SCORE if tier == "Tier 2" else settings.TIER_3_SCORE)
+        res = {
+            "venue_name": name_clean,
+            "tier": tier,
+            "score": score,
+            "reason": data.get("reason", "LLM Venue Tiering")
+        }
 
         # Save to caches
         self.cache[key] = res

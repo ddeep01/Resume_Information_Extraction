@@ -25,10 +25,10 @@ class ZipService:
                     continue
                 zip_ref.extract(member, target_dir)
 
-        # Discover PDF and DOCX files recursively
+        # Discover PDF, DOCX, and TXT files recursively
         discovered_files = []
         for file_path in target_dir.rglob("*"):
-            if file_path.is_file() and file_path.suffix.lower() in [".pdf", ".docx"]:
+            if file_path.is_file() and file_path.suffix.lower() in [".pdf", ".docx", ".txt"]:
                 if not file_path.name.startswith("._") and "__MACOSX" not in str(file_path):
                     discovered_files.append(file_path)
 

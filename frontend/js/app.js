@@ -51,6 +51,12 @@ function setupNavigation() {
     document.getElementById('btn-create-session').addEventListener('click', () => switchView('createSession'));
     document.getElementById('btn-cancel-create').addEventListener('click', () => switchView('dashboard'));
     document.getElementById('btn-refresh-sessions').addEventListener('click', () => loadDashboardSessions());
+    
+    const clearBtn = document.getElementById('btn-clear-all-data');
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => clearAllSessions());
+    }
+
     document.getElementById('btn-back-dashboard').addEventListener('click', () => switchView('dashboard'));
     document.getElementById('btn-close-modal').addEventListener('click', closeModal);
     document.getElementById('btn-close-modal-footer').addEventListener('click', closeModal);
@@ -120,9 +126,14 @@ function renderDashboardSessions(sessions) {
             <td>${statusBadge}</td>
             <td>${dateStr}</td>
             <td>
-                <button class="btn btn-secondary btn-sm" onclick="openSessionResults('${s.session_id}')">
-                    <i class="fa-solid fa-eye"></i> View
-                </button>
+                <div style="display: flex; gap: 0.35rem; align-items: center;">
+                    <button class="btn btn-secondary btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Results">
+                        <i class="fa-solid fa-eye"></i> View
+                    </button>
+                    <button class="btn btn-outline-danger btn-sm" onclick="deleteSingleSession('${s.session_id}')" title="Delete Session">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
             </td>
         `;
         tbody.appendChild(tr);
@@ -131,6 +142,39 @@ function renderDashboardSessions(sessions) {
     document.getElementById('stat-total-resumes').textContent = totalResumes;
     document.getElementById('stat-total-shortlisted').textContent = totalShortlisted;
 }
+
+async function deleteSingleSession(sessionId) {
+    if (!confirm(`Are you sure you want to delete session ${sessionId}? This will remove all uploaded resumes and candidates.`)) {
+        return;
+    }
+    try {
+        const res = await fetch(`${API_BASE}/sessions/${sessionId}`, { method: 'DELETE' });
+        if (!res.ok) throw new Error("Failed to delete session");
+        showToast(`Session ${sessionId} deleted successfully`, "success");
+        loadDashboardSessions();
+    } catch (err) {
+        showToast("Error deleting session: " + err.message, "error");
+    }
+}
+
+async function clearAllSessions() {
+    if (!confirm("Are you sure you want to clear ALL sessions, candidate records, and caches? This cannot be undone.")) {
+        return;
+    }
+    try {
+        const res = await fetch(`${API_BASE}/sessions/clear`, { method: 'DELETE' });
+        if (!res.ok) throw new Error("Failed to clear data");
+        showToast("All sessions and candidate data cleared successfully", "success");
+        loadDashboardSessions();
+    } catch (err) {
+        showToast("Error clearing data: " + err.message, "error");
+    }
+}
+
+window.deleteSingleSession = deleteSingleSession;
+window.clearAllSessions = clearAllSessions;
+
+
 
 // --------------------------------------------------------------------------
 // 2. CREATE SESSION & WEIGHTS LOGIC

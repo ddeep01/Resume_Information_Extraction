@@ -1,12 +1,13 @@
 import json
 import re
 import logging
+import requests
 from typing import Dict, Any, Optional
 
 from backend.app.config import settings
 from backend.app.llm.base import LLMProvider
 from backend.app.llm.ollama_provider import OllamaProvider
-from backend.app.llm.remote_provider import OpenAIProvider, MockFallbackProvider
+from backend.app.llm.remote_provider import OpenAIProvider
 from backend.app.llm.prompts import EXTRACTION_SYSTEM_PROMPT, EXTRACTION_USER_PROMPT_TEMPLATE
 
 logger = logging.getLogger("LLMExtractor")
@@ -15,23 +16,24 @@ def get_llm_provider() -> LLMProvider:
     provider_name = settings.LLM_PROVIDER.lower()
     if provider_name == "ollama":
         try:
-            return OllamaProvider()
+            res = requests.get(f"{settings.LLM_BASE_URL.rstrip('/')}/api/tags", timeout=2)
+            if res.status_code == 200:
+                return OllamaProvider()
+            else:
+                raise RuntimeError(f"Ollama server returned status code {res.status_code} at {settings.LLM_BASE_URL}")
         except Exception as e:
-            logger.warning(f"Ollama provider failed to initialize ({e}). Falling back to Mock/Fallback.")
-            return MockFallbackProvider()
+            raise RuntimeError(
+                f"LLM Connection Error: Ollama is unreachable at {settings.LLM_BASE_URL} ({e}). "
+                f"Please start Ollama service using 'ollama run {settings.LLM_MODEL}' to process resumes."
+            )
     elif provider_name == "openai":
-        try:
-            return OpenAIProvider()
-        except Exception as e:
-            logger.warning(f"OpenAI provider failed ({e}). Falling back to Mock/Fallback.")
-            return MockFallbackProvider()
+        return OpenAIProvider()
     else:
-        return MockFallbackProvider()
+        raise RuntimeError(f"Unsupported LLM provider: {settings.LLM_PROVIDER}")
 
 class LLMExtractor:
     def __init__(self, provider: Optional[LLMProvider] = None):
         self.provider = provider or get_llm_provider()
-        self.fallback_provider = MockFallbackProvider()
 
     def clean_json_response(self, text: str) -> str:
         text = text.strip()
@@ -44,18 +46,12 @@ class LLMExtractor:
         prompt = EXTRACTION_USER_PROMPT_TEMPLATE.format(resume_text=cleaned_resume_text)
         system = EXTRACTION_SYSTEM_PROMPT
 
-        max_retries = 2
-        for attempt in range(max_retries + 1):
-            try:
-                raw_response = self.provider.generate(prompt, system=system)
-                cleaned_response = self.clean_json_response(raw_response)
-                parsed_json = json.loads(cleaned_response)
-                if isinstance(parsed_json, dict):
-                    return parsed_json
-            except Exception as e:
-                logger.warning(f"LLM extraction attempt {attempt+1} failed: {e}")
-
-        # Fallback to Mock / Heuristic provider to ensure business continuity
-        logger.info("Using fallback parser for candidate extraction.")
-        fallback_response = self.fallback_provider.generate(prompt, system=system)
-        return json.loads(self.clean_json_response(fallback_response))
+        # Always execute via LLM
+        raw_response = self.provider.generate(prompt, system=system)
+        cleaned_response = self.clean_json_response(raw_response)
+        parsed_json = json.loads(cleaned_response)
+        
+        if not isinstance(parsed_json, dict):
+            raise ValueError(f"LLM output is not a valid JSON dictionary: {cleaned_response[:100]}")
+            
+        return parsed_json

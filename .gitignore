@@ -1,9 +1,35 @@
+# Python Byte-compiled / Cache files
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 *.pyd
 
-.env/
+# Virtual Environments
+.env
 .venv/
-venv
+venv/
+env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime Data, Logs & SQLite Databases
+data/sessions/*
+!data/sessions/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/*.db
+data/*.db-journal
+logs/*
+!logs/.gitkeep
+
+# IDEs & System Files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
