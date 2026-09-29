@@ -42,6 +42,8 @@ def get_llm_provider() -> LLMProvider:
     else:
         raise RuntimeError(f"Unsupported LLM provider: {settings.LLM_PROVIDER}")
 
+from backend.app.schemas.candidate import EducationItem, PersonalInformation, PublicationItem
+
 class LLMExtractor:
     """
     Adaptive, Token-Aware, Recursive Resume Extraction Pipeline.
@@ -58,6 +60,55 @@ class LLMExtractor:
 
     def clean_json_response(self, text: str) -> str:
         return self.json_validator.clean_json_response(text)
+
+    def verify_and_clean_data(self, raw_dict: Dict[str, Any], raw_text: str) -> Dict[str, Any]:
+        """
+        Field-level validation & Anti-hallucination post-processor.
+        1. Validates fields against Pydantic schemas.
+        2. Cleans prompt schema leaks (e.g., 'PhD | M.Tech...' -> 'PhD').
+        3. Verifies 'stream' against raw text to prevent hallucinated departments.
+        """
+        if not raw_dict:
+            return raw_dict
+        
+        raw_text_lower = raw_text.lower()
+
+        # Clean Education items & verify stream anti-hallucination
+        edu_list = raw_dict.get("education", [])
+        if isinstance(edu_list, list):
+            cleaned_edu = []
+            for edu in edu_list:
+                if not isinstance(edu, dict):
+                    continue
+                # Sanitize stream against hallucination
+                stream_val = edu.get("stream")
+                if stream_val and str(stream_val).lower() not in ("null", "none", "n/a", ""):
+                    s_str = str(stream_val).strip()
+                    # Check if stream or its core words exist in raw resume text
+                    words = [w.lower() for w in s_str.replace("&", " ").replace("/", " ").replace("-", " ").split() if len(w) >= 3 and w.lower() not in ("and", "the", "for", "in", "of", "engineering", "department", "technology", "science", "studies")]
+                    matched = any(w in raw_text_lower for w in words) if words else (s_str.lower() in raw_text_lower)
+                    if not matched:
+                        logger.warning(f"Anti-Hallucination: Stripped unmentioned stream '{s_str}' from degree '{edu.get('degree')}'")
+                        edu["stream"] = None
+                
+                # Run through EducationItem Pydantic schema validation
+                try:
+                    edu_obj = EducationItem(**edu)
+                    cleaned_edu.append(edu_obj.model_dump())
+                except Exception as ex:
+                    logger.debug(f"Education item pydantic validation fallback: {ex}")
+                    cleaned_edu.append(edu)
+            raw_dict["education"] = cleaned_edu
+
+        # Clean Personal Info
+        if "personal_information" in raw_dict and isinstance(raw_dict["personal_information"], dict):
+            try:
+                p_obj = PersonalInformation(**raw_dict["personal_information"])
+                raw_dict["personal_information"] = p_obj.model_dump()
+            except Exception:
+                pass
+
+        return raw_dict
 
     def extract_single_chunk(self, chunk_text: str, is_leaf: bool = False) -> Dict[str, Any]:
         """
@@ -140,6 +191,7 @@ class LLMExtractor:
             logger.info(f"{candidate_id}: Token count ({original_token_count}) <= SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS}). Using single LLM call.")
             try:
                 result = self.extract_single_chunk(cleaned_resume_text, is_leaf=False)
+                result = self.verify_and_clean_data(result, cleaned_resume_text)
                 elapsed = time.time() - start_time
                 logger.info(f"SUMMARY [{candidate_id}] | tokens={original_token_count} | chunks=1 | chunk_sizes=[{original_token_count}] | llm_calls=1 | status=SUCCESS | time={elapsed:.2f}s")
                 return result
@@ -169,6 +221,7 @@ class LLMExtractor:
         # Hierarchical Merging of Partial JSON Outputs
         logger.info(f"{candidate_id}: Hierarchically merging {len(partial_results)} partial JSON results...")
         final_json = self.merger.merge_all(partial_results)
+        final_json = self.verify_and_clean_data(final_json, cleaned_resume_text)
         merge_calls = len(partial_results) - 1 if len(partial_results) > 1 else 0
 
         elapsed = time.time() - start_time
@@ -179,3 +232,4 @@ class LLMExtractor:
         )
 
         return final_json
+
