@@ -54,10 +54,13 @@ function switchView(targetView) {
 }
 
 function setupNavigation() {
-    document.getElementById('btn-brand').addEventListener('click', (e) => {
-        e.preventDefault();
-        switchView('dashboard');
-    });
+    const btnBrand = document.getElementById('btn-brand');
+    if (btnBrand) {
+        btnBrand.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchView('dashboard');
+        });
+    }
 
     // Sidebar items
     document.querySelectorAll('.nav-item').forEach(btn => {
@@ -67,40 +70,72 @@ function setupNavigation() {
         });
     });
 
-    document.getElementById('btn-create-session').addEventListener('click', () => switchView('createSession'));
-    document.getElementById('btn-cancel-create').addEventListener('click', () => switchView('dashboard'));
+    const btnCreate = document.getElementById('btn-create-session');
+    if (btnCreate) btnCreate.addEventListener('click', () => switchView('createSession'));
+
+    const btnCancel = document.getElementById('btn-cancel-create');
+    if (btnCancel) btnCancel.addEventListener('click', () => switchView('dashboard'));
+
     const cancelBottom = document.getElementById('btn-cancel-create-bottom');
     if (cancelBottom) cancelBottom.addEventListener('click', () => switchView('dashboard'));
 
-    document.getElementById('btn-refresh-data').addEventListener('click', () => loadDashboardSessions());
-    document.getElementById('btn-refresh-sessions').addEventListener('click', () => loadDashboardSessions());
+    const btnRefreshData = document.getElementById('btn-refresh-data');
+    if (btnRefreshData) btnRefreshData.addEventListener('click', () => loadDashboardSessions());
+
+    const btnRefreshSessions = document.getElementById('btn-refresh-sessions');
+    if (btnRefreshSessions) btnRefreshSessions.addEventListener('click', () => loadDashboardSessions());
     
     const clearBtn = document.getElementById('btn-clear-all-data');
     if (clearBtn) {
         clearBtn.addEventListener('click', () => clearAllSessions());
     }
 
-    document.getElementById('btn-back-dashboard').addEventListener('click', () => switchView('dashboard'));
-    document.getElementById('btn-close-modal').addEventListener('click', closeModal);
-    document.getElementById('btn-close-modal-footer').addEventListener('click', closeModal);
+    const btnBackDash = document.getElementById('btn-back-dashboard');
+    if (btnBackDash) btnBackDash.addEventListener('click', () => switchView('dashboard'));
+
+    const btnCloseModal = document.getElementById('btn-close-modal');
+    if (btnCloseModal) btnCloseModal.addEventListener('click', closeModal);
+
+    const btnCloseModalFooter = document.getElementById('btn-close-modal-footer');
+    if (btnCloseModalFooter) btnCloseModalFooter.addEventListener('click', closeModal);
 
     // Flagged Resumes Modal Controls
-    document.getElementById('btn-view-failed').addEventListener('click', openFailedCandidatesModal);
-    document.getElementById('btn-close-failed-modal').addEventListener('click', closeFailedModal);
-    document.getElementById('btn-close-failed-modal-footer').addEventListener('click', closeFailedModal);
+    const btnViewFailed = document.getElementById('btn-view-failed');
+    if (btnViewFailed) btnViewFailed.addEventListener('click', openFailedCandidatesModal);
+
+    const btnCloseFailedModal = document.getElementById('btn-close-failed-modal');
+    if (btnCloseFailedModal) btnCloseFailedModal.addEventListener('click', closeFailedModal);
+
+    const btnCloseFailedModalFooter = document.getElementById('btn-close-failed-modal-footer');
+    if (btnCloseFailedModalFooter) btnCloseFailedModalFooter.addEventListener('click', closeFailedModal);
 }
 
 // --------------------------------------------------------------------------
 // 1. DASHBOARD / SELECTION SESSIONS LIST
 // --------------------------------------------------------------------------
 async function loadDashboardSessions() {
+    const tbody = document.getElementById('tbody-sessions');
     try {
         const res = await fetch(`${API_BASE}/sessions`);
-        if (!res.ok) throw new Error("Failed to load sessions");
+        if (!res.ok) throw new Error(`Server returned HTTP ${res.status}`);
         const sessions = await res.json();
 
         renderDashboardSessions(sessions);
     } catch (err) {
+        console.error("Error loading selection sessions:", err);
+        if (tbody) {
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="10" class="text-center py-8 text-muted">
+                        <i class="fa-solid fa-triangle-exclamation fa-2x text-danger mb-2"></i>
+                        <p class="font-semibold text-danger">Unable to load selection sessions</p>
+                        <p class="text-xs mb-3">${escapeHtml(err.message)}</p>
+                        <button class="btn btn-secondary btn-sm" onclick="loadDashboardSessions()">
+                            <i class="fa-solid fa-rotate"></i> Retry
+                        </button>
+                    </td>
+                </tr>`;
+        }
         showToast("Error loading faculty selection sessions: " + err.message, "error");
     }
 }
