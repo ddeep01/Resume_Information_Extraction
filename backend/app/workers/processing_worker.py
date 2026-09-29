@@ -22,6 +22,7 @@ from backend.app.shortlisting.scoring import (
     calculate_final_score
 )
 from backend.app.shortlisting.ranking import rank_and_shortlist_candidates
+from backend.app.services.results_exporter import ResultsExporter
 
 logger = logging.getLogger("ProcessingWorker")
 
@@ -246,6 +247,13 @@ def run_session_processing(session_id: str):
         (results_dir / "all_candidates.json").write_text(json.dumps(final_candidates, indent=2), encoding="utf-8")
         shortlisted_list = [c for c in final_candidates if c["shortlisting"]["shortlisted"]]
         (results_dir / "shortlist.json").write_text(json.dumps(shortlisted_list, indent=2), encoding="utf-8")
+
+        # Export session results to project root `results/<session_id>/`
+        try:
+            ResultsExporter.export_session_results(session.model_dump(), final_candidates)
+            log_step(f"--> Exported full session results to results/{session_id}/")
+        except Exception as ex_err:
+            logger.warning(f"Failed to export results to root results folder: {ex_err}")
 
         # Stage 9: COMPLETED
         session_service.update_session_status(

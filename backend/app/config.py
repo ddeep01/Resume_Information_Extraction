@@ -39,9 +39,12 @@ class Settings:
     TIER_2_SCORE: float = 0.66
     TIER_3_SCORE: float = 0.33
     
+    RESULTS_DIR: Path = Path(os.getenv("RESULTS_DIR", BASE_DIR / "results"))
+    
     def __init__(self):
         self.SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
         self.CACHE_DIR.mkdir(parents=True, exist_ok=True)
         self.TEST_RESUMES_DIR.mkdir(parents=True, exist_ok=True)
+        self.RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 settings = Settings()
