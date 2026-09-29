@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadDashboardSessions();
 });
 
-// View Switching
+// View Switching & Sidebar Highlighting
 function switchView(targetView) {
     Object.keys(views).forEach(key => {
         if (views[key]) {
@@ -36,6 +36,15 @@ function switchView(targetView) {
             } else {
                 views[key].classList.remove('active');
             }
+        }
+    });
+
+    // Sidebar Active Item
+    document.querySelectorAll('.nav-item').forEach(btn => {
+        if (btn.getAttribute('data-view') === targetView) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
         }
     });
 
@@ -50,12 +59,21 @@ function setupNavigation() {
         switchView('dashboard');
     });
 
+    // Sidebar items
+    document.querySelectorAll('.nav-item').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const v = btn.getAttribute('data-view');
+            if (v) switchView(v);
+        });
+    });
+
     document.getElementById('btn-create-session').addEventListener('click', () => switchView('createSession'));
     document.getElementById('btn-cancel-create').addEventListener('click', () => switchView('dashboard'));
     const cancelBottom = document.getElementById('btn-cancel-create-bottom');
     if (cancelBottom) cancelBottom.addEventListener('click', () => switchView('dashboard'));
 
     document.getElementById('btn-refresh-data').addEventListener('click', () => loadDashboardSessions());
+    document.getElementById('btn-refresh-sessions').addEventListener('click', () => loadDashboardSessions());
     
     const clearBtn = document.getElementById('btn-clear-all-data');
     if (clearBtn) {
@@ -100,11 +118,9 @@ function renderDashboardSessions(sessions) {
         tbody.innerHTML = `
             <tr>
                 <td colspan="10" class="text-center py-8 text-muted">
-                    <i class="fa-solid fa-folder-open fa-2x mb-2" style="color: var(--border-medium);"></i>
-                    <p>No faculty selection sessions have been created yet.</p>
-                    <button class="btn btn-primary btn-sm mt-3" onclick="switchView('createSession')">
-                        <i class="fa-solid fa-plus"></i> Create Selection Session
-                    </button>
+                    <i class="fa-solid fa-folder-open fa-2x mb-2 text-muted"></i>
+                    <p class="font-semibold">No selection sessions found.</p>
+                    <p class="text-xs">Click "New Selection Session" above to start candidate evaluation.</p>
                 </td>
             </tr>`;
         document.getElementById('stat-resumes-count').textContent = '0';
@@ -130,7 +146,7 @@ function renderDashboardSessions(sessions) {
         const tr = document.createElement('tr');
         tr.innerHTML = `
             <td><strong>${s.session_id}</strong></td>
-            <td><strong>${escapeHtml(s.job_title)}</strong></td>
+            <td><strong style="color: var(--navy-deep);">${escapeHtml(s.job_title)}</strong></td>
             <td>${escapeHtml(s.required_degree)}</td>
             <td>${s.minimum_experience} yrs</td>
             <td>${s.top_n}</td>
@@ -140,7 +156,7 @@ function renderDashboardSessions(sessions) {
             <td>${dateStr}</td>
             <td>
                 <div style="display: flex; gap: 0.35rem; align-items: center;">
-                    <button class="btn btn-secondary btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Results">
+                    <button class="btn btn-secondary btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Candidate Results">
                         <i class="fa-solid fa-eye"></i> View Results
                     </button>
                     <button class="btn btn-danger btn-sm" onclick="deleteSingleSession('${s.session_id}')" title="Delete Session">
@@ -157,7 +173,7 @@ function renderDashboardSessions(sessions) {
 }
 
 async function deleteSingleSession(sessionId) {
-    if (!confirm(`Are you sure you want to delete session ${sessionId}? This will remove all uploaded resumes and candidate results.`)) {
+    if (!confirm(`Are you sure you want to delete session ${sessionId}? This will remove all candidate files and evaluation results.`)) {
         return;
     }
     try {
@@ -171,7 +187,7 @@ async function deleteSingleSession(sessionId) {
 }
 
 async function clearAllSessions() {
-    if (!confirm("Are you sure you want to clear ALL selection sessions and candidate data? This cannot be undone.")) {
+    if (!confirm("Are you sure you want to clear ALL selection sessions and candidate data? This action cannot be undone.")) {
         return;
     }
     try {
@@ -228,7 +244,7 @@ function setupUploadDropzone() {
 
     fileInput.addEventListener('change', () => {
         if (fileInput.files.length > 0) {
-            fileNameDiv.textContent = `Selected: ${fileInput.files[0].name} (${(fileInput.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
+            fileNameDiv.textContent = `Selected Archive: ${fileInput.files[0].name} (${(fileInput.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
             fileNameDiv.classList.remove('hidden');
         }
     });
@@ -251,7 +267,7 @@ function setupUploadDropzone() {
         const dt = e.dataTransfer;
         if (dt.files.length > 0) {
             fileInput.files = dt.files;
-            fileNameDiv.textContent = `Selected: ${dt.files[0].name} (${(dt.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
+            fileNameDiv.textContent = `Selected Archive: ${dt.files[0].name} (${(dt.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
             fileNameDiv.classList.remove('hidden');
         }
     });
@@ -280,7 +296,7 @@ function setupFormSubmission() {
 
         const btnSubmit = document.getElementById('btn-submit-session');
         btnSubmit.disabled = true;
-        btnSubmit.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Creating Session & Uploading ZIP...`;
+        btnSubmit.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Creating Session & Uploading Archive...`;
 
         try {
             // 1. Create Session
@@ -318,7 +334,7 @@ function setupFormSubmission() {
                 method: 'POST',
                 body: formData
             });
-            if (!uploadRes.ok) throw new Error("Failed to upload ZIP file");
+            if (!uploadRes.ok) throw new Error("Failed to upload ZIP archive");
 
             // 3. Trigger Start Processing
             const startRes = await fetch(`${API_BASE}/sessions/${currentSessionId}/start`, {
@@ -378,7 +394,7 @@ async function pollProcessingStatus() {
         document.getElementById('proc-stat-processed').textContent = data.processed || 0;
         document.getElementById('proc-stat-failed').textContent = data.failed || 0;
 
-        document.getElementById('proc-detail-msg').textContent = `Stage: ${data.stage}. Processed ${data.processed} of ${data.total} resumes...`;
+        document.getElementById('proc-detail-msg').textContent = `Stage: ${data.stage}. Processed ${data.processed} of ${data.total} candidate resumes...`;
 
         if (data.status === 'COMPLETED') {
             clearInterval(statusPollInterval);
@@ -499,7 +515,7 @@ function renderCandidatesTable(candidates) {
         tr.innerHTML = `
             <td><strong>${rankDisplay}</strong></td>
             <td>
-                <div class="font-semibold">${escapeHtml(p.full_name || 'Candidate')}</div>
+                <div class="font-semibold" style="color: var(--navy-deep);">${escapeHtml(p.full_name || 'Candidate')}</div>
                 <div class="text-xs text-muted">${escapeHtml(p.email || '')}</div>
             </td>
             <td>${escapeHtml(p.current_designation || 'N/A')}</td>
@@ -509,7 +525,7 @@ function renderCandidatesTable(candidates) {
             <td>${pubCount}</td>
             <td>${(s.education_score * 100).toFixed(0)}</td>
             <td>${(s.publication_score * 100).toFixed(0)}</td>
-            <td><strong class="text-primary">${s.final_score.toFixed(1)}</strong></td>
+            <td><strong class="text-primary font-bold">${s.final_score.toFixed(1)}</strong></td>
             <td>${statusBadge}</td>
             <td>
                 <button class="btn btn-secondary btn-sm" onclick="openCandidateModal('${cand.candidate_id}')">
@@ -698,11 +714,11 @@ function showToast(message, type = "info") {
     toast.className = `toast toast-${type}`;
     toast.style.cssText = `
         background-color: var(--bg-surface);
-        color: var(--text-main);
+        color: var(--text-primary);
         padding: 0.75rem 1rem;
         border-radius: var(--radius-md);
         border: 1px solid ${type === 'error' ? 'var(--rose-border)' : 'var(--blue-border)'};
-        box-shadow: var(--shadow-md);
+        box-shadow: var(--shadow-card);
         margin-bottom: 0.5rem;
         font-size: 0.8125rem;
         display: flex;

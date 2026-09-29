@@ -27,7 +27,7 @@ def get_llm_provider() -> LLMProvider:
     provider_name = settings.LLM_PROVIDER.lower()
     if provider_name == "ollama":
         try:
-            res = requests.get(f"{settings.LLM_BASE_URL.rstrip('/')}/api/tags", timeout=2)
+            res = requests.get(f"{settings.LLM_BASE_URL.rstrip('/')}/api/tags", timeout=5)
             if res.status_code == 200:
                 return OllamaProvider()
             else:
