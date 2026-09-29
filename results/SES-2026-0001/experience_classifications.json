@@ -1,0 +1,1264 @@
+{
+  "session_id": "SES-2026-0001",
+  "total_candidates": 37,
+  "experience_classifications_by_candidate": [
+    {
+      "candidate_id": "CAND-0009",
+      "candidate_name": "Anurag Choudhary",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 4.5,
+      "total_experience_years": 9.0,
+      "academic_experience_score": 0.725,
+      "industry_experience_score": 0.5625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "University of Hong Kong",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0013",
+      "candidate_name": "Dr. Chandan Patra",
+      "total_academic_experience_years": 2.5,
+      "total_industry_experience_years": 0.5,
+      "total_experience_years": 3.0,
+      "academic_experience_score": 0.625,
+      "industry_experience_score": 0.0625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Science Education and Research Bhopal",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0001",
+      "candidate_name": "John Doe",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 7.0,
+      "total_experience_years": 11.5,
+      "academic_experience_score": 0.39,
+      "industry_experience_score": 0.875,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Parul Institute of Applied Science",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0018",
+      "candidate_name": "Dibakar Roy Chowdhury",
+      "total_academic_experience_years": 19.5,
+      "total_industry_experience_years": 4.5,
+      "total_experience_years": 24.0,
+      "academic_experience_score": 0.7475,
+      "industry_experience_score": 0.5625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Mahindra University, India",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "University of Hyderabad",
+          "duration_years": 15.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 4.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0035",
+      "candidate_name": "Snehamoy Pramanik",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 5.0,
+      "total_experience_years": 9.5,
+      "academic_experience_score": 0.555,
+      "industry_experience_score": 0.625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "CHRIST (Deemed to be university)",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 3.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0028",
+      "candidate_name": "Priya Ranjan Sahoo",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 2.5,
+      "total_experience_years": 7.0,
+      "academic_experience_score": 0.555,
+      "industry_experience_score": 0.3125,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "University at Buffalo New York, US",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0015",
+      "candidate_name": "Isha Sharma",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 4.5,
+      "academic_experience_score": 0.725,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Technology Kharagpur",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0030",
+      "candidate_name": "Dr. Amit Kumar",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 2.5,
+      "total_experience_years": 7.0,
+      "academic_experience_score": 0.725,
+      "industry_experience_score": 0.3125,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "IIT Kharagpur",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0023",
+      "candidate_name": "Dr. Dharmendra Pathak",
+      "total_academic_experience_years": 11.5,
+      "total_industry_experience_years": 11.5,
+      "total_experience_years": 23.0,
+      "academic_experience_score": 0.83,
+      "industry_experience_score": 1.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Chameli Devi Group of Institutions, Indore, M.P.",
+          "duration_years": 11.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 11.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0014",
+      "candidate_name": "Ashish Kumar Soni",
+      "total_academic_experience_years": 13.2,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 13.2,
+      "academic_experience_score": 0.7475,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "GHRCE, Nagpur",
+          "duration_years": 2.4,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "MIST (MALWA), Indore",
+          "duration_years": 10.8,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0037",
+      "candidate_name": "Sujit Sangram Sahoo",
+      "total_academic_experience_years": 3.8,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 3.8,
+      "academic_experience_score": 0.5217,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Siksha O Anusandhan University Bhubaneswar, Odisha, India",
+          "duration_years": 1.3,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Motilal Nehru National Institute of Technology Allahabad, India",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "DharaniDhara Autonomous College Keonjhar Odisha, India",
+          "duration_years": 1.0,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0027",
+      "candidate_name": "Dr. Manoj Kumar Singh",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 4.5,
+      "total_experience_years": 9.0,
+      "academic_experience_score": 0.555,
+      "industry_experience_score": 0.5625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "GLA University, Mathura, India",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 4.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0024",
+      "candidate_name": "Dr. Kaushal Purohit",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 4.5,
+      "academic_experience_score": 0.725,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Sardar Vallabhbhai National Institute of Technology",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0004",
+      "candidate_name": "Anibrata Pal",
+      "total_academic_experience_years": 3.5,
+      "total_industry_experience_years": 5.0,
+      "total_experience_years": 8.5,
+      "academic_experience_score": 0.34,
+      "industry_experience_score": 0.625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Kalinga Institute of Industrial Technology",
+          "duration_years": 3.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0022",
+      "candidate_name": "C.V.Ravi Kumar",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 4.5,
+      "academic_experience_score": 0.555,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "VIT University",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0032",
+      "candidate_name": "Dr. B. S. Ratanpal",
+      "total_academic_experience_years": 13.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 13.5,
+      "academic_experience_score": 0.665,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "The Maharaja Sayajirao University of Baroda",
+          "duration_years": 13.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0031",
+      "candidate_name": "Sanam Preet Kour",
+      "total_academic_experience_years": 3.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 3.5,
+      "academic_experience_score": 0.34,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "University of Jammu",
+          "duration_years": 3.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0002",
+      "candidate_name": "Dr. Afzal Beg",
+      "total_academic_experience_years": 12.0,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 12.0,
+      "academic_experience_score": 0.83,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Rai University, Ahmadabad Gujarat",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Vindhya Institute of Technology and Science, Satna (M.P.)",
+          "duration_years": 2.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Shri Rama Krishna College of Commerce & Science, Satna (M.P.)",
+          "duration_years": 3.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "SSICAIT College Maihar, Distt-Satna (M.P.)",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0021",
+      "candidate_name": "Dr. Akash Thakkar",
+      "total_academic_experience_years": 3.0,
+      "total_industry_experience_years": 0.5,
+      "total_experience_years": 3.5,
+      "academic_experience_score": 0.3975,
+      "industry_experience_score": 0.0625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "School of Emerging Science and Technology, Gujarat University",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Silver Oak University, Ahmedabad",
+          "duration_years": 0.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0019",
+      "candidate_name": "Doyel Mukherjee",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 3.0,
+      "total_experience_years": 7.5,
+      "academic_experience_score": 0.39,
+      "industry_experience_score": 0.375,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "University of Engineering & Management, Heritage Business School, WBUT",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0003",
+      "candidate_name": "Anil Babubhai Hirpara",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 6.5,
+      "academic_experience_score": 0.39,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Sardar Patel University",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0005",
+      "candidate_name": "Bhumika Shah",
+      "total_academic_experience_years": 13.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 13.5,
+      "academic_experience_score": 0.83,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Gujarat University",
+          "duration_years": 13.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0006",
+      "candidate_name": "Rakesh Ranjan",
+      "total_academic_experience_years": 5.0,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 7.0,
+      "academic_experience_score": 0.75,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Technology (IIT), Dhanbad, India",
+          "duration_years": 5.0,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0007",
+      "candidate_name": "Nitiraj Shete",
+      "total_academic_experience_years": 8.5,
+      "total_industry_experience_years": 4.5,
+      "total_experience_years": 13.0,
+      "academic_experience_score": 0.59,
+      "industry_experience_score": 0.5625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Sardar Patel University",
+          "duration_years": 8.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 4.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0008",
+      "candidate_name": "Dr. Amit K Parikh",
+      "total_academic_experience_years": 28.58,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 30.58,
+      "academic_experience_score": 0.8064,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "C.U. Shah College of Engineering & Technology, Wadhwan city",
+          "duration_years": 2.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "K.B. Shah Science College, Wadhwan",
+          "duration_years": 2.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Nirma Institute of Diploma Studies, Ahmedabad",
+          "duration_years": 5.9,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Nirma University, Institute of Technology, Ahmedabad",
+          "duration_years": 6.11,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "C U Shah University, Faculty of Engg. & Tech., Wadhwan city",
+          "duration_years": 1.07,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Mehsana Urban Institute of Sciences, Ganpat University, Kherva",
+          "duration_years": 7.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Name of College or University",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0010",
+      "candidate_name": "Sampurna Sengupta",
+      "total_academic_experience_years": 12.5,
+      "total_industry_experience_years": 1.0,
+      "total_experience_years": 13.5,
+      "academic_experience_score": 0.7475,
+      "industry_experience_score": 0.125,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Engineering Science and Technology, Shibpur, West Bengal, India",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "South Asian University, New Delhi, India",
+          "duration_years": 4.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "University of Calcutta, West Bengal, India",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "West Bengal Board of Secondary Education, West Bengal, India",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0011",
+      "candidate_name": "Aakash Choudhary",
+      "total_academic_experience_years": 5.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 5.5,
+      "academic_experience_score": 0.775,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Technology (IIT) Guwahati",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "IIT Delhi",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "IIT Delhi",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "IIT Delhi",
+          "duration_years": 0.0,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0012",
+      "candidate_name": "Arghya Maity",
+      "total_academic_experience_years": 2.5,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 4.5,
+      "academic_experience_score": 0.29,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Harish-Chandra Research Institute (HRI)",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0016",
+      "candidate_name": "Dr. Rakesh Bhatnagar",
+      "total_academic_experience_years": 14.0,
+      "total_industry_experience_years": 1.0,
+      "total_experience_years": 15.0,
+      "academic_experience_score": 0.665,
+      "industry_experience_score": 0.125,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "S. K. Patel Institute of Computer Studies, Gandhinagar",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "S. K. Patel Institute of Management and Computer Studies, Gandhinagar",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "B. P. College of Computer Studies, Gandhinagar",
+          "duration_years": 1.0,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "S. K. Patel Institute of Management and Computer Studies, Gandhinagar",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "Shree Swaminarayan Institute of Technology, Gandhinagar",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "Jawahar Navodaya Vidyalaya, Gandhinagar",
+          "duration_years": 1.0,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0017",
+      "candidate_name": "Dhwanilnath Gharekhan",
+      "total_academic_experience_years": 8.5,
+      "total_industry_experience_years": 0.5,
+      "total_experience_years": 9.0,
+      "academic_experience_score": 0.7137,
+      "industry_experience_score": 0.0625,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "CEPT University",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Nirma University",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Gujarat University",
+          "duration_years": 1.0,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "St. Xavier's College",
+          "duration_years": 0.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0020",
+      "candidate_name": "Keyur Patel",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 6.5,
+      "academic_experience_score": 0.39,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "IITRAM",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0026",
+      "candidate_name": "Lokendra Chouhan",
+      "total_academic_experience_years": 13.5,
+      "total_industry_experience_years": 10.0,
+      "total_experience_years": 23.5,
+      "academic_experience_score": 1.0,
+      "industry_experience_score": 1.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Information Technology, Sri City",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "King Abdullah University of Science and Technology, Thuwal, KSA",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "Indian Institute of Technology, Indore",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "Visvesvaraya National Institute of Technology, Nagpur",
+          "duration_years": 3.0,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "designation": null,
+          "institution": "Visvesvaraya National Institute of Technology, Nagpur",
+          "duration_years": 3.0,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 7.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0029",
+      "candidate_name": "Priyanka Sharma",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 4.5,
+      "academic_experience_score": 0.39,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Jaypee University of Information Technology, Solan, H.P.",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0034",
+      "candidate_name": "KRITISHNU SANYAL",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 5.5,
+      "total_experience_years": 10.0,
+      "academic_experience_score": 0.725,
+      "industry_experience_score": 0.6875,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Technology Mandi",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.5
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        },
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 1.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0036",
+      "candidate_name": "Sourabh Pal",
+      "total_academic_experience_years": 8.5,
+      "total_industry_experience_years": 0.0,
+      "total_experience_years": 8.5,
+      "academic_experience_score": 0.645,
+      "industry_experience_score": 0.0,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Galgotias University",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "designation": null,
+          "institution": "Bhagwati Institute of Technology & Science",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "designation": null,
+          "institution": "Guru Tegh Bahadur Polytechnic",
+          "duration_years": 1.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0038",
+      "candidate_name": "Swapnil Shukla",
+      "total_academic_experience_years": 2.5,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 4.5,
+      "academic_experience_score": 0.625,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "Shiv Nadar University, Uttar Pradesh, India",
+          "duration_years": 2.5,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0040",
+      "candidate_name": "Vijay Kumar",
+      "total_academic_experience_years": 4.5,
+      "total_industry_experience_years": 2.0,
+      "total_experience_years": 6.5,
+      "academic_experience_score": 0.39,
+      "industry_experience_score": 0.25,
+      "academic_experiences": [
+        {
+          "designation": null,
+          "institution": "University of Petroleum and Energy Studies",
+          "duration_years": 4.5,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "industry_experiences": [
+        {
+          "designation": null,
+          "company": null,
+          "duration_years": 2.0
+        }
+      ]
+    }
+  ]
+}

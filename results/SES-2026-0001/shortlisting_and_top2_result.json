@@ -1,0 +1,690 @@
+{
+  "session_id": "SES-2026-0001",
+  "job_meta": {
+    "job_title": "Assistant Professor ",
+    "required_degree": "PhD",
+    "required_specialization": "Computer Science",
+    "minimum_experience_years": 3.0,
+    "minimum_publications": 5,
+    "publication_window_years": 5,
+    "top_n_requested": 10,
+    "scoring_weights": {
+      "education": 0.35,
+      "publication": 0.3,
+      "academic_experience": 0.2,
+      "industry_experience": 0.15
+    }
+  },
+  "top_shortlisted_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "CAND-0009",
+      "candidate_name": "Anurag Choudhary",
+      "final_score": 72.48,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.6633,
+        "publication_score": 0.8776,
+        "academic_experience_score": 0.725,
+        "industry_experience_score": 0.5625
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "CAND-0013",
+      "candidate_name": "Dr. Chandan Patra",
+      "final_score": 71.94,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.8867,
+        "publication_score": 0.9155,
+        "academic_experience_score": 0.625,
+        "industry_experience_score": 0.0625
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": "CAND-0001",
+      "candidate_name": "John Doe",
+      "final_score": 69.91,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.7733,
+        "publication_score": 0.7307,
+        "academic_experience_score": 0.39,
+        "industry_experience_score": 0.875
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": "CAND-0018",
+      "candidate_name": "Dibakar Roy Chowdhury",
+      "final_score": 68.16,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.596,
+        "publication_score": 0.7971,
+        "academic_experience_score": 0.7475,
+        "industry_experience_score": 0.5625
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "CAND-0035",
+      "candidate_name": "Snehamoy Pramanik",
+      "final_score": 66.45,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.664,
+        "publication_score": 0.758,
+        "academic_experience_score": 0.555,
+        "industry_experience_score": 0.625
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "CAND-0028",
+      "candidate_name": "Priya Ranjan Sahoo",
+      "final_score": 64.18,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.66,
+        "publication_score": 0.8431,
+        "academic_experience_score": 0.555,
+        "industry_experience_score": 0.3125
+      }
+    },
+    {
+      "rank": 7,
+      "candidate_id": "CAND-0015",
+      "candidate_name": "Isha Sharma",
+      "final_score": 62.62,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.76,
+        "publication_score": 0.7175,
+        "academic_experience_score": 0.725,
+        "industry_experience_score": 0.0
+      }
+    },
+    {
+      "rank": 8,
+      "candidate_id": "CAND-0030",
+      "candidate_name": "Dr. Amit Kumar",
+      "final_score": 61.43,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.798,
+        "publication_score": 0.4772,
+        "academic_experience_score": 0.725,
+        "industry_experience_score": 0.3125
+      }
+    },
+    {
+      "rank": 9,
+      "candidate_id": "CAND-0023",
+      "candidate_name": "Dr. Dharmendra Pathak",
+      "final_score": 59.84,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.33,
+        "publication_score": 0.5564,
+        "academic_experience_score": 0.83,
+        "industry_experience_score": 1.0
+      }
+    },
+    {
+      "rank": 10,
+      "candidate_id": "CAND-0014",
+      "candidate_name": "Ashish Kumar Soni",
+      "final_score": 57.5,
+      "eligible": true,
+      "component_scores": {
+        "education_score": 0.7389,
+        "publication_score": 0.5564,
+        "academic_experience_score": 0.7475,
+        "industry_experience_score": 0.0
+      }
+    }
+  ],
+  "all_evaluated_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "CAND-0009",
+      "candidate_name": "Anurag Choudhary",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 72.48,
+      "reasons": [
+        "SHORTLISTED: Ranked #1 among eligible candidates (Score: 72.48/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 9.0 yrs relevant experience (Academic: 4.5 yrs, Industry: 4.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 10 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 2,
+      "candidate_id": "CAND-0013",
+      "candidate_name": "Dr. Chandan Patra",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 71.94,
+      "reasons": [
+        "SHORTLISTED: Ranked #2 among eligible candidates (Score: 71.94/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Physics' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 3.0 yrs relevant experience (Academic: 2.5 yrs, Industry: 0.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 12 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 3,
+      "candidate_id": "CAND-0001",
+      "candidate_name": "John Doe",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 69.91,
+      "reasons": [
+        "SHORTLISTED: Ranked #3 among eligible candidates (Score: 69.91/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 11.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 7.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 18 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 4,
+      "candidate_id": "CAND-0018",
+      "candidate_name": "Dibakar Roy Chowdhury",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 68.16,
+      "reasons": [
+        "SHORTLISTED: Ranked #4 among eligible candidates (Score: 68.16/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 24.0 yrs relevant experience (Academic: 19.5 yrs, Industry: 4.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 28 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 5,
+      "candidate_id": "CAND-0035",
+      "candidate_name": "Snehamoy Pramanik",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 66.45,
+      "reasons": [
+        "SHORTLISTED: Ranked #5 among eligible candidates (Score: 66.45/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 9.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 5.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 9 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 6,
+      "candidate_id": "CAND-0028",
+      "candidate_name": "Priya Ranjan Sahoo",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 64.18,
+      "reasons": [
+        "SHORTLISTED: Ranked #6 among eligible candidates (Score: 64.18/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 7.0 yrs relevant experience (Academic: 4.5 yrs, Industry: 2.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 13 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 7,
+      "candidate_id": "CAND-0015",
+      "candidate_name": "Isha Sharma",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 62.62,
+      "reasons": [
+        "SHORTLISTED: Ranked #7 among eligible candidates (Score: 62.62/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 4.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 8 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 8,
+      "candidate_id": "CAND-0030",
+      "candidate_name": "Dr. Amit Kumar",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 61.43,
+      "reasons": [
+        "SHORTLISTED: Ranked #8 among eligible candidates (Score: 61.43/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 7.0 yrs relevant experience (Academic: 4.5 yrs, Industry: 2.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 5 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 9,
+      "candidate_id": "CAND-0023",
+      "candidate_name": "Dr. Dharmendra Pathak",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 59.84,
+      "reasons": [
+        "SHORTLISTED: Ranked #9 among eligible candidates (Score: 59.84/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 23.0 yrs relevant experience (Academic: 11.5 yrs, Industry: 11.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 5 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 10,
+      "candidate_id": "CAND-0014",
+      "candidate_name": "Ashish Kumar Soni",
+      "eligible": true,
+      "shortlisted": true,
+      "final_score": 57.5,
+      "reasons": [
+        "SHORTLISTED: Ranked #10 among eligible candidates (Score: 57.5/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 13.2 yrs relevant experience (Academic: 13.200000000000001 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 5 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0026",
+      "candidate_name": "Lokendra Chouhan",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 90.21,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Electronics and Communication Engineering, Master of Engineering, Bachelor of Engineering, High Secondary, Higher Secondary",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 23.5 yrs relevant experience (Academic: 13.5 yrs, Industry: 10.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 9 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0006",
+      "candidate_name": "Rakesh Ranjan",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 71.11,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Electronics Engineering' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 7.0 yrs relevant experience (Academic: 5.0 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0034",
+      "candidate_name": "KRITISHNU SANYAL",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 66.74,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'School of Humanities and Social Sciences (SHSS)' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 10.0 yrs relevant experience (Academic: 4.5 yrs, Industry: 5.5 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 3 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0008",
+      "candidate_name": "Dr. Amit K Parikh",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 64.68,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 30.58 yrs relevant experience (Academic: 28.580000000000002 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0017",
+      "candidate_name": "Dhwanilnath Gharekhan",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 57.34,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Geomatics, Geomatics, Electronics and Communication",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 9.0 yrs relevant experience (Academic: 8.5 yrs, Industry: 0.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 10 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 11,
+      "candidate_id": "CAND-0037",
+      "candidate_name": "Sujit Sangram Sahoo",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 56.48,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #11 (Top 10 cutoff, Score: 56.48/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 3.8 yrs relevant experience (Academic: 3.8 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 6 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0007",
+      "candidate_name": "Nitiraj Shete",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 54.77,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: M.Sc. Statistics, B.Sc. Statistics, 12th STD, 10th STD",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 13.0 yrs relevant experience (Academic: 8.5 yrs, Industry: 4.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 10 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0040",
+      "candidate_name": "Vijay Kumar",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 53.12,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 6.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0005",
+      "candidate_name": "Bhumika Shah",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 52.97,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 13.5 yrs relevant experience (Academic: 13.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 12,
+      "candidate_id": "CAND-0027",
+      "candidate_name": "Dr. Manoj Kumar Singh",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 51.53,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #12 (Top 10 cutoff, Score: 51.53/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Physics' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 9.0 yrs relevant experience (Academic: 4.5 yrs, Industry: 4.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 19 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 13,
+      "candidate_id": "CAND-0024",
+      "candidate_name": "Dr. Kaushal Purohit",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 51.5,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #13 (Top 10 cutoff, Score: 51.5/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 4.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 8 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 14,
+      "candidate_id": "CAND-0004",
+      "candidate_name": "Anibrata Pal",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 50.39,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #14 (Top 10 cutoff, Score: 50.39/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 8.5 yrs relevant experience (Academic: 3.5 yrs, Industry: 5.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 8 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0003",
+      "candidate_name": "Anil Babubhai Hirpara",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 49.69,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Physics, Physics, Physics, Physics, Physics",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 6.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 13 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 15,
+      "candidate_id": "CAND-0022",
+      "candidate_name": "C.V.Ravi Kumar",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 48.77,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #15 (Top 10 cutoff, Score: 48.77/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Digital Electronics & Communication Systems' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 4.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 15 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0011",
+      "candidate_name": "Aakash Choudhary",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 48.02,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Mathematics and Computing, Mathematics, null, null",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 5.5 yrs relevant experience (Academic: 5.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0012",
+      "candidate_name": "Arghya Maity",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 47.69,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Physics, Physics, Physics (Hons.), Bengali, English (compulsory), Bengali-I,Bengali-II, English",
+        "Specialization alias match: 'Mathematics (General), Chemistry (General)' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 4.5 yrs relevant experience (Academic: 2.5 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 9 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 16,
+      "candidate_id": "CAND-0032",
+      "candidate_name": "Dr. B. S. Ratanpal",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 46.93,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #16 (Top 10 cutoff, Score: 46.93/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 13.5 yrs relevant experience (Academic: 13.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 7 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 17,
+      "candidate_id": "CAND-0031",
+      "candidate_name": "Sanam Preet Kour",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 44.0,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #17 (Top 10 cutoff, Score: 44.0/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Statistics' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 3.5 yrs relevant experience (Academic: 3.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 14 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0016",
+      "candidate_name": "Dr. Rakesh Bhatnagar",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 43.66,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 15.0 yrs relevant experience (Academic: 14.0 yrs, Industry: 1.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 1 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0038",
+      "candidate_name": "Swapnil Shukla",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 43.4,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 4.5 yrs relevant experience (Academic: 2.5 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 0 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0020",
+      "candidate_name": "Keyur Patel",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 43.39,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Electrical and Computer Science' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 6.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 2.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 3 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 18,
+      "candidate_id": "CAND-0002",
+      "candidate_name": "Dr. Afzal Beg",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 43.27,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #18 (Top 10 cutoff, Score: 43.27/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 12.0 yrs relevant experience (Academic: 12.0 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 6 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 19,
+      "candidate_id": "CAND-0021",
+      "candidate_name": "Dr. Akash Thakkar",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 41.33,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #19 (Top 10 cutoff, Score: 41.33/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 3.5 yrs relevant experience (Academic: 3.0 yrs, Industry: 0.5 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 6 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": 20,
+      "candidate_id": "CAND-0019",
+      "candidate_name": "Doyel Mukherjee",
+      "eligible": true,
+      "shortlisted": false,
+      "final_score": 40.48,
+      "reasons": [
+        "NOT SHORTLISTED: Ranked #20 (Top 10 cutoff, Score: 40.48/100)",
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Management, Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 7.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 3.0 yrs) vs required 3.0 yrs",
+        "Publication criteria met: 5 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0010",
+      "candidate_name": "Sampurna Sengupta",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 38.08,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 13.5 yrs relevant experience (Academic: 12.5 yrs, Industry: 1.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 1 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0029",
+      "candidate_name": "Priyanka Sharma",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 37.68,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Physics and Materials Science' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 4.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 5 years vs required 5"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0036",
+      "candidate_name": "Sourabh Pal",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 35.76,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: M.Tech | B.Tech | Diploma, 12th, 10th",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 8.5 yrs relevant experience (Academic: 8.5 yrs, Industry: 0.0 yrs) vs required 3.0 yrs",
+        "Publication criteria NOT met: 2 publications within the last 5 years vs required 5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2637 @@
+{
+  "session_id": "SES-2026-0001",
+  "total_candidates": 37,
+  "publication_classifications_by_candidate": [
+    {
+      "candidate_id": "CAND-0009",
+      "candidate_name": "Anurag Choudhary",
+      "total_publications_evaluated": 10,
+      "publication_score": 0.8776,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Transportation Electrification",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Transportation Electrification",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Industry Applications",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "2022 IEEE 2nd International Conference on Sustainable Energy and Future Electric Transportation",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Sensor Journal",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Expert System",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Computers & Electrical Engineering",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Measurement",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mathematical Problems in Engineering",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0013",
+      "candidate_name": "Dr. Chandan Patra",
+      "total_publications_evaluated": 12,
+      "publication_score": 0.9155,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. B",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Adv. Quantum Technol.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "arXiv:2311.01019v1",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Scientific reports",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. Materials",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. Materials",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. B",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. B",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. B",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Supercond. Sci. Technol.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. B",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Rev. B",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0001",
+      "candidate_name": "John Doe",
+      "total_publications_evaluated": 18,
+      "publication_score": 0.7307,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "RSC Adv",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Next Materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys Status Solidi B Basic Res",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Materials Science: Materials in Electronics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Applied Physics A",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Current Microwave Chemistry",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J Cryst Growth",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Indian Journal of Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Proceedings of the Institution of Mechanical Engineers, Part E: Journal of Process Mechanical Engineering",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DOI: 10.1039/d3ma00454f",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DOI: 10.1039/d3ma00166k",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Process Mech. Eng. XRD",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Appl. Sci.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mater. Today Proc.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Adsorpt. Sci. Technol.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "vol. 8, no. 6",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Nanomaterials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0018",
+      "candidate_name": "Dibakar Roy Chowdhury",
+      "total_publications_evaluated": 28,
+      "publication_score": 0.7971,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Journal of Applied Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Results in Optics",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Physics D: Applied Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "New Journal of Physics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ACS applied electronic materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Opto Electronic Sciences",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Advanced Optical Materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Optics Communications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ACS Applied Optical Materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Materials Chemistry C",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Applied Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Ceramics International",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Materials Chemistry C",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "New Journal of Physics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Optical Materials",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Optics Continuum",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Scientific Reports",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Applied Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "New Journal of Physics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Journal of Selected Topics in Quantum Electronics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Physical Chemistry C",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "JOSA B",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Applied Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Scientific Reports",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Advanced Optical Materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Optics Communications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Physics: Photonics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Physics D: Applied Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0035",
+      "candidate_name": "Snehamoy Pramanik",
+      "total_publications_evaluated": 9,
+      "publication_score": 0.758,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "The European Physical Journal Plus",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mechanics of Advanced Materials and Structures",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Geomechanics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mechanics of Solids",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Wave Motion",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mechanics of Solids",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Arabian Journal of Geosciences",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Waves in Random and Complex Media",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0028",
+      "candidate_name": "Priya Ranjan Sahoo",
+      "total_publications_evaluated": 13,
+      "publication_score": 0.8431,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Bioconjug. Chem.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Inorg. Chem.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Chem. Commun.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Inorg. Chem.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Int. J. Mol. Sci.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Photochem. Photobiol. A: Chem.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Anal. Methods.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Pharmaceutics.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Photochem. Photobiol. A: Chem.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Mol. Struct.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Electroanal. Chem.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Mol. Struct.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Mol. Struct.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0015",
+      "candidate_name": "Isha Sharma",
+      "total_publications_evaluated": 8,
+      "publication_score": 0.7175,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Journal of Lightwave Technology",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Optical Fiber Technology",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Optical Fiber Technology",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Optics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "A. Journal of Physics",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Frontiers in Optics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Symposium on Devices, Circuits and Systems (ISDCS)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "5th International Symposium on Devices, Circuits and Systems (ISDCS)",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0030",
+      "candidate_name": "Dr. Amit Kumar",
+      "total_publications_evaluated": 5,
+      "publication_score": 0.4772,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Sameeksha Trust, Mumbai",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Willey, UK",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Sameeksha Trust, Mumbai",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "National Academy Science Letters",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Kumar, A., Suar, D., & Sahoo, B. K.(2023)",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0023",
+      "candidate_name": "Dr. Dharmendra Pathak",
+      "total_publications_evaluated": 5,
+      "publication_score": 0.5564,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Traitement du Signal",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Intelligent Information and Database Systems",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Artificial Intelligence and Machine Learning for Edge Computing",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "2023 5th International Springer Conference on Computer and Communication Technologies",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "2021 5th International IEEE Conference on Information Systems and Computer Networks",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0014",
+      "candidate_name": "Ashish Kumar Soni",
+      "total_publications_evaluated": 5,
+      "publication_score": 0.5564,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "IEEE-SCEECS-2024",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE-SCEECS-2023",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE-SCEECS-2023",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "WEB OF SCIENCE-2022",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Research Journal Of Modernization In Engineering Technology And Science (IRJMETS)",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0037",
+      "candidate_name": "Sujit Sangram Sahoo",
+      "total_publications_evaluated": 6,
+      "publication_score": 0.637,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Internet of Things",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Multimedia Tools and Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Arabian Journal for Science and Engineering",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Multimedia Tools and Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "The Journal of Supercomputing",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Wireless Personal Communication",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0027",
+      "candidate_name": "Dr. Manoj Kumar Singh",
+      "total_publications_evaluated": 19,
+      "publication_score": 0.6814,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "J. Korean Phys. Soc.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Electronic Materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Electronic Materials",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Iran. J. Sci.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Int. J. Mod. Phys. E",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Indian J. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE Symp. On Nucl. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE Symp. On Nucl. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE Symp. On Nucl. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE Symp. On Nucl. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE Symp. On Nucl. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE Symp. On Nucl. Phys.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Springer Conference Proceeding",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Springer Conference Proceeding",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Phys.: Conf. Ser.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Chapter 68, Springer Proceedings in Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Department of Physics, Institue of Science, Banaras Hindu University, Varanasi",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Faculty Development Program (FDP), Training on Teaching-Learning and Research Aptitude, GLA University, Mathura",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Faculty Development Program (FDP), Workshop on Teaching-Learning and Research Aptitude, GLA University, Mathura",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0024",
+      "candidate_name": "Dr. Kaushal Purohit",
+      "total_publications_evaluated": 8,
+      "publication_score": 0.692,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Annals of Physics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Molecular Modeling",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Physica Scripta",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Mathematical Chemistry",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "The European Physical Journal Plus",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Molecular Physics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Under submission",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Under writing",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0004",
+      "candidate_name": "Anibrata Pal",
+      "total_publications_evaluated": 8,
+      "publication_score": 0.6913,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Construction Building Materials Journal (Springer)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Structure Journal (Springer)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Materials and Structure (Springer)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Indian Concrete Journal (Springer)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "SMET-2024 Scopus Publication",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ICMSMT-2024 Scopus Publication",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ICRDSI-2022 Springer Publication",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0022",
+      "candidate_name": "C.V.Ravi Kumar",
+      "total_publications_evaluated": 15,
+      "publication_score": 0.7168,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "IEEE Access",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Ain Shams Engineering Journal",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Results in Engineering",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Scientific Reports",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ACS omega",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Plos one",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Ain Shams Engineering Journal",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Heliyon",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Heliyon",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Scientific Reports",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Multimedia Tools and Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Alexandria Engineering Journal",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Alexandria Engineering Journal",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Access",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Access",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0032",
+      "candidate_name": "Dr. B. S. Ratanpal",
+      "total_publications_evaluated": 7,
+      "publication_score": 0.736,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Grav. and Cosmo.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Tuijin Jishu/J. Prop. Tech.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Tuijin Jishu/J. Prop. Tech.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Astrophys. Space Sci.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Grav. and Cosmo.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Astrophys. Space Sci.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "New Astronomy",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0031",
+      "candidate_name": "Sanam Preet Kour",
+      "total_publications_evaluated": 14,
+      "publication_score": 0.8551,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "International Journal of Statistical Sciences",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Sri Lankan Journal of Applied Statistics",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Revista Investigación Operacional",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Statistical Computation and Simulation",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Statistical Computation and Simulation",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Lobachevskii Journal of Mathematics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Probability and Statistics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of the Indian Society for Probability and Statistics",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Communication in Advanced Mathematical Sciences",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Communication in Statistics-Simulation and Computation",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Research in Statistics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Revista Investigación Operacional",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Research in Statistics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Thailand Statistician",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0002",
+      "candidate_name": "Dr. Afzal Beg",
+      "total_publications_evaluated": 6,
+      "publication_score": 0.504,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Design Engineering",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Design Engineering",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Study of Real-Time Circulation Activity Using Twitter Tweet Analytics Support NLP",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Emotional Analysis Using Fast Text and RNN Variants for Amazon and Other E-Commerce's Online Review with Support NLP",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Tirumala Engineering College Jonnalagadda, Narasaraopet, Andhra Pradesh",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IIMT College of Engineering Greater Noida (UP)",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0021",
+      "candidate_name": "Dr. Akash Thakkar",
+      "total_publications_evaluated": 6,
+      "publication_score": 0.504,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Proceeding of International Conference on Mathematical Modelling and Simulation in Physical Sciences",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IOSR Journal of Computer Engineering",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IOSR Journal of Computer Engineering",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IOSR Journal of Mathematics",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Engineering Science Technologies",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Quest Journal of Research in Applied Mathematics",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0019",
+      "candidate_name": "Doyel Mukherjee",
+      "total_publications_evaluated": 5,
+      "publication_score": 0.5168,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "International Conference On Innovation and Sustainability: Research And Practice, Globsyn Management Journal",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Globsyn Management Journal",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Globsyn Management Journal",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Globsyn Blog",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Globsyn Blog",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0003",
+      "candidate_name": "Anil Babubhai Hirpara",
+      "total_publications_evaluated": 13,
+      "publication_score": 0.8435,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Int. J. Thermophys.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Mater. Sci. Mater. Electron.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Appl. Surf. Sci. Adv.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Appl. Phys. A.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. Status Solidi A.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. B Condens. Matter.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Phys. B Condens. Matter.",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Mater. Sci. Mater. Electron.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mater. Today Proc.",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Chem. Phys. Impact.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Appl. Surf. Sci.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Alloys Compd.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Surfaces and Interfaces.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0005",
+      "candidate_name": "Bhumika Shah",
+      "total_publications_evaluated": 4,
+      "publication_score": 0.5065,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Evolution in Computational Intelligence",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Advanced Computer Research",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "T4E 2023",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Intelligent Data Engineering and Analytics: Proceedings of the 9th International Conference on Frontiers in Intelligent Computing: Theory and Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0006",
+      "candidate_name": "Rakesh Ranjan",
+      "total_publications_evaluated": 4,
+      "publication_score": 0.658,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "IEEE Communications Letters",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE National Conference on Communications (NCC) 2024",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Elsevier Signal Processing",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Wireless Communications",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0007",
+      "candidate_name": "Nitiraj Shete",
+      "total_publications_evaluated": 10,
+      "publication_score": 0.6376,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "American Journal of Experimental Urology",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Urolithiasis",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "The Journal of Vascular Access",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "American Journal of Experimental Urology",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Urology and Nephrology",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "American Journal of Experimental Urology",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Urolithiasis",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Urology",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Statistics and Applied Mathematics",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Journal of Endourology",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0008",
+      "candidate_name": "Dr. Amit K Parikh",
+      "total_publications_evaluated": 4,
+      "publication_score": 0.457,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Eurasian Conference on 'Science, Engineering & Technological Innovations' during 20 -21 November 2021 Jointly organized by Kryvyi Rih National University, Ukraine, Europe Automation, Computer Science and Technology Department Research Culture Society (online mode)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "3rd International Conference on Mathematical Modeling, Computational Intelligence Techniques and Renewable Energy (MMCITRE - 2022)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Conference for Award Winners in Engineering, Science and Medicine (INSO - 2023)",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "null",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0010",
+      "candidate_name": "Sampurna Sengupta",
+      "total_publications_evaluated": 1,
+      "publication_score": 0.238,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Journal of Innovation Sciences and Sustainable Technologies",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0011",
+      "candidate_name": "Aakash Choudhary",
+      "total_publications_evaluated": 4,
+      "publication_score": 0.4075,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Journal of Algebra and Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "null",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "null",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "null",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0012",
+      "candidate_name": "Arghya Maity",
+      "total_publications_evaluated": 9,
+      "publication_score": 0.758,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "arXiv:2404.00584",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Physical Review A",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "arXiv:2304.10420",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "arXiv:2209.03334",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Physical Review A",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Physical Review A",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Physica A: Statistical Mechanics and its Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Entropy",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Advances in Computational Modeling and Simulation",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0016",
+      "candidate_name": "Dr. Rakesh Bhatnagar",
+      "total_publications_evaluated": 1,
+      "publication_score": 0.436,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "International Conference on Changing Business Paradigms: Trends in Innovation, Development and Sustainability",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0017",
+      "candidate_name": "Dhwanilnath Gharekhan",
+      "total_publications_evaluated": 10,
+      "publication_score": 0.6772,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "J. Earth Syst. Sci.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. Earth Syst. Sci.",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Remote Sensing Applications: Society and Environment",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ILUS - International Land Use Symposium 2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ILUS - International Land Use Symposium 2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ILUS - International Land Use Symposium 2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ILUS - International Land Use Symposium 2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "ILUS - International Land Use Symposium 2023",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "TRISHNADAYS",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "InGARSS 2021 Conference",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0020",
+      "candidate_name": "Keyur Patel",
+      "total_publications_evaluated": 3,
+      "publication_score": 0.516,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Transactions of the Institute of Measurement and Control",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE 42nd International Conference on Consumer Electronics",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE R10 HTC 2023",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0026",
+      "candidate_name": "Lokendra Chouhan",
+      "total_publications_evaluated": 9,
+      "publication_score": 0.96,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "IEEE Internet of Things Journal",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Wireless Communications",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Molecular Biology and Multi-scale Communications Systems",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Communications Letters",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Molecular Biology and Multi-scale Communications Systems",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on NanoBioscience",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on NanoBioscience",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Transactions on Molecular Biology and Multi-scale Communications Systems",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "IEEE Communications Letters",
+          "classified_tier": "Tier 1",
+          "venue_score": 1.0,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0029",
+      "candidate_name": "Priyanka Sharma",
+      "total_publications_evaluated": 4,
+      "publication_score": 0.457,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "J. of cluster science",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "J. of luminescence",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Emergent Converging Technologies and Biomedical Systems",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "DAE-SSPS 2021: 65th DAE Solid State Physics Symposium 2021",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0034",
+      "candidate_name": "KRITISHNU SANYAL",
+      "total_publications_evaluated": 3,
+      "publication_score": 0.45,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Economic and Political Weekly (EPW- Engage)",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Ecology, Economy and Society - the INSEE Journal",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Redefining the Diversity and Dynamism of Natural Resources Management in the Global South (Volume VI)",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0036",
+      "candidate_name": "Sourabh Pal",
+      "total_publications_evaluated": 2,
+      "publication_score": 0.377,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "IEEE ICAC2N-2024",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "International Journal of Advanced Technology and Engineering Exploration",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0038",
+      "candidate_name": "Swapnil Shukla",
+      "total_publications_evaluated": 0,
+      "publication_score": 0.0,
+      "publications": []
+    },
+    {
+      "candidate_id": "CAND-0040",
+      "candidate_name": "Vijay Kumar",
+      "total_publications_evaluated": 4,
+      "publication_score": 0.457,
+      "publications": [
+        {
+          "title": null,
+          "venue_name": "Stochastic Analysis and Applications",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Stochastic Analysis and Applications",
+          "classified_tier": "Tier 3",
+          "venue_score": 0.33,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Communications in Statistics-Simulation and Computation",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        },
+        {
+          "title": null,
+          "venue_name": "Mathematical and Computational Applications",
+          "classified_tier": "Tier 2",
+          "venue_score": 0.66,
+          "year": null,
+          "in_publication_window": true
+        }
+      ]
+    }
+  ]
+}
