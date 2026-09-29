@@ -134,3 +134,16 @@ class CandidateService:
             candidates.sort(key=lambda c: c.personal_information.full_name or "")
 
         return candidates
+
+    def get_failed_candidates(self, session_id: str) -> List[Dict[str, Any]]:
+        failed_dir = settings.SESSIONS_DIR / session_id / "failed_candidates"
+        failed_list = []
+        if failed_dir.exists():
+            for f in failed_dir.glob("*.json"):
+                try:
+                    with open(f, "r", encoding="utf-8") as file:
+                        failed_list.append(json.load(file))
+                except Exception as e:
+                    logger.warning(f"Error reading failed candidate file {f}: {e}")
+        return failed_list
+

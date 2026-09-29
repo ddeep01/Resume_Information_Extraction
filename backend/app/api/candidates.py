@@ -54,3 +54,16 @@ def get_candidate_detail(session_id: str, candidate_id: str):
     if not candidate:
         raise HTTPException(status_code=404, detail="Candidate not found")
     return candidate
+
+@router.get("/failed_candidates")
+def get_failed_candidates(session_id: str):
+    session = session_service.get_session(session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+    failed_list = candidate_service.get_failed_candidates(session_id)
+    return {
+        "session_id": session_id,
+        "failed_count": len(failed_list),
+        "failed_candidates": failed_list
+    }
+

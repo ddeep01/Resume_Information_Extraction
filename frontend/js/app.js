@@ -1,5 +1,5 @@
 /**
- * RecruiterAI - Web UI Application Logic
+ * University Academic Selection Portal - Web Application Logic
  */
 
 const API_BASE = "/api";
@@ -60,6 +60,11 @@ function setupNavigation() {
     document.getElementById('btn-back-dashboard').addEventListener('click', () => switchView('dashboard'));
     document.getElementById('btn-close-modal').addEventListener('click', closeModal);
     document.getElementById('btn-close-modal-footer').addEventListener('click', closeModal);
+
+    // Failed Candidates Modal Controls
+    document.getElementById('btn-view-failed').addEventListener('click', openFailedCandidatesModal);
+    document.getElementById('btn-close-failed-modal').addEventListener('click', closeFailedModal);
+    document.getElementById('btn-close-failed-modal-footer').addEventListener('click', closeFailedModal);
 }
 
 // --------------------------------------------------------------------------
@@ -68,12 +73,12 @@ function setupNavigation() {
 async function loadDashboardSessions() {
     try {
         const res = await fetch(`${API_BASE}/sessions`);
-        if (!res.ok) throw new Error("Failed to load sessions");
+        if (!res.ok) throw new Error("Failed to load search sessions");
         const sessions = await res.json();
 
         renderDashboardSessions(sessions);
     } catch (err) {
-        showToast("Error loading recruitment sessions: " + err.message, "error");
+        showToast("Error loading faculty selection sessions: " + err.message, "error");
     }
 }
 
@@ -91,7 +96,7 @@ function renderDashboardSessions(sessions) {
             <tr>
                 <td colspan="10" class="text-center py-8 text-muted">
                     <i class="fa-solid fa-folder-open fa-2x"></i>
-                    <p class="mt-2">No recruitment sessions found. Click "Create Recruitment Session" to start!</p>
+                    <p class="mt-2">No selection sessions found. Click "Create Selection Session" to start candidate evaluation.</p>
                 </td>
             </tr>`;
         document.getElementById('stat-total-resumes').textContent = '0';
@@ -122,12 +127,12 @@ function renderDashboardSessions(sessions) {
             <td>${s.minimum_experience} yrs</td>
             <td>${s.top_n}</td>
             <td>${s.total_candidates || 0}</td>
-            <td><strong class="text-emerald">${s.shortlisted_candidates || 0}</strong></td>
+            <td><strong class="text-gold">${s.shortlisted_candidates || 0}</strong></td>
             <td>${statusBadge}</td>
             <td>${dateStr}</td>
             <td>
                 <div style="display: flex; gap: 0.35rem; align-items: center;">
-                    <button class="btn btn-secondary btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Results">
+                    <button class="btn btn-gold btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Candidate Results">
                         <i class="fa-solid fa-eye"></i> View
                     </button>
                     <button class="btn btn-outline-danger btn-sm" onclick="deleteSingleSession('${s.session_id}')" title="Delete Session">
@@ -144,7 +149,7 @@ function renderDashboardSessions(sessions) {
 }
 
 async function deleteSingleSession(sessionId) {
-    if (!confirm(`Are you sure you want to delete session ${sessionId}? This will remove all uploaded resumes and candidates.`)) {
+    if (!confirm(`Are you sure you want to delete session ${sessionId}? This will remove all candidate files and evaluation results.`)) {
         return;
     }
     try {
@@ -158,13 +163,13 @@ async function deleteSingleSession(sessionId) {
 }
 
 async function clearAllSessions() {
-    if (!confirm("Are you sure you want to clear ALL sessions, candidate records, and caches? This cannot be undone.")) {
+    if (!confirm("Are you sure you want to clear ALL faculty selection sessions, candidate records, and caches? This action cannot be undone.")) {
         return;
     }
     try {
         const res = await fetch(`${API_BASE}/sessions/clear`, { method: 'DELETE' });
         if (!res.ok) throw new Error("Failed to clear data");
-        showToast("All sessions and candidate data cleared successfully", "success");
+        showToast("All selection sessions and candidate data cleared successfully", "success");
         loadDashboardSessions();
     } catch (err) {
         showToast("Error clearing data: " + err.message, "error");
@@ -173,8 +178,6 @@ async function clearAllSessions() {
 
 window.deleteSingleSession = deleteSingleSession;
 window.clearAllSessions = clearAllSessions;
-
-
 
 // --------------------------------------------------------------------------
 // 2. CREATE SESSION & WEIGHTS LOGIC
@@ -217,7 +220,7 @@ function setupUploadDropzone() {
 
     fileInput.addEventListener('change', () => {
         if (fileInput.files.length > 0) {
-            fileNameDiv.textContent = `Selected: ${fileInput.files[0].name} (${(fileInput.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
+            fileNameDiv.textContent = `Selected Archive: ${fileInput.files[0].name} (${(fileInput.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
             fileNameDiv.classList.remove('hidden');
         }
     });
@@ -240,7 +243,7 @@ function setupUploadDropzone() {
         const dt = e.dataTransfer;
         if (dt.files.length > 0) {
             fileInput.files = dt.files;
-            fileNameDiv.textContent = `Selected: ${dt.files[0].name} (${(dt.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
+            fileNameDiv.textContent = `Selected Archive: ${dt.files[0].name} (${(dt.files[0].size / 1024 / 1024).toFixed(2)} MB)`;
             fileNameDiv.classList.remove('hidden');
         }
     });
@@ -257,7 +260,7 @@ function setupFormSubmission() {
         const sInd = parseInt(document.getElementById('weight_industry').value);
 
         if (sEdu + sPub + sAcad + sInd !== 100) {
-            showToast("Scoring weights must sum to exactly 100%", "error");
+            showToast("Evaluation weights must sum to exactly 100%", "error");
             return;
         }
 
@@ -269,7 +272,7 @@ function setupFormSubmission() {
 
         const btnSubmit = document.getElementById('btn-submit-session');
         btnSubmit.disabled = true;
-        btnSubmit.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Creating Session & Uploading ZIP...`;
+        btnSubmit.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Initializing Session & Uploading Archive...`;
 
         try {
             // 1. Create Session
@@ -295,7 +298,7 @@ function setupFormSubmission() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(sessionPayload)
             });
-            if (!createRes.ok) throw new Error("Failed to create session");
+            if (!createRes.ok) throw new Error("Failed to create selection session");
             const sessionData = await createRes.json();
             currentSessionId = sessionData.session_id;
 
@@ -307,25 +310,25 @@ function setupFormSubmission() {
                 method: 'POST',
                 body: formData
             });
-            if (!uploadRes.ok) throw new Error("Failed to upload ZIP file");
+            if (!uploadRes.ok) throw new Error("Failed to upload ZIP archive");
 
             // 3. Trigger Start Processing
             const startRes = await fetch(`${API_BASE}/sessions/${currentSessionId}/start`, {
                 method: 'POST'
             });
-            if (!startRes.ok) throw new Error("Failed to start processing job");
+            if (!startRes.ok) throw new Error("Failed to start background evaluation worker");
 
-            showToast(`Session ${currentSessionId} created! Processing started.`, "success");
+            showToast(`Faculty selection session ${currentSessionId} created! Processing started.`, "success");
             btnSubmit.disabled = false;
-            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> START SHORTLISTING & PROCESSING`;
+            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> START FACULTY EVALUATION & PROCESSING`;
 
             // Transition to Processing View
             startProcessingMonitor(currentSessionId);
 
         } catch (err) {
-            showToast("Error creating session: " + err.message, "error");
+            showToast("Error initializing session: " + err.message, "error");
             btnSubmit.disabled = false;
-            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> START SHORTLISTING & PROCESSING`;
+            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> START FACULTY EVALUATION & PROCESSING`;
         }
     });
 }
@@ -336,7 +339,7 @@ function setupFormSubmission() {
 function startProcessingMonitor(sessionId) {
     currentSessionId = sessionId;
     switchView('processing');
-    document.getElementById('proc-session-title').textContent = `Session: ${sessionId}`;
+    document.getElementById('proc-session-title').textContent = `Faculty Search Session: ${sessionId}`;
     document.getElementById('proc-action-bar').classList.add('hidden');
 
     if (statusPollInterval) clearInterval(statusPollInterval);
@@ -364,20 +367,20 @@ async function pollProcessingStatus() {
         
         // Conic gradient background for circular spinner
         const circle = document.getElementById('progress-circle-element');
-        circle.style.background = `conic-gradient(var(--primary) ${pct}%, var(--bg-input) ${pct}%)`;
+        circle.style.background = `conic-gradient(var(--gold) ${pct}%, var(--bg-input) ${pct}%)`;
 
         document.getElementById('proc-stage-badge').textContent = data.stage || data.status;
         document.getElementById('proc-stat-total').textContent = data.total || 0;
         document.getElementById('proc-stat-processed').textContent = data.processed || 0;
         document.getElementById('proc-stat-failed').textContent = data.failed || 0;
 
-        document.getElementById('proc-detail-msg').textContent = `Stage: ${data.stage}. Processed ${data.processed} of ${data.total} resumes...`;
+        document.getElementById('proc-detail-msg').textContent = `Current Stage: ${data.stage}. Processed ${data.processed} of ${data.total} candidate resumes...`;
 
         if (data.status === 'COMPLETED') {
             clearInterval(statusPollInterval);
-            document.getElementById('proc-detail-msg').textContent = `Processing complete! Shortlisted ${data.shortlisted} candidates out of ${data.total}.`;
+            document.getElementById('proc-detail-msg').textContent = `Evaluation complete! Shortlisted ${data.shortlisted} top candidates out of ${data.total}.`;
             document.getElementById('proc-action-bar').classList.remove('hidden');
-            showToast("Resume shortlisting completed successfully!", "success");
+            showToast("Candidate evaluation completed successfully!", "success");
         } else if (data.status === 'FAILED') {
             clearInterval(statusPollInterval);
             document.getElementById('proc-detail-msg').textContent = `Processing failed. ${data.error_message || ''}`;
@@ -406,8 +409,23 @@ async function openSessionResults(sessionId) {
         document.getElementById('res-session-meta').textContent = `Required ${sessionData.required_degree} in ${sessionData.required_specialization} | Min ${sessionData.minimum_experience} Yrs Exp | Min ${sessionData.minimum_publications} Pubs`;
 
         loadCandidatesList();
+        loadFailedCandidatesCount();
     } catch (err) {
         showToast("Error opening session results: " + err.message, "error");
+    }
+}
+
+async function loadFailedCandidatesCount() {
+    if (!currentSessionId) return;
+    try {
+        const res = await fetch(`${API_BASE}/sessions/${currentSessionId}/failed_candidates`);
+        if (res.ok) {
+            const data = await res.json();
+            const badge = document.getElementById('failed-count-badge');
+            if (badge) badge.textContent = data.failed_count || 0;
+        }
+    } catch (e) {
+        console.error("Failed candidates fetch error:", e);
     }
 }
 
@@ -491,7 +509,7 @@ function renderCandidatesTable(candidates) {
             <td>${pubCount}</td>
             <td>${(s.education_score * 100).toFixed(0)}</td>
             <td>${(s.publication_score * 100).toFixed(0)}</td>
-            <td><strong class="text-emerald text-base">${s.final_score.toFixed(1)}</strong></td>
+            <td><strong class="text-gold text-base">${s.final_score.toFixed(1)}</strong></td>
             <td>${statusBadge}</td>
             <td>
                 <button class="btn btn-secondary btn-sm" onclick="openCandidateModal('${cand.candidate_id}')">
@@ -540,7 +558,7 @@ function openCandidateModal(candidateId) {
         badge.innerHTML = `INELIGIBLE`;
     }
 
-    document.getElementById('modal-cand-rank-text').textContent = s.rank ? `Ranked #${s.rank} among eligible candidates` : `Criteria not satisfied`;
+    document.getElementById('modal-cand-rank-text').textContent = s.rank ? `Ranked #${s.rank} among eligible candidates` : `Selection criteria not satisfied`;
     document.getElementById('modal-cand-final-score').textContent = s.final_score.toFixed(1);
 
     // Personal Info
@@ -611,7 +629,7 @@ function openCandidateModal(candidateId) {
     const listAcad = document.getElementById('modal-list-academic');
     listAcad.innerHTML = '';
     const acads = cand.experience.academic || [];
-    if (acads.length === 0) listAcad.innerHTML = '<p class="text-muted">No academic experience listed.</p>';
+    if (acads.length === 0) listAcad.innerHTML = '<p class="text-muted">No academic teaching experience listed.</p>';
     acads.forEach(a => {
         const div = document.createElement('div');
         div.className = 'mini-stat';
@@ -626,12 +644,12 @@ function openCandidateModal(candidateId) {
     const listInd = document.getElementById('modal-list-industry');
     listInd.innerHTML = '';
     const inds = cand.experience.industry || [];
-    if (inds.length === 0) listInd.innerHTML = '<p class="text-muted">No industry experience listed.</p>';
+    if (inds.length === 0) listInd.innerHTML = '<p class="text-muted">No corporate / R&D experience listed.</p>';
     inds.forEach(i => {
         const div = document.createElement('div');
         div.className = 'mini-stat';
         div.innerHTML = `
-            <div class="font-semibold">${escapeHtml(i.role || 'Role N/A')} at ${escapeHtml(i.organization || 'Company')}</div>
+            <div class="font-semibold">${escapeHtml(i.role || 'Role N/A')} at ${escapeHtml(i.organization || 'Organization')}</div>
             <div class="text-xs text-muted">${i.duration_years} yrs ${i.location ? '| ' + escapeHtml(i.location) : ''}</div>
         `;
         listInd.appendChild(div);
@@ -642,6 +660,58 @@ function openCandidateModal(candidateId) {
 
 function closeModal() {
     document.getElementById('modal-candidate').classList.add('hidden');
+}
+
+// --------------------------------------------------------------------------
+// 6. FAILED CANDIDATES MODAL LOGIC (FACULTY REVIEW CONSOLE)
+// --------------------------------------------------------------------------
+async function openFailedCandidatesModal() {
+    if (!currentSessionId) return;
+
+    try {
+        const res = await fetch(`${API_BASE}/sessions/${currentSessionId}/failed_candidates`);
+        if (!res.ok) throw new Error("Failed to fetch failed candidate logs");
+        const data = await res.json();
+
+        const container = document.getElementById('failed-candidates-list');
+        container.innerHTML = '';
+
+        if (!data.failed_candidates || data.failed_candidates.length === 0) {
+            container.innerHTML = `
+                <div class="text-center py-8 text-muted">
+                    <i class="fa-solid fa-circle-check fa-3x text-emerald mb-3"></i>
+                    <h4>No Failed Resumes</h4>
+                    <p class="text-sm">All candidate resumes in this session were parsed and extracted successfully!</p>
+                </div>`;
+        } else {
+            data.failed_candidates.forEach(f => {
+                const item = document.createElement('div');
+                item.className = 'card-inner';
+                item.style.borderColor = 'rgba(239, 68, 68, 0.4)';
+                item.innerHTML = `
+                    <div class="flex justify-between items-center mb-2">
+                        <div>
+                            <strong class="text-red font-semibold"><i class="fa-solid fa-file-excel"></i> ${escapeHtml(f.filename)}</strong>
+                            <span class="text-xs text-muted ml-2">ID: ${f.candidate_id}</span>
+                        </div>
+                        <span class="badge badge-ineligible">EXTRACTION FAILURE</span>
+                    </div>
+                    <div class="text-xs text-red mb-3"><strong>Error Log:</strong> ${escapeHtml(f.error)}</div>
+                    <div class="text-xs font-semibold mb-1 text-secondary">Raw Extracted Resume Text (Faculty Manual Review):</div>
+                    <div class="raw-text-box">${escapeHtml(f.raw_text)}</div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        document.getElementById('modal-failed-candidates').classList.remove('hidden');
+    } catch (err) {
+        showToast("Error loading failed candidates: " + err.message, "error");
+    }
+}
+
+function closeFailedModal() {
+    document.getElementById('modal-failed-candidates').classList.add('hidden');
 }
 
 // --------------------------------------------------------------------------
@@ -656,8 +726,8 @@ function showToast(message, type = "info") {
         color: var(--text-primary);
         padding: 0.9rem 1.25rem;
         border-radius: var(--radius-md);
-        border: 1px solid ${type === 'error' ? 'var(--red)' : 'var(--primary)'};
-        box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        border: 1px solid ${type === 'error' ? 'var(--red)' : 'var(--gold)'};
+        box-shadow: 0 8px 24px rgba(0,0,0,0.5);
         margin-bottom: 0.5rem;
         font-size: 0.9rem;
         display: flex;

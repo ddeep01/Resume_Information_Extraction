@@ -227,6 +227,18 @@ def run_session_processing(session_id: str):
                 log_step(f"ERROR processing candidate {cand_id} ({file_path.name}): {e}")
                 logger.error(f"Error processing candidate {cand_id} ({file_path.name}): {e}", exc_info=True)
                 failed_count += 1
+                # Save failed candidate record for human faculty review & intervention
+                failed_dir = session_dir / "failed_candidates"
+                failed_dir.mkdir(parents=True, exist_ok=True)
+                raw_txt_file = session_dir / "raw_text" / f"{cand_id}.txt"
+                raw_txt = raw_txt_file.read_text(encoding="utf-8") if raw_txt_file.exists() else "Raw text unavailable"
+                failed_data = {
+                    "candidate_id": cand_id,
+                    "filename": file_path.name,
+                    "error": str(e),
+                    "raw_text": raw_txt
+                }
+                (failed_dir / f"{cand_id}.json").write_text(json.dumps(failed_data, indent=2), encoding="utf-8")
 
         # Stage 8: RANKING AND SHORTLISTING
         log_step("-" * 70)
