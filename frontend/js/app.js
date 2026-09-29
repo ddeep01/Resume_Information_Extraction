@@ -1,5 +1,6 @@
 /**
- * University Academic Selection Portal - Web Application Logic
+ * University Faculty Recruitment & Academic Selection Portal
+ * Web Application Logic
  */
 
 const API_BASE = "/api";
@@ -14,7 +15,10 @@ const views = {
     dashboard: document.getElementById('page-dashboard'),
     createSession: document.getElementById('page-create-session'),
     processing: document.getElementById('page-processing'),
-    results: document.getElementById('page-results')
+    candidates: document.getElementById('page-candidates'),
+    shortlist: document.getElementById('page-shortlist'),
+    reports: document.getElementById('page-reports'),
+    settings: document.getElementById('page-settings')
 };
 
 // Initialize Application
@@ -24,51 +28,81 @@ document.addEventListener('DOMContentLoaded', () => {
     setupUploadDropzone();
     setupFormSubmission();
     setupFilters();
+    setupModalTabs();
     loadDashboardSessions();
 });
 
-// View Navigation
+// View Navigation & Sidebar Highlighting
 function switchView(targetView) {
     Object.keys(views).forEach(key => {
-        if (key === targetView) {
-            views[key].classList.add('active');
-        } else {
-            views[key].classList.remove('active');
+        if (views[key]) {
+            if (key === targetView) {
+                views[key].classList.add('active');
+            } else {
+                views[key].classList.remove('active');
+            }
         }
     });
 
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    // Sidebar active item update
+    document.querySelectorAll('.nav-item').forEach(btn => {
+        if (btn.getAttribute('data-view') === targetView) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
     if (targetView === 'dashboard') {
-        document.getElementById('nav-dashboard').classList.add('active');
         loadDashboardSessions();
+    } else if (targetView === 'candidates' || targetView === 'shortlist') {
+        if (currentSessionId) {
+            loadCandidatesList();
+        } else {
+            showToast("Please select a session from the Dashboard first", "info");
+        }
     }
 }
 
 function setupNavigation() {
-    document.getElementById('btn-brand').addEventListener('click', () => switchView('dashboard'));
-    document.getElementById('nav-dashboard').addEventListener('click', () => switchView('dashboard'));
-    document.getElementById('nav-create-session').addEventListener('click', () => switchView('createSession'));
-    document.getElementById('btn-create-session').addEventListener('click', () => switchView('createSession'));
+    // Sidebar clicks
+    document.querySelectorAll('.nav-item').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const v = btn.getAttribute('data-view');
+            if (v) switchView(v);
+        });
+    });
+
+    // Dashboard Buttons
+    document.getElementById('btn-dashboard-create').addEventListener('click', () => switchView('createSession'));
     document.getElementById('btn-cancel-create').addEventListener('click', () => switchView('dashboard'));
     document.getElementById('btn-refresh-sessions').addEventListener('click', () => loadDashboardSessions());
+    document.getElementById('btn-refresh-data').addEventListener('click', () => loadDashboardSessions());
     
     const clearBtn = document.getElementById('btn-clear-all-data');
     if (clearBtn) {
         clearBtn.addEventListener('click', () => clearAllSessions());
     }
 
+    // Quick Actions
+    document.getElementById('qa-create-session').addEventListener('click', () => switchView('createSession'));
+    document.getElementById('qa-view-candidates').addEventListener('click', () => switchView('candidates'));
+    document.getElementById('qa-view-shortlist').addEventListener('click', () => switchView('shortlist'));
+    document.getElementById('qa-view-reports').addEventListener('click', () => switchView('reports'));
+
+    // Candidate View Controls
     document.getElementById('btn-back-dashboard').addEventListener('click', () => switchView('dashboard'));
     document.getElementById('btn-close-modal').addEventListener('click', closeModal);
     document.getElementById('btn-close-modal-footer').addEventListener('click', closeModal);
 
-    // Failed Candidates Modal Controls
+    // Failed Candidates Console
     document.getElementById('btn-view-failed').addEventListener('click', openFailedCandidatesModal);
     document.getElementById('btn-close-failed-modal').addEventListener('click', closeFailedModal);
     document.getElementById('btn-close-failed-modal-footer').addEventListener('click', closeFailedModal);
 }
 
 // --------------------------------------------------------------------------
-// 1. DASHBOARD LOGIC
+// 1. DASHBOARD LOGIC & KPI CARDS
 // --------------------------------------------------------------------------
 async function loadDashboardSessions() {
     try {
@@ -89,7 +123,8 @@ function renderDashboardSessions(sessions) {
     let totalResumes = 0;
     let totalShortlisted = 0;
 
-    document.getElementById('stat-total-sessions').textContent = sessions.length;
+    document.getElementById('kpi-sessions-count').textContent = sessions.length;
+    document.getElementById('kpi-positions-count').textContent = sessions.length;
 
     if (sessions.length === 0) {
         tbody.innerHTML = `
@@ -99,8 +134,8 @@ function renderDashboardSessions(sessions) {
                     <p class="mt-2">No selection sessions found. Click "Create Selection Session" to start candidate evaluation.</p>
                 </td>
             </tr>`;
-        document.getElementById('stat-total-resumes').textContent = '0';
-        document.getElementById('stat-total-shortlisted').textContent = '0';
+        document.getElementById('kpi-resumes-count').textContent = '0';
+        document.getElementById('kpi-shortlisted-count').textContent = '0';
         return;
     }
 
@@ -112,11 +147,11 @@ function renderDashboardSessions(sessions) {
         
         let statusBadge = `<span class="badge badge-eligible">${s.processing_status}</span>`;
         if (s.processing_status === 'COMPLETED') {
-            statusBadge = `<span class="badge badge-shortlisted"><i class="fa-solid fa-check"></i> Completed</span>`;
+            statusBadge = `<span class="badge badge-completed"><i class="fa-solid fa-check"></i> Completed</span>`;
         } else if (s.processing_status === 'PROCESSING') {
             statusBadge = `<span class="badge badge-processing"><i class="fa-solid fa-spinner fa-spin"></i> Processing</span>`;
         } else if (s.processing_status === 'FAILED') {
-            statusBadge = `<span class="badge badge-ineligible"><i class="fa-solid fa-xmark"></i> Failed</span>`;
+            statusBadge = `<span class="badge badge-failed"><i class="fa-solid fa-xmark"></i> Failed</span>`;
         }
 
         const tr = document.createElement('tr');
@@ -127,15 +162,15 @@ function renderDashboardSessions(sessions) {
             <td>${s.minimum_experience} yrs</td>
             <td>${s.top_n}</td>
             <td>${s.total_candidates || 0}</td>
-            <td><strong class="text-gold">${s.shortlisted_candidates || 0}</strong></td>
+            <td><strong class="text-primary">${s.shortlisted_candidates || 0}</strong></td>
             <td>${statusBadge}</td>
             <td>${dateStr}</td>
             <td>
                 <div style="display: flex; gap: 0.35rem; align-items: center;">
-                    <button class="btn btn-gold btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Candidate Results">
+                    <button class="btn btn-navy btn-sm" onclick="openSessionResults('${s.session_id}')" title="View Candidate Results">
                         <i class="fa-solid fa-eye"></i> View
                     </button>
-                    <button class="btn btn-outline-danger btn-sm" onclick="deleteSingleSession('${s.session_id}')" title="Delete Session">
+                    <button class="btn btn-danger btn-sm" onclick="deleteSingleSession('${s.session_id}')" title="Delete Session">
                         <i class="fa-solid fa-trash"></i>
                     </button>
                 </div>
@@ -144,8 +179,8 @@ function renderDashboardSessions(sessions) {
         tbody.appendChild(tr);
     });
 
-    document.getElementById('stat-total-resumes').textContent = totalResumes;
-    document.getElementById('stat-total-shortlisted').textContent = totalShortlisted;
+    document.getElementById('kpi-resumes-count').textContent = totalResumes;
+    document.getElementById('kpi-shortlisted-count').textContent = totalShortlisted;
 }
 
 async function deleteSingleSession(sessionId) {
@@ -198,9 +233,9 @@ function setupWeightSliders() {
         const badge = document.getElementById('weight-total-indicator');
         badge.textContent = `Total: ${total}%`;
         if (total === 100) {
-            badge.classList.remove('error');
+            badge.className = 'badge badge-completed';
         } else {
-            badge.classList.add('error');
+            badge.className = 'badge badge-failed';
         }
     };
 
@@ -320,7 +355,7 @@ function setupFormSubmission() {
 
             showToast(`Faculty selection session ${currentSessionId} created! Processing started.`, "success");
             btnSubmit.disabled = false;
-            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> START FACULTY EVALUATION & PROCESSING`;
+            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> Initialize & Start Processing`;
 
             // Transition to Processing View
             startProcessingMonitor(currentSessionId);
@@ -328,13 +363,13 @@ function setupFormSubmission() {
         } catch (err) {
             showToast("Error initializing session: " + err.message, "error");
             btnSubmit.disabled = false;
-            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> START FACULTY EVALUATION & PROCESSING`;
+            btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> Initialize & Start Processing`;
         }
     });
 }
 
 // --------------------------------------------------------------------------
-// 3. PROCESSING MONITOR LOGIC
+// 3. PROCESSING MONITOR LOGIC (ENTERPRISE STEP WORKFLOW)
 // --------------------------------------------------------------------------
 function startProcessingMonitor(sessionId) {
     currentSessionId = sessionId;
@@ -363,18 +398,14 @@ async function pollProcessingStatus() {
         // Update UI
         const pct = data.percentage || 0;
         document.getElementById('proc-percentage-text').textContent = `${Math.round(pct)}%`;
-        document.getElementById('proc-bar-fill').style.width = `${pct}%`;
-        
-        // Conic gradient background for circular spinner
-        const circle = document.getElementById('progress-circle-element');
-        circle.style.background = `conic-gradient(var(--gold) ${pct}%, var(--bg-input) ${pct}%)`;
-
         document.getElementById('proc-stage-badge').textContent = data.stage || data.status;
-        document.getElementById('proc-stat-total').textContent = data.total || 0;
-        document.getElementById('proc-stat-processed').textContent = data.processed || 0;
-        document.getElementById('proc-stat-failed').textContent = data.failed || 0;
+        document.getElementById('proc-detail-msg').textContent = `Stage: ${data.stage}. Processed ${data.processed} of ${data.total} candidate resumes...`;
 
-        document.getElementById('proc-detail-msg').textContent = `Current Stage: ${data.stage}. Processed ${data.processed} of ${data.total} candidate resumes...`;
+        // Update step status icons
+        if (pct >= 25) setStepIcon('step-icon-2', 'done');
+        if (pct >= 50) setStepIcon('step-icon-3', 'done');
+        if (pct >= 75) setStepIcon('step-icon-4', 'done');
+        if (pct >= 100) setStepIcon('step-icon-5', 'done');
 
         if (data.status === 'COMPLETED') {
             clearInterval(statusPollInterval);
@@ -391,13 +422,25 @@ async function pollProcessingStatus() {
     }
 }
 
+function setStepIcon(elemId, state) {
+    const el = document.getElementById(elemId);
+    if (!el) return;
+    if (state === 'done') {
+        el.className = 'step-status-icon done';
+        el.innerHTML = '<i class="fa-solid fa-check"></i>';
+    } else if (state === 'active') {
+        el.className = 'step-status-icon active';
+        el.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+    }
+}
+
 // --------------------------------------------------------------------------
-// 4. CANDIDATE RESULTS LOGIC
+// 4. CANDIDATES DIRECTORY & SHORTLIST LOGIC
 // --------------------------------------------------------------------------
 async function openSessionResults(sessionId) {
     currentSessionId = sessionId;
     if (statusPollInterval) clearInterval(statusPollInterval);
-    switchView('results');
+    switchView('candidates');
 
     try {
         const sessionRes = await fetch(`${API_BASE}/sessions/${sessionId}`);
@@ -448,11 +491,8 @@ async function loadCandidatesList() {
 
         currentCandidates = data.candidates;
 
-        document.getElementById('res-stat-total').textContent = data.total;
-        document.getElementById('res-stat-eligible').textContent = data.eligible_count;
-        document.getElementById('res-stat-shortlisted').textContent = data.shortlisted_count;
-
         renderCandidatesTable(data.candidates);
+        renderShortlistTable(data.candidates.filter(c => c.shortlisting && c.shortlisting.shortlisted));
     } catch (err) {
         showToast("Error loading candidates: " + err.message, "error");
     }
@@ -479,7 +519,7 @@ function renderCandidatesTable(candidates) {
 
         let statusBadge = `<span class="badge badge-ineligible">INELIGIBLE</span>`;
         if (s.shortlisted) {
-            statusBadge = `<span class="badge badge-shortlisted"><i class="fa-solid fa-star"></i> SHORTLISTED</span>`;
+            statusBadge = `<span class="badge badge-completed"><i class="fa-solid fa-star"></i> SHORTLISTED</span>`;
         } else if (s.eligible) {
             statusBadge = `<span class="badge badge-eligible">ELIGIBLE</span>`;
         }
@@ -499,7 +539,7 @@ function renderCandidatesTable(candidates) {
         tr.innerHTML = `
             <td><strong>${rankDisplay}</strong></td>
             <td>
-                <div class="font-semibold">${escapeHtml(p.full_name || 'Candidate')}</div>
+                <div class="font-semibold" style="color: var(--navy-primary);">${escapeHtml(p.full_name || 'Candidate')}</div>
                 <div class="text-xs text-muted">${escapeHtml(p.email || '')}</div>
             </td>
             <td>${escapeHtml(p.current_designation || 'N/A')}</td>
@@ -509,11 +549,53 @@ function renderCandidatesTable(candidates) {
             <td>${pubCount}</td>
             <td>${(s.education_score * 100).toFixed(0)}</td>
             <td>${(s.publication_score * 100).toFixed(0)}</td>
-            <td><strong class="text-gold text-base">${s.final_score.toFixed(1)}</strong></td>
+            <td><strong class="text-primary text-base">${s.final_score.toFixed(1)}</strong></td>
             <td>${statusBadge}</td>
             <td>
                 <button class="btn btn-secondary btn-sm" onclick="openCandidateModal('${cand.candidate_id}')">
                     <i class="fa-solid fa-id-card"></i> Profile
+                </button>
+            </td>
+        `;
+        tbody.appendChild(tr);
+    });
+}
+
+function renderShortlistTable(shortlisted) {
+    const tbody = document.getElementById('tbody-shortlist-only');
+    if (!tbody) return;
+    tbody.innerHTML = '';
+
+    if (!shortlisted || shortlisted.length === 0) {
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="8" class="text-center py-8 text-muted">
+                    <i class="fa-solid fa-award fa-2x"></i>
+                    <p class="mt-2">No candidates shortlisted for current session.</p>
+                </td>
+            </tr>`;
+        return;
+    }
+
+    shortlisted.forEach(cand => {
+        const s = cand.shortlisting;
+        const p = cand.personal_information;
+        const highestEdu = cand.education && cand.education.length > 0 ? cand.education[0].degree : 'N/A';
+        const totalExpYears = ((cand.experience.academic || []).reduce((a, b) => a + (b.duration_years || 0), 0) +
+                              (cand.experience.industry || []).reduce((a, b) => a + (b.duration_years || 0), 0)).toFixed(1);
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td><strong>#${s.rank || 1}</strong></td>
+            <td><strong>${escapeHtml(p.full_name || 'Candidate')}</strong></td>
+            <td>${escapeHtml(p.current_designation || 'N/A')}</td>
+            <td><span class="badge badge-tier1">${escapeHtml(highestEdu)}</span></td>
+            <td>${totalExpYears} yrs</td>
+            <td><strong class="text-primary">${s.final_score.toFixed(1)}</strong></td>
+            <td><span class="badge badge-completed"><i class="fa-solid fa-star"></i> SHORTLISTED</span></td>
+            <td>
+                <button class="btn btn-secondary btn-sm" onclick="openCandidateModal('${cand.candidate_id}')">
+                    <i class="fa-solid fa-eye"></i> View Profile
                 </button>
             </td>
         `;
@@ -528,8 +610,27 @@ function setupFilters() {
 }
 
 // --------------------------------------------------------------------------
-// 5. CANDIDATE DETAIL MODAL LOGIC
+// 5. CANDIDATE PROFILE MODAL & TABS (ACADEMIC CV VIEW)
 // --------------------------------------------------------------------------
+function setupModalTabs() {
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const target = btn.getAttribute('data-tab');
+            tabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            document.querySelectorAll('.tab-content').forEach(c => {
+                if (c.id === target) {
+                    c.classList.add('active');
+                } else {
+                    c.classList.remove('active');
+                }
+            });
+        });
+    });
+}
+
 function openCandidateModal(candidateId) {
     const cand = currentCandidates.find(c => c.candidate_id === candidateId);
     if (!cand) return;
@@ -544,24 +645,23 @@ function openCandidateModal(candidateId) {
     document.getElementById('modal-cand-desig').textContent = p.current_designation || 'Designation N/A';
 
     // Status Banner & Final Score
-    const banner = document.getElementById('modal-status-banner');
     const badge = document.getElementById('modal-cand-status-badge');
-    badge.className = 'badge badge-lg ';
+    badge.className = 'badge ';
     if (s.shortlisted) {
-        badge.classList.add('badge-shortlisted');
+        badge.classList.add('badge-completed');
         badge.innerHTML = `<i class="fa-solid fa-star"></i> SHORTLISTED`;
     } else if (s.eligible) {
         badge.classList.add('badge-eligible');
         badge.innerHTML = `ELIGIBLE`;
     } else {
-        badge.classList.add('badge-ineligible');
+        badge.classList.add('badge-failed');
         badge.innerHTML = `INELIGIBLE`;
     }
 
-    document.getElementById('modal-cand-rank-text').textContent = s.rank ? `Ranked #${s.rank} among eligible candidates` : `Selection criteria not satisfied`;
+    document.getElementById('modal-cand-rank-text').textContent = s.rank ? `Ranked #${s.rank} among candidates` : `Criteria not satisfied`;
     document.getElementById('modal-cand-final-score').textContent = s.final_score.toFixed(1);
 
-    // Personal Info
+    // Contact Info
     document.getElementById('modal-cand-email').textContent = p.email || 'N/A';
     document.getElementById('modal-cand-phone').textContent = p.phone || 'N/A';
     document.getElementById('modal-cand-file').textContent = cand.source_file;
@@ -575,24 +675,6 @@ function openCandidateModal(candidateId) {
         li.textContent = r;
         reasonsUl.appendChild(li);
     });
-
-    // Component Score Bars
-    const eduPct = Math.round(s.education_score * 100);
-    const pubPct = Math.round(s.publication_score * 100);
-    const acadPct = Math.round(s.academic_experience_score * 100);
-    const indPct = Math.round(s.industry_experience_score * 100);
-
-    document.getElementById('modal-score-edu').textContent = `${eduPct} / 100`;
-    document.getElementById('modal-bar-edu').style.width = `${eduPct}%`;
-
-    document.getElementById('modal-score-pub').textContent = `${pubPct} / 100`;
-    document.getElementById('modal-bar-pub').style.width = `${pubPct}%`;
-
-    document.getElementById('modal-score-acad').textContent = `${acadPct} / 100`;
-    document.getElementById('modal-bar-acad').style.width = `${acadPct}%`;
-
-    document.getElementById('modal-score-ind').textContent = `${indPct} / 100`;
-    document.getElementById('modal-bar-ind').style.width = `${indPct}%`;
 
     // Education Table
     const tbodyEdu = document.getElementById('modal-tbody-education');
@@ -629,13 +711,13 @@ function openCandidateModal(candidateId) {
     const listAcad = document.getElementById('modal-list-academic');
     listAcad.innerHTML = '';
     const acads = cand.experience.academic || [];
-    if (acads.length === 0) listAcad.innerHTML = '<p class="text-muted">No academic teaching experience listed.</p>';
+    if (acads.length === 0) listAcad.innerHTML = '<p class="text-muted text-sm">No academic teaching experience listed.</p>';
     acads.forEach(a => {
         const div = document.createElement('div');
-        div.className = 'mini-stat';
+        div.className = 'card-inner';
         div.innerHTML = `
             <div class="font-semibold">${escapeHtml(a.role || 'Role N/A')} at ${escapeHtml(a.institution || 'Institute')}</div>
-            <div class="text-xs text-muted">${a.duration_years} yrs | <span class="badge badge-tier1">${a.institution_tier || 'Tier 3'}</span></div>
+            <div class="text-xs text-muted mt-1">${a.duration_years} yrs | <span class="badge badge-tier1">${a.institution_tier || 'Tier 3'}</span></div>
         `;
         listAcad.appendChild(div);
     });
@@ -644,13 +726,13 @@ function openCandidateModal(candidateId) {
     const listInd = document.getElementById('modal-list-industry');
     listInd.innerHTML = '';
     const inds = cand.experience.industry || [];
-    if (inds.length === 0) listInd.innerHTML = '<p class="text-muted">No corporate / R&D experience listed.</p>';
+    if (inds.length === 0) listInd.innerHTML = '<p class="text-muted text-sm">No corporate / R&D experience listed.</p>';
     inds.forEach(i => {
         const div = document.createElement('div');
-        div.className = 'mini-stat';
+        div.className = 'card-inner';
         div.innerHTML = `
             <div class="font-semibold">${escapeHtml(i.role || 'Role N/A')} at ${escapeHtml(i.organization || 'Organization')}</div>
-            <div class="text-xs text-muted">${i.duration_years} yrs ${i.location ? '| ' + escapeHtml(i.location) : ''}</div>
+            <div class="text-xs text-muted mt-1">${i.duration_years} yrs ${i.location ? '| ' + escapeHtml(i.location) : ''}</div>
         `;
         listInd.appendChild(div);
     });
@@ -678,27 +760,27 @@ async function openFailedCandidatesModal() {
 
         if (!data.failed_candidates || data.failed_candidates.length === 0) {
             container.innerHTML = `
-                <div class="text-center py-8 text-muted">
-                    <i class="fa-solid fa-circle-check fa-3x text-emerald mb-3"></i>
-                    <h4>No Failed Resumes</h4>
-                    <p class="text-sm">All candidate resumes in this session were parsed and extracted successfully!</p>
+                <div class="empty-state">
+                    <i class="fa-solid fa-circle-check empty-state-icon text-emerald"></i>
+                    <h3 class="empty-state-title">No Failed Resumes</h3>
+                    <p class="empty-state-desc">All candidate resumes in this search session were parsed and extracted cleanly.</p>
                 </div>`;
         } else {
             data.failed_candidates.forEach(f => {
                 const item = document.createElement('div');
                 item.className = 'card-inner';
-                item.style.borderColor = 'rgba(239, 68, 68, 0.4)';
+                item.style.borderColor = 'var(--rose-border)';
                 item.innerHTML = `
                     <div class="flex justify-between items-center mb-2">
                         <div>
-                            <strong class="text-red font-semibold"><i class="fa-solid fa-file-excel"></i> ${escapeHtml(f.filename)}</strong>
+                            <strong class="text-danger font-semibold"><i class="fa-solid fa-file-excel"></i> ${escapeHtml(f.filename)}</strong>
                             <span class="text-xs text-muted ml-2">ID: ${f.candidate_id}</span>
                         </div>
-                        <span class="badge badge-ineligible">EXTRACTION FAILURE</span>
+                        <span class="badge badge-failed">EXTRACTION ERROR</span>
                     </div>
-                    <div class="text-xs text-red mb-3"><strong>Error Log:</strong> ${escapeHtml(f.error)}</div>
-                    <div class="text-xs font-semibold mb-1 text-secondary">Raw Extracted Resume Text (Faculty Manual Review):</div>
-                    <div class="raw-text-box">${escapeHtml(f.raw_text)}</div>
+                    <div class="text-xs text-danger mb-2"><strong>Error Log:</strong> ${escapeHtml(f.error)}</div>
+                    <div class="text-xs font-semibold mb-1 text-muted">Raw Extracted Resume Text (Faculty Manual Review):</div>
+                    <div class="raw-code-box">${escapeHtml(f.raw_text)}</div>
                 `;
                 container.appendChild(item);
             });
@@ -722,20 +804,20 @@ function showToast(message, type = "info") {
     const toast = document.createElement('div');
     toast.className = `toast toast-${type}`;
     toast.style.cssText = `
-        background: var(--bg-card);
-        color: var(--text-primary);
-        padding: 0.9rem 1.25rem;
+        background-color: var(--bg-surface);
+        color: var(--text-heading);
+        padding: 0.85rem 1.15rem;
         border-radius: var(--radius-md);
-        border: 1px solid ${type === 'error' ? 'var(--red)' : 'var(--gold)'};
-        box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        border: 1px solid ${type === 'error' ? 'var(--rose-border)' : 'var(--blue-border)'};
+        box-shadow: var(--shadow-lg);
         margin-bottom: 0.5rem;
-        font-size: 0.9rem;
+        font-size: 0.875rem;
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        gap: 0.6rem;
         animation: fadeIn 0.25s ease-out;
     `;
-    const icon = type === 'error' ? 'fa-circle-exclamation text-red' : 'fa-circle-check text-emerald';
+    const icon = type === 'error' ? 'fa-circle-exclamation text-danger' : 'fa-circle-check text-primary';
     toast.innerHTML = `<i class="fa-solid ${icon}"></i> <span>${escapeHtml(message)}</span>`;
 
     container.appendChild(toast);

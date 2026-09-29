@@ -3,574 +3,730 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Academic Selection Portal | Faculty Shortlisting & Evaluation</title>
+    <title>Faculty Recruitment & Academic Selection Portal | University Administration</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
-    <!-- CSS Stylesheet -->
+    <!-- Custom Light Theme CSS -->
     <link rel="stylesheet" href="css/app.css">
 </head>
-<body class="dark-theme">
+<body>
 
-    <!-- ================= INSTITUTIONAL NAVBAR ================= -->
-    <header class="navbar">
-        <div class="nav-container">
-            <div class="brand" id="btn-brand">
-                <div class="brand-icon">
+    <div class="app-container">
+
+        <!-- ================= INSTITUTIONAL SIDEBAR NAVIGATION ================= -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="university-seal">
                     <i class="fa-solid fa-graduation-cap"></i>
                 </div>
-                <div class="brand-text">
-                    <h1>Academic Selection Portal</h1>
-                    <p>Faculty Shortlisting & Candidate Evaluation System</p>
+                <div class="university-title">
+                    <h2>National University</h2>
+                    <p>Academic Selection</p>
                 </div>
             </div>
 
-            <nav class="nav-links">
-                <button class="nav-btn active" id="nav-dashboard">
-                    <i class="fa-solid fa-gauge-high"></i> Portal Dashboard
+            <div class="sidebar-menu">
+                <div class="menu-category">Main Console</div>
+                <button class="nav-item active" id="nav-dashboard" data-view="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Dashboard</span>
                 </button>
-                <button class="nav-btn primary" id="nav-create-session">
-                    <i class="fa-solid fa-plus"></i> New Selection Session
+                <button class="nav-item" id="nav-sessions" data-view="dashboard">
+                    <i class="fa-solid fa-folder-tree"></i>
+                    <span>Selection Sessions</span>
                 </button>
-            </nav>
-        </div>
-    </header>
-
-    <!-- ================= MAIN CONTAINER ================= -->
-    <main class="main-container">
-
-        <!-- Notification Toast Container -->
-        <div id="toast-container" class="toast-container"></div>
-
-        <!-- ================= PAGE 1: DASHBOARD ================= -->
-        <section id="page-dashboard" class="page-view active">
-            <!-- Institutional Banner -->
-            <div class="academic-banner">
-                <div class="banner-text">
-                    <h2><i class="fa-solid fa-building-columns"></i> Faculty Search & Selection Committee Portal</h2>
-                    <p>Automated multi-tier candidate evaluation system for academic recruitment, accreditation tier verification, and research publication assessment.</p>
-                </div>
-                <button class="btn btn-gold btn-lg" id="btn-create-session">
-                    <i class="fa-solid fa-circle-plus"></i> Create Selection Session
+                <button class="nav-item" id="nav-create-session" data-view="createSession">
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <span>New Selection Session</span>
                 </button>
-            </div>
 
-            <!-- Quick Metrics -->
-            <div class="metrics-grid mt-6">
-                <div class="metric-card">
-                    <div class="metric-icon gold"><i class="fa-solid fa-folder-open"></i></div>
-                    <div class="metric-data">
-                        <span class="metric-value" id="stat-total-sessions">0</span>
-                        <span class="metric-label">Search Sessions</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon blue"><i class="fa-solid fa-file-invoice"></i></div>
-                    <div class="metric-data">
-                        <span class="metric-value" id="stat-total-resumes">0</span>
-                        <span class="metric-label">Resumes Screened</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon green"><i class="fa-solid fa-award"></i></div>
-                    <div class="metric-data">
-                        <span class="metric-value" id="stat-total-shortlisted">0</span>
-                        <span class="metric-label">Shortlisted Candidates</span>
-                    </div>
-                </div>
-            </div>
+                <div class="menu-category">Candidates & Review</div>
+                <button class="nav-item" id="nav-candidates" data-view="candidates">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Candidates Directory</span>
+                </button>
+                <button class="nav-item" id="nav-shortlist" data-view="shortlist">
+                    <i class="fa-solid fa-award"></i>
+                    <span>Shortlisted Candidates</span>
+                </button>
 
-            <!-- Session List Table -->
-            <div class="card shadow-lg mt-6">
-                <div class="card-header">
-                    <h3><i class="fa-solid fa-list-check"></i> Faculty Selection Sessions</h3>
-                    <div style="display: flex; gap: 0.5rem;">
-                        <button class="btn btn-secondary btn-sm" id="btn-refresh-sessions">
-                            <i class="fa-solid fa-rotate"></i> Refresh
-                        </button>
-                        <button class="btn btn-outline-danger btn-sm" id="btn-clear-all-data">
-                            <i class="fa-solid fa-trash-can"></i> Clear All Data
-                        </button>
-                    </div>
-                </div>
-                <div class="table-wrapper">
-                    <table class="custom-table" id="table-sessions">
-                        <thead>
-                            <tr>
-                                <th>Session ID</th>
-                                <th>Post / Position Title</th>
-                                <th>Req. Degree</th>
-                                <th>Min Exp</th>
-                                <th>Top N</th>
-                                <th>Resumes</th>
-                                <th>Shortlisted</th>
-                                <th>Status</th>
-                                <th>Created At</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tbody-sessions">
-                            <tr>
-                                <td colspan="10" class="text-center py-8 text-muted">
-                                    <i class="fa-solid fa-spinner fa-spin fa-2x"></i>
-                                    <p class="mt-2">Loading selection sessions...</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= PAGE 2: CREATE SESSION ================= -->
-        <section id="page-create-session" class="page-view">
-            <div class="page-header">
-                <div>
-                    <h2>Create Faculty Selection Session</h2>
-                    <p class="subtitle">Define academic qualification criteria, publication window, scoring weights, and upload candidate resumes archive</p>
-                </div>
-                <button class="btn btn-secondary" id="btn-cancel-create">
-                    <i class="fa-solid fa-arrow-left"></i> Back to Dashboard
+                <div class="menu-category">Governance & System</div>
+                <button class="nav-item" id="nav-reports" data-view="reports">
+                    <i class="fa-solid fa-file-contract"></i>
+                    <span>Reports & Exports</span>
+                </button>
+                <button class="nav-item" id="nav-settings" data-view="settings">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span>System Settings</span>
                 </button>
             </div>
 
-            <form id="form-create-session" class="form-grid">
-                <!-- Left Column: Academic Position Details -->
-                <div class="form-column">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3><i class="fa-solid fa-user-graduate"></i> Position Details</h3>
+            <div class="sidebar-footer">
+                <div class="faculty-profile-card">
+                    <div class="profile-avatar">SC</div>
+                    <div class="profile-info">
+                        <h4>Dr. Academic Chair</h4>
+                        <p>Selection Committee</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ================= MAIN WRAPPER ================= -->
+        <div class="main-wrapper">
+
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-left">
+                    <div class="portal-title-badge">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Official University System</span>
+                        Faculty Recruitment & Academic Selection Portal
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button class="btn btn-secondary btn-sm" id="btn-refresh-data" title="Refresh Dashboard Data">
+                        <i class="fa-solid fa-rotate"></i> Refresh
+                    </button>
+                    <button class="btn btn-danger btn-sm" id="btn-clear-all-data" title="Clear System Cache">
+                        <i class="fa-solid fa-trash-can"></i> Clear Data
+                    </button>
+                    <div style="width: 1px; height: 24px; background: var(--border-light); margin: 0 0.25rem;"></div>
+                    <button class="header-icon-btn" title="System Status"><i class="fa-solid fa-server"></i></button>
+                </div>
+            </header>
+
+            <!-- Toast Notification Container -->
+            <div id="toast-container" style="position: fixed; top: 80px; right: 24px; z-index: 300;"></div>
+
+            <!-- Content Area -->
+            <main class="content-area">
+
+                <!-- ================= PAGE 1: DASHBOARD ================= -->
+                <section id="page-dashboard" class="page-view active">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>Faculty Recruitment Dashboard</h1>
+                            <p>Manage faculty recruitment, candidate screening, and academic selection activities.</p>
                         </div>
-                        <div class="card-body space-y-4">
-                            <div class="form-group">
-                                <label for="job_title">Academic Title / Designation <span class="required">*</span></label>
-                                <input type="text" id="job_title" class="form-input" placeholder="e.g. Assistant Professor - Computer Science & Engineering" required>
+                        <button class="btn btn-primary" id="btn-dashboard-create">
+                            <i class="fa-solid fa-plus"></i> Create Selection Session
+                        </button>
+                    </div>
+
+                    <!-- KPI Cards Section -->
+                    <div class="kpi-grid">
+                        <div class="kpi-card">
+                            <div class="kpi-data">
+                                <span class="kpi-label">Active Selection Sessions</span>
+                                <span class="kpi-value" id="kpi-sessions-count">0</span>
+                                <span class="kpi-subtext"><i class="fa-solid fa-arrow-trend-up"></i> Recruitment active</span>
                             </div>
-                            <div class="form-group">
-                                <label for="job_description">Department Description & Specific Specializations</label>
-                                <textarea id="job_description" class="form-textarea" rows="3" placeholder="Specify department requirements, research focus areas, expected teaching subjects..."></textarea>
+                            <div class="kpi-icon blue"><i class="fa-solid fa-folder-open"></i></div>
+                        </div>
+
+                        <div class="kpi-card">
+                            <div class="kpi-data">
+                                <span class="kpi-label">Candidates Screened</span>
+                                <span class="kpi-value" id="kpi-resumes-count">0</span>
+                                <span class="kpi-subtext"><i class="fa-solid fa-file-check"></i> Resumes parsed</span>
+                            </div>
+                            <div class="kpi-icon purple"><i class="fa-solid fa-id-card"></i></div>
+                        </div>
+
+                        <div class="kpi-card">
+                            <div class="kpi-data">
+                                <span class="kpi-label">Shortlisted Candidates</span>
+                                <span class="kpi-value" id="kpi-shortlisted-count">0</span>
+                                <span class="kpi-subtext"><i class="fa-solid fa-award"></i> Criteria satisfied</span>
+                            </div>
+                            <div class="kpi-icon green"><i class="fa-solid fa-user-check"></i></div>
+                        </div>
+
+                        <div class="kpi-card">
+                            <div class="kpi-data">
+                                <span class="kpi-label">Positions Under Search</span>
+                                <span class="kpi-value" id="kpi-positions-count">0</span>
+                                <span class="kpi-subtext"><i class="fa-solid fa-building-columns"></i> Faculty posts</span>
+                            </div>
+                            <div class="kpi-icon gold"><i class="fa-solid fa-graduation-cap"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Actions Section -->
+                    <h3 class="mb-3" style="font-size: 1rem; color: var(--text-heading);"><i class="fa-solid fa-bolt text-gold"></i> Quick Actions</h3>
+                    <div class="quick-actions-bar">
+                        <div class="action-card" id="qa-create-session">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            <div>
+                                <h4>Create Selection Session</h4>
+                                <p>Set up requirements & upload resumes</p>
+                            </div>
+                        </div>
+                        <div class="action-card" id="qa-view-candidates">
+                            <i class="fa-solid fa-users"></i>
+                            <div>
+                                <h4>Candidates Directory</h4>
+                                <p>Filter & review all candidate profiles</p>
+                            </div>
+                        </div>
+                        <div class="action-card" id="qa-view-shortlist">
+                            <i class="fa-solid fa-award"></i>
+                            <div>
+                                <h4>View Shortlisted</h4>
+                                <p>Inspect top shortlisted faculty candidates</p>
+                            </div>
+                        </div>
+                        <div class="action-card" id="qa-view-reports">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <div>
+                                <h4>Generate Reports</h4>
+                                <p>Export screening & accreditation logs</p>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Selection Sessions Data Table -->
                     <div class="card mt-4">
                         <div class="card-header">
-                            <h3><i class="fa-solid fa-sliders"></i> Selection Eligibility Criteria</h3>
-                        </div>
-                        <div class="card-body space-y-4">
-                            <div class="grid-2">
-                                <div class="form-group">
-                                    <label for="required_degree">Required Qualification <span class="required">*</span></label>
-                                    <select id="required_degree" class="form-select" required>
-                                        <option value="PhD" selected>PhD / Doctorate (Required)</option>
-                                        <option value="M.Tech">M.Tech / M.E. / M.S.</option>
-                                        <option value="B.Tech">B.Tech / B.E. / B.Sc.</option>
-                                        <option value="MCA">MCA</option>
-                                        <option value="MBA">MBA</option>
-                                        <option value="None">None (Any Qualification)</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="required_specialization">Required Stream / Specialization <span class="required">*</span></label>
-                                    <input type="text" id="required_specialization" class="form-input" placeholder="e.g. Computer Science" value="Computer Science" required>
-                                </div>
-                            </div>
-
-                            <div class="grid-3">
-                                <div class="form-group">
-                                    <label for="minimum_experience">Min Exp (Yrs)</label>
-                                    <input type="number" id="minimum_experience" class="form-input" min="0" step="0.5" value="3.0" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="minimum_publications">Min Publications</label>
-                                    <input type="number" id="minimum_publications" class="form-input" min="0" step="1" value="5" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="publication_window_years">Pub Window (Yrs)</label>
-                                    <input type="number" id="publication_window_years" class="form-input" min="1" max="20" value="5" required>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="top_n">Target Shortlist Count (Top N) <span class="required">*</span></label>
-                                <input type="number" id="top_n" class="form-input" min="1" max="100" value="10" required>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Right Column: Scoring Weights & Resume Archive Upload -->
-                <div class="form-column">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3><i class="fa-solid fa-scale-balanced"></i> Institutional Evaluation Weights (%)</h3>
-                            <span class="weight-total-badge" id="weight-total-indicator">Total: 100%</span>
-                        </div>
-                        <div class="card-body space-y-4">
-                            <div class="weight-slider-group">
-                                <div class="weight-label">
-                                    <span>Education Qualification & Institute Tier</span>
-                                    <span id="weight-edu-val">35%</span>
-                                </div>
-                                <input type="range" id="weight_education" min="0" max="100" value="35" class="weight-slider">
-                            </div>
-
-                            <div class="weight-slider-group">
-                                <div class="weight-label">
-                                    <span>Research Publications & Venue Tier</span>
-                                    <span id="weight-pub-val">30%</span>
-                                </div>
-                                <input type="range" id="weight_publication" min="0" max="100" value="30" class="weight-slider">
-                            </div>
-
-                            <div class="weight-slider-group">
-                                <div class="weight-label">
-                                    <span>Academic Experience & Teaching</span>
-                                    <span id="weight-acad-val">20%</span>
-                                </div>
-                                <input type="range" id="weight_academic" min="0" max="100" value="20" class="weight-slider">
-                            </div>
-
-                            <div class="weight-slider-group">
-                                <div class="weight-label">
-                                    <span>Industry & R&D Experience</span>
-                                    <span id="weight-ind-val">15%</span>
-                                </div>
-                                <input type="range" id="weight_industry" min="0" max="100" value="15" class="weight-slider">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mt-4">
-                        <div class="card-header">
-                            <h3><i class="fa-solid fa-file-zipper"></i> Resume Batch Archive (ZIP)</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="upload-dropzone" id="upload-dropzone">
-                                <i class="fa-solid fa-cloud-arrow-up fa-3x" style="color: var(--gold);"></i>
-                                <h4>Drag & Drop ZIP Archive Here</h4>
-                                <p>Contains PDF or DOCX candidate resumes</p>
-                                <input type="file" id="zip_file_input" accept=".zip" class="hidden-file-input" required>
-                                <button type="button" class="btn btn-secondary mt-3" id="btn-browse-file">
-                                    <i class="fa-solid fa-folder-open"></i> Select ZIP File
+                            <h3><i class="fa-solid fa-list-check"></i> Selection Sessions</h3>
+                            <div class="flex gap-2">
+                                <button class="btn btn-secondary btn-sm" id="btn-refresh-sessions">
+                                    <i class="fa-solid fa-arrows-rotate"></i> Refresh Table
                                 </button>
-                                <div id="selected-file-name" class="mt-3 text-emerald font-semibold hidden"></div>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table class="custom-table" id="table-sessions">
+                                <thead>
+                                    <tr>
+                                        <th>Session ID</th>
+                                        <th>Position Title</th>
+                                        <th>Required Degree</th>
+                                        <th>Min Exp</th>
+                                        <th>Top N</th>
+                                        <th>Candidates</th>
+                                        <th>Shortlisted</th>
+                                        <th>Status</th>
+                                        <th>Created Date</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody-sessions">
+                                    <tr>
+                                        <td colspan="10" class="text-center py-8 text-muted">
+                                            <i class="fa-solid fa-spinner fa-spin fa-2x"></i>
+                                            <p class="mt-2">Loading selection sessions...</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ================= PAGE 2: CREATE SELECTION SESSION ================= -->
+                <section id="page-create-session" class="page-view">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>Create Faculty Selection Session</h1>
+                            <p>Define the academic requirements and screening criteria for this recruitment process.</p>
+                        </div>
+                        <button class="btn btn-secondary" id="btn-cancel-create">
+                            <i class="fa-solid fa-arrow-left"></i> Back to Dashboard
+                        </button>
+                    </div>
+
+                    <form id="form-create-session">
+                        <!-- Section 1: Position Information -->
+                        <div class="form-section">
+                            <div class="form-section-header">
+                                <h3><i class="fa-solid fa-briefcase"></i> Section 1: Position Information</h3>
+                            </div>
+                            <div class="form-section-body">
+                                <div class="form-grid-2">
+                                    <div class="form-group">
+                                        <label for="job_title">Position / Post Title <span class="required">*</span></label>
+                                        <input type="text" id="job_title" class="form-control" placeholder="e.g. Assistant Professor - Computer Science & Engineering" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="job_department">Department / School</label>
+                                        <input type="text" id="job_department" class="form-control" placeholder="e.g. Department of Computer Science & Engineering" value="Computer Science & Engineering">
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="job_description">Position Description & Essential Focus Areas</label>
+                                    <textarea id="job_description" class="form-control" rows="3" placeholder="Describe essential academic qualifications, research expectations, teaching subjects..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Section 2: Academic Requirements -->
+                        <div class="form-section">
+                            <div class="form-section-header">
+                                <h3><i class="fa-solid fa-graduation-cap"></i> Section 2: Academic Requirements</h3>
+                            </div>
+                            <div class="form-section-body">
+                                <div class="form-grid-2">
+                                    <div class="form-group">
+                                        <label for="required_degree">Required Qualification <span class="required">*</span></label>
+                                        <select id="required_degree" class="form-control" required>
+                                            <option value="PhD" selected>PhD / Doctorate (Mandatory)</option>
+                                            <option value="M.Tech">M.Tech / M.E. / M.S.</option>
+                                            <option value="B.Tech">B.Tech / B.E. / B.Sc.</option>
+                                            <option value="MCA">MCA</option>
+                                            <option value="MBA">MBA</option>
+                                            <option value="None">None (Any Qualification)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="required_specialization">Required Stream / Specialization <span class="required">*</span></label>
+                                        <input type="text" id="required_specialization" class="form-control" placeholder="e.g. Computer Science" value="Computer Science" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Section 3: Experience & Screening Criteria -->
+                        <div class="form-section">
+                            <div class="form-section-header">
+                                <h3><i class="fa-solid fa-sliders"></i> Section 3: Experience & Research Requirements</h3>
+                            </div>
+                            <div class="form-section-body">
+                                <div class="form-grid-3">
+                                    <div class="form-group">
+                                        <label for="minimum_experience">Minimum Total Experience (Yrs)</label>
+                                        <input type="number" id="minimum_experience" class="form-control" min="0" step="0.5" value="3.0" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="minimum_publications">Minimum Publications Required</label>
+                                        <input type="number" id="minimum_publications" class="form-control" min="0" step="1" value="5" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="publication_window_years">Publication Window (Years)</label>
+                                        <input type="number" id="publication_window_years" class="form-control" min="1" max="20" value="5" required>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="top_n">Number of Candidates to Shortlist (Top N) <span class="required">*</span></label>
+                                    <input type="number" id="top_n" class="form-control" min="1" max="100" value="10" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Section 4: Institutional Evaluation Weights -->
+                        <div class="form-section">
+                            <div class="form-section-header justify-between">
+                                <h3><i class="fa-solid fa-scale-balanced"></i> Section 4: Institutional Evaluation Weights (%)</h3>
+                                <span class="badge badge-completed" id="weight-total-indicator">Total: 100%</span>
+                            </div>
+                            <div class="form-section-body">
+                                <div class="form-grid-2">
+                                    <div class="weight-slider-group">
+                                        <div class="weight-label-row">
+                                            <span>Academic Qualification & Tier</span>
+                                            <span id="weight-edu-val" class="text-primary font-semibold">35%</span>
+                                        </div>
+                                        <input type="range" id="weight_education" min="0" max="100" value="35" class="weight-slider">
+                                    </div>
+                                    <div class="weight-slider-group">
+                                        <div class="weight-label-row">
+                                            <span>Research Publications & Indexing</span>
+                                            <span id="weight-pub-val" class="text-primary font-semibold">30%</span>
+                                        </div>
+                                        <input type="range" id="weight_publication" min="0" max="100" value="30" class="weight-slider">
+                                    </div>
+                                    <div class="weight-slider-group mt-2">
+                                        <div class="weight-label-row">
+                                            <span>Teaching & Academic Experience</span>
+                                            <span id="weight-acad-val" class="text-primary font-semibold">20%</span>
+                                        </div>
+                                        <input type="range" id="weight_academic" min="0" max="100" value="20" class="weight-slider">
+                                    </div>
+                                    <div class="weight-slider-group mt-2">
+                                        <div class="weight-label-row">
+                                            <span>Industry & R&D Experience</span>
+                                            <span id="weight-ind-val" class="text-primary font-semibold">15%</span>
+                                        </div>
+                                        <input type="range" id="weight_industry" min="0" max="100" value="15" class="weight-slider">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Section 5: Resume Upload Area -->
+                        <div class="form-section">
+                            <div class="form-section-header">
+                                <h3><i class="fa-solid fa-cloud-arrow-up"></i> Section 5: Candidate Resumes Batch Upload</h3>
+                            </div>
+                            <div class="form-section-body">
+                                <div class="upload-zone" id="upload-dropzone">
+                                    <i class="fa-solid fa-file-zipper upload-icon"></i>
+                                    <div class="upload-title">Upload Candidate Resumes Archive</div>
+                                    <p class="upload-desc">Drag & drop a single ZIP file containing candidate PDF/DOCX resumes or click below</p>
+                                    <input type="file" id="zip_file_input" accept=".zip" class="hidden" required>
+                                    <button type="button" class="btn btn-secondary mt-3" id="btn-browse-file">
+                                        <i class="fa-solid fa-folder-open"></i> Browse Files
+                                    </button>
+                                    <div id="selected-file-name" class="mt-3 text-sm font-semibold text-primary hidden"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex justify-end">
+                            <button type="submit" class="btn btn-primary btn-lg" id="btn-submit-session">
+                                <i class="fa-solid fa-play"></i> Initialize & Start Processing
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- ================= PAGE 3: PROCESSING MONITOR ================= -->
+                <section id="page-processing" class="page-view">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>Resume Processing Console</h1>
+                            <p id="proc-session-title">Session: SES-2026-0001</p>
+                        </div>
+                    </div>
+
+                    <div class="workflow-step-card">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <h3 id="proc-stage-badge">PROCESSING QUEUE</h3>
+                                <p class="text-sm text-muted" id="proc-detail-msg">Executing step-by-step candidate evaluation pipeline...</p>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-2xl font-bold text-primary" id="proc-percentage-text">0%</div>
+                                <div class="text-xs text-muted">Overall Progress</div>
+                            </div>
+                        </div>
+
+                        <!-- Step List -->
+                        <div class="step-item">
+                            <div class="step-status-icon done"><i class="fa-solid fa-check"></i></div>
+                            <div class="step-info">
+                                <div class="step-title">1. Archive Extraction & Verification</div>
+                                <div class="step-desc">Discovered candidate resumes from ZIP archive</div>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-status-icon active" id="step-icon-2"><i class="fa-solid fa-spinner fa-spin"></i></div>
+                            <div class="step-info">
+                                <div class="step-title">2. LLM Text & Structured Field Extraction</div>
+                                <div class="step-desc">Adaptively extracting candidate education, publications, and experience</div>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-status-icon pending" id="step-icon-3"><i class="fa-solid fa-clock"></i></div>
+                            <div class="step-info">
+                                <div class="step-title">3. Institutional Accreditation Classification</div>
+                                <div class="step-desc">Mapping universities to Tier 1, Tier 2, and Tier 3 benchmarks</div>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-status-icon pending" id="step-icon-4"><i class="fa-solid fa-clock"></i></div>
+                            <div class="step-info">
+                                <div class="step-title">4. Research Publication & Journal Indexing</div>
+                                <div class="step-desc">Categorizing IEEE, Scopus, SCI transactions & patents</div>
+                            </div>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-status-icon pending" id="step-icon-5"><i class="fa-solid fa-clock"></i></div>
+                            <div class="step-info">
+                                <div class="step-title">5. Weighted Scoring & Candidate Ranking</div>
+                                <div class="step-desc">Generating final candidate scores & selecting top candidates</div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 text-center hidden" id="proc-action-bar">
+                            <button class="btn btn-primary btn-lg" id="btn-view-results">
+                                <i class="fa-solid fa-trophy"></i> View Candidate Selection Results
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ================= PAGE 4: CANDIDATES DIRECTORY ================= -->
+                <section id="page-candidates" class="page-view">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <span class="badge badge-eligible mb-2" id="res-session-id">SES-2026-0001</span>
+                            <h1 id="res-job-title">Candidates Directory</h1>
+                            <p id="res-session-meta">Candidate screening results and evaluation records</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <button class="btn btn-warning" id="btn-view-failed">
+                                <i class="fa-solid fa-triangle-exclamation"></i> Flagged Resumes (<span id="failed-count-badge">0</span>)
+                            </button>
+                            <button class="btn btn-secondary" id="btn-back-dashboard">
+                                <i class="fa-solid fa-arrow-left"></i> Dashboard
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Filter Toolbar -->
+                    <div class="card mb-4">
+                        <div class="table-toolbar">
+                            <div class="search-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="search-candidate" class="form-control" placeholder="Search by name, email, or designation...">
+                            </div>
+
+                            <div class="filter-group">
+                                <select id="filter-status" class="form-control" style="width: auto;">
+                                    <option value="">All Statuses</option>
+                                    <option value="shortlisted">Shortlisted Only</option>
+                                    <option value="eligible">Eligible Only</option>
+                                    <option value="ineligible">Ineligible Only</option>
+                                </select>
+                                <select id="sort-by" class="form-control" style="width: auto;">
+                                    <option value="final_score">Sort: Final Score</option>
+                                    <option value="rank">Sort: Rank</option>
+                                    <option value="name">Sort: Candidate Name</option>
+                                </select>
                             </div>
                         </div>
                     </div>
 
-                    <div class="mt-6">
-                        <button type="submit" class="btn btn-gold btn-block btn-lg" id="btn-submit-session">
-                            <i class="fa-solid fa-play"></i> START FACULTY EVALUATION & PROCESSING
+                    <!-- Candidates Table -->
+                    <div class="card">
+                        <div class="table-container">
+                            <table class="custom-table" id="table-candidates">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Candidate Name</th>
+                                        <th>Current Designation</th>
+                                        <th>Highest Degree</th>
+                                        <th>Specialization</th>
+                                        <th>Experience</th>
+                                        <th>Pubs</th>
+                                        <th>Edu Score</th>
+                                        <th>Pub Score</th>
+                                        <th>Final Score</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody-candidates">
+                                    <!-- Populated dynamically by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ================= PAGE 5: SHORTLISTED CANDIDATES ================= -->
+                <section id="page-shortlist" class="page-view">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>Shortlisted Candidates</h1>
+                            <p>Top ranked faculty candidates meeting institutional selection criteria.</p>
+                        </div>
+                        <button class="btn btn-secondary" id="btn-export-shortlist">
+                            <i class="fa-solid fa-download"></i> Export Shortlist (JSON)
                         </button>
                     </div>
-                </div>
-            </form>
-        </section>
 
-        <!-- ================= PAGE 3: PROCESSING MONITOR ================= -->
-        <section id="page-processing" class="page-view">
-            <div class="page-header">
-                <div>
-                    <h2>Selection Processing Monitor</h2>
-                    <p class="subtitle" id="proc-session-title">Session: SES-2026-0001</p>
-                </div>
-            </div>
-
-            <div class="card shadow-xl p-8 max-w-3xl mx-auto text-center">
-                <div class="status-spinner-wrap mb-6">
-                    <div class="progress-circle" id="progress-circle-element">
-                        <span class="progress-value" id="proc-percentage-text">0%</span>
-                    </div>
-                </div>
-
-                <div class="mb-4">
-                    <span class="badge badge-lg badge-processing" id="proc-stage-badge">ZIP EXTRACTION</span>
-                </div>
-
-                <div class="progress-bar-container mb-6">
-                    <div class="progress-bar-fill" id="proc-bar-fill" style="width: 0%;"></div>
-                </div>
-
-                <div class="stats-mini-grid mb-6">
-                    <div class="mini-stat">
-                        <span class="mini-label">Total Resumes</span>
-                        <span class="mini-val" id="proc-stat-total">0</span>
-                    </div>
-                    <div class="mini-stat">
-                        <span class="mini-label">Processed</span>
-                        <span class="mini-val text-blue" id="proc-stat-processed">0</span>
-                    </div>
-                    <div class="mini-stat">
-                        <span class="mini-label">Failed / Flagged</span>
-                        <span class="mini-val text-red" id="proc-stat-failed">0</span>
-                    </div>
-                </div>
-
-                <p class="text-muted" id="proc-detail-msg">Extracting resume files and building processing queue...</p>
-
-                <div class="mt-6 hidden" id="proc-action-bar">
-                    <button class="btn btn-gold btn-lg" id="btn-view-results">
-                        <i class="fa-solid fa-trophy"></i> VIEW CANDIDATE SELECTION RESULTS
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= PAGE 4: CANDIDATE RESULTS ================= -->
-        <section id="page-results" class="page-view">
-            <div class="page-header">
-                <div>
-                    <span class="badge badge-primary mb-2" id="res-session-id">SES-2026-0001</span>
-                    <h2 id="res-job-title">Assistant Professor - Computer Science</h2>
-                    <p class="subtitle" id="res-session-meta">Required PhD in Computer Science | Min 3 Yrs Exp | Min 5 Pubs</p>
-                </div>
-                <div class="flex gap-2" style="align-items: center;">
-                    <button class="btn btn-warning" id="btn-view-failed" style="display: inline-flex;">
-                        <i class="fa-solid fa-triangle-exclamation"></i> Flagged / Failed Resumes (<span id="failed-count-badge">0</span>)
-                    </button>
-                    <button class="btn btn-secondary" id="btn-back-dashboard">
-                        <i class="fa-solid fa-arrow-left"></i> Dashboard
-                    </button>
-                </div>
-            </div>
-
-            <!-- Results Summary Cards -->
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="metric-icon blue"><i class="fa-solid fa-users"></i></div>
-                    <div class="metric-data">
-                        <span class="metric-value" id="res-stat-total">0</span>
-                        <span class="metric-label">Evaluated Candidates</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon green"><i class="fa-solid fa-circle-check"></i></div>
-                    <div class="metric-data">
-                        <span class="metric-value" id="res-stat-eligible">0</span>
-                        <span class="metric-label">Eligible Candidates</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon gold"><i class="fa-solid fa-award"></i></div>
-                    <div class="metric-data">
-                        <span class="metric-value" id="res-stat-shortlisted">0</span>
-                        <span class="metric-label">Shortlisted (Top N)</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Toolbar & Filter Controls -->
-            <div class="card mt-6">
-                <div class="card-body py-4">
-                    <div class="results-toolbar">
-                        <!-- Search Box -->
-                        <div class="search-input-wrap">
-                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                            <input type="text" id="search-candidate" class="form-input search-input" placeholder="Search candidate name, email, designation...">
-                        </div>
-
-                        <!-- Filters -->
-                        <div class="filter-group-row">
-                            <select id="filter-status" class="form-select sm">
-                                <option value="">All Statuses</option>
-                                <option value="shortlisted">Shortlisted Only</option>
-                                <option value="eligible">Eligible Only</option>
-                                <option value="ineligible">Ineligible Only</option>
-                            </select>
-
-                            <select id="sort-by" class="form-select sm">
-                                <option value="final_score">Sort by Final Score</option>
-                                <option value="rank">Sort by Rank</option>
-                                <option value="name">Sort by Candidate Name</option>
-                            </select>
+                    <div class="card">
+                        <div class="table-container">
+                            <table class="custom-table">
+                                <thead>
+                                    <tr>
+                                        <th>Rank</th>
+                                        <th>Candidate Name</th>
+                                        <th>Designation</th>
+                                        <th>Highest Degree</th>
+                                        <th>Experience</th>
+                                        <th>Final Score</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody-shortlist-only">
+                                    <!-- Populated dynamically -->
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                </div>
-            </div>
+                </section>
 
-            <!-- Candidate Results Table -->
-            <div class="card shadow-lg mt-4">
-                <div class="table-wrapper">
-                    <table class="custom-table" id="table-candidates">
-                        <thead>
-                            <tr>
-                                <th>Rank</th>
-                                <th>Candidate</th>
-                                <th>Current Position</th>
-                                <th>Highest Degree</th>
-                                <th>Specialization</th>
-                                <th>Exp</th>
-                                <th>Pubs</th>
-                                <th>Edu Score</th>
-                                <th>Pub Score</th>
-                                <th>Final Score</th>
-                                <th>Status</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody id="tbody-candidates">
-                            <!-- Populated dynamically by JS -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
+                <!-- ================= PAGE 6: REPORTS & EXPORTS ================= -->
+                <section id="page-reports" class="page-view">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>Selection Reports & Analytics</h1>
+                            <p>Institutional selection documentation, candidate scores, and accreditation breakdowns.</p>
+                        </div>
+                    </div>
 
-    </main>
+                    <div class="form-grid-2">
+                        <div class="card p-4">
+                            <div class="card-header">
+                                <h3><i class="fa-solid fa-file-pdf text-primary"></i> Candidate Screening Summary Report</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-sm text-muted mb-4">Complete candidate evaluation summary including education, experience, and publication scores.</p>
+                                <button class="btn btn-secondary btn-sm" onclick="showToast('Exporting Candidate Summary Report...', 'info')">
+                                    <i class="fa-solid fa-download"></i> Generate Report
+                                </button>
+                            </div>
+                        </div>
 
-    <!-- ================= CANDIDATE DETAIL MODAL ================= -->
+                        <div class="card p-4">
+                            <div class="card-header">
+                                <h3><i class="fa-solid fa-building-columns text-gold"></i> Accreditation & University Tier Analysis</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="text-sm text-muted mb-4">Breakdown of candidate institutional accreditation (Tier 1 IIT/IISc, Tier 2 State, Tier 3).</p>
+                                <button class="btn btn-secondary btn-sm" onclick="showToast('Exporting Accreditation Tier Report...', 'info')">
+                                    <i class="fa-solid fa-download"></i> Generate Report
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ================= PAGE 7: SYSTEM SETTINGS ================= -->
+                <section id="page-settings" class="page-view">
+                    <div class="page-header">
+                        <div class="page-header-title">
+                            <h1>System Settings & Architecture</h1>
+                            <p>Adaptive recursive LLM extraction parameters and database configuration.</p>
+                        </div>
+                    </div>
+
+                    <div class="card p-4">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-server"></i> System Configuration</h3>
+                        </div>
+                        <div class="card-body space-y-4">
+                            <div class="form-grid-2">
+                                <div><strong>LLM Provider:</strong> Ollama (Local LLM)</div>
+                                <div><strong>LLM Model:</strong> llama3.2:latest</div>
+                                <div><strong>Safe Input Tokens:</strong> 12,000 Tokens</div>
+                                <div><strong>Max Input Tokens:</strong> 16,000 Tokens</div>
+                                <div><strong>Ollama Timeout:</strong> 300 Seconds</div>
+                                <div><strong>Database Engine:</strong> SQLite 3</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- ================= CANDIDATE PROFILE MODAL (ACADEMIC CV VIEW) ================= -->
     <div id="modal-candidate" class="modal-backdrop hidden">
         <div class="modal-dialog">
             <div class="modal-header">
                 <div class="flex items-center gap-3">
-                    <div class="avatar-circle" id="modal-cand-avatar">JD</div>
+                    <div class="profile-avatar" id="modal-cand-avatar">JD</div>
                     <div>
-                        <h3 id="modal-cand-name" class="modal-title">John Doe</h3>
-                        <p id="modal-cand-desig" class="modal-subtitle">Assistant Professor</p>
+                        <h3 id="modal-cand-name" class="modal-title">Candidate Profile</h3>
+                        <p id="modal-cand-desig" class="modal-subtitle">Designation</p>
                     </div>
                 </div>
-                <button class="modal-close" id="btn-close-modal"><i class="fa-solid fa-xmark"></i></button>
+                <button class="modal-close-btn" id="btn-close-modal"><i class="fa-solid fa-xmark"></i></button>
             </div>
 
-            <div class="modal-body space-y-6">
-                <!-- Status Banner & Score Gauge -->
-                <div class="score-banner-card" id="modal-status-banner">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <span class="badge badge-lg" id="modal-cand-status-badge">SHORTLISTED</span>
-                            <div class="text-sm mt-2 opacity-90" id="modal-cand-rank-text">Ranked #1 out of 50 candidates</div>
+            <div class="modal-body">
+                <!-- Status Banner -->
+                <div class="card-inner mb-4 flex justify-between items-center" style="background: var(--blue-light); border-color: var(--blue-border);">
+                    <div>
+                        <span class="badge badge-shortlisted" id="modal-cand-status-badge">SHORTLISTED</span>
+                        <div class="text-xs text-muted mt-1" id="modal-cand-rank-text">Ranked #1</div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-bold text-primary" id="modal-cand-final-score">89.5</div>
+                        <div class="text-xs text-muted">Final Score</div>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <div class="tab-header">
+                    <button class="tab-btn active" data-tab="tab-overview">Overview</button>
+                    <button class="tab-btn" data-tab="tab-education">Education</button>
+                    <button class="tab-btn" data-tab="tab-publications">Publications</button>
+                    <button class="tab-btn" data-tab="tab-experience">Experience</button>
+                </div>
+
+                <!-- Tab 1: Overview -->
+                <div id="tab-overview" class="tab-content active">
+                    <div class="grid-2 gap-4">
+                        <div class="card-inner">
+                            <h4><i class="fa-solid fa-address-card"></i> Personal & Contact Info</h4>
+                            <div class="text-sm space-y-2 mt-2">
+                                <div><strong>Email:</strong> <span id="modal-cand-email">-</span></div>
+                                <div><strong>Phone:</strong> <span id="modal-cand-phone">-</span></div>
+                                <div><strong>Source File:</strong> <span id="modal-cand-file">-</span></div>
+                                <div><strong>Candidate ID:</strong> <span id="modal-cand-id">-</span></div>
+                            </div>
                         </div>
-                        <div class="text-right">
-                            <div class="text-3xl font-extrabold" id="modal-cand-final-score">89.5</div>
-                            <div class="text-xs uppercase tracking-wider opacity-80">Final Candidate Score</div>
+
+                        <div class="card-inner">
+                            <h4><i class="fa-solid fa-clipboard-check"></i> Evaluation Flags</h4>
+                            <ul class="reasons-list text-sm mt-2" id="modal-cand-reasons"></ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Personal Info -->
-                <div class="card-inner">
-                    <h4><i class="fa-solid fa-address-card"></i> Contact & Personal Info</h4>
-                    <div class="grid-2 mt-2 text-sm">
-                        <div><strong>Email:</strong> <span id="modal-cand-email">john@example.com</span></div>
-                        <div><strong>Phone:</strong> <span id="modal-cand-phone">+91 9876543210</span></div>
-                        <div><strong>Source File:</strong> <span id="modal-cand-file">resume.pdf</span></div>
-                        <div><strong>Candidate ID:</strong> <span id="modal-cand-id">CAND-0001</span></div>
-                    </div>
-                </div>
-
-                <!-- Shortlisting & Eligibility Reasons -->
-                <div class="card-inner">
-                    <h4><i class="fa-solid fa-clipboard-check"></i> Eligibility & Shortlisting Evaluation</h4>
-                    <ul class="reasons-list mt-2" id="modal-cand-reasons">
-                        <!-- Reasons populated here -->
-                    </ul>
-                </div>
-
-                <!-- Component Scores Breakdown -->
-                <div class="card-inner">
-                    <h4><i class="fa-solid fa-chart-column"></i> Component Scores Breakdown</h4>
-                    <div class="grid-2 gap-4 mt-3">
-                        <div>
-                            <div class="flex justify-between text-sm mb-1">
-                                <span>Education Qualification & Tier</span>
-                                <strong id="modal-score-edu">85 / 100</strong>
-                            </div>
-                            <div class="progress-bar-container sm">
-                                <div class="progress-bar-fill green" id="modal-bar-edu" style="width: 85%;"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between text-sm mb-1">
-                                <span>Publication Score & Tier</span>
-                                <strong id="modal-score-pub">80 / 100</strong>
-                            </div>
-                            <div class="progress-bar-container sm">
-                                <div class="progress-bar-fill blue" id="modal-bar-pub" style="width: 80%;"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between text-sm mb-1">
-                                <span>Academic Experience</span>
-                                <strong id="modal-score-acad">75 / 100</strong>
-                            </div>
-                            <div class="progress-bar-container sm">
-                                <div class="progress-bar-fill purple" id="modal-bar-acad" style="width: 75%;"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between text-sm mb-1">
-                                <span>Industry & R&D Experience</span>
-                                <strong id="modal-score-ind">60 / 100</strong>
-                            </div>
-                            <div class="progress-bar-container sm">
-                                <div class="progress-bar-fill gold" id="modal-bar-ind" style="width: 60%;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education Qualifications -->
-                <div class="card-inner">
-                    <h4><i class="fa-solid fa-graduation-cap"></i> Academic Qualifications</h4>
-                    <div class="table-wrapper mt-2">
-                        <table class="custom-table sm">
+                <!-- Tab 2: Education -->
+                <div id="tab-education" class="tab-content">
+                    <div class="table-container">
+                        <table class="custom-table">
                             <thead>
                                 <tr>
-                                    <th>Level</th>
+                                    <th>Qualification</th>
                                     <th>Degree</th>
-                                    <th>Specialization / Stream</th>
-                                    <th>University / Institution</th>
+                                    <th>Specialization</th>
+                                    <th>University</th>
                                     <th>Year</th>
                                     <th>Accreditation Tier</th>
                                 </tr>
                             </thead>
-                            <tbody id="modal-tbody-education">
-                                <!-- Populated dynamically -->
-                            </tbody>
+                            <tbody id="modal-tbody-education"></tbody>
                         </table>
                     </div>
                 </div>
 
-                <!-- Publications -->
-                <div class="card-inner">
-                    <h4><i class="fa-solid fa-book-bookmark"></i> Research Publications</h4>
-                    <div class="table-wrapper mt-2">
-                        <table class="custom-table sm">
+                <!-- Tab 3: Publications -->
+                <div id="tab-publications" class="tab-content">
+                    <div class="table-container">
+                        <table class="custom-table">
                             <thead>
                                 <tr>
                                     <th>Type</th>
-                                    <th>Publication / Patent Title</th>
-                                    <th>Journal / Conference Venue</th>
+                                    <th>Title</th>
+                                    <th>Venue / Publisher</th>
                                     <th>Year</th>
-                                    <th>Journal / Index Tier</th>
+                                    <th>Journal Tier</th>
                                 </tr>
                             </thead>
-                            <tbody id="modal-tbody-publications">
-                                <!-- Populated dynamically -->
-                            </tbody>
+                            <tbody id="modal-tbody-publications"></tbody>
                         </table>
                     </div>
                 </div>
 
-                <!-- Academic & Industry Experience -->
-                <div class="grid-2 gap-4">
-                    <div class="card-inner">
-                        <h4><i class="fa-solid fa-building-columns"></i> Teaching & Academic Experience</h4>
-                        <div id="modal-list-academic" class="space-y-2 mt-2 text-sm">
-                            <!-- Populated dynamically -->
+                <!-- Tab 4: Experience -->
+                <div id="tab-experience" class="tab-content">
+                    <div class="grid-2 gap-4">
+                        <div>
+                            <h4>Academic Experience</h4>
+                            <div id="modal-list-academic" class="space-y-2 mt-2"></div>
                         </div>
-                    </div>
-                    <div class="card-inner">
-                        <h4><i class="fa-solid fa-city"></i> Corporate & Industry Experience</h4>
-                        <div id="modal-list-industry" class="space-y-2 mt-2 text-sm">
-                            <!-- Populated dynamically -->
+                        <div>
+                            <h4>Industry Experience</h4>
+                            <div id="modal-list-industry" class="space-y-2 mt-2"></div>
                         </div>
                     </div>
                 </div>
@@ -582,32 +738,18 @@
         </div>
     </div>
 
-    <!-- ================= FAILED / FLAGGED RESUMES MODAL (FACULTY REVIEW) ================= -->
+    <!-- ================= FAILED / FLAGGED RESUMES MODAL ================= -->
     <div id="modal-failed-candidates" class="modal-backdrop hidden">
-        <div class="modal-dialog" style="max-width: 950px;">
-            <div class="modal-header" style="border-bottom-color: rgba(239, 68, 68, 0.4);">
-                <div class="flex items-center gap-3">
-                    <div class="metric-icon red" style="width: 40px; height: 40px; font-size: 1.2rem;">
-                        <i class="fa-solid fa-triangle-exclamation"></i>
-                    </div>
-                    <div>
-                        <h3 class="modal-title" style="color: #f87171;">Flagged & Failed Candidate Resumes</h3>
-                        <p class="modal-subtitle">Faculty Review & Manual Inspection Console</p>
-                    </div>
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div>
+                    <h3 class="modal-title text-danger"><i class="fa-solid fa-triangle-exclamation"></i> Flagged & Failed Candidate Resumes</h3>
+                    <p class="modal-subtitle">Faculty Review Console</p>
                 </div>
-                <button class="modal-close" id="btn-close-failed-modal"><i class="fa-solid fa-xmark"></i></button>
+                <button class="modal-close-btn" id="btn-close-failed-modal"><i class="fa-solid fa-xmark"></i></button>
             </div>
-
             <div class="modal-body space-y-4">
-                <div class="card-inner" style="background: rgba(239, 68, 68, 0.08); border-color: rgba(239, 68, 68, 0.2);">
-                    <p class="text-sm text-secondary">
-                        <i class="fa-solid fa-circle-info text-red"></i> These candidate resumes encountered extraction errors or malformed data formatting during automated pipeline processing. Review the raw resume text below for manual faculty intervention.
-                    </p>
-                </div>
-
-                <div id="failed-candidates-list" class="space-y-4">
-                    <!-- Populated dynamically -->
-                </div>
+                <div id="failed-candidates-list" class="space-y-4"></div>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" id="btn-close-failed-modal-footer">Close Console</button>
@@ -615,7 +757,7 @@
         </div>
     </div>
 
-    <!-- JavaScript Application -->
+    <!-- JavaScript App -->
     <script src="js/app.js"></script>
 </body>
 </html>
