@@ -40,12 +40,12 @@ class PublicationClassifier:
             logger.warning(f"Failed to save publication venue cache file: {e}")
 
     def _get_db_cache(self, venue: str) -> Optional[Dict[str, Any]]:
+        conn = None
         try:
             conn = get_db_connection(settings.DB_PATH)
             cursor = conn.cursor()
             cursor.execute("SELECT venue_name, tier, score, reason FROM publication_venue_cache WHERE LOWER(venue_name)=?", (venue.lower(),))
             row = cursor.fetchone()
-            conn.close()
             if row:
                 return {
                     "venue_name": row["venue_name"],
@@ -55,9 +55,13 @@ class PublicationClassifier:
                 }
         except Exception as e:
             logger.warning(f"DB venue cache read error: {e}")
+        finally:
+            if conn:
+                conn.close()
         return None
 
     def _save_db_cache(self, venue: str, tier: str, score: float, reason: str):
+        conn = None
         try:
             conn = get_db_connection(settings.DB_PATH)
             cursor = conn.cursor()
@@ -66,9 +70,11 @@ class PublicationClassifier:
             VALUES (?, ?, ?, ?, ?)
             """, (venue, tier, score, reason, datetime.now().isoformat()))
             conn.commit()
-            conn.close()
         except Exception as e:
             logger.warning(f"DB venue cache save error: {e}")
+        finally:
+            if conn:
+                conn.close()
 
     def classify(self, venue_name: Optional[str]) -> Dict[str, Any]:
         if not venue_name or not isinstance(venue_name, str) or not venue_name.strip():

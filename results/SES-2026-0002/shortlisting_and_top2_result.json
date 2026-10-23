@@ -1,0 +1,133 @@
+{
+  "session_id": "SES-2026-0002",
+  "job_meta": {
+    "job_title": "Experience professor",
+    "required_degree": "PhD",
+    "required_specialization": "Computer Science",
+    "minimum_experience_years": 6.0,
+    "minimum_publications": 6,
+    "publication_window_years": 6,
+    "top_n_requested": 5,
+    "scoring_weights": {
+      "education": 0.34,
+      "publication": 0.31,
+      "academic_experience": 0.2,
+      "industry_experience": 0.15
+    }
+  },
+  "top_shortlisted_candidates": [],
+  "all_evaluated_candidates": [
+    {
+      "rank": null,
+      "candidate_id": "CAND-0006",
+      "candidate_name": "KRITISHNU SANYAL",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 65.76,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'School of Humanities and Social Sciences (SHSS)' matches required category 'Computer Science'",
+        "Minimum experience met: candidate has 10.0 yrs relevant experience (Academic: 4.5 yrs, Industry: 5.5 yrs) vs required 6.0 yrs",
+        "Publication criteria NOT met: 3 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0010",
+      "candidate_name": "Vijay Kumar",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 53.94,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 6.5 yrs relevant experience (Academic: 4.5 yrs, Industry: 2.0 yrs) vs required 6.0 yrs",
+        "Publication criteria NOT met: 4 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0007",
+      "candidate_name": "Snehamoy Pramanik",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 50.44,
+      "reasons": [
+        "Candidate highest degree rank (90) meets or exceeds required 'PhD' rank (80)",
+        "Specialization alias match: 'Mathematics and Computing' matches required category 'Computer Science'",
+        "Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 6.0 yrs",
+        "Publication criteria met: 6 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0004",
+      "candidate_name": "Anibrata Pal",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 49.04,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Required specialization 'Computer Science' not matched in candidate streams: None",
+        "Minimum experience met: candidate has 8.5 yrs relevant experience (Academic: 3.5 yrs, Industry: 5.0 yrs) vs required 6.0 yrs",
+        "Publication criteria met: 8 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0002",
+      "candidate_name": "Dr. Afzal Beg",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 46.45,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Other, 12th (10+2) | Metric (10th)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience met: candidate has 11.0 yrs relevant experience (Academic: 11.0 yrs, Industry: 0.0 yrs) vs required 6.0 yrs",
+        "Publication criteria met: 7 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0001",
+      "candidate_name": null,
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 29.76,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: None",
+        "Required specialization 'Computer Science' not matched in candidate streams: None",
+        "Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 6.0 yrs",
+        "Publication criteria met: 17 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0003",
+      "candidate_name": "Anil Babubhai Hirpara",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 12.47,
+      "reasons": [
+        "Required degree 'PhD' not found. Candidate degrees: Physics, Physics, Physics, Physics, Physics",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 6.0 yrs",
+        "Publication criteria NOT met: 0 publications within the last 6 years vs required 6"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_id": "CAND-0005",
+      "candidate_name": "Dr. B. S. Ratanpal",
+      "eligible": false,
+      "shortlisted": false,
+      "final_score": 11.22,
+      "reasons": [
+        "Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80)",
+        "Specialization matched: 'Computer Science and Engineering' matches required 'Computer Science'",
+        "Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 6.0 yrs",
+        "Publication criteria NOT met: 0 publications within the last 6 years vs required 6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "session_id": "SES-2026-0002",
+  "total_candidates": 8,
+  "university_classifications_by_candidate": [
+    {
+      "candidate_id": "CAND-0001",
+      "candidate_name": null,
+      "education_degrees": [],
+      "academic_experience_institutions": []
+    },
+    {
+      "candidate_id": "CAND-0002",
+      "candidate_name": "Dr. Afzal Beg",
+      "education_degrees": [
+        {
+          "degree": null,
+          "specialization": null,
+          "institution": "Sarveapalli RadhaKrishnan University Bhopal (M.P.) | MakhanLal Chaturvedi Rastriya Patrakarita Avam Sanchar Vishwavidhyalay (MCURPV) Bhopal | Maharishi Mahesh Yogi Vedic Vishwavidhyalay Jabalpur",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "12th (10+2) | Metric (10th)",
+          "specialization": null,
+          "institution": "BSEMP Bhopal (MP Board)",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": [
+        {
+          "designation": null,
+          "institution": "Rai University, Ahmadabad Gujarat",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "duration_years": 4.0
+        },
+        {
+          "designation": null,
+          "institution": "Vindhya Institute of Technology and Science, Satna (M.P.)",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "duration_years": 2.0
+        },
+        {
+          "designation": null,
+          "institution": "Shri Rama Krishna College of Commerce & Science, Satna (M.P.)",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "duration_years": 3.0
+        },
+        {
+          "designation": null,
+          "institution": "SSICAIT College Maihar, Distt-Satna (M.P.)",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "duration_years": 2.0
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0003",
+      "candidate_name": "Anil Babubhai Hirpara",
+      "education_degrees": [
+        {
+          "degree": "Physics",
+          "specialization": null,
+          "institution": "Sardar Patel University",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Physics",
+          "specialization": null,
+          "institution": "Sardar Patel University",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Physics",
+          "specialization": null,
+          "institution": "Veer Narmad South Gujarat University",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Physics",
+          "specialization": null,
+          "institution": "GSEB",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Physics",
+          "specialization": null,
+          "institution": "GSEB",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": []
+    },
+    {
+      "candidate_id": "CAND-0004",
+      "candidate_name": "Anibrata Pal",
+      "education_degrees": [
+        {
+          "degree": "PhD",
+          "specialization": null,
+          "institution": "Kalinga Institute of Industrial Technology",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "M.Tech",
+          "specialization": null,
+          "institution": "Kalinga Institute of Industrial Technology",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "B.Tech",
+          "specialization": null,
+          "institution": "West Bengal University of Technology",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "10+2 th",
+          "specialization": null,
+          "institution": "Krishnath College School",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "10th",
+          "specialization": null,
+          "institution": "Krishnath College School",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": [
+        {
+          "designation": null,
+          "institution": "Kalinga Institute of Industrial Technology",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "duration_years": 3.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0005",
+      "candidate_name": "Dr. B. S. Ratanpal",
+      "education_degrees": [
+        {
+          "degree": "PhD in Applied Mathematics from The Maharaja Sayajirao University of Baroda",
+          "specialization": null,
+          "institution": "Unknown",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Temporary Teaching Assistant in Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda",
+          "specialization": null,
+          "institution": "Unknown",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Lecturer in Babaria Institute of Technology, Varnama, Vadodara",
+          "specialization": null,
+          "institution": "Unknown",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Assistant Professor in Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda",
+          "specialization": null,
+          "institution": "Unknown",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": []
+    },
+    {
+      "candidate_id": "CAND-0006",
+      "candidate_name": "KRITISHNU SANYAL",
+      "education_degrees": [
+        {
+          "degree": "PhD",
+          "specialization": null,
+          "institution": "Indian Institute of Technology Mandi",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Economics",
+          "specialization": null,
+          "institution": "Jadavpur University",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Economics honours, Mathematics and Statistics general",
+          "specialization": null,
+          "institution": "University of Calcutta",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "General",
+          "specialization": null,
+          "institution": "West Bengal Council of Higher Secondary Education",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "General",
+          "specialization": null,
+          "institution": "West Bengal Board of Secondary Education",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": [
+        {
+          "designation": null,
+          "institution": "Indian Institute of Technology Mandi",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "duration_years": 4.5
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0007",
+      "candidate_name": "Snehamoy Pramanik",
+      "education_degrees": [
+        {
+          "degree": "PhD",
+          "specialization": null,
+          "institution": "Indian Institute of Technology (Indian School of Mines)",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Post Doctoral",
+          "specialization": null,
+          "institution": "Tufts University",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "PhD",
+          "specialization": null,
+          "institution": "Indian Institute of Technology (Indian School of Mines)",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "M.Sc",
+          "specialization": null,
+          "institution": "Indian Institute of Technology (Indian School of Mines)",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "B.Sc",
+          "specialization": null,
+          "institution": "West Bengal State University",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "HSC (10+2)",
+          "specialization": null,
+          "institution": "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E)",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        },
+        {
+          "degree": "SSC (10)",
+          "specialization": null,
+          "institution": "West Bengal Board of Secondary Education (W.B.B.S.E)",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": []
+    },
+    {
+      "candidate_id": "CAND-0010",
+      "candidate_name": "Vijay Kumar",
+      "education_degrees": [
+        {
+          "degree": "PhD in Statistics",
+          "specialization": null,
+          "institution": "Indian Institute of Technology, Bombay",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "M.Sc in Applied Statistics and Informatics",
+          "specialization": null,
+          "institution": "Indian Institute of Technology, Bombay",
+          "classified_tier": "Tier 1",
+          "tier_score": 1.0,
+          "year_of_completion": null
+        },
+        {
+          "degree": "B.Sc in Statistics and Mathematics",
+          "specialization": null,
+          "institution": "PPN Degree College, CSJM University, Kanpur",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "Intermediate",
+          "specialization": null,
+          "institution": "UP Board",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        },
+        {
+          "degree": "High school",
+          "specialization": null,
+          "institution": "UP Board",
+          "classified_tier": "Tier 2",
+          "tier_score": 0.66,
+          "year_of_completion": null
+        }
+      ],
+      "academic_experience_institutions": [
+        {
+          "designation": null,
+          "institution": "University of Petroleum and Energy Studies",
+          "classified_tier": "Tier 3",
+          "tier_score": 0.33,
+          "duration_years": 4.5
+        }
+      ]
+    }
+  ]
+}

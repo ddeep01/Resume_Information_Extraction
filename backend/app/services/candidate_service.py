@@ -35,23 +35,25 @@ class CandidateService:
 
         # Upsert into SQLite
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("""
-        INSERT OR REPLACE INTO candidates (
-            candidate_id, session_id, source_file, full_name, current_designation,
-            email, phone, education_json, publications_json, experience_json,
-            shortlisting_json, eligible, shortlisted, final_score, rank, created_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, (
-            cand_id, session_id, source_file, full_name, current_desig, email, phone,
-            json.dumps(candidate_data.get("education", [])),
-            json.dumps(candidate_data.get("publications", [])),
-            json.dumps(candidate_data.get("experience", {})),
-            json.dumps(shortlisting),
-            eligible, shortlisted, final_score, rank, datetime.now().isoformat()
-        ))
-        conn.commit()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("""
+            INSERT OR REPLACE INTO candidates (
+                candidate_id, session_id, source_file, full_name, current_designation,
+                email, phone, education_json, publications_json, experience_json,
+                shortlisting_json, eligible, shortlisted, final_score, rank, created_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                cand_id, session_id, source_file, full_name, current_desig, email, phone,
+                json.dumps(candidate_data.get("education", [])),
+                json.dumps(candidate_data.get("publications", [])),
+                json.dumps(candidate_data.get("experience", {})),
+                json.dumps(shortlisting),
+                eligible, shortlisted, final_score, rank, datetime.now().isoformat()
+            ))
+            conn.commit()
+        finally:
+            conn.close()
 
     def get_candidate(self, session_id: str, candidate_id: str) -> Optional[CandidateSchema]:
         file_path = settings.SESSIONS_DIR / session_id / "candidates" / f"{candidate_id}.json"
@@ -64,10 +66,12 @@ class CandidateService:
                 logger.error(f"Error reading candidate JSON {file_path}: {e}")
 
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("SELECT * FROM candidates WHERE session_id=? AND candidate_id=?", (session_id, candidate_id))
-        row = cursor.fetchone()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM candidates WHERE session_id=? AND candidate_id=?", (session_id, candidate_id))
+            row = cursor.fetchone()
+        finally:
+            conn.close()
 
         if row:
             data = {

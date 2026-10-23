@@ -1,0 +1,1149 @@
+{
+  "session_id": "SES-2026-0002",
+  "job_title": "Experience professor",
+  "total_candidates": 8,
+  "candidates_llm_extracted_data": [
+    {
+      "candidate_id": "CAND-0001",
+      "source_file": "A_Mitesh CV.pdf",
+      "candidate_name": null,
+      "email": null,
+      "phone": null,
+      "current_designation": null,
+      "extracted_education": [],
+      "extracted_experience": {
+        "academic": [],
+        "industry": []
+      },
+      "extracted_publications": [
+        {
+          "title": "Applied Sciences 2D Personality of Multifunctional Carbon Nitrides towards Enhanced Catalytic Performance in Energy Storage and Remediation",
+          "authors": [
+            "M.B. Solanki",
+            "G.K. Inwati",
+            "etal"
+          ],
+          "year": "2022",
+          "volume": "12",
+          "issue": "8",
+          "pages": "3753",
+          "doi": "10.3390/app12083753",
+          "if": "5.6",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Materials Today: Proceedings First-principles calculation of the electronic structure, elastic and optical properties of LiSn2N3 nitrogen base stable perovskite semiconductor material",
+          "authors": [
+            "M. B. Solanki",
+            "S. Shinde",
+            "B. B. Parekh"
+          ],
+          "year": "2022",
+          "volume": "67",
+          "pages": "943-947",
+          "doi": "10.1016/j.matpr.2022.08.213",
+          "if": "1.1",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Applied Science 2D Personality of Multifunctional Carbon Nitrides towards Enhanced Catalytic Performance in Energy Storage and Remediation",
+          "authors": [
+            "G. K. Inwati",
+            "M.B. Solanki",
+            "etal"
+          ],
+          "year": "2022",
+          "pages": "1-16",
+          "doi": "10.3390/app12083753",
+          "if": "5.3",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Water Promoted One-Pot Synthesis of Sesamol Derivatives as Potent Antioxidants: DFT, Molecular Docking, SAR and Single Crystal Studies",
+          "authors": [
+            "M.B. Solanki",
+            "J. N. Lalpara",
+            "etal"
+          ],
+          "year": "2022",
+          "volume": "0",
+          "issue": "0",
+          "pages": "1-14",
+          "doi": "10.1080/10406638.2022.2083194",
+          "if": "3.19",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Growth and characterisation of lithium chloride doped KDP crystals: a DFT and experimental approach",
+          "authors": [
+            "M. B. Solanki",
+            "P. Patel",
+            "S. Shinde",
+            "B. B. Parekh",
+            "M. Joshi"
+          ],
+          "year": "2021",
+          "volume": "571",
+          "issue": "1",
+          "pages": "1-25",
+          "doi": "10.1080/00150193.2020.1853734",
+          "if": "0.6",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Experimental and Computational Approaches for the Structural Study of Novel Ca-Rich Zeolites from Incense Stick Ash and Their Application for Wastewater Treatment",
+          "authors": [
+            "M. B. Solanki",
+            "V. K. Yadav",
+            "etal"
+          ],
+          "year": "2021",
+          "volume": "2021",
+          "pages": "6066906",
+          "doi": "10.1155/2021/6066906",
+          "if": "4.37",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "A First Principle calculation of CaMoN3 perovskites material",
+          "authors": [
+            "H. Dave",
+            "M. Solanki",
+            "A. Vora"
+          ],
+          "year": "2021",
+          "volume": "8",
+          "issue": "6",
+          "pages": "421-426",
+          "doi": "10.1155/2021/6066906",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Enriched catalytic activity of TiO2 nanoparticles supported by activated carbon for noxious pollutant elimination",
+          "authors": [
+            "S. Rajendran",
+            "M.B. Solanki",
+            "etal"
+          ],
+          "year": "2021",
+          "volume": "11",
+          "issue": "11",
+          "pages": "12808",
+          "doi": "10.3390/nano11112808",
+          "if": "5.7",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Structural, FTIR and Dielectric Study of Lithium Doped KDP Crystals",
+          "authors": [
+            "M. B. Solanki",
+            "J. H. Joshi",
+            "P. M. Vyas",
+            "M. J. Joshi",
+            "B. B. Parekh"
+          ],
+          "year": "2017",
+          "volume": "10",
+          "issue": "2",
+          "pages": "98",
+          "doi": "10.5958/2454-762x.2017.00015.4",
+          "if": "2.2",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Crystal Structure, Dielectric Response and Thermal analysis of Ammonium Pentaborane (APB)",
+          "authors": [
+            "H. Raval",
+            "M.B Solanki",
+            "etal"
+          ],
+          "year": "2017",
+          "pages": "644",
+          "doi": "10.2412/mmse.49.16.644",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Crystal growth and mechanical hardness of In2Se2.7Sb0.3 single crystal",
+          "authors": [
+            "P. Patel",
+            "M.B Solanki",
+            "S. M. Vyas",
+            "V. Patel",
+            "H. Pavagadhi",
+            "M. Solanki",
+            "M. P. Jani"
+          ],
+          "year": "2015",
+          "volume": "1675",
+          "issue": "December",
+          "pages": "3-8",
+          "doi": "10.1063/1.4929246",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Investigation of Favipiravir and Hydroxychloroquine inclusion complexes with Cucurbit [7] uril for Covid-19 treatment: A DFT and Molecular Docking study",
+          "authors": [
+            "J. B. Pandya",
+            "M. Solanki",
+            "S. M. Shinde",
+            "P. K. Jha"
+          ],
+          "year": "2021",
+          "pages": "1-12",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "A First Principle calculation of tin telluride (SnTe) Topological Single crystals Via Thermodynamics Application",
+          "authors": [
+            "R. M. Kannaujiya",
+            "M. B. Solanki",
+            "S. H. Chaki",
+            "A. B. Hirpara"
+          ],
+          "year": "2021",
+          "pages": "1-12",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "XRD , FTIR Approach of Topological analysis of Covellite (CuS) Single Crystal",
+          "authors": [
+            "M. B. Solanki",
+            "B. B. Parekh",
+            "A. Science"
+          ],
+          "year": "2021",
+          "pages": "1-12",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Experimental and First principle study of InSbSe 3",
+          "authors": [
+            "3S M Vyas",
+            "1Dharmesh Varade",
+            "1Mitesh B. Solanki",
+            "2Piyush J Patel"
+          ],
+          "year": "2021",
+          "pages": "1-12",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Experimental Measurements and Theoretical Investigation of Physical Properties of Pure and Rubidium Chloride doped Potassium Dihydrogen Phosphate Single Crystals",
+          "authors": [
+            "M. B. Solanki",
+            "P. C. Jha",
+            "S. H. Mir",
+            "S. Shinde",
+            "B. B. Parekh"
+          ],
+          "year": "2021",
+          "pages": "1-12",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "title": "Influence of Cesium Chloride on Growth and Properties of Potassium Dihydrogen Phosphate Single Crystal: The DFT and Experimental Studies",
+          "authors": [
+            "M. B. Solanki",
+            "S. Shinde",
+            "M. Joshi",
+            "B. B. Parekh"
+          ],
+          "year": "2021",
+          "pages": "1-12",
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0002",
+      "source_file": "Afzal Beg (Resume).pdf",
+      "candidate_name": "Dr. Afzal Beg",
+      "email": "afzalbeg09@gmail.com",
+      "phone": "+91 9098248646, 7415952569",
+      "current_designation": "Assistant Professor",
+      "extracted_education": [
+        {
+          "qualification_type": "Other",
+          "degree": null,
+          "stream": "Computer Science and Engineering",
+          "university": "Sarveapalli RadhaKrishnan University Bhopal (M.P.) | MakhanLal Chaturvedi Rastriya Patrakarita Avam Sanchar Vishwavidhyalay (MCURPV) Bhopal | Maharishi Mahesh Yogi Vedic Vishwavidhyalay Jabalpur",
+          "year": "2024 | 2014 | 2020 | 2010",
+          "cgpa": null,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "12th (10+2) | Metric (10th)",
+          "stream": null,
+          "university": "BSEMP Bhopal (MP Board)",
+          "year": "2007 | 2005",
+          "cgpa": "74% | 72%",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "extracted_experience": {
+        "academic": [
+          {
+            "experience_type": "academic",
+            "institution": "Rai University, Ahmadabad Gujarat",
+            "role": "Assistant Professor",
+            "duration_years": 4.0,
+            "institution_tier": "Tier 2",
+            "institution_score": 0.66
+          },
+          {
+            "experience_type": "academic",
+            "institution": "Vindhya Institute of Technology and Science, Satna (M.P.)",
+            "role": "Assistant Professor",
+            "duration_years": 2.0,
+            "institution_tier": "Tier 2",
+            "institution_score": 0.66
+          },
+          {
+            "experience_type": "academic",
+            "institution": "Shri Rama Krishna College of Commerce & Science, Satna (M.P.)",
+            "role": "Assistant Professor",
+            "duration_years": 3.0,
+            "institution_tier": "Tier 2",
+            "institution_score": 0.66
+          },
+          {
+            "experience_type": "academic",
+            "institution": "SSICAIT College Maihar, Distt-Satna (M.P.)",
+            "role": "Assistant Professor",
+            "duration_years": 2.0,
+            "institution_tier": "Tier 2",
+            "institution_score": 0.66
+          }
+        ],
+        "industry": [
+          {
+            "experience_type": "industry",
+            "organization": "null",
+            "role": "null",
+            "duration_years": null,
+            "location": null
+          }
+        ]
+      },
+      "extracted_publications": [
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Comparative study on NLP Processing for Strategic Marketing",
+          "venue_name": "Design Engineering",
+          "published_at": "2021-08",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Research on the using Natural Language Processing for Marketing Enhancement in E-Commerce",
+          "venue_name": "Design Engineering",
+          "published_at": "2021-08",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Study of Real-Time Circulation Activity Using Twitter Tweet Analytics Support NLP",
+          "venue_name": "International Journal of Advanced Technology in Engineering and Science",
+          "published_at": "2021-12",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Emotional Analysis Using Fast Text and RNN Variants for Amazon and Other E-Commerce's Online Review with Support NLP",
+          "venue_name": "International Journal of Advanced Technology in Engineering and Science",
+          "published_at": "2021-12",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Digital Marketing with Natural Language Processing",
+          "venue_name": "Parishodh Journal UGC Care Group Ian ISO 7021 -2008",
+          "published_at": "2020-03",
+          "publication_year": 2020,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "conference",
+          "publication_name": "Presented Paper in International Conference on Wireless, Mobile Network and Applications",
+          "venue_name": "Tirumala Engineering College Jonnalagadda, Narasaraopet, Andhra Pradesh",
+          "published_at": "null",
+          "publication_year": 2021,
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "conference",
+          "publication_name": "Presented Paper in National Conference on New Horizons in Science, Management and Humanities",
+          "venue_name": "IIMT College of Engineering Greater Noida (UP)",
+          "published_at": "null",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0003",
+      "source_file": "AH CV.pdf",
+      "candidate_name": "Anil Babubhai Hirpara",
+      "email": "hirparaanil7@gmail.com",
+      "phone": "+91 9876543210",
+      "current_designation": "Assistant Professor",
+      "extracted_education": [
+        {
+          "qualification_type": "PhD",
+          "degree": "Physics",
+          "stream": "Computer Science and Engineering",
+          "university": "Sardar Patel University",
+          "year": "2023",
+          "cgpa": "N.A.",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Physics",
+          "stream": "Computer Science and Engineering",
+          "university": "Sardar Patel University",
+          "year": "2017",
+          "cgpa": "8.2",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Physics",
+          "stream": "Computer Science and Engineering",
+          "university": "Veer Narmad South Gujarat University",
+          "year": "2015",
+          "cgpa": "6.87",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Physics",
+          "stream": "Computer Science and Engineering",
+          "university": "GSEB",
+          "year": "2012",
+          "cgpa": "52 %",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Physics",
+          "stream": "Computer Science and Engineering",
+          "university": "GSEB",
+          "year": "2010",
+          "cgpa": "73.54",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "extracted_experience": {
+        "academic": [],
+        "industry": []
+      },
+      "extracted_publications": []
+    },
+    {
+      "candidate_id": "CAND-0004",
+      "source_file": "Anibrata Pal_Resume.pdf",
+      "candidate_name": "Anibrata Pal",
+      "email": "palanibrata@gmail.com/2081041@kiit.ac.in",
+      "phone": "+91 8617042611",
+      "current_designation": "Assistant Professor",
+      "extracted_education": [
+        {
+          "qualification_type": "PhD",
+          "degree": "PhD",
+          "stream": null,
+          "university": "Kalinga Institute of Industrial Technology",
+          "year": "2021-2025",
+          "cgpa": null,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "M.Tech",
+          "stream": null,
+          "university": "Kalinga Institute of Industrial Technology",
+          "year": "2016",
+          "cgpa": "84.30%",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "UG",
+          "degree": "B.Tech",
+          "stream": null,
+          "university": "West Bengal University of Technology",
+          "year": "2014",
+          "cgpa": "70.00%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "10+2 th",
+          "stream": null,
+          "university": "Krishnath College School",
+          "year": "2010",
+          "cgpa": "70.00%",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "10th",
+          "stream": null,
+          "university": "Krishnath College School",
+          "year": "2008",
+          "cgpa": "78.00%",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "extracted_experience": {
+        "academic": [
+          {
+            "experience_type": "academic",
+            "institution": "Kalinga Institute of Industrial Technology",
+            "role": "Assistant Professor",
+            "duration_years": 3.5,
+            "institution_tier": "Tier 3",
+            "institution_score": 0.33
+          }
+        ],
+        "industry": [
+          {
+            "experience_type": "industry",
+            "organization": "Techno India Group",
+            "role": "Assistant Professor",
+            "duration_years": 1.5,
+            "location": "Siliguri"
+          },
+          {
+            "experience_type": "industry",
+            "organization": "MAKAUT University",
+            "role": "Assistant Professor",
+            "duration_years": 1.5,
+            "location": "Kolkata"
+          },
+          {
+            "experience_type": "industry",
+            "organization": "BPUT University",
+            "role": "Assistant Professor",
+            "duration_years": 1.0,
+            "location": "Bhubaneswar"
+          },
+          {
+            "experience_type": "industry",
+            "organization": "CSVT University",
+            "role": "Assistant Professor",
+            "duration_years": 0.5,
+            "location": "Durg"
+          },
+          {
+            "experience_type": "industry",
+            "organization": "GD Rungta College of Engineering & Technology",
+            "role": "Assistant Professor",
+            "duration_years": 0.5,
+            "location": "Durg"
+          }
+        ]
+      },
+      "extracted_publications": [
+        {
+          "publication_type": "journal",
+          "publication_name": "Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete",
+          "venue_name": "Construction Building Materials Journal (Springer)",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal",
+          "publication_name": "Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder",
+          "venue_name": "Structure Journal (Springer)",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal",
+          "publication_name": "Strength, Elasticity and Water Absorption of Functionally Graded Concrete",
+          "venue_name": "Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal",
+          "publication_name": "Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades of normal concrete with blended cement",
+          "venue_name": "Materials and Structure (Springer)",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal",
+          "publication_name": "A critical review on the advancement of Layered concrete",
+          "venue_name": "Indian Concrete Journal (Springer)",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "conference",
+          "publication_name": "Effect of ground slag and lime as replacement material of fly ash-based cement on mechanical properties of functionally graded concrete",
+          "venue_name": "International Conference",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "conference",
+          "publication_name": "Strength parameters of graded concrete made in combination with traditional and blended concrete of different grades in different layers",
+          "venue_name": "Sixth International Conference",
+          "published_at": "2024",
+          "publication_year": 2024,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "conference",
+          "publication_name": "Assessment of Functionally Graded Concrete with Graded Beam",
+          "venue_name": "ICRDSI-2022 Springer Publication",
+          "published_at": "2022",
+          "publication_year": 2022,
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0005",
+      "source_file": "Resume-09-05-2024.pdf",
+      "candidate_name": "Dr. B. S. Ratanpal",
+      "email": "bharatratanpal@gmail.com",
+      "phone": "+91 9825185736",
+      "current_designation": "Assistant Professor",
+      "extracted_education": [
+        {
+          "qualification_type": "PhD",
+          "degree": "PhD in Applied Mathematics from The Maharaja Sayajirao University of Baroda",
+          "stream": "Computer Science and Engineering",
+          "university": null,
+          "year": null,
+          "cgpa": null,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "Temporary Teaching Assistant in Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda",
+          "stream": "Computer Science and Engineering",
+          "university": null,
+          "year": null,
+          "cgpa": null,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Lecturer in Babaria Institute of Technology, Varnama, Vadodara",
+          "stream": "Computer Science and Engineering",
+          "university": null,
+          "year": null,
+          "cgpa": null,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "Assistant Professor in Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda",
+          "stream": "Computer Science and Engineering",
+          "university": null,
+          "year": null,
+          "cgpa": null,
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "extracted_experience": {
+        "academic": [],
+        "industry": []
+      },
+      "extracted_publications": []
+    },
+    {
+      "candidate_id": "CAND-0006",
+      "source_file": "Resume_Kritishnu Sanyal.pdf",
+      "candidate_name": "KRITISHNU SANYAL",
+      "email": "sanyalkritishnu@gmail.com, d18065@students.iitmandi.ac.in",
+      "phone": "+91-8278784544",
+      "current_designation": "PhD. Research Scholar",
+      "extracted_education": [
+        {
+          "qualification_type": "PhD",
+          "degree": "PhD",
+          "stream": "School of Humanities and Social Sciences (SHSS)",
+          "university": "Indian Institute of Technology Mandi",
+          "year": "2019-2024",
+          "cgpa": "8.69",
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Economics",
+          "stream": "Jadavpur University",
+          "university": "Jadavpur University",
+          "year": "2008-10",
+          "cgpa": "63%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "Economics honours, Mathematics and Statistics general",
+          "stream": "University of Calcutta",
+          "university": "University of Calcutta",
+          "year": "2005-08",
+          "cgpa": "55.625%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "General",
+          "stream": "West Bengal Council of Higher Secondary Education",
+          "university": "West Bengal Council of Higher Secondary Education",
+          "year": "2003-2005",
+          "cgpa": "72.3%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "General",
+          "stream": "West Bengal Board of Secondary Education",
+          "university": "West Bengal Board of Secondary Education",
+          "year": "2003",
+          "cgpa": "80.75%",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "extracted_experience": {
+        "academic": [
+          {
+            "experience_type": "academic",
+            "institution": "Indian Institute of Technology Mandi",
+            "role": "PhD. Research Scholar",
+            "duration_years": 4.5,
+            "institution_tier": "Tier 1",
+            "institution_score": 1.0
+          }
+        ],
+        "industry": [
+          {
+            "experience_type": "industry",
+            "organization": "Indian Institute of Technology Mandi",
+            "role": "Project Associate",
+            "duration_years": 1.5
+          },
+          {
+            "experience_type": "industry",
+            "organization": "Susil Kar College, Calcutta University",
+            "role": "Assistant Professor of Economics",
+            "duration_years": 2
+          },
+          {
+            "experience_type": "industry",
+            "organization": "Vijaygarh Jyotish Ray College, Calcutta University",
+            "role": "Guest Lecturer of Economics",
+            "duration_years": 1
+          },
+          {
+            "experience_type": "industry",
+            "organization": "Jadavpur University",
+            "role": "Project Fellow",
+            "duration_years": 1
+          }
+        ]
+      },
+      "extracted_publications": [
+        {
+          "publication_type": "Journal",
+          "publication_name": "How vulnerable are India's the Himalayan Region States to Climate Change?",
+          "venue_name": "Economic and Political Weekly (EPW- Engage)",
+          "published_at": "2021",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal",
+          "publication_name": "So Near Yet So Far: A Narrative from a Forest-dwelling Gaddi Community in Chamba, Himachal Pradesh.",
+          "venue_name": "Ecology, Economy and Society - the INSEE Journal",
+          "published_at": "2021",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal",
+          "publication_name": "Stakeholders' varying ordinal perceptions of forest ecosystem services: A case study of Chamba, Himachal Pradesh, India.",
+          "venue_name": "Redefining the Diversity and Dynamism of Natural Resources Management in the Global South (Volume VI)",
+          "published_at": "2024",
+          "publication_year": null,
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0007",
+      "source_file": "Snehamoy_P_CV.pdf",
+      "candidate_name": "Snehamoy Pramanik",
+      "email": "sneha.ism@gmail.com",
+      "phone": "+91 9262339404",
+      "current_designation": "Assistant Professor",
+      "extracted_education": [
+        {
+          "qualification_type": "PhD",
+          "degree": "PhD",
+          "stream": null,
+          "university": "Indian Institute of Technology (Indian School of Mines)",
+          "year": "2023",
+          "cgpa": null,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "PhD",
+          "degree": "Post Doctoral",
+          "stream": null,
+          "university": "Tufts University",
+          "year": "2021",
+          "cgpa": null,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "PhD",
+          "degree": "PhD",
+          "stream": null,
+          "university": "Indian Institute of Technology (Indian School of Mines)",
+          "year": "2015",
+          "cgpa": null,
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "M.Sc",
+          "stream": "Mathematics and Computing",
+          "university": "Indian Institute of Technology (Indian School of Mines)",
+          "year": "2013",
+          "cgpa": "88.84",
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "UG",
+          "degree": "B.Sc",
+          "stream": "Mathematics",
+          "university": "West Bengal State University",
+          "year": "2010",
+          "cgpa": "57.57",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "HSC (10+2)",
+          "stream": "Mathematics, Physics, Chemistry, Biology, English, Bengali",
+          "university": "West Bengal Council of Higher Secondary Education (W.B.C.H.S.E)",
+          "year": "2008",
+          "cgpa": "77.60",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "SSC (10)",
+          "stream": "Mathematics, Physical science, Life science, History, Geography, English, Bengali",
+          "university": "West Bengal Board of Secondary Education (W.B.B.S.E)",
+          "year": "2008",
+          "cgpa": "78.87",
+          "institution_tier": "Tier 3",
+          "institution_score": 0.33
+        }
+      ],
+      "extracted_experience": {
+        "academic": [],
+        "industry": []
+      },
+      "extracted_publications": [
+        {
+          "publication_type": "Journal Articles",
+          "publication_name": "Nonlocal analysis of rayleigh-type wave propagating in a gradient layered structure",
+          "venue_name": "The European Physical Journal Plus",
+          "published_at": "2023-05",
+          "publication_year": 2023,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal Articles",
+          "publication_name": "Analysis of three dimensional rayleigh-type waves in a layered structure",
+          "venue_name": "2023",
+          "published_at": "2023-05",
+          "publication_year": 2023,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal Articles",
+          "publication_name": "Reflection and transmission phenomena of sh waves in fluid saturated porous medium with corrugated interface",
+          "venue_name": "Mechanics of Advanced Materials and Structures",
+          "published_at": "2022-12",
+          "publication_year": 2022,
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal Articles",
+          "publication_name": "Impact of irregularity, initial stress, porosity, and corrugation on the propagation of sh wave",
+          "venue_name": "International Journal of Geomechanics",
+          "published_at": "2021-02",
+          "publication_year": 2021,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal Articles",
+          "publication_name": "Propagation of g-type wave in a viscoelastic medium lying over a heterogeneous fibre reinforced half space",
+          "venue_name": "Mechanics of Solids",
+          "published_at": "2021-01",
+          "publication_year": 2021,
+          "venue_tier": "Tier 1",
+          "venue_score": 1.0,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "Journal Articles",
+          "publication_name": "Dynamic analysis of wave propagation and buckling phenomena in carbon nanotubes (cnts)",
+          "venue_name": "Wave Motion",
+          "published_at": "2021-01",
+          "publication_year": 2021,
+          "venue_tier": "Tier 1",
+          "venue_score": 1.0,
+          "in_publication_window": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-0010",
+      "source_file": "Vijay_CV4DAIICT.pdf",
+      "candidate_name": "Vijay Kumar",
+      "email": "dvijay.iitb@gmail.com",
+      "phone": "+91 7905257340",
+      "current_designation": "Assistant Professor",
+      "extracted_education": [
+        {
+          "qualification_type": "PhD",
+          "degree": "PhD in Statistics",
+          "stream": "Computer Science and Engineering",
+          "university": "Indian Institute of Technology, Bombay",
+          "year": "2018-2023",
+          "cgpa": "7.56/10",
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "M.Sc in Applied Statistics and Informatics",
+          "stream": "Computer Science and Engineering",
+          "university": "Indian Institute of Technology, Bombay",
+          "year": "2011-2013",
+          "cgpa": "6.36/10",
+          "institution_tier": "Tier 1",
+          "institution_score": 1.0
+        },
+        {
+          "qualification_type": "UG",
+          "degree": "B.Sc in Statistics and Mathematics",
+          "stream": "Statistics and Mathematics",
+          "university": "PPN Degree College, CSJM University, Kanpur",
+          "year": "2006-2009",
+          "cgpa": "66.74%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "PG",
+          "degree": "Intermediate",
+          "stream": "Science",
+          "university": "UP Board",
+          "year": "2002-2003",
+          "cgpa": "75.33%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        },
+        {
+          "qualification_type": "Other",
+          "degree": "High school",
+          "stream": "Science",
+          "university": "UP Board",
+          "year": "2002-2003",
+          "cgpa": "75.33%",
+          "institution_tier": "Tier 2",
+          "institution_score": 0.66
+        }
+      ],
+      "extracted_experience": {
+        "academic": [
+          {
+            "experience_type": "academic",
+            "institution": "University of Petroleum and Energy Studies",
+            "role": "Assistant Professor",
+            "duration_years": 4.5,
+            "institution_tier": "Tier 3",
+            "institution_score": 0.33
+          }
+        ],
+        "industry": [
+          {
+            "experience_type": "industry",
+            "organization": "Indian Institute of Technology, Bombay",
+            "role": "Research Associate",
+            "duration_years": 2.0,
+            "location": "Mumbai, Maharashtra"
+          }
+        ]
+      },
+      "extracted_publications": [
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "A probabilistic interpretation of the Bell polynomials",
+          "venue_name": "Stochastic Analysis and Applications",
+          "published_at": "2022-04",
+          "publication_year": 2022,
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Probabilistic interpretations of nonclassic Adomian polynomials",
+          "venue_name": "Stochastic Analysis and Applications",
+          "published_at": "2022-05",
+          "publication_year": 2022,
+          "venue_tier": "Tier 3",
+          "venue_score": 0.33,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "Record-based transmuted generalized linear exponential distribution with increasing, decreasing and bathtub shaped failure rates",
+          "venue_name": "Communications in Statistics-Simulation and Computation",
+          "published_at": "2022-01",
+          "publication_year": 2022,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        },
+        {
+          "publication_type": "journal | conference | book | book_chapter | patent | other",
+          "publication_name": "On a Modified Weighted Exponential Distribution with Applications",
+          "venue_name": "Mathematical and Computational Applications",
+          "published_at": "2022-01",
+          "publication_year": 2022,
+          "venue_tier": "Tier 2",
+          "venue_score": 0.66,
+          "in_publication_window": true
+        }
+      ]
+    }
+  ]
+}

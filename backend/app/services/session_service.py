@@ -17,11 +17,23 @@ class SessionService:
     def generate_session_id(self) -> str:
         year = datetime.now().year
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("SELECT COUNT(*) FROM sessions")
-        count = cursor.fetchone()[0] + 1
-        conn.close()
-        return f"SES-{year}-{count:04d}"
+        try:
+            cursor = conn.cursor()
+            cursor.execute("SELECT session_id FROM sessions WHERE session_id LIKE ?", (f"SES-{year}-%",))
+            rows = cursor.fetchall()
+            existing_numbers = set()
+            for r in rows:
+                try:
+                    num = int(r["session_id"].split("-")[-1])
+                    existing_numbers.add(num)
+                except (ValueError, IndexError):
+                    pass
+            next_num = max(existing_numbers, default=0) + 1
+            while next_num in existing_numbers:
+                next_num += 1
+            return f"SES-{year}-{next_num:04d}"
+        finally:
+            conn.close()
 
     def create_session(self, request: CreateSessionRequest) -> SessionResponse:
         session_id = self.generate_session_id()
@@ -34,30 +46,34 @@ class SessionService:
             (session_dir / sub).mkdir(parents=True, exist_ok=True)
 
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("""
-        INSERT INTO sessions (
-            session_id, job_title, job_description, required_degree, required_specialization,
-            minimum_experience, minimum_publications, publication_window_years, top_n,
-            scoring_weights, processing_status, current_stage, created_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, (
-            session_id, request.job_title, request.job_description or "", request.required_degree,
-            request.required_specialization, request.minimum_experience, request.minimum_publications,
-            request.publication_window_years, request.top_n, json.dumps(weights_dict),
-            "CREATED", "INITIAL", created_at
-        ))
-        conn.commit()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("""
+            INSERT INTO sessions (
+                session_id, job_title, job_description, required_degree, required_specialization,
+                minimum_experience, minimum_publications, publication_window_years, top_n,
+                scoring_weights, processing_status, current_stage, created_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                session_id, request.job_title, request.job_description or "", request.required_degree,
+                request.required_specialization, request.minimum_experience, request.minimum_publications,
+                request.publication_window_years, request.top_n, json.dumps(weights_dict),
+                "CREATED", "INITIAL", created_at
+            ))
+            conn.commit()
+        finally:
+            conn.close()
 
         return self.get_session(session_id)
 
     def get_session(self, session_id: str) -> Optional[SessionResponse]:
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("SELECT * FROM sessions WHERE session_id=?", (session_id,))
-        row = cursor.fetchone()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM sessions WHERE session_id=?", (session_id,))
+            row = cursor.fetchone()
+        finally:
+            conn.close()
 
         if not row:
             return None
@@ -86,10 +102,12 @@ class SessionService:
 
     def list_sessions(self) -> List[SessionResponse]:
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("SELECT session_id FROM sessions ORDER BY created_at DESC")
-        rows = cursor.fetchall()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("SELECT session_id FROM sessions ORDER BY created_at DESC")
+            rows = cursor.fetchall()
+        finally:
+            conn.close()
 
         sessions = []
         for r in rows:
@@ -100,32 +118,34 @@ class SessionService:
 
     def update_session_status(self, session_id: str, status: str, stage: str, processed: int = None, failed: int = None, total: int = None, shortlisted: int = None):
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        
-        updates = ["processing_status=?", "current_stage=?"]
-        params = [status, stage]
-        
-        if processed is not None:
-            updates.append("processed_candidates=?")
-            params.append(processed)
-        if failed is not None:
-            updates.append("failed_candidates=?")
-            params.append(failed)
-        if total is not None:
-            updates.append("total_candidates=?")
-            params.append(total)
-        if shortlisted is not None:
-            updates.append("shortlisted_candidates=?")
-            params.append(shortlisted)
-        if status in ["COMPLETED", "FAILED"]:
-            updates.append("completed_at=?")
-            params.append(datetime.now().isoformat())
+        try:
+            cursor = conn.cursor()
+            
+            updates = ["processing_status=?", "current_stage=?"]
+            params = [status, stage]
+            
+            if processed is not None:
+                updates.append("processed_candidates=?")
+                params.append(processed)
+            if failed is not None:
+                updates.append("failed_candidates=?")
+                params.append(failed)
+            if total is not None:
+                updates.append("total_candidates=?")
+                params.append(total)
+            if shortlisted is not None:
+                updates.append("shortlisted_candidates=?")
+                params.append(shortlisted)
+            if status in ["COMPLETED", "FAILED"]:
+                updates.append("completed_at=?")
+                params.append(datetime.now().isoformat())
 
-        params.append(session_id)
-        sql = f"UPDATE sessions SET {', '.join(updates)} WHERE session_id=?"
-        cursor.execute(sql, params)
-        conn.commit()
-        conn.close()
+            params.append(session_id)
+            sql = f"UPDATE sessions SET {', '.join(updates)} WHERE session_id=?"
+            cursor.execute(sql, params)
+            conn.commit()
+        finally:
+            conn.close()
 
     def clear_all_data(self) -> Dict[str, Any]:
         import shutil
@@ -147,13 +167,15 @@ class SessionService:
 
         # Reset DB tables
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("DELETE FROM candidates")
-        cursor.execute("DELETE FROM sessions")
-        cursor.execute("DELETE FROM institution_cache")
-        cursor.execute("DELETE FROM publication_venue_cache")
-        conn.commit()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM candidates")
+            cursor.execute("DELETE FROM sessions")
+            cursor.execute("DELETE FROM institution_cache")
+            cursor.execute("DELETE FROM publication_venue_cache")
+            conn.commit()
+        finally:
+            conn.close()
 
         logger.info("Cleared all session data, cache, and database tables.")
         return {"status": "success", "message": "All session data, cache, and database entries cleared successfully."}
@@ -165,12 +187,14 @@ class SessionService:
             shutil.rmtree(session_dir, ignore_errors=True)
 
         conn = get_db_connection(settings.DB_PATH)
-        cursor = conn.cursor()
-        cursor.execute("DELETE FROM candidates WHERE session_id=?", (session_id,))
-        cursor.execute("DELETE FROM sessions WHERE session_id=?", (session_id,))
-        deleted_count = cursor.rowcount
-        conn.commit()
-        conn.close()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM candidates WHERE session_id=?", (session_id,))
+            cursor.execute("DELETE FROM sessions WHERE session_id=?", (session_id,))
+            deleted_count = cursor.rowcount
+            conn.commit()
+        finally:
+            conn.close()
 
         logger.info(f"Deleted session {session_id} and associated candidate records.")
         return deleted_count > 0

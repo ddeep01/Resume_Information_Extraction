@@ -2,7 +2,9 @@
  * Faculty Selection Portal - Web Application Logic
  */
 
-const API_BASE = "/api";
+const API_BASE = (window.location.protocol === 'file:' || (window.location.port !== '8000' && window.location.port !== ''))
+    ? "http://localhost:8000/api"
+    : "/api";
 
 // State
 let currentSessionId = null;
@@ -19,6 +21,9 @@ const views = {
 
 // Initialize Application
 document.addEventListener('DOMContentLoaded', () => {
+    if (window.location.protocol === 'file:') {
+        showToast("Accessing via file://. For best performance, use http://localhost:8000", "info");
+    }
     setupNavigation();
     setupWeightSliders();
     setupUploadDropzone();
@@ -357,7 +362,10 @@ function setupFormSubmission() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(sessionPayload)
             });
-            if (!createRes.ok) throw new Error("Failed to create session");
+            if (!createRes.ok) {
+                const errData = await createRes.json().catch(() => ({}));
+                throw new Error(errData.detail || `Session creation failed (${createRes.status})`);
+            }
             const sessionData = await createRes.json();
             currentSessionId = sessionData.session_id;
 
@@ -369,13 +377,19 @@ function setupFormSubmission() {
                 method: 'POST',
                 body: formData
             });
-            if (!uploadRes.ok) throw new Error("Failed to upload ZIP archive");
+            if (!uploadRes.ok) {
+                const errData = await uploadRes.json().catch(() => ({}));
+                throw new Error(errData.detail || "Failed to upload ZIP archive");
+            }
 
             // 3. Trigger Start Processing
             const startRes = await fetch(`${API_BASE}/sessions/${currentSessionId}/start`, {
                 method: 'POST'
             });
-            if (!startRes.ok) throw new Error("Failed to start processing job");
+            if (!startRes.ok) {
+                const errData = await startRes.json().catch(() => ({}));
+                throw new Error(errData.detail || "Failed to start processing job");
+            }
 
             showToast(`Session ${currentSessionId} created! Processing started.`, "success");
             btnSubmit.disabled = false;
@@ -385,7 +399,11 @@ function setupFormSubmission() {
             startProcessingMonitor(currentSessionId);
 
         } catch (err) {
-            showToast("Error creating session: " + err.message, "error");
+            let msg = err.message || "";
+            if (window.location.protocol === 'file:' && (msg.includes("Load failed") || msg.includes("Failed to fetch"))) {
+                msg = "Browser blocked local file request. Please access the portal at http://localhost:8000";
+            }
+            showToast("Error creating session: " + msg, "error");
             btnSubmit.disabled = false;
             btnSubmit.innerHTML = `<i class="fa-solid fa-play"></i> Create Selection Session & Start Processing`;
         }
