@@ -9,12 +9,19 @@ from backend.app.config import settings
 from backend.app.models.database import init_db
 from backend.app.api.router import api_router
 
+from backend.app.services.session_service import SessionService
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Init DB
+    # Startup: Init DB and sync results
     init_db(settings.DB_PATH)
+    try:
+        SessionService().sync_sessions_from_results()
+    except Exception as e:
+        print(f"[STARTUP] Warning during session sync: {e}")
     yield
     # Shutdown logic if any
+
 
 app = FastAPI(
     title=settings.PROJECT_NAME,

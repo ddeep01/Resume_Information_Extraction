@@ -122,69 +122,30 @@ class HierarchicalMerger:
             for item in pub_list:
                 if not isinstance(item, dict):
                     continue
-                name = (item.get("publication_name") or "").strip().lower()
-                if name and name in seen_pub:
+                raw_name = (item.get("publication_name") or "").strip()
+                if not raw_name:
+                    continue
+                import re
+                norm_name = re.sub(r'[\s"\'“”.,:;]+', ' ', raw_name.lower()).strip()
+                if norm_name and norm_name in seen_pub:
                     for existing in dedup_pub:
-                        ex_name = (existing.get("publication_name") or "").strip().lower()
-                        if ex_name == name:
+                        ex_norm = re.sub(r'[\s"\'“”.,:;]+', ' ', (existing.get("publication_name") or "").lower()).strip()
+                        if ex_norm == norm_name:
                             for k, v in item.items():
-                                if v and not existing.get(k):
+                                if v is not None and not existing.get(k):
                                     existing[k] = v
                 else:
-                    if name:
-                        seen_pub.add(name)
+                    if norm_name:
+                        seen_pub.add(norm_name)
                     dedup_pub.append(item)
             data["publications"] = dedup_pub
 
         # 4. Deduplicate Experience
-        exp = data.get("experience", {})
-        if isinstance(exp, dict):
-            # Academic
-            acad_list = exp.get("academic", [])
-            if isinstance(acad_list, list):
-                dedup_acad = []
-                seen_acad = set()
-                for item in acad_list:
-                    if not isinstance(item, dict):
-                        continue
-                    inst = (item.get("institution") or "").strip().lower()
-                    role = (item.get("role") or "").strip().lower()
-                    key = f"{inst}:{role}"
-                    if key != ":" and key in seen_acad:
-                        for existing in dedup_acad:
-                            if f"{(existing.get('institution') or '').strip().lower()}:{(existing.get('role') or '').strip().lower()}" == key:
-                                for k, v in item.items():
-                                    if v and not existing.get(k):
-                                        existing[k] = v
-                    else:
-                        if key != ":":
-                            seen_acad.add(key)
-                        dedup_acad.append(item)
-                exp["academic"] = dedup_acad
-
-            # Industry
-            ind_list = exp.get("industry", [])
-            if isinstance(ind_list, list):
-                dedup_ind = []
-                seen_ind = set()
-                for item in ind_list:
-                    if not isinstance(item, dict):
-                        continue
-                    org = (item.get("organization") or "").strip().lower()
-                    role = (item.get("role") or "").strip().lower()
-                    key = f"{org}:{role}"
-                    if key != ":" and key in seen_ind:
-                        for existing in dedup_ind:
-                            if f"{(existing.get('organization') or '').strip().lower()}:{(existing.get('role') or '').strip().lower()}" == key:
-                                for k, v in item.items():
-                                    if v and not existing.get(k):
-                                        existing[k] = v
-                    else:
-                        if key != ":":
-                            seen_ind.add(key)
-                        dedup_ind.append(item)
-                exp["industry"] = dedup_ind
-
+        exp = data.get("experience")
+        from backend.app.llm.experience_calculator import clean_and_calculate_experience_dict
+        cleaned_exp_dict, total_exp = clean_and_calculate_experience_dict(exp, raw_total_exp=data.get("total_experience"))
+        data["experience"] = cleaned_exp_dict
+        data["total_experience"] = total_exp
         return data
 
     def python_deterministic_merge(self, a: Dict[str, Any], b: Dict[str, Any]) -> Dict[str, Any]:
@@ -195,10 +156,8 @@ class HierarchicalMerger:
             "personal_information": {},
             "education": [],
             "publications": [],
-            "experience": {
-                "academic": [],
-                "industry": []
-            }
+            "experience": [],
+            "total_experience": 0.0
         }
 
         # Personal Info
@@ -218,15 +177,24 @@ class HierarchicalMerger:
         res["publications"] = pub_a + pub_b
 
         # Experience
-        exp_a = a.get("experience", {}) if isinstance(a.get("experience"), dict) else {}
-        exp_b = b.get("experience", {}) if isinstance(b.get("experience"), dict) else {}
-        
-        acad_a = exp_a.get("academic", []) if isinstance(exp_a.get("academic"), list) else []
-        acad_b = exp_b.get("academic", []) if isinstance(exp_b.get("academic"), list) else []
-        res["experience"]["academic"] = acad_a + acad_b
+        exp_a = a.get("experience")
+        exp_b = b.get("experience")
+        if isinstance(exp_a, list) or isinstance(exp_b, list):
+            list_a = exp_a if isinstance(exp_a, list) else ((exp_a.get("academic") or []) + (exp_a.get("industry") or []) if isinstance(exp_a, dict) else [])
+            list_b = exp_b if isinstance(exp_b, list) else ((exp_b.get("academic") or []) + (exp_b.get("industry") or []) if isinstance(exp_b, dict) else [])
+            res["experience"] = list_a + list_b
+        elif isinstance(exp_a, dict) or isinstance(exp_b, dict):
+            dict_a = exp_a if isinstance(exp_a, dict) else {}
+            dict_b = exp_b if isinstance(exp_b, dict) else {}
+            res["experience"] = {
+                "academic": (dict_a.get("academic") or []) + (dict_b.get("academic") or []),
+                "professional": (dict_a.get("professional") or dict_a.get("industry") or []) + (dict_b.get("professional") or dict_b.get("industry") or [])
+            }
+        else:
+            res["experience"] = {"academic": [], "professional": []}
 
-        ind_a = exp_a.get("industry", []) if isinstance(exp_a.get("industry"), list) else []
-        ind_b = exp_b.get("industry", []) if isinstance(exp_b.get("industry"), list) else []
-        res["experience"]["industry"] = ind_a + ind_b
+        tot_a = float(a.get("total_experience") or 0.0)
+        tot_b = float(b.get("total_experience") or 0.0)
+        res["total_experience"] = max(tot_a, tot_b)
 
         return self.post_process_deduplicate(res)

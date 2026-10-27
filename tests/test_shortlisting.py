@@ -61,3 +61,49 @@ def test_scoring_and_ranking():
     assert len(shortlisted) == 1
     assert shortlisted[0]["candidate_id"] == "CAND-0002"
     assert shortlisted[0]["shortlisting"]["rank"] == 1
+
+
+def test_eligibility_with_list_experience():
+    """Verify eligibility evaluation works seamlessly with new experience list format and total_experience."""
+    candidate_data = {
+        "candidate_id": "CAND-0035",
+        "education": [
+            {"degree": "PhD", "stream": "Computer Science"}
+        ],
+        "experience": [
+            {
+                "experience_type": "professional",
+                "institution": "CHRIST University",
+                "role": "Assistant Professor",
+                "start_date": "2022",
+                "end_date": "Present",
+                "duration_years": 4.0
+            },
+            {
+                "experience_type": "academic",
+                "institution": "Tufts University",
+                "role": "Postdoctoral Research Scholar",
+                "start_date": "2020",
+                "end_date": "2021",
+                "duration_years": 1.0
+            }
+        ],
+        "total_experience": 5.0,
+        "publications": [
+            {"venue_name": "IEEE Trans", "published_at": "2023", "publication_year": 2023}
+        ]
+    }
+
+    is_eligible, reasons, window_pubs, total_exp = evaluate_candidate_eligibility(
+        candidate_data,
+        required_degree="PhD",
+        required_specialization="Computer Science",
+        minimum_experience=2.0,
+        minimum_publications=1,
+        publication_window_years=5
+    )
+
+    assert is_eligible is True
+    assert total_exp == 5.0
+    assert any("Minimum experience met" in r for r in reasons)
+

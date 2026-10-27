@@ -3,7 +3,7 @@
  */
 
 const API_BASE = (window.location.protocol === 'file:' || (window.location.port !== '8000' && window.location.port !== ''))
-    ? "http://localhost:8000/api"
+    ? `${window.location.protocol === 'https:' ? 'https:' : 'http:'}//${window.location.hostname && window.location.hostname !== '' ? window.location.hostname : 'localhost'}:8000/api`
     : "/api";
 
 // State
@@ -242,6 +242,10 @@ async function clearAllSessions() {
 
 window.deleteSingleSession = deleteSingleSession;
 window.clearAllSessions = clearAllSessions;
+window.openSessionResults = openSessionResults;
+window.openCandidateModal = openCandidateModal;
+window.loadDashboardSessions = loadDashboardSessions;
+window.switchView = switchView;
 
 // --------------------------------------------------------------------------
 // 2. CREATE SESSION & WEIGHTS LOGIC
@@ -559,8 +563,9 @@ function renderCandidatesTable(candidates) {
         const highestEdu = cand.education && cand.education.length > 0 ? cand.education[0].degree : 'N/A';
         const spec = cand.education && cand.education.length > 0 ? (cand.education[0].stream || 'N/A') : 'N/A';
         
-        const totalExpYears = ((cand.experience.academic || []).reduce((a, b) => a + (b.duration_years || 0), 0) +
-                              (cand.experience.industry || []).reduce((a, b) => a + (b.duration_years || 0), 0)).toFixed(1);
+        const totalExpYears = cand.total_experience !== undefined && cand.total_experience !== null ? Number(cand.total_experience).toFixed(1) :
+                              (((cand.experience?.academic || []).reduce((a, b) => a + (b.duration_years || 0), 0) +
+                               ((cand.experience?.professional || cand.experience?.industry || []).reduce((a, b) => a + (b.duration_years || 0), 0))).toFixed(1));
 
         const pubCount = cand.publications ? cand.publications.length : 0;
 
@@ -649,7 +654,7 @@ function openCandidateModal(candidateId) {
             <td>${escapeHtml(e.stream || 'N/A')}</td>
             <td>${escapeHtml(e.university || 'N/A')}</td>
             <td>${escapeHtml(e.year || 'N/A')}</td>
-            <td><span class="badge ${e.institution_tier === 'Tier 1' ? 'badge-tier1' : 'badge-tier2'}">${escapeHtml(e.institution_tier || 'Tier 3')}</span></td>
+            <td>${e.institution_tier ? `<span class="badge ${e.institution_tier === 'Tier 1' ? 'badge-tier1' : 'badge-tier2'}">${escapeHtml(e.institution_tier)}</span>` : '<span class="text-muted">-</span>'}</td>
         `;
         tbodyEdu.appendChild(tr);
     });
@@ -669,32 +674,32 @@ function openCandidateModal(candidateId) {
         tbodyPub.appendChild(tr);
     });
 
-    // Academic Experience
+    // Academic Experience (Research Fellowships / Scholars / Postdocs)
     const listAcad = document.getElementById('modal-list-academic');
     listAcad.innerHTML = '';
-    const acads = cand.experience.academic || [];
-    if (acads.length === 0) listAcad.innerHTML = '<p class="text-muted">No academic experience listed.</p>';
+    const acads = (cand.experience && cand.experience.academic) || [];
+    if (acads.length === 0) listAcad.innerHTML = '<p class="text-muted">No academic research fellowship experience listed.</p>';
     acads.forEach(a => {
         const div = document.createElement('div');
         div.className = 'mb-2';
         div.innerHTML = `
             <div class="font-semibold">${escapeHtml(a.role || 'Role N/A')} at ${escapeHtml(a.institution || 'Institute')}</div>
-            <div class="text-xs text-muted">${a.duration_years} yrs | <span class="badge badge-tier1">${a.institution_tier || 'Tier 3'}</span></div>
+            <div class="text-xs text-muted">${a.duration_years || 0} yrs ${a.start_date || a.end_date ? `(${a.start_date || ''} - ${a.end_date || ''})` : ''} | <span class="badge badge-tier1">${a.institution_tier || 'Tier 3'}</span></div>
         `;
         listAcad.appendChild(div);
     });
 
-    // Industry Experience
+    // Professional / Teaching / Industry Experience
     const listInd = document.getElementById('modal-list-industry');
     listInd.innerHTML = '';
-    const inds = cand.experience.industry || [];
-    if (inds.length === 0) listInd.innerHTML = '<p class="text-muted">No industry experience listed.</p>';
+    const inds = (cand.experience && (cand.experience.professional || cand.experience.industry)) || [];
+    if (inds.length === 0) listInd.innerHTML = '<p class="text-muted">No professional/teaching experience listed.</p>';
     inds.forEach(i => {
         const div = document.createElement('div');
         div.className = 'mb-2';
         div.innerHTML = `
-            <div class="font-semibold">${escapeHtml(i.role || 'Role N/A')} at ${escapeHtml(i.organization || 'Organization')}</div>
-            <div class="text-xs text-muted">${i.duration_years} yrs ${i.location ? '| ' + escapeHtml(i.location) : ''}</div>
+            <div class="font-semibold">${escapeHtml(i.role || 'Role N/A')} at ${escapeHtml(i.institution || i.organization || 'Organization')}</div>
+            <div class="text-xs text-muted">${i.duration_years || 0} yrs ${i.start_date || i.end_date ? `(${i.start_date || ''} - ${i.end_date || ''})` : ''} ${i.location ? '| ' + escapeHtml(i.location) : ''} | <span class="badge badge-tier1">${i.institution_tier || 'Tier 3'}</span></div>
         `;
         listInd.appendChild(div);
     });

@@ -20,6 +20,7 @@ class OllamaProvider(LLMProvider):
             "prompt": prompt,
             "system": system or "",
             "stream": False,
+            "format": "json",
             "options": {
                 "temperature": self.temperature
             }

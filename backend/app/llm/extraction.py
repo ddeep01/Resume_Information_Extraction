@@ -61,7 +61,7 @@ class LLMExtractor:
     def clean_json_response(self, text: str) -> str:
         return self.json_validator.clean_json_response(text)
 
-    def verify_and_clean_data(self, raw_dict: Dict[str, Any], raw_text: str) -> Dict[str, Any]:
+    def verify_and_clean_data(self, raw_dict: Dict[str, Any], raw_text: str = "") -> Dict[str, Any]:
         """
         Field-level validation & Anti-hallucination post-processor.
         1. Validates fields against Pydantic schemas.
@@ -91,6 +91,22 @@ class LLMExtractor:
                         logger.warning(f"Anti-Hallucination: Stripped unmentioned stream '{s_str}' from degree '{edu.get('degree')}'")
                         edu["stream"] = None
                 
+                u_name = str(edu.get("university") or "").strip()
+                if "name of college or university" in u_name.lower():
+                    continue
+
+                # Filter out obvious non-academic items (certifications, workshops, seminars, training, projects, publications)
+                deg_lower = str(edu.get("degree") or "").lower().strip()
+                is_postdoc = any(k in deg_lower for k in ("postdoc", "post-doc", "post doctoral", "post-doctoral", "pdf", "post doctorate"))
+                if not is_postdoc:
+                    if any(k in deg_lower for k in (
+                        "workshop", "webinar", "seminar", "fdp", "faculty development",
+                        "training program", "capstone project", "mini project", "final year project",
+                        "research paper", "patent published", "nptel", "aws certified", "azure certified", "cisco certified"
+                    )):
+                        logger.warning(f"Anti-Pollution: Dropped non-academic item '{deg_lower}' from education list")
+                        continue
+
                 # Run through EducationItem Pydantic schema validation
                 try:
                     edu_obj = EducationItem(**edu)
@@ -100,6 +116,31 @@ class LLMExtractor:
                     cleaned_edu.append(edu)
             raw_dict["education"] = cleaned_edu
 
+        # Clean Publications against template placeholder leaks and validate with PublicationItem
+        from backend.app.schemas.candidate import PublicationItem
+        pub_list = raw_dict.get("publications", [])
+        if isinstance(pub_list, list):
+            cleaned_pubs = []
+            for pub in pub_list:
+                if not isinstance(pub, dict):
+                    continue
+                p_name = str(pub.get("publication_name") or "").strip()
+                if not p_name or "title of paper or patent" in p_name.lower() or "actual paper" in p_name.lower():
+                    continue
+
+                # Filter obvious thesis/dissertation, student project, or coursework titles
+                p_name_lower = p_name.lower()
+                if any(k in p_name_lower for k in ("phd thesis", "ph.d thesis", "master's thesis", "m.tech thesis", "m.s. thesis", "b.tech project", "capstone project", "coursework")):
+                    continue
+
+                try:
+                    pub_obj = PublicationItem(**pub)
+                    cleaned_pubs.append(pub_obj.model_dump())
+                except Exception as ex:
+                    logger.debug(f"Publication item validation fallback: {ex}")
+                    cleaned_pubs.append(pub)
+            raw_dict["publications"] = cleaned_pubs
+
         # Clean Personal Info
         if "personal_information" in raw_dict and isinstance(raw_dict["personal_information"], dict):
             try:
@@ -107,6 +148,17 @@ class LLMExtractor:
                 raw_dict["personal_information"] = p_obj.model_dump()
             except Exception:
                 pass
+
+        # Clean Experience items and calculate candidate total_experience
+        from backend.app.llm.experience_calculator import clean_and_calculate_experience_dict
+        exp_raw = raw_dict.get("experience")
+        cleaned_exp_dict, total_exp = clean_and_calculate_experience_dict(
+            exp_raw,
+            raw_total_exp=raw_dict.get("total_experience"),
+            full_resume_text=raw_text
+        )
+        raw_dict["experience"] = cleaned_exp_dict
+        raw_dict["total_experience"] = total_exp
 
         return raw_dict
 

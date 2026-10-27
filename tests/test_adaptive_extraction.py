@@ -195,11 +195,11 @@ def test_scenario_7_and_8_boundary_crossing_deduplication():
 
     part1 = {
         "education": [{"degree": "B.Tech", "university": "XYZ University", "year": "2020"}],
-        "experience": {"academic": [{"institution": "ABC Institute", "role": "Assistant Professor", "duration_years": 2.0}]}
+        "experience": {"professional": [{"institution": "ABC Institute", "role": "Assistant Professor", "duration_years": 2.0}]}
     }
     part2 = {
         "education": [{"degree": "B.Tech", "university": "XYZ University", "cgpa": "8.7"}],
-        "experience": {"academic": [{"institution": "ABC Institute", "role": "Assistant Professor", "duration_years": 2.0}]}
+        "experience": {"professional": [{"institution": "ABC Institute", "role": "Assistant Professor", "duration_years": 2.0}]}
     }
 
     merged = merger.python_deterministic_merge(part1, part2)
@@ -211,7 +211,7 @@ def test_scenario_7_and_8_boundary_crossing_deduplication():
     assert merged["education"][0]["cgpa"] == "8.7"
     
     # Should consolidate into single experience record
-    assert len(merged["experience"]["academic"]) == 1
+    assert len(merged["experience"]["professional"]) == 1
 
 
 def test_scenario_9_overlapping_chunks_duplicate_publication():

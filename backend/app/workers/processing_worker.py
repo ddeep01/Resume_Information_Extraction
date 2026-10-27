@@ -23,6 +23,7 @@ from backend.app.shortlisting.scoring import (
 )
 from backend.app.shortlisting.ranking import rank_and_shortlist_candidates
 from backend.app.services.results_exporter import ResultsExporter
+from backend.app.schemas.candidate import is_secondary_education
 
 logger = logging.getLogger("ProcessingWorker")
 
@@ -122,17 +123,33 @@ def run_session_processing(session_id: str):
                 session_service.update_session_status(session_id, "PROCESSING", "INSTITUTION_CLASSIFIER", processed=processed_count, failed=failed_count)
                 education_raw = raw_extracted.get("education", [])
                 exp_raw = raw_extracted.get("experience", {})
-                acad_exp_raw = exp_raw.get("academic", []) if isinstance(exp_raw, dict) else []
-                ind_exp_raw = exp_raw.get("industry", []) if isinstance(exp_raw, dict) else []
+                if isinstance(exp_raw, dict):
+                    acad_exp_raw = exp_raw.get("academic", []) or []
+                    prof_exp_raw = exp_raw.get("professional", []) or exp_raw.get("industry", []) or []
+                elif isinstance(exp_raw, list):
+                    acad_exp_raw = [item for item in exp_raw if isinstance(item, dict) and item.get("experience_type") == "academic"]
+                    prof_exp_raw = [item for item in exp_raw if isinstance(item, dict) and item.get("experience_type") in ("professional", "industry")]
+                else:
+                    acad_exp_raw, prof_exp_raw = [], []
 
-                inst_names = [edu.get("university") or edu.get("institution") or "" for edu in education_raw]
+                inst_names = [edu.get("university") or edu.get("institution") or "" for edu in education_raw if not is_secondary_education(edu.get("degree"), edu.get("qualification_type"))]
                 inst_names += [a_exp.get("institution") or "" for a_exp in acad_exp_raw]
+                inst_names += [p_exp.get("institution") or "" for p_exp in prof_exp_raw]
                 inst_names = [i for i in inst_names if i and i.strip()]
                 
                 batch_classified_insts = inst_classifier.classify_batch(inst_names) if inst_names else {}
 
                 education_classified = []
                 for edu in education_raw:
+                    deg_name = edu.get("degree")
+                    qual_type = edu.get("qualification_type")
+                    if is_secondary_education(deg_name, qual_type):
+                        edu["institution_tier"] = None
+                        edu["institution_score"] = None
+                        education_classified.append(edu)
+                        log_step(f"        Education (Secondary - 10th/12th): '{deg_name}' -> No tier/score assigned")
+                        continue
+
                     inst_name = (edu.get("university") or edu.get("institution") or "").strip()
                     class_res = batch_classified_insts.get(inst_name) or inst_classifier.classify(inst_name)
                     edu["institution_tier"] = class_res["tier"]
@@ -144,10 +161,27 @@ def run_session_processing(session_id: str):
                 for a_exp in acad_exp_raw:
                     inst_name = (a_exp.get("institution") or "").strip()
                     class_res = batch_classified_insts.get(inst_name) or inst_classifier.classify(inst_name)
-                    a_exp["institution_tier"] = class_res["tier"]
-                    a_exp["institution_score"] = class_res["score"]
-                    acad_classified.append(a_exp)
+                    a_exp_copy = dict(a_exp)
+                    a_exp_copy["institution_tier"] = class_res["tier"]
+                    a_exp_copy["institution_score"] = class_res["score"]
+                    acad_classified.append(a_exp_copy)
                     log_step(f"        Academic Exp Tier: '{inst_name}' ({a_exp.get('duration_years')} yrs) -> {class_res['tier']}")
+
+                prof_classified = []
+                for p_exp in prof_exp_raw:
+                    inst_name = (p_exp.get("institution") or "").strip()
+                    class_res = batch_classified_insts.get(inst_name) or inst_classifier.classify(inst_name)
+                    p_exp_copy = dict(p_exp)
+                    p_exp_copy["institution_tier"] = class_res["tier"]
+                    p_exp_copy["institution_score"] = class_res["score"]
+                    prof_classified.append(p_exp_copy)
+                    log_step(f"        Professional Exp Tier: '{inst_name}' ({p_exp.get('duration_years')} yrs) -> {class_res['tier']}")
+
+                experience_classified = {
+                    "academic": acad_classified,
+                    "professional": prof_classified,
+                    "industry": prof_classified
+                }
 
                 # Stage 5: PUBLICATION CLASSIFICATION
                 session_service.update_session_status(session_id, "PROCESSING", "PUBLICATION_CLASSIFIER", processed=processed_count, failed=failed_count)
@@ -173,10 +207,8 @@ def run_session_processing(session_id: str):
                     "personal_information": p_info,
                     "education": education_classified,
                     "publications": pubs_classified,
-                    "experience": {
-                        "academic": acad_classified,
-                        "industry": ind_exp_raw
-                    }
+                    "experience": experience_classified,
+                    "total_experience": raw_extracted.get("total_experience", 0.0)
                 }
 
                 # Stage 6: ELIGIBILITY EVALUATION
@@ -200,7 +232,7 @@ def run_session_processing(session_id: str):
                 edu_score = calculate_education_score(education_classified)
                 pub_score = calculate_publication_score(window_pubs, target_min_pubs=session.minimum_publications)
                 acad_score = calculate_academic_experience_score(acad_classified)
-                ind_score = calculate_industry_experience_score(ind_exp_raw)
+                ind_score = calculate_industry_experience_score(prof_classified)
 
                 weights = session.scoring_weights.model_dump()
                 final_score = calculate_final_score(edu_score, pub_score, acad_score, ind_score, weights)

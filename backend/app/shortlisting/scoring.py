@@ -1,4 +1,5 @@
 from typing import List, Dict, Any
+from backend.app.schemas.candidate import is_secondary_education
 
 def calculate_education_score(education_list: List[Dict[str, Any]]) -> float:
     if not education_list:
@@ -8,14 +9,26 @@ def calculate_education_score(education_list: List[Dict[str, Any]]) -> float:
     weighted_score = 0.0
 
     for edu in education_list:
-        qtype = (edu.get("qualification_type") or "").upper()
-        inst_score = float(edu.get("institution_score") or 0.33)
+        inst_score_val = edu.get("institution_score")
+        # 10th and 12th must NOT receive institution tier or score and must NOT contribute to education scoring
+        if inst_score_val is None:
+            continue
+        if is_secondary_education(edu.get("degree"), edu.get("qualification_type")):
+            continue
 
-        if "PHD" in qtype or "PDF" in qtype:
+        try:
+            inst_score = float(inst_score_val)
+        except (ValueError, TypeError):
+            continue
+
+        qtype = (edu.get("qualification_type") or "").upper()
+        deg_str = (edu.get("degree") or "").upper()
+
+        if "PHD" in qtype or "POST DOCTORAL" in qtype or "PDF" in qtype:
             w = 0.50
-        elif "PG" in qtype or "MASTER" in qtype or "M.TECH" in qtype:
+        elif "PG" in qtype or "MASTER" in deg_str or "M.TECH" in deg_str:
             w = 0.30
-        elif "UG" in qtype or "BACHELOR" in qtype or "B.TECH" in qtype:
+        elif "UG" in qtype or "BACHELOR" in deg_str or "B.TECH" in deg_str:
             w = 0.20
         else:
             w = 0.10

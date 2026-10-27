@@ -63,17 +63,42 @@ def evaluate_candidate_eligibility(
     if not spec_ok:
         is_eligible = False
 
-    # 3. Experience Evaluation (Academic + Industry)
-    exp = candidate_data.get("experience", {})
-    acad_exp_list = exp.get("academic", [])
-    ind_exp_list = exp.get("industry", [])
+    # 3. Experience Evaluation (Academic + Professional / Industry)
+    exp = candidate_data.get("experience", [])
+    if isinstance(exp, list):
+        acad_exp_list = [item for item in exp if isinstance(item, dict) and item.get("experience_type") == "academic"]
+        ind_exp_list = [item for item in exp if isinstance(item, dict) and item.get("experience_type") in ("professional", "industry")]
+        cand_total = candidate_data.get("total_experience")
+        calc_years = float(cand_total) if cand_total is not None else 0.0
+        explicit_years = 0.0
+        exp_basis = "extracted_history"
+    elif isinstance(exp, dict):
+        acad_exp_list = exp.get("academic", []) or []
+        ind_exp_list = exp.get("industry", []) or exp.get("professional", []) or []
+        cand_total = candidate_data.get("total_experience")
+        calc_years = float(cand_total if cand_total is not None else exp.get("calculated_total_years") or 0.0)
+        explicit_years = float(exp.get("explicitly_mentioned_years") or 0.0)
+        exp_basis = exp.get("calculation_basis", "calculated_from_history")
+    else:
+        acad_exp_list = []
+        ind_exp_list = []
+        calc_years = float(candidate_data.get("total_experience") or 0.0)
+        explicit_years = 0.0
+        exp_basis = "not_specified"
 
     total_acad_years = sum(float(item.get("duration_years") or 0.0) for item in acad_exp_list)
     total_ind_years = sum(float(item.get("duration_years") or 0.0) for item in ind_exp_list)
-    total_relevant_exp = round(total_acad_years + total_ind_years, 2)
+    sum_years = round(total_acad_years + total_ind_years, 2)
+
+    total_relevant_exp = calc_years if calc_years > 0.0 else sum_years
+    if total_relevant_exp == 0.0 and explicit_years > 0.0:
+        total_relevant_exp = explicit_years
+
+    total_relevant_exp = round(total_relevant_exp, 2)
 
     if total_relevant_exp >= minimum_experience:
-        reasons.append(f"Minimum experience met: candidate has {total_relevant_exp} yrs relevant experience (Academic: {total_acad_years} yrs, Industry: {total_ind_years} yrs) vs required {minimum_experience} yrs")
+        basis_note = f" [{exp_basis}]" if exp_basis != "not_specified" else ""
+        reasons.append(f"Minimum experience met: candidate has {total_relevant_exp} yrs relevant experience (Academic: {total_acad_years} yrs, Professional: {total_ind_years} yrs){basis_note} vs required {minimum_experience} yrs")
     else:
         is_eligible = False
         reasons.append(f"Minimum experience NOT met: candidate has {total_relevant_exp} yrs relevant experience vs required {minimum_experience} yrs")

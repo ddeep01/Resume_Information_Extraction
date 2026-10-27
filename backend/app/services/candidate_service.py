@@ -109,6 +109,44 @@ class CandidateService:
                 except Exception as e:
                     logger.warning(f"Error loading {f}: {e}")
 
+        # Fallback 1: Query SQLite database if no JSON files in cand_dir
+        if not candidates:
+            conn = get_db_connection(settings.DB_PATH)
+            try:
+                cursor = conn.cursor()
+                cursor.execute("SELECT * FROM candidates WHERE session_id=?", (session_id,))
+                rows = cursor.fetchall()
+                for row in rows:
+                    try:
+                        data = {
+                            "candidate_id": row["candidate_id"],
+                            "source_file": row["source_file"],
+                            "personal_information": {
+                                "full_name": row["full_name"],
+                                "current_designation": row["current_designation"],
+                                "email": row["email"],
+                                "phone": row["phone"]
+                            },
+                            "education": json.loads(row["education_json"]),
+                            "publications": json.loads(row["publications_json"]),
+                            "experience": json.loads(row["experience_json"]),
+                            "shortlisting": json.loads(row["shortlisting_json"])
+                        }
+                        candidates.append(CandidateSchema(**data))
+                    except Exception as e:
+                        logger.warning(f"Error loading candidate from DB row: {e}")
+            finally:
+                conn.close()
+
+        # Fallback 2: Check results directory
+        if not candidates:
+            candidates = self.load_candidates_from_results(session_id)
+            for c in candidates:
+                try:
+                    self.save_candidate(session_id, c.model_dump())
+                except Exception as e:
+                    logger.warning(f"Error caching loaded candidate {c.candidate_id}: {e}")
+
         # Search filter
         if search and search.strip():
             s = search.strip().lower()
@@ -138,6 +176,86 @@ class CandidateService:
             candidates.sort(key=lambda c: c.personal_information.full_name or "")
 
         return candidates
+
+    def load_candidates_from_results(self, session_id: str) -> List[CandidateSchema]:
+        res_dir = settings.RESULTS_DIR / session_id
+        if not res_dir.exists():
+            return []
+
+        llm_file = res_dir / "llm_extracted_outputs.json"
+        sl_file = res_dir / "shortlisting_and_top2_result.json"
+        pub_file = res_dir / "publication_classifications.json"
+        exp_file = res_dir / "experience_classifications.json"
+
+        if not (llm_file.exists() and sl_file.exists()):
+            return []
+
+        try:
+            with open(llm_file, "r", encoding="utf-8") as f:
+                llm_data = json.load(f)
+            with open(sl_file, "r", encoding="utf-8") as f:
+                sl_data = json.load(f)
+            pub_data = {}
+            if pub_file.exists():
+                with open(pub_file, "r", encoding="utf-8") as f:
+                    pub_data = json.load(f)
+            exp_data = {}
+            if exp_file.exists():
+                with open(exp_file, "r", encoding="utf-8") as f:
+                    exp_data = json.load(f)
+
+            sl_map = {c["candidate_id"]: c for c in sl_data.get("all_evaluated_candidates", [])}
+            top_map = {c["candidate_id"]: c for c in sl_data.get("top_shortlisted_candidates", [])}
+            pub_map = {c["candidate_id"]: c for c in pub_data.get("publication_classifications_by_candidate", [])}
+            exp_map = {c["candidate_id"]: c for c in exp_data.get("experience_classifications_by_candidate", [])}
+
+            candidates = []
+            for raw in llm_data.get("candidates_llm_extracted_data", []):
+                cid = raw.get("candidate_id")
+                sl_info = sl_map.get(cid, {})
+                top_info = top_map.get(cid, {})
+                pub_info = pub_map.get(cid, {})
+                exp_info = exp_map.get(cid, {})
+
+                comp_scores = top_info.get("component_scores", {})
+                edu_score = comp_scores.get("education_score", 0.0)
+                pub_score = comp_scores.get("publication_score", pub_info.get("publication_score", 0.0))
+                acad_score = comp_scores.get("academic_experience_score", exp_info.get("academic_experience_score", 0.0))
+                ind_score = comp_scores.get("industry_experience_score", exp_info.get("industry_experience_score", 0.0))
+
+                exp_dict = raw.get("extracted_experience", {})
+                if not isinstance(exp_dict, dict):
+                    exp_dict = {"academic": [], "industry": []}
+
+                cand_dict = {
+                    "candidate_id": cid,
+                    "source_file": raw.get("source_file") or f"{cid}.pdf",
+                    "personal_information": {
+                        "full_name": raw.get("candidate_name"),
+                        "current_designation": raw.get("current_designation"),
+                        "email": raw.get("email"),
+                        "phone": raw.get("phone")
+                    },
+                    "education": raw.get("extracted_education", []),
+                    "publications": raw.get("extracted_publications", []),
+                    "experience": exp_dict,
+                    "shortlisting": {
+                        "eligible": sl_info.get("eligible", False),
+                        "shortlisted": sl_info.get("shortlisted", False),
+                        "education_score": edu_score,
+                        "publication_score": pub_score,
+                        "academic_experience_score": acad_score,
+                        "industry_experience_score": ind_score,
+                        "final_score": sl_info.get("final_score", 0.0),
+                        "rank": sl_info.get("rank"),
+                        "reasons": sl_info.get("reasons", [])
+                    }
+                }
+                candidates.append(CandidateSchema(**cand_dict))
+            return candidates
+        except Exception as e:
+            logger.error(f"Error loading candidates from results for session {session_id}: {e}")
+            return []
 
     def get_failed_candidates(self, session_id: str) -> List[Dict[str, Any]]:
         failed_dir = settings.SESSIONS_DIR / session_id / "failed_candidates"

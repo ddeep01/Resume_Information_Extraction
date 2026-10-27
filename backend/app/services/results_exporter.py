@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 from backend.app.config import settings
+from backend.app.schemas.candidate import is_secondary_education
 
 logger = logging.getLogger("ResultsExporter")
 
@@ -65,25 +66,37 @@ class ResultsExporter:
             edu_items = []
             for edu in cand.get("education", []):
                 inst = edu.get("university") or edu.get("institution") or "Unknown"
-                tier = edu.get("institution_tier", "Tier 3")
-                score = edu.get("institution_score", settings.TIER_3_SCORE)
+                deg_name = edu.get("degree")
+                if is_secondary_education(deg_name, edu.get("qualification_type")):
+                    tier = None
+                    score = None
+                else:
+                    tier = edu.get("institution_tier") or "Tier 3"
+                    score = edu.get("institution_score") if edu.get("institution_score") is not None else settings.TIER_3_SCORE
                 edu_items.append({
-                    "degree": edu.get("degree"),
-                    "specialization": edu.get("specialization"),
+                    "degree": deg_name,
+                    "specialization": edu.get("specialization") or edu.get("stream"),
                     "institution": inst,
                     "classified_tier": tier,
                     "tier_score": score,
-                    "year_of_completion": edu.get("year_of_completion")
+                    "year_of_completion": edu.get("year_of_completion") or edu.get("year")
                 })
             
             acad_exp_unis = []
-            acad_exp = cand.get("experience", {}).get("academic", []) if isinstance(cand.get("experience"), dict) else []
+            exp_cand = cand.get("experience", [])
+            if isinstance(exp_cand, list):
+                acad_exp = [a for a in exp_cand if isinstance(a, dict) and a.get("experience_type") == "academic"]
+            elif isinstance(exp_cand, dict):
+                acad_exp = exp_cand.get("academic", [])
+            else:
+                acad_exp = []
+
             for a in acad_exp:
                 inst = a.get("institution") or "Unknown"
                 tier = a.get("institution_tier", "Tier 3")
                 score = a.get("institution_score", settings.TIER_3_SCORE)
                 acad_exp_unis.append({
-                    "designation": a.get("designation"),
+                    "designation": a.get("role") or a.get("designation"),
                     "institution": inst,
                     "classified_tier": tier,
                     "tier_score": score,
@@ -109,39 +122,75 @@ class ResultsExporter:
         }
         for cand in candidates:
             p_info = cand.get("personal_information", {})
-            exp = cand.get("experience", {}) if isinstance(cand.get("experience"), dict) else {}
+            cand_exp = cand.get("experience", [])
             shortlisting = cand.get("shortlisting", {})
             
+            if isinstance(cand_exp, list):
+                acad_raw = [a for a in cand_exp if isinstance(a, dict) and a.get("experience_type") == "academic"]
+                ind_raw = [i for i in cand_exp if isinstance(i, dict) and i.get("experience_type") in ("professional", "industry")]
+            elif isinstance(cand_exp, dict):
+                acad_raw = cand_exp.get("academic", [])
+                ind_raw = cand_exp.get("industry", []) or cand_exp.get("professional", [])
+            else:
+                acad_raw, ind_raw = [], []
+
             acad_list = []
             total_acad_years = 0.0
-            for a in exp.get("academic", []):
+            for a in acad_raw:
                 yrs = float(a.get("duration_years") or 0.0)
                 total_acad_years += yrs
+                role_nm = a.get("role") or a.get("designation") or a.get("job_title") or "Role N/A"
+                inst_nm = a.get("institution") or a.get("company_name") or a.get("company") or "Institution"
                 acad_list.append({
-                    "designation": a.get("designation"),
-                    "institution": a.get("institution"),
+                    "designation": role_nm,
+                    "institution": inst_nm,
+                    "start_date": a.get("start_date"),
+                    "end_date": a.get("end_date"),
                     "duration_years": yrs,
+                    "is_current": a.get("is_current", False),
+                    "is_internship": a.get("is_internship", False),
                     "institution_tier": a.get("institution_tier", "Tier 3"),
                     "institution_score": a.get("institution_score", settings.TIER_3_SCORE)
                 })
 
             ind_list = []
             total_ind_years = 0.0
-            for i in exp.get("industry", []):
+            for i in ind_raw:
                 yrs = float(i.get("duration_years") or 0.0)
                 total_ind_years += yrs
+                role_nm = i.get("role") or i.get("designation") or i.get("job_title") or "Role N/A"
+                comp_nm = i.get("institution") or i.get("company") or i.get("organization") or i.get("company_name") or "Company"
                 ind_list.append({
-                    "designation": i.get("designation"),
-                    "company": i.get("company"),
-                    "duration_years": yrs
+                    "designation": role_nm,
+                    "company": comp_nm,
+                    "start_date": i.get("start_date"),
+                    "end_date": i.get("end_date"),
+                    "duration_years": yrs,
+                    "is_current": i.get("is_current", False),
+                    "is_internship": i.get("is_internship", False),
+                    "location": i.get("location")
                 })
+
+            total_exp = cand.get("total_experience")
+            if total_exp is None or total_exp == 0.0:
+                if isinstance(cand_exp, dict):
+                    total_exp = cand_exp.get("calculated_total_years")
+                if total_exp is None or total_exp == 0.0:
+                    total_exp = round(total_acad_years + total_ind_years, 2)
+                    if total_exp == 0.0 and isinstance(cand_exp, dict) and cand_exp.get("explicitly_mentioned_years"):
+                        total_exp = cand_exp["explicitly_mentioned_years"]
 
             exp_data["experience_classifications_by_candidate"].append({
                 "candidate_id": cand.get("candidate_id"),
                 "candidate_name": p_info.get("full_name"),
                 "total_academic_experience_years": round(total_acad_years, 2),
                 "total_industry_experience_years": round(total_ind_years, 2),
-                "total_experience_years": round(total_acad_years + total_ind_years, 2),
+                "total_experience_years": round(total_exp, 2),
+                "explicitly_mentioned_years": exp.get("explicitly_mentioned_years"),
+                "calculated_total_years": exp.get("calculated_total_years"),
+                "calculation_basis": exp.get("calculation_basis", "calculated_from_history"),
+                "experience_status": exp.get("experience_status", "available"),
+                "discrepancy_note": exp.get("discrepancy_note"),
                 "academic_experience_score": shortlisting.get("academic_experience_score"),
                 "industry_experience_score": shortlisting.get("industry_experience_score"),
                 "academic_experiences": acad_list,

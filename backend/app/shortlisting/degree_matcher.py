@@ -33,7 +33,7 @@ def normalize_degree_name(degree_raw: Optional[str]) -> str:
         return "Other"
 
     if any(k in s for k in ["post doc", "postdoc", "post-doc", "pdf", "post doctoral"]):
-        return "PDF"
+        return "Post Doctoral"
     if any(k in s for k in ["ph.d", "phd", "doctor of philosophy", "doctorate"]):
         return "PhD"
     if any(k in s for k in ["m.tech", "mtech", "master of technology"]):
