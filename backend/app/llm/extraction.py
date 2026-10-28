@@ -61,6 +61,190 @@ class LLMExtractor:
     def clean_json_response(self, text: str) -> str:
         return self.json_validator.clean_json_response(text)
 
+    def normalize_schema(self, raw_dict: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Normalize LLM output to the canonical schema regardless of how the small
+        LLM structured its response.
+
+        The LLM (especially small models like llama3.2) often returns a flat
+        structure instead of the expected nested one, e.g.:
+          - `name` / `full_name` instead of `personal_information.full_name`
+          - `title` / `designation` instead of `personal_information.current_designation`
+          - `academic` / `professional` at the top level instead of under `experience`
+          - Missing `personal_information` wrapper entirely
+
+        This normalizer detects and remaps all known alternative structures.
+        """
+        if not isinstance(raw_dict, dict):
+            return raw_dict
+
+        # ── 1. personal_information ─────────────────────────────────────────────
+        p_info = raw_dict.get("personal_information")
+        if not isinstance(p_info, dict):
+            # LLM returned flat keys at top level
+            p_info = {}
+
+        # Remap common flat personal-info keys into the wrapper
+        PINFO_ALIASES = {
+            "full_name":            ["full_name", "name", "candidate_name", "applicant_name"],
+            "current_designation":  ["current_designation", "designation", "title", "current_role",
+                                     "current_position", "job_title", "position"],
+            "email":                ["email", "email_address", "contact_email"],
+            "phone":                ["phone", "phone_number", "mobile", "contact_number", "contact_phone"],
+        }
+        for canon_key, aliases in PINFO_ALIASES.items():
+            if not p_info.get(canon_key):
+                for alias in aliases:
+                    # Check inside the p_info dict first, then top-level raw_dict
+                    val = p_info.get(alias) or raw_dict.get(alias)
+                    if val and str(val).strip().lower() not in ("null", "none", "n/a", ""):
+                        p_info[canon_key] = val
+                        break
+
+        raw_dict["personal_information"] = p_info
+
+        # ── 2. education ────────────────────────────────────────────────────────
+        edu_list = raw_dict.get("education")
+        if not isinstance(edu_list, list):
+            edu_list = []
+
+        # If the LLM stuffed education into `academic` under experience,
+        # pick it up later; we'll only auto-convert obvious degree dicts here.
+        # Remap field aliases inside each education item
+        EDU_FIELD_ALIASES = {
+            "qualification_type": ["qualification_type", "type", "level", "edu_type", "education_type"],
+            "degree":             ["degree", "qualification", "degree_name", "program"],
+            "stream":             ["stream", "specialization", "major", "field", "branch", "subject",
+                                   "field_of_study"],
+            "university":         ["university", "institution", "college", "school", "board",
+                                   "university_name", "institute"],
+            "year":               ["year", "graduation_year", "completion_year", "passing_year",
+                                   "year_of_passing", "year_of_completion"],
+            "cgpa":               ["cgpa", "gpa", "percentage", "grade", "marks", "score"],
+        }
+        normalized_edu = []
+        for edu in edu_list:
+            if not isinstance(edu, dict):
+                continue
+            norm_edu = dict(edu)
+            for canon, aliases in EDU_FIELD_ALIASES.items():
+                if not norm_edu.get(canon):
+                    for alias in aliases:
+                        val = edu.get(alias)
+                        if val is not None:
+                            norm_edu[canon] = val
+                            break
+            normalized_edu.append(norm_edu)
+        raw_dict["education"] = normalized_edu
+
+        # ── 3. experience ───────────────────────────────────────────────────────
+        exp_val = raw_dict.get("experience")
+
+        if isinstance(exp_val, dict):
+            # Already a dict — ensure it has `academic` and `professional` keys
+            # Also check for top-level `academic`/`professional` that weren't nested
+            if not exp_val.get("academic") and not exp_val.get("professional"):
+                # Dict exists but is empty or uses other keys — try top-level
+                top_acad = raw_dict.get("academic") or []
+                top_prof = raw_dict.get("professional") or raw_dict.get("industry") or []
+                if isinstance(top_acad, list) or isinstance(top_prof, list):
+                    exp_val = {
+                        "academic": top_acad if isinstance(top_acad, list) else [],
+                        "professional": top_prof if isinstance(top_prof, list) else [],
+                    }
+        elif isinstance(exp_val, list):
+            # LLM returned a flat list — split by experience_type field
+            acad = [x for x in exp_val if isinstance(x, dict) and
+                    str(x.get("experience_type", "")).lower() in ("academic", "research")]
+            prof = [x for x in exp_val if isinstance(x, dict) and
+                    str(x.get("experience_type", "")).lower() in ("professional", "industry", "teaching")]
+            if not acad and not prof:
+                # No type tags — put everything in professional
+                prof = [x for x in exp_val if isinstance(x, dict)]
+            exp_val = {"academic": acad, "professional": prof}
+        else:
+            # experience key missing entirely — check for top-level academic/professional
+            top_acad = raw_dict.get("academic") or []
+            top_prof = raw_dict.get("professional") or raw_dict.get("industry") or []
+            exp_val = {
+                "academic": top_acad if isinstance(top_acad, list) else [],
+                "professional": top_prof if isinstance(top_prof, list) else [],
+            }
+
+        # Normalise field aliases within each experience item
+        EXP_FIELD_ALIASES = {
+            "institution": ["institution", "organization", "company", "company_name", "employer",
+                            "university", "college", "workplace"],
+            "role":        ["role", "job_title", "designation", "title", "position"],
+            "start_date":  ["start_date", "from", "from_date", "joining_date", "start"],
+            "end_date":    ["end_date", "to", "to_date", "leaving_date", "end"],
+            "duration_years": ["duration_years", "duration", "years", "tenure"],
+            "description": ["description", "responsibilities", "duties", "summary"],
+        }
+        for section in ("academic", "professional"):
+            items = exp_val.get(section) or []
+            if not isinstance(items, list):
+                items = []
+            normed_items = []
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                norm_item = dict(item)
+                for canon, aliases in EXP_FIELD_ALIASES.items():
+                    if not norm_item.get(canon):
+                        for alias in aliases:
+                            val = item.get(alias)
+                            if val is not None:
+                                norm_item[canon] = val
+                                break
+                normed_items.append(norm_item)
+            exp_val[section] = normed_items
+
+        raw_dict["experience"] = exp_val
+
+        # ── 4. publications ─────────────────────────────────────────────────────
+        pub_list = raw_dict.get("publications")
+        if not isinstance(pub_list, list):
+            pub_list = []
+
+        PUB_FIELD_ALIASES = {
+            "publication_type": ["publication_type", "type", "pub_type", "category"],
+            "publication_name": ["publication_name", "title", "paper_title", "name",
+                                 "paper_name", "article_title"],
+            "venue_name":       ["venue_name", "venue", "journal", "conference", "publisher",
+                                 "journal_name", "conference_name", "published_in", "source"],
+            "publication_year": ["publication_year", "year", "pub_year", "published_year",
+                                 "year_published"],
+        }
+        normed_pubs = []
+        for pub in pub_list:
+            if not isinstance(pub, dict):
+                continue
+            norm_pub = dict(pub)
+            for canon, aliases in PUB_FIELD_ALIASES.items():
+                if not norm_pub.get(canon):
+                    for alias in aliases:
+                        val = pub.get(alias)
+                        if val is not None:
+                            norm_pub[canon] = val
+                            break
+            normed_pubs.append(norm_pub)
+        raw_dict["publications"] = normed_pubs
+
+        # ── 5. total_experience ─────────────────────────────────────────────────
+        if not raw_dict.get("total_experience"):
+            for alias in ("total_experience", "total_years", "years_of_experience",
+                          "experience_years", "total_exp"):
+                val = raw_dict.get(alias)
+                if val is not None:
+                    try:
+                        raw_dict["total_experience"] = float(val)
+                        break
+                    except (ValueError, TypeError):
+                        pass
+
+        return raw_dict
+
     def verify_and_clean_data(self, raw_dict: Dict[str, Any], raw_text: str = "") -> Dict[str, Any]:
         """
         Field-level validation & Anti-hallucination post-processor.
@@ -165,6 +349,8 @@ class LLMExtractor:
     def extract_single_chunk(self, chunk_text: str, is_leaf: bool = False) -> Dict[str, Any]:
         """
         Extract structured JSON from a single text chunk with validation, retries, and repair.
+        Raises ValueError when the model returns an empty/trivial response so the caller
+        can fall back to smaller chunks.
         """
         if is_leaf:
             prompt = LEAF_EXTRACTION_USER_PROMPT_TEMPLATE.replace("{resume_text}", chunk_text)
@@ -176,10 +362,20 @@ class LLMExtractor:
         def _call_llm() -> Dict[str, Any]:
             raw_response = self.provider.generate(prompt, system=system)
             try:
-                return self.json_validator.parse_json(raw_response)
+                parsed = self.json_validator.parse_json(raw_response)
             except Exception as parse_err:
                 logger.warning(f"Leaf extraction parse failed: {parse_err}. Attempting LLM syntax repair...")
-                return self.json_validator.repair_with_llm(raw_response, self.provider)
+                parsed = self.json_validator.repair_with_llm(raw_response, self.provider)
+
+            # Guard: if the model returned an empty / near-empty dict (e.g. `{}`),
+            # treat it as a failure so the retry handler can try again or the
+            # chunking path can take over.
+            if not isinstance(parsed, dict) or len(parsed) == 0:
+                raise ValueError(
+                    "LLM returned an empty response `{}`. "
+                    "The input chunk may be too large for the model context."
+                )
+            return parsed
 
         return self.retry_handler.execute_with_retry(_call_llm)
 
@@ -195,14 +391,16 @@ class LLMExtractor:
         # 2. Extract with timeout fallback sub-splitting
         try:
             result = self.extract_single_chunk(chunk.text, is_leaf=True)
+            result = self.normalize_schema(result)
             self.chunk_cache.set(doc_hash, chunk.text, model_name, result)
             return result
         except Exception as e:
             err_msg = str(e).lower()
             is_timeout = "timeout" in err_msg or "timed out" in err_msg or "readtimeout" in err_msg
+            is_empty = "empty response" in err_msg
             
-            # If timeout and chunk is large enough to split further
-            if is_timeout and chunk.token_count > 1000:
+            # If timeout or empty response and chunk is large enough to split further
+            if (is_timeout or is_empty) and chunk.token_count > 500:
                 logger.warning(f"Leaf chunk {chunk.chunk_id} timed out ({chunk.token_count} tokens). Sub-splitting recursively...")
                 sub_safe_limit = max(500, chunk.token_count // 2)
                 sub_chunks = self.splitter.split_text(
@@ -243,13 +441,14 @@ class LLMExtractor:
             logger.info(f"{candidate_id}: Token count ({original_token_count}) <= SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS}). Using single LLM call.")
             try:
                 result = self.extract_single_chunk(cleaned_resume_text, is_leaf=False)
+                result = self.normalize_schema(result)
                 result = self.verify_and_clean_data(result, cleaned_resume_text)
                 elapsed = time.time() - start_time
                 logger.info(f"SUMMARY [{candidate_id}] | tokens={original_token_count} | chunks=1 | chunk_sizes=[{original_token_count}] | llm_calls=1 | status=SUCCESS | time={elapsed:.2f}s")
                 return result
             except Exception as e:
-                logger.error(f"Single-shot extraction failed for candidate {candidate_id}: {e}")
-                raise e
+                logger.warning(f"Single-shot extraction failed for candidate {candidate_id}: {e}. Falling back to chunked extraction.")
+                # Fall through to chunked extraction below
 
         # ADAPTIVE PATHWAY: Large / Long Resumes (exceeding safe context limit)
         logger.info(f"{candidate_id}: Token count ({original_token_count}) > SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS}). Initiating Recursive Splitting & Merging.")
@@ -273,6 +472,7 @@ class LLMExtractor:
         # Hierarchical Merging of Partial JSON Outputs
         logger.info(f"{candidate_id}: Hierarchically merging {len(partial_results)} partial JSON results...")
         final_json = self.merger.merge_all(partial_results)
+        final_json = self.normalize_schema(final_json)
         final_json = self.verify_and_clean_data(final_json, cleaned_resume_text)
         merge_calls = len(partial_results) - 1 if len(partial_results) > 1 else 0
 

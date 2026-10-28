@@ -26,9 +26,14 @@ class Settings:
     LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.0"))
     
     # Token & Chunking Controls
-    SAFE_INPUT_TOKENS: int = int(os.getenv("SAFE_INPUT_TOKENS", "12000"))
-    MAX_INPUT_TOKENS: int = int(os.getenv("MAX_INPUT_TOKENS", "16000"))
-    OVERLAP_TOKENS: int = int(os.getenv("OVERLAP_TOKENS", "1500"))
+    # SAFE_INPUT_TOKENS: maximum resume-text tokens per LLM call.
+    # Keep this well below the model's context limit to leave room for the
+    # prompt template overhead (~3,900 tokens).  llama3.2-3B reliably
+    # generates structured JSON for resume chunks up to ~1,500 tokens;
+    # larger inputs cause the model to return {} (empty).
+    SAFE_INPUT_TOKENS: int = int(os.getenv("SAFE_INPUT_TOKENS", "1500"))
+    MAX_INPUT_TOKENS: int = int(os.getenv("MAX_INPUT_TOKENS", "2000"))
+    OVERLAP_TOKENS: int = int(os.getenv("OVERLAP_TOKENS", "150"))
     OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "300"))
     LLM_MAX_RETRIES: int = int(os.getenv("LLM_MAX_RETRIES", "3"))
     LLM_RETRY_DELAY: float = float(os.getenv("LLM_RETRY_DELAY", "1.0"))
