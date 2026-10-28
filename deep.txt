@@ -1,0 +1,283 @@
+angel@ANGELs-MacBook-Air Resume_Information_Extraction % git pull                                                                                
+Already up to date.
+angel@ANGELs-MacBook-Air Resume_Information_Extraction % source venv/bin/activate                                                                
+(venv) angel@ANGELs-MacBook-Air Resume_Information_Extraction % source /Users/angel/Desktop/latest_minor/Resume_Information_Extraction/venv/bin/activate
+(venv) angel@ANGELs-MacBook-Air Resume_Information_Extraction % python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload              
+INFO:     Will watch for changes in these directories: ['/Users/angel/Desktop/latest_minor/Resume_Information_Extraction']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [33554] using StatReload
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+INFO:     Started server process [33556]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:54487 - "GET /api/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54499 - "OPTIONS /api/sessions/clear HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54499 - "DELETE /api/sessions/clear HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54499 - "GET /api/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "OPTIONS /api/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "POST /api/sessions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:54508 - "POST /api/sessions/SES-2026-0001/upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "POST /api/sessions/SES-2026-0001/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER] ======================================================================
+[RECRUITER-WORKER] STARTING SESSION PROCESSING: SES-2026-0001
+[RECRUITER-WORKER] Job Title: 'Assistant Professor' | Required: PhD in Computer Science
+[RECRUITER-WORKER] Min Experience: 3.0 yrs | Min Pubs: 5 (Window: 6 yrs) | Top N: 7
+[RECRUITER-WORKER] ======================================================================
+[RECRUITER-WORKER] --> [STAGE 1/8] Extracting ZIP Archive: resumes.zip
+[RECRUITER-WORKER]     Discovered 24 candidate resume file(s).
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0001 (A_Mitesh CV.pdf) [1/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 17684 chars, Cleaned = 17159 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 0.0 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0002 (Afzal Beg (Resume).pdf) [2/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 6189 chars, Cleaned = 6019 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 0.0 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0003 (AH CV.pdf) [3/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 10140 chars, Cleaned = 9723 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+Ollama generation failed at http://localhost:11434/api/generate: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Attempt 1/3 failed: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+Ollama generation failed at http://localhost:11434/api/generate: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Attempt 2/3 failed: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+Ollama generation failed at http://localhost:11434/api/generate: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Attempt 3/3 failed: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Single-shot extraction failed for candidate CAND-0003: Operation failed after 3 attempts: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+[RECRUITER-WORKER] ERROR processing candidate CAND-0003 (AH CV.pdf): Operation failed after 3 attempts: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Error processing candidate CAND-0003 (AH CV.pdf): Operation failed after 3 attempts: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+Traceback (most recent call last):
+  File "/Users/angel/Desktop/latest_minor/Resume_Information_Extraction/backend/app/workers/processing_worker.py", line 114, in run_session_processing
+    raw_extracted = llm_extractor.extract_candidate_data(cleaned_text, candidate_id=cand_id)
+  File "/Users/angel/Desktop/latest_minor/Resume_Information_Extraction/backend/app/llm/extraction.py", line 252, in extract_candidate_data
+    raise e
+  File "/Users/angel/Desktop/latest_minor/Resume_Information_Extraction/backend/app/llm/extraction.py", line 245, in extract_candidate_data
+    result = self.extract_single_chunk(cleaned_resume_text, is_leaf=False)
+  File "/Users/angel/Desktop/latest_minor/Resume_Information_Extraction/backend/app/llm/extraction.py", line 184, in extract_single_chunk
+    return self.retry_handler.execute_with_retry(_call_llm)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/angel/Desktop/latest_minor/Resume_Information_Extraction/backend/app/llm/retry_handler.py", line 53, in execute_with_retry
+    raise RuntimeError(f"Operation failed after {self.max_retries} attempts: {last_exception}")
+RuntimeError: Operation failed after 3 attempts: Ollama API request error: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0004 (Anibrata Pal_Resume.pdf) [3/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 7142 chars, Cleaned = 6777 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 8.5 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience met: candidate has 8.5 yrs relevant experience (Academic: 0 yrs, Professional: 0 yrs) [calculated_from_history] vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0005 (BResume-Summary2023_jul24.pdf) [4/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 11356 chars, Cleaned = 10995 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 20.0 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience met: candidate has 20.0 yrs relevant experience (Academic: 0 yrs, Professional: 0 yrs) [calculated_from_history] vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0006 (Curriculum_Vitae_Rakesh.pdf) [5/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 3946 chars, Cleaned = 3953 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 8.0 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience met: candidate has 8.0 yrs relevant experience (Academic: 0 yrs, Professional: 0 yrs) [calculated_from_history] vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0007 (CV Updated 20240416.pdf) [6/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 22026 chars, Cleaned = 21117 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 12.0 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience met: candidate has 12.0 yrs relevant experience (Academic: 0 yrs, Professional: 0 yrs) [calculated_from_history] vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0008 (CV- Amit Parikh (2).pdf) [7/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 55849 chars, Cleaned = 54672 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Amit Parikh', Email = 'N/A', Role = 'Professor'
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Education Tier: Ph.D. at 'Gwalior Academy of Mathematical Sciences' -> Tier 3 (Score: 0.33)
+[RECRUITER-WORKER]         Education Tier: M.Tech at 'Ganpat University' -> Tier 2 (Score: 0.66)
+[RECRUITER-WORKER]         Education Tier: B.Tech at 'Ganpat University' -> Tier 2 (Score: 0.66)
+[RECRUITER-WORKER]         Academic Exp Tier: 'Ganpat University' (2.0 yrs) -> Tier 2
+[RECRUITER-WORKER]         Academic Exp Tier: 'Gwalior Academy of Mathematical Sciences' (1.0 yrs) -> Tier 3
+[RECRUITER-WORKER]         Professional Exp Tier: 'Ganpat University' (2.5 yrs) -> Tier 2
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Publications Count: 3
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 6.5 yrs, Window Pubs: 1)
+[RECRUITER-WORKER]         Evaluation Flags: Candidate highest degree rank (80) meets or exceeds required 'PhD' rank (80), Specialization alias match: 'Mathematics' matches required category 'Computer Science', Minimum experience met: candidate has 6.5 yrs relevant experience (Academic: 3.0 yrs, Professional: 2.5 yrs) [calculated_from_history] vs required 3.0 yrs, Publication criteria NOT met: 1 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=49.5, Pub=23.8, AcadExp=39.8, IndExp=31.2
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 37.10 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0009 (CV-Anurag Choudhary.pdf) [8/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 15430 chars, Cleaned = 15422 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+[RECRUITER-WORKER]         Extracted Profile: Name = 'Unknown Candidate', Email = 'N/A', Role = 'N/A'
+[RECRUITER-WORKER]         Publications Count: 0
+[RECRUITER-WORKER]     [Step 3/6] Eligibility: Eligible = False (Total Exp: 0.0 yrs, Window Pubs: 0)
+[RECRUITER-WORKER]         Evaluation Flags: Required degree 'PhD' not found. Candidate degrees: None, Required specialization 'Computer Science' not matched in candidate streams: None, Minimum experience NOT met: candidate has 0 yrs relevant experience vs required 3.0 yrs, Publication criteria NOT met: 0 publications within the last 6 years vs required 5
+[RECRUITER-WORKER]     [Step 4/6] Component Scores: Edu=33.0, Pub=0.0, AcadExp=0.0, IndExp=0.0
+[RECRUITER-WORKER]         ==> FINAL WEIGHTED SCORE: 11.55 / 100
+[RECRUITER-WORKER] ----------------------------------------------------------------------
+[RECRUITER-WORKER] --> Processing Candidate CAND-0010 (CV.pdf) [9/24]
+[RECRUITER-WORKER]     [Step 1/6] Text Extraction (pymupdf): Raw = 5394 chars, Cleaned = 5299 chars
+[RECRUITER-WORKER]     [Step 2/6] LLM / Heuristic Structured JSON Extraction...
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+¸¸¸¸¸çINFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54508 - "GET /api/sessions/SES-2026-0001/status HTTP/1.1" 200 OK
+^CINFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [33556]
+INFO:     Stopping reloader process [33554]
+(venv) angel@ANGELs-MacBook-Air Resume_Information_Extraction % 
+(venv) angel@ANGELs-MacBook-Air Resume_Information_Extraction % 
+(venv) angel@ANGELs-MacBook-Air Resume_Information_Extraction % ¸
