@@ -20,7 +20,7 @@ class Settings:
     
     # LLM Settings
     LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "ollama") # ollama, openai, mock
-    LLM_MODEL: str = os.getenv("LLM_MODEL", "llama3.2")
+    LLM_MODEL: str = os.getenv("LLM_MODEL", "qwen3.5:4b")
     LLM_BASE_URL: str = os.getenv("LLM_BASE_URL", "http://localhost:11434")
     LLM_API_KEY: str = os.getenv("LLM_API_KEY", "")
     LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.0"))
