@@ -34,7 +34,7 @@ class Settings:
     SAFE_INPUT_TOKENS: int = int(os.getenv("SAFE_INPUT_TOKENS", "1500"))
     MAX_INPUT_TOKENS: int = int(os.getenv("MAX_INPUT_TOKENS", "2000"))
     OVERLAP_TOKENS: int = int(os.getenv("OVERLAP_TOKENS", "150"))
-    OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "300"))
+    OLLAMA_TIMEOUT: int = int(os.getenv("OLLAMA_TIMEOUT", "600"))
     LLM_MAX_RETRIES: int = int(os.getenv("LLM_MAX_RETRIES", "3"))
     LLM_RETRY_DELAY: float = float(os.getenv("LLM_RETRY_DELAY", "1.0"))
     CHUNK_CACHE_ENABLED: bool = os.getenv("CHUNK_CACHE_ENABLED", "true").lower() == "true"
