@@ -135,7 +135,8 @@ class MockLLMProvider(LLMProvider):
         })
 
 
-def test_scenario_1_small_resume_5k_tokens():
+def test_scenario_1_small_resume_5k_tokens(monkeypatch):
+    monkeypatch.setattr(settings, "SAFE_INPUT_TOKENS", 12000)
     mock_provider = MockLLMProvider()
     extractor = LLMExtractor(provider=mock_provider)
     
@@ -147,7 +148,8 @@ def test_scenario_1_small_resume_5k_tokens():
     assert mock_provider.call_count == 1  # Exactly 1 LLM call
 
 
-def test_scenario_2_safe_limit_15k_tokens():
+def test_scenario_2_safe_limit_15k_tokens(monkeypatch):
+    monkeypatch.setattr(settings, "SAFE_INPUT_TOKENS", 12000)
     mock_provider = MockLLMProvider()
     extractor = LLMExtractor(provider=mock_provider)
     

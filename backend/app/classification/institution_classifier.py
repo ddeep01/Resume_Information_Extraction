@@ -119,12 +119,44 @@ class InstitutionClassifier:
         try:
             res = self.retry_handler.execute_with_retry(_call_classifier)
         except Exception as e:
-            logger.warning(f"Institution classifier failed for '{name_clean}': {e}. Defaulting safely to Tier 3.")
+            logger.warning(f"Institution classifier failed for '{name_clean}': {e}. Applying heuristic classification.")
+            # Heuristic check for prominent Tier 1 and Tier 2 institutions / companies
+            tier_1_patterns = [
+                r"\b(iit|indian institute of technology)\b",
+                r"\b(iisc|indian institute of science)\b",
+                r"\b(nit|national institute of technology)\b",
+                r"\b(bits pilani|birla institute of technology and science)\b",
+                r"\b(iiit)\b",
+                r"\b(stanford|harvard|mit|oxford|cambridge|berkeley|caltech|princeton|yale|columbia|cmu|carnegie mellon)\b",
+                r"\b(google|microsoft|amazon|apple|meta|facebook|intel|nvidia|netflix|ibm|oracle|cisco|qualcomm|adobe|salesforce)\b",
+                r"\b(tata consultancy|tcs|infosys|wipro|cognizant|accenture|deloitte|reliance|tata motors|larsen & toubro|l&t)\b",
+                r"\b(isro|drdo|csir|barc|bhabha atomic|nasa)\b",
+            ]
+            tier_2_patterns = [
+                r"\b(university|vishwavidyalaya|vidyapeeth|institute of technology|engineering college)\b",
+                r"\b(technologies|solutions|infotech|software|pvt ltd|private limited|limited|corp|corporation|inc|llc)\b",
+            ]
+            
+            matched_tier = "Tier 3"
+            reason = "Heuristic classification: default Tier 3"
+            for pat in tier_1_patterns:
+                if re.search(pat, key):
+                    matched_tier = "Tier 1"
+                    reason = "Heuristic classification: recognized top-tier institution/organization"
+                    break
+            if matched_tier == "Tier 3":
+                for pat in tier_2_patterns:
+                    if re.search(pat, key):
+                        matched_tier = "Tier 2"
+                        reason = "Heuristic classification: recognized university/company"
+                        break
+            
+            score = settings.TIER_1_SCORE if matched_tier == "Tier 1" else (settings.TIER_2_SCORE if matched_tier == "Tier 2" else settings.TIER_3_SCORE)
             res = {
                 "institution": name_clean,
-                "tier": "Tier 3",
-                "score": settings.TIER_3_SCORE,
-                "reason": "Defaulted due to classification parsing error"
+                "tier": matched_tier,
+                "score": score,
+                "reason": reason
             }
 
         # Save to caches

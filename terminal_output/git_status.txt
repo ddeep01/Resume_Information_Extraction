@@ -1,0 +1,31 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .env.example
+	modified:   backend/app/classification/institution_classifier.py
+	modified:   backend/app/config.py
+	modified:   backend/app/llm/experience_calculator.py
+	modified:   backend/app/llm/extraction.py
+	modified:   backend/app/llm/merger.py
+	modified:   backend/app/llm/prompts.py
+	modified:   backend/app/llm/splitter.py
+	modified:   backend/app/main.py
+	modified:   backend/app/schemas/candidate.py
+	modified:   backend/app/shortlisting/scoring.py
+	modified:   backend/app/workers/processing_worker.py
+	modified:   data/app.db
+	modified:   deep.txt
+	modified:   frontend/index.html
+	modified:   frontend/js/app.js
+	modified:   tests/test_adaptive_extraction.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	scripts/demo_token_splitting.py
+	terminal_output/
+	tests/test_enhanced_system_fixes.py
+
+no changes added to commit (use "git add" and/or "git commit -a")

@@ -583,6 +583,8 @@ function renderCandidatesTable(candidates) {
             <td>${pubCount}</td>
             <td>${(s.education_score * 100).toFixed(0)}</td>
             <td>${(s.publication_score * 100).toFixed(0)}</td>
+            <td>${((s.academic_experience_score || 0) * 100).toFixed(0)}</td>
+            <td>${((s.industry_experience_score || 0) * 100).toFixed(0)}</td>
             <td><strong class="text-primary font-bold">${s.final_score.toFixed(1)}</strong></td>
             <td>${statusBadge}</td>
             <td>
@@ -629,6 +631,19 @@ function openCandidateModal(candidateId) {
 
     document.getElementById('modal-cand-rank-text').textContent = s.rank ? `Ranked #${s.rank} among candidates` : `Criteria not satisfied`;
     document.getElementById('modal-cand-final-score').textContent = s.final_score.toFixed(1);
+
+    if (document.getElementById('modal-cand-edu-score')) {
+        document.getElementById('modal-cand-edu-score').textContent = (s.education_score * 100).toFixed(0);
+    }
+    if (document.getElementById('modal-cand-pub-score')) {
+        document.getElementById('modal-cand-pub-score').textContent = (s.publication_score * 100).toFixed(0);
+    }
+    if (document.getElementById('modal-cand-acad-score')) {
+        document.getElementById('modal-cand-acad-score').textContent = ((s.academic_experience_score || 0) * 100).toFixed(0);
+    }
+    if (document.getElementById('modal-cand-ind-score')) {
+        document.getElementById('modal-cand-ind-score').textContent = ((s.industry_experience_score || 0) * 100).toFixed(0);
+    }
 
     document.getElementById('modal-cand-email').textContent = p.email || 'N/A';
     document.getElementById('modal-cand-phone').textContent = p.phone || 'N/A';
@@ -743,9 +758,9 @@ async function openFailedCandidatesModal() {
                             <strong class="text-danger font-semibold"><i class="fa-solid fa-file-excel"></i> ${escapeHtml(f.filename)}</strong>
                             <span class="text-xs text-muted ml-2">ID: ${f.candidate_id}</span>
                         </div>
-                        <span class="badge badge-failed">EXTRACTION ERROR</span>
+                        <span class="badge ${f.error && f.error.includes('25,000') ? 'badge-tier2' : 'badge-failed'}">${f.error && f.error.includes('25,000') ? 'MANUAL SCREENING REQUIRED' : 'EXTRACTION ERROR'}</span>
                     </div>
-                    <div class="text-xs text-danger mb-2"><strong>Error Log:</strong> ${escapeHtml(f.error)}</div>
+                    <div class="text-xs text-danger mb-2"><strong>Reason / Log:</strong> ${escapeHtml(f.error)}</div>
                     <div class="text-xs font-semibold mb-1 text-muted">Raw Extracted Resume Text (Faculty Review):</div>
                     <div class="raw-code-box">${escapeHtml(f.raw_text)}</div>
                 `;

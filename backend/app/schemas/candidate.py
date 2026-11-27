@@ -3,15 +3,31 @@ from typing import Optional, List, Dict, Any, Union
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 def sanitize_string_value(v: Any) -> Optional[str]:
-    """Sanitize string values: convert 'null', 'None', 'N/A', '', and prompt artifacts to None."""
+    """Sanitize string values: convert 'null', 'None', 'N/A', '', and prompt artifacts to clean values or None."""
     if v is None:
         return None
     s = str(v).strip()
-    if s.lower() in ("null", "none", "n/a", "na", "undefined", ""):
+    if not s or s.lower() in ("null", "none", "n/a", "na", "undefined", "-", "nil"):
         return None
-    # Filter prompt option strings containing '|'
-    if "|" in s and any(k in s for k in ("PhD", "M.Tech", "B.Tech", "Tier", "UG", "PG")):
+
+    # Strip prompt template leaks e.g. " or John Doe", " or null", " or None", " | null", " | None"
+    s = re.sub(r"\s+(?:or|\|)\s*(?:john doe|null|none|n/a)\b", "", s, flags=re.I).strip()
+    s = re.sub(r"^(?:john doe|null|none|n/a)\s*(?:or|\|)\s*", "", s, flags=re.I).strip()
+
+    # Complete prompt placeholder values
+    if s.lower() in ("john doe", "email@example.com", "+91 9876543210", "candidate full name", "candidate email"):
         return None
+
+    # Strip trailing/leading pipes and spaces
+    s = s.strip("| ").strip()
+
+    # If it still contains multiple options separated by pipe e.g. "PhD | M.Tech | B.Tech" or "Tier 1 | Tier 2"
+    if "|" in s and any(k in s for k in ("PhD", "M.Tech", "B.Tech", "Tier", "UG", "PG", "Post Doctoral", "journal", "conference")):
+        return None
+
+    if not s or s.lower() in ("null", "none", "n/a", "na", "undefined", ""):
+        return None
+
     return s
 
 def is_secondary_education(degree: Optional[str] = None, qual: Optional[str] = None) -> bool:

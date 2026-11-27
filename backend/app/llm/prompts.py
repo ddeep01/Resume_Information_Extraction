@@ -4,10 +4,10 @@ LLM Prompts and Schemas for Resume Extraction, Institution Classification, Publi
 
 SCHEMA_STR_TEMPLATE = """{
   "personal_information": {
-    "full_name": "John Doe or null",
+    "full_name": "Candidate full name or null",
     "current_designation": "Assistant Professor or null",
-    "email": "email@example.com or null",
-    "phone": "+91 9876543210 or null"
+    "email": "Candidate email address or null",
+    "phone": "+91 XXXXXXXXXX or null"
   },
   "education": [
     {
@@ -303,14 +303,19 @@ PARTIAL RESULT 2:
 
 Merged JSON output:"""
 
-INSTITUTION_CLASSIFIER_PROMPT = """Classify the following educational or academic institution into Tier 1, Tier 2, or Tier 3.
+INSTITUTION_CLASSIFIER_PROMPT = """Classify the following educational institution or professional company/organization into Tier 1, Tier 2, or Tier 3.
 
 Guidelines:
-- Tier 1: Top-tier global/national institutions (e.g. IITs, IISc, NITs, BITS, Ivy League, Stanford, MIT, Oxford, Top 50 global universities).
-- Tier 2: Recognized state universities, reputed accredited colleges, established national universities.
-- Tier 3: Standard unranked colleges, local institutes, unaccredited entities.
+- Educational Institutions:
+  * Tier 1: Top-tier global/national institutions (e.g. IITs, IISc, NITs, BITS, Ivy League, Stanford, MIT, Oxford, Cambridge, Top 50 global universities).
+  * Tier 2: Recognized state universities, reputed accredited engineering/arts/management colleges, established national universities, central universities.
+  * Tier 3: Standard unranked colleges, local institutes, unaccredited entities.
+- Companies / Industry Organizations:
+  * Tier 1: Fortune 500 companies, global MNCs, top tech giants (Google, Microsoft, Amazon, Apple, Meta, IBM, Intel, Nvidia), top national/global conglomerates (Tata, Reliance, L&T), premier national labs/research institutions (ISRO, DRDO, CSIR).
+  * Tier 2: Established mid-sized companies, recognized national IT/software/engineering/manufacturing firms, well-funded high-growth tech companies, accredited corporate enterprises.
+  * Tier 3: Small local companies, unaccredited consultancies, early-stage unverified startups, generic or unknown businesses.
 
-Institution Name: {institution_name}
+Institution / Company Name: {institution_name}
 
 Return ONLY valid JSON with no markdown:
 {{
@@ -362,21 +367,26 @@ Return ONLY valid JSON with no markdown tags:
 }}
 """
 
-BATCH_INSTITUTION_CLASSIFIER_PROMPT = """Classify each of the following educational or academic institutions into Tier 1, Tier 2, or Tier 3.
+BATCH_INSTITUTION_CLASSIFIER_PROMPT = """Classify each of the following educational institutions or professional companies/organizations into Tier 1, Tier 2, or Tier 3.
 
 Guidelines:
-- Tier 1: Top-tier global/national institutions (e.g. IITs, IISc, NITs, BITS, Ivy League, Stanford, MIT, Oxford, Top 50 global universities).
-- Tier 2: Recognized state universities, reputed accredited colleges, established national universities.
-- Tier 3: Standard unranked colleges, local institutes, unaccredited entities.
+- Educational Institutions:
+  * Tier 1: Top-tier global/national institutions (e.g. IITs, IISc, NITs, BITS, Ivy League, Stanford, MIT, Oxford, Cambridge, Top 50 global universities).
+  * Tier 2: Recognized state universities, reputed accredited engineering/arts/management colleges, established national universities, central universities.
+  * Tier 3: Standard unranked colleges, local institutes, unaccredited entities.
+- Companies / Industry Organizations:
+  * Tier 1: Fortune 500 companies, global MNCs, top tech giants (Google, Microsoft, Amazon, Apple, Meta, IBM, Intel, Nvidia), top national/global conglomerates (Tata, Reliance, L&T), premier national labs/research institutions (ISRO, DRDO, CSIR).
+  * Tier 2: Established mid-sized companies, recognized national IT/software/engineering/manufacturing firms, well-funded high-growth tech companies, accredited corporate enterprises.
+  * Tier 3: Small local companies, unaccredited consultancies, early-stage unverified startups, generic or unknown businesses.
 
-Institutions list:
+Institutions / Companies list:
 {institutions_json}
 
 Return ONLY valid JSON with no markdown tags:
 {{
   "classifications": [
     {{
-      "institution": "Exact institution name",
+      "institution": "Exact institution or company name",
       "tier": "Tier 1 | Tier 2 | Tier 3",
       "score": 1.0,
       "reason": "Brief explanation"

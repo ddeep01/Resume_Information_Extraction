@@ -108,6 +108,22 @@ def run_session_processing(session_id: str):
                     failed_count += 1
                     continue
 
+                # Check maximum resume length threshold (manual screening routing)
+                if len(cleaned_text) > settings.MAX_RESUME_CHAR_LIMIT:
+                    reason = f"Resume exceeds the maximum character limit ({settings.MAX_RESUME_CHAR_LIMIT:,}). Manual screening required."
+                    log_step(f"    WARNING: {reason} (Length: {len(cleaned_text)} chars). Moving to Manual Screening.")
+                    failed_count += 1
+                    failed_dir = session_dir / "failed_candidates"
+                    failed_dir.mkdir(parents=True, exist_ok=True)
+                    failed_data = {
+                        "candidate_id": cand_id,
+                        "filename": file_path.name,
+                        "error": reason,
+                        "raw_text": raw_text
+                    }
+                    (failed_dir / f"{cand_id}.json").write_text(json.dumps(failed_data, indent=2), encoding="utf-8")
+                    continue
+
                 # Stage 3: LLM STRUCTURED EXTRACTION
                 session_service.update_session_status(session_id, "PROCESSING", "LLM_EXTRACTION", processed=processed_count, failed=failed_count)
                 log_step(f"    [Step 2/6] LLM / Heuristic Structured JSON Extraction...")
@@ -134,7 +150,7 @@ def run_session_processing(session_id: str):
 
                 inst_names = [edu.get("university") or edu.get("institution") or "" for edu in education_raw if not is_secondary_education(edu.get("degree"), edu.get("qualification_type"))]
                 inst_names += [a_exp.get("institution") or "" for a_exp in acad_exp_raw]
-                inst_names += [p_exp.get("institution") or "" for p_exp in prof_exp_raw]
+                inst_names += [p_exp.get("company") or p_exp.get("institution") or "" for p_exp in prof_exp_raw]
                 inst_names = [i for i in inst_names if i and i.strip()]
                 
                 batch_classified_insts = inst_classifier.classify_batch(inst_names) if inst_names else {}
@@ -169,13 +185,14 @@ def run_session_processing(session_id: str):
 
                 prof_classified = []
                 for p_exp in prof_exp_raw:
-                    inst_name = (p_exp.get("institution") or "").strip()
+                    inst_name = (p_exp.get("company") or p_exp.get("institution") or "").strip()
                     class_res = batch_classified_insts.get(inst_name) or inst_classifier.classify(inst_name)
                     p_exp_copy = dict(p_exp)
                     p_exp_copy["institution_tier"] = class_res["tier"]
                     p_exp_copy["institution_score"] = class_res["score"]
+                    p_exp_copy["company_score"] = class_res["score"]
                     prof_classified.append(p_exp_copy)
-                    log_step(f"        Professional Exp Tier: '{inst_name}' ({p_exp.get('duration_years')} yrs) -> {class_res['tier']}")
+                    log_step(f"        Professional/Company Exp Tier: '{inst_name}' ({p_exp.get('duration_years')} yrs) -> {class_res['tier']}")
 
                 experience_classified = {
                     "academic": acad_classified,

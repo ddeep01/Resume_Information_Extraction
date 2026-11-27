@@ -39,6 +39,9 @@ class Settings:
     LLM_RETRY_DELAY: float = float(os.getenv("LLM_RETRY_DELAY", "1.0"))
     CHUNK_CACHE_ENABLED: bool = os.getenv("CHUNK_CACHE_ENABLED", "true").lower() == "true"
     
+    # Resume Length Threshold (Manual Screening)
+    MAX_RESUME_CHAR_LIMIT: int = int(os.getenv("MAX_RESUME_CHAR_LIMIT", "25000"))
+    
     # Tier Weights
     TIER_1_SCORE: float = 1.00
     TIER_2_SCORE: float = 0.66

@@ -30,23 +30,88 @@ class HierarchicalMerger:
                                            .replace("{json_b}", json.dumps(json_b, indent=2))
         system = MERGE_SYSTEM_PROMPT
 
+        raw_response = None
         try:
             raw_response = self.provider.generate(prompt, system=system)
             merged_json = self.json_validator.parse_json(raw_response)
-            if isinstance(merged_json, dict):
+            if isinstance(merged_json, dict) and merged_json:
+                merged_json = self.preserve_fields(merged_json, json_a, json_b)
                 return self.post_process_deduplicate(merged_json)
         except Exception as e:
             logger.warning(f"LLM merge pairwise execution failed: {e}. Falling back to Python structural merge.")
-            try:
-                # Attempt repair with LLM
-                repaired = self.json_validator.repair_with_llm(raw_response, self.provider)
-                if isinstance(repaired, dict):
-                    return self.post_process_deduplicate(repaired)
-            except Exception as rep_err:
-                logger.warning(f"LLM merge repair failed: {rep_err}. Using deterministic Python merge.")
+            if raw_response is not None:
+                try:
+                    # Attempt repair with LLM only if we got a response
+                    repaired = self.json_validator.repair_with_llm(raw_response, self.provider)
+                    if isinstance(repaired, dict) and repaired:
+                        repaired = self.preserve_fields(repaired, json_a, json_b)
+                        return self.post_process_deduplicate(repaired)
+                except Exception as rep_err:
+                    logger.warning(f"LLM merge repair failed: {rep_err}. Using deterministic Python merge.")
 
         # Fallback to deterministic python merging if LLM fails
         return self.python_deterministic_merge(json_a, json_b)
+
+    def preserve_fields(self, merged: Dict[str, Any], a: Dict[str, Any], b: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Safety guard: Prevent loss of extracted records across LLM merges.
+        If chunks a or b contained education, publications, or personal information
+        that was lost/dropped during the merge, restore them.
+        """
+        if not isinstance(merged, dict):
+            return merged
+
+        # Personal Information
+        p_m = merged.get("personal_information")
+        if not isinstance(p_m, dict):
+            p_m = {}
+            merged["personal_information"] = p_m
+        p_a = a.get("personal_information", {}) if isinstance(a.get("personal_information"), dict) else {}
+        p_b = b.get("personal_information", {}) if isinstance(b.get("personal_information"), dict) else {}
+
+        for k in ["full_name", "current_designation", "email", "phone"]:
+            if not p_m.get(k):
+                val = p_a.get(k) or p_b.get(k)
+                if val:
+                    p_m[k] = val
+
+        # Education
+        edu_m = merged.get("education") or []
+        edu_a = a.get("education") or []
+        edu_b = b.get("education") or []
+        merged_deg_keys = {
+            f"{(e.get('degree') or '').strip().lower()}:{(e.get('university') or '').strip().lower()}"
+            for e in edu_m if isinstance(e, dict)
+        }
+        for src in (edu_a, edu_b):
+            if isinstance(src, list):
+                for item in src:
+                    if isinstance(item, dict):
+                        key = f"{(item.get('degree') or '').strip().lower()}:{(item.get('university') or '').strip().lower()}"
+                        if key != ":" and key not in merged_deg_keys:
+                            edu_m.append(item)
+                            merged_deg_keys.add(key)
+        merged["education"] = edu_m
+
+        # Publications
+        pub_m = merged.get("publications") or []
+        pub_a = a.get("publications") or []
+        pub_b = b.get("publications") or []
+        merged_pub_keys = {
+            (p.get("publication_name") or "").strip().lower()
+            for p in pub_m if isinstance(p, dict) and p.get("publication_name")
+        }
+        for src in (pub_a, pub_b):
+            if isinstance(src, list):
+                for item in src:
+                    if isinstance(item, dict):
+                        pname = (item.get("publication_name") or "").strip().lower()
+                        if pname and pname not in merged_pub_keys:
+                            pub_m.append(item)
+                            merged_pub_keys.add(pname)
+        merged["publications"] = pub_m
+
+        return merged
 
     def merge_all(self, json_list: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
@@ -57,10 +122,13 @@ class HierarchicalMerger:
         if len(json_list) == 1:
             return self.post_process_deduplicate(json_list[0])
 
+        print(f"[HIERARCHICAL-MERGE] Starting hierarchical merge of {len(json_list)} partial chunk outputs...", flush=True)
         logger.info(f"Hierarchically merging {len(json_list)} partial JSON objects...")
         current_level = json_list
+        round_num = 0
 
         while len(current_level) > 1:
+            round_num += 1
             next_level = []
             for i in range(0, len(current_level), 2):
                 if i + 1 < len(current_level):
@@ -70,10 +138,13 @@ class HierarchicalMerger:
                 else:
                     # Odd element, carry forward to next round
                     next_level.append(current_level[i])
+            print(f"[HIERARCHICAL-MERGE] Level {round_num}: Merged {len(current_level)} inputs -> {len(next_level)} intermediate outputs", flush=True)
             current_level = next_level
 
         final_result = current_level[0]
-        return self.post_process_deduplicate(final_result)
+        deduped = self.post_process_deduplicate(final_result)
+        print(f"[HIERARCHICAL-MERGE] ✓ Completed merge: Unified into consolidated candidate JSON.", flush=True)
+        return deduped
 
     def post_process_deduplicate(self, data: Dict[str, Any]) -> Dict[str, Any]:
         """

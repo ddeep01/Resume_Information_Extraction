@@ -1,0 +1,15 @@
+total 528
+-rw-r--r--@  1 angel  staff   12166 Sep 30 10:44 README.md
+drwxr-xr-x@  3 angel  staff      96 Sep 30 10:44 backend
+drwxr-xr-x@  6 angel  staff     192 Nov 26 18:29 data
+-rw-r--r--@  1 angel  staff  245879 Nov 26 16:47 deep.txt
+drwxr-xr-x@  5 angel  staff     160 Nov 12 22:47 evaluation
+drwxr-xr-x@  6 angel  staff     192 Oct 28 15:19 frontend
+drwxr-xr-x@  3 angel  staff      96 Sep 30 10:44 logs
+-rw-r--r--@  1 angel  staff      42 Sep 30 10:44 pytest.ini
+-rw-r--r--@  1 angel  staff     229 Sep 30 10:44 requirements.txt
+drwxr-xr-x@  2 angel  staff      64 Nov 12 22:57 results
+drwxr-xr-x@  6 angel  staff     192 Nov 26 12:38 scripts
+drwxr-xr-x@  5 angel  staff     160 Nov 26 18:37 terminal_output
+drwxr-xr-x@ 12 angel  staff     384 Nov 26 17:43 tests
+drwxr-xr-x@  7 angel  staff     224 Sep 30 13:40 venv

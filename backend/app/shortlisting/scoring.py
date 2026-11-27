@@ -61,26 +61,47 @@ def calculate_academic_experience_score(academic_exp_list: List[Dict[str, Any]])
     if not academic_exp_list:
         return 0.0
 
-    total_years = sum(float(item.get("duration_years") or 0.0) for item in academic_exp_list)
+    valid_items = [
+        item for item in academic_exp_list
+        if (item.get("institution") or item.get("role") or float(item.get("duration_years") or 0.0) > 0)
+    ]
+    if not valid_items:
+        return 0.0
 
-    # Duration score capped at 10 years
+    total_years = sum(float(item.get("duration_years") or 0.0) for item in valid_items)
+
+    # Duration score capped at 10 years (40% weightage)
     duration_score = min(total_years / 10.0, 1.0)
 
-    # Institution tier score
-    inst_scores = [float(item.get("institution_score") or 0.33) for item in academic_exp_list]
+    # Institution tier score (60% weightage) - average across all relevant organizations
+    inst_scores = [float(item.get("institution_score") or 0.33) for item in valid_items]
     avg_inst = sum(inst_scores) / len(inst_scores) if inst_scores else 0.33
 
-    combined = (duration_score * 0.5) + (avg_inst * 0.5)
+    combined = (duration_score * 0.40) + (avg_inst * 0.60)
     return round(combined, 4)
 
 def calculate_industry_experience_score(industry_exp_list: List[Dict[str, Any]]) -> float:
     if not industry_exp_list:
         return 0.0
 
-    total_years = sum(float(item.get("duration_years") or 0.0) for item in industry_exp_list)
+    valid_items = [
+        item for item in industry_exp_list
+        if (item.get("company") or item.get("role") or float(item.get("duration_years") or 0.0) > 0)
+    ]
+    if not valid_items:
+        return 0.0
 
-    # Duration score capped at 8 years
-    return round(min(total_years / 8.0, 1.0), 4)
+    total_years = sum(float(item.get("duration_years") or 0.0) for item in valid_items)
+
+    # Duration score capped at 8 years (40% weightage)
+    duration_score = min(total_years / 8.0, 1.0)
+
+    # Company tier score (60% weightage) - average across all relevant organizations
+    company_scores = [float(item.get("institution_score") or item.get("company_score") or 0.33) for item in valid_items]
+    avg_company = sum(company_scores) / len(company_scores) if company_scores else 0.33
+
+    combined = (duration_score * 0.40) + (avg_company * 0.60)
+    return round(combined, 4)
 
 def calculate_final_score(
     education_score: float,

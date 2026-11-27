@@ -403,8 +403,10 @@
                                         <th>Specialization</th>
                                         <th>Exp</th>
                                         <th>Pubs</th>
-                                        <th>Edu Score</th>
-                                        <th>Pub Score</th>
+                                        <th>Edu</th>
+                                        <th>Pub</th>
+                                        <th>Acad Exp</th>
+                                        <th>Ind Exp</th>
                                         <th>Final Score</th>
                                         <th>Status</th>
                                         <th>Action</th>
@@ -438,9 +440,16 @@
                         <span class="badge badge-shortlisted" id="modal-cand-status-badge">SHORTLISTED</span>
                         <div class="text-xs text-muted mt-1" id="modal-cand-rank-text">Ranked #1</div>
                     </div>
-                    <div class="text-right">
-                        <div class="font-bold text-xl text-primary" id="modal-cand-final-score">89.5</div>
-                        <div class="text-xs text-muted">Final Score</div>
+                    <div class="flex gap-4 items-center">
+                        <div class="text-right text-xs" style="line-height: 1.4;">
+                            <div>Edu: <strong id="modal-cand-edu-score">-</strong> | Pub: <strong id="modal-cand-pub-score">-</strong></div>
+                            <div>Acad Exp (40% Dur / 60% Tier): <strong id="modal-cand-acad-score">-</strong></div>
+                            <div>Ind Exp (40% Dur / 60% Tier): <strong id="modal-cand-ind-score">-</strong></div>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-bold text-xl text-primary" id="modal-cand-final-score">89.5</div>
+                            <div class="text-xs text-muted">Final Score</div>
+                        </div>
                     </div>
                 </div>
 

@@ -237,6 +237,40 @@ def is_unrelated_experience_item(item: Dict[str, Any]) -> bool:
     if any(k in combined for k in ("nptel", "coursera", "udemy", "online certificate", "participation in workshop", "participation in conference")):
         return True
 
+    # 6. Software Tools / Skills / Technologies incorrectly extracted as experience
+    KNOWN_SKILLS_AND_TOOLS = (
+        "tally", "tally erp", "tally erp9", "tally prime", "ms office", "excel", "ms excel",
+        "word", "powerpoint", "photoshop", "autocad", "matlab", "simulink", "labview", "sap",
+        "solidworks", "ansys", "python", "java", "c++", "c#", "sql", "mysql", "javascript",
+        "html", "css", "php", "r programming", "git", "linux", "docker", "kubernetes"
+    )
+    inst_lower = str(item.get("institution") or item.get("company_name") or item.get("organization") or item.get("company") or "").lower().strip()
+    role_lower = str(item.get("role") or item.get("job_title") or item.get("designation") or "").lower().strip()
+
+    if inst_lower in KNOWN_SKILLS_AND_TOOLS or any(inst_lower.startswith(t) for t in ("tally erp", "tally prime", "ms office", "autocad")):
+        return True
+    if role_lower in KNOWN_SKILLS_AND_TOOLS:
+        return True
+    if inst_lower in ("null", "none", "n/a", "na", "-", "undefined") and (not role_lower or role_lower in ("null", "none", "n/a", "na", "-")):
+        return True
+
+    # 7. Academic Degrees (must be in education, not experience)
+    degree_patterns = (
+        r"\b(doctor of philosophy|\(?ph\.?d\.?\)|\(?d\.?phil\)?)\b",
+        r"\b(master of technology|\(?m\.?tech\.?\)|\(?m\.?e\.?\)|\(?m\.?sc\.?\)|\(?m\.?s\.?\)|mca|mba)\b",
+        r"\b(bachelor of technology|\(?b\.?tech\.?\)|\(?b\.?e\.?\)|\(?b\.?sc\.?\)|\(?b\.?s\.?\)|bca|bba|b\.?com)\b",
+        r"\b(10th|12th|ssc|hsc|matriculation|secondary school|higher secondary)\b"
+    )
+    # Only treat as degree if it is NOT an actual faculty role or fellowship appointment
+    is_faculty_or_fellowship = any(k in role_lower for k in (
+        "professor", "lecturer", "faculty", "fellow", "scholar", "assistant", "associate",
+        "postdoc", "jrf", "srf", "scientist", "engineer", "manager", "officer", "instructor"
+    ))
+    if not is_faculty_or_fellowship:
+        for d_pat in degree_patterns:
+            if re.search(d_pat, role_lower) or re.search(d_pat, inst_lower):
+                return True
+
     return False
 
 

@@ -1,3 +1,4 @@
+import re
 import json
 import time
 import hashlib
@@ -42,7 +43,166 @@ def get_llm_provider() -> LLMProvider:
     else:
         raise RuntimeError(f"Unsupported LLM provider: {settings.LLM_PROVIDER}")
 
-from backend.app.schemas.candidate import EducationItem, PersonalInformation, PublicationItem
+from backend.app.schemas.candidate import EducationItem, PersonalInformation, PublicationItem, sanitize_string_value, infer_qualification_type
+
+def extract_candidate_name_from_text(text: str) -> Optional[str]:
+    """Extract candidate full name from the top header lines of a resume text."""
+    if not text:
+        return None
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    for line in lines[:25]:
+        if not line or re.fullmatch(r'\d+', line):
+            continue
+        if any(k in line.lower() for k in (
+            'curriculum', 'curiculam', 'vitae', 'resume', 'biodata', 'profile', 'page ',
+            'http', '@', '+91', 'phone', 'email', 'objective', 'summary', 'career',
+            'qualification', 'certificate', 'academic', 'experience', 'education',
+            'linkedin', 'github', 'scholar', 'publications', 'declaration'
+        )):
+            continue
+        cleaned = re.sub(r'^[^\w]+', '', line).strip()
+        words = cleaned.split()
+        if 1 <= len(words) <= 5 and all(re.match(r'^[A-Za-z\.\'\-]+$', w) for w in words):
+            return cleaned.title() if cleaned.isupper() else cleaned
+    return None
+
+def extract_education_from_section(text: str) -> List[Dict[str, Any]]:
+    """Robust fallback extractor for academic qualifications from resume text."""
+    if not text:
+        return []
+    m = re.search(
+        r'(?:^|\n)\s*(?:Education|Academic Qualifications|Educational Qualifications|Academic Background|Qualifications|Educational Background)\b(.*?)(?:\n\s*(?:Employment|Experience|Work Experience|Professional Experience|Research Experience|Technical Skills|Skills|Projects|Publications|Awards|Achievements)|\Z)',
+        text, re.I | re.S
+    )
+    if not m:
+        return []
+
+    edu_text = m.group(1)
+    lines = [l.strip() for l in edu_text.split('\n') if l.strip()]
+
+    deg_specs = [
+        ('PhD', r'\b(?:Doctor\s+of\s+Philosophy|\(?Ph\.?\s*D\.?\)?|Doctorate|D\.?\s*Phil)\b'),
+        ('Post Doctoral', r'\b(?:Post[- ]?Doctoral|Post[- ]?Doc(?:toral)?|PDF)\b'),
+        ('PG', r'\b(?:Master\s+of\s+Technology|Master\s+of\s+Science|Master\s+of\s+Engineering|Master\s+of\s+Commerce|Master\s+of\s+Arts|MCA|MBA|M\.?\s*Phil|\(?M\.?\s*Tech\.?\)?|\(?M\.?\s*Sc\.?\)?|\(?M\.?\s*E\.?\)?|\(?M\.?\s*S\.?\)?)\b'),
+        ('UG', r'\b(?:Bachelor\s+of\s+Technology|Bachelor\s+of\s+Science|Bachelor\s+of\s+Engineering|Bachelor\s+of\s+Commerce|Bachelor\s+of\s+Arts|BCA|BBA|B\.?\s*Ed|\(?B\.?\s*Tech\.?\)?|\(?B\.?\s*Sc\.?\)?|\(?B\.?\s*E\.?\)?|\(?B\.?\s*S\.?\)?)\b'),
+        ('Other', r'\b(?:12th|HSC|Higher\s+Secondary|Intermediate|10th|SSC|Matriculation|Secondary\s+School)\b')
+    ]
+
+    found = []
+    seen_qtypes = set()
+    for idx, line in enumerate(lines):
+        if re.search(r'\b(advisor|thesis|supervisor|guide)\b', line, re.I):
+            continue
+
+        for qtype, pat in deg_specs:
+            if re.search(pat, line, re.I) and qtype not in seen_qtypes:
+                seen_qtypes.add(qtype)
+                context = lines[max(0, idx-3):min(len(lines), idx+5)]
+
+                stream = None
+                sm = re.search(r'\bin\s+([A-Za-z\s&/,]+)', line, re.I)
+                if sm:
+                    stream = sm.group(1).strip()
+                    stream = re.split(r'[,.]', stream)[0].strip()
+
+                uni = None
+                for c_line in context:
+                    if c_line != line and re.search(r'\b(University|Institute|College|IIT|NIT|BITS|Vishwavidyalaya|School|Board)\b', c_line, re.I):
+                        uni = c_line.strip(' ,.-')
+                        break
+
+                year = None
+                for c_line in context:
+                    ranges = re.findall(r'\b(19\d{2}|20\d{2})\b', c_line)
+                    if ranges:
+                        year = ranges[-1]
+                        break
+
+                found.append({
+                    'qualification_type': qtype,
+                    'degree': line,
+                    'stream': stream,
+                    'university': uni,
+                    'year': year,
+                    'cgpa': None
+                })
+                break
+    return found
+
+def extract_publications_from_text(text: str) -> List[Dict[str, Any]]:
+    """Robust fallback extractor for research publications from resume text."""
+    if not text:
+        return []
+    pub_match = re.search(
+        r'(?:^|\n)\s*(?:Research\s+Publications|Publications|List of Publications|Selected Publications|Journals\s*(?:and|/)?\s*Conferences|Refereed\s+Articles)\b(.*?)(?:\n\s*(?:Awards|References|Skills|Projects|Workshops|Personal\s+Details|Declaration|Patents)|\Z)',
+        text, re.I | re.S
+    )
+    if not pub_match:
+        return []
+
+    p_sec = pub_match.group(1)
+    raw_entries = re.split(r'\n\s*(?:\[\d+\]|\d+[\.\)]|\(\d+\))\s*', p_sec)
+
+    pubs = []
+    for raw in raw_entries:
+        entry = ' '.join([l.strip() for l in raw.split('\n') if l.strip()])
+        if len(entry) < 25:
+            continue
+        if entry.lower() in ('journals/ conferences', 'journal publications:', 'conference publications:'):
+            continue
+
+        title = None
+        tm = re.search(r'[\"“]([^\"”]{10,})[\"”]', entry)
+        if tm:
+            title = tm.group(1).strip()
+        else:
+            parts = re.split(r'[,.]\s+', entry)
+            for p in parts:
+                if len(p) > 20 and not any(k in p.lower() for k in ('ieee', 'springer', 'elsevier', 'vol.', 'pp.', 'author', 'publication')):
+                    title = p.strip()
+                    break
+        if not title:
+            title = entry[:100]
+
+        year = None
+        ym_parens = re.findall(r'\((\d{4})\)', entry)
+        if ym_parens:
+            year = int(ym_parens[-1])
+        else:
+            y_all = re.findall(r'\b(19[89]\d|20[0-3]\d)\b', entry)
+            if y_all:
+                year = int(y_all[-1])
+
+        venue = None
+        if 'IEEE' in entry:
+            vm = re.search(r'(IEEE[^\,\;\n\(\)]+)', entry)
+            if vm: venue = vm.group(1).strip()
+        elif 'Elsevier' in entry:
+            vm = re.search(r'(Elsevier[^\,\;\n\(\)]+)', entry)
+            if vm: venue = vm.group(1).strip()
+        elif 'Springer' in entry:
+            vm = re.search(r'(Springer[^\,\;\n\(\)]+)', entry)
+            if vm: venue = vm.group(1).strip()
+        elif 'ACM' in entry:
+            vm = re.search(r'(ACM[^\,\;\n\(\)]+)', entry)
+            if vm: venue = vm.group(1).strip()
+        elif re.search(r'\b(Journal|Conference|Transactions|Letters|Symposium)\b', entry, re.I):
+            vm = re.search(r'([A-Za-z\s]+(?:Journal|Conference|Transactions|Letters|Symposium)[^\,\;\n\(\)]*)', entry, re.I)
+            if vm: venue = vm.group(1).strip()
+
+        pub_type = 'journal'
+        if venue and any(k in venue.lower() for k in ('conference', 'proceedings', 'symposium', 'ncc', 'ic', 'workshop')):
+            pub_type = 'conference'
+        if venue and any(k in venue.lower() for k in ('journal', 'transactions', 'letters')):
+            pub_type = 'journal'
+
+        pubs.append({
+            'publication_name': title,
+            'venue_name': venue,
+            'publication_year': year,
+            'publication_type': pub_type
+        })
+    return pubs
 
 class LLMExtractor:
     """
@@ -247,97 +407,250 @@ class LLMExtractor:
 
     def verify_and_clean_data(self, raw_dict: Dict[str, Any], raw_text: str = "") -> Dict[str, Any]:
         """
-        Field-level validation & Anti-hallucination post-processor.
+        Field-level validation, Anti-hallucination, Section-wise data validation,
+        and fallback rescue post-processor.
         1. Validates fields against Pydantic schemas.
-        2. Cleans prompt schema leaks (e.g., 'PhD | M.Tech...' -> 'PhD').
-        3. Verifies 'stream' against raw text to prevent hallucinated departments.
+        2. Cleans prompt schema leaks (e.g. 'John Doe', '| null').
+        3. Cross-section reconciliation:
+           - Moves academic degrees from experience -> education.
+           - Prunes software tools/skills (e.g. 'Tally Erp9') and null entries from experience.
+           - Prunes corporate companies without degrees from education -> experience.
+        4. Rescues candidate personal information (name, email, phone) if missing.
+        5. Rescues educational qualifications (PhD, Post Doctoral, Master's, Bachelor's) from raw_text.
+        6. Rescues research publications from raw_text if missing.
+        7. Deduplicates and recalculates total_experience accurately.
         """
-        if not raw_dict:
-            return raw_dict
-        
+        if not isinstance(raw_dict, dict):
+            raw_dict = {}
+
         raw_text_lower = raw_text.lower()
 
-        # Clean Education items & verify stream anti-hallucination
+        # -------------------------------------------------------------
+        # 1. Personal Information Validation & Rescue
+        # -------------------------------------------------------------
+        p_info = raw_dict.get("personal_information")
+        if not isinstance(p_info, dict):
+            p_info = {}
+
+        # Sanitize personal info fields against template leaks
+        for k in ["full_name", "current_designation", "email", "phone"]:
+            p_info[k] = sanitize_string_value(p_info.get(k))
+
+        # Rescue Name if missing or default
+        if not p_info.get("full_name") or p_info.get("full_name").lower() in ("unknown candidate", "candidate", "profile"):
+            rescued_name = extract_candidate_name_from_text(raw_text)
+            if rescued_name:
+                p_info["full_name"] = rescued_name
+
+        # Rescue Email if missing
+        if not p_info.get("email"):
+            em_match = re.search(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b", raw_text)
+            if em_match:
+                p_info["email"] = em_match.group(0)
+
+        # Rescue Phone if missing
+        if not p_info.get("phone"):
+            ph_match = re.search(r"(?:\+?91[-.\s]?)?[6-9]\d{9}\b", raw_text)
+            if ph_match:
+                p_info["phone"] = ph_match.group(0)
+
+        try:
+            p_obj = PersonalInformation(**p_info)
+            raw_dict["personal_information"] = p_obj.model_dump()
+        except Exception:
+            raw_dict["personal_information"] = p_info
+
+        # -------------------------------------------------------------
+        # 2. Section Cross-Contamination Reconciliation
+        # -------------------------------------------------------------
         edu_list = raw_dict.get("education", [])
-        if isinstance(edu_list, list):
-            cleaned_edu = []
-            for edu in edu_list:
-                if not isinstance(edu, dict):
+        if not isinstance(edu_list, list):
+            edu_list = []
+
+        exp_raw = raw_dict.get("experience", {})
+        acad_raw = []
+        prof_raw = []
+        if isinstance(exp_raw, dict):
+            acad_raw = exp_raw.get("academic", []) or []
+            prof_raw = exp_raw.get("professional", []) or exp_raw.get("industry", []) or []
+        elif isinstance(exp_raw, list):
+            acad_raw = [x for x in exp_raw if isinstance(x, dict) and x.get("experience_type") == "academic"]
+            prof_raw = [x for x in exp_raw if isinstance(x, dict) and x.get("experience_type") != "academic"]
+
+        all_exp_items = acad_raw + prof_raw
+        migrated_degrees_from_exp = []
+        remaining_exp_items = []
+
+        degree_pat = re.compile(
+            r"\b(doctor of philosophy|\(?ph\.?\s*d\.?\)?|doctorate|\(?d\.?\s*phil\)?|"
+            r"master of technology|\(?m\.?\s*tech\.?\)?|master of science|\(?m\.?\s*sc\.?\)?|"
+            r"master of engineering|\(?m\.?\s*e\.?\)?|\(?m\.?\s*s\.?\)?|mca|mba|"
+            r"bachelor of technology|\(?b\.?\s*tech\.?\)?|bachelor of science|\(?b\.?\s*sc\.?\)?|"
+            r"bachelor of engineering|\(?b\.?\s*e\.?\)?|\(?b\.?\s*s\.?\)?|bca|bba|b\.?\s*com|"
+            r"10th|12th|ssc|hsc|matriculation|secondary school|higher secondary)\b",
+            re.I
+        )
+        faculty_pat = re.compile(r"\b(professor|lecturer|faculty|fellow|scholar|postdoc|jrf|srf|scientist|engineer|manager|officer|instructor|director|dean|hod)\b", re.I)
+
+        for item in all_exp_items:
+            if not isinstance(item, dict):
+                continue
+            r_str = str(item.get("role") or "").strip()
+            i_str = str(item.get("institution") or item.get("company") or "").strip()
+
+            # Check if this item is actually an educational degree study rather than a job
+            is_deg = bool(degree_pat.search(r_str) or degree_pat.search(i_str))
+            is_job = bool(faculty_pat.search(r_str))
+
+            if is_deg and not is_job:
+                # Migrate to education
+                migrated_degrees_from_exp.append({
+                    "qualification_type": infer_qualification_type(r_str or i_str, None),
+                    "degree": r_str or i_str,
+                    "stream": item.get("stream"),
+                    "university": i_str if not degree_pat.search(i_str) else None,
+                    "year": str(item.get("end_date") or item.get("start_date") or "")
+                })
+            else:
+                remaining_exp_items.append(item)
+
+        # Add migrated degrees to edu_list
+        edu_list.extend(migrated_degrees_from_exp)
+
+        # -------------------------------------------------------------
+        # 3. Education Rescue from Raw Text
+        # -------------------------------------------------------------
+        has_phd_in_text = bool(re.search(r"\b(?:doctor of philosophy|\(?ph\.?\s*d\.?\)?|doctorate)\b", raw_text, re.I))
+        has_phd_in_edu = any(
+            "phd" in (e.get("qualification_type") or "").lower() or
+            "phd" in (e.get("degree") or "").lower() or
+            "doctor of philosophy" in (e.get("degree") or "").lower()
+            for e in edu_list if isinstance(e, dict)
+        )
+
+        if len(edu_list) == 0 or (has_phd_in_text and not has_phd_in_edu):
+            rescued_edus = extract_education_from_section(raw_text)
+            for r_edu in rescued_edus:
+                # Add if qualification type not yet represented
+                q_t = r_edu.get("qualification_type")
+                if not any((e.get("qualification_type") == q_t) for e in edu_list if isinstance(e, dict)):
+                    edu_list.append(r_edu)
+
+        # Clean and validate Education items
+        cleaned_edu = []
+        seen_edu_keys = set()
+        for edu in edu_list:
+            if not isinstance(edu, dict):
+                continue
+            deg_clean = sanitize_string_value(edu.get("degree"))
+            uni_clean = sanitize_string_value(edu.get("university"))
+            if not deg_clean and not uni_clean:
+                continue
+
+            # Anti-pollution: check if university is a commercial company without a degree
+            if uni_clean and any(uni_clean.lower().endswith(suffix) for suffix in ("ltd", "ltd.", "limited", "pvt ltd", "pvt. ltd.", "inc", "corp", "llc")):
+                if not deg_clean or faculty_pat.search(deg_clean):
+                    # Corporate employment mistakenly placed in education
+                    remaining_exp_items.append({
+                        "institution": uni_clean,
+                        "role": deg_clean or "Employee",
+                        "start_date": edu.get("year"),
+                        "end_date": None,
+                        "duration_years": 0.0
+                    })
                     continue
-                # Sanitize stream against hallucination
-                stream_val = edu.get("stream")
-                if stream_val and str(stream_val).lower() not in ("null", "none", "n/a", ""):
-                    s_str = str(stream_val).strip()
-                    # Check if stream or its core words exist in raw resume text
-                    words = [w.lower() for w in s_str.replace("&", " ").replace("/", " ").replace("-", " ").split() if len(w) >= 3 and w.lower() not in ("and", "the", "for", "in", "of", "engineering", "department", "technology", "science", "studies")]
-                    matched = any(w in raw_text_lower for w in words) if words else (s_str.lower() in raw_text_lower)
-                    if not matched:
-                        logger.warning(f"Anti-Hallucination: Stripped unmentioned stream '{s_str}' from degree '{edu.get('degree')}'")
-                        edu["stream"] = None
-                
-                u_name = str(edu.get("university") or "").strip()
-                if "name of college or university" in u_name.lower():
-                    continue
 
-                # Filter out obvious non-academic items (certifications, workshops, seminars, training, projects, publications)
-                deg_lower = str(edu.get("degree") or "").lower().strip()
-                is_postdoc = any(k in deg_lower for k in ("postdoc", "post-doc", "post doctoral", "post-doctoral", "pdf", "post doctorate"))
-                if not is_postdoc:
-                    if any(k in deg_lower for k in (
-                        "workshop", "webinar", "seminar", "fdp", "faculty development",
-                        "training program", "capstone project", "mini project", "final year project",
-                        "research paper", "patent published", "nptel", "aws certified", "azure certified", "cisco certified"
-                    )):
-                        logger.warning(f"Anti-Pollution: Dropped non-academic item '{deg_lower}' from education list")
-                        continue
+            # Sanitize stream
+            stream_val = edu.get("stream")
+            if stream_val and str(stream_val).lower() not in ("null", "none", "n/a", ""):
+                s_str = str(stream_val).strip()
+                words = [w.lower() for w in s_str.replace("&", " ").replace("/", " ").replace("-", " ").split() if len(w) >= 3 and w.lower() not in ("and", "the", "for", "in", "of", "engineering", "department", "technology", "science", "studies")]
+                matched = any(w in raw_text_lower for w in words) if words else (s_str.lower() in raw_text_lower)
+                if not matched:
+                    edu["stream"] = None
 
-                # Run through EducationItem Pydantic schema validation
-                try:
-                    edu_obj = EducationItem(**edu)
-                    cleaned_edu.append(edu_obj.model_dump())
-                except Exception as ex:
-                    logger.debug(f"Education item pydantic validation fallback: {ex}")
-                    cleaned_edu.append(edu)
-            raw_dict["education"] = cleaned_edu
+            # Filter obvious non-academic items
+            deg_lower = str(deg_clean or "").lower()
+            is_postdoc = any(k in deg_lower for k in ("postdoc", "post-doc", "post doctoral", "post-doctoral", "pdf", "post doctorate"))
+            if not is_postdoc and any(k in deg_lower for k in (
+                "workshop", "webinar", "seminar", "fdp", "faculty development",
+                "training program", "capstone project", "mini project", "final year project",
+                "research paper", "patent published", "nptel", "aws certified", "azure certified", "cisco certified"
+            )):
+                continue
 
-        # Clean Publications against template placeholder leaks and validate with PublicationItem
-        from backend.app.schemas.candidate import PublicationItem
-        pub_list = raw_dict.get("publications", [])
-        if isinstance(pub_list, list):
-            cleaned_pubs = []
-            for pub in pub_list:
-                if not isinstance(pub, dict):
-                    continue
-                p_name = str(pub.get("publication_name") or "").strip()
-                if not p_name or "title of paper or patent" in p_name.lower() or "actual paper" in p_name.lower():
-                    continue
+            edu["degree"] = deg_clean
+            edu["university"] = uni_clean
 
-                # Filter obvious thesis/dissertation, student project, or coursework titles
-                p_name_lower = p_name.lower()
-                if any(k in p_name_lower for k in ("phd thesis", "ph.d thesis", "master's thesis", "m.tech thesis", "m.s. thesis", "b.tech project", "capstone project", "coursework")):
-                    continue
+            # Deduplication key
+            key = f"{(deg_clean or '').lower()}:{(uni_clean or '').lower()}"
+            if key != ":" and key in seen_edu_keys:
+                continue
+            seen_edu_keys.add(key)
 
-                try:
-                    pub_obj = PublicationItem(**pub)
-                    cleaned_pubs.append(pub_obj.model_dump())
-                except Exception as ex:
-                    logger.debug(f"Publication item validation fallback: {ex}")
-                    cleaned_pubs.append(pub)
-            raw_dict["publications"] = cleaned_pubs
-
-        # Clean Personal Info
-        if "personal_information" in raw_dict and isinstance(raw_dict["personal_information"], dict):
             try:
-                p_obj = PersonalInformation(**raw_dict["personal_information"])
-                raw_dict["personal_information"] = p_obj.model_dump()
-            except Exception:
-                pass
+                edu_obj = EducationItem(**edu)
+                cleaned_edu.append(edu_obj.model_dump())
+            except Exception as ex:
+                cleaned_edu.append(edu)
 
-        # Clean Experience items and calculate candidate total_experience
+        raw_dict["education"] = cleaned_edu
+
+        # -------------------------------------------------------------
+        # 4. Publications Validation & Rescue
+        # -------------------------------------------------------------
+        pub_list = raw_dict.get("publications", [])
+        if not isinstance(pub_list, list):
+            pub_list = []
+
+        cleaned_pubs = []
+        seen_pub_titles = set()
+        for pub in pub_list:
+            if not isinstance(pub, dict):
+                continue
+            p_name = sanitize_string_value(pub.get("publication_name"))
+            if not p_name or "title of paper" in p_name.lower() or "actual paper" in p_name.lower():
+                continue
+
+            p_name_lower = p_name.lower()
+            if any(k in p_name_lower for k in ("phd thesis", "ph.d thesis", "master's thesis", "m.tech thesis", "m.s. thesis", "b.tech project", "capstone project", "coursework")):
+                continue
+
+            pub["publication_name"] = p_name
+            pub["venue_name"] = sanitize_string_value(pub.get("venue_name"))
+            
+            norm_title = re.sub(r'[\s"\'“”.,:;]+', ' ', p_name_lower).strip()
+            if norm_title in seen_pub_titles:
+                continue
+            seen_pub_titles.add(norm_title)
+
+            try:
+                pub_obj = PublicationItem(**pub)
+                cleaned_pubs.append(pub_obj.model_dump())
+            except Exception as ex:
+                cleaned_pubs.append(pub)
+
+        # Rescue publications from raw text if list is empty
+        if len(cleaned_pubs) == 0:
+            rescued_pubs = extract_publications_from_text(raw_text)
+            for r_pub in rescued_pubs:
+                norm_title = re.sub(r'[\s"\'“”.,:;]+', ' ', (r_pub.get("publication_name") or "").lower()).strip()
+                if norm_title and norm_title not in seen_pub_titles:
+                    seen_pub_titles.add(norm_title)
+                    try:
+                        pub_obj = PublicationItem(**r_pub)
+                        cleaned_pubs.append(pub_obj.model_dump())
+                    except Exception:
+                        cleaned_pubs.append(r_pub)
+
+        raw_dict["publications"] = cleaned_pubs
+
+        # -------------------------------------------------------------
+        # 5. Experience Cleaning and Total Experience Calculation
+        # -------------------------------------------------------------
         from backend.app.llm.experience_calculator import clean_and_calculate_experience_dict
-        exp_raw = raw_dict.get("experience")
         cleaned_exp_dict, total_exp = clean_and_calculate_experience_dict(
-            exp_raw,
+            remaining_exp_items,
             raw_total_exp=raw_dict.get("total_experience"),
             full_resume_text=raw_text
         )
@@ -438,6 +751,7 @@ class LLMExtractor:
 
         # ADAPTIVE PATHWAY: Small / Normal Resumes (within safe context limit)
         if original_token_count <= settings.SAFE_INPUT_TOKENS:
+            print(f"[TOKEN-SPLIT] Candidate '{candidate_id}': Document size ({original_token_count:,} tokens) <= SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS:,}). Single LLM call pathway (no split required).", flush=True)
             logger.info(f"{candidate_id}: Token count ({original_token_count}) <= SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS}). Using single LLM call.")
             try:
                 result = self.extract_single_chunk(cleaned_resume_text, is_leaf=False)
@@ -447,29 +761,36 @@ class LLMExtractor:
                 logger.info(f"SUMMARY [{candidate_id}] | tokens={original_token_count} | chunks=1 | chunk_sizes=[{original_token_count}] | llm_calls=1 | status=SUCCESS | time={elapsed:.2f}s")
                 return result
             except Exception as e:
+                print(f"[TOKEN-SPLIT] Single-shot extraction failed for candidate {candidate_id}: {e}. Falling back to chunked extraction.", flush=True)
                 logger.warning(f"Single-shot extraction failed for candidate {candidate_id}: {e}. Falling back to chunked extraction.")
                 # Fall through to chunked extraction below
 
         # ADAPTIVE PATHWAY: Large / Long Resumes (exceeding safe context limit)
+        print(f"\n[TOKEN-SPLIT] Candidate '{candidate_id}': Document size ({original_token_count:,} tokens) > SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS:,}).", flush=True)
+        print(f"[TOKEN-SPLIT] Initiating Recursive Splitting & Hierarchical Merging...", flush=True)
         logger.info(f"{candidate_id}: Token count ({original_token_count}) > SAFE_INPUT_TOKENS ({settings.SAFE_INPUT_TOKENS}). Initiating Recursive Splitting & Merging.")
 
         chunks = self.splitter.split_text(
             cleaned_resume_text,
             safe_limit=settings.SAFE_INPUT_TOKENS,
             overlap_tokens=settings.OVERLAP_TOKENS,
-            chunk_prefix=f"{candidate_id}_chk"
+            chunk_prefix=f"{candidate_id}_chk",
+            verbose=True
         )
         chunk_sizes = [c.token_count for c in chunks]
+        print(f"[TOKEN-SPLIT] Candidate '{candidate_id}' split into {len(chunks)} leaf chunks | Sizes: {chunk_sizes}", flush=True)
         logger.info(f"{candidate_id}: Split into {len(chunks)} leaf chunks | Sizes: {chunk_sizes}")
 
         partial_results = []
         for idx, chunk in enumerate(chunks):
+            print(f"[TOKEN-SPLIT] -> [{idx+1}/{len(chunks)}] Extracting Leaf Chunk '{chunk.chunk_id}' ({chunk.token_count:,} tokens, doc span {chunk.start_char:,}..{chunk.end_char:,})...", flush=True)
             logger.info(f"{candidate_id}: Extracting Chunk {idx+1}/{len(chunks)} ({chunk.chunk_id}) - {chunk.token_count} tokens")
             leaf_json = self.extract_leaf_chunk_adaptively(chunk, doc_hash, model_name)
             partial_results.append(leaf_json)
             llm_calls += 1
 
         # Hierarchical Merging of Partial JSON Outputs
+        print(f"[TOKEN-SPLIT] Hierarchically merging {len(partial_results)} partial JSON results...", flush=True)
         logger.info(f"{candidate_id}: Hierarchically merging {len(partial_results)} partial JSON results...")
         final_json = self.merger.merge_all(partial_results)
         final_json = self.normalize_schema(final_json)
@@ -477,11 +798,13 @@ class LLMExtractor:
         merge_calls = len(partial_results) - 1 if len(partial_results) > 1 else 0
 
         elapsed = time.time() - start_time
-        logger.info(
-            f"SUMMARY [{candidate_id}] | original_tokens={original_token_count} | chunks={len(chunks)} | "
+        summary_msg = (
+            f"SUMMARY [{candidate_id}] | original_tokens={original_token_count:,} | chunks={len(chunks)} | "
             f"chunk_sizes={chunk_sizes} | overlap={settings.OVERLAP_TOKENS} | llm_calls={llm_calls} | "
             f"merge_calls={merge_calls} | status=SUCCESS | time={elapsed:.2f}s"
         )
+        print(f"[TOKEN-SPLIT] ✓ {summary_msg}\n", flush=True)
+        logger.info(summary_msg)
 
         return final_json
 
